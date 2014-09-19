@@ -66,6 +66,7 @@ test_file() {
   test_name=${test_name//-/ }
   test_name=${test_name//.library1/}
   test_name=${test_name//.part1/}
+  test_name=${test_name//.random/}
   test_name=${test_name//.repl/}
   test_name=${test_name//.runtime/}
   test_name=${test_name//.script/}
@@ -143,11 +144,16 @@ test_file() {
   # Test mode: Run Swift code and watch for runtime error.
   #            Used for test cases named *.runtime.swift.
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.runtime\. ]]; then
-    output=$(xcrun swift -Onone ${files_to_compile} 2>&1)
-    if [[ ${output} =~ llvm::sys::PrintStackTrace ]]; then
-      swift_crash=1
-      compilation_comment="runtime"
-    fi
+    for i in {1..10}; do
+      output=$(xcrun swift -Onone ${files_to_compile} 2>&1)
+      if [[ ${output} =~ llvm::sys::PrintStackTrace ]]; then
+        swift_crash=1
+        compilation_comment="runtime"
+        break
+      elif [[ ! ${files_to_compile} =~ \.random\. ]]; then
+        break
+      fi
+    done
   fi
   # Test mode: Run Swift code both using -Onone and -O and watch for differences.
   #            Used for test cases named *.script.swift.
@@ -162,8 +168,7 @@ test_file() {
       output=${output_1}${output_2}
     fi
   fi
-  normalized_stacktrace=$(egrep "0x[0-9a-f]" <<< "${output}" | sed "s/0x[0-9a-f]*//g" | sed "s/\+ [0-9]*$//g" | awk "{ print \$3 }" | cut -f1 -d"(" | cut -f1 -d"<" | uniq)
-  normalized_stacktrace=$(egrep "0x[0-9a-f]" <<< "${output}" | sed 's/ 0x[0-9a-f]/|/g' | cut -f2 -d'|' | cut -f2- -d' ')
+  normalized_stacktrace=$(egrep "0x[0-9a-f]" <<< "${output}" | egrep 0x | awk '{ print $4 }' | uniq | egrep -v "swift::TypeLoc::isError")
   checksum=$(shasum <<< "${normalized_stacktrace}" | head -c10)
   is_dupe=0
   if [[ ${normalized_stacktrace} == "" ]]; then
