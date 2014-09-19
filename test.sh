@@ -163,6 +163,7 @@ test_file() {
     fi
   fi
   normalized_stacktrace=$(egrep "0x[0-9a-f]" <<< "${output}" | sed "s/0x[0-9a-f]*//g" | sed "s/\+ [0-9]*$//g" | awk "{ print \$3 }" | cut -f1 -d"(" | cut -f1 -d"<" | uniq)
+  normalized_stacktrace=$(egrep "0x[0-9a-f]" <<< "${output}" | sed 's/ 0x[0-9a-f]/|/g' | cut -f2 -d'|' | cut -f2- -d' ')
   checksum=$(shasum <<< "${normalized_stacktrace}" | head -c10)
   is_dupe=0
   if [[ ${normalized_stacktrace} == "" ]]; then
