@@ -1,7 +1,7 @@
 Project swift-compiler-crashes
 ==============================
 
-This repo collects known test cases crashing the Swift compiler. All tests cases in the `crashes/` directory are known to generate a compiler crash under Xcode 6.1 beta (Xcode 6 GM seed, "xcode_6.1_beta.dmg").
+This repo collects known test cases crashing the Swift compiler. All tests cases in the `crashes/` directory are known to generate a compiler crash under Xcode 6.1 beta 2 ("xcode_6.1_beta_2.dmg").
 
 Help us towards a rock solid Swift compiler by contributing any compiler crashes you may encounter.
 
@@ -15,7 +15,7 @@ $ git clone https://github.com/practicalswift/swift-compiler-crashes.git
 $ cd swift-compiler-crashes/
 $ ./test.sh
 
-Running tests against: swift-600.0.53.5
+Running tests against: swift-600.0.54.4
 Using Xcode found at path: /Applications/Xcode-Beta.app/Contents/Developer/
 Usage: ./test.sh [-v] [-c<columns>] [file ...]
 
@@ -42,8 +42,6 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✘  023 calling func with default params via let or var          (f359a5fd4b)
   ✘  024 parameterized struct with array var initialized to empty (d7565bd607)
   ✘  025 populating protocol typealias with generic types type    (31c5d7710d)
-  ✘  028 extension property defined in library (lib II)           (          )
-  ✘  029 class with anyobject type constraint                     (adce75c94e)
   ✘  031 basic block terminator                                   (          )
   ✘  032 type constraint emit type metadata                       (7498fa7f98)
   ✘  033 constraint ordering heap trash                           (446456229f)
@@ -55,12 +53,12 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✘  041 combo of generic struct func and protocol                (372cb36d5e)
   ✘  043 type parameter and param from typealias                  (804f7c6fe3)
   ✘  045 self executing closure                                   (2d0f32deb0)
-  ✘  046 any array containing ints (repl)                         (          )
   ✘  047 enum case with parameterized type and closure            (a58e03d297)
   ✘  048 unowned self broken if inheriting nsobject (runtime)     (f42d9062cf)
   ✘  049 type inference with closure expression                   (b860be8df4)
   ✘  051 type specifier inside curry                              (e0958076f3)
   ✘  052 types declared in block and used via higher order func   (          )
+  ✘  053 invalid generic constraint                               (914f09d0eb)
 
 == Crashes marked as fixed in previous releases ==
 
@@ -70,14 +68,17 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✓  014 enum in generic type
   ✓  026 extension property referenced from another file
   ✓  027 void map over sequence
+  ✓  028 extension property defined in library
+  ✓  029 class with anyobject type constraint
   ✓  030 string as extensibe collection
   ✓  038 hang on init of recursive generic type
   ✓  039 string join
   ✓  042 nested pattern match with type cast
   ✓  044 string range subscript
+  ✓  046 any array containing ints
   ✓  050 protocols with circular typealiases
 
-** Results: 40 of 52 tests crashed the compiler **
+** Results: 38 of 53 tests crashed the compiler **
 
 ```
 
@@ -93,4 +94,5 @@ Contributor hall of fame
 | <a href="https://github.com/0xc010d">0xc010d</a> – Ievgen Solodovnykov | <a href="https://twitter.com/0xc010d">@0xc010d</a> | 1 test case | Xcode6-Beta6 |
 | <a href="https://github.com/AlexDenisov">AlexDenisov</a> – Alexey Denisov | <a href="https://twitter.com/1101_debian">@1101_debian</a> | 1 test case | Xcode6-Beta6 |
 | <a href="https://github.com/jansabbe">jansabbe</a> – Jan Sabbe | <a href="https://twitter.com/jansabbe">@jansabbe</a> | 1 test case | Xcode6-Beta6 |
+| <a href="https://github.com/julasamer">julasamer</a> – julasamer | … | 1 test case | Xcode6.1-Beta1 |
 | <a href="https://github.com/owensd">owensd</a> – David Owens II | <a href="https://twitter.com/owensd">@owensd</a> | 1 test case | Xcode6-Beta6 |
