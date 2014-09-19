@@ -15,7 +15,7 @@ $ git clone https://github.com/practicalswift/swift-compiler-crashes.git
 $ cd swift-compiler-crashes/
 $ ./test.sh
 
-Running tests against: swift-600.0.54.4
+Running tests against: swift-600.0.54.4 (Swift 1.1)
 Using Xcode found at path: /Applications/Xcode-Beta.app/Contents/Developer/
 Usage: ./test.sh [-v] [-c<columns>] [file ...]
 
