@@ -12,6 +12,16 @@ echo "Using Xcode found at path: ${xcode_path}"
 echo "Usage: $0 [-v] [-c<columns>] [file ...]"
 echo
 
+color_red="\e[31m"
+color_green="\e[32m"
+color_bold="\e[1m"
+color_normal_display="\e[0m"
+
+xcrun swiftc - -o /dev/null 2>&1 <<< "" | egrep -q "error:" && {
+  printf "${color_red}[Error]${color_normal_display} ${color_bold}Xcode compiler does not work. Cannot run tests.${color_normal_display}\n"
+  exit 1
+}
+
 columns=$(tput cols)
 verbose=0
 while getopts ":c:v" o; do
@@ -26,11 +36,6 @@ while getopts ":c:v" o; do
 done
 
 shift $((OPTIND - 1))
-
-color_red="\e[31m"
-color_green="\e[32m"
-color_bold="\e[1m"
-color_normal_display="\e[0m"
 
 argument_files=$*
 name_size=$((columns - 20))
