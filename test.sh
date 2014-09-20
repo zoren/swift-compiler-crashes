@@ -101,6 +101,7 @@ test_file() {
   # Test mode: Compile using swiftc without any optimizations ("-Onone").
   #            Used for test cases named *.swift.
   if [[ ${swift_crash} == 0 ]]; then
+    # shellcheck disable=SC2086
     output=$(xcrun swiftc -Onone -o /dev/null ${files_to_compile} 2>&1)
     if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file) ]]; then
       swift_crash=1
@@ -110,6 +111,7 @@ test_file() {
   # Test mode: Compile using swiftc with optimization option "-O".
   #            Used for test cases named *.swift.
   if [[ ${swift_crash} == 0 ]]; then
+    # shellcheck disable=SC2086
     output=$(xcrun swiftc -O -o /dev/null ${files_to_compile} 2>&1)
     if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file) ]]; then
       swift_crash=1
@@ -124,6 +126,7 @@ test_file() {
     rm -f DummyModule.swiftdoc DummyModule.swiftmodule libDummyModule.dylib libDummyModule.app
     output=$(xcrun -sdk macosx swiftc -emit-library -o libDummyModule.dylib -Xlinker -install_name -Xlinker @rpath/libDummyModule.dylib -emit-module -emit-module-path DummyModule.swiftmodule -module-name DummyModule -module-link-name DummyModule "${files_to_compile}" 2>&1)
     if [[ $? == 0 ]]; then
+      # shellcheck disable=SC2086
       output=$(xcrun -sdk macosx swiftc "${source_file_using_library}" -o libDummyModule.app -I . -L . -Xlinker -rpath -Xlinker @executable_path/ 2>&1)
       if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file) ]]; then
         swift_crash=1
@@ -135,6 +138,7 @@ test_file() {
       if [[ ${swift_crash} == 0 ]]; then
         output_1=$(./libDummyModule.app 2>&1)
         exit_1=$?
+        # shellcheck disable=SC2086
         output_2=$(xcrun swift -I . ${source_file_using_library} 2>&1)
         exit_2=$?
         if [[ ${exit_1} != ${exit_2} ]]; then
@@ -150,6 +154,7 @@ test_file() {
   #            Used for test cases named *.runtime.swift.
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.runtime\. ]]; then
     for _ in {1..10}; do
+      # shellcheck disable=SC2086
       output=$(xcrun swift -Onone ${files_to_compile} 2>&1)
       if [[ ${output} =~ llvm::sys::PrintStackTrace ]]; then
         swift_crash=1
@@ -163,8 +168,10 @@ test_file() {
   # Test mode: Run Swift code both using -Onone and -O and watch for differences.
   #            Used for test cases named *.script.swift.
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.script\. ]]; then
+    # shellcheck disable=SC2086
     output_1=$(xcrun swift -Onone ${files_to_compile} 2>&1)
     err_1=$?
+    # shellcheck disable=SC2086
     output_2=$(xcrun swift -O ${files_to_compile} 2>&1)
     err_2=$?
     if [[ ${err_1} != ${err_2} ]]; then
