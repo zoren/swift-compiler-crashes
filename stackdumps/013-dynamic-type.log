@@ -1,0 +1,18 @@
+0  swift                    0x000000010997feb8 llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    0x00000001099803a4 SignalHandler(int) + 452
+2  libsystem_platform.dylib 0x00007fff8d4145aa _sigtramp + 26
+3  libsystem_platform.dylib 0x00007fa42bc4ed50 _sigtramp + 2659428288
+4  swift                    0x000000010987cc7a llvm::GetElementPtrInst::getIndexedType(llvm::Type*, llvm::ArrayRef<llvm::Value*>) + 26
+5  swift                    0x00000001098030fa llvm::GetElementPtrInst::Create(llvm::Value*, llvm::ArrayRef<llvm::Value*>, llvm::Twine const&, llvm::Instruction*) + 90
+6  swift                    0x0000000108d50803 llvm::IRBuilder<true, llvm::ConstantFolder, llvm::IRBuilderDefaultInserter<true> >::CreateConstInBoundsGEP2_32(llvm::Value*, unsigned int, unsigned int, llvm::Twine const&) + 163
+7  swift                    0x0000000108d58840 (anonymous namespace)::OpaqueExistentialTypeInfo::findWitnessTable(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::ProtocolDecl*) const + 320
+8  swift                    0x0000000108d5982b swift::irgen::emitOpaqueProtocolMethodValue(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::SILType, swift::SILDeclRef, swift::irgen::Explosion&) + 91
+9  swift                    0x0000000108d986bc swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 29020
+10 swift                    0x0000000108d90d5b swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9195
+11 swift                    0x0000000108d0b117 swift::irgen::IRGenModule::emitLazyDefinitions() + 199
+12 swift                    0x0000000108d7dca6 performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2038
+13 swift                    0x0000000108d7e623 swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+14 swift                    0x0000000108cd4232 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5282
+15 swift                    0x0000000108cd164d main + 1677
+16 libdyld.dylib            0x00007fff8bdae5fd start + 1
+17 libdyld.dylib            0x0000000000000010 start + 1948588564

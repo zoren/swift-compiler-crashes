@@ -1,0 +1,24 @@
+0  swift                    0x000000010c0d0eb8 llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    0x000000010c0d13a4 SignalHandler(int) + 452
+2  libsystem_platform.dylib 0x00007fff8d4145aa _sigtramp + 26
+3  libsystem_platform.dylib 0x00007fff547e1560 _sigtramp + 3342651344
+4  swift                    0x000000010c4cb78f std::__1::__function::__func<swift::Type::subst(swift::Module*, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*> >&, bool, swift::LazyResolver*) const::$_4, std::__1::allocator<swift::Type::subst(swift::Module*, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*> >&, bool, swift::LazyResolver*) const::$_4>, swift::Type (swift::Type)>::operator()(swift::Type&&) + 31
+5  swift                    0x000000010c4c9ae7 swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
+6  swift                    0x000000010c4c6c5a swift::Type::subst(swift::Module*, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*> >&, bool, swift::LazyResolver*) const + 122
+7  swift                    0x000000010c42cc34 swift::ArchetypeBuilder::InferRequirementsWalker::walkToTypePost(swift::Type) + 820
+8  swift                    0x000000010c4d122d swift::TypeVisitor<(anonymous namespace)::Traversal, bool>::visit(swift::Type) + 3133
+9  swift                    0x000000010c4d05c6 swift::Type::walk(swift::TypeWalker&) const + 54
+10 swift                    0x000000010c429d44 swift::ArchetypeBuilder::inferRequirements(swift::Pattern*) + 52
+11 swift                    0x000000010c3b7164 checkGenericFuncSignature(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::AbstractFunctionDecl*, swift::GenericTypeResolver&) + 196
+12 swift                    0x000000010c3b6916 swift::TypeChecker::validateGenericFuncSignature(swift::AbstractFunctionDecl*) + 86
+13 swift                    0x000000010c3a4f06 swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 13734
+14 swift                    0x000000010c397cf3 createImplicitConstructor(swift::TypeChecker&, swift::NominalTypeDecl*, (anonymous namespace)::ImplicitConstructorKind) + 2115
+15 swift                    0x000000010c397262 swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 738
+16 swift                    0x000000010c3a2193 swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2099
+17 swift                    0x000000010c393e70 swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 112
+18 swift                    0x000000010c37aa28 swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
+19 swift                    0x000000010b6b297c swift::CompilerInstance::performSema() + 2060
+20 swift                    0x000000010b424568 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+21 swift                    0x000000010b42264d main + 1677
+22 libdyld.dylib            0x00007fff8bdae5fd start + 1
+23 libdyld.dylib            0x0000000000000010 start + 1948588564

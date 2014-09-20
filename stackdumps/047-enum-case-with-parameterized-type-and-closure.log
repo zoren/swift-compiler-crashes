@@ -1,0 +1,18 @@
+0  swift                    0x0000000110b92eb8 llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    0x0000000110b933a4 SignalHandler(int) + 452
+2  libsystem_platform.dylib 0x00007fff8d4145aa _sigtramp + 26
+3  libsystem_platform.dylib 0x0000000000000008 _sigtramp + 1925102200
+4  swift                    0x000000010ff37e7a emitDirectTypeMetadataRef(swift::irgen::IRGenFunction&, swift::CanType) + 122
+5  swift                    0x000000010ff3c772 getTypeMetadataAccessFunction(swift::irgen::IRGenModule&, swift::CanType, swift::ForDefinition_t) + 850
+6  swift                    0x000000010ff37c8e swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) + 158
+7  swift                    0x000000010ff3835b emitDirectTypeMetadataRef(swift::irgen::IRGenFunction&, swift::CanType) + 1371
+8  swift                    0x000000010ff37d08 swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) + 280
+9  swift                    0x000000010ff837d9 swift::irgen::WitnessSizedTypeInfo<(anonymous namespace)::NonFixedTupleTypeInfo>::allocateStack(swift::irgen::IRGenFunction&, swift::CanType, llvm::Twine const&) const + 89
+10 swift                    0x000000010ffa9b4f swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 21999
+11 swift                    0x000000010ffa3d5b swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9195
+12 swift                    0x000000010ff1dee4 swift::irgen::IRGenModule::emitGlobalTopLevel() + 196
+13 swift                    0x000000010ff90c1c performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1900
+14 swift                    0x000000010ff91623 swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+15 swift                    0x000000010fee7232 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5282
+16 swift                    0x000000010fee464d main + 1677
+17 libdyld.dylib            0x00007fff8bdae5fd start + 1

@@ -24,13 +24,17 @@ xcrun swiftc - -o /dev/null 2>&1 <<< "" | egrep -q "error:" && {
 
 columns=$(tput cols)
 verbose=0
-while getopts ":c:v" o; do
+log_stackdumps=0
+while getopts ":c:v:l" o; do
   case ${o} in
     c)
       columns=${OPTARG}
       ;;
     v)
       verbose=1
+      ;;
+    l)
+      log_stackdumps=1
       ;;
   esac
 done
@@ -179,6 +183,10 @@ test_file() {
       compilation_comment="script"
       output=${output_1}${output_2}
     fi
+  fi
+  if [[ ${log_stackdumps} == 1 ]]; then
+    stacktrace_log="./stackdumps/$(cut -f-2 -d. <<< "${files_to_compile}" | cut -f3 -d'/').log"
+    egrep "0x[0-9a-f]" <<< "${output}" | egrep "0x[0-9a-f]" > "${stacktrace_log}"
   fi
   normalized_stacktrace=$(egrep "0x[0-9a-f]" <<< "${output}" | egrep 0x | awk '{ print $4 }' | uniq | egrep -v "swift::TypeLoc::isError")
   checksum=$(shasum <<< "${normalized_stacktrace}" | head -c10)

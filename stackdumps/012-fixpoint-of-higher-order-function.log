@@ -1,0 +1,18 @@
+0  swift                    0x0000000101ae3eb8 llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    0x0000000101ae43a4 SignalHandler(int) + 452
+2  libsystem_platform.dylib 0x00007fff8d4145aa _sigtramp + 26
+3  libsystem_platform.dylib 0x000000010304ea00 _sigtramp + 1975755888
+4  swift                    0x0000000100e88e7a emitDirectTypeMetadataRef(swift::irgen::IRGenFunction&, swift::CanType) + 122
+5  swift                    0x0000000100e88d08 swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) + 280
+6  swift                    0x0000000100e8935b emitDirectTypeMetadataRef(swift::irgen::IRGenFunction&, swift::CanType) + 1371
+7  swift                    0x0000000100e88d08 swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) + 280
+8  swift                    0x0000000100ed47d9 swift::irgen::WitnessSizedTypeInfo<(anonymous namespace)::NonFixedTupleTypeInfo>::allocateStack(swift::irgen::IRGenFunction&, swift::CanType, llvm::Twine const&) const + 89
+9  swift                    0x0000000100efab4f swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 21999
+10 swift                    0x0000000100ef4d5b swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9195
+11 swift                    0x0000000100e6f117 swift::irgen::IRGenModule::emitLazyDefinitions() + 199
+12 swift                    0x0000000100ee1ca6 performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2038
+13 swift                    0x0000000100ee2623 swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+14 swift                    0x0000000100e38232 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5282
+15 swift                    0x0000000100e3564d main + 1677
+16 libdyld.dylib            0x00007fff8bdae5fd start + 1
+17 libdyld.dylib            0x0000000000000010 start + 1948588564

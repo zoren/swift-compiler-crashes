@@ -1,0 +1,15 @@
+0  swift                    0x000000010328eeb8 llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    0x000000010328f3a4 SignalHandler(int) + 452
+2  libsystem_platform.dylib 0x00007fff8d4145aa _sigtramp + 26
+3  libsystem_platform.dylib 0x00000001047af000 _sigtramp + 2000267888
+4  swift                    0x0000000102633d08 swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) + 280
+5  swift                    0x0000000102666ad3 swift::irgen::emitPolymorphicArguments(swift::irgen::IRGenFunction&, swift::CanTypeWrapper<swift::SILFunctionType>, swift::CanTypeWrapper<swift::SILFunctionType>, llvm::ArrayRef<swift::Substitution>, swift::irgen::Explosion&) + 451
+6  swift                    0x00000001026a8ced swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 34701
+7  swift                    0x000000010269fd5b swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9195
+8  swift                    0x000000010261a117 swift::irgen::IRGenModule::emitLazyDefinitions() + 199
+9  swift                    0x000000010268cca6 performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2038
+10 swift                    0x000000010268d623 swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+11 swift                    0x00000001025e3232 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5282
+12 swift                    0x00000001025e064d main + 1677
+13 libdyld.dylib            0x00007fff8bdae5fd start + 1
+14 libdyld.dylib            0x0000000000000010 start + 1948588564

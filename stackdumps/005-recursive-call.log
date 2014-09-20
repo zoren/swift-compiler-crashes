@@ -1,0 +1,24 @@
+0  swift                    0x00000001041d5eb8 llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    0x00000001041d63a4 SignalHandler(int) + 452
+2  libsystem_platform.dylib 0x00007fff8d4145aa _sigtramp + 26
+3  libsystem_platform.dylib 0x00007f82ba46f390 _sigtramp + 755346944
+4  swift                    0x000000010365688c (anonymous namespace)::ArgEmitter::emitExpanded(swift::Lowering::RValueSource&&, swift::Lowering::AbstractionPattern) + 380
+5  swift                    0x0000000103656ae5 (anonymous namespace)::ArgEmitter::emitExpanded(swift::Lowering::RValueSource&&, swift::Lowering::AbstractionPattern) + 981
+6  swift                    0x0000000103656012 (anonymous namespace)::ArgEmitter::emit(swift::Lowering::RValueSource&&, swift::Lowering::AbstractionPattern) + 98
+7  swift                    0x000000010364fb98 (anonymous namespace)::CallEmission::apply(swift::Lowering::SGFContext) + 1080
+8  swift                    0x000000010364f0ea swift::Lowering::SILGenFunction::emitApplyExpr(swift::ApplyExpr*, swift::Lowering::SGFContext) + 58
+9  swift                    0x00000001036771a4 swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 84
+10 swift                    0x000000010368017d swift::Lowering::SILGenFunction::emitIgnoredExpr(swift::Expr*) + 237
+11 swift                    0x000000010369d859 swift::Lowering::SILGenFunction::visitBraceStmt(swift::BraceStmt*) + 297
+12 swift                    0x00000001036a0914 swift::ASTVisitor<swift::Lowering::SILGenFunction, void, void, void, void, void, void>::visit(swift::Stmt*) + 148
+13 swift                    0x000000010366b30c swift::Lowering::SILGenFunction::emitFunction(swift::FuncDecl*) + 252
+14 swift                    0x000000010364af96 swift::Lowering::SILGenModule::emitFunction(swift::FuncDecl*) + 230
+15 swift                    0x0000000103664f53 swift::ASTVisitor<SILGenType, void, void, void, void, void, void>::visit(swift::Decl*) + 355
+16 swift                    0x0000000103663cab SILGenType::emitType() + 203
+17 swift                    0x000000010365eabe swift::Lowering::SILGenModule::visitNominalTypeDecl(swift::NominalTypeDecl*) + 30
+18 swift                    0x000000010364cf1b swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 395
+19 swift                    0x000000010364d1da swift::SILModule::constructSIL(swift::Module*, swift::SourceFile*, swift::Optional<unsigned int>) + 314
+20 swift                    0x000000010364d328 swift::performSILGeneration(swift::SourceFile&, swift::Optional<unsigned int>) + 72
+21 swift                    0x0000000103529b0a frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3450
+22 swift                    0x000000010352764d main + 1677
+23 libdyld.dylib            0x00007fff8bdae5fd start + 1
