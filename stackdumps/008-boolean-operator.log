@@ -1,14 +1,14 @@
-0  swift                    0x000000010b26eeb8 llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    0x000000010b26f3a4 SignalHandler(int) + 452
-2  libsystem_platform.dylib 0x00007fff8d4145aa _sigtramp + 26
-3  swift                    0x000000010b17c3cb llvm::FoldingSet<llvm::AttributeSetNode>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const + 59
-4  swift                    0x000000010a643f5f swift::irgen::ProtocolInfo::getConformance(swift::irgen::IRGenModule&, swift::CanType, swift::irgen::TypeInfo const&, swift::ProtocolDecl*, swift::ProtocolConformance const&) const + 207
-5  swift                    0x000000010a646c43 swift::irgen::emitPolymorphicArguments(swift::irgen::IRGenFunction&, swift::CanTypeWrapper<swift::SILFunctionType>, swift::CanTypeWrapper<swift::SILFunctionType>, llvm::ArrayRef<swift::Substitution>, swift::irgen::Explosion&) + 819
-6  swift                    0x000000010a688ced swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 34701
-7  swift                    0x000000010a67fd5b swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9195
-8  swift                    0x000000010a5f9ee4 swift::irgen::IRGenModule::emitGlobalTopLevel() + 196
-9  swift                    0x000000010a66cc1c performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1900
-10 swift                    0x000000010a66d623 swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
-11 swift                    0x000000010a5c3232 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5282
-12 swift                    0x000000010a5c064d main + 1677
-13 libdyld.dylib            0x00007fff8bdae5fd start + 1
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+3  swift                    llvm::FoldingSet<llvm::AttributeSetNode>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const + 59
+4  swift                    swift::irgen::ProtocolInfo::getConformance(swift::irgen::IRGenModule&, swift::CanType, swift::irgen::TypeInfo const&, swift::ProtocolDecl*, swift::ProtocolConformance const&) const + 207
+5  swift                    swift::irgen::emitPolymorphicArguments(swift::irgen::IRGenFunction&, swift::CanTypeWrapper<swift::SILFunctionType>, swift::CanTypeWrapper<swift::SILFunctionType>, llvm::ArrayRef<swift::Substitution>, swift::irgen::Explosion&) + 819
+6  swift                    swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 34701
+7  swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9195
+8  swift                    swift::irgen::IRGenModule::emitGlobalTopLevel() + 196
+9  swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1900
+10 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+11 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5282
+12 swift                    main + 1677
+13 libdyld.dylib            start + 1

@@ -186,7 +186,7 @@ test_file() {
   fi
   if [[ ${log_stackdumps} == 1 ]]; then
     stacktrace_log="./stackdumps/$(cut -f-2 -d. <<< "${files_to_compile}" | cut -f3 -d'/').log"
-    egrep "0x[0-9a-f]" <<< "${output}" | egrep "0x[0-9a-f]" > "${stacktrace_log}"
+    egrep "0x[0-9a-f]" <<< "${output}" | egrep "0x[0-9a-f]" | sed 's/ 0x[0-9a-f]*//g' > "${stacktrace_log}"
   fi
   normalized_stacktrace=$(egrep "0x[0-9a-f]" <<< "${output}" | egrep 0x | awk '{ print $4 }' | uniq | egrep -v "swift::TypeLoc::isError")
   checksum=$(shasum <<< "${normalized_stacktrace}" | head -c10)

@@ -1,12 +1,12 @@
-0  swift                    0x0000000105bb4eb8 llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    0x0000000105bb53a4 SignalHandler(int) + 452
-2  libsystem_platform.dylib 0x00007fff8d4145aa _sigtramp + 26
-4  swift                    0x0000000105e90a2c void checkCircularity<swift::ClassDecl>(swift::TypeChecker&, swift::ClassDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::ClassDecl*>&) + 476
-5  swift                    0x0000000105e90bb9 void checkCircularity<swift::ClassDecl>(swift::TypeChecker&, swift::ClassDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::ClassDecl*>&) + 873
-6  swift                    0x0000000105e8634b swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2539
-7  swift                    0x0000000105e77e70 swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 112
-8  swift                    0x0000000105e5ea28 swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
-9  swift                    0x000000010519697c swift::CompilerInstance::performSema() + 2060
-10 swift                    0x0000000104f08568 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-11 swift                    0x0000000104f0664d main + 1677
-12 libdyld.dylib            0x00007fff8bdae5fd start + 1
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+4  swift                    void checkCircularity<swift::ClassDecl>(swift::TypeChecker&, swift::ClassDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::ClassDecl*>&) + 476
+5  swift                    void checkCircularity<swift::ClassDecl>(swift::TypeChecker&, swift::ClassDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::ClassDecl*>&) + 873
+6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2539
+7  swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 112
+8  swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
+9  swift                    swift::CompilerInstance::performSema() + 2060
+10 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+11 swift                    main + 1677
+12 libdyld.dylib            start + 1

@@ -1,24 +1,24 @@
-0  swift                    0x0000000103b8deb8 llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    0x0000000103b8e3a4 SignalHandler(int) + 452
-2  libsystem_platform.dylib 0x00007fff8d4145aa _sigtramp + 26
-3  libsystem_malloc.dylib   0x00007fff8f4976ca szone_malloc_should_clear + 1095
-4  swift                    0x0000000103ee5441 swift::ArchetypeBuilder::resolveArchetype(swift::Type) + 273
-5  swift                    0x0000000103ee7bbb substDependentTypes(swift::ArchetypeBuilder&, swift::Type) + 107
-6  swift                    0x0000000103f86ae7 swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
-7  swift                    0x0000000103ee78d2 swift::ArchetypeBuilder::substDependentType(swift::Type) + 50
-8  swift                    0x0000000102ff22f2 swift::Lowering::TypeConverter::getTypeLoweringForUncachedLoweredType(swift::Lowering::TypeConverter::TypeKey) + 194
-9  swift                    0x0000000102ff1c2f swift::Lowering::TypeConverter::getTypeLowering(swift::Lowering::AbstractionPattern, swift::Type, unsigned int) + 1999
-10 swift                    0x0000000102ff7c40 swift::SILType::getFieldType(swift::VarDecl*, swift::SILModule&) const + 80
-11 swift                    0x0000000102f77a6b swift::irgen::TypeConverter::convertStructType(swift::TypeBase*, swift::CanType, swift::StructDecl*) + 1243
-12 swift                    0x0000000102f87cc6 swift::irgen::TypeConverter::convertAnyNominalType(swift::CanType, swift::NominalTypeDecl*) + 374
-13 swift                    0x0000000102f8777a swift::irgen::TypeConverter::convertType(swift::CanType) + 330
-14 swift                    0x0000000102f86f9b swift::irgen::TypeConverter::getTypeEntry(swift::CanType) + 619
-15 swift                    0x0000000102f86b07 swift::irgen::IRGenFunction::getTypeInfo(swift::SILType) + 23
-16 swift                    0x0000000102f9d4dc swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 2924
-17 swift                    0x0000000102f18ee4 swift::irgen::IRGenModule::emitGlobalTopLevel() + 196
-18 swift                    0x0000000102f8bc1c performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1900
-19 swift                    0x0000000102f8c623 swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
-20 swift                    0x0000000102ee2232 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5282
-21 swift                    0x0000000102edf64d main + 1677
-22 libdyld.dylib            0x00007fff8bdae5fd start + 1
-23 libdyld.dylib            0x0000000000000010 start + 1948588564
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+3  libsystem_malloc.dylib   szone_malloc_should_clear + 1095
+4  swift                    swift::ArchetypeBuilder::resolveArchetype(swift::Type) + 273
+5  swift                    substDependentTypes(swift::ArchetypeBuilder&, swift::Type) + 107
+6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
+7  swift                    swift::ArchetypeBuilder::substDependentType(swift::Type) + 50
+8  swift                    swift::Lowering::TypeConverter::getTypeLoweringForUncachedLoweredType(swift::Lowering::TypeConverter::TypeKey) + 194
+9  swift                    swift::Lowering::TypeConverter::getTypeLowering(swift::Lowering::AbstractionPattern, swift::Type, unsigned int) + 1999
+10 swift                    swift::SILType::getFieldType(swift::VarDecl*, swift::SILModule&) const + 80
+11 swift                    swift::irgen::TypeConverter::convertStructType(swift::TypeBase*, swift::CanType, swift::StructDecl*) + 1243
+12 swift                    swift::irgen::TypeConverter::convertAnyNominalType(swift::CanType, swift::NominalTypeDecl*) + 374
+13 swift                    swift::irgen::TypeConverter::convertType(swift::CanType) + 330
+14 swift                    swift::irgen::TypeConverter::getTypeEntry(swift::CanType) + 619
+15 swift                    swift::irgen::IRGenFunction::getTypeInfo(swift::SILType) + 23
+16 swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 2924
+17 swift                    swift::irgen::IRGenModule::emitGlobalTopLevel() + 196
+18 swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1900
+19 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+20 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5282
+21 swift                    main + 1677
+22 libdyld.dylib            start + 1
+23 libdyld.dylib            start + 1948588564

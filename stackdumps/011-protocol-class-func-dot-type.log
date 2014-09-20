@@ -1,17 +1,16 @@
-0  swift                    0x000000010f4e6eb8 llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    0x000000010f4e73a4 SignalHandler(int) + 452
-2  libsystem_platform.dylib 0x00007fff8d4145aa _sigtramp + 26
-4  swift                    0x000000010f3e3c7a llvm::GetElementPtrInst::getIndexedType(llvm::Type*, llvm::ArrayRef<llvm::Value*>) + 26
-5  swift                    0x000000010f36a0fa llvm::GetElementPtrInst::Create(llvm::Value*, llvm::ArrayRef<llvm::Value*>, llvm::Twine const&, llvm::Instruction*) + 90
-6  swift                    0x000000010e8b7803 llvm::IRBuilder<true, llvm::ConstantFolder, llvm::IRBuilderDefaultInserter<true> >::CreateConstInBoundsGEP2_32(llvm::Value*, unsigned int, unsigned int, llvm::Twine const&) + 163
-7  swift                    0x000000010e8bf840 (anonymous namespace)::OpaqueExistentialTypeInfo::findWitnessTable(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::ProtocolDecl*) const + 320
-8  swift                    0x000000010e8c082b swift::irgen::emitOpaqueProtocolMethodValue(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::SILType, swift::SILDeclRef, swift::irgen::Explosion&) + 91
-9  swift                    0x000000010e8ff6bc swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 29020
-10 swift                    0x000000010e8f7d5b swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9195
-11 swift                    0x000000010e871ee4 swift::irgen::IRGenModule::emitGlobalTopLevel() + 196
-12 swift                    0x000000010e8e4c1c performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1900
-13 swift                    0x000000010e8e5623 swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
-14 swift                    0x000000010e83b232 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5282
-15 swift                    0x000000010e83864d main + 1677
-16 libdyld.dylib            0x00007fff8bdae5fd start + 1
-17 libdyld.dylib            0x0000000000000010 start + 1948588564
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+4  swift                    swift::NominalTypeDecl::getProtocols(bool) const + 22
+5  swift                    (anonymous namespace)::ProtocolPath::findBetterPath(swift::ProtocolDecl*, swift::irgen::ProtocolInfo const&, unsigned int) + 42
+6  swift                    (anonymous namespace)::OpaqueExistentialTypeInfo::findWitnessTable(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::ProtocolDecl*) const + 167
+7  swift                    swift::irgen::emitOpaqueProtocolMethodValue(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::SILType, swift::SILDeclRef, swift::irgen::Explosion&) + 91
+8  swift                    swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 29020
+9  swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9195
+10 swift                    swift::irgen::IRGenModule::emitGlobalTopLevel() + 196
+11 swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1900
+12 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+13 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5282
+14 swift                    main + 1677
+15 libdyld.dylib            start + 1
+16 libdyld.dylib            start + 1948588564

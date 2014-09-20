@@ -1,22 +1,22 @@
-0  swift                    0x00000001062aceb8 llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    0x00000001062ad3a4 SignalHandler(int) + 452
-2  libsystem_platform.dylib 0x00007fff8d4145aa _sigtramp + 26
-3  libsystem_platform.dylib 0x00007fff5a602e90 _sigtramp + 3441355008
-4  swift                    0x0000000106606b88 substDependentTypes(swift::ArchetypeBuilder&, swift::Type) + 56
-5  swift                    0x00000001066a5ae7 swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
-6  swift                    0x00000001066068d2 swift::ArchetypeBuilder::substDependentType(swift::Type) + 50
-7  swift                    0x00000001057112f2 swift::Lowering::TypeConverter::getTypeLoweringForUncachedLoweredType(swift::Lowering::TypeConverter::TypeKey) + 194
-8  swift                    0x0000000105710c2f swift::Lowering::TypeConverter::getTypeLowering(swift::Lowering::AbstractionPattern, swift::Type, unsigned int) + 1999
-9  swift                    0x00000001057573ad (anonymous namespace)::ArgumentForwardVisitor::makeArgument(swift::Type, swift::VarDecl*) + 221
-10 swift                    0x00000001057481db swift::ASTVisitor<(anonymous namespace)::ArgumentForwardVisitor, void, void, void, void, void, void>::visit(swift::Pattern*) + 155
-11 swift                    0x0000000105747b3d swift::Lowering::SILGenFunction::emitClassConstructorAllocator(swift::ConstructorDecl*) + 141
-12 swift                    0x00000001057228b8 swift::Lowering::SILGenModule::emitConstructor(swift::ConstructorDecl*) + 376
-13 swift                    0x000000010573bed0 swift::ASTVisitor<SILGenType, void, void, void, void, void, void>::visit(swift::Decl*) + 224
-14 swift                    0x000000010573acab SILGenType::emitType() + 203
-15 swift                    0x0000000105735abe swift::Lowering::SILGenModule::visitNominalTypeDecl(swift::NominalTypeDecl*) + 30
-16 swift                    0x0000000105723f1b swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 395
-17 swift                    0x00000001057241da swift::SILModule::constructSIL(swift::Module*, swift::SourceFile*, swift::Optional<unsigned int>) + 314
-18 swift                    0x0000000105724328 swift::performSILGeneration(swift::SourceFile&, swift::Optional<unsigned int>) + 72
-19 swift                    0x0000000105600b0a frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3450
-20 swift                    0x00000001055fe64d main + 1677
-21 libdyld.dylib            0x00007fff8bdae5fd start + 1
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+3  libsystem_platform.dylib _sigtramp + 3265067264
+4  swift                    substDependentTypes(swift::ArchetypeBuilder&, swift::Type) + 56
+5  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
+6  swift                    swift::ArchetypeBuilder::substDependentType(swift::Type) + 50
+7  swift                    swift::Lowering::TypeConverter::getTypeLoweringForUncachedLoweredType(swift::Lowering::TypeConverter::TypeKey) + 194
+8  swift                    swift::Lowering::TypeConverter::getTypeLowering(swift::Lowering::AbstractionPattern, swift::Type, unsigned int) + 1999
+9  swift                    (anonymous namespace)::ArgumentForwardVisitor::makeArgument(swift::Type, swift::VarDecl*) + 221
+10 swift                    swift::ASTVisitor<(anonymous namespace)::ArgumentForwardVisitor, void, void, void, void, void, void>::visit(swift::Pattern*) + 155
+11 swift                    swift::Lowering::SILGenFunction::emitClassConstructorAllocator(swift::ConstructorDecl*) + 141
+12 swift                    swift::Lowering::SILGenModule::emitConstructor(swift::ConstructorDecl*) + 376
+13 swift                    swift::ASTVisitor<SILGenType, void, void, void, void, void, void>::visit(swift::Decl*) + 224
+14 swift                    SILGenType::emitType() + 203
+15 swift                    swift::Lowering::SILGenModule::visitNominalTypeDecl(swift::NominalTypeDecl*) + 30
+16 swift                    swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 395
+17 swift                    swift::SILModule::constructSIL(swift::Module*, swift::SourceFile*, swift::Optional<unsigned int>) + 314
+18 swift                    swift::performSILGeneration(swift::SourceFile&, swift::Optional<unsigned int>) + 72
+19 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3450
+20 swift                    main + 1677
+21 libdyld.dylib            start + 1

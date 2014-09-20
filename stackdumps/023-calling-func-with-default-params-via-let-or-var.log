@@ -1,19 +1,19 @@
-0  swift                    0x000000010ca17eb8 llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    0x000000010ca183a4 SignalHandler(int) + 452
-2  libsystem_platform.dylib 0x00007fff8d4145aa _sigtramp + 26
-3  libsystem_platform.dylib 0xfffffffffffffffc _sigtramp + 1925102188
-4  swift                    0x000000010cc847cd getCallerDefaultArg(swift::TypeChecker&, swift::DeclContext*, swift::SourceLoc, swift::ConcreteDeclRef&, unsigned int) + 61
-5  swift                    0x000000010cc83937 (anonymous namespace)::ExprRewriter::coerceCallArguments(swift::Expr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 2391
-6  swift                    0x000000010cc801a8 (anonymous namespace)::ExprRewriter::finishApply(swift::ApplyExpr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 584
-7  swift                    0x000000010cc8214f (anonymous namespace)::ExprRewriter::visitApplyExpr(swift::ApplyExpr*) + 79
-8  swift                    0x000000010cc78d79 swift::ASTVisitor<(anonymous namespace)::ExprRewriter, swift::Expr*, void, void, void, void, void>::visit(swift::Expr*) + 89
-9  swift                    0x000000010cd9fa6c swift::Expr::walk(swift::ASTWalker&) + 76
-10 swift                    0x000000010cc76bac swift::constraints::ConstraintSystem::applySolution(swift::constraints::Solution&, swift::Expr*) + 460
-11 swift                    0x000000010cccb7ba swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 1242
-12 swift                    0x000000010cd126ea swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 554
-13 swift                    0x000000010cd12478 swift::TypeChecker::typeCheckTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 136
-14 swift                    0x000000010ccc1a98 swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1496
-15 swift                    0x000000010bff997c swift::CompilerInstance::performSema() + 2060
-16 swift                    0x000000010bd6b568 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-17 swift                    0x000000010bd6964d main + 1677
-18 libdyld.dylib            0x00007fff8bdae5fd start + 1
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+3  libsystem_platform.dylib _sigtramp + 1925102188
+4  swift                    getCallerDefaultArg(swift::TypeChecker&, swift::DeclContext*, swift::SourceLoc, swift::ConcreteDeclRef&, unsigned int) + 61
+5  swift                    (anonymous namespace)::ExprRewriter::coerceCallArguments(swift::Expr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 2391
+6  swift                    (anonymous namespace)::ExprRewriter::finishApply(swift::ApplyExpr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 584
+7  swift                    (anonymous namespace)::ExprRewriter::visitApplyExpr(swift::ApplyExpr*) + 79
+8  swift                    swift::ASTVisitor<(anonymous namespace)::ExprRewriter, swift::Expr*, void, void, void, void, void>::visit(swift::Expr*) + 89
+9  swift                    swift::Expr::walk(swift::ASTWalker&) + 76
+10 swift                    swift::constraints::ConstraintSystem::applySolution(swift::constraints::Solution&, swift::Expr*) + 460
+11 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 1242
+12 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 554
+13 swift                    swift::TypeChecker::typeCheckTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 136
+14 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1496
+15 swift                    swift::CompilerInstance::performSema() + 2060
+16 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+17 swift                    main + 1677
+18 libdyld.dylib            start + 1

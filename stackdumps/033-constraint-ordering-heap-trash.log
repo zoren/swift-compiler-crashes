@@ -1,21 +1,21 @@
-swift(95788,0x7fff7494d310) malloc: *** error for object 0x7fff50ed2f88: pointer being freed was not allocated
-0  swift                    0x000000010f9dceb8 llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    0x000000010f9dd3a4 SignalHandler(int) + 452
-2  libsystem_platform.dylib 0x00007fff8d4145aa _sigtramp + 26
-3  libsystem_platform.dylib 0x0000002100000000 _sigtramp + 1925102192
-4  libsystem_c.dylib        0x00007fff87a63b1a abort + 125
-5  libsystem_malloc.dylib   0x00007fff8f49a07f malloc_get_zone_name + 0
-6  swift                    0x000000010f907312 llvm::Value::setName(llvm::Twine const&) + 594
-7  swift                    0x000000010edb318e swift::irgen::IRGenFunction::bindArchetype(swift::ArchetypeType*, llvm::Value*, llvm::ArrayRef<llvm::Value*>) + 94
-8  swift                    0x000000010edb8f08 (anonymous namespace)::EmitPolymorphicParameters::emitWithSourceBound(swift::irgen::Explosion&) + 1192
-9  swift                    0x000000010edb3a1f swift::irgen::emitPolymorphicParametersForGenericValueWitness(swift::irgen::IRGenFunction&, swift::NominalTypeDecl*, llvm::Value*) + 511
-10 swift                    0x000000010ed8e346 (anonymous namespace)::buildFieldTypeAccessorFn(swift::irgen::IRGenModule&, swift::NominalTypeDecl*, swift::OptionalTransformRange<swift::IteratorRange<swift::DeclIterator>, swift::NominalTypeDecl::ToStoredProperty>) + 2502
-11 swift                    0x000000010ed8d5e6 (anonymous namespace)::NominalTypeDescriptorBuilderBase<(anonymous namespace)::StructNominalTypeDescriptorBuilder>::emit() + 1254
-12 swift                    0x000000010ed897cd swift::irgen::emitStructMetadata(swift::irgen::IRGenModule&, swift::StructDecl*) + 2077
-13 swift                    0x000000010edc64c6 swift::irgen::IRGenModule::emitStructDecl(swift::StructDecl*) + 22
-14 swift                    0x000000010ed65a64 swift::irgen::IRGenModule::emitSourceFile(swift::SourceFile&, unsigned int) + 116
-15 swift                    0x000000010eddac34 performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1924
-16 swift                    0x000000010eddb623 swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
-17 swift                    0x000000010ed31232 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5282
-18 swift                    0x000000010ed2e64d main + 1677
-19 libdyld.dylib            0x00007fff8bdae5fd start + 1
+swift(99319,0x7fff7494d310) malloc: *** error for object: pointer being freed was not allocated
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+3  libsystem_platform.dylib _sigtramp + 1925102192
+4  libsystem_c.dylib        abort + 125
+5  libsystem_malloc.dylib   malloc_get_zone_name + 0
+6  swift                    llvm::Value::setName(llvm::Twine const&) + 594
+7  swift                    swift::irgen::IRGenFunction::bindArchetype(swift::ArchetypeType*, llvm::Value*, llvm::ArrayRef<llvm::Value*>) + 94
+8  swift                    (anonymous namespace)::EmitPolymorphicParameters::emitWithSourceBound(swift::irgen::Explosion&) + 1192
+9  swift                    swift::irgen::emitPolymorphicParametersForGenericValueWitness(swift::irgen::IRGenFunction&, swift::NominalTypeDecl*, llvm::Value*) + 511
+10 swift                    (anonymous namespace)::buildFieldTypeAccessorFn(swift::irgen::IRGenModule&, swift::NominalTypeDecl*, swift::OptionalTransformRange<swift::IteratorRange<swift::DeclIterator>, swift::NominalTypeDecl::ToStoredProperty>) + 2502
+11 swift                    (anonymous namespace)::NominalTypeDescriptorBuilderBase<(anonymous namespace)::StructNominalTypeDescriptorBuilder>::emit() + 1254
+12 swift                    swift::irgen::emitStructMetadata(swift::irgen::IRGenModule&, swift::StructDecl*) + 2077
+13 swift                    swift::irgen::IRGenModule::emitStructDecl(swift::StructDecl*) + 22
+14 swift                    swift::irgen::IRGenModule::emitSourceFile(swift::SourceFile&, unsigned int) + 116
+15 swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1924
+16 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+17 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5282
+18 swift                    main + 1677
+19 libdyld.dylib            start + 1
