@@ -1,0 +1,170 @@
+main + 1677
+  frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008/5282
+    swift::CompilerInstance::performSema() + 2060
+      swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
+        swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 112
+          swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2306
+            swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 188
+              swift::TypeChecker::validateGenericTypeSignature(swift::NominalTypeDecl*) + 48
+                swift::TypeChecker::validateGenericSignature(swift::GenericParamList*, swift::DeclContext*, std::__1::function<bool (swift::ArchetypeBuilder&)>, bool&) + 97
+                  checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 212
+                    swift::TypeChecker::checkInheritanceClause(swift::Decl*, swift::DeclContext*, swift::GenericTypeResolver*) + 2907
+                      swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*, swift::ValueDecl*) + 221
+                        (anonymous namespace)::TypeResolver::resolveType(swift::TypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>) + 241
+                          swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*, swift::ValueDecl*) + 116
+                            resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 549
+                              swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 3851
+                                swift::namelookup::lookupInModule(swift::Module*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::DeclName, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> >) + 243
+                                  void lookupInModule<llvm::SmallSet<swift::CanType, 4u, (anonymous namespace)::SortCanType>, swift::namelookup::lookupInModule(swift::Module*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::DeclName, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> >)::$_0>(swift::Module*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::namelookup::ResolutionKind, bool, swift::LazyResolver*, llvm::SmallDenseMap<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*>, llvm::TinyPtrVector<swift::ValueDecl*>, 32u, llvm::DenseMapInfo<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> > >&, swift::DeclContext const*, bool, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> >, swift::namelookup::lookupInModule(swift::Module*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::DeclName, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> >)::$_0) + 355
+                                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 188
+                                      swift::TypeChecker::validateGenericTypeSignature(swift::NominalTypeDecl*) + 48
+                                        swift::TypeChecker::validateGenericSignature(swift::GenericParamList*, swift::DeclContext*, std::__1::function<bool (swift::ArchetypeBuilder&)>, bool&) + 97
+                                          checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304
+                                            swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
+                                              swift::Type::walk(swift::TypeWalker&) const + 54
+          swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 4289
+            void checkCircularity<swift::ProtocolDecl>(swift::TypeChecker&, swift::ProtocolDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::ProtocolDecl*>&) + 216
+              swift::TypeLoc::isError() const + 16
+          swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 9229
+            swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 4014
+              swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*, swift::ValueDecl*) + 221
+                (anonymous namespace)::TypeResolver::resolveType(swift::TypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>) + 241
+                  swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*, swift::ValueDecl*) + 116
+                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 549
+                      swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1916
+                        swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 5619
+                          swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 414
+                            swift::TypeBase::getCanonicalType() + 775
+                              swift::TypeBase::getCanonicalType() + 1403
+          swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2539
+            void checkCircularity<swift::ClassDecl>(swift::TypeChecker&, swift::ClassDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::ClassDecl*>&) + 873
+      swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1496
+        swift::TypeChecker::typeCheckTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 136
+          swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 554
+            swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 1242
+              swift::constraints::ConstraintSystem::applySolution(swift::constraints::Solution&, swift::Expr*) + 460
+                swift::Expr::walk(swift::ASTWalker&) + 76
+                  swift::ASTVisitor<(anonymous namespace)::ExprRewriter, swift::Expr*, void, void, void, void, void>::visit(swift::Expr*) + 89
+                    (anonymous namespace)::ExprRewriter::visitApplyExpr(swift::ApplyExpr*) + 79
+                      (anonymous namespace)::ExprRewriter::finishApply(swift::ApplyExpr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 584
+                        (anonymous namespace)::ExprRewriter::coerceCallArguments(swift::Expr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 2391
+                          getCallerDefaultArg(swift::TypeChecker&, swift::DeclContext*, swift::SourceLoc, swift::ConcreteDeclRef&, unsigned int) + 61
+    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+      performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1900
+        performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1900
+          swift::irgen::IRGenModule::emitGlobalTopLevel() + 196
+            swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9195
+              swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 12156
+                swift::irgen::HeapArrayInfo::emitUnmanagedAlloc(swift::irgen::IRGenFunction&, llvm::Value*, swift::irgen::Address&, llvm::Twine const&) const + 73
+                  swift::irgen::HeapArrayInfo::getPrivateMetadata(swift::irgen::IRGenModule&) const + 504
+                    swift::irgen::HeapArrayInfo::getLayout(swift::irgen::IRGenFunction&) const + 226
+                      swift::irgen::WitnessSizedTypeInfo<(anonymous namespace)::NonFixedStructTypeInfo>::getAlignmentMask(swift::irgen::IRGenFunction&, swift::CanType) const + 20
+                        swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) + 280
+                          emitDirectTypeMetadataRef(swift::irgen::IRGenFunction&, swift::CanType) + 122
+                            emitNominalMetadataRef(swift::irgen::IRGenFunction&, swift::NominalTypeDecl*, swift::CanType) + 1933
+                              swift::irgen::IRBuilder::CreateStore(llvm::Value*, llvm::Value*, swift::irgen::Alignment) + 66
+                                llvm::StoreInst::StoreInst(llvm::Value*, llvm::Value*, bool, llvm::Instruction*) + 55
+                                  profileArchetypeConstraints(swift::Type, llvm::FoldingSetNodeID&, llvm::DenseMap<swift::ArchetypeType*, unsigned int, llvm::DenseMapInfo<swift::ArchetypeType*> >&, unsigned int) + 413
+        performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2038
+          swift::irgen::IRGenModule::emitLazyDefinitions() + 199
+            swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9195
+              swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 29020
+                swift::irgen::emitOpaqueProtocolMethodValue(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::SILType, swift::SILDeclRef, swift::irgen::Explosion&) + 91
+                  (anonymous namespace)::OpaqueExistentialTypeInfo::findWitnessTable(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::ProtocolDecl*) const + 320
+                    llvm::IRBuilder<true, llvm::ConstantFolder, llvm::IRBuilderDefaultInserter<true> >::CreateConstInBoundsGEP2_32(llvm::Value*, unsigned int, unsigned int, llvm::Twine const&) + 163
+                      llvm::GetElementPtrInst::Create(llvm::Value*, llvm::ArrayRef<llvm::Value*>, llvm::Twine const&, llvm::Instruction*) + 90
+                        llvm::GetElementPtrInst::getIndexedType(llvm::Type*, llvm::ArrayRef<llvm::Value*>) + 26
+              swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 21999
+                swift::irgen::WitnessSizedTypeInfo<(anonymous namespace)::NonFixedTupleTypeInfo>::allocateStack(swift::irgen::IRGenFunction&, swift::CanType, llvm::Twine const&) const + 89
+                  swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) + 280
+                    emitDirectTypeMetadataRef(swift::irgen::IRGenFunction&, swift::CanType) + 1371
+                      swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) + 280
+                        emitDirectTypeMetadataRef(swift::irgen::IRGenFunction&, swift::CanType) + 122
+        swift::irgen::IRGenModule::emitGlobalTopLevel() + 196
+          swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 119
+            swift::irgen::IRGenModule::getAddrOfSILFunction(swift::SILFunction*, swift::ForDefinition_t) + 502
+              swift::irgen::IRGenModule::getFunctionType(swift::CanTypeWrapper<swift::SILFunctionType>, swift::irgen::ExtraData, llvm::AttributeSet&) + 1355
+                (anonymous namespace)::SignatureExpansion::expand(swift::SILParameterInfo) + 522
+          swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9195
+            swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 12156
+              swift::irgen::HeapArrayInfo::emitUnmanagedAlloc(swift::irgen::IRGenFunction&, llvm::Value*, swift::irgen::Address&, llvm::Twine const&) const + 61
+                swift::irgen::HeapArrayInfo::getLayout(swift::irgen::IRGenFunction&) const + 226
+                  swift::irgen::WitnessSizedTypeInfo<(anonymous namespace)::NonFixedTupleTypeInfo>::getAlignmentMask(swift::irgen::IRGenFunction&, swift::CanType) const + 20
+                    swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) + 280
+                      emitDirectTypeMetadataRef(swift::irgen::IRGenFunction&, swift::CanType) + 1371
+                        swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) + 158
+                          getTypeMetadataAccessFunction(swift::irgen::IRGenModule&, swift::CanType, swift::ForDefinition_t) + 850
+                            emitDirectTypeMetadataRef(swift::irgen::IRGenFunction&, swift::CanType) + 122
+            swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 34701
+              swift::irgen::emitPolymorphicArguments(swift::irgen::IRGenFunction&, swift::CanTypeWrapper<swift::SILFunctionType>, swift::CanTypeWrapper<swift::SILFunctionType>, llvm::ArrayRef<swift::Substitution>, swift::irgen::Explosion&) + 319
+              swift::irgen::emitPolymorphicArguments(swift::irgen::IRGenFunction&, swift::CanTypeWrapper<swift::SILFunctionType>, swift::CanTypeWrapper<swift::SILFunctionType>, llvm::ArrayRef<swift::Substitution>, swift::irgen::Explosion&) + 819
+                swift::irgen::ProtocolInfo::getConformance(swift::irgen::IRGenModule&, swift::CanType, swift::irgen::TypeInfo const&, swift::ProtocolDecl*, swift::ProtocolConformance const&) const + 207
+                  llvm::FoldingSet<llvm::AttributeSetNode>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const + 59
+            swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 29020
+              swift::irgen::emitOpaqueProtocolMethodValue(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::SILType, swift::SILDeclRef, swift::irgen::Explosion&) + 91
+                (anonymous namespace)::OpaqueExistentialTypeInfo::findWitnessTable(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::ProtocolDecl*) const + 320
+                  llvm::IRBuilder<true, llvm::ConstantFolder, llvm::IRBuilderDefaultInserter<true> >::CreateConstInBoundsGEP2_32(llvm::Value*, unsigned int, unsigned int, llvm::Twine const&) + 163
+                    llvm::GetElementPtrInst::Create(llvm::Value*, llvm::ArrayRef<llvm::Value*>, llvm::Twine const&, llvm::Instruction*) + 90
+                      llvm::GetElementPtrInst::getIndexedType(llvm::Type*, llvm::ArrayRef<llvm::Value*>) + 26
+            swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 12156
+      performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1924
+        swift::irgen::IRGenModule::emitSourceFile(swift::SourceFile&, unsigned int) + 116
+          swift::irgen::IRGenModule::emitStructDecl(swift::StructDecl*) + 22
+            swift::irgen::emitStructMetadata(swift::irgen::IRGenModule&, swift::StructDecl*) + 2077
+              (anonymous namespace)::NominalTypeDescriptorBuilderBase<(anonymous namespace)::StructNominalTypeDescriptorBuilder>::emit() + 1254
+                (anonymous namespace)::buildFieldTypeAccessorFn(swift::irgen::IRGenModule&, swift::NominalTypeDecl*, swift::OptionalTransformRange<swift::IteratorRange<swift::DeclIterator>, swift::NominalTypeDecl::ToStoredProperty>) + 2502
+                  swift::irgen::emitPolymorphicParametersForGenericValueWitness(swift::irgen::IRGenFunction&, swift::NominalTypeDecl*, llvm::Value*) + 511
+                    (anonymous namespace)::EmitPolymorphicParameters::emitWithSourceBound(swift::irgen::Explosion&) + 1192
+                      swift::irgen::IRGenFunction::bindArchetype(swift::ArchetypeType*, llvm::Value*, llvm::ArrayRef<llvm::Value*>) + 94
+                        llvm::Value::setName(llvm::Twine const&) + 594
+      performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2038
+        swift::irgen::IRGenModule::emitLazyDefinitions() + 199
+          swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9195
+            swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 34701
+              swift::irgen::emitPolymorphicArguments(swift::irgen::IRGenFunction&, swift::CanTypeWrapper<swift::SILFunctionType>, swift::CanTypeWrapper<swift::SILFunctionType>, llvm::ArrayRef<swift::Substitution>, swift::irgen::Explosion&) + 451
+                swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) + 280
+              swift::irgen::emitPolymorphicArguments(swift::irgen::IRGenFunction&, swift::CanTypeWrapper<swift::SILFunctionType>, swift::CanTypeWrapper<swift::SILFunctionType>, llvm::ArrayRef<swift::Substitution>, swift::irgen::Explosion&) + 819
+                swift::irgen::ProtocolInfo::getConformance(swift::irgen::IRGenModule&, swift::CanType, swift::irgen::TypeInfo const&, swift::ProtocolDecl*, swift::ProtocolConformance const&) const + 207
+                  llvm::FoldingSet<llvm::AttributeSetNode>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const + 59
+      performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 3623
+        llvm::legacy::FunctionPassManager::run(llvm::Function&) + 86
+          llvm::legacy::FunctionPassManagerImpl::run(llvm::Function&) + 191
+            llvm::FPPassManager::runOnFunction(llvm::Function&) + 301
+              (anonymous namespace)::VerifierLegacyPass::runOnFunction(llvm::Function&) + 18
+                (anonymous namespace)::Verifier::verify(llvm::Function const&) + 1401
+                  llvm::InstVisitor<(anonymous namespace)::Verifier, void>::visit(llvm::Instruction&) + 3306
+    swift::performSILGeneration(swift::SourceFile&, swift::Optional<unsigned int>) + 72
+      swift::SILModule::constructSIL(swift::Module*, swift::SourceFile*, swift::Optional<unsigned int>) + 314
+        swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 395
+          swift::Lowering::SILGenModule::visitNominalTypeDecl(swift::NominalTypeDecl*) + 30
+            SILGenType::emitType() + 20
+              swift::ASTVisitor<SILGenType, void, void, void, void, void, void>::visit(swift::Decl*) + 355
+                swift::Lowering::SILGenModule::emitFunction(swift::FuncDecl*) + 230
+                  swift::Lowering::SILGenFunction::emitFunction(swift::FuncDecl*) + 252
+                    swift::ASTVisitor<swift::Lowering::SILGenFunction, void, void, void, void, void, void>::visit(swift::Stmt*) + 148
+                      swift::Lowering::SILGenFunction::visitBraceStmt(swift::BraceStmt*) + 297
+                        swift::Lowering::SILGenFunction::emitIgnoredExpr(swift::Expr*) + 237
+                          swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 84
+                            swift::Lowering::SILGenFunction::emitApplyExpr(swift::ApplyExpr*, swift::Lowering::SGFContext) + 58
+                              (anonymous namespace)::CallEmission::apply(swift::Lowering::SGFContext) + 1080
+                                (anonymous namespace)::ArgEmitter::emit(swift::Lowering::RValueSource&&, swift::Lowering::AbstractionPattern) + 98
+                                  (anonymous namespace)::ArgEmitter::emitExpanded(swift::Lowering::RValueSource&&, swift::Lowering::AbstractionPattern) + 981
+                                    (anonymous namespace)::ArgEmitter::emitExpanded(swift::Lowering::RValueSource&&, swift::Lowering::AbstractionPattern) + 380
+            SILGenType::emitType() + 203
+              swift::ASTVisitor<SILGenType, void, void, void, void, void, void>::visit(swift::Decl*) + 224
+                swift::Lowering::SILGenModule::emitConstructor(swift::ConstructorDecl*) + 608
+                  swift::Lowering::SILGenFunction::emitClassConstructorInitializer(swift::ConstructorDecl*) + 2652
+                    swift::Lowering::SILGenFunction::emitMemberInitializers(swift::VarDecl*, swift::NominalTypeDecl*) + 255
+                      swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 84
+                        swift::Lowering::SILGenFunction::emitApplyExpr(swift::ApplyExpr*, swift::Lowering::SGFContext) + 58
+                          (anonymous namespace)::CallEmission::apply(swift::Lowering::SGFContext) + 1080
+                            (anonymous namespace)::ArgEmitter::emit(swift::Lowering::RValueSource&&, swift::Lowering::AbstractionPattern) + 1479
+                              swift::Lowering::SILGenFunction::emitRValue(swift::Expr*, swift::Lowering::SGFContext) + 22
+                                swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 105
+                                  swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 2650
+                                    swift::Lowering::SILGenModule::emitClosure(swift::AbstractClosureExpr*) + 119
+                                      swift::SILFunction* swift::Lowering::SILGenModule::preEmitFunction<swift::AbstractClosureExpr>(swift::SILDeclRef, swift::AbstractClosureExpr*, swift::SILLocation) + 91
+                                        swift::Lowering::SILGenModule::getFunction(swift::SILDeclRef, swift::ForDefinition_t) + 369
+                                          swift::SILDeclRef::mangle(llvm::SmallVectorImpl<char>&, llvm::StringRef) const + 1241
+                                            swift::Mangle::Mangler::mangleClosureEntity(swift::AbstractClosureExpr*, swift::ResilienceExpansion, unsigned int) + 88
+                                              swift::Mangle::Mangler::mangleContext(swift::DeclContext*, swift::Mangle::Mangler::BindGenerics) + 685
