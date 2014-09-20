@@ -35,7 +35,7 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✘  016 typealias referencing itself                             (44887a8cff)
   ✘  017 type parameter resolved to protocol                      (b720651eb1)
   ✘  018 generic function with nested type                        (48d4d5aa46)
-  ✘  019 class hierarchy type confusion                           (465ba35a60)
+  ✘  019 class hierarchy type confusion                           (5cf19dc094)
   ✘  020 class extending itself (dupe?)                           (46b143b8b4)
   ✘  021 generic class referencing itself                         (d1c5687ac9)
   ✘  022 generic class referencing itself with verbose syntax     (          )
@@ -44,7 +44,7 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✘  025 populating protocol typealias with generic types type    (ac8c8cb855)
   ✘  031 basic block terminator                                   (          )
   ✘  032 type constraint emit type metadata                       (cffbdc12c1)
-  ✘  033 constraint ordering heap trash                           (ff333e2563)
+  ✘  033 constraint ordering heap trash                           (7a78ac566c)
   ✘  034 typecheck segfault                                       (27dd5effef)
   ✘  035 multiple typecheck segfault                              (c188772522)
   ✘  036 lisp style                                               (7cab4625a5)
@@ -59,6 +59,7 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✘  051 type specifier inside curry                              (b47be0592c)
   ✘  052 types declared in block and used via higher order func   (          )
   ✘  053 invalid generic constraint                               (0e57995d5f)
+  ✘  054 generic subclass of nsobject                             (958c6cc4fe)
 
 == Crashes marked as fixed in previous releases ==
 
@@ -78,7 +79,7 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✓  046 any array containing ints
   ✓  050 protocols with circular typealiases
 
-** Results: 38 of 53 tests crashed the compiler **
+** Results: 39 of 54 tests crashed the compiler **
 
 ```
 
