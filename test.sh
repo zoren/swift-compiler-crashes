@@ -18,7 +18,7 @@ color_bold="\e[1m"
 color_normal_display="\e[0m"
 
 xcrun swiftc - -o /dev/null 2>&1 <<< "" | egrep -q "error:" && {
-  printf "${color_red}[Error]${color_normal_display} ${color_bold}Xcode compiler does not work. Cannot run tests.${color_normal_display}\n"
+  printf "%b" "${color_red}[Error]${color_normal_display} ${color_bold}Xcode compiler does not work. Cannot run tests.${color_normal_display}\n"
   exit 1
 }
 
@@ -149,7 +149,7 @@ test_file() {
   # Test mode: Run Swift code and watch for runtime error.
   #            Used for test cases named *.runtime.swift.
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.runtime\. ]]; then
-    for i in {1..10}; do
+    for _ in {1..10}; do
       output=$(xcrun swift -Onone ${files_to_compile} 2>&1)
       if [[ ${output} =~ llvm::sys::PrintStackTrace ]]; then
         swift_crash=1
