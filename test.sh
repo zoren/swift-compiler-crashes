@@ -188,6 +188,7 @@ test_file() {
     stacktrace_log="./stackdumps/$(cut -f-2 -d. <<< "${files_to_compile}" | cut -f3 -d'/').log"
     egrep "0x[0-9a-f]" <<< "${output}" | sed 's/ 0x[0-9a-f]*//g' | sed 's/ [0-9][0-9][0-9][0-9][0-9][0-9][0-9]*$/ [N]/g' | sed "s/^swift([0-9]*,0x[0-9a-f]*)/swift(N,0xN)/" > "${stacktrace_log}"
   fi
+  crash_in_function=$(egrep "0x[0-9a-f]" <<< "${output}" | egrep -v '(llvm::sys::PrintStackTrace|SignalHandler|_sigtramp|swift::TypeLoc::isError)' | egrep '(swift|llvm)' | head -1 | sed 's/ 0x[0-9a-f]/|/g' | cut -f2- -d'|' | cut -f2- -d' ')
   normalized_stacktrace=$(egrep "0x[0-9a-f]" <<< "${output}" | egrep 0x | awk '{ print $4 }' | uniq | egrep -v "swift::TypeLoc::isError")
   checksum=$(shasum <<< "${normalized_stacktrace}" | head -c10)
   is_dupe=0
