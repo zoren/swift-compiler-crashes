@@ -187,18 +187,17 @@ main + 1677
                     swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) + 158
                       getTypeMetadataAccessFunction(swift::irgen::IRGenModule&, swift::CanType, swift::ForDefinition_t) + 850
                         emitDirectTypeMetadataRef(swift::irgen::IRGenFunction&, swift::CanType) + 122
-            swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 34701
-              swift::irgen::emitPolymorphicArguments(swift::irgen::IRGenFunction&, swift::CanTypeWrapper<swift::SILFunctionType>, swift::CanTypeWrapper<swift::SILFunctionType>, llvm::ArrayRef<swift::Substitution>, swift::irgen::Explosion&) + 319
-              swift::irgen::emitPolymorphicArguments(swift::irgen::IRGenFunction&, swift::CanTypeWrapper<swift::SILFunctionType>, swift::CanTypeWrapper<swift::SILFunctionType>, llvm::ArrayRef<swift::Substitution>, swift::irgen::Explosion&) + 819
-                swift::irgen::ProtocolInfo::getConformance(swift::irgen::IRGenModule&, swift::CanType, swift::irgen::TypeInfo const&, swift::ProtocolDecl*, swift::ProtocolConformance const&) const + 207
-                  llvm::FoldingSet<llvm::AttributeSetNode>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const + 59
             swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 29020
               swift::irgen::emitOpaqueProtocolMethodValue(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::SILType, swift::SILDeclRef, swift::irgen::Explosion&) + 91
                 (anonymous namespace)::OpaqueExistentialTypeInfo::findWitnessTable(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::ProtocolDecl*) const + 320
                   llvm::IRBuilder<true, llvm::ConstantFolder, llvm::IRBuilderDefaultInserter<true> >::CreateConstInBoundsGEP2_32(llvm::Value*, unsigned int, unsigned int, llvm::Twine const&) + 163
                     llvm::GetElementPtrInst::Create(llvm::Value*, llvm::ArrayRef<llvm::Value*>, llvm::Twine const&, llvm::Instruction*) + 90
                       llvm::GetElementPtrInst::getIndexedType(llvm::Type*, llvm::ArrayRef<llvm::Value*>) + 26
-            swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 12156
+            swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 34701
+              swift::irgen::emitPolymorphicArguments(swift::irgen::IRGenFunction&, swift::CanTypeWrapper<swift::SILFunctionType>, swift::CanTypeWrapper<swift::SILFunctionType>, llvm::ArrayRef<swift::Substitution>, swift::irgen::Explosion&) + 319
+              swift::irgen::emitPolymorphicArguments(swift::irgen::IRGenFunction&, swift::CanTypeWrapper<swift::SILFunctionType>, swift::CanTypeWrapper<swift::SILFunctionType>, llvm::ArrayRef<swift::Substitution>, swift::irgen::Explosion&) + 819
+                swift::irgen::ProtocolInfo::getConformance(swift::irgen::IRGenModule&, swift::CanType, swift::irgen::TypeInfo const&, swift::ProtocolDecl*, swift::ProtocolConformance const&) const + 207
+                  llvm::FoldingSet<llvm::AttributeSetNode>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const + 59
       performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1924
         swift::irgen::IRGenModule::emitSourceFile(swift::SourceFile&, unsigned int) + 116
           swift::irgen::IRGenModule::emitStructDecl(swift::StructDecl*) + 22
