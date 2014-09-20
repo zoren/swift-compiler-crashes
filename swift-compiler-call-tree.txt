@@ -324,14 +324,14 @@ main + 1677
     swift::RunImmediately(swift::CompilerInstance&, std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, swift::IRGenOptions&, swift::SILOptions const&) + 1066
       llvm::ExecutionEngine::runFunctionAsMain(llvm::Function*, std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, char const* const*) + 1523
         llvm::JIT::runFunction(llvm::Function*, std::__1::vector<llvm::GenericValue, std::__1::allocator<llvm::GenericValue> > const&) + 329
-          _TFSs16_assertionFailedFTVSs12StaticStringS_S_Su_T_ + [N]
-            _TFSs16_assertionFailedFTVSs12StaticStringS_S_Su_T_ + 258
-              _TFFSs16_assertionFailedFTVSs12StaticStringS_S_Su_T_U_FGVSs19UnsafeBufferPointerVSs5UInt8_T_ + 230 [BUG: 037-exit-code-depends-on-optimization-level]
+          _TFSs16_assertionFailedFTVSs12StaticStringS_S_Su_T_ + [N] => Swift._assertionFailed (Swift.StaticString, Swift.StaticString, Swift.StaticString, Swift.UInt) -> ()
+            _TFSs16_assertionFailedFTVSs12StaticStringS_S_Su_T_ + 258 => Swift._assertionFailed (Swift.StaticString, Swift.StaticString, Swift.StaticString, Swift.UInt) -> ()
+              _TFFSs16_assertionFailedFTVSs12StaticStringS_S_Su_T_U_FGVSs19UnsafeBufferPointerVSs5UInt8_T_ + 230 => Swift.(_assertionFailed (Swift.StaticString, Swift.StaticString, Swift.StaticString, Swift.UInt) -> ()).(closure #1) [BUG: 037-exit-code-depends-on-optimization-level]
           object_dispose + [N]
             object_dispose + [N]
               object_dispose + 22
                 objc_destructInstance + 96
                   object_cxxDestructFromClass(objc_object*, objc_class*) + 130
-                    _TTWSSSs10StreamableFS_7writeToUS___fRQPS_USs16OutputStreamType__FRQ_T_ + [N]
-                      _TTWSSSs10StreamableFS_7writeToUS___fRQPS_USs16OutputStreamType__FRQ_T_ + [N]
-                        _TTWSSSs10StreamableFS_7writeToUS___fRQPS_USs16OutputStreamType__FRQ_T_ + 43 [BUG: 048-unowned-self-broken-if-inheriting-nsobject]
+                    _TTWSSSs10StreamableFS_7writeToUS___fRQPS_USs16OutputStreamType__FRQ_T_ + [N] => protocol witness for Swift.Streamable.writeTo <A : Swift.Streamable>(inout Swift.Streamable.Self)<B : Swift.OutputStreamType>(inout B) -> () in conformance Swift.String : Swift.Streamable
+                      _TTWSSSs10StreamableFS_7writeToUS___fRQPS_USs16OutputStreamType__FRQ_T_ + [N] => protocol witness for Swift.Streamable.writeTo <A : Swift.Streamable>(inout Swift.Streamable.Self)<B : Swift.OutputStreamType>(inout B) -> () in conformance Swift.String : Swift.Streamable
+                        _TTWSSSs10StreamableFS_7writeToUS___fRQPS_USs16OutputStreamType__FRQ_T_ + 43 => protocol witness for Swift.Streamable.writeTo <A : Swift.Streamable>(inout Swift.Streamable.Self)<B : Swift.OutputStreamType>(inout B) -> () in conformance Swift.String : Swift.Streamable [BUG: 048-unowned-self-broken-if-inheriting-nsobject]
