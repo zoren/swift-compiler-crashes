@@ -1,7 +1,7 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
 2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + 329582464
+3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    (anonymous namespace)::ArgEmitter::emitExpanded(swift::Lowering::RValueSource&&, swift::Lowering::AbstractionPattern) + 380
 5  swift                    (anonymous namespace)::ArgEmitter::emitExpanded(swift::Lowering::RValueSource&&, swift::Lowering::AbstractionPattern) + 981
 6  swift                    (anonymous namespace)::ArgEmitter::emit(swift::Lowering::RValueSource&&, swift::Lowering::AbstractionPattern) + 98

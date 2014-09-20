@@ -1,10 +1,10 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
 2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + 3311258128
+3  libsystem_platform.dylib _sigtramp + [N]
 4  libswiftCore.dylib       _TFFSs16_assertionFailedFTVSs12StaticStringS_S_Su_T_U_FGVSs19UnsafeBufferPointerVSs5UInt8_T_ + 230
 5  libswiftCore.dylib       _TFSs16_assertionFailedFTVSs12StaticStringS_S_Su_T_ + 258
-6  libswiftCore.dylib       _TFSs16_assertionFailedFTVSs12StaticStringS_S_Su_T_ + 2972329
+6  libswiftCore.dylib       _TFSs16_assertionFailedFTVSs12StaticStringS_S_Su_T_ + [N]
 7  swift                    llvm::JIT::runFunction(llvm::Function*, std::__1::vector<llvm::GenericValue, std::__1::allocator<llvm::GenericValue> > const&) + 329
 8  swift                    llvm::ExecutionEngine::runFunctionAsMain(llvm::Function*, std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, char const* const*) + 1523
 9  swift                    swift::RunImmediately(swift::CompilerInstance&, std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, swift::IRGenOptions&, swift::SILOptions const&) + 1066

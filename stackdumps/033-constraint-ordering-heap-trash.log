@@ -1,8 +1,8 @@
-swift(99319,0x7fff7494d310) malloc: *** error for object: pointer being freed was not allocated
+swift(N,0xN) malloc: *** error for object: pointer being freed was not allocated
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
 2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + 1925102192
+3  libsystem_platform.dylib _sigtramp + [N]
 4  libsystem_c.dylib        abort + 125
 5  libsystem_malloc.dylib   malloc_get_zone_name + 0
 6  swift                    llvm::Value::setName(llvm::Twine const&) + 594

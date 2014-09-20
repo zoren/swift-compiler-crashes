@@ -1,7 +1,7 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
 2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + 3028238512
+3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    swift::Mangle::Mangler::mangleContext(swift::DeclContext*, swift::Mangle::Mangler::BindGenerics) + 685
 5  swift                    swift::Mangle::Mangler::mangleClosureEntity(swift::AbstractClosureExpr*, swift::ResilienceExpansion, unsigned int) + 88
 6  swift                    swift::SILDeclRef::mangle(llvm::SmallVectorImpl<char>&, llvm::StringRef) const + 1241

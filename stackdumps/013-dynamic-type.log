@@ -1,7 +1,7 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
 2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + 872871088
+3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    llvm::GetElementPtrInst::getIndexedType(llvm::Type*, llvm::ArrayRef<llvm::Value*>) + 26
 5  swift                    llvm::GetElementPtrInst::Create(llvm::Value*, llvm::ArrayRef<llvm::Value*>, llvm::Twine const&, llvm::Instruction*) + 90
 6  swift                    llvm::IRBuilder<true, llvm::ConstantFolder, llvm::IRBuilderDefaultInserter<true> >::CreateConstInBoundsGEP2_32(llvm::Value*, unsigned int, unsigned int, llvm::Twine const&) + 163
@@ -15,4 +15,4 @@
 14 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5282
 15 swift                    main + 1677
 16 libdyld.dylib            start + 1
-17 libdyld.dylib            start + 1948588564
+17 libdyld.dylib            start + [N]

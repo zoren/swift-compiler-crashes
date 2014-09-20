@@ -1,7 +1,7 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
 2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + 3412150048
+3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    emitDirectTypeMetadataRef(swift::irgen::IRGenFunction&, swift::CanType) + 122
 5  swift                    getTypeMetadataAccessFunction(swift::irgen::IRGenModule&, swift::CanType, swift::ForDefinition_t) + 850
 6  swift                    swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) + 158

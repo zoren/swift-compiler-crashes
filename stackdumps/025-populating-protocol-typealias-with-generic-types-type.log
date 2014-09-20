@@ -1,7 +1,7 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
 2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + 4156601472
+3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    (anonymous namespace)::SignatureExpansion::expand(swift::SILParameterInfo) + 522
 5  swift                    swift::irgen::IRGenModule::getFunctionType(swift::CanTypeWrapper<swift::SILFunctionType>, swift::irgen::ExtraData, llvm::AttributeSet&) + 1355
 6  swift                    swift::irgen::IRGenModule::getAddrOfSILFunction(swift::SILFunction*, swift::ForDefinition_t) + 502

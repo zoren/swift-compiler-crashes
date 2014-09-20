@@ -1,7 +1,7 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
 2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + 1925102191
+3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    llvm::InstVisitor<(anonymous namespace)::Verifier, void>::visit(llvm::Instruction&) + 3306
 5  swift                    (anonymous namespace)::Verifier::verify(llvm::Function const&) + 1401
 6  swift                    (anonymous namespace)::VerifierLegacyPass::runOnFunction(llvm::Function&) + 18
