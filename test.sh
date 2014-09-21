@@ -24,7 +24,7 @@ xcrun swiftc - -o /dev/null 2>&1 <<< "" | egrep -q "error:" && {
 
 columns=$(tput cols)
 verbose=0
-log_stackdumps=0
+log_stacks=0
 while getopts ":c:v:l" o; do
   case ${o} in
     c)
@@ -34,7 +34,7 @@ while getopts ":c:v:l" o; do
       verbose=1
       ;;
     l)
-      log_stackdumps=1
+      log_stacks=1
       ;;
   esac
 done
@@ -184,8 +184,8 @@ test_file() {
       output=${output_1}${output_2}
     fi
   fi
-  if [[ ${log_stackdumps} == 1 ]]; then
-    stacktrace_log="./stackdumps/$(cut -f-2 -d. <<< "${files_to_compile}" | cut -f3 -d'/').log"
+  if [[ ${log_stacks} == 1 ]]; then
+    stacktrace_log="./stacks/$(cut -f-2 -d. <<< "${files_to_compile}" | cut -f3 -d'/').log"
     egrep "0x[0-9a-f]" <<< "${output}" | sed 's/ 0x[0-9a-f]*//g' | sed 's/ [0-9][0-9][0-9][0-9][0-9][0-9][0-9]*$/ [N]/g' | sed "s/^swift([0-9]*,0x[0-9a-f]*)/swift(N,0xN)/" > "${stacktrace_log}"
   fi
   crash_in_function=$(egrep "0x[0-9a-f]" <<< "${output}" | egrep -v '(llvm::sys::PrintStackTrace|SignalHandler|_sigtramp|swift::TypeLoc::isError)' | egrep '(swift|llvm)' | head -1 | sed 's/ 0x[0-9a-f]/|/g' | cut -f2- -d'|' | cut -f2- -d' ')
