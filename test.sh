@@ -9,7 +9,7 @@ xcode_path=$(xcode-select -p)
 echo
 echo "Running tests against: ${swiftc_version} (Swift ${swift_version})"
 echo "Using Xcode found at path: ${xcode_path}"
-echo "Usage: $0 [-v] [-c<columns>] [file ...]"
+echo "Usage: $0 [-v] [-c<columns>] [-l] [file ...]"
 echo
 
 color_red="\e[31m"
