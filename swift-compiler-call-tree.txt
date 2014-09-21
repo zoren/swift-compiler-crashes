@@ -112,6 +112,13 @@ main + 1677
                       (anonymous namespace)::ExprRewriter::finishApply(swift::ApplyExpr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 584
                         (anonymous namespace)::ExprRewriter::coerceCallArguments(swift::Expr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 2391
                           getCallerDefaultArg(swift::TypeChecker&, swift::DeclContext*, swift::SourceLoc, swift::ConcreteDeclRef&, unsigned int) + 61 [BUG: 023-calling-func-with-default-params-via-let-or-var]
+            swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 554
+              swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 160
+                swift::Expr::walk(swift::ASTWalker&) + 76
+                  (anonymous namespace)::PreCheckExpression::walkToExprPost(swift::Expr*) + 61
+                    swift::TypeChecker::foldSequence(swift::SequenceExpr*, swift::DeclContext*) + 48
+                      foldSequence(swift::TypeChecker&, swift::DeclContext*, swift::Expr*, llvm::ArrayRef<swift::Expr*>&, unsigned int) + 384
+                        foldSequence(swift::TypeChecker&, swift::DeclContext*, swift::Expr*, llvm::ArrayRef<swift::Expr*>&, unsigned int) + 424 [BUG: 059-fold-sequence]
       swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1514
         swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 112
           swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 17553
