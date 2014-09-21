@@ -357,6 +357,21 @@ main + 1677
                                                         swift::Lowering::TypeLowering const* swift::CanTypeVisitor<(anonymous namespace)::LowerType, swift::Lowering::TypeLowering const*>::visit<>(swift::CanType) + 125
                                                           (anonymous namespace)::LowerType::visitAnyStructType(swift::CanType, swift::StructDecl*) + 41
                                                             swift::NominalTypeDecl::getMembers(bool) const + 28 [BUG: 049-type-inference-with-closure-expression]
+          swift::Lowering::SILGenModule::emitFunction(swift::FuncDecl*) + 195
+            swift::SILFunction* swift::Lowering::SILGenModule::preEmitFunction<swift::FuncDecl>(swift::SILDeclRef, swift::FuncDecl*, swift::SILLocation) + 91
+              swift::Lowering::SILGenModule::getFunction(swift::SILDeclRef, swift::ForDefinition_t) + 195
+                swift::Lowering::TypeConverter::getConstantInfo(swift::SILDeclRef) + 691
+                  getUncachedSILFunctionTypeForConstant(swift::SILModule&, swift::SILDeclRef, swift::CanTypeWrapper<swift::AnyFunctionType>, swift::CanTypeWrapper<swift::AnyFunctionType>, swift::CanTypeWrapper<swift::AnyFunctionType>, swift::CanTypeWrapper<swift::AnyFunctionType>, swift::AnyFunctionType::Representation) + 776
+                    getSILFunctionType(swift::SILModule&, swift::CanType, swift::CanTypeWrapper<swift::AnyFunctionType>, swift::CanTypeWrapper<swift::AnyFunctionType>, swift::AnyFunctionType::ExtInfo, (anonymous namespace)::Conventions const&) + 265
+                      swift::Lowering::TypeConverter::getTypeLowering(swift::Lowering::AbstractionPattern, swift::Type, unsigned int) + 1999
+                        swift::Lowering::TypeConverter::getTypeLoweringForUncachedLoweredType(swift::Lowering::TypeConverter::TypeKey) + 263
+                          swift::Lowering::TypeLowering const* swift::CanTypeVisitor<(anonymous namespace)::LowerType, swift::Lowering::TypeLowering const*>::visit<>(swift::CanType) + 832
+                            (anonymous namespace)::LowerType::visitAnyEnumType(swift::CanType, swift::EnumDecl*) + 395
+                              LoweredTypeKind swift::CanTypeVisitor<(anonymous namespace)::TypeClassifier, LoweredTypeKind>::visit<>(swift::CanType) + 96
+                                swift::Lowering::TypeConverter::getTypeLowering(swift::Lowering::AbstractionPattern, swift::Type, unsigned int) + 1999
+                                  swift::Lowering::TypeConverter::getTypeLoweringForUncachedLoweredType(swift::Lowering::TypeConverter::TypeKey) + 263
+                                    swift::Lowering::TypeLowering const* swift::CanTypeVisitor<(anonymous namespace)::LowerType, swift::Lowering::TypeLowering const*>::visit<>(swift::CanType) + 125
+                                      (anonymous namespace)::LowerType::visitAnyStructType(swift::CanType, swift::StructDecl*) + 244 [BUG: 061-visit-any-struct-type]
           swift::Lowering::SILGenModule::emitFunction(swift::FuncDecl*) + 230
             swift::Lowering::SILGenFunction::emitFunction(swift::FuncDecl*) + 252
               swift::ASTVisitor<swift::Lowering::SILGenFunction, void, void, void, void, void, void>::visit(swift::Stmt*) + 148
