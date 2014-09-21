@@ -28,14 +28,14 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✘  005 recursive call                                           (bb3ac7c65f)
   ✘  006 placeholder property initializer with closure            (14e2d341be)
   ✘  008 boolean operator                                         (4a5dab6310)
-  ✘  011 protocol class func dot type                             (da80aa795c)
+  ✘  011 protocol class func dot type                             (d7e30baec3)
   ✘  012 fixpoint of higher order function                        (04ff05e6d6)
   ✘  013 dynamic type                                             (9bb95a29a5)
   ✘  015 generic enum referencing itself in case                  (          )
   ✘  016 typealias referencing itself                             (44887a8cff)
   ✘  017 type parameter resolved to protocol                      (b720651eb1)
   ✘  018 generic function with nested type                        (48d4d5aa46)
-  ✘  019 class hierarchy type confusion                           (5cf19dc094)
+  ✘  019 class hierarchy type confusion                           (cc050ab08f)
   ✘  020 class extending itself (dupe?)                           (46b143b8b4)
   ✘  021 generic class referencing itself                         (d1c5687ac9)
   ✘  022 generic class referencing itself with verbose syntax     (          )
@@ -44,7 +44,7 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✘  025 populating protocol typealias with generic types type    (ac8c8cb855)
   ✘  031 basic block terminator                                   (          )
   ✘  032 type constraint emit type metadata                       (cffbdc12c1)
-  ✘  033 constraint ordering heap trash                           (7a78ac566c)
+  ✘  033 constraint ordering heap trash                           (ff333e2563)
   ✘  034 typecheck segfault                                       (27dd5effef)
   ✘  035 multiple typecheck segfault                              (c188772522)
   ✘  036 lisp style                                               (7cab4625a5)
@@ -60,6 +60,7 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✘  052 types declared in block and used via higher order func   (          )
   ✘  053 invalid generic constraint                               (0e57995d5f)
   ✘  054 generic subclass of nsobject                             (958c6cc4fe)
+  ✘  055 invalid linkage type for function declaration            (          )
 
 == Crashes marked as fixed in previous releases ==
 
@@ -79,7 +80,7 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✓  046 any array containing ints
   ✓  050 protocols with circular typealiases
 
-** Results: 39 of 54 tests crashed the compiler **
+** Results: 40 of 55 tests crashed the compiler **
 
 ```
 
@@ -88,7 +89,7 @@ Contributor hall of fame
 
 | GitHub contributor | Twitter | Cases contributed | Started contributing |
 | :----------------- | :------ | ----------------: | -------------------: |
-| <a href="https://github.com/practicalswift">practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 41 test cases | Xcode6-Beta6 |
+| <a href="https://github.com/practicalswift">practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 42 test cases | Xcode6-Beta6 |
 | <a href="https://github.com/tmu">tmu</a> – Teemu Kurppa | <a href="https://twitter.com/Teemu">@Teemu</a> | 4 test cases | Xcode6-Beta6 |
 | <a href="https://github.com/jvasileff">jvasileff</a> – John Vasileff | <a href="https://twitter.com/jvasileff">@jvasileff</a> | 2 test cases | Xcode6-Beta6 |
 | <a href="https://github.com/rnapier">rnapier</a> – Rob Napier | <a href="https://twitter.com/cocoaphony">@cocoaphony</a> | 2 test cases | Xcode6-Beta7 |
