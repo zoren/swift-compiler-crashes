@@ -17,7 +17,7 @@ $ ./test.sh
 
 Running tests against: swift-600.0.54.4 (Swift 1.1)
 Using Xcode found at path: /Applications/Xcode-Beta.app/Contents/Developer/
-Usage: ./test.sh [-v] [-c<columns>] [file ...]
+Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
 
 == Currently known crashes ==
 
@@ -28,7 +28,7 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✘  005 recursive call                                           (bb3ac7c65f)
   ✘  006 placeholder property initializer with closure            (14e2d341be)
   ✘  008 boolean operator                                         (4a5dab6310)
-  ✘  011 protocol class func dot type                             (d7e30baec3)
+  ✘  011 protocol class func dot type                             (da80aa795c)
   ✘  012 fixpoint of higher order function                        (04ff05e6d6)
   ✘  013 dynamic type                                             (9bb95a29a5)
   ✘  015 generic enum referencing itself in case                  (          )
@@ -64,6 +64,9 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✘  056 add minimum protocols                                    (8d8bbca2e1)
   ✘  057 get type of member reference                             (b0ac16a581)
   ✘  058 get self type for container                              (e32993f066)
+  ✘  059 fold sequence                                            (8f161d068c)
+  ✘  060 adjust function type                                     (c87676f5e5)
+  ✘  061 visit any struct type                                    (0678945e0c)
 
 == Crashes marked as fixed in previous releases ==
 
@@ -83,7 +86,7 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✓  046 any array containing ints
   ✓  050 protocols with circular typealiases
 
-** Results: 43 of 58 tests crashed the compiler **
+** Results: 46 of 61 tests crashed the compiler **
 
 ```
 
@@ -92,7 +95,7 @@ Contributor hall of fame
 
 | GitHub contributor | Twitter | Cases contributed | Started contributing |
 | :----------------- | :------ | ----------------: | -------------------: |
-| <a href="https://github.com/practicalswift">practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 45 test cases | Xcode6-Beta6 |
+| <a href="https://github.com/practicalswift">practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 48 test cases | Xcode6-Beta6 |
 | <a href="https://github.com/tmu">tmu</a> – Teemu Kurppa | <a href="https://twitter.com/Teemu">@Teemu</a> | 4 test cases | Xcode6-Beta6 |
 | <a href="https://github.com/jvasileff">jvasileff</a> – John Vasileff | <a href="https://twitter.com/jvasileff">@jvasileff</a> | 2 test cases | Xcode6-Beta6 |
 | <a href="https://github.com/rnapier">rnapier</a> – Rob Napier | <a href="https://twitter.com/cocoaphony">@cocoaphony</a> | 2 test cases | Xcode6-Beta7 |
