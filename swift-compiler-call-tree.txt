@@ -57,6 +57,24 @@ main + 1677
                                               swift::Type::walk(swift::TypeWalker&) const + 54 [BUG: 021-generic-class-referencing-itself]
           swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2539
             void checkCircularity<swift::ClassDecl>(swift::TypeChecker&, swift::ClassDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::ClassDecl*>&) + 873 [BUG: 020-class-extending-itself]
+          swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 4217
+            swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 958
+              swift::TypeChecker::validateGenericTypeSignature(swift::NominalTypeDecl*) + 48
+                swift::TypeChecker::validateGenericSignature(swift::GenericParamList*, swift::DeclContext*, std::__1::function<bool (swift::ArchetypeBuilder&)>, bool&) + 97
+                  checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 238
+                    swift::ArchetypeBuilder::addGenericParameter(swift::GenericTypeParamDecl*, swift::Optional<unsigned int>) + 222
+                      swift::ArchetypeBuilder::addConformanceRequirement(swift::ArchetypeBuilder::PotentialArchetype*, swift::ProtocolDecl*) + 205
+                        std::__1::__function::__func<swift::TypeChecker::createArchetypeBuilder(swift::Module*)::$_0, std::__1::allocator<swift::TypeChecker::createArchetypeBuilder(swift::Module*)::$_0>, llvm::ArrayRef<swift::ProtocolDecl*> (swift::ProtocolDecl*)>::operator()(swift::ProtocolDecl*&&) + 25
+                          swift::TypeChecker::checkInheritanceClause(swift::Decl*, swift::DeclContext*, swift::GenericTypeResolver*) + 2907
+                            swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*, swift::ValueDecl*) + 221
+                              (anonymous namespace)::TypeResolver::resolveType(swift::TypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>) + 241
+                                swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*, swift::ValueDecl*) + 116
+                                  resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 549
+                                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1916
+                                      swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 3200
+                                        swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1219
+                                          swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18797
+                                            getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385 [BUG: 058-get-self-type-for-container]
           swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 4289
             void checkCircularity<swift::ProtocolDecl>(swift::TypeChecker&, swift::ProtocolDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::ProtocolDecl*>&) + 216 [BUG: 001-protocol-conforming-to-itself]
               swift::TypeLoc::isError() const + 16
@@ -117,6 +135,32 @@ main + 1677
                             swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 2771
                               swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
                                 std::__1::__function::__func<swift::constraints::Solution::computeSubstitutions(swift::Type, swift::DeclContext*, swift::Type, llvm::SmallVectorImpl<swift::Substitution>&) const::$_0, std::__1::allocator<swift::constraints::Solution::computeSubstitutions(swift::Type, swift::DeclContext*, swift::Type, llvm::SmallVectorImpl<swift::Substitution>&) const::$_0>, swift::Type (swift::Type)>::operator()(swift::Type&&) + 381 [BUG: 040-optional-in-generics]
+            swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 371
+              swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 473
+                swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 112
+                  swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 7567
+                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 229
+                      validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 562
+                        swift::TypeChecker::typeCheckBinding(swift::PatternBindingDecl*) + 162
+                          swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 518
+                            swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 96
+                              swift::Expr::walk(swift::ASTWalker&) + 76
+                                (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 162
+                                  swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 9106
+                                    swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 28
+                                      swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 216
+                                        swift::constraints::ConstraintSystem::simplifyMemberConstraint(swift::constraints::Constraint const&) + 6332
+                                          swift::constraints::ConstraintSystem::addOverloadSet(swift::Type, llvm::ArrayRef<swift::constraints::OverloadChoice>, swift::constraints::ConstraintLocator*) + 204
+                                            swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 28
+                                              swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 816
+                                                swift::constraints::ConstraintSystem::resolveOverload(swift::constraints::ConstraintLocator*, swift::Type, swift::constraints::OverloadChoice) + 273
+                                                  swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::DependentTypeOpener*) + 429
+                                                    addMinimumProtocols(swift::Type, llvm::SmallVectorImpl<swift::ProtocolDecl*>&, llvm::SmallDenseMap<swift::ProtocolDecl*, unsigned int, 4u, llvm::DenseMapInfo<swift::ProtocolDecl*> >&, llvm::SmallPtrSet<swift::ProtocolDecl*, 16u>&, llvm::SmallVector<swift::ProtocolDecl*, 16u>&, bool&) + 472 [BUG: 056-add-minimum-protocols]
+                  swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 17553
+                    swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) + 3744
+                      (anonymous namespace)::ConformanceChecker::resolveWitnessViaLookup(swift::ValueDecl*) + 1014
+                        matchWitness(swift::TypeChecker&, swift::NormalProtocolConformance*, swift::DeclContext*, swift::ValueDecl*, swift::ValueDecl*) + 1800
+                          swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::DependentTypeOpener*) + 429 [BUG: 057-get-type-of-member-reference]
     swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
       performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1900
         performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1900

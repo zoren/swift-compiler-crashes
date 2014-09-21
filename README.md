@@ -35,7 +35,7 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✘  016 typealias referencing itself                             (44887a8cff)
   ✘  017 type parameter resolved to protocol                      (b720651eb1)
   ✘  018 generic function with nested type                        (48d4d5aa46)
-  ✘  019 class hierarchy type confusion                           (cc050ab08f)
+  ✘  019 class hierarchy type confusion                           (c302f5e9b6)
   ✘  020 class extending itself (dupe?)                           (46b143b8b4)
   ✘  021 generic class referencing itself                         (d1c5687ac9)
   ✘  022 generic class referencing itself with verbose syntax     (          )
@@ -61,6 +61,9 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✘  053 invalid generic constraint                               (0e57995d5f)
   ✘  054 generic subclass of nsobject                             (958c6cc4fe)
   ✘  055 invalid linkage type for function declaration            (          )
+  ✘  056 add minimum protocols                                    (8d8bbca2e1)
+  ✘  057 get type of member reference                             (b0ac16a581)
+  ✘  058 get self type for container                              (e32993f066)
 
 == Crashes marked as fixed in previous releases ==
 
@@ -80,7 +83,7 @@ Usage: ./test.sh [-v] [-c<columns>] [file ...]
   ✓  046 any array containing ints
   ✓  050 protocols with circular typealiases
 
-** Results: 40 of 55 tests crashed the compiler **
+** Results: 43 of 58 tests crashed the compiler **
 
 ```
 
@@ -89,7 +92,7 @@ Contributor hall of fame
 
 | GitHub contributor | Twitter | Cases contributed | Started contributing |
 | :----------------- | :------ | ----------------: | -------------------: |
-| <a href="https://github.com/practicalswift">practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 42 test cases | Xcode6-Beta6 |
+| <a href="https://github.com/practicalswift">practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 45 test cases | Xcode6-Beta6 |
 | <a href="https://github.com/tmu">tmu</a> – Teemu Kurppa | <a href="https://twitter.com/Teemu">@Teemu</a> | 4 test cases | Xcode6-Beta6 |
 | <a href="https://github.com/jvasileff">jvasileff</a> – John Vasileff | <a href="https://twitter.com/jvasileff">@jvasileff</a> | 2 test cases | Xcode6-Beta6 |
 | <a href="https://github.com/rnapier">rnapier</a> – Rob Napier | <a href="https://twitter.com/cocoaphony">@cocoaphony</a> | 2 test cases | Xcode6-Beta7 |
