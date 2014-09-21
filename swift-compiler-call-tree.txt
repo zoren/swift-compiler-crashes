@@ -56,7 +56,8 @@ main + 1677
                                             swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
                                               swift::Type::walk(swift::TypeWalker&) const + 54 [BUG: 021-generic-class-referencing-itself]
           swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2539
-            void checkCircularity<swift::ClassDecl>(swift::TypeChecker&, swift::ClassDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::ClassDecl*>&) + 873 [BUG: 020-class-extending-itself]
+            void checkCircularity<swift::ClassDecl>(swift::TypeChecker&, swift::ClassDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::ClassDecl*>&) + 873 [BUG: 020-class-extending-itself, case I)
+              void checkCircularity<swift::ClassDecl>(swift::TypeChecker&, swift::ClassDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::ClassDecl*>&) + 476 [BUG: 020-class-extending-itself, case II)
           swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 4217
             swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 958
               swift::TypeChecker::validateGenericTypeSignature(swift::NominalTypeDecl*) + 48
