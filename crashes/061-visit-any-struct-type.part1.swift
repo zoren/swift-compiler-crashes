@@ -6,9 +6,9 @@ protocol P {
 }
 
 struct S<U : P> {
-	let t: U.R
+    let t: U.R
 }
 
 func f<T>(t: T) -> S<Q<T>>? {
-	return nil
+    return nil
 }
