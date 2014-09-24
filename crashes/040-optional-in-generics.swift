@@ -1,3 +1,4 @@
+// Distributed under the terms of the MIT license
 // Test case submitted to project by https://github.com/tmu (Teemu Kurppa)
 // rdar://18175202
 

@@ -202,6 +202,10 @@ Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
 
 ```
 
+License
+=======
+All files in this repository are distributed under the terms of the MIT license (see <a href="https://github.com/practicalswift/swift-compiler-crashes/blob/master/LICENSE">LICENSE</a>).
+
 Contributor hall of fame
 ========================
 

@@ -1,3 +1,5 @@
+// Distributed under the terms of the MIT license
+
 main + 1677
   frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008/5282
     swift::CompilerInstance::performSema() + 2060

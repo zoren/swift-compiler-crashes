@@ -1,3 +1,4 @@
+// Distributed under the terms of the MIT license
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // http://www.reddit.com/r/swift/comments/2gx7m4/psa_nasty_bug_in_the_swift_compiler/cko42gk
 

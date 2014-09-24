@@ -1,3 +1,4 @@
+// Distributed under the terms of the MIT license
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // http://www.openradar.me/17929884
 // http://www.openradar.me/17557409 (same?)

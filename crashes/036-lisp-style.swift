@@ -1,3 +1,4 @@
+// Distributed under the terms of the MIT license
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // https://gist.github.com/tenderlove/66ff6ae1feed92ac37f2
 

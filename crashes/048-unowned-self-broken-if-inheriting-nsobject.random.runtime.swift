@@ -1,3 +1,4 @@
+// Distributed under the terms of the MIT license
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // https://twitter.com/nuoji/status/507991706294558721
 // https://gist.github.com/lerno/4cb4568c53045aafb66e

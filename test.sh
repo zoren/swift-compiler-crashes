@@ -1,4 +1,5 @@
 #!/bin/bash
+# Distributed under the terms of the MIT license
 # Style guide: https://google-styleguide.googlecode.com/svn/trunk/shell.xml
 # Shell lint: http://www.shellcheck.net/
 # Tip: Want to see details of the type checker's reasoning? Compile with "xcrun swiftc -Xfrontend -debug-constraints"
