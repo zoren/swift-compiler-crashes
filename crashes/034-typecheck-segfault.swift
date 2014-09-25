@@ -6,7 +6,7 @@ class a<f : b, g : b where f.d == g> {
 }
 
 protocol b {
-    typealias d 
+    typealias d
     typealias e
 }
 
