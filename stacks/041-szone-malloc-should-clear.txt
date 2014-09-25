@@ -1,0 +1,24 @@
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+3  libsystem_malloc.dylib   szone_malloc_should_clear + 1095
+4  swift                    swift::ArchetypeBuilder::resolveArchetype(swift::Type) + 273
+5  swift                    substDependentTypes(swift::ArchetypeBuilder&, swift::Type) + 107
+6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
+7  swift                    swift::ArchetypeBuilder::substDependentType(swift::Type) + 50
+8  swift                    swift::Lowering::TypeConverter::getTypeLoweringForUncachedLoweredType(swift::Lowering::TypeConverter::TypeKey) + 194
+9  swift                    swift::Lowering::TypeConverter::getTypeLowering(swift::Lowering::AbstractionPattern, swift::Type, unsigned int) + 1999
+10 swift                    swift::SILType::getFieldType(swift::VarDecl*, swift::SILModule&) const + 80
+11 swift                    swift::irgen::TypeConverter::convertStructType(swift::TypeBase*, swift::CanType, swift::StructDecl*) + 1243
+12 swift                    swift::irgen::TypeConverter::convertAnyNominalType(swift::CanType, swift::NominalTypeDecl*) + 374
+13 swift                    swift::irgen::TypeConverter::convertType(swift::CanType) + 330
+14 swift                    swift::irgen::TypeConverter::getTypeEntry(swift::CanType) + 619
+15 swift                    swift::irgen::IRGenFunction::getTypeInfo(swift::SILType) + 23
+16 swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 2924
+17 swift                    swift::irgen::IRGenModule::emitGlobalTopLevel() + 196
+18 swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1900
+19 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+20 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5282
+21 swift                    main + 1677
+22 libdyld.dylib            start + 1
+23 libdyld.dylib            start + [N]

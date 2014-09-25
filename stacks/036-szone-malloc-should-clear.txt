@@ -1,0 +1,17 @@
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+3  libsystem_malloc.dylib   szone_malloc_should_clear + 1095
+4  swift                    emitDirectTypeMetadataRef(swift::irgen::IRGenFunction&, swift::CanType) + 122
+5  swift                    getTypeMetadataAccessFunction(swift::irgen::IRGenModule&, swift::CanType, swift::ForDefinition_t) + 850
+6  swift                    swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) + 158
+7  swift                    swift::irgen::emitOpaqueExistentialContainerInit(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::SILType, swift::SILType, llvm::ArrayRef<swift::ProtocolConformance*>) + 107
+8  swift                    swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 22772
+9  swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9195
+10 swift                    swift::irgen::IRGenModule::emitLazyDefinitions() + 199
+11 swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2038
+12 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+13 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5282
+14 swift                    main + 1677
+15 libdyld.dylib            start + 1
+16 libdyld.dylib            start + [N]
