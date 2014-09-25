@@ -4,9 +4,9 @@
 3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    std::__1::__function::__func<swift::constraints::Solution::computeSubstitutions(swift::Type, swift::DeclContext*, swift::Type, llvm::SmallVectorImpl<swift::Substitution>&) const::$_0, std::__1::allocator<swift::constraints::Solution::computeSubstitutions(swift::Type, swift::DeclContext*, swift::Type, llvm::SmallVectorImpl<swift::Substitution>&) const::$_0>, swift::Type (swift::Type)>::operator()(swift::Type&&) + 381
 5  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
-6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 2771
-7  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 708
-8  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 708
+6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 3642
+7  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 938
+8  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 668
 9  swift                    swift::constraints::Solution::computeSubstitutions(swift::Type, swift::DeclContext*, swift::Type, llvm::SmallVectorImpl<swift::Substitution>&) const + 126
 10 swift                    (anonymous namespace)::ExprRewriter::buildMemberRef(swift::Expr*, swift::Type, swift::SourceLoc, swift::ValueDecl*, swift::SourceLoc, swift::Type, swift::constraints::ConstraintLocatorBuilder, bool, bool) + 504
 11 swift                    swift::TypeChecker::callWitness(swift::Expr*, swift::DeclContext*, swift::ProtocolDecl*, swift::ProtocolConformance*, swift::Identifier, llvm::MutableArrayRef<swift::Expr*>, swift::Diag<>) + 1279
@@ -20,4 +20,3 @@
 19 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 20 swift                    main + 1677
 21 libdyld.dylib            start + 1
-22 libdyld.dylib            start + [N]

@@ -15,15 +15,14 @@
 14 swift                    createImplicitConstructor(swift::TypeChecker&, swift::NominalTypeDecl*, (anonymous namespace)::ImplicitConstructorKind) + 2115
 15 swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 738
 16 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2099
-17 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2180
-18 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 112
-19 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 473
-20 swift                    swift::TypeChecker::typeCheckConstructorBodyUntil(swift::ConstructorDecl*, swift::SourceLoc) + 351
-21 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 128
-22 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 421
-23 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1734
-24 swift                    swift::CompilerInstance::performSema() + 2060
-25 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-26 swift                    main + 1677
-27 libdyld.dylib            start + 1
-28 libdyld.dylib            start + [N]
+17 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 112
+18 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 473
+19 swift                    swift::TypeChecker::typeCheckConstructorBodyUntil(swift::ConstructorDecl*, swift::SourceLoc) + 351
+20 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 128
+21 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 421
+22 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1734
+23 swift                    swift::CompilerInstance::performSema() + 2060
+24 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+25 swift                    main + 1677
+26 libdyld.dylib            start + 1
+27 libdyld.dylib            start + [N]
