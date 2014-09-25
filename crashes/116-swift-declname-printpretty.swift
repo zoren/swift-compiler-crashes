@@ -2,23 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+func p<p>() -> (p, p -> p) -> p {
+   l c l.l = {
 }
  {
-   g) {
-        c
-    }
-}
-imporsuper.init()
-ny, Any) -> Any) -> Any)) -> Any {
-    return z({
-        (p: Any, q:Any) -> Any in
-        return p
+   p) {
+      (e: o, h:o) ->  e
     })
 }
-b(a(1, a(2, 3)))
-func prefix(with: String) -> <T>(() -> T return "\(with): \(g())" }
-}
+j(k(m, k(2, 3)))
+func l(p: j) -> <n>(() -> n

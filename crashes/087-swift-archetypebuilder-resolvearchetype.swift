@@ -2,62 +2,44 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T>() {
+func u<w>() {
     enum b {
-        Bool) -> Bool {
-    return !(a)
+        n) -> n {
+    r !(u)
 }
-func a(x: Any, y: Any) -> (((Any, Any) -> Any) -> Any) {
-    return {
-        (m: (Any, Any) -> Any) -> Any in
-        return m(x, y)
+func u(b: Any, k: Any) -> (((Any, Any) -> Any) -> Any) {
+    r {
+        (x: (Any, Any) -> Any) -> Any s
+        r x(b, k)
     }
 }
- 
-func b(z: (((Any, Any) -> Any) -> Any)) -> Any {
-    return z({
-        (p: Any, q:Any) -> Any in
-        return p
+func b(q: (((Any, Any) -> Any) -> Any)) -> Any {
+    r q({
+        (p: Any, l:Any) -> Any s
+        r p
     })
 }
-b(a(1, a(2, 3)))
-class a {
+b(u(v, u(t, y)))
+class u {
     typealias b = b
 }
-class A: A {
+class i: i {
 }
-class B : C {
+class o : cb {
 }
-typealias C = B
+typealias cb = o
 ({})
-struct d<f : e, g: e where g.h == f.h> {
+a a<p : i, cb: i j cb.l == p.l> {
 }
-protocol e {
-    typealias h
+x i {
+    typealias l
 }
-protocol a {
-    class func c()
+x u {
+    class func l()
 }
-class b: a {
-    class func c() { }
+class b: u {
+    class func l() { }
 }
-(b() as a).dynamicType.c()
-func a(b: Int
-    var foo: T
-    init(foo: T) {
-        self.foo = foo
-        super.init()
-    }
-}
-class A<T : A> {
-}
-protocol A {
-    tpealias E
-}
-struct B<T : A> {
-    let h: T
-    let D : C {
-    typealias F = Int
-    func g<T where T.E == F>(f: B<T>) {
-    }
-}
+(b() b u).dc.l()
+func u(b: Int
+    var p: w

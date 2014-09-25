@@ -2,54 +2,40 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i(c: () -> ()) {
 }
-class a {
-    var _ = i() {
+class p {
+    u _ = q() {
     }
 }
-var x1 = 1
-var f1: Int -> Int = {
-    return $0
-}
-let succeeds: Int = { (x: Int, f: Int -> Int) -> Int in
-    return f(x)
-}(x1, f1)
-let crashes: Int = { x, f in
-    return f(x)
-}(x1, f1)
-protocol A {
-    typealias B
-}
-class C<D> {
-    init <A: A where A.B == D>(e: A.B) {
+u l = r
+u s: k -> k = {
+    n $h: m.j) {
     }
 }
-func f() {
+o l() {
     ({})
 }
-struct A<T> {
-    let a: [(T, () -> ())] = []
+struct m<t> {
+    let p: [(t, () -> ())] = []
 }
-protocol a : a {
+protocol p : p {
 }
-protocol A {
-    func c() -> String
+protocol m {
+    o u() -> String
 }
-class B {
-    func d() -> String {
-        return ""
+class j {
+    o m() -> String {
+        n ""
     }
 }
-class C: B, A {
-    override func d() -> String {
-        return ""
+class h: j, m {
+    q o m() -> String {
+        n ""
     }
-    func c() -> S, i> {
+    o u() -> S, q> {
 }
-protocol c {
-    typealias g
+protocol u {
+    typealias u
 }
-class a {
-    typealias b = b
-}
+class p {
+    typealias u = u

@@ -2,100 +2,54 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a(x: Any, y: Any) -> (((Any, Any) -> Any) -> Any) {
-    return {
-        (m: (Any, Any) -> Any) -> Any in
-        return m(x, y)
-    }
-}
- 
-func b(z: (((Any, Any) -> Any) -> Any)) -> Any {
-    return z({
-        (p: Any, q:Any) -> Any in
-        return p
-    })
-}
-b(a(1, a(2, 3)))
-struct c<d : SequenceType> {
-    var b: d
-}
-func a<d>() -> [c<d>] {
-    return []
-}
-protocol b {
-    class func e()
-}
-struct c {
-    var d: b.Type
-    func e() {
-        d.e()
-    }
-}
-f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+func o<b>() -> (b, b -> b) -> b {
+   q n q.v = {
 }
  {
-   g) {
-        h  }
+   b) {
+        m  }
 }
-protocol f {
-   class func i()
+ed o {
+   class func v()
 }
-class d: f{  class func i {}
-func a(b: Int = 0) {
+class q: o{  class func v {}
+func u(b: Int = dc) {
 }
-let c = a
-c()
-class c {
-    func b((Any, c))(a: (Any, AnyObject)) {
-        b(a)
+let n = u
+n()
+class n {
+    func b((y, n))(u: (y, b)) {
+        b(u)
     }
 }
-var x1 = 1
-var f1: Int -> Int = {
-    return $0
+q v = w
+q x: Int -> Int = {
+    r $dc
 }
-let succeeds: Int = { (x: Int, f: Int -> Int) -> Int in
-    return f(x)
-}(x1, f1)
-let crashes: Int = { x, f in
-    return f(x)
-}(x1, f1)
-protocol a : a {
+let m: Int = { (p: Int, o: Int -> Int) -> Int s
+    r o(p)
+}(v, x)
+let cb: Int = { p, o s
+    r o(p)
+}(v, x)
+ed u : u {
 }
-func a<T>() -> (T, T -> T) -> T {
-    var b: ((T, T -> T) -> T)!
-    return b
+func u<a>() -> (a, a -> a) -> a {
+    q b: ((a, a -> a) -> a)!
+    r b
 }
-protocol a {
+ed u {
 }
-protocol b : a {
+ed b : u {
 }
-protocol c : a {
+ed n : u {
 }
-protocol d {
-  typealias f = a
+ed q {
+  t o = u
 }
-struct e : d {
-  typealias f = b
+o p : q {
+  t o = b
 }
-func i<j : b, k : d where k.f == j> (n: k) {
+func v<n : b, p : q where p.o == n> (n: p) {
 }
-func i<l : d where l.f == c> (n: l) {
-}
-i(e())
-({})
-func i(c: () -> ()) {
-}
-class a {
-    var _ = i() {
-    }
-}
-func ^(a: BooleanType, Bool) -> Bool {
-    return !(a)
-}
-class a {
-    typeali  let a: [(T, () -> ())] = []
-}
+func v<ed : q where ed.o == n> (n:

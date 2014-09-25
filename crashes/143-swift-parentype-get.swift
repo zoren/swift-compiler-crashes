@@ -2,81 +2,39 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T : BooleanType>(b: T) {
+)
+func t<v>() -> (v, v -> v) -> v {
+    var d: ((v, v -> v) -> v)!
+    q d
 }
-f(true as BooleanType)
-func a<T>() -> (T, T -> T) -> T {
-    var b: ((T, T -> T) -> T)!
-    return b
+protocol t {
 }
-protocol a {
+protocol d : t {
 }
-protocol b : a {
+protocol g : t {
 }
-protocol c : a {
-}
-protocoln
-        return p
+s
+        q l
     })
 }
-b(a(1, a(2, 3)))
-protocol A {
-    typealias E
+d(t(u, t(w, y)))
+protocol e {
+    r j
 }
-struct B<T : A> {
-    let h: T
-    let i: T.E
+struct m<v : e> {
+    k x: v
+    k x: v.j
 }
-protocol C {
-    typealias F
-    func g<T where T.E == F>(f: B<T>)
-}
-struct D : C {
-    typealias F = Int
-    func g<T where T.E == F>(f: B<T>) {
+protocol n {
+    g == o>(n: m<v>) {
     }
 }
-struct A<T> {
-    let a: [(T, () -> ())] = []
+struct e<v> {
+    k t: [(v, () -> ())] = [](m)
 }
-protocol a : a {
-}
-protocol A {
-    typealias B
-    func b(B)
-}
-struct X<Y> : A {
-    func b(b: X.Type) {
+struct d<x> : e {
+    func d(d: d.p) {
     }
 }
-class A<T : A> {
-}
-protocol A {
-    typealias B
-}
-class C<D> {
-    init <A: A where A.B == D>(e: A.B) {
-    }
-}
-class A: A {
-}
-class B : C {
-}
-typealias C = B
-func ^(a: BooleanType, Bool) -> Bool {
-    return !(a)
-}
-func a(b: Int = 0) {
-}
-let c = a
-c()
-class a<f : b, g : b where f.d == g> {
-}
-protocol b {
-    typealias d 
-    typealias e
-}
-struct c<h : b> : b {
-    typealias d = h
-    typealias e = a<c<h>, d>
+class e<v : e> {
 }

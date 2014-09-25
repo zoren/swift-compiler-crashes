@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<d {
-    enum c {
-        func e
-        var _ = e
+func b<d {
+    enum b {
+        func c
+        var _ = c
     }
 }

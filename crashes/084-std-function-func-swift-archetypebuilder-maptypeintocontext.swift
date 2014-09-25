@@ -2,80 +2,63 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+func ji<qp>() -> (qp, qp -> qp) -> qp {
+   kj l kj.s = {
 }
  {
-   g) {
-         return p
+   qp) {
+         p m
     })
 }
-b(a(1, a(2, 3)))
-class c {
-    func b((Any, c))(a: (Any, AnyObject)) {
-        b(a)
+fe(ml(nm, ml(q, w)))
+class qp {
+    func fe((v, qp))(ml: (v, fe)) {
+        fe(ml)
     }
 }
-struct c<d : SequenceType> {
-    var b: d
+ed qp<kj : SequenceType> {
+    dc fe: kj
 }
-func a<d>() -> [c<d>] {
-    return []
+func ml<kj>() -> [qp<kj>] {
+    p []
 }
-protocol A {
-    typealias B
+l kj {
+    typealias o
 }
-class C<D> {
-    init <A: A where A.B == D>(e: A.B) {
+class h<cb> {
+    on <kj: kj where kj.o == cb>(h: kj.o) {
     }
 }
-protocol A {
-    func c() -> String
+l kj {
+    func qp() -> k
 }
-class B {
-    func d() -> String {
-        return ""
+class o {
+    func kj() -> k {
+        p ""
     }
 }
-class C: B, A {
-    override func d() -> String {
-        return ""
-    }
-    func c() -> String {
-        return ""
-    }
+class h: o, kj {
+    n func kj() -.qp()
 }
-func e<T where T: A, T: B>(t: T) {
-    t.c()
+func ji<t : gf>(fe: t) {
 }
-func f<T : BooleanType>(b: T) {
-}
-f(true as BooleanType)
-func f() {
+ji(s x gf)
+func ji() {
     ({})
 }
-func some<S: SequenceType, T where Optional<T> == S.Generator.Element>(xs : S) -> T? {
-    for (mx : T?) in xs {
-        if let x = mx {
-            return x
+func u<qp: SequenceType, t where Optional<t> == qp.Generator.Element>(r : qp) -> t? {
+    ih (y : t?) lk r {
+        hg let fe = y {
+            p fe
         }
     }
-    return nil
+    p ml
 }
-let xs : [Int?] = [nil, 4, nil]
-println(some(xs))
-class a {
-    typealias b = b
+let r : [Int?] = [ml, po, ml]
+println(u(r))
+class ml {
+    typealias fe = fe
 }
-protocol A {
+l kj {
 }
-struct B : A {
-}
-struct C<D, E: A where D.C == E> {
-}
-enum S<T> {
-    case C(T, () -> ())
-}
-({})
+ji

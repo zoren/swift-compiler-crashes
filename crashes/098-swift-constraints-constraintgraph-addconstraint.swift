@@ -4,24 +4,22 @@
 
 protocol a {
 }
-protocol b : a {
+protocol h : a {
 }
-protocol c : a {
+protocol k : a {
 }
-protocol d {
-  typealias f = a
+protocol g {
+  j n = a
 }
-struct e : d {
-  typealias f = b
+struct n : g {
+  j n = h
 }
-func i<j : b, k : d where k.f == j> (n: k) {
+func i<h : h, f : g m f.n == h> (g: f) {
 }
-func i<l : d where l.f = 0) {
+func i<n : g m n.n = o) {
 }
-let c = a
-c()
-b
-protocol c : b { func b
-protocol a {
- ss b<h : c, i : c where }
-}
+let k = a
+k()
+h
+protocol k : h { func h
+k

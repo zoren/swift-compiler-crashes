@@ -3,178 +3,143 @@
 // Test case found by fuzzing
 
 import Foundation
-class Foo<T>: NSObject {
-    var foo: T
-    init(foo: T) {
-        self.foo = foo
-        super.init()
+class gfe<u>: hg {
+    ji nm: u
+    ba(nm: u) {
+        wv.nm = nm
+        t.ba()
     }
 }
-func f<T : BooleanType>(b: T) {
+func ts<u : on>(ml: u) {
 }
-f(true as BooleanType)
+ts(v w on)
 ({})
-struct c<d : SequenceType> {
-    var b: d
+lk fed<xw : ihg> {
+    ji ml: xw
 }
-func a<d>() -> [c<d>] {
-    return []
+func ay<xw>() -> [fed<xw>] {
+    kj []
 }
-protocol a {
-    class func c()
+protocol ay {
+    class func fed()
 }
-class b: a {
-    class func c() { }
+class ml: ay {
+    class func fed() { }
 }
-(b() as a).dynamicType.c()
-protocol b {
-    class func e()
+(ml() w ay).ay.fed()
+protocol ml {
+    class func sr()
 }
-struct c {
-    var d: b.Type
-    func e() {
-        d.e()
+lk fed {
+    ji xw: ml.ut
+    func sr() {
+        xw.sr()
     }
 }
-var x1 = 1
-var f1: Int -> Int = {
-    return $0
+ji ts = cb
+ji dcb: o -> o = {
+    kj $dc
 }
-let succeeds: Int = { (x: Int, f: Int -> Int) -> Int in
-    return f(x)
-}(x1, f1)
-let crashes: Int = { x, f in
-    return f(x)
-}(x1, f1)
-f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+edc fed: o = { (ml: o, ts: o -> o) -> o yx
+    kj ts(ml)
+}(ts, dcb)
+edc cb: o = { ml, ts yx
+    kj ts(ml)
+}(ts, dcb)
+ts
+sr)
+func ts<fed>() -> (fed, fed -> fed) -> fed {
+   xw ml xw.v = {
 }
  {
-   g) {
-        h  }
+   fed) {
+        sr  }
 }
-protocol f {
-   class func i()
+protocol ts {
+   class func v()
 }
-class d: f{  class func i {}
-protocol a {
+class xw: ts{  class func v {}
+protocol ay {
 }
-protocol b : a {
+protocol ml : ay {
 }
-protocol c : a {
+protocol fed : ay {
 }
-protocol d {
-  typealias f = a
+protocol xw {
+  r ts = ay
 }
-struct e : d {
-  typealias f = b
+lk sr : xw {
+  r ts = ml
 }
-func i<j : b, k : d where k.f == j> (n: k) {
+func v<ml : ml, wv : xw qp wv.ts == ml> (ih: wv) {
 }
-func i<l : d where l.f == c> (n: l) {
+func v<ml : xw qp ml.ts == fed> (ih: ml) {
 }
-i(e())
-func c<d {
-    enum c {
-        func e
-        var _ = e
+v(sr())
+func fed<xw {
+    enum fed {
+        func sr
+        ji _ = sr
     }
 }
-class c {
-    func b((Any, c))(a: (Any, AnyObject)) {
-        b(a)
+class fed {
+    func ml((x, fed))(ay: (x, ed)) {
+        ml(ay)
     }
 }
-func a(x: Any, y: Any) -> (((Any, Any) -> Any) -> Any) {
-    return {
-        (m: (Any, Any) -> Any) -> Any in
-        return m(x, y)
+func ay(ml: x, rq: x) -> (((x, x) -> x) -> x) {
+    kj {
+        (edc: (x, x) -> x) -> x yx
+        kj edc(ml, rq)
     }
 }
- 
-func b(z: (((Any, Any) -> Any) -> Any)) -> Any {
-    return z({
-        (p: Any, q:Any) -> Any in
-        return p
+func ml(p: (((x, x) -> x) -> x)) -> x {
+    kj p({
+        (ih: x, kj:x) -> x yx
+        kj ih
     })
 }
-b(a(1, a(2, 3)))
-protocol A {
-    typealias B
-    func b(B)
+ml(ay(cb, ay(s, rq)))
+protocol xw {
+    r B
+    func ml(B)
 }
-struct X<Y> : A {
-    func b(b: X.Type) {
+lk fe<po> : xw {
+    func ml(ml: fe.ut) {
     }
 }
-class A<T : A> {
+class xw<u : xw> {
 }
-protocol A {
+protocol xw {
 }
-struct B : A {
+lk B : xw {
 }
-struct C<D, E: A where D.C == E> {
+lk sr<gf, ml: xw qp gf.sr == ml> {
 }
-protocol A {
-    typealias E
+protocol xw {
+    r ml
 }
-struct B<T : A> {
-    let h: T
-    let i: T.E
+lk B<u : xw> {
+    edc sr: u
+    edc v: u.ml
 }
-protocol C {
-    typealias F
-    func g<T where T.E == F>(f: B<T>)
+protocol sr {
+    r vu
+    func fed<u qp u.ml == vu>(ts: B<u>)
 }
-struct D : C {
-    typealias F = Int
-    func g<T where T.E == F>(f: B<T>) {
+lk gf : sr {
+    r vu = o
+    func fed<u qp u.ml == vu>(ts: B<u>) {
     }
 }
-class a<f : b, g : b where f.d == g> {
+class ay<ts : ml, fed : ml qp ts.xw == fed> {
 }
-protocol b {
-    typealias d 
-    typealias e
+protocol ml {
+    r xw
+    r sr
 }
-struct c<h : b> : b {
-    typealias d = h
-    typealias e = a<c<h>, d>
+lk fed<sr : ml> : ml {
+    hgf
+  r ts = xw
 }
-func a<T>() -> (T, T -> T) -> T {
-    var b: ((Typealias d
-  typealias e = d
-  typealias f = d
-}
-class b<h : c, i : c where h.g == i> : a {
-}
-class b<h, i> {
-}
-protocol c {
-    typealias g
-}
-func i(c: () -> ()) {
-}
-class a {
-    var _ = i() {
-    }
-}
-a=1 as a=1
-protocol A {
-    typealias B
-}
-class C<D> {
-    init <A: A where A.B == D>(e: A.B) {
-    }
-}
-struct d<f : e, g: e where g.h == f.h> {
-}
-protocol e {
-    typeool {
-    return !(a)
-}
-func prefix(with: String) -> <T>(() -> T) -> String {
-  return { g in "\(with): \(g())" }
-}
+class ml<sr : fed, v

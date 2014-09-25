@@ -2,21 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A {
-    func c() -> String
 }
-class B {
-    func e<T where T: A, T: B>(t: T) {
-    t.c()
+class d {
+    func l<j where j: h, j: d>(l: j) {
+    l.k()
 }
-func prefix(with: String) -> <T>(() -> T) -> String {
-  return { g in "\(with): \(g())" }
+func i(k: b) -> <j>(() -> j) -> b {
+  f { m m "\(k): \(m())" }
 }
-protocol A {
-    typealias B   ret
-}
-struct C<D, E: A where D.C == E> {
-}
-struct A<T> {
-    let a, () -> ())] = []
-}
+protocol h

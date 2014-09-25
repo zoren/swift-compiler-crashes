@@ -2,167 +2,133 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T>() -> (T, T -> T) -> T {
-    var b: ((T, T -> T) -> T)!
-    return b
-}
-struct d<f : e, g: e where g.h == f.h> {
-}
-protocol e {
-    typealias h
-}
-f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+k)
+func yx<jih>() -> (jih, jih -> jih) -> jih {
+   cb n cb.x = {
 }
  {
-   g) {
-        h  }
+   jih) {
+        vu  }
 }
-protocol f {
-   class func i()
+protocol yx {
+   class func x()
 }
-class d: f{  class func i {}
-enum S<T> {
-    case C(T, () -> ())
+class cb: yx{  class func x {}
+ih k<ut> {
+    po vu(ut, () -> ())
 }
-func c<d {
-    enum c {
-        func e
-        var _ = e
+func n<cb {
+    ih n {
+        func k
+        ml _ = k
     }
 }
-class a {
-    typealias b = b
+class dcb {
+    typealias po = po
 }
-func a<T>() {
-    enuY> : A {
-    func b(b: X.Type) {
+func dcb<ut>() {
+    v> : jih {
+    func po(po: ji.ay) {
     }
 }
-func some<S: SequenceType, T where Optional<T> == S.Generator.Element>(xs : S) -> T? {
-    for (mx : T?) in xs {
-        if let x = mx {
-            return x
+func dcb<k: kji, ut ts qp<ut> == k.s.n>(w : k) -> ut? {
+    wv (po : ut?) in w {
+        rq let cb = po {
+            u cb
         }
     }
-    return nil
+    u cb
 }
-let xs : [Int?] = [nil, 4, nil]
-println(some(xs))
-func f<T : BooleanType>(b: T) {
+let w : [r?] = [cb, ihg, cb]
+xw(dcb(w))
+func yx<ut : sr>(po: ut) {
 }
-f(true as BooleanType)
-func a(b: Int = 0) {
+yx(l dc sr)
+func dcb(po: r = hg) {
 }
-let c = a
-c()
-struct c<d : SequenceType> {
-    var b: d
+let n = dcb
+n()
+on n<cb : kji> {
+    ml po: cb
 }
-func a<d>() -> [c<d>] {
-    return []
+func dcb<cb>() -> [n<cb>] {
+    u []
 }
-protocol A {
-    typealias B
+protocol jih {
+    typealias nm
 }
-class C<D> {
-    init <A: A where A.B == D>(e: A.B) {
+class vu<lk> {
+    edc <jih: jih ts jih.nm == lk>(k: jih.nm) {
     }
 }
-func i(c: () -> ()) {
+func x(n: () -> ()) {
 }
-class a {
-    var _ = i() {
+class dcb {
+    ml _ = x() {
     }
 }
-protocol A {
-    typealias E
+protocol jih {
+    typealias gfe
 }
-struct B<T : A> {
-    let h: T
-    let i: T.E
+on nm<ut : jih> {
+    let vu: ut
+    let x: ut.gfe
 }
-protocol C {
-    typealias F
-    func g<T where T.E == F>(f: B<T>)
+protocol vu {
+    typealias ba
+    func jih<ut ts ut.gfe == ba>(yx: nm<ut>)
 }
-struct D : C {
-    typealias F = Int
-    func g<T where T.E == F>(f: B<T>) {
+on lk : vu {
+    typealias ba = r
+    func jih<ut ts ut.gfe == ba>(yx: nm<ut>) {
     }
 }
-class A: A {
+class jih: jih {
 }
-class B : C {
+class nm : vu {
 }
-typealias C = B
-func ^(a: BooleanType, Bool) -> Bool {
-    return !(a)
+typealias vu = nm
+func ^(dcb: sr, o) -> o {
+    u !(dcb)
 }
-func a(x: Any, y: Any) -> (((Any, Any) -> Any) -> Any) {
-    return {
-        (m: (Any, Any) -> Any) -> Any in
-        return m(x, y)
+func dcb(cb: ed, ut: ed) -> (((ed, ed) -> ed) -> ed) {
+    u {
+        (gfe: (ed, ed) -> ed) -> ed in
+        u gfe(cb, ut)
     }
 }
- 
-func b(z: (((Any, Any) -> Any) -> Any)) -> Any {
-    return z({
-        (p: Any, q:Any) -> Any in
-        return p
+func po(t: (((ed, ed) -> ed) -> ed)) -> ed {
+    u t({
+        (s: ed, nm:ed) -> ed in
+        u s
     })
 }
-b(a(1, a(2, 3)))
-struct A<T> {
-    let a: [(T, () -> ())] = []
+po(dcb(fed, dcb(fe, gf)))
+on jih<ut> {
+    let dcb: [(ut, () -> ())] = []
 }
-b
-protocol c : b { func b
-class a<f : b, g : b where f.d == g> {
+po
+protocol n : po { func po
+class dcb<yx : po, jih : po ts yx.cb == jih> {
 }
-protocol b {
-    typealias d 
-    typealias e
+protocol po {
+    typealias cb
+    typealias k
 }
-struct c<h : b> : b {
-    typealias d = h
-    typealias e = a<c<h>, d>
+on n<vu : po> : po {
+   typealias jih
 }
-protocol A {
-}
-struct B : A {
-}
-struct C<D, E: A where D.C == E> {
-}
-({})
-protocol a {
-  typealias d
-  typealias e = d
-  typealias f = d
-}
-class b<h : c, i : c where h.g == i> : a {
-}
-class b<h, i> {
-}
-protocol c {
-    typealias g
-}
-class c {
-    func b((Any, c))(a: (Any, AnyObject)) {
-        b(a)
+class n {
+    func po((ed, n))(dcb: (ed, kj)) {
+        po(dcb)
     }
 }
-class A<T : A> {
+class jih<ut : jih> {
 }
-var x1 = 1
-var f1: Int -> Int = {
-    return $0
+ml x = fed
+ml hgf: r -> r = {
+    u $hg
 }
-let succeeds: Int = { (x: Int, f: Int -> Int) -> Int in
-    return f(x)
-}(x1, f1)
-let crashes: Int = { x, f in
-    return f(x)
-}(x1, f1)
+let yx: r = { (cb: r, yx: r -> r) -> r in
+    u yx(cb)
+}

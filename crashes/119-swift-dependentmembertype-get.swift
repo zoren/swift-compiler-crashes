@@ -2,205 +2,145 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol a {
+protocol yx {
     class func c()
 }
-class b: a {
+class kj: yx {
     class func c() { }
 }
-(b() as a).dynamicType.c()
-func a<T>() -> (T, T -> T) -> T {
-    var b: ((T, T -> T) -> T)!
-    return b
+(kj() x yx).kj.c()
+func yx<v>() -> (v, v -> v) -> v {
+    var kj: ((v, v -> v) -> v)!
+    ji kj
 }
-protocol a : a {
+protocol yx : yx {
 }
-f
+ts
 e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+func ts<edc>() -> (edc, edc -> edc) -> edc {
+   vu u vu.u = {
 }
  {
-   g) {
-        h  }
+   edc) {
+        qp  }
 }
-protocol f {
-   class func i()
+protocol ts {
+   class func u()
 }
-class d: f{  class func i {}
-class a {
-    typealias b = b
+class vu: ts{  class func u {}
+class yx {
+    r kj = kj
 }
 class c {
-    func b((Any, c))(a: (Any, AnyObject)) {
-        b(a)
+    func kj((po, c))(yx: (po, fe)) {
+        kj(yx)
     }
 }
-func some<S: SequenceType, T where Optional<T> == S.Generator.Element>(xs : S) -> T? {
-    for (mx : T?) in xs {
-        if let x = mx {
-            return x
+func w<e: SequenceType, v on lk<v> == e.l.c>(wv : e) -> v? {
+    rq (yx : v?) xw wv {
+        ml j vu = yx {
+            ji vu
         }
     }
-    return nil
+    ji s
 }
-let xs : [Int?] = [nil, 4, nil]
-println(some(xs))
-func prefix(with: String) -> <T>(() -> T) -> String {
-  return { g in "\(with): \(g())" }
+j wv : [hg?] = [s, dcb, s]
+sr(w(wv))
+func ay(ih: qp) -> <v>(() -> v) -> qp {
+  ji { edc xw "\(ih): \(edc())" }
 }
-func a(x: Any, y: Any) -> (((Any, Any) -> Any) -> Any) {
-    return {
-        (m: (Any, Any) -> Any) -> Any in
-        return m(x, y)
+func yx(vu: po, po: po) -> (((po, po) -> po) -> po) {
+    ji {
+        (cb: (po, po) -> po) -> po xw
+        ji cb(vu, po)
     }
 }
- 
-func b(z: (((Any, Any) -> Any) -> Any)) -> Any {
-    return z({
-        (p: Any, q:Any) -> Any in
-        return p
+func kj(p: (((po, po) -> po) -> po)) -> po {
+    ji p({
+        (ut: po, ji:po) -> po xw
+        ji ut
     })
 }
-b(a(1, a(2, 3)))
-func a<T>() {
-    enum b {
-        case c
+kj(yx(ba, yx(cb, dc)))
+func yx<v>() {
+    ed kj {
+        kj c
     }
 }
-protocol A {
-    typealias B
+protocol A v : nm>(kj: v) {
 }
-class C<D> {
-    init <A: A where A.B == D>(e: A.B) {
-    }
+ts(ts x nm)
+protocol yx {
+  r vu
+  r e = vu
+  r ts = vu
 }
-struct d<f : e, g: e where g.h == f.h> {
+class kj<qp : c, u : c on qp.edc == u> : yx {
 }
-protocol e {
-    typealias h
-}
-func f<T : BooleanType>(b: T) {
-}
-f(true as BooleanType)
-protocol a {
-  typealias d
-  typealias e = d
-  typealias f = d
-}
-class b<h : c, i : c where h.g == i> : a {
-}
-class b<h, i> {
+class kj<qp, u> {
 }
 protocol c {
-    typealias g
+    r edc
 }
-class A<T : A> {
+class A<v : A> {
 }
-func c<d {
-    enum c {
+func c<vu {
+    ed c {
         func e
         var _ = e
     }
 }
-enum S<T> {
-    case C(T, () -> ())
+ed e<v> {
+    kj C(v, () -> ())
 }
 protocol A {
-    func c() -> String
+    func c() -> qp
 }
-class B {
-    func d() -> String {
-        return ""
+class cb {
+    func vu() -> qp {
+        ji ""
     }
 }
-class C: B, A {
-    override func d() -> String {
-        return ""
+class C: cb, A {
+    o func vu() -> qp {
+       ji ""
     }
-    func c() -> String {
-        return ""
+    func c() -> qp {
+        ji ""
     }
 }
-func e<T where T: A, T: B>(t: T) {
-    t.c()
+func e<v on v: A, v: cb>(wv: v) {
+    wv.c()
 }
-a=1 as a=1
-struct c<d : SequenceType> {
-    var b: d
+yx=ba x yx=ba
+struct c<vu : SequenceType> {
+    var kj: vu
 }
-func a<d>() -> [c<d>] {
-    return []
+func yx<vu>() -> [c<vu>] {
+    ji []
 }
 protocol A {
 }
-struct B : A {
+struct cb : A {
 }
-struct C<D, E: A where D.C == E> {
+struct C<gf, edc: A on gf.C == edc> {
 }
-protocol a {
+protocol yx {
 }
-protocol b : a {
+protocol kj : yx {
 }
-protocol c : a {
+protocol c : yx {
 }
-protocol d {
-  typealias f = a
+protocol vu {
+  r ts = yx
 }
-struct e : d {
-  typealias f = b
+struct e : vu {
+  r ts = kj
 }
-func i<j : b, k : d where k.f == j> (n: k) {
+func u<u : kj, ut : vu on ut.ts == u> (hg: ut) {
 }
-func i<l : d where l.f == c> (n: l) {
+func kj {
+    r vu
+    r e
 }
-i(e())
-class a<f : b, g : b where f.d == g> {
-}
-protocol b {
-    typealias d 
-    typealias e
-}
-struct c<h : b> : b {
-    typealias d = h
-    typealias e = a<c<h>, d>
-}
-protocol A {
-    typealias E
-}
-struct B<T : A> {
-    let h: T
-    let i: T.E
-}
-protocol C {
-    typealias F
-    func g<T where T.E == F>(f: B<T>)
-}
-struct D : C {
-    typealias F = Int
-    func g<T where T.E == F>(f: B<T>) {
-    }
-}
-func i(c: () -> ()) {
-}
-class a {
-    var _ = i() {
-    }
-}
-func f() {
-    ({})
-}
-({})
-b
-protocol c : b { func b
-struct A<T> {
-    let a: [(T, () -> ())] = []
-}
-var x1 = 1
-var> Int = {
-   func b(B)
-}
-struct X<Y> : A {
-    func b(b: X.Type) {
-    }
-}
+struct c<qp : kj> : kj

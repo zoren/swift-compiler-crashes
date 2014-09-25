@@ -2,15 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a(x: Any, y: Any) -> (((Any, Any) -> Any) -> Any) {
-    return {
-        (m: (Any, Any) -> Any)   return $0
+func f(c: i, l: i) -> (((i, i) -> i) -> i) {
+    b {
+        (h -> i)   d $k
 }
-let succeeds: Int = 1, f1)
-class A<T : A> {
-}
-class c {
-    func b((Any, c))(a: (Any, AnyObj c() -> String {
-        return 
-func e<T where Tj d.        h  }b
-}
+let e: Int = 1, 1)
+class g<j :g

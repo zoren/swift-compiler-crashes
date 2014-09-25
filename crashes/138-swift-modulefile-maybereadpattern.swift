@@ -2,75 +2,24 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A {
-    typealias B
-    func b(B)
+ h
 }
-struct X<Y> : A {
-    func b(b: X.Type) {
-    }
-}
-func f() {
-    ({})
-}
-protocol A {
-    func c() -> String
-}
-class B {
-    func d() -> String {
-        return ""
-    }
-}
-class C: B, A {
-    override func d() -> String {
-        return ""
-    }
-    func c() -> String {
-        return ""
-    }
-}
-func e<T where T: A, T: B>(t: T) {
-    t.c()
-}
-protocol a {
-    class func c()
-}
-class b: a {
-    class func c() { }
-}
-(b() as a).dynamicType.c()
-struct d<f : e, g: e where g.h == f.h> {
-}
-protocol e {
-    typealias h
-}
-func c<d {
-    enum c {
+func e<l {
+    enum e {
         func e
-       f {
-   class func i()
+       j {
+   class func n()
 }
-class d: f{  clas() -> ())
+class l: j{  k() -> ())
 }
 ({})
-func f<T : BooleanType>(b: T) {
+func j<o : BooleanType>(l: o) {
 }
-f(true as BooleanType)
-func a(x: Any, y: Any) -> (((Any, Any) -> Any) -> Any) {
+j(j q BooleanType)
+func p(l: Any, g: Any) -> (((Any, Any) -> Any) -> Any) {
     return {
-        (m: (Any, Any) -> Any) -> Any in
-func i<j : b, k : d where k.f == j> (n: k) {
+        (p: (Any, Any) -> Any) -> Any in
+func n<n : l,) {
 }
-func i<l : d where l.f == c> (n: l) {
-}
-i(e())
-protocol A {
-    typealias B
-}
-class C<D> {
-    init <A: A where A.B == D>(e: A.B) {
-    }
-}
-func ^(a: BooleanType, Bool) -> Bool {
-    return !(a)
-}
+n(e())
+e

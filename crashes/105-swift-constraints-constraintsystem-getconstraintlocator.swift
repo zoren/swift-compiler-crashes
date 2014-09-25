@@ -2,47 +2,36 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class c {
-    func b((Any, c))(a: (Any, AnyObject)) {
-        b(a)
+class j {
+    func y((Any, j))(v: (Any, AnyObject)) {
+        y(v)
     }
 }
-func i(c: () -> ()) {
+func w(j: () -> ()) {
 }
-class a {
-    var _ = i() {
+class v {
+    l _ = w() {
     }
 }
 ({})
-func a<T>() -> (T, T -> T) -> T {
-    var b truct d<f : e, g: e where g.h == f.h> {
+func v<x>() -> (x, x -> x) -> x {
+    l y j s<q : l, y: l m y.n == q.n> {
 }
-protocol e {
-    typealias h
+o l {
+    u n
 }
-enum S<T> {
-    case C(T, () -> ())
+y q<x> {
+    s w(x, () -> ())
 }
-protocol A {
-    func c() -> String
+o n {
+    func j()  p
 }
-class B {
-    func d() -> String {
-        return ""
+class r {
+    func s() -> p {
+        t ""
     }
 }
-class C: B, A {
-    ovelet a: [(T, () -> ())] = []
+class w: r, n {
+    k v: ))] = []
 }
-class A<T : A> {
-}
-func some<S: SequenceType, T where Optional<T> == S.Generator.Element>(xs : S) -> T? {
-    for (mx : T?) in xs {
-        if let x = mx {
-            return x
-        }
-    }
-    return nil
-}
-let xs : [Int?] = [nil, 4, nil]
-println(soe(xs))
+class n<x : n>

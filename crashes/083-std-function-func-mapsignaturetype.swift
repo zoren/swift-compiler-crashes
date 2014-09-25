@@ -2,18 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a(x: Any, y: Any) -> (((Any, Any) -> Any) -> f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+func f(k: Any, j: Any) -> (((Any, Any) -> Any) -> c
+k)
+func c<i>() -> (i, i -> i) -> i {
+   k b k.i = {
 }
  {
-   g) {
-        h  }
+   i) {
+        k  }
 }
-protocol f {
+protocol c {
    class func i()
 }
-class d: f{  class func i {}
-(hes: Int   retur[]
-}
+class k: c{  class func i {

@@ -6,7 +6,7 @@ class a {
     type b, g : b where f.d == g> {
 }
 protocol b {
-    typealias d 
+    typealias d
     typealias e
 }
 struct c<h : b> : b {
@@ -196,7 +196,6 @@ func a(x: Any, y: Any) -> (((Any, Any) -> Any) -> Any) {
         return m(x, y)
     }
 }
- 
 func b(z: (((Any, Any) -> Any) -> Any)) -> Any {
     return z({
         (p: Any, q:Any) -> Any in

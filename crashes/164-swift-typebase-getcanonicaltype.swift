@@ -2,12 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<T> {
-    case C(T, () -> ())
 }
-struct A<T> {
-    let a: [(T, () -> ())d : SequenceTy
-    return []
+struct c<e> {
+    let h: [(e, () -> ())h
+    i []
 }
-func prefix(with: String) -> <T>(() -> T) -  t.c()
-}
+func f(g: b) -> <e>(() -> e

@@ -2,16 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+func f<e>() -> (e, e -> e) -> e {
+    e b e.c = {}
+    {
+        e)
+        {
+            f
+        }
+    }
+    protocol f {
+        class func c()
+    }
+    class e: f {
+        class func c
+    }
 }
- {
-   g) {
-        h  }
-}
-protocol f {
-   class func i()
-}
-class d: f{  class func i {}

@@ -5,11 +5,9 @@
 protocol P {
     typealias R
 }
-
 struct S<U : P> {
     let t: U.R
 }
-
 func f<T>(t: T) -> S<Q<T>>? {
     return nil
 }

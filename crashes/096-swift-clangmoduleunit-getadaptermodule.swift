@@ -3,12 +3,8 @@
 // Test case found by fuzzing
 
 import Foundation
-class Foo<T>c i<j : b, k : d where k.f == j> (n: k)  c> (n: l) {
+class m<j>k i<g : g, e : f k(f: l) {
 }
 i(())
-class a {
-    typealias b = b
-}
-({})
-}
-clas C
+class h {
+    typealias g = g

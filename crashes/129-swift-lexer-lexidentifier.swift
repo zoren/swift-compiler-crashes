@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T>() -> (T -> T) -> T {
- T, T -> T) ->)func prefix(with: String) -> <T>(() -> T) -> String {
+func c<e>() -> (e -> e) -> e {
+ e, e -> e) ->)func d(f: b) -> <e>(() -> e) -> b {
   return { g in}

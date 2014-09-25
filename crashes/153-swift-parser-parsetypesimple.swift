@@ -2,13 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-({})
-func prefix(with: String) -> <T>(() -> T) -> String { func b
-clanType, Bool) -> Bool {
-)
-}
-strs d 
-    typealias b> : b {
-    typealias d = h
-    typealias e = a<c<h>, d>
+func i(f: g) -> <j>(() -> j) -> g { func g
+k, l {
+    typealias l = m<k<m>, f>
 }

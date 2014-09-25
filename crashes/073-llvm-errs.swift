@@ -2,154 +2,110 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A {
-    func c() -> String
-}
-class B {
-    func d() -> String {
-        return ""
-    }
-}
-class C: B, A {
-    override func d() -> String {
-        return ""
-    }
-    func c() -> String {
-        return ""
-    }
-}
-func e<T where T: A, T: B>(t: T) {
-    t.c()
-ome<S: SequenceType, T where Optional<T> == S.Generator.Element>(xs : S) -> T? {
-    for (mx : T?) in xs {
-        if let x = mx {
-            return x
-        }
-    }
-    return nil
-}
-let xs : [Int?] = [nil, 4, nil]
-println(some(xs))
-func ^(a: BooleanType, Bool) -> Bool {
-    return !(a)
-}
-f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+func kj<ts>() -> (ts, ts -> ts) -> ts {
+   nm ml nm.p = {
 }
  {
-   g) {
-        h  }
+   ts) {
+        ji  }
 }
-protocol f {
-   class func i()
+protocol kj {
+   class func p()
 }
-class d: f{  class func i {}
-enum S<T> {
-    case C(T, () -> ())
+class nm: kj{  class func p {}
+x nm<q> {
+    hg ts(q, () -> ())
 }
-var x1 = 1
-var f1: Int -> Int = {
-    return $0
+dc ji = po
+dc qp: m -> m = {
+    cb $w
 }
-let succeeds: Int = { (x: Int, f: Int -> Int) -> Int in
-    return f(x)
-}(x1, f1)
-let crashes: Int = { x, f in
-    return f(x)
-}(x1, f1)
+let e: m = { (c: m, kj: m -> m) -> m on
+    cb kj(c)
+}(ji, qp)
+let u: m = { c, kj on
+    cb kj(c)
+}(ji, qp)
 class c {
-    func b((Any, c))(a: (Any, AnyObject)) {
-        b(a)
+    func hg((r, c))(rq: (r, y)) {
+        hg(rq)
     }
 }
-protocol a {
-  typealias d
-  typealias e = d
-  typealias f = d
+protocol rq hg<ji : c, p : c ih ji.ts == p> : rq {
 }
-class b<h : c, i : c where h.g == i> : a {
-}
-class b<h, i> {
+class hg<ji, p> {
 }
 protocol c {
-    typealias g
+    o ts
 }
-protocol a {
+protocol rq {
 }
-protocol b : a {
+protocol hg : rq {
 }
-protocol c : a {
+protocol c : rq {
 }
-protocol d {
-  typealias f = a
+protocol nm {
+  o kj = rq
 }
-struct e : d {
-  typealias f = b
+gf e : nm {
+  o kj = hg
 }
-func i<j : b, k : d where k.f == j> (n: k) {
+func p<ml : hg, ml : nm ih ml.kj == ml> (cb: ml) {
 }
-func i<l : d where l.f == c> (n: l) {
+func p<v : nm ih v.kj == c> (cb: v) {
 }
-i(e())
-func c<d {
-    enum c {
+p(e())
+func c<nm {
+    x c {
         func e
-        var _ = e
+        dc _ = e
     }
 }
-protocol A {
+protocol kj {
 }
-struct B : A {
+gf v : kj {
 }
-struct C<D, E: A where D.C == E> {
+gf ts<hg, p: kj ih hg.ts == p> {
 }
-struct c<d : SequenceType> {
-    var b: d
+gf c<nm : ut> {
+    dc hg: nm
 }
-func a<d>() -> [c<d>] {
-    return []
+func rq<nm>() -> [c<nm>] {
+    cb []
 }
-protocol A {
-    typealias B
-    func b(B)
+protocol kj {
+    o v
+    func hg(v)
 }
-struct X<Y> : A {
-    func b(b: X.Type) {
+gf rq<Y> : kj {
+    func hg(hg: rq.lk) {
     }
 }
-class a<f : b, g : b where f.d == g> {
+class rq<kj : hg, ts : hg ih kj.nm == ts> {
 }
-protocol b {
-    typealias d 
-    typealias e
-pealias e = a<c<h>, d>
+protocol hg {
+    o nm
+    o e
+fe e = rq<c<ji>, nm>
 }
-protocol a {
+protocol rq {
     class func c()
 }
-class b: a {
+class hg: rq {
     class func c() { }
 }
-(b() as a).dynamicType.c()
-func prefix(with: String) -> <T>(() -> T) -> String {
-  return { g in "\(with): \(g())" }
+(hg() s rq).t.c()
+func sr(ed: ml) -> <q>(() -> q) -> ml {
+  cb { ts on "\(ed): \(ts())" }
 }
-struct A<T> {
-    let a: [(T, () -> ())] = []
+gf kj<q> {
+    let rq: [(q, () -> ())] = []
 }
-func a<T>() {
-    enum b {
-        case c
+func() {
+    x hg {
+        hg c
     }
 }
-func a(b: Int = 0) {
+func rq(hg: m = w) {
 }
-let c = a
-c()
-class A: A {
-}
-class B : C {
-}
-typealias C = B
+let c = rq

@@ -2,30 +2,22 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol a {
-    class func c()
+class m: f {
+    j h) {
 }
-class b: a {
-    c T) {
-}
-f(true as BooleanType)
-func f() {
+j(n k i)
+func j() {
     ({})
 }
-import Foundation
-class Foo<T>:     1)
-func c<d {
-    enum c {
-        func e
-        var _ = e
+m l
+class o<h>:     g)
+func j<d {
+    enum j {
+        func m
+        var _ = m
     }
 }
-struct c<d : SequenceType> {
-    var b: d
+struct j<d : Sequencpe> {
+    var m: d
 }
-func a<d>() -> [c<d>] {
-    return []
-}
-a=1 as a=1
-func some<S: SequenceType, T where Optional<T> return !(a)
-}
+func f<d>() -> [j<d>] {

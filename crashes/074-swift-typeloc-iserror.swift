@@ -2,205 +2,90 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+func q<dc>() -> (dc, dc -> dc) -> dc {
+   t m t.w = {
 }
  {
-   g) {
-        h  }
+   dc) {
+        k  }
 }
-protocol f {
-   class func i()
+protocol q {
+   class func w()
 }
-class d: f{  class func i {}
+class t: q{  class func w {}
 protocol A {
-    typealias B
-    func b(B)
+    typealias r
+    func b(r)
 }
-struct X<Y> : A {
-    func b(b: X.Type) {
+struct X<k> : A {
+    func b(b: X.s) {
     }
 }
 ({})
-import Foundation
-class Foo<T>: NSObject {
-    var foo: T
-    init(foo: T) {
-        self.foo = foo
-        super.init()
+b w
+class ed<x>: NSObject {
+    dc m: x
+    y(m: x) {
+        self.m = m
+        a.y()
     }
 }
-struct A<T> {
-    let a: [(T, () -> ())] = []
+struct A<x> {
+    n v: [(x, () -> ())] = []
 }
-struct d<f : e, g: e where g.h == f.h> {
+struct t<q : m, dc: m where dc.k == q.k> {
 }
-protocol e {
-    typealias h
+protocol m {
+    typealias k
 }
-struct c<d : SequenceType> {
-    var b: d
+struct dc<t : fe> {
+    dc b: t
 }
-func a<d>() -> [c<d>] {
-    return []
+func v<t>() -> [dc<t>] {
+    u []
 }
-protocol a {
-  typealias d
-  typealias e = d
-  typealias f = d
+protocol v {
+  typealias t
+  typealias m = t
+  typealias q = t
 }
-class b<h : c, i : c where h.g == i> : a {
+class b<k : dc, w : dc where k.dc == w> : v {
 }
-class b<h, i> {
+class b<k, w> {
 }
-protocol c {
-    typealias g
+protocol dc {
+    typealias dc
 }
-a=1 as a=1
+v=b cb v=b
 class A: A {
 }
-class B : C {
+class r : C {
 }
-typealias C = B
-func ^(a: BooleanType, Bool) -> Bool {
-    return !(a)
+typealias C = r
+func ^(v: q, o) -> o {
+    u !(v)
 }
-class a<f : b, g : b where f.d == g> {
-}
-protocol b {
-    typealias d 
-    typealias e
-}
-struct c<h : b> : b {
-    typealias d = h
-    typealias e = a<c<h>, d>
-}
-func f<T : BooleanType>(b: T) {
-}
-f(true as BooleanType)
-protocol A {
-    typealias B
-}
-class C<D> {
-    init <A: A where A.B == D>(e: A.B) {
-    }
-}
-protocol A {
-    func c() -> String
-}
-class B {
-    func d() -> String {
-        return ""
-    }
-}
-class C: B, A {
-    override func d() -> String {
-        return ""
-    }
-    func c() -> String {
-        return ""
-    }
-}
-func e<T where T: A, T: B>(t: T) {
-    t.c()
-}
-func i(c: () -> ()) {
-}
-class a {
-    var _ = i() {
-    }
-}
-enum S<T> {
-    case C(T, () -> ())
-}
-class a {
-    typealias b = b
-}
-protocol A {
-}
-struct B : A {
-}
-struct C<D, E: A where D.C == E> {
+class v<q : b, dc : b where q.t == dc> {
 }
 protocol b {
-    class func e()
+    typealias t
+    typealias m
 }
-struct c {
-    var d: b.Type
-    func e() {
-        d.e()
+struct dc<k : b> : b {
+    typealias t = k
+    t   func dc() -> l
+}
+class r {
+    func t() -> l {
+        u ""
     }
 }
-func c<d {
-    enum c {
-        func e
-        var _ = e
+class C: r, A {
+    p func t() -> l {
+        u ""
+    }
+    func {
+        u ""
     }
 }
-protocol a {
-    class func c()
-}
-class b: a {
-    class func c() { }
-}
-(b() as a).dyprefix(with: String) -> <T>(() -> T) -> String {
-  return { g in "\(with): \(g())" }
-}
-func a<T>() {
-    enum b {
-        case c
-    }
-}
-b
-protocol c : b { func b
-protocol a {
-}
-protocol b : a {
-}
-protocol c : a {
-}
-protocol d {
-  typealias f = a
-}
-struct e : d {
-  typealias f = b
-}
-func i<j : b, k : d where k.f == j> (n: k) {
-}
-func i<l : d where l.f == c> (n: l) {
-}
-i(e())
-var x1 = 1
-var f1: Int -> Int = {
-    return $0
-}
-let succeeds: Int = { (x: Int, f: Int -> Int) -> Int in
-    return f(x)
-}(x1, f1)
-let crashes: Int = { x, f in
-    return f(x)
-}(x1, f1)
-class c {
-    func b((Any, c))(a: (Any, AnyObject)) {
-        b(a)
-    }
-}
-func a(b: Int = 0) {
-}
-let c = a
-c()
-func f() {
-    ({})
-}
-func some<S: SequenceType, T where Optional<T> == S.Generator.Element>(xs : S) -> T? {
-    for (mx : T?) in xs {
-        if let x = mx {
-            return x
-        }
-    }
-    return nil
-}
-let xs : [Int?] = [nil, 4, nil]
-println(some(xs))
+func m<x where x: A, x: r

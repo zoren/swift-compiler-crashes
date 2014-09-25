@@ -2,67 +2,32 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+func m<u>() -> (u, u -> u) -> u {
+   p o p.s = {
 }
  {
-   g) {
-        h  }
+   u) {
+        o  }
 }
-protocol f {
-   class func i()
+s m {
+   class func s()
 }
-class d: f{  class func i {}
-protocol A {
-    func c() -> String
+class p: m{  class func s {}
+s p {
+    func m() -> String
 }
-class B {
-    func d() -> String {
-        return ""
+class n {
+    func p() -> String {
+        q ""
     }
 }
-class C: B, A {
-    override func d() -> String {
-        return ""
+class e: n, p {
+    v func> String {
+        q ""
     }
-    func c() -> String {
-        return ""
-    }
+ {
+  r m = m
 }
-func e<T where T: A, T: B>(t: T) {
-    t.c()
+func s<o : m, o : p o o.m == o> (m: o) {
 }
-func i(c: () -> ()) {
-}
-class a {
-    var _ = i() {
-    }
-}
-struct A<T> {
-    let a: [(T, () -> ())] = []
-}
-protocol a  C<D, E: A where D.C == E> {
-}
-func ^(a: BooleanType, Bool) -> Bool {
-    return !(a)
-}
-({})
-protocol a {
-}
-protocol b : a {
-}
-protocol c : a {
-}
-protocol d {
-  typealias f = a
-}
-struct e : d {
-  typealias f = b
-}
-func i<j : b, k : d where k.f == j> (n: k) {
-}
-func i<l : d where l.f == c> (nith: String) -> <T>(() -> T) -> String {
-  return { g in "\(with): \(g())" }
-}
+func s<v : p o v.m == m> (u: String) -> <t>(() -> t) -

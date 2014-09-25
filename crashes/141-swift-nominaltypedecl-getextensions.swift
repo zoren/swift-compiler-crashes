@@ -3,49 +3,28 @@
 // Test case found by fuzzing
 
 protocol A {
-    func c()lass B {
-    func d() -> String {
-        return ""
+    func c()l k {
+    func l() -> g {
+        m ""
     }
 }
-class C: B, A {
-    override func d() -> String {
-        return ""
-    }
-    func c() -> String {
-        return ""
+class C: k, A {
+    j func l()q c() -> g {
+        m ""
     }
 }
-func e<T where T: A, T: B>(t: T) {
-    t.c()
+func e<r where r: A, r: k>(n: r) {
+    n.c()
 }
 protocol A {
-    typealias E
-}
-struct B<T : A> {
-    let h: T
-    let i: T.E
-}
-protocol C {
-    typealia func g<T where T.E == F>(f      d.e()
-    }
-}
-class a {
-    typealias b = b
-}
-struct d<f : e, g: e where g.h == f.h> {
-}
-protocol e {
     typealias h
 }
-class a<f : b, g : b where f.d == g> {
+c k<r : A> {
+    p f: r
+    p p: r.h
 }
-protocol b {
-    typealias d 
-    typealias e
+protocol C      l.e()
+    }
 }
-struct c<h : b> : b {
-    d>
- = 0) {
-}
-let c
+class o {
+    typealias l = l

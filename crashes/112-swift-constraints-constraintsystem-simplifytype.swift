@@ -2,26 +2,19 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol a : a {
+o
 }
-protocol a {
-  typealias d
-  typealias e = d
-  typealias f = d
+class f<p : k, p : k where p.n == p> : n {
 }
-class b<h : c, i : c where h.g == i> : a {
+class f<p, p> {
 }
-class b<h, i> {
+protocol k {
+    typealias n
 }
-protocol c {
-    typealias g
+o: i where k.j == f> {l func k() { }
 }
-f: A where D.C == E> {s func c() { }
-}
-(b() as a).dynamicType.c()
-func c<d {
-    enum c {
-        func e
-        var _ = e
-    }
-}
+(f() as n).m.k()
+func k<o {
+    enum k {
+        func o
+        var _ = o

@@ -2,42 +2,26 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol a {
-    class func c()
+protocol p {
+    class func g()
 }
-class b: a {
-    class func c() { }
+class h: p {
+    class func g() { }
 }
-(b() as a).dynamicType.c()
-protocol a {
+(h() as p).dynamicType.g()
+protocol p {
 }
-protocol b : a {
+protocol h : p {
 }
-protocol c : a {
+protocol g : p {
 }
-protocol d {
-  typealias f = a
+protocol n {
+  o t = p
 }
-struct e : d {
-  type : d where k.f == j> (n: k) {
+struct h : n {
+  t : n q m.t == m> (h: m) {
 }
-func i<l : d where l.f == c> (n: l) {
+func q<t : n q t.t == g> (h: t) {
 }
-i(e())
-func prefix(with: String) -> <T>(() -> T) -> String {ealias g
-}
-protocol a : a {
-}
-func ^(a: BooleanType, Bool) -> Bool {
-    re {}
-protocol A ing {
-        return ""
-    }
-}
-class C: B, A {
-    over ""
-    }
-}
-func e<T where T: A, T: B>(t: T) {
-    t.c()
-}
+q(h())
+func r(g: m) -> <s>(() -> s) -> n

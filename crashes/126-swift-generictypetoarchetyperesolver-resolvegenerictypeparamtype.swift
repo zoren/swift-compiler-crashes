@@ -2,43 +2,33 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+func f<r>() -> (r, r -> r) -> r {
+   f r f.j = {
 }
  {
-   g) {
-        h  }
+   r) {
+        s  }
 }
 protocol f {
-   class func i()
+   class func j()
 }
-class d: f{  class func i {}
-protocol a {
-    class func c()
+class f: f{  class func j {}
+protocol j {
+    class func m()
 }
-class b: a {
-    class func c() { }
+class r: j {
+    class func m() { }
 }
-(b() as a).dynamicType.c()
-a=1 as a=1
-protocol b {
-    class func e()
+(r() n j).p.m()
+j=k n j=k
+protocol r {
+    class func q()
 }
-struct c {
-    var d: b.Type
-    func e() {
-        d.e()
+s m {
+    m f: r.q
+    func q() {
+        f.q()
     }
-(T, () -> ())
+(l, () -> ())
 }
-func f<T : BooleanType>(b: T) {
-}
-f(true as BooleanType)
-func a(b: Int = 0) {
-y) -> Any in
-        return p
-    })
-}
-b(a(1, a(2, 3)))
+func f<l : o>(r: l)

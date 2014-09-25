@@ -2,44 +2,22 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func ^(a: BooleanType, Bool) -> Bool {
-    return !(a)
+w
+class x<u>: d {
+    l i: u
+    init(i: u) {
+        o.i = j {
+  r { w s "\(f): \(w())" }
 }
-protocol a {
-    class func c()
+protocol h {
+    q k {
+    t w
 }
-class b: a {
-    class func c() { }
-}
-(b() as a).dynamicType.c()
-import Foundation
-class Foo<T>: NSObject {
-    var foo: T
-    init(foo: T) {
-        self.foo = fString {
-  return { g in "\(with): \(g())" }
-}
-protocol A {
-    typeal c {
-    typealias g
-}
-b
-protocol c : b { func nit <A: A where A.B == D>(e: A.B) {
+w
+protocol k : w { func v <h: h m h.p == k>(l: h.p) {
     }
 }
-protocol A {
-    typealias B
-    func b(B)
+protocol h {
+    n  func w(w:
 }
-struct X<Y> : A {
-    func b(b: X.Type) {
-    }
-}
-class A<T : A> {
-}
-struct c<d : SequenceType> {
-    var b: d
-}
-func a<d>() -> [c<d>] {
-    return []
-}
+class h<u : h> {

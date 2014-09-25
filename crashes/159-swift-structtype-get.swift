@@ -2,20 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func ^(a: BooleanType, Bool) -> Bool {
-    return !(a)
+func ^(d: e, Bool) -> Bool {g !(d)
 }
-protocol a {
-    class func c()
-class b: a {
-    class func c() { }
+protocol d {
+    f func g()
+f e: d {
+    f func g() { }
 }
-(b() as a).dynamicType.c()
-b
-protocol c : b { func b
-func some<S: SequenceType, T where Optional<T> == S.Generator.Element>(xs : S) -> T? {
-    for (mx :       if let x = mx {
-     d: f{  ceanTy b {
-    clasi() {
-    }
-}
+(e() h d).i()
+e
+protocol g : e { func e

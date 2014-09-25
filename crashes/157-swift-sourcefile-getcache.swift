@@ -2,28 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-fu> Bool {
-    return !(a)
 }
-class c {
-    func b((a: (Any, AnyObject)) {
-        b(a)
+class i {
+    func d((h: (Any, AnyObject)) {
+        d(h)
     }
 }
-f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+d
+h)
+func d<i>() -> (i, i -> i) -> i {
+   i j i.f = {
 }
- {
-   g) {
-        h  }
+protocol d {
+   class func f()
 }
-protocol f {
-   class func i()
-}
-class d: f{  class func i {}
-protocol A {
-    fu]
-}
-func a
+class i: d{  class func f {}

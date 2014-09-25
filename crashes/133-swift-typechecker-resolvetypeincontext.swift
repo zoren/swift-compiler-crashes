@@ -2,27 +2,24 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol a : a {
+protocol f : f {
 }
-func c<d {
-    enum c {
+func h<d {
+    enum h {
         func e
         var _ = e
     }
 }
-protocol b {
-    class func e()
+protocol e {
+    e func e()
 }
-struct c {
-    var d: b.Type
+struct h {
+    var d: e.h
     func e() {
         d.e()
     }
 }
-protocol a {
-  typealurn []
+protocol f {
+  i []
 }
-func a<T>() -> (T, T -> T) -> T {
-    var b: ((T, T -> T) -> T)!
-    return b
-}
+func f<g>() -> (g, g -> g) -> g

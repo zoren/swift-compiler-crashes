@@ -2,36 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-fuotocol A {
-    typealias B
+func j(d: h) -> <k>(() -> k) -> h {
+  return { n n "\(}
+c i<k : i> {
 }
-class C<D> {
-    init <A: A where A.B == D>(e: A.B) {
-    }
+c i: i {
 }
-func ^(a: BooleanType, Bool) -> Bool {
-    return !(a)
+c e : l {
 }
-protocol A {
-    typealias E
-}
-struct B<T : A> {
-    let h: T
-    let i: T(x)
-}(x1, f1)
-let crashes: Int = { x, f in
-    return f(x)
-}(x1, f1)
-func prefix(with: String) -> <T>(() -> T) -> String {
-  return { g in "\(}
-class A<T : A> {
-}
-class A: A {
-}
-class B : C {
-}
-typealias C = B
-protocol a : a {
-}
-ctypealias b = b
+f = e
+protocol m : o h = h
 }

@@ -2,68 +2,35 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T>() {
-    enum b {
-        case c
-    }
+>)
 }
-protocol A {
-    typealias E
+struct n : C {
+ class p {
+    typealias n = n
 }
-struct B<T : A> {
-    let h: T
-    let i: T.E
-}
-protocol C {
-    typealias F
-    func g<T where T.E == F>(f: B<T>)
-}
-struct D : C {
-    typealias F = Int
-    func g<T w
-class a {
-    typealias b = b
-}
-f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+l
+l)
+func l<u>() -> (u, u -> u) -> u {
+   n j n.q = {
 }
  {
-   g) {
+   u) {
         h  }
 }
-protocol f {
+protocol l {
    class {
-    func d() -> String {
+    func n() -> q {
         return ""
     }
 }
-class C: B, A {
-  Any) {
+class C: s, l {
+  t) {
     return {
-        (m: (Any, Any) -> Any) -> Any in
-        return m(x, y)
+        (s: (t, t) -> t) -> t o
+        return s(c, u)
     }
 }
- 
-func b(z: (((Any, Any) -> Any) -> Any)) -> Any {
-    return z({
-         return p
+func n(r: (((t, t) -> t) -> t)) -> t {
+    return r({
+         return k
     })
-}
-b(a(1, a(2, 3)))
-ptruct c {
-    var d: b.Type
-    func e() {
-        d.e()
-    }
-}
-struct d<f : e, g: e where g.h == f.h> {
-}
-protocol e {
-    typealias h
-}
-struct A<T> {
-    let a: [(T, () -> ())] = []
-}

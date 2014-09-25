@@ -2,39 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol b {
-    class func e()
-}
-st Int -> Int = {
-    return $0
-}
-let succeeds: Int = { (x: Int, f: Int -> Int) -> Int in
-    return f(x)
-}(x1, f1)
-let crashes: Int = { x, f in
-    return f(x)
-}(x1, f1)
+i)
 import Foundation
-class Foo<T>: NSObject {
-    var foo: T
-    ininc ^(a: BooleanType, Bool) -> Bool {
-    return !(a)
+class q<k>: NSObject {
+    var j: k
+    e ^(l: m, h) -> h {
+    f !(l)
 }
-protocol a {
-    class func c()
+protocol l {
+ d g n()
 }
-class b: a {
-    class func c() { }
+class h: l {
+    class g n() { }
 }
-(b() as a).dynamicType.c()
-class a<f : b, g : b where f.d == g> {
-}
-protocol b {
-    typealias d 
-    typealias e
-}
-struct c<h : b> : b {
-  = c> (n: l) {
-}
-i(e())
-funcBooleanType)
+(h() o l).p.n()
+class l<n : h,

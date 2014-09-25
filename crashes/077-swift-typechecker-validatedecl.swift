@@ -2,20 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class c {
-    func b((Any, c))(a }
+class k {
+    func l((Any, k))(m }
 }
-func some<S: Sequen: Int -> Int = {
-   
+func j<f: l: e -> e = {
  {
-   g) {
-        h  }
+   l) {
+      m  }
 }
-protocol f {
-   class func i()
+protocol k {
+   class func j()
 }
-class d: f{  class func i {}[]
-}
-potoco: a {
-}
-pr
+class e: k{  class func j

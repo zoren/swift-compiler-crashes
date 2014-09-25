@@ -2,10 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protos B
-    func b(B)
+f> {
+ c(d ())
 }
-st> {
- C(T ())
-}
-func prefix(with: String) -> <T>(() -> T)() {
+func b(e)-> <d>(() -> d)

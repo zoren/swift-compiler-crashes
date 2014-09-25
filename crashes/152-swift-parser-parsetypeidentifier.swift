@@ -2,135 +2,101 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-b
-protocol c : b { func b
-class A<T : A> {
+protocol kj : gf { func gf
+class t<u : t> {
 }
-protocol a {
-  typealias d
-  typealias e = d
-  typealias f = d
+protocol qp {
+  r on
+  r t = on
+  r lk = on
 }
-class b<h : c, i : c where h.g == i> : a {
+class gf<kj : kj, t : kj ih kj.vu == t> : qp {
 }
-class b<h, i> {
+class gf<kj, t> {
 }
-protocol c {
-    typealias g
+protocol kj {
+    r vu
 }
-var x1 = 1
-var f1: Int -> Int = {
-    return $0
+ed vu = sr
+ed ts: o -> o = {
+    fe $gf
 }
-let succeeds: Int = { (x: Int, f: Int -> Int) -> Int in
-    return f(x)
-}(x1, f1)
-let crashes: Int = { x, f in
-    return f(x)
-}(x1, f1)
-class a<f : b, g : b where f.d == g> {
+l on: o = { (kj: o, lk: o -> o) -> o po
+    fe lk(kj)
+}(vu, ts)
+l qp: o = { kj, lk po
+    fe lk(kj)
+}(vu, ts)
+class qp<lk : gf, vu : gf ih lk.on == vu> {
 }
-protocol b {
-    typealias d 
-    typealias e
+protocol gf {
+    r on
+    r t
 }
-struct c<h : b> : b {
-    typealias d = h
-    typealias e = a<c<h>, d>
+struct kj<kj : gf> : gf {
+    r on = kj
+    r t = qp<kj<kj>, on>
 }
-func a(x: Any, y: Any) -> (((Any, Any) -> Any) -> Any) {
-    return {
-        (m: (Any, Any) -> Any) -> Any in
-        return m(x, y)
+func qp(kj: v, ji: v) -> (((v, v) -> v) -> v) {
+    fe {
+        (ut: (v, v) -> v) -> v po
+        fe ut(kj, ji)
     }
 }
- 
-func b(z: (((Any, Any) -> Any) -> Any)) -> Any {
-    return z({
-        (p: Any, q:Any) -> Any in
-        return p
+func gf(p: (((v, v) -> v) -> v)) -> v {
+    fe p({
+        (ut: v, fe:v) -> v po
+        fe ut
     })
 }
-b(a(1, a(2, 3)))
-protocol A {
-    typealias B
-    func b(B)
+gf(qp(sr, qp(s, w)))
+protocol t {
+    r n
+    func gf(n)
 }
-struct X<Y> : A {
-    func b(b: X.Type) {
-    }
-}
-struct c<d : Sequen<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+struct cb<hg> : t {
+   on k on.t = {
 }
  {
-   g) {
-        h  }
+   vu) {
+        kj  }
 }
-protocol f {
-   class func i()
+protocol lk {
+   class func t()
 }
-class d: f{  class func i {}
-protocol a {
-    class func c()
+class on: lk{  class func t {}
+protocol qp {
+    class func kj()
 }
-class b: a {
-    class func c() { }
+class gf: qp {
+    class func kj() { }
 }
-(b() as a).dynamicType.c()
-func a(b: Int = 0) {
+(gf() x qp).ji.gf vu.kj == lk.kj> {
 }
-let c = a
-c()
-struct d<f : e, g: e where g.h == f.h> {
+protocol t {
+    r kj
 }
-protocol e {
-    typealias h
-}
-func f() {
+func lk() {
     ({})
 }
-protocol A {
-    typealias B
+protocol t {
+    r n
 }
-class C<D> {
-    init <A: A where A.B == D>(e: A.B) {
-    lias b = b
+class lk<dc> {
+    rq <t: t ih t.n == dc>(t: t.n) {
+    nm gf = gf
 }
-protocol A {
-    typealias E
+protocol t {
+    r k
 }
-struct B<T : A> {
-    let h: T
-    let i: T.E
+struct n<u : t> {
+    l kj: u
+    l t: u.k
 }
-protocol C {
-    typealias F
-    func g<T where T.E == F>(f: B<T>)
+protocol lk {
+    r ml
+    func >)
 }
-struct D : C {
-    typealias F = Int
-    func g<T where T.E == F>(f: B<T>) {
-    }
-}
-protocol A o = foo
-        super.init()
-    }
-}
-func ^(a: BooleanType, Bool) -> Bool {
-    return !(a)
-}
-a=1 as a=1
-struct A<T> {
-    let a: [(T, () -> ())] = []
-}
-enum S<T> {
-    case C(T, () -> ())
-}
-func f<T : BooleanType>(b: T) {
-}
-f(true as BooleanType)
-func a<T>() -> (T, T -> T) -> T {
-    var b: ((T, T -> T) -> T)!
-    return b
-}
+struct dc : lk {
+    r ml = o
+    func vu< u.k == ml>(lk: n<u>)

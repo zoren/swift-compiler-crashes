@@ -2,5 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class c {
-    func b((Any, c))(a: (Any) -> <T>(() -> T) -> Sunc b(las
+func b((Any, e))(e: (Any) -> <d>(()-> d) -> f

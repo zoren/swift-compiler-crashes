@@ -3,17 +3,14 @@
 // Test case found by fuzzing
 
 import Foundation
-class Foo<T>: NSObject {
-    var foo: T
- = 1
-var f1: Int -> Int = return $0
+class m<j>: NSObject {
+    var h: j
+ g -> k = l $n
 }
-let succeeds: Intr _ = i() {
+b f:  _ = j() {
     }
 }
-func c<d {
-    enum c {
-        func e
-        var _ = e
-    }
-}
+func k<g {
+    enum k {
+        func l
+    var _ = l
