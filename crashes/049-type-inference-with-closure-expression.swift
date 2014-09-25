@@ -1,15 +1,10 @@
 // Distributed under the terms of the MIT license
 // Test case submitted to project by https://github.com/rnapier (Rob Napier)
 
-var x1 = 1
-var f1: Int -> Int = {
+var f = 1
+var e: Int -> Int = {
     return $0
 }
 
-let succeeds: Int = { (x: Int, f: Int -> Int) -> Int in
-    return f(x)
-}(x1, f1)
-
-let crashes: Int = { x, f in
-    return f(x)
-}(x1, f1)
+let d: Int =  { c, b in
+}(f, e)

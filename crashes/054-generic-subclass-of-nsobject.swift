@@ -4,10 +4,9 @@
 
 import Foundation
 
-class Foo<T>: NSObject {
-    var foo: T
-    init(foo: T) {
-        self.foo = foo
-        super.init()
-    }
+class d<c>: NSObject {
+    var b: c
+    init(b: c) {
+        self.b = b
+   }
 }
