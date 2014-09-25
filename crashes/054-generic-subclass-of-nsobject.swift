@@ -3,7 +3,6 @@
 // http://www.openradar.me/18349699
 
 import Foundation
-
 class d<c>: NSObject {
     var b: c
     init(b: c) {

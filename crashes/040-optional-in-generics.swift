@@ -6,4 +6,3 @@ func d<b: SequenceType, e where Optional<e> == b.Generator.Element>(c : b) -> e?
     for (mx : e?) in c {
     }
 }
-

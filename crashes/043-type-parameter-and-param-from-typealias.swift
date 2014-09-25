@@ -4,7 +4,6 @@
 protocol A {
     typealias B
 }
-
 class C<D> {
     init <A: A where A.B == D>(e: A.B) {
     }

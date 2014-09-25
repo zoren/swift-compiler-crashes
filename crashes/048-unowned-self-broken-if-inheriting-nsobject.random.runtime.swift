@@ -4,14 +4,12 @@
 // https://gist.github.com/lerno/4cb4568c53045aafb66e
 
 import Foundation
-
 class A : NSObject {
     var c: (()->Bool)?
     deinit {
         println("A")
     }
 }
-
 class B : NSObject {
     var d = A()
     override init() {
@@ -23,7 +21,6 @@ class B : NSObject {
         }
     }
 }
-
 var e: B? = B()
 var f: A? = e!.d
 e = nil

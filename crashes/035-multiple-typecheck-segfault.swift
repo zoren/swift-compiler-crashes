@@ -7,13 +7,10 @@ protocol a {
   typealias e = d
   typealias f = d
 }
-
 class b<h : c, i : c where h.g == i> : a {
 }
-
 class b<h, i> {
 }
-
 protocol c {
     typealias g
 }
