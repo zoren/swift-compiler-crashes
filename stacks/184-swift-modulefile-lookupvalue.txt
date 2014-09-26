@@ -1,0 +1,22 @@
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+3  swift                    swift::ModuleFile::lookupValue(swift::DeclName, llvm::SmallVectorImpl<swift::ValueDecl*>&) + 1472
+4  swift                    foldSequence(swift::TypeChecker&, swift::DeclContext*, swift::Expr*, llvm::ArrayRef<swift::Expr*>&, unsigned int) + 424
+5  swift                    foldSequence(swift::TypeChecker&, swift::DeclContext*, swift::Expr*, llvm::ArrayRef<swift::Expr*>&, unsigned int) + 384
+6  swift                    swift::TypeChecker::foldSequence(swift::SequenceExpr*, swift::DeclContext*) + 48
+7  swift                    (anonymous namespace)::PreCheckExpression::walkToExprPost(swift::Expr*) + 61
+8  swift                    swift::Expr::walk(swift::ASTWalker&) + 76
+9  swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 160
+10 swift                    swift::TypeChecker::typeCheckBinding(swift::PatternBindingDecl*) + 162
+11 swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 562
+12 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 229
+13 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 112
+14 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 473
+15 swift                    swift::TypeChecker::typeCheckTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 136
+16 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1496
+17 swift                    swift::CompilerInstance::performSema() + 2060
+18 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+19 swift                    main + 1677
+20 libdyld.dylib            start + 1
+21 libdyld.dylib            start + [N]
