@@ -244,6 +244,7 @@ run_tests_in_directory() {
 main() {
   if [[ ${argument_files} == "" ]]; then
     run_tests_in_directory "Currently known crashes" "./crashes"
+    run_tests_in_directory "Currently known crashes (crashes found by fuzzing)" "./crashes-fuzzing"
     run_tests_in_directory "Crashes marked as fixed in previous releases" "./fixed"
   else
     for test_path in ${argument_files}; do
