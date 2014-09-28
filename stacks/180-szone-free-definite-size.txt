@@ -51,3 +51,4 @@
 50 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 51 swift                    main + 1677
 52 libdyld.dylib            start + 1
+53 libdyld.dylib            start + [N]

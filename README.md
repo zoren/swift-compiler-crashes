@@ -36,7 +36,6 @@ Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
   ✘  017 llvm foldingset llvm attributesetnode nodeequals         (b720651eb1)
   ✘  018 swift irgen emitpolymorphicarguments                     (48d4d5aa46)
   ✘  019 llvm instvisitor                                         (c302f5e9b6)
-  ✘  020 swift typechecker conformstoprotocol                     (d12bb237e1)
   ✘  021 swift type walk                                          (d1c5687ac9)
   ✘  022 no stacktrace                                            (          )
   ✘  023 getcallerdefaultarg                                      (a7c37d56e1)
@@ -61,13 +60,18 @@ Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
   ✘  053 std function func swift type subst                       (0e57995d5f)
   ✘  054 swift substitutedtype get                                (958c6cc4fe)
   ✘  055 no stacktrace                                            (          )
+  ✘  061 visit any struct type                                    (0678945e0c)
+  ✘  226 swift lowering silgenfunction emitcurrythunk             (54cbb074a6)
+
+== Currently known crashes (crashes found by fuzzing) ==
+
+  ✘  020 swift typechecker conformstoprotocol                     (d12bb237e1)
   ✘  056 addminimumprotocols                                      (8d8bbca2e1)
   ✘  057 get type of member reference                             (b0ac16a581)
   ✘  058 get self type for container                              (e32993f066)
   ✘  059 fold sequence                                            (8f161d068c)
   ✘  060 adjust function type                                     (c87676f5e5)
-  ✘  061 visit any struct type                                    (0678945e0c)
-  ✘  062 ioctl (-O)                                               (9a4daf4a38)
+  ✘  062 ioctl                                                    (9a4daf4a38)
   ✘  063 tiny malloc from free list                               (4dd2351397)
   ✘  064 bool                                                     (0b4dd74021)
   ✘  065 cerror                                                   (ffd7efacd1)
@@ -75,7 +79,7 @@ Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
   ✘  067 szone malloc should clear                                (0ad6bafdd2)
   ✘  068 foldsequence                                             (e316c7ef8d)
   ✘  069 swift typevisitor                                        (06374bd03b)
-  ✘  070 getgenericparam                                          (d9cfa2253b)
+  ✘  070 getgenericparam                                          (401c864e36)
   ✘  071 getselftypeforcontainer                                  (b209218a98)
   ✘  072 llvm bitstreamcursor readrecord                          (e0743215d5)
   ✘  073 llvm errs                                                (086c6c09e7)
@@ -83,7 +87,7 @@ Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
   ✘  075 llvm foldingset swift boundgenerictype nodeequals        (59f3edc088)
   ✘  076 llvm foldingset swift constraints constraintlocator node (eaa55e8907)
   ✘  077 swift typechecker validatedecl                           (9cf7b3514f)
-  ✘  078 llvm foldingset swift tupletype nodeequals               (6cd2cb96b3)
+  ✘  078 llvm foldingset swift tupletype nodeequals               (b2708ee016)
   ✘  079 llvm ondiskchainedhashtable swift modulefile decltablein (554026feb4)
   ✘  080 llvm smallvectorimpl swift diagnosticargument operator   (bf83d4a2d5)
   ✘  081 resolvetypedecl                                          (a94baf2fc4)
@@ -149,7 +153,7 @@ Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
   ✘  141 swift nominaltypedecl getextensions                      (e79a4696cf)
   ✘  142 swift nominaltypedecl preparelookuptable                 (472f38ecf6)
   ✘  143 swift parentype get                                      (3e09f8d3c7)
-  ✘  144 swift parser consumetoken                                (f616832a77)
+  ✘  144 swift parser consumetoken                                (b2354cbd53)
   ✘  145 swift parser parsebraceitems                             (a4613909d4)
   ✘  146 swift parser parseexpridentifier                         (d2ffb6eeec)
   ✘  147 swift parser parseexprstringliteral                      (40a11eb90a)
@@ -191,13 +195,13 @@ Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
   ✘  183 swift inflightdiagnostic fixitreplacechars               (4c9fc36437)
   ✘  184 swift modulefile lookupvalue                             (ac44857c78)
   ✘  185 swift completegenerictyperesolver resolvegenerictypepara (6e5f533e74)
-  ✘  186 swift genericsignature profile                           (da74ac6184)
+  ✘  186 swift genericsignature profile                           (306c4a4c6f)
   ✘  187 swift lowering typeconverter getfunctiontypewithcaptures (74ace7808e)
   ✘  188 swift removeshadoweddecls                                (eff51e6eae)
   ✘  189 swift tuplepattern create                                (452f0a7e3a)
   ✘  190 swift constraints constraintgraph unbindtypevariable     (b3669f058e)
   ✘  191 swift astprinter printtextimpl                           (1ca7b9f620)
-  ✘  192 swift astcontext setconformsto (-O)                      (af658d332c)
+  ✘  192 swift astcontext setconformsto                           (af658d332c)
   ✘  193 swift typebase gettypevariables                          (da70c1c2e7)
   ✘  194 swift parser parseexprsequence                           (aa51f89ea3)
   ✘  195 swift namelookup lookupinmodule                          (89f1561c64)
@@ -213,7 +217,7 @@ Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
   ✘  205 swift exprhandle get                                     (811140097a)
   ✘  206 swift type subst                                         (85030486ae)
   ✘  207 swift parser parseexprcallsuffix                         (b3bd945901)
-  ✘  208 swift typebase getanyoptionalobjecttype                  (7c6e9ec3b9)
+  ✘  208 swift typebase getanyoptionalobjecttype                  (6969123665)
   ✘  209 swift parser parseclosuresignatureifpresent              (78ce042c6c)
   ✘  210 swift constraints constraintsystem simplifyconformstocon (0ed1307293)
   ✘  211 swift completegenerictyperesolver resolvedependentmember (6eb999b2d1)
@@ -222,6 +226,16 @@ Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
   ✘  214 swift typebase gettypeofmember                           (b56eff3a1a)
   ✘  215 swift optional swift infixoperatordecl                   (a21a8b3960)
   ✘  216 swift unqualifiedlookup unqualifiedlookup                (13c589e540)
+  ✘  217 swift associatedtypedecl associatedtypedecl              (be30f6e3fe)
+  ✘  218 swift parser parsegenericarguments                       (91a60d11de)
+  ✘  219 swift module isstdlibmodule                              (bea640c4be)
+  ✘  220 llvm foldingsetimpl findnodeorinsertpos                  (6ff58a5dcc)
+  ✘  221 swift constraints constraintgraph removeconstraint       (21633c9d3b)
+  ✘  222 swift modulefile modulefile                              (dd893654c6)
+  ✘  223 swift stringliteralexpr stringliteralexpr                (315edf9ebb)
+  ✘  224 swift generictypeparamtype get                           (3e7ce357cd)
+  ✘  225 swift getbuiltinvaluedecl                                (0ac74483b8)
+  ✘  227 swift clangimporter implementation getknownobjcmethod    (790a81740a)
 
 == Crashes marked as fixed in previous releases ==
 
@@ -241,7 +255,7 @@ Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
   ✓  046 any array containing ints
   ✓  050 protocols with circular typealiases
 
-** Results: 201 of 216 tests crashed the compiler **
+** Results: 212 of 227 tests crashed the compiler **
 
 ```
 

@@ -30,4 +30,5 @@
 29 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 30 swift                    main + 1677
 31 libdyld.dylib            start + 1
-1.	While type-checking 'anonname=0x7f923a833ef8' at ./crashes/208-swift-typebase-getanyoptionalobjecttype.swift:7:8
+32 libdyld.dylib            start + [N]
+While type-checking 'anonname=0x7ff2aa8330f8' at ./crashes-fuzzing/208-swift-typebase-getanyoptionalobjecttype.swift:7:8
