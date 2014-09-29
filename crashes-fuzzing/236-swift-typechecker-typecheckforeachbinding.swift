@@ -13,7 +13,10 @@ protocol p {
 }
 protocol h : p {
 }
-protocol g : p= p
+protocol g : p {
+}
+protocol n {
+  o t = p
 }
 struct h : n {
   t : n q m.t == m> (h: m) {
@@ -22,4 +25,15 @@ func q<t : n q t.t == g> (h: t) {
 }
 q(h())
 func r(g: m) -> <s>(() -> s) -> n
-struct l<e : Sequence    typea
+func m<u>() -> (u, u -> u) -> u {
+   p o p.s = {
+}
+ {
+   u) eturn s(c, u)
+    }
+}
+func n(r:-> t {
+    r})
+func p<p>() -> (p, p -> p) -> p {
+  ) {
+      (e: o,
