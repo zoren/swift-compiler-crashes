@@ -106,12 +106,17 @@ test_file() {
   # Test mode: Compile using swiftc without any optimizations ("-Onone").
   #            Used for test cases named *.swift.
   if [[ ${swift_crash} == 0 ]]; then
-    # shellcheck disable=SC2086
-    output=$(xcrun swiftc -Onone -o /dev/null ${files_to_compile} 2>&1 | strings)
-    if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file) ]]; then
-      swift_crash=1
-      compilation_comment=""
-    fi
+    for _ in {1..10}; do
+      # shellcheck disable=SC2086
+      output=$(xcrun swiftc -Onone -o /dev/null ${files_to_compile} 2>&1 | strings)
+      if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file) ]]; then
+        swift_crash=1
+        compilation_comment=""
+        break
+      elif [[ ! ${files_to_compile} =~ \.random\. ]]; then
+        break
+      fi
+    done
   fi
   # Test mode: Compile using swiftc with optimization option "-O".
   #            Used for test cases named *.swift.
