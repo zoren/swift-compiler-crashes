@@ -1,7 +1,7 @@
 import Foundation
 
 extension NSSet {
-    convenience init(array: Array) {
+    convenience init<T>(array: Array<T>) {
         self.init()
     }
 }
