@@ -1,0 +1,17 @@
+0  swift                    0x000000010c905f68 llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    0x000000010c906454 SignalHandler(int) + 452
+2  libsystem_platform.dylib 0x00007fff8e6565aa _sigtramp + 26
+3  libsystem_platform.dylib 0x00007fb53b9559a8 _sigtramp + 2905601048
+4  swift                    0x000000010bd261a3 swift::Lowering::TypeConverter::getConstantInfo(swift::SILDeclRef) + 387
+5  swift                    0x000000010bd7392c swift::Lowering::SILGenModule::getFunction(swift::SILDeclRef, swift::ForDefinition_t) + 204
+6  swift                    0x000000010bd7634b swift::SILFunction* swift::Lowering::SILGenModule::preEmitFunction<swift::ConstructorDecl>(swift::SILDeclRef, swift::ConstructorDecl*, swift::SILLocation) + 91
+7  swift                    0x000000010bd74528 swift::Lowering::SILGenModule::emitConstructor(swift::ConstructorDecl*) + 200
+8  swift                    0x000000010bd8e8ef swift::ASTVisitor<SILGenExtension, void, void, void, void, void, void>::visit(swift::Decl*) + 207
+9  swift                    0x000000010bd8ddab SILGenExtension::emitExtension(swift::ExtensionDecl*) + 59
+10 swift                    0x000000010bd89575 swift::Lowering::SILGenModule::visitExtensionDecl(swift::ExtensionDecl*) + 21
+11 swift                    0x000000010bd75c0b swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 395
+12 swift                    0x000000010bd75eca swift::SILModule::constructSIL(swift::Module*, swift::SourceFile*, swift::Optional<unsigned int>) + 314
+13 swift                    0x000000010bd76018 swift::performSILGeneration(swift::SourceFile&, swift::Optional<unsigned int>) + 72
+14 swift                    0x000000010bc4c518 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3432
+15 swift                    0x000000010bc4a06d main + 1677
+16 libdyld.dylib            0x00007fff8cbf95fd start + 1
