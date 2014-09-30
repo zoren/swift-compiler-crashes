@@ -11,6 +11,9 @@ echo
 echo "Running tests against: ${swiftc_version} (Swift ${swift_version})"
 echo "Using Xcode found at path: ${xcode_path}"
 echo "Usage: $0 [-v] [-c<columns>] [-l] [file ...]"
+current_max_id=$(ls crashes/???-*.swift crashes-duplicates/???-*.swift crashes-fuzzing/???-*.swift fixed/???-*.swift | cut -f2 -d'/' | egrep '^[0-9][0-9][0-9]\-' | sort -n | cut -f1 -d'-' | sed 's/^0*//g' | tail -1)
+next_id=$((${current_max_id} + 1))
+echo "Adding a new test case? The crash id to use for the next test case is ${next_id}."
 echo
 
 color_red="\e[31m"
