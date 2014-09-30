@@ -61,6 +61,7 @@ execute_with_timeout() {
 }
 
 test_file() {
+  sdk=macosx
   path=$1
   if [[ ! -f ${path} ]]; then
     return
@@ -87,7 +88,7 @@ test_file() {
   # Test mode: Run Swift code and catch a portential hang (infinite running time).
   #            Used for test cases named *.timeout.swift.
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.timeout\. ]]; then
-    execute_with_timeout 5 "xcrun swift ${files_to_compile}" > /dev/null 2> /dev/null
+    execute_with_timeout 5 "xcrun -sdk ${sdk} swift ${files_to_compile}" > /dev/null 2> /dev/null
     if [[ $? == 1 ]]; then
       swift_crash=1
       compilation_comment="timeout"
@@ -97,7 +98,7 @@ test_file() {
   #            Used for test cases named *.repl.swift.
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.repl\. ]]; then
     # Run in subshell to avoid having "Segmentation fault" being written to console.
-    bash -c "xcrun swift < ${files_to_compile} > /dev/null 2> /dev/null" > /dev/null 2> /dev/null
+    bash -c "xcrun -sdk ${sdk} swift < ${files_to_compile} > /dev/null 2> /dev/null" > /dev/null 2> /dev/null
     if [[ $? != 0 ]]; then
       swift_crash=1
       compilation_comment="repl"
@@ -108,7 +109,7 @@ test_file() {
   if [[ ${swift_crash} == 0 ]]; then
     for _ in {1..10}; do
       # shellcheck disable=SC2086
-      output=$(xcrun swiftc -Onone -o /dev/null ${files_to_compile} 2>&1 | strings)
+      output=$(xcrun -sdk ${sdk} swiftc -Onone -o /dev/null ${files_to_compile} 2>&1 | strings)
       if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file) ]]; then
         swift_crash=1
         compilation_comment=""
@@ -122,7 +123,7 @@ test_file() {
   #            Used for test cases named *.swift.
   if [[ ${swift_crash} == 0 ]]; then
     # shellcheck disable=SC2086
-    output=$(xcrun swiftc -O -o /dev/null ${files_to_compile} 2>&1 | strings)
+    output=$(xcrun -sdk ${sdk} swiftc -O -o /dev/null ${files_to_compile} 2>&1 | strings)
     if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file) ]]; then
       swift_crash=1
       compilation_comment="-O"
@@ -134,10 +135,10 @@ test_file() {
     source_file_using_library=${files_to_compile//.library1./.library2.}
     compilation_comment=""
     rm -f DummyModule.swiftdoc DummyModule.swiftmodule libDummyModule.dylib libDummyModule.app
-    output=$(xcrun -sdk macosx swiftc -emit-library -o libDummyModule.dylib -Xlinker -install_name -Xlinker @rpath/libDummyModule.dylib -emit-module -emit-module-path DummyModule.swiftmodule -module-name DummyModule -module-link-name DummyModule "${files_to_compile}" 2>&1)
+    output=$(xcrun -sdk ${sdk} swiftc -emit-library -o libDummyModule.dylib -Xlinker -install_name -Xlinker @rpath/libDummyModule.dylib -emit-module -emit-module-path DummyModule.swiftmodule -module-name DummyModule -module-link-name DummyModule "${files_to_compile}" 2>&1)
     if [[ $? == 0 ]]; then
       # shellcheck disable=SC2086
-      output=$(xcrun -sdk macosx swiftc "${source_file_using_library}" -o libDummyModule.app -I . -L . -Xlinker -rpath -Xlinker @executable_path/ 2>&1 | strings)
+      output=$(xcrun -sdk ${sdk} swiftc "${source_file_using_library}" -o libDummyModule.app -I . -L . -Xlinker -rpath -Xlinker @executable_path/ 2>&1 | strings)
       if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file) ]]; then
         swift_crash=1
         compilation_comment="lib I"
@@ -149,7 +150,7 @@ test_file() {
         output_1=$(./libDummyModule.app 2>&1)
         exit_1=$?
         # shellcheck disable=SC2086
-        output_2=$(xcrun swift -I . ${source_file_using_library} 2>&1)
+        output_2=$(xcrun -sdk ${sdk} swift -I . ${source_file_using_library} 2>&1)
         exit_2=$?
         if [[ ${exit_1} != ${exit_2} ]]; then
             swift_crash=1
@@ -165,7 +166,7 @@ test_file() {
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.runtime\. ]]; then
     for _ in {1..10}; do
       # shellcheck disable=SC2086
-      output=$(xcrun swift -Onone ${files_to_compile} 2>&1 | strings)
+      output=$(xcrun -sdk ${sdk} swift -Onone ${files_to_compile} 2>&1 | strings)
       if [[ ${output} =~ llvm::sys::PrintStackTrace ]]; then
         swift_crash=1
         compilation_comment="runtime"
@@ -179,10 +180,10 @@ test_file() {
   #            Used for test cases named *.script.swift.
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.script\. ]]; then
     # shellcheck disable=SC2086
-    output_1=$(xcrun swift -Onone ${files_to_compile} 2>&1)
+    output_1=$(xcrun -sdk ${sdk} swift -Onone ${files_to_compile} 2>&1)
     err_1=$?
     # shellcheck disable=SC2086
-    output_2=$(xcrun swift -O ${files_to_compile} 2>&1)
+    output_2=$(xcrun -sdk ${sdk} swift -O ${files_to_compile} 2>&1)
     err_2=$?
     if [[ ${err_1} != ${err_2} ]]; then
       swift_crash=1
