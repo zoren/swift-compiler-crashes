@@ -2,12 +2,11 @@ import Foundation
 
 class A {
     class func a() -> String {
-        return "abc"
+        return ""
     }
-
     class func b() {
-        struct Static {
-            static let value: String = {
+        struct c {
+            static let d: String = {
                 return self.a()
             }()
         }
