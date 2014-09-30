@@ -6,7 +6,7 @@
 6  swift                    swift::TypeChecker::foldSequence(swift::SequenceExpr*, swift::DeclContext*) + 48
 7  swift                    (anonymous namespace)::PreCheckExpression::walkToExprPost(swift::Expr*) + 61
 8  swift                    swift::Expr::walk(swift::ASTWalker&) + 76
-9  swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 160
+9  swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 153
 10 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 554
 11 swift                    swift::TypeChecker::typeCheckTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 136
 12 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1496
@@ -14,4 +14,3 @@
 14 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 15 swift                    main + 1677
 16 libdyld.dylib            start + 1
-17 libdyld.dylib            start + [N]

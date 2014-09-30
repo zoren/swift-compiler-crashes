@@ -17,11 +17,10 @@
 16 swift                    validateTypedPattern(swift::TypeChecker&, swift::DeclContext*, swift::TypedPattern*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 79
 17 swift                    swift::TypeChecker::typeCheckPattern(swift::Pattern*, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 683
 18 swift                    swift::TypeChecker::typeCheckPattern(swift::Pattern*, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 435
-19 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 19513
-20 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 112
+19 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 19244
+20 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
 21 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
 22 swift                    swift::CompilerInstance::performSema() + 2060
 23 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 24 swift                    main + 1677
 25 libdyld.dylib            start + 1
-26 libdyld.dylib            start + [N]

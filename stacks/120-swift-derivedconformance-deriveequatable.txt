@@ -4,14 +4,14 @@
 3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    swift::DerivedConformance::deriveEquatable(swift::TypeChecker&, swift::NominalTypeDecl*, swift::ValueDecl*) + 1710
 5  swift                    (anonymous namespace)::ConformanceChecker::resolveWitnessViaDerivation(swift::ValueDecl*) + 159
-6  swift                    swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) + 3764
-7  swift                    void (anonymous namespace)::DeclChecker::checkExplicitConformance<swift::EnumDecl>(swift::EnumDecl*, swift::Type) + 164
-8  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 4916
-9  swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 112
+6  swift                    swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) + 3751
+7  swift                    void (anonymous namespace)::DeclChecker::checkExplicitConformance<swift::EnumDecl>(swift::EnumDecl*, swift::Type) + 138
+8  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 4839
+9  swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
 10 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 473
-11 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 371
-12 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 95
-13 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 421
+11 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 375
+12 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 97
+13 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 221
 14 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1734
 15 swift                    swift::CompilerInstance::performSema() + 2060
 16 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008

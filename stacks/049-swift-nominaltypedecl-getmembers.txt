@@ -3,7 +3,7 @@
 2  libsystem_platform.dylib _sigtramp + 26
 3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    swift::NominalTypeDecl::getMembers(bool) const + 28
-5  swift                    (anonymous namespace)::LowerType::visitAnyStructType(swift::CanType, swift::StructDecl*) + 41
+5  swift                    (anonymous namespace)::LowerType::visitAnyStructType(swift::CanType, swift::StructDecl*) + 40
 6  swift                    swift::Lowering::TypeLowering const* swift::CanTypeVisitor<(anonymous namespace)::LowerType, swift::Lowering::TypeLowering const*>::visit<>(swift::CanType) + 125
 7  swift                    swift::Lowering::TypeConverter::getTypeLoweringForUncachedLoweredType(swift::Lowering::TypeConverter::TypeKey) + 263
 8  swift                    swift::Lowering::TypeConverter::getTypeLowering(swift::Lowering::AbstractionPattern, swift::Type, unsigned int) + 1999
@@ -12,25 +12,26 @@
 11 swift                    getSILFunctionType(swift::SILModule&, swift::CanType, swift::CanTypeWrapper<swift::AnyFunctionType>, swift::CanTypeWrapper<swift::AnyFunctionType>, swift::AnyFunctionType::ExtInfo, (anonymous namespace)::Conventions const&) + 556
 12 swift                    getUncachedSILFunctionTypeForConstant(swift::SILModule&, swift::SILDeclRef, swift::CanTypeWrapper<swift::AnyFunctionType>, swift::CanTypeWrapper<swift::AnyFunctionType>, swift::CanTypeWrapper<swift::AnyFunctionType>, swift::CanTypeWrapper<swift::AnyFunctionType>, swift::AnyFunctionType::Representation) + 776
 13 swift                    swift::Lowering::TypeConverter::getConstantInfo(swift::SILDeclRef) + 691
-14 swift                    swift::Lowering::SILGenModule::getFunction(swift::SILDeclRef, swift::ForDefinition_t) + 195
+14 swift                    swift::Lowering::SILGenModule::getFunction(swift::SILDeclRef, swift::ForDefinition_t) + 204
 15 swift                    swift::SILFunction* swift::Lowering::SILGenModule::preEmitFunction<swift::AbstractClosureExpr>(swift::SILDeclRef, swift::AbstractClosureExpr*, swift::SILLocation) + 91
 16 swift                    swift::Lowering::SILGenModule::emitClosure(swift::AbstractClosureExpr*) + 119
-17 swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 2650
-18 swift                    swift::Lowering::SILGenFunction::emitRValueAsSingleValue(swift::Expr*, swift::Lowering::SGFContext) + 45
-19 swift                    (anonymous namespace)::SILGenApply::visitExpr(swift::Expr*) + 50
-20 swift                    swift::ASTVisitor<(anonymous namespace)::SILGenApply, void, void, void, void, void, void>::visit(swift::Expr*) + 2355
-21 swift                    (anonymous namespace)::SILGenApply::visitApplyExpr(swift::ApplyExpr*) + 698
-22 swift                    swift::ASTVisitor<(anonymous namespace)::SILGenApply, void, void, void, void, void, void>::visit(swift::Expr*) + 71
-23 swift                    prepareApplyExpr(swift::Lowering::SILGenFunction&, swift::Expr*) + 189
-24 swift                    swift::Lowering::SILGenFunction::emitApplyExpr(swift::ApplyExpr*, swift::Lowering::SGFContext) + 47
-25 swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 84
-26 swift                    swift::Lowering::SILGenFunction::emitExprInto(swift::Expr*, swift::Lowering::Initialization*) + 235
-27 swift                    swift::Lowering::SILGenFunction::visitPatternBindingDecl(swift::PatternBindingDecl*) + 190
-28 swift                    swift::Lowering::SILGenFunction::visitBraceStmt(swift::BraceStmt*) + 332
-29 swift                    swift::ASTVisitor<swift::Lowering::SILGenFunction, void, void, void, void, void, void>::visit(swift::Stmt*) + 148
-30 swift                    swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 395
-31 swift                    swift::SILModule::constructSIL(swift::Module*, swift::SourceFile*, swift::Optional<unsigned int>) + 314
-32 swift                    swift::performSILGeneration(swift::SourceFile&, swift::Optional<unsigned int>) + 72
-33 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3450
-34 swift                    main + 1677
-35 libdyld.dylib            start + 1
+17 swift                    (anonymous namespace)::RValueEmitter::visitAbstractClosureExpr(swift::AbstractClosureExpr*, swift::Lowering::SGFContext) + 97
+18 swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 2870
+19 swift                    swift::Lowering::SILGenFunction::emitRValueAsSingleValue(swift::Expr*, swift::Lowering::SGFContext) + 45
+20 swift                    (anonymous namespace)::SILGenApply::visitExpr(swift::Expr*) + 50
+21 swift                    swift::ASTVisitor<(anonymous namespace)::SILGenApply, void, void, void, void, void, void>::visit(swift::Expr*) + 2285
+22 swift                    (anonymous namespace)::SILGenApply::visitApplyExpr(swift::ApplyExpr*) + 671
+23 swift                    swift::ASTVisitor<(anonymous namespace)::SILGenApply, void, void, void, void, void, void>::visit(swift::Expr*) + 71
+24 swift                    prepareApplyExpr(swift::Lowering::SILGenFunction&, swift::Expr*) + 189
+25 swift                    swift::Lowering::SILGenFunction::emitApplyExpr(swift::ApplyExpr*, swift::Lowering::SGFContext) + 47
+26 swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 81
+27 swift                    swift::Lowering::SILGenFunction::emitExprInto(swift::Expr*, swift::Lowering::Initialization*) + 235
+28 swift                    swift::Lowering::SILGenFunction::visitPatternBindingDecl(swift::PatternBindingDecl*) + 190
+29 swift                    swift::Lowering::SILGenFunction::visitBraceStmt(swift::BraceStmt*) + 332
+30 swift                    swift::ASTVisitor<swift::Lowering::SILGenFunction, void, void, void, void, void, void>::visit(swift::Stmt*) + 152
+31 swift                    swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 395
+32 swift                    swift::SILModule::constructSIL(swift::Module*, swift::SourceFile*, swift::Optional<unsigned int>) + 314
+33 swift                    swift::performSILGeneration(swift::SourceFile&, swift::Optional<unsigned int>) + 72
+34 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3432
+35 swift                    main + 1677
+36 libdyld.dylib            start + 1
