@@ -18,6 +18,7 @@ $ ./test.sh
 Running tests against: swift-600.0.54.13 (Swift 1.1)
 Using Xcode found at path: /Applications/Xcode.app/Contents/Developer/
 Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
+Adding a new test case? The crash id to use for the next test case is 243.
 
 == Currently known crashes ==
 
@@ -35,6 +36,10 @@ Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
   ✘  055 no stacktrace                                            (          )
   ✘  061 visit any struct type                                    (0678945e0c)
   ✘  226 swift lowering silgenfunction emitcurrythunk             (54cbb074a6)
+  ✘  239 swiftdeclconverter importconstructor                     (ad0eb11ca7)
+  ✘  240 argemitter emitexpanded                                  (12dab2b32c)
+  ✘  241 swift lowering typeconverter getconstantinfo             (8dfde75e55)
+  ✘  242 swift lowering silgenfunction emitclosurevalue           (92ae78fe38)
 
 == Currently known crashes (crashes found by fuzzing) ==
 
@@ -99,7 +104,6 @@ Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
   ✘  221 swift constraints constraintgraph removeconstraint       (06630070ba)
   ✘  227 swift clangimporter implementation getknownobjcmethod    (55f4c9039f)
   ✘  228 swift clangimporter loadextensions                       (662b46e074)
-  ✘  236 swift typechecker typecheckforeachbinding                (b9051073cc)
   ✘  238 llvm foldingsetnodeid operator                           (a3d2667a90)
 
 == Crashes marked as fixed in previous releases ==
@@ -190,7 +194,7 @@ Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
   ✓  230 llvm foldingset swift structtype nodeequals
   ✓  231 swift constraints constraintlocator profile
 
-** Results: 77 of 162 tests crashed the compiler **
+** Results: 80 of 165 tests crashed the compiler **
 
 ```
 
