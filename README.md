@@ -18,7 +18,7 @@ $ ./test.sh
 Running tests against: swift-600.0.54.13 (Swift 1.1)
 Using Xcode found at path: /Applications/Xcode.app/Contents/Developer/
 Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
-Adding a new test case? The crash id to use for the next test case is 243.
+Adding a new test case? The crash id to use for the next test case is 244.
 
 == Currently known crashes ==
 
@@ -32,7 +32,7 @@ Adding a new test case? The crash id to use for the next test case is 243.
   ✘  049 swift nominaltypedecl getmembers                         (48f303568e)
   ✘  051 resolvetypedecl                                          (b47be0592c)
   ✘  052 no stacktrace                                            (          )
-  ✘  054 swift substitutedtype get                                (691af6bca2)
+  ✘  054 swift substitutedtype get (-O)                           (691af6bca2)
   ✘  055 no stacktrace                                            (          )
   ✘  061 visit any struct type                                    (0678945e0c)
   ✘  226 swift lowering silgenfunction emitcurrythunk             (54cbb074a6)
@@ -40,6 +40,7 @@ Adding a new test case? The crash id to use for the next test case is 243.
   ✘  240 argemitter emitexpanded                                  (12dab2b32c)
   ✘  241 swift lowering typeconverter getconstantinfo             (8dfde75e55)
   ✘  242 swift lowering silgenfunction emitclosurevalue           (92ae78fe38)
+  ✘  243 transform transform                                      (20377d5f1b)
 
 == Currently known crashes (crashes found by fuzzing) ==
 
@@ -194,7 +195,7 @@ Adding a new test case? The crash id to use for the next test case is 243.
   ✓  230 llvm foldingset swift structtype nodeequals
   ✓  231 swift constraints constraintlocator profile
 
-** Results: 80 of 165 tests crashed the compiler **
+** Results: 81 of 166 tests crashed the compiler **
 
 ```
 
@@ -207,7 +208,7 @@ Contributor hall of fame
 
 | GitHub contributor | Twitter | Cases contributed | Started contributing |
 | :----------------- | :------ | ----------------: | -------------------: |
-| <a href="https://github.com/practicalswift">practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 149 cases (106 fuzzing) | Xcode6.0-Beta6 |
+| <a href="https://github.com/practicalswift">practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 150 cases (106 fuzzing) | Xcode6.0-Beta6 |
 | <a href="https://github.com/fluidsonic">fluidsonic</a> – Marc Knaup | <a href="https://twitter.com/marcknaup">@marcknaup</a> | 4 cases | Xcode6.1-Beta3 |
 | <a href="https://github.com/tmu">tmu</a> – Teemu Kurppa | <a href="https://twitter.com/Teemu">@Teemu</a> | 4 cases | Xcode6.0-Beta6 |
 | <a href="https://github.com/jvasileff">jvasileff</a> – John Vasileff | <a href="https://twitter.com/jvasileff">@jvasileff</a> | 2 cases | Xcode6.0-Beta6 |
