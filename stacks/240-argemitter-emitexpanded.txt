@@ -25,4 +25,4 @@
 24 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3432
 25 swift                    main + 1677
 26 libdyld.dylib            start + 1
-1.	While emitting SIL for 'call' at crashes/240-argemitter-emitexpanded.swift:8:2
+27 libdyld.dylib            start + [N]

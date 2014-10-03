@@ -1,26 +1,27 @@
-0  swift                    0x0000000104173f68 llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    0x0000000104174454 SignalHandler(int) + 452
-2  libsystem_platform.dylib 0x00007fff8e6565aa _sigtramp + 26
-3  libsystem_platform.dylib 0x00007fff5c748cf8 _sigtramp + 3457099624
-4  swift                    0x000000010378586a (anonymous namespace)::SwiftDeclConverter::importConstructor(clang::ObjCMethodDecl const*, swift::DeclContext*, bool, swift::Optional<swift::CtorInitializerKind>, bool, swift::ObjCSelector, swift::DeclName, llvm::ArrayRef<clang::ParmVarDecl const*>, bool, bool&) + 1498
-5  swift                    0x000000010377d897 swift::ClangImporter::Implementation::loadAllMembers(swift::Decl const*, unsigned long long, bool*) + 2951
-6  swift                    0x0000000104541c76 swift::IterableDeclContext::loadAllMembers() const + 102
-7  swift                    0x0000000104538715 swift::ExtensionDecl::getMembers(bool) const + 21
-8  swift                    0x0000000104561b8d swift::NominalTypeDecl::lookupDirect(swift::DeclName) + 45
-9  swift                    0x000000010456001a swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 3178
-10 swift                    0x000000010455e70a swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
-11 swift                    0x0000000104475715 resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 549
-12 swift                    0x0000000104475224 swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*, swift::ValueDecl*) + 116
-13 swift                    0x00000001044762f1 (anonymous namespace)::TypeResolver::resolveType(swift::TypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>) + 241
-14 swift                    0x000000010447517d swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*, swift::ValueDecl*) + 221
-15 swift                    0x00000001044617cf validateTypedPattern(swift::TypeChecker&, swift::DeclContext*, swift::TypedPattern*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 79
-16 swift                    0x000000010446163b swift::TypeChecker::typeCheckPattern(swift::Pattern*, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 683
-17 swift                    0x0000000104461543 swift::TypeChecker::typeCheckPattern(swift::Pattern*, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 435
-18 swift                    0x000000010444ca93 swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 21091
-19 swift                    0x000000010444993c swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 8460
-20 swift                    0x000000010443926b swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
-21 swift                    0x000000010441f7d8 swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
-22 swift                    0x0000000103754a5c swift::CompilerInstance::performSema() + 2060
-23 swift                    0x00000001034b9f88 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-24 swift                    0x00000001034b806d main + 1677
-25 libdyld.dylib            0x00007fff8cbf95fd start + 1
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+3  libsystem_platform.dylib _sigtramp + [N]
+4  swift                    (anonymous namespace)::SwiftDeclConverter::importConstructor(clang::ObjCMethodDecl const*, swift::DeclContext*, bool, swift::Optional<swift::CtorInitializerKind>, bool, swift::ObjCSelector, swift::DeclName, llvm::ArrayRef<clang::ParmVarDecl const*>, bool, bool&) + 1498
+5  swift                    swift::ClangImporter::Implementation::loadAllMembers(swift::Decl const*, unsigned long long, bool*) + 2951
+6  swift                    swift::IterableDeclContext::loadAllMembers() const + 102
+7  swift                    swift::ExtensionDecl::getMembers(bool) const + 21
+8  swift                    swift::NominalTypeDecl::lookupDirect(swift::DeclName) + 45
+9  swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 3178
+10 swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
+11 swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 549
+12 swift                    swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*, swift::ValueDecl*) + 116
+13 swift                    (anonymous namespace)::TypeResolver::resolveType(swift::TypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>) + 241
+14 swift                    swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*, swift::ValueDecl*) + 221
+15 swift                    validateTypedPattern(swift::TypeChecker&, swift::DeclContext*, swift::TypedPattern*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 79
+16 swift                    swift::TypeChecker::typeCheckPattern(swift::Pattern*, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 683
+17 swift                    swift::TypeChecker::typeCheckPattern(swift::Pattern*, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 435
+18 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 21091
+19 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 8460
+20 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+21 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
+22 swift                    swift::CompilerInstance::performSema() + 2060
+23 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+24 swift                    main + 1677
+25 libdyld.dylib            start + 1
+26 libdyld.dylib            start + [N]
