@@ -21,8 +21,19 @@ color_green="\e[32m"
 color_bold="\e[1m"
 color_normal_display="\e[0m"
 
+show_error() {
+  warning="$1"
+  printf "%b" "${color_red}[Error]${color_normal_display} ${color_bold}${warning}${color_normal_display}\n"
+}
+
+duplicate_bug_ids=$(ls crashes/???-*.swift crashes-fuzzing/???-*.swift crashes-duplicates/???-*.swift fixed/???-*.swift | cut -f2 -d/ | cut -f1 -d'.' | sort | uniq | cut -f1 -d'-' | uniq -c | sed "s/^ *//g" | egrep -v '^1 ' | cut -f2 -d" " | tr "\n" "," | sed "s/,$//g")
+if [[ ${duplicate_bug_ids} != "" ]]; then
+  show_error "Duplicate bug ids: ${duplicate_bug_ids}. Please re-number to avoid duplicates."
+  echo
+fi
+
 xcrun swiftc - -o /dev/null 2>&1 <<< "" | egrep -q "error:" && {
-  printf "%b" "${color_red}[Error]${color_normal_display} ${color_bold}Xcode compiler does not work. Cannot run tests.${color_normal_display}\n"
+  show_error "Xcode compiler does not work. Cannot run tests."
   exit 1
 }
 
