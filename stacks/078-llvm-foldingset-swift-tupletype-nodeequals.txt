@@ -1,7 +1,6 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
 2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    foldSequence(swift::TypeChecker&, swift::DeclContext*, swift::Expr*, llvm::ArrayRef<swift::Expr*>&, unsigned int) + 424
 5  swift                    foldSequence(swift::TypeChecker&, swift::DeclContext*, swift::Expr*, llvm::ArrayRef<swift::Expr*>&, unsigned int) + 384
 6  swift                    swift::TypeChecker::foldSequence(swift::SequenceExpr*, swift::DeclContext*) + 48
