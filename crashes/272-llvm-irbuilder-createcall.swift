@@ -2,8 +2,6 @@ class A {
     class func a() -> Self {
         return b(self.dynamicType)
     }
-
-    required init() {}
 }
 
 
