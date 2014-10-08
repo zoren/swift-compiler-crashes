@@ -4,7 +4,7 @@
 3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    (anonymous namespace)::ArgEmitter::emitExpanded(swift::Lowering::RValueSource&&, swift::Lowering::AbstractionPattern) + 722
 5  swift                    (anonymous namespace)::ArgEmitter::emit(swift::Lowering::RValueSource&&, swift::Lowering::AbstractionPattern) + 98
-6  swift                    (anonymous namespace)::CallEmission::apply(swift::Lowering::SGFContext) + 1080
+6  swift                    (anonymous namespace)::CallEmission::apply(swift::Lowering::SGFContext) + 1128
 7  swift                    swift::Lowering::SILGenFunction::emitApplyExpr(swift::ApplyExpr*, swift::Lowering::SGFContext) + 58
 8  swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 81
 9  swift                    swift::Lowering::SILGenFunction::emitIgnoredExpr(swift::Expr*) + 237

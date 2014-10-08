@@ -1,6 +1,7 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
 2  libsystem_platform.dylib _sigtramp + 26
+3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    swift::ArchetypeBuilder::resolveArchetype(swift::Type) + 273
 5  swift                    substDependentTypes(swift::ArchetypeBuilder&, swift::Type) + 107
 6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
