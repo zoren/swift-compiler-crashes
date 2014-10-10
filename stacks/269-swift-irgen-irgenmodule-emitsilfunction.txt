@@ -1,7 +1,7 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
 2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_malloc.dylib   szone_free_definite_size + 1992
+3  swift                    llvm::ConstantFoldCastInstruction(unsigned int, llvm::Constant*, llvm::Type*) + 3213
 4  swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9179
 5  swift                    swift::irgen::IRGenModule::emitLazyDefinitions() + 199
 6  swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2038
