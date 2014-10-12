@@ -40,7 +40,8 @@ xcrun swiftc - -o /dev/null 2>&1 <<< "" | egrep -q "error:" && {
 columns=$(tput cols)
 verbose=0
 log_stacks=0
-while getopts ":c:v:l" o; do
+delete_dupes=0
+while getopts ":c:v:l:d" o; do
   case ${o} in
     c)
       columns=${OPTARG}
@@ -50,6 +51,9 @@ while getopts ":c:v:l" o; do
       ;;
     l)
       log_stacks=1
+      ;;
+    d)
+      delete_dupes=1
       ;;
   esac
 done
@@ -121,7 +125,7 @@ test_file() {
   # Test mode: Compile using swiftc without any optimizations ("-Onone").
   #            Used for test cases named *.swift.
   if [[ ${swift_crash} == 0 ]]; then
-    for _ in {1..10}; do
+    for _ in {1..50}; do
       # shellcheck disable=SC2086
       output=$(xcrun -sdk ${sdk} swiftc -Onone -o /dev/null ${files_to_compile} 2>&1 | strings)
       if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file) ]]; then
@@ -232,6 +236,9 @@ test_file() {
     if [[ ${is_dupe} == 1 ]]; then
       test_name="${test_name} (${color_bold}dupe?${color_normal_display})"
       adjusted_name_size=$((adjusted_name_size + 8))
+      if [[ ${delete_dupes} == 1 ]]; then
+          rm ${files_to_compile}
+      fi
     fi
     printf "  %b  %-${adjusted_name_size}.${adjusted_name_size}b (%-10.10b)\n" "${color_red}✘${color_normal_display}" "${test_name}" "${checksum}"
   else
