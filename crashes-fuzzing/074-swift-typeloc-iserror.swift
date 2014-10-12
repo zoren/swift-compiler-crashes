@@ -2,90 +2,70 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func q<dc>() -> (dc, dc -> dc) -> dc {
-   t m t.w = {
+func i<r>() -> (r, r -> r) -> r {
+   x cb x.c = {
 }
  {
-   dc) {
-        k  }
+   r) {
+        w  }
 }
-protocol q {
-   class func w()
+q i {
+   class func c()
 }
-class t: q{  class func w {}
-protocol A {
-    typealias r
-    func b(r)
+class x: i{  class func c {}
+q l {
+    b cb
+    func b(cb)
 }
-struct X<k> : A {
-    func b(b: X.s) {
+struct b<w> : l {
+    func b(b: b.dc) {
     }
 }
 ({})
-b w
-class ed<x>: NSObject {
-    dc m: x
-    y(m: x) {
-        self.m = m
-        a.y()
+b c
+class y<g>: d {
+    r cb: g
+    p(cb: g) {
+        dc.cb = cb
+        b.p()
     }
 }
-struct A<x> {
-    n v: [(x, () -> ())] = []
+struct l<g> {
+    e f: [(g, () -> ())] = []
 }
-struct t<q : m, dc: m where dc.k == q.k> {
+struct x<i : cb, r: cb u r.w == i.w> {
 }
-protocol m {
-    typealias k
+q cb {
+    b w
 }
-struct dc<t : fe> {
-    dc b: t
+struct r<x : w> {
+    r b: x
 }
-func v<t>() -> [dc<t>] {
-    u []
+func f<x>() -> [r<x>] {
+    h []
 }
-protocol v {
-  typealias t
-  typealias m = t
-  typealias q = t
+q f {
+  b x
+  b cb = x
+  b i = x
 }
-class b<k : dc, w : dc where k.dc == w> : v {
+class b<w : r, j w.r == c> : f {
 }
-class b<k, w> {
+x> {
 }
-protocol dc {
-    typealias dc
+q r {
+    b r
 }
-v=b cb v=b
-class A: A {
+f=b v f=b
+class l: l {
 }
-class r : C {
+class cb : n {
 }
-typealias C = r
-func ^(v: q, o) -> o {
-    u !(v)
+b n = cb
+func ^(f: i, u)  f<i : b, r : b u i.x == r> {
 }
-class v<q : b, dc : b where q.t == dc> {
+q b {
+    b x
+    b cb
 }
-protocol b {
-    typealias t
-    typealias m
-}
-struct dc<k : b> : b {
-    typealias t = k
-    t   func dc() -> l
-}
-class r {
-    func t() -> l {
-        u ""
-    }
-}
-class C: r, A {
-    p func t() -> l {
-        u ""
-    }
-    func {
-        u ""
-    }
-}
-func m<x where x: A, x: r
+struct r<w : b> : b

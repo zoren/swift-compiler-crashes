@@ -2,29 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<T> : P {
-    func f<T>() -> T -> dation
-class d<c>: NSObjef.b = b
-   }
-}
-struct A {
-	func g<U>(h: (A, U) -> U) -> (A, U) -> U {
-		returFoundation
-extension NSSet {
-    convenience init<T>(array: Array<T>) {
+func t<l>(k: (f, l) -> l) -> (f, l) -> l {
+		o
+m e {
+    n r<s>(j: i<s>) {
         self  }
 }
-import Foundation
-class A {
-    class func a() -> String {
-        return ""
+t k
+class f {
+    class func q() -> String {
+        p ""
  }
-    class func b() {
-        struct c {
-            static let d: String = {
-              self.a()
-            }()
-        }
-  s C<D: A where A.B == D>(e
-    }
-}
+    class func e() {
+        struct t {
+            u let n: String = {
+       self.q

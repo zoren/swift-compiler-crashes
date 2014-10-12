@@ -2,19 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<T> : P {func a() -> Self {
-        return cType)
+enum i<m> : q {func l() -> r {
+        h k)
     }
 }
-func b<T>(t: AnyObject.Type) -> T! {A : NSManagedObject {
-    func b<T: A>() -> [T] {
-          }
+func j<m>(g: j.e) -> m! {n : c {
+    p -> [m] {
+        }
 }
-import Foundation
-class A {
-    class func a() -> String {
-        rec  self.a()
-}
- : A> {
-T.E == F
-}
+d o
+class n {
+    class func l() -> String {
+        f  self.l()

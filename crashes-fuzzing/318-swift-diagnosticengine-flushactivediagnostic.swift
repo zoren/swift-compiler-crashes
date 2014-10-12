@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-break
-func c<g>() -> (g, g -> g) -> g {
- nc f {}
-struct d<c where g.i ==c.i>n
-p
+func g<f>() -> (f, f -> f) -> f {
+ g e {}
+struct g<g where f.b ==g.b

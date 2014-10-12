@@ -2,145 +2,121 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol yx {
-    class func c()
-}
-class kj: yx {
-    class func c() { }
-}
-(kj() x yx).kj.c()
-func yx<v>() -> (v, v -> v) -> v {
-    var kj: ((v, v -> v) -> v)!
-    ji kj
-}
-protocol yx : yx {
-}
-ts
-e)
-func ts<edc>() -> (edc, edc -> edc) -> edc {
-   vu u vu.u = {
+func sr<ml>() -> (ml, ml -> ml) -> ml {
+   a sr a.sr = {
 }
  {
-   edc) {
-        qp  }
+   ml) {
+        ih  }
 }
-protocol ts {
-   class func u()
+protocol sr {
+   class func sr()
 }
-class vu: ts{  class func u {}
-class yx {
-    r kj = kj
+class a: sr{  class func sr {}
+class w {
+    h ji = ji
 }
-class c {
-    func kj((po, c))(yx: (po, fe)) {
-        kj(yx)
+class n {
+    func ji((x, n))(w: (x, f)) {
+        ji(w)
     }
 }
-func w<e: SequenceType, v on lk<v> == e.l.c>(wv : e) -> v? {
-    rq (yx : v?) xw wv {
-        ml j vu = yx {
-            ji vu
+func n<x: b, ed y nm<ed> == x.x.n>(rq : x) -> ed? {
+    fe (w : ed?) k rq {
+        r n a = w {
+            qp a
         }
     }
-    ji s
+    qp qp
 }
-j wv : [hg?] = [s, dcb, s]
-sr(w(wv))
-func ay(ih: qp) -> <v>(() -> v) -> qp {
-  ji { edc xw "\(ih): \(edc())" }
+n rq : [sr?] = [qp, gf, qp]
+b(n(rq))
+func kj(q: ih) -> <ed>(() -> ed) -> ih {
+  qp { ml k "\(q): \(ml())" }
 }
-func yx(vu: po, po: po) -> (((po, po) -> po) -> po) {
-    ji {
-        (cb: (po, po) -> po) -> po xw
-        ji cb(vu, po)
+func w(a: x, x: x) -> (((x, x) -> x) -> x) {
+    qp {
+        (nm: (x, x) -> x) -> x k
+        qp nm(a, x)
     }
 }
-func kj(p: (((po, po) -> po) -> po)) -> po {
-    ji p({
-        (ut: po, ji:po) -> po xw
-        ji ut
+func ji(r: (((x, x) -> x) -> x)) -> x {
+    qp r({
+        (ts: x, qp:x) -> x k
+        qp ts
     })
 }
-kj(yx(ba, yx(cb, dc)))
-func yx<v>() {
-    ed kj {
-        kj c
+ji(w(on, w(nm, sr)))
+func w<ed>() {
+    t ji {
+        ji n
     }
 }
-protocol A v : nm>(kj: v) {
+protocol g ed : m>(ji: ed) {
 }
-ts(ts x nm)
-protocol yx {
-  r vu
-  r e = vu
-  r ts = vu
+sr(sr d m)
+protocol w {
+  h a
+  h x = a
+  h sr = a
 }
-class kj<qp : c, u : c on qp.edc == u> : yx {
-}
-class kj<qp, u> {
-}
-protocol c {
-    r edc
-}
-class A<v : A> {
-}
-func c<vu {
-    ed c {
-        func e
-        var _ = e
+class ji<ih : n, sr : n y ih.ml == sr> : w po n<a {
+    t n {
+        func x
+        nm _ = x
     }
 }
-ed e<v> {
-    kj C(v, () -> ())
+t x<ed> {
+    ji i(ed, () -> ())
 }
-protocol A {
-    func c() -> qp
+protocol g {
+    func n() -> ih
 }
-class cb {
-    func vu() -> qp {
-        ji ""
+class nm {
+    func a() -> ih {
+        qp ""
     }
 }
-class C: cb, A {
-    o func vu() -> qp {
-       ji ""
+class i: nm, g {
+    qp func a() -> ih {
+       qp ""
     }
-    func c() -> qp {
-        ji ""
+    func n() -> ih {
+        qp ""
     }
 }
-func e<v on v: A, v: cb>(wv: v) {
-    wv.c()
+func x<ed y ed: g, ed: nm>(rq: ed) {
+    rq.n()
 }
-yx=ba x yx=ba
-struct c<vu : SequenceType> {
-    var kj: vu
+w=on d w=on
+struct n<a : b> {
+    nm ji: a
 }
-func yx<vu>() -> [c<vu>] {
-    ji []
+func w<a>() -> [n<a>] {
+    qp []
 }
-protocol A {
+protocol g {
 }
-struct cb : A {
+struct nm : g {
 }
-struct C<gf, edc: A on gf.C == edc> {
+struct i<ed, ml: g y ed.i == ml> {
 }
-protocol yx {
+protocol w {
 }
-protocol kj : yx {
+protocol ji : w {
 }
-protocol c : yx {
+protocol n : w {
 }
-protocol vu {
-  r ts = yx
+protocol a {
+  h sr = w
 }
-struct e : vu {
-  r ts = kj
+struct x : a {
+  h sr = ji
 }
-func u<u : kj, ut : vu on ut.ts == u> (hg: ut) {
+func sr<sr : ji, ts : a y ts.sr == sr> (sr: ts) {
 }
-func kj {
-    r vu
-    r e
+func ji {
+    h a
+    h x
 }
-struct c<qp : kj> : kj
+struct n<ih : ji

@@ -2,25 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-    class func a() -> Self {
-        return b(self.dynamicType)
-    }
+func d<l>() -> l -> l {
+        return { e in o {
+ q>)
 }
-func b<T>(t: AnyObject.Type) }
-protocol e {
-    typealias h
+i c : m {
+    j f = h
+    func o<l p l.r == f>(d: k
 }
-enum S<T> : P {
-    func f<T>() -> T -> T {
-        return { x in xC {
-    typealias F
-    func g<T where T.E == F>(f: B<T>)
-}
-struct D : C {
-    typealias F = Int
-    func g<T where T.E == F>(f: B
-}
-enum A : String {
-    case btln("")
-}
+enum n : String {
+    case b(

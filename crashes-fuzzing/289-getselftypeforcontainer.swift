@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<h>() -> (h, h -> h) -> h {
-    f f: ((h, h -> h) -> h)!
-    j f
+func f<g>() -> (g, g -> g) -> g {
+    e e: ((g, g -> g) -> g)!
+  j e
 }
-protocol f {
-    class func j()
-protocol c : b { func b
-w
-class x<u>:  where T.E == F>}
+protocol e {
+    d func j()
+protocol d : b { func b

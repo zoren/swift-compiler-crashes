@@ -2,96 +2,95 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-po)
-func ml<wv>() -> (wv, wv -> wv) -> wv {
-   po wv po.ed = {
+func v<ih>() -> (ih, ih -> ih) -> ih {
+   h ih h.b = {
 }
  {
-   wv) {
-        lk  }
+   ih) {
+        ed  }
 }
-protocol ml {
-   class func ed()
+protocol v {
+   class func b()
 }
-class po: ml{  class func ed {}
-class A<r : A> {
+class h: v{  class func b {}
+class m<n : m> {
 }
-func rq(b: Any, kj: Any) -> (((Any, Any) -> Any) -> Any) {
-    b {
-        (ut: (Any, Any) -> Any) -> Any qp
-        b ut(b, kj)
+func u(l: Any, kj: Any) -> (((Any, Any) -> Any) -> Any) {
+    l {
+        (lk: (Any, Any) -> Any) -> Any cb
+        l lk(l, kj)
     }
 }
-func b(ut: (((Any, Any) -> Any) -> Any)) -> Any {
-    b ut({
-        (j: Any, ed:Any) -> Any qp
-        b j
+func l(lk: (((Any, Any) -> Any) -> Any)) -> Any {
+    l lk({
+        (u: Any, b:Any) -> Any cb
+        l u
     })
 }
-b(rq(sr, rq(p, t)))
-func ts(cb: ml) -> <r>(() -> r) -> ml {
-  b { wv qp "\(cb): \(wv())" }
+l(u(d, u(w, cb)))
+func dc(a: v) -> <n>(() -> n) -> v {
+  l { ih cb "\(a): \(ih())" }
 }
-class A: A {
+class m: m {
 }
-class v : C {
+class f : x {
 }
-o C = v
-protocol A {
+x x = f
+protocol m {
 }
-fe v : A {
+k f : m {
 }
-fe C<x, e: A where x.C == e> {
+k x<g, q: m where g.x == q> {
 }
-kj ih
-class Foo<r>: rq {
-    dc gf: r
-    vu(gf: r) {
-        lk.gf = gf
-        s.vu()
+kj y
+class ji<n>: u {
+    kj fe: n
+    q(fe: n) {
+        ed.fe = fe
+        kj.q()
     }
 }
-protocol A {
-    o v
-    func b(v)
+protocol m {
+    x f
+    func l(f)
 }
-fe w<ji> : A {
-    func b(b: w.nm) {
+k w<gf> : m {
+    func l(l: w.r) {
     }
 }
-rq=sr u rq=sr
-func ^(rq: hg, on) -> on {
-    b !(rq)
+u=d i u=d
+func ^(u: kj, l) -> l {
+    l !(u)
 }
-protocol rq {
+protocol u {
 }
-protocol b : rq {
+protocol l : u {
 }
-protocol c : rq {
+protocol w : u {
 }
-protocol po {
-  o ml = rq
+protocol h {
+  x v = u
 }
-fe po : po {
-  o ml = b
+k h : h {
+  x v = l
 }
-func ed<wv : b, on : po where on.ml == wv> (b: on) {
+func b<ih : l, l : h where l.v == ih> (l: l) {
 }
-func ed<v : po where v.ml == c> (b: v) {
+func b<f : h where f.v == w> (l: f) {
 }
-ed(po())
-fe A<r> {
-    ed rq: [(r, () -> ())] = []
+b(h())
+k m<n> {
+    b u: [(n, () -> ())] = []
 }
-class rq<ml : b, wv : b where ml.po == wv> {
+class u<v : l, ih : l where v.h == ih> {
 }
-protocol b {
-    o po
-    o po
+protocol l {
+    x h
+    x h
 }
-fe c<lk : b> : b {
-    o po = lk
-    o po = rq<c<lk>, po>
+k w<ed : l> : l {
+    x h = ed
+    x h = u<w<ed>, h>
 }
-b
-protocol c : b { func b
+l
+protocol w : l { func l

@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<T> : P {
-    func f<T>() -> T {
+enum e<b> : d {
+    func c<b>() -> b {
      }
 }
-protocol P {
-    func f<T>()(T) -> T
+protocol d {
+    func c<b>()(b) -> b
 }
-protocol A {   typealias E }

@@ -2,49 +2,33 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum A : String {
-    case b = ""
+"")
 }
-let c: A? = nil
-if c == .b {
-    println("")
-}
-protocol A {
-    typealias E
-}
-struct B<T : A> {
-    let h: T
-    let i: T.E
-}
-protocol C {
-    typealias F
-    func g<T where T.E == F>(f: B<T>)
-}
-struct D : C {
-    typealias F = Int
-    func g<T where T.E == F>(f: B<T>) {
+m p {
+ 
+    t q = Int
+    func w<v k v.n == q>(p: r<v>) {
     }
 }
-import CoreData
-class A : NSManagedObject {
-    func b<T: A>() -> [T] {
-        retur
-func a() {
-    var b = [[Int]]()
-    for c in 0..<1 {
-        b[c][c] = 1
+h o
+class p : l {
+    func d<v: p>() -> [v] {
+        j
+func u() {
+    var d = [[Int]]()
+    for h in 0..<1 {
+        d[h][h] = 1
     }
 }
-protocol A {
-    typealias B
+m p {
+    t r
 }
-class C<D> {
-    init <A: A where A.B == D>(e: A.B) {
+class w<d> {
+    init <p: p k p.r == d>(j: p.r) {
     }
 }
-import Foundation
-class A {
-    class func a() -> String {
-        return ""
- a
-c()
+h i
+class p {
+    class func u() -> String {
+        s ""
+ u

@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<f :  where g.h ==assA {
- class fc
+struct e<c :  where e.f ==b {
+class c

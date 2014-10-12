@@ -2,36 +2,21 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-funcvar x1 = 1
-var f1: Int -> Int = {
-    return $0
+class o<k>: q {
+    e j: k
+    init(j: k) {
+        m {
 }
-let succeeds: Int = { (x: Int, f: Int -> Int) -> Int in
-    return f(x)
-}(x1, f1)
-let crashes: Int = { x, f in
-    return f(x)
-}(x1, f1)
-import Foundation
-class Foo<T>: NSObject {
-    var foo: T
-    init(foo: T) {
-        A {
+struct p : m {
 }
-struct B : A {
-}
-struct C<D, E: A where D.C => String {
+struct l<c, r: m n c.l => b {
       {
 }
  {
-   g) {
-        h  }
+   p) {
+        q  }
 }
-protocol f {
-   class func i()
+protocol p {
+   class func m()
 }
-class d: f{  class func i {}
-({})
-func a<T>()T, T== f.h> {
-} h
-}
+class q: p{  class func m

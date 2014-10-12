@@ -2,24 +2,23 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol a {
+protocol f {
 }
-protocol h : a {
+protocol j : f {
 }
-protocol k : a {
+protocol e : f {
 }
-protocol g {
-  j n = a
+protocol i {
+  b c = f
 }
-struct n : g {
-  j n = h
+struct c : i {
+  b c = j
 }
-func i<h : h, f : g m f.n == h> (g: f) {
+func i<j : j, d : i j d.c == j> (i: d) {
 }
-func i<n : g m n.n = o) {
+func i<c :{
 }
-let k = a
-k()
-h
-protocol k : h { func h
-k
+let e = f
+e()
+j
+protocol e : j { func j

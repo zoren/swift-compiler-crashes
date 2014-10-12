@@ -2,136 +2,80 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class k<g>: d {
-    var f: g
-    init(f: g) {
-        self.f = f
-        l. d {
-    typealias i = l
-    typealias j = je: Int -> Int = {
-    return $0
+class x<ji>: y {
+    u u: ji
+    init(u: ji) {
+        q.u = u
+        kj. y {
+    b ed = kj
+    b r = ji: v -> v = {
+    a $lk
 }
-let d: Int =  { c, b in
-}(f, e)
+ih y: v =  { fe, b cb
+}(u, n)
 }
-class d {
-    func l<j where j: h, j: d>(l: j) {
-    l.k()
+class y {
+    func kj<r where r: dc, r: y>(kj: r) {
+    kj.x()
 }
-func i(k: b) -> <j>(() -> j) -> b {
-  f { m m "\(k): \(m())" }
+func ed(x: b) -> <r>(() -> r) -> b {
+  u { fe fe "\(x): \(fe())" }
 }
-protocol h
-class j {
-    func y((Any, j))(v: (Any, AnyObject)) {
-        y(v)
+protocol dc
+class r {
+    func w((gf, r))(dc: (gf, fe)) {
+        w(dc)
     }
 }
-func w(j: () -> ()) {
+func y(r: () -> ()) {
 }
-class v {
-    l _ = w() {
+class dc {
+    kj _ = y() {
     }
 }
 ({})
-func v<x>() -> (x, x -> x) -> x {
-    l y j s<q : l, y: l m y.n == q.n> {
+func dc<ed>() -> (ed, ed -> ed) -> ed {
+    kj w r ih<r : kj, w: kj fe w.n == r.n> {
 }
-o l {
-    u n
+w kj {
+    x n
 }
-y q<x> {
-    s w(x, () -> ())
+w r<ed> {
+    ih y(ed, () -> ())
 }
-o n {
-    func j()  p
+w n {
+    func r()  dc
 }
-class r {
-    func s() -> p {
-        t ""
+class kj {
+    func ih() -> dc {
+        dc ""
     }
 }
-class w: r, n {
-    k v: ))] = []
+class y: kj, n {
+    x dc: ))] = []
 }
-class n<x : n>
-<c b:
-func b<c {
-  enum b {
-   func b
-var _ = b
-import Founda  (s: (Any, Any) -> Any) -> Any l
-        k s(j, t)
+class n<ed : n>
+<fe b:
+func b<fe {
+  b b {
+   func b gf kj
+        x ih(r, dc)
     }
 }
-func b(s: (((Any, Any) -> Any) -> Any)
-d = i
+func b(ih: (((gf, gf) -> gf) -> gf)
+y = ed
 }
-class d<j : i, f : i where j.i == f> : e {
+class y<r : ed, u : ed where r.ed == u> : n {
 }
-class d<j, f> {
+class y<r, u> {
 }
-protocol i {
-    typealias i
+protocol ed {
+    b ed
 }
-protocol e {
-    class func i()
+protocol n {
+    class func ed()
 }
-i
-(d() as e).j.i()
-d
-protocol i : d { func d
-protocol A {
-    typealias E
-}
-struct B<T : As a {
-    typealias b = b
-}
-func a<T>() {f {
-   class func i()
-}
-class d: f{  class func i {}
-func f() {
-    ({})
-}
-func prefix(with: String) -> <T>(() -> T) -> String {
-  return { g in "\(with): \(g())" }
-}
-protocol a : a {
-}
-b
-protocol d : b { func b
-func d(e:  = { (g: h, f: h -> h) -> h in
-    return f(g)
-}
-class l {
-    func f((k, l() -> f
-}
-class d
-}
-class i: d, g {
-    l func d() -> f {
-        m ""
-    }
-    }
-}
-func m<j n j: g, j: d
-let l = h
-l()
-f
-protocol l : f { func f
-protocol g
-class k {
-    func l((Any, k))(m }
-}
-func j<f: l: e -> e = {
- {
-   l) {
-      m  }
-}
-protocol k {
-   class func j()
-}
-class e: k{  class func j
-struct c<d, e: b where d.c).p.n()
-class l<n : h,
+ed
+(y() hg n).r.ed()
+y
+protocol ed : y { func y

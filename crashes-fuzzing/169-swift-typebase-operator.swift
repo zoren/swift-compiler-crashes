@@ -2,185 +2,132 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a(x: Any, y: Any) -> (((Any, Any) -> Any) -> Any) {
-    return {
-        (m: (Any, Any) -> Any) -> Any in
-        return m(x, y)
-    }
-}
-func b(z: (((Any, Any) -> Any) -> Any)) -> Any {
-    return z({
-        (p: Any, q:Any) -> Any in
-        return p
-    })
-}
-b(a(1, a(2, 3)))
-f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+func ut<fed>() -> (fed, fed -> fed) -> fed {
+   xw l xw.v = {
 }
  {
-   g) {
-        h  }
+   fed) {
+        rq  }
 }
-protocol f {
-   class func i()
+protocol ut {
+   class func v()
 }
-class d: f{  class func i {}
-protocol A {
-    typealias B
-    func b(B)
+class xw: ut{  class func v {}
+protocol ut {
+    s p
+    func ji(p)
 }
-struct X<Y> : A {
-    func b(b: X.Type) {
+struct fe<on> : ut {
+    func ji(ji: fe.vu) {
     }
 }
-func some<S: SequenceType, T where Optional<T> == S.Generator.Element>(xs : S) -> T? {
-    for (mx : T?) in xs {
-        if let x = mx {
-            return x
+func w<xw: hgf, x qp kj<x> == xw.o.ji>(u : xw) -> x? {
+    sr (y : x?) yx u {
+        ml let c = y {
+            r c
         }
     }
-    return nil
+    r t
 }
-let xs : [Int?] = [nil, 4, nil]
-println(some(xs))
+let u : [q?] = [t, edc, t]
+ts(w(u))
 ({})
-protocol b {
-    class func e()
+protocol ji {
+    class func v()
 }
 struct c {
-    var d: b.Type
-    func e({
+    var xw: ji.vu
+    func v({
 }
-protocol b {
-    typealias d
-    typealias e
+protocol ji {
+    s xw
+    s v
 }
-struct c<h : b> : b {
-    typealias d = h
-    typealias e = a<c<h>, d>
+struct c<rq : ji> : ji {
+    s xw = rq
+    s v = ay<c<rq>, xw>
 }
-struct c<d : SequenceType> {
-    var b: d
+struct c<xw : hgf> {
+    var ji: xw
 }
-func a<d>() -> [c<d>] {
-    return []
+func ay<xw>() -> [c<xw>] {
+    r []
 }
-func a(b: Int = 0) {
+func ay(ji: q = ed) {
 }
-let c = a
+let c = ay
 c()
-import Foundation
-class Foo<T>: NSObject {
-    var foo: T
-    init(foo: T) {
-        self.foo = foo
-        super.init()
+hg po
+class gfe<x>: ih {
+    var lk: x
+    ba(lk: x) {
+        m.lk = lk
+        ay.ba()
     }
 }
-func f<T : BooleanType>(b: T) {
+func ut<x : nm>(ji: x) {
 }
-f(true as BooleanType)
-func i(c: () -> ()) {
+ut(l ji nm)
+func v(c: () -> ()) {
 }
-class a {
-    var _ = i() {
+class ay {
+    var _ = v() {
     }
 }
-protocol A {
+protocol ut {
 }
-struct B : A {
+struct p : ut {
 }
-struct C<D, E: A where D.C == E> {
+struct fed<gf, k: ut qp gf.fed == k> {
 }
-struct d<f : e, g: e where g.h == f.h> {
+struct xw<ut : v, fed: v qp fed.rq == ut.rq> {
 }
-protocol e {
-    typealias h
+protocol v {
+    s rq
 }
-class A: A {
+class ut: ut {
 }
-class B : C {
+class p : fed {
 }
-typealias C = B
-var x1 = 1
-var f1: Int -> Int = {
-    return $0
+s fed = p
+var rq = cb
+var dcb: q -> q = {
+    r $ed
 }
-let succeeds: Int = { (x: Int, f: Int -> Int) -> Int in
-    return f(x)
-}(x1, f1)
-let crashes: Int = { x, f in
-    return f(x)
-}(x1, f1)
-class A<T : A> {
+let v: q = { (c: q, ut: q -> q) -> q yx
+    r ut(c)
+}(rq, dcb)
+let dc: q = { c, ut yx
+    r ut(c)
+}(rq, dcb)
+class ut<x : ut> {
 }
-protocol A {
-    typealias B
+protocol ut {
+    s p
 }
-class C<D> {
-    init <A: A where A.B == D>(e: A.B) {
+class fed<gf> {
+    ba <ut: ut qp ut.p == gf>(v: ut.p) {
     }
 }
-func ^(a: BooleanType, Bool) -> Bool {
-    return !(a)
+func ^(ay: nm, n) -> n {
+    r !(ay)
 }
-protocol a {
+protocol ay {
     class func c()
 }
-class b: a {
+class ji: ay {
     class func c() { }
 }
-(b() as a).dynamicType.c()
-a=1 as a=1
-func a<T>() -> (T, T -> T) -> T {
-    var b: ((T, T -> T) -> T)!
-    return b
+(ji() ji ay).cb p<x : ut> {
+    let rq: x
+    let v: x.k
 }
-func prefix(with: String) -> <T>(() -> T) -> String {
-  return { g in "\(with): \(g())" }
+protocol fed {
+    s wv
+    func fed<x qp x.k == wv>(ut: p<x>)
 }
-func c<d {
-    enum c {
-        func e
-        var _ = e
-    }
-}
-func a<T>() {
-    enum b {
-        case c
-    }
-}
-protocol a : a {
-}
-class a {
-    typealias b = b
-}
-class c {
-    func b((Any, c))(a: (Any, AnyObject)) {
-        b(a)
-    }
-}
-enum S<T> {
-    case C(T, () -> ())
-}
-protocol A {
-    typealias E
-}
-struct B<T : A> {
-    let h: T
-    let i: T.E
-}
-protocol C {
-    typealias F
-    func g<T where T.E == F>(f: B<T>)
-}
-struct D : C {
-    typealias F = Int
-    func g<T where T.E == F>(f: B<T>) {
-    }
-}
-b
-protocol c : b { func b
+struct gf : fed {
+    s wv = q
+    func fed<x qp x.k == wv>(ut: p<x>}
+ji
+protocol c : ji { func ji

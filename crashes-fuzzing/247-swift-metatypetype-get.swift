@@ -2,13 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<f : e, g: e where g.h == f.h> {{
-    typealias E
+struct d<c : j, j where i.j == c.j> {{
+    j k
 }
-struct B<T : A> {
-    let h: T
-    let i: T.E
-}
-protocol C {
-    ty    }
-}
+struct b<i : f

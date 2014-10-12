@@ -2,100 +2,54 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a(x: Any, y: Any) -> (((Any, Any) -> Any) -> Any) {
-    return {
-        (m: (Any, Any) -> Any) -> Any in
-        return m(x, y)
-    }
-}
- 
-func b(z: (((Any, Any) -> Any) -> Any)) -> Any {
-    return z({
-        (p: Any, q:Any) -> Any in
-        return p
-    })
-}
-b(a(1, a(2, 3)))
-struct c<d : SequenceType> {
-    var b: d
-}
-func a<d>() -> [c<d>] {
-    return []
-}
-protocol b {
-    class func e()
-}
-struct c {
-    var d: b.Type
-    func e() {
-        d.e()
-    }
-}
-f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+func n<a>() -> (a, a -> a) -> a {
+   p m p.u = {
 }
  {
-   g) {
-        h  }
+   a) {
+        dc  }
 }
-protocol f {
-   class func i()
+protocol n {
+   class func u()
 }
-class d: f{  class func i {}
-func a(b: Int = 0) {
+class p: n{  class func u {}
+func t(a: Int = cb) {
 }
-let c = a
-c()
-class c {
-    func b((Any, c))(a: (Any, AnyObject)) {
-        b(a)
+let m = t
+m()
+class m {
+    func a((x, m))(t: (x, a)) {
+        a(t)
     }
 }
-var x1 = 1
-var f1: Int -> Int = {
-    return $0
+p u = v
+p w: Int -> Int = {
+    q $cb
 }
-let succeeds: Int = { (x: Int, f: Int -> Int) -> Int in
-    return f(x)
-}(x1, f1)
-let crashes: Int = { x, f in
-    return f(x)
-}(x1, f1)
-protocol a : a {
+let dc: Int = { (o: Int, n: Int -> Int) -> Int r
+    q n(o)
+}(u, w)
+let b: Int = { o, n r
+    q n(o)
+}(u, w)
+protocol t : t {
 }
-func a<T>() -> (T, T -> T) -> T {
-    var b: ((T, T -> T) -> T)!
-    return b
+func t<y>() -> (y, y -> y) -> y {
+    p a: ((y, y -> y) -> y)!
+    q a
 }
-protocol a {
+protocol t {
 }
-protocol b : a {
+protocol a : t {
 }
-protocol c : a {
+protocol m : t {
 }
-protocol d {
-  typealias f = a
+protocol p {
+  s n = t
 }
-struct e : d {
-  typealias f = b
+n o : p {
+  s n = a
 }
-func i<j : b, k : d where k.f == j> (n: k) {
+func u<m : a, o : p where o.n == m> (m: o) {
 }
-func i<l : d where l.f == c> (n: l) {
-}
-i(e())
-({})
-func i(c: () -> ()) {
-}
-class a {
-    var _ = i() {
-    }
-}
-func ^(a: BooleanType, Bool) -> Bool {
-    return !(a)
-}
-class a {
-    typeali  let a: [(T, () -> ())] = []
-}
+func u<dc : p where dc.n == m

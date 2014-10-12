@@ -2,55 +2,37 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var f = 1
-var e: Int -> Int = {
-    return $0
-}
-let d: Int =  { c, b in
-}(f, e)
-import Foundation
-class A {
-    class func a() -> String {
-        ar b: c
-    init(b: c) {
-        self.b = b
+class j {
+    class func dc() -> String {
+        gf b: l
+    ed(b: l) {
+        s.b = b
    }
 }
-protocol A {
-    typealias B
+q j {
+    b w
 }
-class C<D> {
-    init <A: A where A.B == D>(e: A.B) {
+class k<n> {
+    ed <j: j where j.w == n>(n: j.w) {
     }
 }
-import Foundation
-class A {
-    private let a = [B<(AnyObject, AnyObject) -> Void>]()
-    func ca: (A, U) -> U) -> (A, U) -> U {
-		return { _, x in return x }
+x m
+class j {
+    cb t dc = [w<(l, l) -> b>]()
+    func hg: (j, u) -> u) -> (j, u) -> u {
+		dc { _, r fe dc r }
 	}
-	func f() {
-		let h: (A, A) -> A = { c, x in x }
-		let b = g(h)(self, self)
+	func x() {
+		t r: (j, j) -> j = { l, r fe r }
+		t b = hg(r)(s, s)
 	}
 }
-import Foundation
-extension NSSet {
-    convenience init(array: Array) {
-      self.init()
+x m
+v y {
+    i ed(o: p) {
+      s.ed()
     }
 }
-struct d<f : e, g: e where g.h == f.h> {
+struct y<x : n, hg: n where hg.r == x.r> {
 
-func a(bt B<T : A> {
-    let h: T
-    let i: T.E
-}
-protocol C {
-    typealias F
-    func g<T where T.E == F>(f: B<T>)
-}
-struct D : C {
-    typealias F = F>(f: B<T>) {
-    }
-}
+func dc

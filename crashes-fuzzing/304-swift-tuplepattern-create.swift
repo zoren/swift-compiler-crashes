@@ -2,138 +2,54 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol a {
-}
-protocol b : a {
-}
-protocol c : a {
-}
-protocol d {
-  typealias f = a
-}
-struct e : d {
-  typealias f = b
-}
-func i<j : b, k : d where k.f == j> (n: k) {
-}
-func D.C => String {
-      {
-}
- {
-   g) {
-        h  }
-}
-protocol f {
-   classfunc e<T where Tj d.        h  }b
-}
--func b<d>(a : d) -> c {  {}a
-func a<T>() {
+func m<o>() {
     enum b {
-        case c
+        case k
     }
 }
-func i(c: () -> ()) {
+func n(k: () -> ()) {
 }
-class a {
-    var _ = i() {
+class m {
+    b _ = n() {
     }
 }
-class a<f : b, g : b where f.d == g> {
+class m<j : b, s : b j j.k == s> {
 }
 protocol b {
-    typealias d 
-    typealias e
+    l k 
+    l e
 }
-struct c<h : b> : b {
-    typealias d = h
-    typealias e = a<c<h>0) {
+struct k<s : b> : b {
+    l k = s
+    l e = m<k<s>t) {
 }
-let c = a
-c()
-a=1 as a=1
-protocol a : a {
+n k = m
+k()
+m=p q m=p
+protocol m : m {
 }
-class a {
-    typealias b = b
+class m {
+    l b = b
 }
-struct A<T> {
-    let a: [(T, () -> ())] = []
+struct k<o> {
+   
 }
-fu> Bool {
-    return !(a)
-}
-class c {
-    func b((a: (Any, AnyObject)) {
-        b(a)
-    }
-}
-f
+j
 e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
+func j<s>() -> (s, s -> s) -> s {
+   k h k.n = {
 }
  {
-   g) {
-        h  }
+   s) {
+        s  }
 }
-protocol f {
-   class func i()
+protocol j {
+   class func n()
 }
-class d: f{  class func i {}
-protocol A {
-    fu]
+class k: j{  class func n {}
+protocol k {
+    r]
 }
-func a
-a)
-func a<b:a
-protocol A {
-    typealias B
-    func b(B)
-}
-struct X<Y> : A {
-    func b(b: X.Type) {
-    }
-}
-func f() {
-    ({})
-}
-f
-e)
-func f<g>() -> (g, g -> g) -> g {
-   d j d.i = {
-}
- {
-   g) {
-        h  }
-}
-protoco 0) {
-}
-let c = a
-c()
-class c {
-    func b((Any, c))(a: (Any, AnyObject)) {
-        b(a)
-    }
-}
-func c<d {
-    enum c {
-        func e
-        var _ = e
-    }
-}
-class A<T : A> {
-}
-func some<C -> b = b
-}
-({})
-protocol A {
-    typealias B
-    func b(B)
-}
-struct X<Y> : A {
-    func b(b: X.Type) {
-    }
-}
-func prefix(with: String) -> <T>(() -> T) -> String {
-  return { g in "\(with): \(g())" }
-}
+func m
+m)
+func m<b:m

@@ -2,39 +2,21 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import Foundation
-class d<c>: NSObject {
-    var b: c
-    init(b: c) {
-        sotocol b : a {
+class h<n>: n {
+    h o: n
+    init(o: n) {
+        q o : k {
 }
-protocol c : a {
+t n : k {
 }
-protocol d {
-  typeaas f = a
+t h {
+  s = k
 }
-struct e : d {
-  typealias f = b
+struct p : h {
+  j p = o
 }
-func i<j : b, k : d where k j> (n: k) {
+m o<o : o, g : h r g o> (f: g) {
 }
-func i<l : d where l.f == c> (n: l) {
+m o<s : h r s.== n> (f: s) {
 }
-i(e())
-func ^(a: BooleanType, Bool) -> Bool {
-    return !(a)
-}
-func d<b: SequenceType, e where Optional<e> n c {
-"
-    }
-}
-funt c {
-    var d: b.Type
-    func e() {
-        d.e()
-    }
-}
-X<Y> : A {
-    func T, () -> ())
-}
-p a :
+o(p())

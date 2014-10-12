@@ -2,54 +2,42 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func o<b>() -> (b, b -> b) -> b {
-   q n q.v = {
+func c<g>() -> (g, g -> g) -> g {
+   e n e.v = {
 }
  {
-   b) {
-        m  }
+   g) {
+        k  }
 }
-ed o {
+f c {
    class func v()
 }
-class q: o{  class func v {}
-func u(b: Int = dc) {
+class e: c{  class func v {}
+func d(g: Int = m) {
 }
-let n = u
+let n = d
 n()
 class n {
-    func b((y, n))(u: (y, b)) {
-        b(u)
-    }
+    func c l
+    r c(g)
+}(v, h)
+f d : d {
 }
-q v = w
-q x: Int -> Int = {
-    r $dc
+func d<i>() -> (i, i -> i) -> i {
+    g
 }
-let m: Int = { (p: Int, o: Int -> Int) -> Int s
-    r o(p)
-}(v, x)
-let cb: Int = { p, o s
-    r o(p)
-}(v, x)
-ed u : u {
+f d {
 }
-func u<a>() -> (a, a -> a) -> a {
-    q b: ((a, a -> a) -> a)!
-    r b
+f g : d {
 }
-ed u {
+f n : d {
 }
-ed b : u {
+f e {
+  j c = d
 }
-ed n : u {
+c g : e {
+  j c = g
 }
-ed q {
-  t o = u
+func v<n : g, g : e where g.c == n> (n: g) {
 }
-o p : q {
-  t o = b
-}
-func v<n : b, p : q where p.o == n> (n: p) {
-}
-func v<ed : q where ed.o == n> (n:
+func v<f : e where f.c == n

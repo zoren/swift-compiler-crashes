@@ -2,22 +2,20 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var f = 1
-var en a {
+var k = 1
+var j p {
         }
 }
-private class B<C> {
-    let  enum S<T> : P {
-    func f<T>() -> T -> T {
-        return { x in x 1 {
-        b[c][c] = 1
+n class l<g> {
+    let  enum e<q> : r {
+    func k<q>() -> q -> q {
+        return { h o h 1 {
+        b[h][h] = 1
     }
 }
-import Foundation
-class A {
-    class func a() -> String {
-     let d: String = {
-                return self.a()
+b i
+class k {
+m func p() -> String {
+     let m: String = {
+                return self.p()
             }()
-     
-}

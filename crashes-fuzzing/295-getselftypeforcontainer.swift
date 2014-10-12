@@ -2,42 +2,22 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A {
-    typealias E
-}
-struct B<T : As a {
-    typealias b = b
-}
-func a<T>() {f {
+func h<j>() {l {
    class func i()
 }
-class d: f{  class func i {}
-func f() {
+class f: l{  class func i {}
+func l() {
     ({})
 }
-func prefix(with: String) -> <T>(() -> T) -> String {
-  return { g in "\(with): \(g())" }
+func : h {
 }
-protocol a : a {
-}
-func a<T>() {
-    enum b {
-        case c
+func h<j>() {
+    g g {
+        k k
     }
 }
-d> Bool {
-    e !(f)
+f> f {
+    l !(l)
 }
-b
-protocol f : b { func b
-class l {
-    fun-> Any {
-    return z({
-        (p: Any, q:Any) -> Any in
-        return p
-    })
-}
-b(a(1, a(2, 3)))
- d)
-func e(h:  return { c):h())" }
-}
+g
+protocol l : g { func g

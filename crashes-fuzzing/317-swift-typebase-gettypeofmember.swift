@@ -2,60 +2,41 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A {
-    typealias B
+protocol k {
+    typealias x
 }
-class C<D> {
-    init <A: A where A.B == D>(e: A.B) {
+class l<ed> {
+    init <k: k where k.x == ed>(p: k.x) {
     }
 }
-import Foundation
-extension  A : NSManagedObject {
+import o
+extension  k : s {
  )
-struct d<f : e, g: e where g.h == f.h> {
+q ed<y : p, ih: p where ih.q == y.q> {
 }
-protocol e {
-    typealias h
+protocol p {
+    typealias q
 }
-enum A : String {
-    case b = ""
+i k : r {
+    y i = ""
 }
-let c: A? = nil
-if c == .b {
-    println("")
-}
-enum S<T> : P {
-    func f<T>() -> T -> T {
-        return { x in x }
-    }
-}
-protocol P {
-    func f<T>()(T) -> T
-}
-func a(b: Int = 0) {
-}
-let c = a
-c()
-import Foundation
-class d<c>: NSObject {
-    var b: c
-    init(b: c) {
-        self.b = b
+v n: k? = cb
+m n == .i {
+    u("gf
+class ed<n>: p {
+    ih i: n
+    init(i: n) {
+        t.i = i
    }
 }
-import Foundation
-class A {
-    class func a() -> String {
-        return ""
+import o
+class k {
+    class dc ed() -> r {
+        b ""
    
-        for b in a {
-            b.c(object1, object2)
+        w i fe ed {
+            i.n(n, j)
         }
     }
 }
-private class B<C> {
-    let c: C
-    init(c: C) {
-        self.c = c
-    }
-}
+hg class x

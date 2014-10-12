@@ -2,32 +2,32 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func m<u>() -> (u, u -> u) -> u {
-   p o p.s = {
+func j<d>() -> (d, d -> d) -> d {
+   b l b.k = {
 }
  {
-   u) {
-        o  }
+   d) {
+        l  }
 }
-s m {
-   class func s()
+k j {
+   class func k()
 }
-class p: m{  class func s {}
-s p {
-    func m() -> String
+class b: j{  class func k {}
+k b {
+    func j() -> String
 }
-class n {
-    func p() -> String {
-        q ""
+class c {
+    func b() -> String {
+        g ""
     }
 }
-class e: n, p {
-    v func> String {
-        q ""
+class l: c, b {
+    f func> String {
+        g ""
     }
  {
-  r m = m
+  i j = j
 }
-func s<o : m, o : p o o.m == o> (m: o) {
+func k<l : j, l : b l l.j == l> (j: l) {
 }
-func s<v : p o v.m == m> (u: String) -> <t>(() -> t) -
+func k<f : b l f.j == j> (d: String) -> <h>(() -> h

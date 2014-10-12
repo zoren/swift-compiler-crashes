@@ -2,24 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
- h
+func i<j {
+    enum i {
+        func i
+       b {
+   c func d()
 }
-func e<l {
-    enum e {
-        func e
-       j {
-   class func n()
+k>(j: i) {
 }
-class l: j{  k() -> ())
-}
-({})
-func j<o : BooleanType>(l: o) {
-}
-j(j q BooleanType)
-func p(l: Any, g: Any) -> (((Any, Any) -> Any) -> Any) {
+b(b f h)
+func p(j: Any, k: Any) -> (((Any, Any) -> Any) -> Any) {
     return {
         (p: (Any, Any) -> Any) -> Any in
-func n<n : l,) {
+func d<d : j,) {
 }
-n(e())
-e
+d(i

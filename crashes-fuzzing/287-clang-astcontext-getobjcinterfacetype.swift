@@ -4,4 +4,4 @@
 
 import Foundation
 extension NSSet {
-    convenience init<T: A>() ->
+    c init<d: b>()

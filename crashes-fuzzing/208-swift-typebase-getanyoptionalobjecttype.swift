@@ -2,10 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var x1 0
-}
-let suc{
+let d{
  
 protocol c : b { func b
-({{
-    { }

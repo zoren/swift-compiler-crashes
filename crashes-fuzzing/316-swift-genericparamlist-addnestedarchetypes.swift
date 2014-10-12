@@ -2,19 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S: P {
-    func f<T>() -> T -> T {
-        return { -> T
+func j<h> -> h {
+        e { -> h
 }
-import Foundation
-class A {
-    class func a() -> String {
-   struct c {
-      static let d: String = {
-             eturn self.a()
-          }()
-
- b {A {
-    typeac
-    }
-}
+b k
+class f {
+    class func g() -> String {
+   struct j {
+      l let d: String = {
+             i self.g()
+         }()
