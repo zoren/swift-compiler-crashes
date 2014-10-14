@@ -23,18 +23,20 @@ class CrashCompilerClass<A:MyObjectDecodable> {
     
     var callback : (A->())? = nil
 
-    func loopOnArray(objArray: MyObjectArray?) -> NSError? {
+    func loopOnArray(objArray: MyObjectArray?) {
         
-        var error : NSError?
         if let _objArray = objArray {
+            
             for obj in _objArray {
-                let obj1 = obj as? A
-                let obj2 = apply(obj,A.decode)
-                if let _obj2 = obj2 {
-                    self.callback!(_obj2)
+            
+                if let obj2 = apply(obj,A.decode) {
+                    
+                    if let _callback = self.callback {
+                        
+                        _callback(obj2)
+                    }
                 }
             }
         }
-        return error
     }
 }
