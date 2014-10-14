@@ -6,12 +6,9 @@ protocol AnyObjectDecodable {
     class func decode(obj: AnyObject) -> Self?
 }
 
-func apply <A,B>(a : A?, f : A->B?) -> B? {
-    if let _a = a {
-        return f(_a)
-    } else {
-        return .None
-    }
+func apply <A,B>(a : A, f : A->B) -> B {
+
+    return f(a)
 }
 
 class CrashCompilerClass<A:AnyObjectDecodable> {
