@@ -16,7 +16,7 @@ func apply <A,B>(a : A?, f : A->B?) -> B? {
 
 class CrashCompilerClass<A:AnyObjectDecodable> {
 
-    func loopOnArray(obj: AnyObject) {
+    func applyMethod(obj: AnyObject) {
         
         apply(obj,A.decode)
     }
