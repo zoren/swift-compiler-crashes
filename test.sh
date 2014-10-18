@@ -41,7 +41,7 @@ columns=$(tput cols)
 verbose=0
 log_stacks=0
 delete_dupes=0
-while getopts ":c:v:l:d" o; do
+while getopts "c:vld" o; do
   case ${o} in
     c)
       columns=${OPTARG}
@@ -132,7 +132,7 @@ test_file() {
         swift_crash=1
         compilation_comment=""
         break
-      elif [[ ! ${files_to_compile} =~ \.random\. ]]; then
+      elif [[ ${files_to_compile} =~ (fixed/|\.runtime\.|\.script\.) ]]; then
         break
       fi
     done
