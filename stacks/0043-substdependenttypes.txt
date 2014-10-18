@@ -1,0 +1,23 @@
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+3  libsystem_platform.dylib _sigtramp + [N]
+4  swift                    substDependentTypes(swift::ArchetypeBuilder&, swift::Type) + 56
+5  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
+6  swift                    swift::ArchetypeBuilder::substDependentType(swift::Type) + 50
+7  swift                    swift::Lowering::TypeConverter::getTypeLoweringForUncachedLoweredType(swift::Lowering::TypeConverter::TypeKey) + 194
+8  swift                    swift::Lowering::TypeConverter::getTypeLowering(swift::Lowering::AbstractionPattern, swift::Type, unsigned int) + 1999
+9  swift                    (anonymous namespace)::ArgumentForwardVisitor::makeArgument(swift::Type, swift::VarDecl*) + 221
+10 swift                    swift::ASTVisitor<(anonymous namespace)::ArgumentForwardVisitor, void, void, void, void, void, void>::visit(swift::Pattern*) + 155
+11 swift                    swift::Lowering::SILGenFunction::emitClassConstructorAllocator(swift::ConstructorDecl*) + 141
+12 swift                    swift::Lowering::SILGenModule::emitConstructor(swift::ConstructorDecl*) + 376
+13 swift                    swift::ASTVisitor<SILGenType, void, void, void, void, void, void>::visit(swift::Decl*) + 228
+14 swift                    SILGenType::emitType() + 203
+15 swift                    swift::Lowering::SILGenModule::visitNominalTypeDecl(swift::NominalTypeDecl*) + 30
+16 swift                    swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 395
+17 swift                    swift::SILModule::constructSIL(swift::Module*, swift::SourceFile*, swift::Optional<unsigned int>) + 314
+18 swift                    swift::performSILGeneration(swift::SourceFile&, swift::Optional<unsigned int>) + 72
+19 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3432
+20 swift                    main + 1677
+21 libdyld.dylib            start + 1
+22 libdyld.dylib            start + [N]

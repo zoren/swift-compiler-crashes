@@ -1,0 +1,19 @@
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+3  libsystem_platform.dylib _sigtramp + [N]
+4  swift                    swift::Lowering::SILGenFunction::emitCurryThunk(swift::FuncDecl*, swift::SILDeclRef, swift::SILDeclRef) + 269
+5  swift                    swift::Lowering::SILGenModule::emitCurryThunk(swift::SILDeclRef, swift::SILDeclRef, swift::FuncDecl*) + 208
+6  swift                    swift::Lowering::SILGenFunction::emitGlobalFunctionRef(swift::SILLocation, swift::SILDeclRef, swift::Lowering::SILConstantInfo) + 250
+7  swift                    swift::Lowering::SILGenFunction::emitProtocolWitness(swift::ProtocolConformance*, swift::SILDeclRef, swift::SILDeclRef, llvm::ArrayRef<swift::Substitution>, swift::Lowering::IsFreeFunctionWitness_t, swift::Lowering::HasInOutSelfAbstractionDifference_t) + 3833
+8  swift                    swift::Lowering::SILGenModule::emitProtocolWitness(swift::ProtocolConformance*, swift::SILLinkage, swift::SILDeclRef, swift::SILDeclRef, swift::Lowering::IsFreeFunctionWitness_t, llvm::ArrayRef<swift::Substitution>) + 2776
+9  swift                    (anonymous namespace)::SILGenConformance::emitFuncEntry(swift::FuncDecl*, swift::ValueDecl*, llvm::ArrayRef<swift::Substitution>) + 213
+10 swift                    swift::Lowering::SILGenModule::getWitnessTable(swift::ProtocolConformance*) + 1531
+11 swift                    SILGenType::emitType() + 315
+12 swift                    swift::Lowering::SILGenModule::visitNominalTypeDecl(swift::NominalTypeDecl*) + 30
+13 swift                    swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 395
+14 swift                    swift::SILModule::constructSIL(swift::Module*, swift::SourceFile*, swift::Optional<unsigned int>) + 314
+15 swift                    swift::performSILGeneration(swift::SourceFile&, swift::Optional<unsigned int>) + 72
+16 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3432
+17 swift                    main + 1677
+18 libdyld.dylib            start + 1

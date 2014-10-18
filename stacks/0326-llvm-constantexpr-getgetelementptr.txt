@@ -1,0 +1,19 @@
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+4  swift                    llvm::ConstantExpr::getGetElementPtr(llvm::Constant*, llvm::ArrayRef<llvm::Value*>, bool) + 107
+5  swift                    llvm::ConstantFoldGetElementPtr(llvm::Constant*, bool, llvm::ArrayRef<llvm::Value*>) + 2517
+6  swift                    llvm::ConstantExpr::getGetElementPtr(llvm::Constant*, llvm::ArrayRef<llvm::Value*>, bool) + 51
+7  swift                    llvm::ConstantExpr::replaceUsesOfWithOnConstant(llvm::Value*, llvm::Value*, llvm::Use*) + 236
+8  swift                    llvm::Value::replaceAllUsesWith(llvm::Value*) + 82
+9  swift                    getAddrOfLLVMVariable(swift::irgen::IRGenModule&, llvm::DenseMap<swift::irgen::LinkEntity, llvm::Constant*, llvm::DenseMapInfo<swift::irgen::LinkEntity> >&, swift::irgen::LinkEntity, llvm::Type*, llvm::Type*, llvm::Type*, swift::irgen::DebugTypeInfo) + 506
+10 swift                    swift::irgen::IRGenModule::getAddrOfValueWitnessTable(swift::CanType, llvm::Type*) + 132
+11 swift                    swift::irgen::emitValueWitnessTable(swift::irgen::IRGenModule&, swift::CanType) + 148
+12 swift                    swift::irgen::emitEnumMetadata(swift::irgen::IRGenModule&, swift::EnumDecl*) + 441
+13 swift                    swift::irgen::IRGenModule::emitLazyDefinitions() + 138
+14 swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2038
+15 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+16 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5444
+17 swift                    main + 1677
+18 libdyld.dylib            start + 1
+19 libdyld.dylib            start + [N]

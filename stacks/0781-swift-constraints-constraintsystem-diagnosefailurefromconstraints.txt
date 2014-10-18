@@ -1,0 +1,17 @@
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+3  libsystem_platform.dylib _sigtramp + [N]
+4  swift                    swift::constraints::ConstraintSystem::diagnoseFailureFromConstraints(swift::Expr*) + 1176
+5  swift                    swift::constraints::ConstraintSystem::salvage(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::Expr*, bool) + 1700
+6  swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 1000
+7  swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 554
+8  swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 375
+9  swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 97
+10 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 221
+11 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1734
+12 swift                    swift::CompilerInstance::performSema() + 2060
+13 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+14 swift                    main + 1677
+15 libdyld.dylib            start + 1
+While type-checking 'anonname=0x7fd78a9e4dc0' at ./crashes-fuzzing/0781-swift-constraints-constraintsystem-diagnosefailurefromconstraints.swift:20:5

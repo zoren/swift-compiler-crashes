@@ -1,0 +1,23 @@
+let foo as [0x31] == A.a!.<b) -> {
+let foo as [0x31] == A.a!.<b) -> {
+let foo as [0x31] == A.a!.<b) -> {
+let foo as [0x31] == A.a!.<b) -> {
+let foo as [0x31] == A.a!.<b) -> {
+0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    SignalHandler(int) + 452
+2  libsystem_platform.dylib _sigtramp + 26
+3  swift                    swift::namelookup::lookupInModule(swift::Module*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::DeclName, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> >) + 272
+4  swift                    swift::TypeBase::isEqual(swift::Type) + 26
+5  swift                    getBoundTypesFromConstraint(swift::constraints::ConstraintSystem*, swift::Expr*, swift::constraints::Constraint*) + 112
+6  swift                    swift::constraints::ConstraintSystem::diagnoseFailureFromConstraints(swift::Expr*) + 924
+7  swift                    swift::constraints::ConstraintSystem::salvage(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::Expr*, bool) + 817
+8  swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 1000
+9  swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 554
+10 swift                    swift::TypeChecker::typeCheckTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 136
+11 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1496
+12 swift                    swift::CompilerInstance::performSema() + 2060
+13 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+14 swift                    main + 1677
+15 libdyld.dylib            start + 1
+16 libdyld.dylib            start + [N]
+While type-checking expression at [./crashes-fuzzing/0776-no-stacktrace.swift:352:1 - line:353:12] RangeText="f = [0x31] = {
