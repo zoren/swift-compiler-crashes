@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 4  swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9179
 5  swift                    swift::irgen::IRGenModule::emitLazyDefinitions() + 199
 6  swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2038

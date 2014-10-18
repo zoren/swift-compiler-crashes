@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 4  swift                    (anonymous namespace)::ArgEmitter::emitExpanded(swift::Lowering::RValueSource&&, swift::Lowering::AbstractionPattern) + 722
 5  swift                    (anonymous namespace)::ArgEmitter::emit(swift::Lowering::RValueSource&&, swift::Lowering::AbstractionPattern) + 98
 6  swift                    (anonymous namespace)::CallEmission::apply(swift::Lowering::SGFContext) + 1128

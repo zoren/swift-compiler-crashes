@@ -1,6 +1,4 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
-3  swift                    llvm::InstCombiner::SimplifyMemTransfer(llvm::MemIntrinsic*) + 482
+3  swift                    swift::ASTContext::getBoolDecl() const + 98
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

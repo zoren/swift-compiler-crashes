@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 4  swift                    swift::TupleType::get(llvm::ArrayRef<swift::TupleTypeElt>, swift::ASTContext const&) + 462
 5  swift                    (anonymous namespace)::TypeResolver::resolveType(swift::TypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>) + 3294
 6  swift                    swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*, swift::ValueDecl*) + 221

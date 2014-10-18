@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 3  swift                    swift::TypeChecker::callWitness(swift::Expr*, swift::DeclContext*, swift::ProtocolDecl*, swift::ProtocolConformance*, swift::DeclName, llvm::MutableArrayRef<swift::Expr*>, swift::Diag<>) + 816
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514

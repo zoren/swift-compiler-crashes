@@ -1,6 +1,4 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
-3  swift                    (anonymous namespace)::SILParser::parseSILInstruction(swift::SILBasicBlock*) + 68933
+3  swift                    (anonymous namespace)::SILParser::getLocalValue((anonymous namespace)::SILParser::UnresolvedValueName, swift::SILType, swift::SILLocation) + 613
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363

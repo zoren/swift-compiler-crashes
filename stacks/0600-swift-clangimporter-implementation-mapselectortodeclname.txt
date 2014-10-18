@@ -1,6 +1,4 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
-3  swift                    swift::ObjCSelector (anonymous namespace)::CreateSelector::operator()<char const*, char const*, char const*>(unsigned int, char const*, char const*, char const*) const + 197
+3  swift                    swift::ClangImporter::Implementation::getDefinitionForClangTypeDecl(clang::Decl const*) + 37
 4  swift                    (anonymous namespace)::DeclChecker::checkDynamicSelfReturn(swift::FuncDecl*, swift::TypeRepr*, unsigned int) + 574
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18426
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363

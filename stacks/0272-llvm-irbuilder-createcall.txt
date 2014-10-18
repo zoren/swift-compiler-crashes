@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 3  libc++.1.dylib           operator new(unsigned long) + 30
 4  swift                    llvm::IRBuilder<true, llvm::ConstantFolder, llvm::IRBuilderDefaultInserter<true> >::CreateCall(llvm::Value*, llvm::Value*, llvm::Twine const&) + 150
 5  swift                    (anonymous namespace)::EmitTypeMetadataRef::visitAnyMetatypeType(swift::CanTypeWrapper<swift::AnyMetatypeType>) + 170

@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 3  swift                    (anonymous namespace)::RawMemoryObject::readBytes(unsigned long long, unsigned long long, unsigned char*) const + 58
 4  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
 5  swift                    swift::ArchetypeBuilder::mapTypeIntoContext(swift::DeclContext*, swift::Type) + 149

@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 3  swift                    swift::Optional<swift::Diagnostic>::operator=(swift::Optional<swift::Diagnostic>&&) + 245
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 228
 5  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 53

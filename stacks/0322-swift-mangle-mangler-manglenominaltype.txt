@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 3  swift                    swift::Mangle::Mangler::mangleNominalType(swift::NominalTypeDecl*, swift::ResilienceExpansion, swift::Mangle::Mangler::BindGenerics, swift::GenericParamList*) + 34
 4  swift                    swift::Lowering::SILGenFunction::emitProlog(llvm::ArrayRef<swift::Pattern*>, swift::Type, swift::DeclContext*) + 48
 5  swift                    swift::Lowering::SILGenFunction::emitGeneratorFunction(swift::SILDeclRef, swift::Expr*) + 181

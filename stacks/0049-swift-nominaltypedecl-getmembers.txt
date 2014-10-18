@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 4  swift                    swift::NominalTypeDecl::getMembers(bool) const + 28
 5  swift                    (anonymous namespace)::LowerType::visitAnyStructType(swift::CanType, swift::StructDecl*) + 40
 6  swift                    swift::Lowering::TypeLowering const* swift::CanTypeVisitor<(anonymous namespace)::LowerType, swift::Lowering::TypeLowering const*>::visit<>(swift::CanType) + 125

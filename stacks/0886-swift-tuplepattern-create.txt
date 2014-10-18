@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 3  swift                    swift::TuplePattern::create(swift::ASTContext&, swift::SourceLoc, llvm::ArrayRef<swift::TuplePatternElt>, swift::SourceLoc, bool, swift::SourceLoc, swift::Optional<bool>) + 280
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52

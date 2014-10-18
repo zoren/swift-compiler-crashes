@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 3  swift                    swift::GenericSignature::get(llvm::ArrayRef<swift::GenericTypeParamType*>, llvm::ArrayRef<swift::Requirement>) + 324
 4  swift                    swift::TypeBase::getCanonicalType() + 1403
 5  swift                    swift::TypeBase::getCanonicalType() + 775

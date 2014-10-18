@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 3  swift                    llvm::FoldingSetNodeID::operator==(llvm::FoldingSetNodeID const&) const + 40
 4  swift                    swift::TypeBase::isEqual(swift::Type) + 26
 5  swift                    getBoundTypesFromConstraint(swift::constraints::ConstraintSystem*, swift::Expr*, swift::constraints::Constraint*) + 112

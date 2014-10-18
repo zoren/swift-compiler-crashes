@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 4  swift                    swift::Lowering::TypeConverter::getLoweredASTFunctionType(swift::CanTypeWrapper<swift::AnyFunctionType>, unsigned int, swift::AnyFunctionType::ExtInfo) + 770
 5  swift                    swift::Lowering::TypeConverter::getConstantInfo(swift::SILDeclRef) + 602
 6  swift                    swift::Lowering::SILGenModule::emitProtocolWitness(swift::ProtocolConformance*, swift::SILLinkage, swift::SILDeclRef, swift::SILDeclRef, swift::Lowering::IsFreeFunctionWitness_t, llvm::ArrayRef<swift::Substitution>) + 114

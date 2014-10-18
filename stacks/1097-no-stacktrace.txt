@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 4  swift                    (anonymous namespace)::SwiftDeclConverter::importConstructor(clang::ObjCMethodDecl const*, swift::DeclContext*, bool, swift::Optional<swift::CtorInitializerKind>, bool, swift::ObjCSelector, swift::DeclName, llvm::ArrayRef<clang::ParmVarDecl const*>, bool, bool&) + 1498
 5  swift                    swift::ClangImporter::Implementation::loadAllMembers(swift::Decl const*, unsigned long long, bool*) + 2951
 6  swift                    swift::IterableDeclContext::loadAllMembers() const + 102

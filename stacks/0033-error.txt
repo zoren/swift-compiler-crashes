@@ -1,9 +1,5 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
-4  swift                    llvm::AllocaInst::AllocaInst(llvm::Type*, llvm::Twine const&, llvm::Instruction*) + 41
-5  swift                    swift::irgen::IRGenFunction::createAlloca(llvm::Type*, swift::irgen::Alignment, llvm::Twine const&) + 63
-6  swift                    setMetadataRef(swift::irgen::IRGenFunction&, swift::ArchetypeType*, llvm::Value*) + 163
-7  swift                    swift::irgen::IRGenFunction::bindArchetype(swift::ArchetypeType*, llvm::Value*, llvm::ArrayRef<llvm::Value*>) + 143
+6  swift                    llvm::Value::setName(llvm::Twine const&) + 594
+7  swift                    swift::irgen::IRGenFunction::bindArchetype(swift::ArchetypeType*, llvm::Value*, llvm::ArrayRef<llvm::Value*>) + 94
 8  swift                    (anonymous namespace)::EmitPolymorphicParameters::emitWithSourceBound(swift::irgen::Explosion&) + 1192
 9  swift                    swift::irgen::emitPolymorphicParametersForGenericValueWitness(swift::irgen::IRGenFunction&, swift::NominalTypeDecl*, llvm::Value*) + 511
 10 swift                    (anonymous namespace)::buildFieldTypeAccessorFn(swift::irgen::IRGenModule&, swift::NominalTypeDecl*, swift::OptionalTransformRange<swift::IteratorRange<swift::DeclIterator>, swift::NominalTypeDecl::ToStoredProperty>) + 2518

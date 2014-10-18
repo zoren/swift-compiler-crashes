@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 4  swift                    swift::Lowering::TypeConverter::getConstantInfo(swift::SILDeclRef) + 387
 5  swift                    swift::Lowering::SILGenModule::getFunction(swift::SILDeclRef, swift::ForDefinition_t) + 204
 6  swift                    swift::SILFunction* swift::Lowering::SILGenModule::preEmitFunction<swift::ConstructorDecl>(swift::SILDeclRef, swift::ConstructorDecl*, swift::SILLocation) + 91

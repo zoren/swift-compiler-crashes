@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 4  swift                    llvm::ConstantExpr::getGetElementPtr(llvm::Constant*, llvm::ArrayRef<llvm::Value*>, bool) + 107
 5  swift                    llvm::ConstantFoldGetElementPtr(llvm::Constant*, bool, llvm::ArrayRef<llvm::Value*>) + 2517
 6  swift                    llvm::ConstantExpr::getGetElementPtr(llvm::Constant*, llvm::ArrayRef<llvm::Value*>, bool) + 51

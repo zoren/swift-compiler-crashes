@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 4  swift                    swift::IntegerLiteralExpr::getValue() const + 43
 5  swift                    (anonymous namespace)::RawValueKey::RawValueKey(swift::LiteralExpr*) + 174
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 8191

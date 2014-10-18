@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 3  swift                    swift::DependentMemberType::get(swift::Type, swift::AssociatedTypeDecl*, swift::ASTContext const&) + 211
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52

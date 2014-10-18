@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 4  swift                    swift::Lowering::SILGenFunction::emitCurryThunk(swift::FuncDecl*, swift::SILDeclRef, swift::SILDeclRef) + 269
 5  swift                    swift::Lowering::SILGenModule::emitCurryThunk(swift::SILDeclRef, swift::SILDeclRef, swift::FuncDecl*) + 208
 6  swift                    swift::Lowering::SILGenFunction::emitGlobalFunctionRef(swift::SILLocation, swift::SILDeclRef, swift::Lowering::SILConstantInfo) + 250

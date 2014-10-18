@@ -1,5 +1,3 @@
-0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
-1  swift                    SignalHandler(int) + 452
 4  swift                    substDependentTypes(swift::ArchetypeBuilder&, swift::Type) + 56
 5  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
 6  swift                    swift::ArchetypeBuilder::substDependentType(swift::Type) + 50
