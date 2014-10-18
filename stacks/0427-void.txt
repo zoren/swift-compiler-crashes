@@ -1,6 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
 4  swift                    void checkCircularity<swift::ProtocolDecl>(swift::TypeChecker&, swift::ProtocolDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::ProtocolDecl*>&) + 588
 5  swift                    void checkCircularity<swift::ProtocolDecl>(swift::TypeChecker&, swift::ProtocolDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::ProtocolDecl*>&) + 200
 6  swift                    void checkCircularity<swift::ProtocolDecl>(swift::TypeChecker&, swift::ProtocolDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::ProtocolDecl*>&) + 200
@@ -14,5 +13,3 @@
 14 swift                    swift::CompilerInstance::performSema() + 2060
 15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 16 swift                    main + 1677
-17 libdyld.dylib            start + 1
-18 libdyld.dylib            start + [N]

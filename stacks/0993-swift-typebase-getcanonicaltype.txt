@@ -1,7 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    swift::TypeBase::getCanonicalType() + 1403
 5  swift                    swift::TypeBase::getCanonicalType() + 775
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 451
@@ -38,5 +36,3 @@
 37 swift                    swift::CompilerInstance::performSema() + 2060
 38 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 39 swift                    main + 1677
-40 libdyld.dylib            start + 1
-41 libdyld.dylib            start + [N]

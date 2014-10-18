@@ -1,7 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    std::__1::__function::__func<(anonymous namespace)::DeclChecker::visitBoundVars(swift::Pattern*)::'lambda'(swift::VarDecl*), std::__1::allocator<(anonymous namespace)::DeclChecker::visitBoundVars(swift::Pattern*)::'lambda'(swift::VarDecl*)>, void (swift::VarDecl*)>::operator()(swift::VarDecl*&&) + 785
@@ -30,6 +28,3 @@
 29 swift                    swift::CompilerInstance::performSema() + 2060
 30 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 31 swift                    main + 1677
-32 libdyld.dylib            start + 1
-33 libdyld.dylib            start + [N]
-While type-checking 'anonname=0x7ff5691e4b78' at ./crashes-fuzzing/0593-getselftypeforcontainer.swift:89:5

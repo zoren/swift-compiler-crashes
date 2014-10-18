@@ -1,6 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
 3  swift                    swift::constraints::ConstraintSystem::simplify() + 103
 4  swift                    (anonymous namespace)::DeclChecker::checkDynamicSelfReturn(swift::FuncDecl*, swift::TypeRepr*, unsigned int) + 574
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18426
@@ -29,5 +28,3 @@
 28 swift                    swift::CompilerInstance::performSema() + 2060
 29 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 30 swift                    main + 1677
-31 libdyld.dylib            start + 1
-While type-checking 'anonname=0x7fe7791e6608' at ./crashes-fuzzing/0350-swift-constraints-constraintsystem-simplify.swift:53:24

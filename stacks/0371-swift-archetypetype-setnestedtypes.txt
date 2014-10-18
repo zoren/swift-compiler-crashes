@@ -1,7 +1,6 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_kernel.dylib   mach_vm_map + 85
+3  swift                    swift::ArchetypeType::setNestedTypes(swift::ASTContext&, llvm::MutableArrayRef<std::__1::pair<swift::Identifier, llvm::PointerUnion<swift::ArchetypeType*, swift::Type> > >) + 45
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363
@@ -29,4 +28,3 @@
 28 swift                    swift::CompilerInstance::performSema() + 2060
 29 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 30 swift                    main + 1677
-31 libdyld.dylib            start + 1

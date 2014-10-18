@@ -1,9 +1,5 @@
-func f.Element>Bool][0x31] as [c<T>)()
-func f.Element>Bool][0x31] as [c<T>)()
-func f.Element>Bool][0x31] as [c<T>)()
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
 3  swift                    swift::constraints::ConstraintSystem::simplifyType(swift::Type, llvm::SmallPtrSet<swift::TypeVariableType*, 16u>&) + 90
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
@@ -33,5 +29,3 @@ func f.Element>Bool][0x31] as [c<T>)()
 29 swift                    swift::CompilerInstance::performSema() + 2060
 30 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 31 swift                    main + 1677
-32 libdyld.dylib            start + 1
-While type-checking 'anonname=0x7fcd941dd368' at ./crashes-fuzzing/0907-c-t.swift:5:7

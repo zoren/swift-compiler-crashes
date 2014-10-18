@@ -1,6 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
 3  swift                    llvm::SmallPtrSetImplBase::SmallPtrSetImplBase(void const**, llvm::SmallPtrSetImplBase const&) + 87
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 228
 5  swift                    swift::NominalTypeDecl::computeType() + 29
@@ -12,5 +11,3 @@
 11 swift                    swift::CompilerInstance::performSema() + 2060
 12 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 13 swift                    main + 1677
-14 libdyld.dylib            start + 1
-15 libdyld.dylib            start + [N]

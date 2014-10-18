@@ -1,7 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363
@@ -55,5 +53,3 @@
 54 swift                    swift::CompilerInstance::performSema() + 2060
 55 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 56 swift                    main + 1677
-57 libdyld.dylib            start + 1
-While type-checking 'anonname=0x7feb441e6768' at ./crashes-fuzzing/0282-malloc-zone-malloc.swift:34:20

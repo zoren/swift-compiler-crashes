@@ -1,7 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    (anonymous namespace)::LowerType::visitAnyStructType(swift::CanType, swift::StructDecl*) + 260
 5  swift                    swift::Lowering::TypeLowering const* swift::CanTypeVisitor<(anonymous namespace)::LowerType, swift::Lowering::TypeLowering const*>::visit<>(swift::CanType) + 125
 6  swift                    swift::Lowering::TypeConverter::getTypeLoweringForUncachedLoweredType(swift::Lowering::TypeConverter::TypeKey) + 263
@@ -22,5 +20,3 @@
 21 swift                    swift::performSILGeneration(swift::SourceFile&, swift::Optional<unsigned int>) + 72
 22 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3432
 23 swift                    main + 1677
-24 libdyld.dylib            start + 1
-25 libdyld.dylib            start + [N]

@@ -1,7 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363
@@ -48,5 +46,3 @@
 47 swift                    swift::CompilerInstance::performSema() + 2060
 48 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 49 swift                    main + 1677
-50 libdyld.dylib            start + 1
-51 libdyld.dylib            start + [N]

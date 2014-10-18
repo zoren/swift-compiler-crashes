@@ -1,11 +1,5 @@
-let foo as [0x31] == A.a!.<b) -> {
-let foo as [0x31] == A.a!.<b) -> {
-let foo as [0x31] == A.a!.<b) -> {
-let foo as [0x31] == A.a!.<b) -> {
-let foo as [0x31] == A.a!.<b) -> {
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
 3  swift                    swift::namelookup::lookupInModule(swift::Module*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::DeclName, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> >) + 272
 4  swift                    swift::TypeBase::isEqual(swift::Type) + 26
 5  swift                    getBoundTypesFromConstraint(swift::constraints::ConstraintSystem*, swift::Expr*, swift::constraints::Constraint*) + 112
@@ -18,6 +12,3 @@ let foo as [0x31] == A.a!.<b) -> {
 12 swift                    swift::CompilerInstance::performSema() + 2060
 13 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 14 swift                    main + 1677
-15 libdyld.dylib            start + 1
-16 libdyld.dylib            start + [N]
-While type-checking expression at [./crashes-fuzzing/0776-no-stacktrace.swift:352:1 - line:353:12] RangeText="f = [0x31] = {

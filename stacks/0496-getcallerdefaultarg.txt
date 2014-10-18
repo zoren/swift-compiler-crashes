@@ -1,7 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    getCallerDefaultArg(swift::TypeChecker&, swift::DeclContext*, swift::SourceLoc, swift::ConcreteDeclRef&, unsigned int) + 61
 5  swift                    (anonymous namespace)::ExprRewriter::coerceCallArguments(swift::Expr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 2391
 6  swift                    (anonymous namespace)::ExprRewriter::finishApply(swift::ApplyExpr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 585
@@ -19,5 +17,3 @@
 18 swift                    swift::CompilerInstance::performSema() + 2060
 19 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 20 swift                    main + 1677
-21 libdyld.dylib            start + 1
-While type-checking 'anonname=0x7fc07b166688' at ./crashes-fuzzing/0496-getcallerdefaultarg.swift:7:7

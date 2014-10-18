@@ -1,7 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    swift::TypeChecker::checkSubstitutions(llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*> >&, llvm::DenseMap<swift::SubstitutableType*, llvm::SmallVector<swift::ProtocolConformance*, 2u>, llvm::DenseMapInfo<swift::SubstitutableType*> >&, swift::DeclContext*, swift::SourceLoc, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*> >*) + 300
 5  swift                    swift::TypeChecker::applyGenericArguments(swift::Type, swift::SourceLoc, swift::DeclContext*, llvm::MutableArrayRef<swift::TypeLoc>, swift::GenericTypeResolver*) + 750
 6  swift                    applyGenericTypeReprArgs(swift::TypeChecker&, swift::Type, swift::SourceLoc, swift::DeclContext*, llvm::ArrayRef<swift::TypeRepr*>, swift::GenericTypeResolver*) + 266
@@ -26,6 +24,3 @@
 25 swift                    swift::CompilerInstance::performSema() + 2060
 26 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 27 swift                    main + 1677
-28 libdyld.dylib            start + 1
-29 libdyld.dylib            start + [N]
-While type-checking 'anonname=0x7ffacb956990' at ./crashes-fuzzing/0401-swift-typechecker-checksubstitutions.swift:13:17

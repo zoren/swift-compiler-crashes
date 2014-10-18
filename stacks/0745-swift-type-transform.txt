@@ -1,6 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
 3  swift                    (anonymous namespace)::RawMemoryObject::readBytes(unsigned long long, unsigned long long, unsigned char*) const + 58
 4  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
 5  swift                    swift::ArchetypeBuilder::mapTypeIntoContext(swift::DeclContext*, swift::Type) + 149
@@ -28,5 +27,3 @@
 27 swift                    swift::CompilerInstance::performSema() + 2060
 28 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 29 swift                    main + 1677
-30 libdyld.dylib            start + 1
-31 libdyld.dylib            start + [N]

@@ -1,7 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11407
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2164
@@ -21,5 +19,3 @@
 20 swift                    swift::CompilerInstance::performSema() + 2060
 21 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 22 swift                    main + 1677
-23 libdyld.dylib            start + 1
-24 libdyld.dylib            start + [N]

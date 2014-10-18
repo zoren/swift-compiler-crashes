@@ -1,7 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 68
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
 6  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 549
@@ -23,5 +21,3 @@
 22 swift                    swift::CompilerInstance::performSema() + 2060
 23 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 24 swift                    main + 1677
-25 libdyld.dylib            start + 1
-While type-checking 'anonname=0x7fddc91dd640' at ./crashes-fuzzing/0560-swift-declcontext-lookupqualified.swift:9:7

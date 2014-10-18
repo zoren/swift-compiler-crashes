@@ -1,7 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    swift::Lowering::TypeConverter::getLoweredASTFunctionType(swift::CanTypeWrapper<swift::AnyFunctionType>, unsigned int, swift::AnyFunctionType::ExtInfo) + 770
 5  swift                    swift::Lowering::TypeConverter::getConstantInfo(swift::SILDeclRef) + 602
 6  swift                    swift::Lowering::SILGenModule::emitProtocolWitness(swift::ProtocolConformance*, swift::SILLinkage, swift::SILDeclRef, swift::SILDeclRef, swift::Lowering::IsFreeFunctionWitness_t, llvm::ArrayRef<swift::Substitution>) + 114
@@ -14,5 +12,3 @@
 13 swift                    swift::performSILGeneration(swift::SourceFile&, swift::Optional<unsigned int>) + 72
 14 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3432
 15 swift                    main + 1677
-16 libdyld.dylib            start + 1
-17 libdyld.dylib            start + [N]

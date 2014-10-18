@@ -1,6 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
 3  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
 4  swift                    swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::constraints::DependentTypeOpener*) + 626
 5  swift                    swift::constraints::ConstraintSystem::resolveOverload(swift::constraints::ConstraintLocator*, swift::Type, swift::constraints::OverloadChoice) + 329
@@ -28,5 +27,3 @@
 27 swift                    swift::CompilerInstance::performSema() + 2060
 28 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 29 swift                    main + 1677
-30 libdyld.dylib            start + 1
-While type-checking 'anonname=0x7fd41a96f2c0' at ./crashes-fuzzing/0472-swift-constraints-constraintsystem-gettypeofmemberreference.swift:133:7

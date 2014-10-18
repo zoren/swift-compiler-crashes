@@ -1,6 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
 3  swift                    llvm::OnDiskChainedHashTable<swift::ModuleFile::DeclTableInfo>::find(swift::Identifier const&, swift::ModuleFile::DeclTableInfo*) + 206
 4  swift                    std::__1::__function::__func<swift::ArchetypeBuilder::mapTypeIntoContext(swift::Module*, swift::GenericParamList*, swift::Type)::$_3, std::__1::allocator<swift::ArchetypeBuilder::mapTypeIntoContext(swift::Module*, swift::GenericParamList*, swift::Type)::$_3>, swift::Type (swift::Type)>::operator()(swift::Type&&) + 331
 5  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
@@ -17,5 +16,3 @@
 16 swift                    swift::CompilerInstance::performSema() + 2060
 17 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 18 swift                    main + 1677
-19 libdyld.dylib            start + 1
-20 libdyld.dylib            start + [N]

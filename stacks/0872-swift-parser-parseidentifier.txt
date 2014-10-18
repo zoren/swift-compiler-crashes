@@ -1,6 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
 3  swift                    swift::Parser::parseIdentifier(swift::Identifier&, swift::SourceLoc&, swift::Diagnostic const&) + 140
 4  swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 68
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
@@ -20,5 +19,3 @@
 19 swift                    swift::CompilerInstance::performSema() + 2060
 20 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 21 swift                    main + 1677
-22 libdyld.dylib            start + 1
-23 libdyld.dylib            start + [N]

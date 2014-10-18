@@ -1,8 +1,5 @@
-let foo as [0x31] = b
-let foo as [0x31] = b
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
 3  swift                    std::__1::__function::__func<swift::Type::subst(swift::Module*, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*> >&, bool, swift::LazyResolver*) const::$_4, std::__1::allocator<swift::Type::subst(swift::Module*, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*> >&, bool, swift::LazyResolver*) const::$_4>, swift::Type (swift::Type)>::operator()(swift::Type&&) + 239
 4  swift                    swift::TypeBase::getCanonicalType() + 1403
 5  swift                    swift::TypeBase::getCanonicalType() + 775
@@ -28,4 +25,3 @@ let foo as [0x31] = b
 25 swift                    swift::CompilerInstance::performSema() + 2060
 26 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 27 swift                    main + 1677
-28 libdyld.dylib            start + 1

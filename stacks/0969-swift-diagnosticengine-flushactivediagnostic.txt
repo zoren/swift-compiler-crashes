@@ -1,7 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
-3  swift                    swift::DiagnosticEngine::flushActiveDiagnostic() + 4810
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::NominalTypeDecl::computeType() + 29
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1605
@@ -20,5 +18,3 @@
 19 swift                    swift::CompilerInstance::performSema() + 2060
 20 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 21 swift                    main + 1677
-22 libdyld.dylib            start + 1
-23 libdyld.dylib            start + [N]

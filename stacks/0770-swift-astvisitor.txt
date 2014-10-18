@@ -1,7 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 6747
 5  swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 162
 6  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1584
@@ -16,4 +14,3 @@
 15 swift                    swift::CompilerInstance::performSema() + 2060
 16 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 17 swift                    main + 1677
-18 libdyld.dylib            start + 1

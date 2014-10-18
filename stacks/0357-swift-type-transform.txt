@@ -1,7 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
 5  swift                    swift::constraints::ConstraintSystem::openType(swift::Type, swift::constraints::ConstraintLocatorBuilder, llvm::DenseMap<swift::CanType, swift::TypeVariableType*, llvm::DenseMapInfo<swift::CanType> >&, swift::DeclContext*, bool, swift::constraints::DependentTypeOpener*) + 202
 6  swift                    (anonymous namespace)::ConstraintGenerator::getTypeForPattern(swift::Pattern*, bool, swift::constraints::ConstraintLocatorBuilder) + 1022
@@ -19,5 +17,3 @@
 18 swift                    swift::CompilerInstance::performSema() + 2060
 19 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 20 swift                    main + 1677
-21 libdyld.dylib            start + 1
-22 libdyld.dylib            start + [N]

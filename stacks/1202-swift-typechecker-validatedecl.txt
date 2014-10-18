@@ -1,6 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
 3  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 144
 4  swift                    swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::constraints::DependentTypeOpener*) + 626
 5  swift                    swift::constraints::ConstraintSystem::resolveOverload(swift::constraints::ConstraintLocator*, swift::Type, swift::constraints::OverloadChoice) + 329
@@ -31,5 +30,3 @@
 30 swift                    swift::CompilerInstance::performSema() + 2060
 31 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 32 swift                    main + 1677
-33 libdyld.dylib            start + 1
-34 libdyld.dylib            start + [N]

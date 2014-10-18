@@ -1,6 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
 3  swift                    swift::MetatypeType::get(swift::Type, swift::Optional<swift::MetatypeRepresentation>, swift::ASTContext const&) + 115
 4  swift                    swift::CompleteGenericTypeResolver::resolveDependentMemberType(swift::Type, swift::DeclContext*, swift::SourceRange, swift::Identifier, swift::SourceLoc) + 71
 5  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 1288
@@ -23,6 +22,3 @@
 22 swift                    swift::CompilerInstance::performSema() + 2060
 23 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 24 swift                    main + 1677
-25 libdyld.dylib            start + 1
-26 libdyld.dylib            start + [N]
-While type-checking 'anonname=0x7f9b03880c40' at ./crashes-fuzzing/0740-swift-metatypetype-get.swift:128:11

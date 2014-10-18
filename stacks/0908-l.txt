@@ -1,9 +1,5 @@
-var d = [0x31] == Int>, a(p: P {
-var d = [0x31] == Int>, a(p: P {
-var d = [0x31] == Int>, a(p: P {
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
 3  swift                    swift::TypeAliasDecl::TypeAliasDecl(swift::SourceLoc, swift::Identifier, swift::SourceLoc, swift::TypeLoc, swift::DeclContext*) + 258
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
@@ -56,4 +52,3 @@ var d = [0x31] == Int>, a(p: P {
 52 swift                    swift::CompilerInstance::performSema() + 2060
 53 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 54 swift                    main + 1677
-55 libdyld.dylib            start + 1

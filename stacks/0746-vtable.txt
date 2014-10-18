@@ -1,6 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
 4  swift                    swift::Pattern::forEachVariable(std::__1::function<void (swift::VarDecl*)> const&) const + 235
 5  swift                    swift::Pattern::forEachVariable(std::__1::function<void (swift::VarDecl*)> const&) const + 312
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 381
@@ -42,5 +41,3 @@
 42 swift                    swift::CompilerInstance::performSema() + 2060
 43 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 44 swift                    main + 1677
-45 libdyld.dylib            start + 1
-46 libdyld.dylib            start + [N]

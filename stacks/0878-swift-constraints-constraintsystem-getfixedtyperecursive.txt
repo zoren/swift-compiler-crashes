@@ -1,7 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
-3  libsystem_platform.dylib _sigtramp + [N]
 4  swift                    swift::constraints::ConstraintSystem::getFixedTypeRecursive(swift::Type, swift::TypeVariableType*&, bool, bool) + 125
 5  swift                    swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 113
 6  swift                    swift::constraints::ConstraintSystem::simplifyFixConstraint(swift::constraints::Fix, swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 993
@@ -21,5 +19,3 @@
 20 swift                    swift::CompilerInstance::performSema() + 2060
 21 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 22 swift                    main + 1677
-23 libdyld.dylib            start + 1
-While type-checking 'anonname=0x7f9c189fcce0' at ./crashes-fuzzing/0878-swift-constraints-constraintsystem-getfixedtyperecursive.swift:11:7

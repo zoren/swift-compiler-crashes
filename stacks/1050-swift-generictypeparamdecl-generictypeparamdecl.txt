@@ -1,6 +1,5 @@
 0  swift                    llvm::sys::PrintStackTrace(__sFILE*) + 40
 1  swift                    SignalHandler(int) + 452
-2  libsystem_platform.dylib _sigtramp + 26
 3  swift                    swift::GenericTypeParamDecl::GenericTypeParamDecl(swift::DeclContext*, swift::Identifier, swift::SourceLoc, unsigned int, unsigned int) + 301
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
@@ -44,5 +43,3 @@
 43 swift                    swift::CompilerInstance::performSema() + 2060
 44 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
 45 swift                    main + 1677
-46 libdyld.dylib            start + 1
-47 libdyld.dylib            start + [N]
