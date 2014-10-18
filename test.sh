@@ -213,7 +213,7 @@ test_file() {
   fi
   if [[ ${log_stacks} == 1 ]]; then
     stacktrace_log="./stacks/$(cut -f-2 -d. <<< "${files_to_compile}" | cut -f3 -d'/').txt"
-    egrep "0x[0-9a-f]" <<< "${output}" | sed 's/ 0x[0-9a-f]*//g' | sed 's/ [0-9][0-9][0-9][0-9][0-9][0-9][0-9]*$/ [N]/g' | sed "s/^swift([0-9]*,0x[0-9a-f]*)/swift(N,0xN)/" > "${stacktrace_log}"
+    egrep "0x[0-9a-f]" <<< "${output}" | sed 's/ 0x[0-9a-f]*//g' | sed 's/ [0-9][0-9][0-9][0-9][0-9][0-9][0-9]*$/ [N]/g' | sed "s/^swift([0-9]*,0x[0-9a-f]*)/swift(N,0xN)/" | egrep "^[0-9]" | egrep -v '(libdyld|libsystem_kernel|libsystem_malloc|libsystem_platform|libsystem_c|libsystem_malloc)\.dylib' > "${stacktrace_log}"
   fi
   crash_in_function=$(egrep "0x[0-9a-f]" <<< "${output}" | egrep -v '(llvm::sys::PrintStackTrace|SignalHandler|_sigtramp|swift::TypeLoc::isError)' | egrep '(swift|llvm)' | head -1 | sed 's/ 0x[0-9a-f]/|/g' | cut -f2- -d'|' | cut -f2- -d' ')
   normalized_stacktrace=$(egrep "0x[0-9a-f]" <<< "${output}" | egrep '(swift|llvm)' | awk '{ print $4 }' | uniq | egrep -v "swift::TypeLoc::isError")
