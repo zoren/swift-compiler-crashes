@@ -18,7 +18,7 @@ $ ./test.sh
 Running tests against: swift-600.0.54.17 (Swift 1.1)
 Using Xcode found at path: /Applications/Xcode.app/Contents/Developer/
 Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
-Adding a new test case? The crash id to use for the next test case is 1315.
+Adding a new test case? The crash id to use for the next test case is 1314.
 
 == Currently known crashes ==
 
@@ -88,7 +88,7 @@ Adding a new test case? The crash id to use for the next test case is 1315.
   ✘  0247 swift metatypetype get                                  (6d25d7b293)
   ✘  0248 swift clangmoduleunit getimportedmodules                (815107e00c)
   ✘  0259 swift lexer leximpl                                     (fba1e994c6)
-  ✘  0260 swift declname printpretty                              (650c502f80)
+  ✘  0260 swift declname printpretty                              (7dd67ce862)
   ✘  0261 swift parser parseexprpostfix                           (1175db3817)
   ✘  0265 swift typechecker validatedecl                          (26b449d831)
   ✘  0273 swift constraints constraintgraphnode getadjacency      (d92ee74359)
@@ -147,10 +147,10 @@ Adding a new test case? The crash id to use for the next test case is 1315.
   ✘  0333 swift objcattr createunnamedimplicit                    (0bbbbd2563)
   ✘  0334 swift astvisitor                                        (1c4a0d1e74)
   ✘  0335 llvm raw fd ostream write impl                          (dc1111b128)
-  ✘  0336 swift parser parsetoplevelcodedecldelayed               (ff74b86d90)
+  ✘  0336 swift parser parsetoplevelcodedecldelayed               (f7285f1fb2)
   ✘  0337 swift typechecker checksubstitutions                    (2761f3b1cf)
   ✘  0338 llvm smallptrsetimplbase smallptrsetimplbase            (1311678031)
-  ✘  0339 swift clangimporter implementation mapselectortodeclnam (919c3bf4e1)
+  ✘  0339 swift clangimporter implementation mapselectortodeclnam (5464048845)
   ✘  0340 swift parser consumetoken                               (838f18ffd4)
   ✘  0341 cleanupillformedexpression                              (f8c07dc2fa)
   ✘  0342 getselftypeforcontainer                                 (a0741f9c25)
@@ -175,14 +175,14 @@ Adding a new test case? The crash id to use for the next test case is 1315.
   ✘  0361 swift constraints constraintgraph gatherconstraints     (5b14d36cc0)
   ✘  0362 clang stmt statisticsenabled                            (2aa5897d65)
   ✘  0363 swift scopeinfo addtoscope                              (de2c3aabf4)
-  ✘  0364 swift typechecker isrepresentableinobjc                 (ab4f939355)
+  ✘  0364 swift typechecker isrepresentableinobjc                 (7424342921)
   ✘  0365 getselftypeforcontainer                                 (cda35aaa7d)
   ✘  0366 swift constraints constraintsystem getfixedtyperecursiv (8dac3f2616)
   ✘  0367 llvm errs                                               (d36096a786)
   ✘  0368 no stacktrace                                           (33c48ee29e)
   ✘  0369 swift constraints constraintsystem gettypeofmemberrefer (1293876610)
   ✘  0370 swift completegenerictyperesolver resolvedependentmembe (fc79db6eab)
-  ✘  0371 swift archetypetype setnestedtypes                      (dd100a4899)
+  ✘  0371 swift archetypetype setnestedtypes                      (058d437122)
   ✘  0372 swift declcontext lookupqualified                       (ab0c68c28b)
   ✘  0373 swift declcontext lookupqualified                       (52244caeb9)
   ✘  0374 getselftypeforcontainer                                 (82fa2134df)
@@ -309,7 +309,7 @@ Adding a new test case? The crash id to use for the next test case is 1315.
   ✘  0495 llvm foldingsetnodeid operator                          (0bfb303d7b)
   ✘  0496 getcallerdefaultarg                                     (b09bcc0b7f)
   ✘  0497 swift constraints constraintsystem gettypeofmemberrefer (0460d270a7)
-  ✘  0498 swift constraints constraintsystem gettypeofmemberrefer (047ea09bd7)
+  ✘  0498 swift constraints constraintsystem gettypeofmemberrefer (7f51b2641d)
   ✘  0499 llvm foldingsetimpl findnodeorinsertpos                 (37c3fdcedf)
   ✘  0500 llvm ondiskchainedhashtable swift modulefile decltablei (7f05e735f5)
   ✘  0501 resolvetypedecl                                         (38b69c14b6)
@@ -331,7 +331,7 @@ Adding a new test case? The crash id to use for the next test case is 1315.
   ✘  0517 swift constraints solution computesubstitutions         (f21a1444c8)
   ✘  0518 no stacktrace                                           (5dbd055191)
   ✘  0519 void                                                    (9ff2142b9e)
-  ✘  0520 getselftypeforcontainer                                 (a78dfa5b7e)
+  ✘  0520 getselftypeforcontainer                                 (1d9aee8ec3)
   ✘  0521 swift tuplepattern create                               (23df0bfd11)
   ✘  0522 no stacktrace                                           (22751f7708)
   ✘  0523 swift typevisitor                                       (3af4ad7f2d)
@@ -411,7 +411,7 @@ Adding a new test case? The crash id to use for the next test case is 1315.
   ✘  0597 llvm prettystacktraceentry prettystacktraceentry        (ddf4beb011)
   ✘  0598 clang sema lookupname                                   (31297da4e4)
   ✘  0599 swift clangmoduleunit getimportedmodules                (f85c2edefa)
-  ✘  0600 swift clangimporter implementation mapselectortodeclnam (3fbd2dd70e)
+  ✘  0600 swift clangimporter implementation mapselectortodeclnam (93b26546da)
   ✘  0601 getselftypeforcontainer                                 (fbb455ebbb)
   ✘  0602 swift modulefile gettype                                (8ed09f4551)
   ✘  0603 swift constraints constraintsystem getfixedtyperecursiv (8bf282ac31)
@@ -931,7 +931,7 @@ Adding a new test case? The crash id to use for the next test case is 1315.
   ✘  1117 swift declcontext lookupqualified                       (e1678fdc2d)
   ✘  1118 swift type walk                                         (a7d480c52b)
   ✘  1119 no stacktrace                                           (c472347af7)
-  ✘  1120 clang codegen codegenfunction emitlvalueforfield        (98371b484f)
+  ✘  1120 clang codegen codegenfunction emitlvalueforfield        (fd3910cb3b)
   ✘  1121 swift derivedconformance deriveequatable                (19ab8361c2)
   ✘  1122 swift constraints constraintsystem solve                (67bf4f7049)
   ✘  1123 swift modulefile lookupvalue                            (a183bb8a4c)
@@ -1125,7 +1125,6 @@ Adding a new test case? The crash id to use for the next test case is 1315.
   ✘  1311 swift completegenerictyperesolver resolvedependentmembe (d9e9e23d88)
   ✘  1312 getselftypeforcontainer                                 (170829c510)
   ✘  1313 swift constraints constraintsystem gettypeofmemberrefer (6b761d3d6f)
-  ✓  1314 llvm prettystacktraceentry prettystacktraceentry
 
 == Crashes marked as fixed in previous releases ==
 
@@ -1247,7 +1246,7 @@ Adding a new test case? The crash id to use for the next test case is 1315.
   ✓  0268 swift typechecker typecheckexpression
   ✓  0270 swift arraysemanticcall hoistorcopy
 
-** Results: 1100 of 1218 tests crashed the compiler **
+** Results: 1100 of 1217 tests crashed the compiler **
 
 ```
 
@@ -1260,7 +1259,7 @@ Contributor hall of fame
 
 | GitHub contributor | Twitter | Cases contributed | Started contributing |
 | :----------------- | :------ | ----------------: | -------------------: |
-| <a href="https://github.com/practicalswift">practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 1198 cases (1148 fuzzing) | Xcode6.0-Beta6 |
+| <a href="https://github.com/practicalswift">practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 1197 cases (1147 fuzzing) | Xcode6.0-Beta6 |
 | <a href="https://github.com/fluidsonic">fluidsonic</a> – Marc Knaup | <a href="https://twitter.com/marcknaup">@marcknaup</a> | 5 cases | Xcode6.1-Beta3 |
 | <a href="https://github.com/tmu">tmu</a> – Teemu Kurppa | <a href="https://twitter.com/Teemu">@Teemu</a> | 4 cases | Xcode6.0-Beta6 |
 | <a href="https://github.com/jvasileff">jvasileff</a> – John Vasileff | <a href="https://twitter.com/jvasileff">@jvasileff</a> | 2 cases | Xcode6.0-Beta6 |
