@@ -1,12 +1,8 @@
-3  swift                    swift::Lexer::lexIdentifier() + 2722
-4  swift                    swift::DeclName::printPretty(llvm::raw_ostream&) const + 60
-5  swift                    formatDiagnosticText(llvm::StringRef, llvm::ArrayRef<swift::DiagnosticArgument>, llvm::raw_ostream&) + 1657
-6  swift                    swift::DiagnosticEngine::flushActiveDiagnostic() + 4452
-7  swift                    (anonymous namespace)::DeclChecker::checkUnsupportedNestedGeneric(swift::NominalTypeDecl*) + 413
-8  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2274
-9  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 10732
-10 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
-11 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
-12 swift                    swift::CompilerInstance::performSema() + 2060
-13 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-14 swift                    main + 1677
+3  swift                    swift::namelookup::lookupInModule(swift::Module*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::DeclName, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> >) + 272
+4  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2274
+5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 10732
+6  swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+7  swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
+8  swift                    swift::CompilerInstance::performSema() + 2060
+9  swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+10 swift                    main + 1677

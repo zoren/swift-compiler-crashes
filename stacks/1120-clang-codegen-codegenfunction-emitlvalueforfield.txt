@@ -1,4 +1,4 @@
-3  swift                    swift::ASTContext::getBoolDecl() const + 98
+3  swift                    clang::format::ContinuationIndenter::getInitialState(unsigned int, clang::format::AnnotatedLine const*, bool) + 50
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304
