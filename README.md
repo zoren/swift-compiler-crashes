@@ -18,7 +18,7 @@ $ ./test.sh
 Running tests against: swift-600.0.54.20 (Swift 1.1)
 Using Xcode found at path: /Applications/Xcode.app/Contents/Developer/
 Usage: ./test.sh [-v] [-c<columns>] [-l] [file ...]
-Adding a new test case? The crash id to use for the next test case is 1314.
+Adding a new test case? The crash id to use for the next test case is 1338.
 
 == Currently known crashes ==
 
@@ -88,12 +88,12 @@ Adding a new test case? The crash id to use for the next test case is 1314.
   ✘  0247 swift metatypetype get                                  (6d25d7b293)
   ✘  0248 swift clangmoduleunit getimportedmodules                (815107e00c)
   ✘  0259 swift lexer leximpl                                     (fba1e994c6)
-  ✘  0260 swift declname printpretty                              (7dd67ce862)
+  ✘  0260 swift declname printpretty                              (3cb5da5004)
   ✘  0261 swift parser parseexprpostfix                           (1175db3817)
   ✘  0265 swift typechecker validatedecl                          (26b449d831)
   ✘  0273 swift constraints constraintgraphnode getadjacency      (d92ee74359)
   ✘  0274 swift typechecker checkinheritanceclause                (6e62185dbe)
-  ✘  0275 swift parser parseexprpostfix                           (c81ab5a32c)
+  ✘  0275 swift parser parseexprpostfix                           (b38bed6d66)
   ✘  0276 llvm errs                                               (a9dedb30d2)
   ✘  0277 swift typechecker getinterfacetypefrominternaltype      (7d2cc735d3)
   ✘  0278 getselftypeforcontainer                                 (f879b7edb0)
@@ -147,10 +147,10 @@ Adding a new test case? The crash id to use for the next test case is 1314.
   ✘  0333 swift objcattr createunnamedimplicit                    (0bbbbd2563)
   ✘  0334 swift astvisitor                                        (1c4a0d1e74)
   ✘  0335 llvm raw fd ostream write impl                          (dc1111b128)
-  ✘  0336 swift parser parsetoplevelcodedecldelayed               (6f122d9511)
+  ✘  0336 swift parser parsetoplevelcodedecldelayed               (487e7b8590)
   ✘  0337 swift typechecker checksubstitutions                    (2761f3b1cf)
   ✘  0338 llvm smallptrsetimplbase smallptrsetimplbase            (1311678031)
-  ✘  0339 swift clangimporter implementation mapselectortodeclnam (fbaee3a5fe)
+  ✘  0339 swift clangimporter implementation mapselectortodeclnam (a5ba9505ff)
   ✘  0340 swift parser consumetoken                               (838f18ffd4)
   ✘  0341 cleanupillformedexpression                              (f8c07dc2fa)
   ✘  0342 getselftypeforcontainer                                 (a0741f9c25)
@@ -164,7 +164,7 @@ Adding a new test case? The crash id to use for the next test case is 1314.
   ✘  0350 swift constraints constraintsystem simplify             (fb983b14c4)
   ✘  0351 swift typechecker checksubstitutions                    (2ba519b804)
   ✘  0352 swift archetypebuilder resolvearchetype                 (677a8d8be0)
-  ✘  0353 resolvetypedecl                                         (37e5462286)
+  ✘  0353 resolvetypedecl                                         (f75b1e12cd)
   ✘  0354 swift modulefile maybereadpattern                       (34aec49291)
   ✘  0355 swift constraints constraintsystem gettypeofmemberrefer (b0eebfccae)
   ✘  0356 swift parser parsegenericarguments                      (df00ddb0ff)
@@ -175,7 +175,7 @@ Adding a new test case? The crash id to use for the next test case is 1314.
   ✘  0361 swift constraints constraintgraph gatherconstraints     (5b14d36cc0)
   ✘  0362 clang stmt statisticsenabled                            (2aa5897d65)
   ✘  0363 swift scopeinfo addtoscope                              (de2c3aabf4)
-  ✘  0364 swift typechecker isrepresentableinobjc                 (aa672c09dc)
+  ✘  0364 swift typechecker isrepresentableinobjc                 (326b683785)
   ✘  0365 getselftypeforcontainer                                 (cda35aaa7d)
   ✘  0366 swift constraints constraintsystem getfixedtyperecursiv (8dac3f2616)
   ✘  0367 llvm errs                                               (d36096a786)
@@ -235,7 +235,7 @@ Adding a new test case? The crash id to use for the next test case is 1314.
   ✘  0421 resolvetypedecl                                         (027553c738)
   ✘  0422 void                                                    (e3622e3da5)
   ✘  0423 swift archetypebuilder resolvearchetype                 (35364787fa)
-  ✘  0424 no stacktrace                                           (9926951cd2)
+  ✘  0424 no stacktrace                                           (cc5aadf9c7)
   ✘  0425 swift nominaltypedecl getdeclaredtypeincontext          (92c3581102)
   ✘  0426 swift constraints constraintsystem gettypeofmemberrefer (ff58ca1f76)
   ✘  0427 void                                                    (09e25417a6)
@@ -251,7 +251,7 @@ Adding a new test case? The crash id to use for the next test case is 1314.
   ✘  0437 swift nominaltypedecl getdeclaredtypeincontext          (63cbc80641)
   ✘  0438 swift genericsignature get                              (fb542c0451)
   ✘  0439 swift constraints constraintsystem gettypeofmemberrefer (012ff903b7)
-  ✘  0440 resolvetypedecl                                         (f99ef066ee)
+  ✘  0440 resolvetypedecl                                         (8eb7574b84)
   ✘  0441 swift typebase getcanonicaltype                         (e0516a07f1)
   ✘  0442 swift constraints constraintsystem gettypeofmemberrefer (e6fd09e560)
   ✘  0443 swift nominaltypedecl getdeclaredtypeincontext          (2c918b0202)
@@ -309,7 +309,7 @@ Adding a new test case? The crash id to use for the next test case is 1314.
   ✘  0495 llvm foldingsetnodeid operator                          (0bfb303d7b)
   ✘  0496 getcallerdefaultarg                                     (b09bcc0b7f)
   ✘  0497 swift constraints constraintsystem gettypeofmemberrefer (0460d270a7)
-  ✘  0498 swift constraints constraintsystem gettypeofmemberrefer (047ea09bd7)
+  ✘  0498 swift constraints constraintsystem gettypeofmemberrefer (7f51b2641d)
   ✘  0499 llvm foldingsetimpl findnodeorinsertpos                 (37c3fdcedf)
   ✘  0500 llvm ondiskchainedhashtable swift modulefile decltablei (7f05e735f5)
   ✘  0501 resolvetypedecl                                         (38b69c14b6)
@@ -331,7 +331,7 @@ Adding a new test case? The crash id to use for the next test case is 1314.
   ✘  0517 swift constraints solution computesubstitutions         (f21a1444c8)
   ✘  0518 no stacktrace                                           (5dbd055191)
   ✘  0519 void                                                    (9ff2142b9e)
-  ✘  0520 getselftypeforcontainer                                 (1d9aee8ec3)
+  ✘  0520 getselftypeforcontainer                                 (a78dfa5b7e)
   ✘  0521 swift tuplepattern create                               (23df0bfd11)
   ✘  0522 no stacktrace                                           (22751f7708)
   ✘  0523 swift typevisitor                                       (3af4ad7f2d)
@@ -411,7 +411,7 @@ Adding a new test case? The crash id to use for the next test case is 1314.
   ✘  0597 llvm prettystacktraceentry prettystacktraceentry        (ddf4beb011)
   ✘  0598 clang sema lookupname                                   (31297da4e4)
   ✘  0599 swift clangmoduleunit getimportedmodules                (f85c2edefa)
-  ✘  0600 swift clangimporter implementation mapselectortodeclnam (cfb3198d55)
+  ✘  0600 swift clangimporter implementation mapselectortodeclnam (b7524ac449)
   ✘  0601 getselftypeforcontainer                                 (fbb455ebbb)
   ✘  0602 swift modulefile gettype                                (8ed09f4551)
   ✘  0603 swift constraints constraintsystem getfixedtyperecursiv (8bf282ac31)
@@ -838,7 +838,7 @@ Adding a new test case? The crash id to use for the next test case is 1314.
   ✘  1024 swift constraints constraintsystem gettypeofmemberrefer (1f8ab4b0c3)
   ✘  1025 getselftypeforcontainer                                 (5a4c9e0fe7)
   ✘  1026 swift type walk                                         (80b06630ee)
-  ✘  1027 llvm foldingset swift genericsignature nodeequals       (32c603f73b)
+  ✘  1027 llvm foldingset swift genericsignature nodeequals       (7982fba5c4)
   ✘  1028 swift camel case getfirstword                           (be344046d4)
   ✘  1029 swift modulefile maybereadgenericparams                 (5815ee2fcd)
   ✘  1030 swift declname printpretty                              (697c4a37b5)
@@ -931,7 +931,7 @@ Adding a new test case? The crash id to use for the next test case is 1314.
   ✘  1117 swift declcontext lookupqualified                       (e1678fdc2d)
   ✘  1118 swift type walk                                         (a7d480c52b)
   ✘  1119 no stacktrace                                           (c472347af7)
-  ✘  1120 clang codegen codegenfunction emitlvalueforfield        (ff36ba88f1)
+  ✘  1120 clang codegen codegenfunction emitlvalueforfield        (8bff0051f5)
   ✘  1121 swift derivedconformance deriveequatable                (19ab8361c2)
   ✘  1122 swift constraints constraintsystem solve                (67bf4f7049)
   ✘  1123 swift modulefile lookupvalue                            (a183bb8a4c)
@@ -965,7 +965,7 @@ Adding a new test case? The crash id to use for the next test case is 1314.
   ✘  1151 getselftypeforcontainer                                 (9f73fa224d)
   ✘  1152 swift derivedconformance deriveequatable                (2a4d4e0bb0)
   ✘  1153 swift type walk                                         (46b39c5cf9)
-  ✘  1154 swift declcontext lookupqualified                       (70c06e0f72)
+  ✘  1154 swift declcontext lookupqualified                       (f3ad974350)
   ✘  1155 swift nominaltypedecl getdeclaredtypeincontext          (250bac12cc)
   ✘  1156 getselftypeforcontainer                                 (fcd480390c)
   ✘  1157 swift typebase getcanonicaltype                         (b4676cf669)
@@ -1125,6 +1125,30 @@ Adding a new test case? The crash id to use for the next test case is 1314.
   ✘  1311 swift completegenerictyperesolver resolvedependentmembe (d9e9e23d88)
   ✘  1312 getselftypeforcontainer                                 (170829c510)
   ✘  1313 swift constraints constraintsystem gettypeofmemberrefer (6b761d3d6f)
+  ✘  1314 getselftypeforcontainer                                 (096a5651c9)
+  ✘  1315 swift parser parsebraceitems                            (0948d04930)
+  ✘  1316 swift typechecker validatetype                          (ff756cb96f)
+  ✘  1317 swift modulefile maybereadgenericparams                 (49a52aae55)
+  ✘  1318 swift constraints constraintgraph addconstraint         (0c2e27f4a2)
+  ✘  1319 swift typechecker checksubstitutions                    (7cf5f3bdce)
+  ✘  1320 resolvetypedecl                                         (8673eb31ba)
+  ✘  1321 swift typebase getcanonicaltype                         (8222c1d00e)
+  ✘  1322 swift functiontype get                                  (657c32e3fa)
+  ✘  1323 swift completegenerictyperesolver resolvedependentmembe (b797741e6e)
+  ✘  1324 swift constraints constraintgraph removeconstraint      (0e077c7209)
+  ✘  1325 swift typebase isequal                                  (c5832ac932)
+  ✘  1326 swift nominaltypedecl getdeclaredtypeincontext          (128eba8ee6)
+  ✘  1327 resolvetypedecl                                         (ead06bd8e5)
+  ✘  1328 swift modulefile lookupvalue                            (c1ac6bae4f)
+  ✘  1329 llvm bitstreamcursor readrecord                         (0e0c58d0df)
+  ✘  1330 swift typebase getcanonicaltype                         (916e683480)
+  ✘  1331 swift modulefile getimportedmodules                     (839899ee9e)
+  ✘  1332 swift type walk                                         (6af92861c9)
+  ✘  1333 swift abstractstoragedecl makecomputed                  (43870d7a0b)
+  ✘  1334 swift constraints constraintsystem gettypeofmemberrefer (587bdfc87d)
+  ✘  1335 swift astvisitor                                        (79e99c5c55)
+  ✘  1336 swift archetypetype setnestedtypes                      (7d46a5b3b0)
+  ✘  1337 void                                                    (ab4fba6623)
 
 == Crashes marked as fixed in previous releases ==
 
@@ -1246,7 +1270,7 @@ Adding a new test case? The crash id to use for the next test case is 1314.
   ✓  0268 swift typechecker typecheckexpression
   ✓  0270 swift arraysemanticcall hoistorcopy
 
-** Results: 1100 of 1217 tests crashed the compiler **
+** Results: 1124 of 1241 tests crashed the compiler **
 
 ```
 
