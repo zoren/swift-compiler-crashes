@@ -1,0 +1,18 @@
+0  swift                    0x000000010a337a68 llvm::sys::PrintStackTrace(__sFILE*) + 40
+1  swift                    0x000000010a337f54 SignalHandler(int) + 452
+2  libsystem_platform.dylib 0x00007fff91324f1a _sigtramp + 26
+3  libsystem_platform.dylib 0x0000000000001331 _sigtramp + 1858978865
+4  swift                    0x000000010a23482a llvm::GetElementPtrInst::getIndexedType(llvm::Type*, llvm::ArrayRef<llvm::Value*>) + 26
+5  swift                    0x000000010a1bacaa llvm::GetElementPtrInst::Create(llvm::Value*, llvm::ArrayRef<llvm::Value*>, llvm::Twine const&, llvm::Instruction*) + 90
+6  swift                    0x00000001096fab53 llvm::IRBuilder<true, llvm::ConstantFolder, llvm::IRBuilderDefaultInserter<true> >::CreateConstInBoundsGEP2_32(llvm::Value*, unsigned int, unsigned int, llvm::Twine const&) + 163
+7  swift                    0x0000000109702bf9 swift::irgen::emitOpaqueExistentialContainerUpcast(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::SILType, swift::irgen::Address, swift::SILType, bool) + 169
+8  swift                    0x0000000109742145 swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 22869
+9  swift                    0x000000010973bbab swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9179
+10 swift                    0x00000001096b5110 swift::irgen::IRGenModule::emitGlobalTopLevel() + 208
+11 swift                    0x00000001097288dc performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1900
+12 swift                    0x00000001097292e3 swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+13 swift                    0x000000010967e5f4 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5444
+14 swift                    0x000000010967b96d main + 1677
+15 libdyld.dylib            0x00007fff85ac15c9 start + 1
+Stack dump:
+1.	While emitting IR SIL function @_TFC4main1X1afS0_FGVSs10DictionaryCSo8NSObjectPSs9AnyObject__T_ for 'a' at ./crashes/1340-llvm-getelementptrinst-getindexedtype.swift:8:2
