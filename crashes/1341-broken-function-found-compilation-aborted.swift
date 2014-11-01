@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/fluidsonic (Marc Knaup)
 
 class A {
-	var a: () {
-		return
-	}
-	class var a: () {
-		return
-	}
+    var a: () {
+        return
+    }
+    class var a: () {
+        return
+    }
 }
