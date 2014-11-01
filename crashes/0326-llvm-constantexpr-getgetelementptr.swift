@@ -3,11 +3,8 @@
 // rdar://18633758
 
 import Foundation
-
 extension NSFileManager {
     enum C {
-        case A
-        case B
     }
     class D {
         class var a: Dictionary<String, C> {

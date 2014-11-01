@@ -5,7 +5,6 @@
 // NOTE: This bug is similar (but not identical) to #028.
 
 import Foundation
-
 extension NSData {
     public var a: String {
         return ""

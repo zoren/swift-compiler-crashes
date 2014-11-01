@@ -3,7 +3,6 @@
 // http://www.openradar.me/18756378
 
 import Foundation
-
 enum A<T : AnyObject> {
     case E(T)
 }

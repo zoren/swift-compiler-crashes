@@ -4,7 +4,6 @@
 
 enum S<T> : P {
     func f<T>() -> T -> T {
-        return { x in x }
     }
 }
 protocol P {

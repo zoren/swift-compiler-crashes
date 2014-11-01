@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/fluidsonic (Marc Knaup)
 
 import Foundation
-
 class X {
     var x: [String]?
     func a(b: [NSObject: AnyObject]) {

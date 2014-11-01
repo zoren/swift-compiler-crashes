@@ -7,5 +7,4 @@ enum A : String {
 }
 let c: A? = nil
 if c == .b {
-    println("")
 }

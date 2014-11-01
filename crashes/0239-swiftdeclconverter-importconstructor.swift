@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/fluidsonic (Marc Knaup)
 
 import Foundation
-
 extension NSSet {
     convenience init(array: Array) {
-        self.init()
     }
 }

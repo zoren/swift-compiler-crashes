@@ -6,7 +6,6 @@ class A {
         return b(self.dynamicType)
     }
 }
-
 func b<T>(t: AnyObject.Type) -> T! {
     return nil
 }
