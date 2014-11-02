@@ -7,7 +7,7 @@
 9  swift                    checkGenericFuncSignature(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::AbstractFunctionDecl*, swift::GenericTypeResolver&) + 365
 10 swift                    swift::TypeChecker::validateGenericFuncSignature(swift::AbstractFunctionDecl*) + 186
 11 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18785
-12 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2695
+12 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2164
 13 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
 14 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 473
 15 swift                    swift::TypeChecker::typeCheckConstructorBodyUntil(swift::ConstructorDecl*, swift::SourceLoc) + 355

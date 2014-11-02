@@ -19,7 +19,7 @@
 22 swift                    swift::TypeChecker::typeCheckBinding(swift::PatternBindingDecl*) + 162
 23 swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 560
 24 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 224
-25 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2695
+25 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2164
 26 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
 27 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 473
 28 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 375

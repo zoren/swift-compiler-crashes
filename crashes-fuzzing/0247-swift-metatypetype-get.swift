@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 struct d<c : j, j where i.j == c.j> {{
-    j k
 }
 struct b<i : f

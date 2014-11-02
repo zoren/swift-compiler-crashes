@@ -10,21 +10,16 @@ func c<g>() -> (g, g -> g) -> g {
         k  }
 }
 f c {
-   class func v()
 }
 class e: c{  class func v {}
 func d(g: Int = m) {
 }
 let n = d
-n()
 class n {
-    func c l
-    r c(g)
 }(v, h)
 f d : d {
 }
 func d<i>() -> (i, i -> i) -> i {
-    g
 }
 f d {
 }
@@ -33,10 +28,8 @@ f g : d {
 f n : d {
 }
 f e {
-  j c = d
 }
 c g : e {
-  j c = g
 }
 func v<n : g, g : e where g.c == n> (n: g) {
 }

@@ -6,15 +6,12 @@ protocol j {
     typealias E
 }
 struct c<m : j> {
-    b m: m
     : i, j: i k j.m == d.m> {
 }
 protocol i {
-    typealias m
 }
 enum f<m> : l {
     func d<m>() -> m -> m {
-        i
 }
 protocol l {
     func d<m>()(

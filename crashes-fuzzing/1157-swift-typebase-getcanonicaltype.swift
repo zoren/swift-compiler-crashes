@@ -2,20 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
-j<o : BooleanType>(l: o) {
-}
-j(j q BooleanType)
 func p(l: Any, g: Any) -> (((Any, Any) -> Any) -> Any) {
 return {
 (p: (Any, Any) -> Any) -> Any in
 func n<n : l,) {
 }
-n(e())
-e
-subscript
 protocol A {
 typealias B
 : A.B) {
-}
-}

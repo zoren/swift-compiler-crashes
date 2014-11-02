@@ -3,5 +3,4 @@
 // Test case found by fuzzing
 
 let d{
- 
 protocol c : b { func b

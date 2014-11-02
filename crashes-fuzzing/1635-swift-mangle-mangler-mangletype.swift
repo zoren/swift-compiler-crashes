@@ -3,12 +3,6 @@
 // Test case found by fuzzing
 
 struct S : BooleanType>(""))
-func b<c
-}
-}
-}
-}
-}
 }
 enum S<T where B : d {
 typealias f = e

@@ -2,10 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
-}
-}
-println(true }
+(true }
 class func b, Any, a):
 protocol b {
 func c<3)!)

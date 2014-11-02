@@ -11,7 +11,7 @@
 14 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 13583
 15 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363
 16 swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 257
-17 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2615
+17 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2078
 18 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
 19 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 473
 20 swift                    swift::TypeChecker::typeCheckClosureBody(swift::ClosureExpr*) + 143

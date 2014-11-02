@@ -5,7 +5,5 @@
 
 func c<e>() -> (e, e -> e) -> e {
    f b f.f =c {
-   class func f()
 }
-class f: c{  class func f {}
 struct f<c : f,f where e.c == c.c

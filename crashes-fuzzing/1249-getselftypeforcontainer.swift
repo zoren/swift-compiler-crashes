@@ -2,19 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 func i(c: () -> ()) {
 }
 class a {
 var _ = i() {
 s: Int =  a {
-typealias d
-typealias e = d
-typealias f = d
 }
 cla> Bool {
-return !(a)
 }
-b
 protocol c : b { func b
-

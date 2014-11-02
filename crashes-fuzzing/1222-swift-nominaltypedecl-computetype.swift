@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 pro.Type) -> T! {
 return nil
 }
@@ -23,4 +22,3 @@ return self.a()
 func aay: Array) {
 }
 }
-

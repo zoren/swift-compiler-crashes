@@ -8,14 +8,11 @@ func e<l>() -> (l, l -> l) -> l {
  {
    l)}
 n e {
-   class func i()
 }
 class f: e{  class func i {}
 func h<j>() {
     l l {
-        f k
     }
 }
 func h(l: Int = m) {
-}
 let k = h

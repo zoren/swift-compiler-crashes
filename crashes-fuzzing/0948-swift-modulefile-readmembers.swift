@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 if c == D>() -> ()
 var d = {
 let c: String = g> String

@@ -41,13 +41,12 @@
 44 swift                    createImplicitConstructor(swift::TypeChecker&, swift::NominalTypeDecl*, (anonymous namespace)::ImplicitConstructorKind) + 476
 45 swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 754
 46 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2078
-47 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2695
-48 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
-49 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 473
-50 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 375
-51 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 97
-52 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 221
-53 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1734
-54 swift                    swift::CompilerInstance::performSema() + 2060
-55 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-56 swift                    main + 1677
+47 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+48 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 473
+49 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 375
+50 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 97
+51 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 221
+52 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1734
+53 swift                    swift::CompilerInstance::performSema() + 2060
+54 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+55 swift                    main + 1677

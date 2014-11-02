@@ -2,22 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-f {
-class func c
-}
-}
-class f<d : d, j : d k d.l == j> {
-}
-protocol d {
-i l
-i i
-}
 struct l<l : d> : d {
 i j i() {
-l.i()
 }
 }
 protocol f {
 }
 protocol d : f {
-func f<m>
+func f

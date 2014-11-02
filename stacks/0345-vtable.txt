@@ -27,7 +27,7 @@
 30 swift                    swift::TypeChecker::validateGenericSignature(swift::GenericParamList*, swift::DeclContext*, std::__1::function<bool (swift::ArchetypeBuilder&)>, bool&) + 97
 31 swift                    swift::TypeChecker::validateGenericTypeSignature(swift::NominalTypeDecl*) + 69
 32 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 238
-33 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2287
+33 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1857
 34 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
 35 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
 36 swift                    swift::CompilerInstance::performSema() + 2060

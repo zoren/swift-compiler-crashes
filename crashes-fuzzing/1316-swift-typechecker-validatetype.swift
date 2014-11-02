@@ -3,5 +3,4 @@
 // Test case found by fuzzing
 
 enum S<T where S<T> : AnyObject, x in 0
-case c(x: X.Type
 struct D : T

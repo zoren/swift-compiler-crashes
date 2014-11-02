@@ -11,19 +11,15 @@ func j<s>() -> (s, s -> s) -> s {
 }
 t u) {
 }
-let j = m
-j()
 n j {
     func d((q, j))(m: (q, d)) {
       {
 }
-func o<e -> d = d
 }
 .= l>(j: k<p>) {
     }
 }
 func j() r> {
-    j d: d
 }
 func m<d>() -> [j{
     enum d {

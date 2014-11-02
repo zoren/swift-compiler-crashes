@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 }
 b() {
 }
@@ -175,4 +174,3 @@ public var b, V, Bool) {
 struct X.E
 }
 let foo as BooleanType, AnyObject, T : B<Q<h
-

@@ -38,9 +38,8 @@
 41 swift                    swift::TypeChecker::validateGenericFuncSignature(swift::AbstractFunctionDecl*) + 86
 42 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18785
 43 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6103
-44 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2164
-45 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
-46 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
-47 swift                    swift::CompilerInstance::performSema() + 2060
-48 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-49 swift                    main + 1677
+44 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+45 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
+46 swift                    swift::CompilerInstance::performSema() + 2060
+47 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+48 swift                    main + 1677

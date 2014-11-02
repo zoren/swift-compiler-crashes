@@ -4,13 +4,7 @@
 
 func compose<T: A, x in c {
 class C(1])
-println(1])
-b(x))
 extension Array {
 }
 switch x {
-func f(c])
-extension NSSet {
 case C()
-}
-retur

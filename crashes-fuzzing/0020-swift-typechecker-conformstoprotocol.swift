@@ -11,12 +11,8 @@ func g<h>() -> (h, h -> h) -> h {
 }
 g j) {
 }
-h e = b
-e()
 class e {
     func d((c) {
-        d(b)
     }
 }
-i e<h {
 e {

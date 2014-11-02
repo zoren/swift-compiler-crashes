@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 }
 }
 extension Array {
@@ -87,4 +86,3 @@ class C("
 typealias f : e()
 }
 func b: A, Bool]
-

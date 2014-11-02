@@ -3,9 +3,6 @@
 // Test case found by fuzzing
 
 func i() -> g {
-    j i
 h g {
-e
 }
-g
 protocol g : g { func g

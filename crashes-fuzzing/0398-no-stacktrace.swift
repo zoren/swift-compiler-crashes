@@ -2,10 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
-C
-init()
-class A {
-init(self)
 protocol P {
 typealias e : e

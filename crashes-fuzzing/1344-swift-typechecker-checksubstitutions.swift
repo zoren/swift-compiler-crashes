@@ -5,5 +5,4 @@
 struct c : A {
 struct d: () {
 }
-func i> () -> U))
 class A<T: A<d>

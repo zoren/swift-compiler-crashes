@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 return d<A"\()
 import CoreData
 return "
@@ -176,4 +175,3 @@ return $0
 private class A : U : (x: P> T where H) {
 if true {
 let c
-

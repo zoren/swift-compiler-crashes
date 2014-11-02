@@ -7,7 +7,6 @@ func h(f: Int = j) {
 let i = h
 i() -> f {
     {
- 
     func e(#i: d, g: d) {
         for f in h {
             f.i(i, g)

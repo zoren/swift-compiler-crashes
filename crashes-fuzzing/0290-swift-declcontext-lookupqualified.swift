@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 func d<b>() -> [f<b>] {
-    f []
 }
 struct f<S: SequenceType, e where Optional<e> == S.Generator.Element

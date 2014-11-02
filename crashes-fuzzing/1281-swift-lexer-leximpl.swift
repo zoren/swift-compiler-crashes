@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 in
 struct d<f : e, g: e where g.h == f.h> {{
 typealias E

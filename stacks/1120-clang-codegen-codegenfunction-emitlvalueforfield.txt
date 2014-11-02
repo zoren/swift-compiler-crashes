@@ -1,4 +1,4 @@
-3  swift                    (anonymous namespace)::WinCOFFStreamer::AddCommonSymbol(llvm::MCSymbol*, unsigned long long, unsigned int, bool) + 322
+3  swift                    _load_method_type + [N]
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

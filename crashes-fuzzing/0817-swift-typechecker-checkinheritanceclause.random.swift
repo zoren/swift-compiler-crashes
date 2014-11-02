@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 }
 }
 import Foundation
@@ -1043,4 +1042,3 @@ var d {
 let t: T) {
 protocol C = {
 }
-

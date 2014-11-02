@@ -4,5 +4,4 @@
 
 for (Any) {
 protocol e : a {
-default:
 func a

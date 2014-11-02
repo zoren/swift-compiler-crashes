@@ -16,7 +16,7 @@
 19 swift                    swift::TypeChecker::validateGenericTypeSignature(swift::NominalTypeDecl*) + 69
 20 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 876
 21 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 5947
-22 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2695
+22 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2164
 23 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
 24 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 473
 25 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 912

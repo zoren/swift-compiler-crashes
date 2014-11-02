@@ -1,4 +1,3 @@
-3  swift                    llvm::BitstreamCursor::readAbbreviatedField(llvm::BitCodeAbbrevOp const&, llvm::SmallVectorImpl<unsigned long long>&) + 252
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304
@@ -29,9 +28,8 @@
 31 swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 560
 32 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 224
 33 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 9408
-34 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2164
-35 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
-36 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
-37 swift                    swift::CompilerInstance::performSema() + 2060
-38 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-39 swift                    main + 1677
+34 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+35 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
+36 swift                    swift::CompilerInstance::performSema() + 2060
+37 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+38 swift                    main + 1677

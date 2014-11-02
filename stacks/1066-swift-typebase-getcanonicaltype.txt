@@ -19,11 +19,11 @@
 22 swift                    swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) + 930
 23 swift                    swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*, swift::ValueDecl*) + 621
 24 swift                    (anonymous namespace)::TypeResolver::resolveType(swift::TypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>) + 241
-25 swift                    swift::TypeChecker::resolveType(swift::TypeRepr*, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*, swift::ValueDecl*) + 174
-26 swift                    swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 1373
-27 swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 162
-28 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1864
-29 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
+25 swift                    (anonymous namespace)::TypeResolver::resolveType(swift::TypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>) + 1212
+26 swift                    swift::TypeChecker::resolveType(swift::TypeRepr*, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*, swift::ValueDecl*) + 174
+27 swift                    swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 1373
+28 swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 162
+29 swift                    swift::Expr::walk(swift::ASTWalker&) + 76
 30 swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 96
 31 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 479
 32 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 554

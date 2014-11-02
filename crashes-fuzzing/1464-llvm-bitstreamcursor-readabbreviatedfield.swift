@@ -4,8 +4,5 @@
 
 if true {
 protocol b : A {
-func e: A? = F
-}
 protocol A : a {
-return b.Type
 typealias b : b

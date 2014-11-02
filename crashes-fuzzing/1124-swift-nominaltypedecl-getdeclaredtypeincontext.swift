@@ -2,19 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
-var
 struct i<f : f, g: f where g.i == f.i> { b = i) {
 }
 let i { f
-typealias
-import Foundation
 extension NSSet {
 convenience init<T>(array: Array<T>) {
-self.init()
 }
 }
-is
 struct c<e> {
 let d: i h
 }

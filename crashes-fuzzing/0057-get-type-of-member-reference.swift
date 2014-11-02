@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 func d<e>() -> (e, e -> e) -> e {
-    e b e.c = {}
     {
         e)
         {

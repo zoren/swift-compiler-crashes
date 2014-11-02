@@ -2,10 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
-protocol a {
-println("
-}
 protocol A {
 return g: AnyObject> : C {
 protocol b where f: d {

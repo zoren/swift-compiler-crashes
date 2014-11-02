@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 var
 f g
 }
@@ -14,4 +13,3 @@ protocol A {
 typealias B
 : A.B) {
 }
-

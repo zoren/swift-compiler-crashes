@@ -2,17 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
-}
-return ".a)")
-}
-func i> () {
-}
-}
-println(a
-class A<T)
-}
-return g
+(a
 enum S<T where f: T {
-typealias F = Swift.d:
-
+typealias F = Swift.d

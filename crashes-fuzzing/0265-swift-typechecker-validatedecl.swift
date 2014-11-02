@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 struct c<d : j, j: j where j.j == d.j> {i {
-   j()(f) -> f
 }
 func d

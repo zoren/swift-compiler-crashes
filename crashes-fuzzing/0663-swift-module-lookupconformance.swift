@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 __LINE__
 struct g<g : e, f: e where f.h = c {
 b let g: c

@@ -5,13 +5,10 @@
 Self {
 var c: A>(bytes: P {
 protocol e where l.c where B {
-assert()
 return [1
 }
 }
 }
 func i<T : () -> {
 class A : a {
-typealias B.Generator.b = 1
-}
 class a

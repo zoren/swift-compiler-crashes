@@ -5,15 +5,5 @@
 protocol b : BooleanType>? {
 }
 protocol a : b {
-protocol c = g> (x, Any) {
-let c: P {
-f = i: NSManagedObject {
-}
-}
-get
-var f == [c<c> ()
-import DummyModule
-typealias e where T>()
-return "))
 func f: A, AnyObject, T> T>? = a
-typealias b in 
+typealias b in

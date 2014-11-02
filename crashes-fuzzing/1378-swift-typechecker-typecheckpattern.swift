@@ -4,9 +4,7 @@
 
 var b: Array<c) -> []() -> == true {
 protocol a {
-class func a<T> Int = nil
 func b: a {
 }
-case s([c()
 convenience init(b)
-typealias b = g.e = j> :
+typealias b

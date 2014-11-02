@@ -4,7 +4,4 @@
 
 struct g<b where f.h == e.h> {
 }
-c h
-}
-import g
 extension g

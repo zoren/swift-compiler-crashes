@@ -2,10 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
-}
-protocol P {
-}
 if true {
 struct B<T where I.c: d = {
 class func b

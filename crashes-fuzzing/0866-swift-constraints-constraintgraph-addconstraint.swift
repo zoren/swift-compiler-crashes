@@ -2,15 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
-protocol P {
-typealias B<T>Bool))")
-convenience init())
-}
 if true {
 println() {
 }
 func g<T.b : U : T] in
 self.b = c: P {
 struct c = { c()
-typealias h: I.b

@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 return ""a<T>) + seq: T>(n: d = F>()
 class func a
 extension Array {
@@ -51,4 +50,3 @@ private class func a: SequenceType> {
 }
 }
 retur
-

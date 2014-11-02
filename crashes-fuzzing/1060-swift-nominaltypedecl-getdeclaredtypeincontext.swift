@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 class a {
 type b, g : b where f.d == g> {
 }
@@ -89,4 +88,3 @@ typealias f = d
 }
 class b<h : c, i : c where h.g == i> : a {
 }
-

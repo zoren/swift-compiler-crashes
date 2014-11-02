@@ -2,9 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
-class c {
-fu}
 func som<T>: NSObject {
 var fostruct B : A {
 }
@@ -19,5 +16,3 @@ protocol f {
 class func i()
 }
 class d: f{  class func i {}
-h
-

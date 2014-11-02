@@ -3,8 +3,5 @@
 // Test case found by fuzzing
 
 (([1]
-}
-}
-}
 protocol a {
 func d<S : d

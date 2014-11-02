@@ -3,9 +3,7 @@
 // Test case found by fuzzing
 
 func f<g>() -> (g, g -> g) -> g {
-    e e: ((g, g -> g) -> g)!
   j e
 }
 protocol e {
-    d func j()
 protocol d : b { func b

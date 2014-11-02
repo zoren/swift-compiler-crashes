@@ -3,6 +3,4 @@
 // Test case found by fuzzing
 
 [k<j>(h:as b).f.h()
-i c).d()
-j
 protocol h : j { func j

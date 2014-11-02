@@ -2,16 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
-ss B<C> {
-let c: C
-init(c: C) {
-self.c = c
-}
-}
-import Foundation
 extension NSSet {
-convpealias F = Int
 func g<T where T.E == F>(f: B<T>) {
 }
 }
@@ -20,4 +11,3 @@ func b(c) -> <d>(() -> d) {
 import Foundation
 extension NSSet {
 convenience init(array: Array) {
-s

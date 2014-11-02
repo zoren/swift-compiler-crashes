@@ -4,11 +4,7 @@
 
 class i<m>: j {
     f l: m   init(l: m) {
-        l.l = l
         k{
-    j f>
 }
 class k {
-   
-m)
 func m<l:m

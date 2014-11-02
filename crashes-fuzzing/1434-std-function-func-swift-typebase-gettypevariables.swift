@@ -5,10 +5,6 @@
 enum A {
 let end = h>(i: Any) {
 }
-typealias F = B)
 }
-func g<Q<d
-class c, let c : B
-typealias F
 protocol e : A {
-typealias A = e() 
+typealias A

@@ -2,11 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-):
-}
 class a<H : a = a: SequenceType where A: AnyObject> : b {
-typealias e(c<h == Int
-}
-}
-func f, a: Any, f, y)
-func b([B, e = 
+func b([B, e =

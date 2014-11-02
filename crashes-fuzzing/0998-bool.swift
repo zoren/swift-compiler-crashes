@@ -2,9 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
-vaT>(t: AnyObject.Type) -> T! {
-return nil
 }
 struct d<f : e, g: e where g.h == f.h> : NSManagedObject {
-func b<T: A>() -> [T] 
+func b<T: A>() -> [T]

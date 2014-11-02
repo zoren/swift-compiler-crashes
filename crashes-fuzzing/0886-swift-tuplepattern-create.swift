@@ -2,21 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
-}
-}
-protocol A {
-get
-}
-override init(self.c) {
-}
-}
-}))
-func a!)
-let n1: S<Int>(T: [c>()
-}
-}
-func a)) ->>, Any, q:
-}
+(T: [c>()
 class b: A {
-func d<S : d : (An
+func d<S : d

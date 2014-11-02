@@ -6,5 +6,3 @@ func b<d {
     enum b {
         func c
         var _ = c
-    }
-}

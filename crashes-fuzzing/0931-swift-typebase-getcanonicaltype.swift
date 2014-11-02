@@ -2,15 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
-)
-}
-}
-typealias E
-if true as [self.d = 1
-}
 protocol A : BooleanType, A {
-enum S.Type
-typealias e : e: a {
-}
-s
+typealias e : e

@@ -5,7 +5,6 @@
 func j<h> -> h {
         e { -> h
 }
-b k
 class f {
     class func g() -> String {
    struct j {

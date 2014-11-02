@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 nil
 protocol l : p {: m) {
 }
@@ -29,4 +28,3 @@ typ  typealias h
 Any l
 A where D.C == E> {
 }
-

@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 > (object1: A {
 }
 let a {
@@ -96,4 +95,3 @@ let c {
 }
 func f<T: e: U : T
 dei
-

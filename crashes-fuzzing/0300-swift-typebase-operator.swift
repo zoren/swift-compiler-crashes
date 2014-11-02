@@ -5,8 +5,6 @@
 struct c<f : h> {
     var b:  [c<f>] {
     g []e f() {
-        f.f()
     }
 }
-b
 protocol c : b { func b

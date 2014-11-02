@@ -4,19 +4,14 @@
 
 func p<q {
     enum p {
-  p)
 func d() { d
 func n<j>() {
     f f {
-        m m
     }
 }
-q m<g : b o()
 }
 p p: d {
-    p func o() { }
 }
-(p() h d).m.o()
 k p.o == q> {
 }
 func d(o: Any

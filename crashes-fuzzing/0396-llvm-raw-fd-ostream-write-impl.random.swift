@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 let h> T -> U)
 import Foundation
 let f = {
@@ -181,4 +180,3 @@ import Foundation
 0
 func a(f<T> U, f, e: e == {
 var f = 1, object2)
-

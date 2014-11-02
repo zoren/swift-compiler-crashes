@@ -5,5 +5,4 @@
 func d(e: () -> ()) {}
 class e {
     var _ = d() {
-   
 class b<g : e, d : e where g.f == d> : e

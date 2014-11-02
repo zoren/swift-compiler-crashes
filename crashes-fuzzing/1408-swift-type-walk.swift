@@ -4,5 +4,4 @@
 
 class A {
 func a(a")
-let start = [c
 func a<H : A.a

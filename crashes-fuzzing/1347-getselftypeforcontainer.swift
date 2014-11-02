@@ -2,9 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
-}
-}
 func f(a(A..substringWithRange(start, Any) -> T
 func g<b.d.init("")
 protocol a {

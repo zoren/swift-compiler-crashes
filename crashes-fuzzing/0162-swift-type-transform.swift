@@ -3,11 +3,8 @@
 // Test case found by fuzzing
 
 class o<k>: q {
-    e j: k
     init(j: k) {
         m {
-}
-struct p : m {
 }
 struct l<c, r: m n c.l => b {
       {

@@ -49,7 +49,7 @@
 52 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18673
 53 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363
 54 swift                    checkRedeclaration(swift::TypeChecker&, swift::ValueDecl*) + 532
-55 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2193
+55 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6131
 56 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
 57 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
 58 swift                    swift::CompilerInstance::performSema() + 2060

@@ -6,11 +6,9 @@ func i<j {
     enum i {
         func i
        b {
-   c func d()
 }
 k>(j: i) {
 }
-b(b f h)
 func p(j: Any, k: Any) -> (((Any, Any) -> Any) -> Any) {
     return {
         (p: (Any, Any) -> Any) -> Any in

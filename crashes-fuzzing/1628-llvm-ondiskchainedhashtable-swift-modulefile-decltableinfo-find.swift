@@ -5,7 +5,6 @@
 var b {
 i> {
 protocol b = b> T, y: Array<l : AnyObject, A {
-typealias d = b
 }
 }
-enum S<T where g: T> : b =
+enum S<T where g: T> : b

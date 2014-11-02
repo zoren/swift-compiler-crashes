@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
 public class a {
 typealias C {
 for ()))
@@ -45,4 +44,3 @@ func b: (Range(b
 }
 struct c, 3)
 protoco
-

@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 struct d<b : e, d: e where d.e == b }
-}
 func c() {
      for c in 0..<d
