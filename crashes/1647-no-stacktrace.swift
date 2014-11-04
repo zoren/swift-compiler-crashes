@@ -7,11 +7,11 @@ struct A {
     func a() {
     }
 }
+typealias B = (C, C)
 enum C {
     case D
     case E
 }
-typealias B = (C, C)
 func c() {
     let d: (B, A)? = nil
     let (e, f) = d!
