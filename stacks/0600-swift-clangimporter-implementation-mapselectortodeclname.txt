@@ -1,4 +1,4 @@
-3  swift                    swift::ClangImporter::Implementation::mapSelectorToDeclName(swift::ObjCSelector, bool) + 18213
+3  swift                    swift::ClangImporter::create(swift::ASTContext&, swift::ClangImporterOptions const&, swift::IRGenOptions const&, swift::DependencyTracker*) + 6133
 4  swift                    (anonymous namespace)::DeclChecker::checkDynamicSelfReturn(swift::FuncDecl*, swift::TypeRepr*, unsigned int) + 574
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18426
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363

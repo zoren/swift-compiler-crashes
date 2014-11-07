@@ -1,0 +1,17 @@
+3  swift                    llvm::FoldingSet<swift::TupleType>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const + 36
+4  swift                    swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 9229
+5  swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 162
+6  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1385
+7  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 135
+8  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 3478
+9  swift                    swift::Expr::walk(swift::ASTWalker&) + 53
+10 swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 96
+11 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 479
+12 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 554
+13 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 375
+14 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 97
+15 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 221
+16 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1734
+17 swift                    swift::CompilerInstance::performSema() + 2060
+18 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+19 swift                    main + 1677
