@@ -1,0 +1,390 @@
+Summary
+=======
+Crashes analyzed: 1649 (all non-duplicate, which in this context means that every crash case has an unique stack trace)
+Unique code locations with at least one crash: 381
+
+Toplist: Code locations where the Swift compiler crashes
+========================================================
+  #1. [swift] getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) (line number 385), 144 crashes
+  #2. [swift] resolveTypeDecl(swift::TypeChecker&, swift::TypeDecl*, swift::SourceLoc, swift::DeclContext*, llvm::ArrayRef<swift::TypeRepr*>, bool, swift::GenericTypeResolver*) (line number 100), 90 crashes
+  #3. [swift] swift::TypeBase::getCanonicalType() (line number 1403), 70 crashes
+  #4. [swift] swift::Type::walk(swift::TypeWalker&) const (line number 54), 66 crashes
+  #5. [swift] swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::constraints::DependentTypeOpener*) (line number 626), 66 crashes
+  #6. [swift] swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const (line number 68), 49 crashes
+  #7. [swift] swift::NominalTypeDecl::getDeclaredTypeInContext() const (line number 51), 43 crashes
+  #8. [swift] swift::NominalTypeDecl::getDeclaredTypeInContext() const (line number 228), 35 crashes
+  #9. [swift] void lookupInModule<llvm::SmallSet<swift::CanType, 4u, (anonymous namespace)::SortCanType>, swift::namelookup::lookupInModule(swift::Module*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::DeclName, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> >)::$_0>(swift::Module*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::namelookup::ResolutionKind, bool, swift::LazyResolver*, llvm::SmallDenseMap<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*>, llvm::TinyPtrVector<swift::ValueDecl*>, 32u, llvm::DenseMapInfo<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> (line number 0), 30 crashes
+  #10. [swift] swift::TypeChecker::checkSubstitutions(llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*> >&, llvm::DenseMap<swift::SubstitutableType*, llvm::SmallVector<swift::ProtocolConformance*, 2u>, llvm::DenseMapInfo<swift::SubstitutableType*> >&, swift::DeclContext*, swift::SourceLoc, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*> >*) (line number 300), 19 crashes
+  #11. [swift] swift::ModuleFile::getType(swift::Fixnum<31u, unsigned int>) (line number 8359), 16 crashes
+  #12. [swift] swift::ClangModuleUnit::getAdapterModule() const (line number 71), 15 crashes
+  #13. [swift] swift::CompleteGenericTypeResolver::resolveDependentMemberType(swift::Type, swift::DeclContext*, swift::SourceRange, swift::Identifier, swift::SourceLoc) (line number 71), 15 crashes
+  #14. [swift] swift::constraints::ConstraintSystem::getFixedTypeRecursive(swift::Type, swift::TypeVariableType*&, bool, bool) (line number 125), 15 crashes
+  #15. [swift] swift::Lexer::lexIdentifier() (line number 183), 14 crashes
+  #16. [swift] swift::MetatypeType::get(swift::Type, swift::Optional<swift::MetatypeRepresentation>, swift::ASTContext const&) (line number 200), 14 crashes
+  #17. [swift] swift::ModuleFile::getDecl(swift::Fixnum<31u, unsigned int>, swift::Optional<swift::DeclContext*>) (line number 7248), 14 crashes
+  #18. [swift] swift::ModuleFile::lookupValue(swift::DeclName, llvm::SmallVectorImpl<swift::ValueDecl*>&) (line number 1472), 13 crashes
+  #19. [swift] swift::PrintingDiagnosticConsumer::handleDiagnostic(swift::SourceManager&, swift::SourceLoc, swift::DiagnosticKind, llvm::StringRef, swift::DiagnosticInfo const&) (line number 1288), 13 crashes
+  #20. [swift] swift::constraints::ConstraintSystem::openGeneric(swift::DeclContext*, llvm::ArrayRef<swift::GenericTypeParamType*>, llvm::ArrayRef<swift::Requirement>, bool, swift::constraints::DependentTypeOpener*, swift::constraints::ConstraintLocatorBuilder, llvm::DenseMap<swift::CanType, swift::TypeVariableType*, llvm::DenseMapInfo<swift::CanType> >&) (line number 335), 13 crashes
+  #21. [swift] (anonymous namespace)::SwiftDeclConverter::importConstructor(clang::ObjCMethodDecl const*, swift::DeclContext*, bool, swift::Optional<swift::CtorInitializerKind>, bool, swift::ObjCSelector, swift::DeclName, llvm::ArrayRef<clang::ParmVarDecl const*>, bool, bool&) (line number 1498), 12 crashes
+  #22. [swift] std::__1::__function::__func<swift::Type::subst(swift::Module*, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*> >&, bool, swift::LazyResolver*) const::$_4, std::__1::allocator<swift::Type::subst(swift::Module*, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*> >&, bool, swift::LazyResolver*) const::$_4>, swift::Type (swift::Type)>::operator()(swift::Type&&) (line number 949), 12 crashes
+  #23. [swift] swift::DiagnosticEngine::flushActiveDiagnostic() (line number 4667), 12 crashes
+  #24. [swift] swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const (line number 55), 12 crashes
+  #25. [swift] swift::TypeBase::getAnyOptionalObjectType(swift::OptionalTypeKind&) (line number 15), 12 crashes
+  #26. [swift] swift::constraints::ConstraintSystem::getFixedTypeRecursive(swift::Type, swift::TypeVariableType*&, bool, bool) (line number 133), 12 crashes
+  #27. [swift] getCallerDefaultArg(swift::TypeChecker&, swift::DeclContext*, swift::SourceLoc, swift::ConcreteDeclRef&, unsigned int) (line number 61), 11 crashes
+  #28. [swift] swift::FunctionType::get(swift::Type, swift::Type, swift::AnyFunctionType::ExtInfo const&) (line number 158), 11 crashes
+  #29. [swift] swift::Lexer::getLocForEndOfToken(swift::SourceManager const&, swift::SourceLoc) (line number 535), 11 crashes
+  #30. [swift] swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) (line number 80), 11 crashes
+  #31. [swift] swift::constraints::Solution::computeSubstitutions(swift::Type, swift::DeclContext*, swift::Type, llvm::SmallVectorImpl<swift::Substitution>&) const (line number 1204), 11 crashes
+  #32. [swift] llvm::OnDiskChainedHashTable<swift::ModuleFile::DeclTableInfo>::find(swift::Identifier const&, swift::ModuleFile::DeclTableInfo*) (line number 47), 10 crashes
+  #33. [swift] swift::GenericFunctionType::get(swift::GenericSignature*, swift::Type, swift::Type, swift::AnyFunctionType::ExtInfo const&) (line number 438), 10 crashes
+  #34. [swift] swift::constraints::Solution::Solution(swift::constraints::Solution&&) (line number 319), 10 crashes
+  #35. [swift] resolveTypeDecl(swift::TypeChecker&, swift::TypeDecl*, swift::SourceLoc, swift::DeclContext*, llvm::ArrayRef<swift::TypeRepr*>, bool, swift::GenericTypeResolver*) (line number 79), 9 crashes
+  #36. [swift] swift::ModuleFile::maybeReadGenericParams(swift::DeclContext*, llvm::BitstreamCursor&, swift::GenericParamList*) (line number 1910), 9 crashes
+  #37. [swift] swift::Pattern::forEachVariable(std::__1::function<void (swift::VarDecl*)> const&) const (line number 235), 9 crashes
+  #38. [swift] swift::Type::walk(swift::TypeWalker&) const (line number 75), 9 crashes
+  #39. [swift] swift::ArchetypeType::setNestedTypes(swift::ASTContext&, llvm::MutableArrayRef<std::__1::pair<swift::Identifier, llvm::PointerUnion<swift::ArchetypeType*, swift::Type> > >) (line number 45), 8 crashes
+  #40. [swift] swift::AvailabilityAttr::isUnavailable(swift::Decl const*) (line number 22), 8 crashes
+  #41. [swift] swift::DiagnosticEngine::diagnose(swift::SourceLoc, swift::Diagnostic const&) (line number 500), 8 crashes
+  #42. [swift] swift::MetatypeType::get(swift::Type, swift::Optional<swift::MetatypeRepresentation>, swift::ASTContext const&) (line number 115), 8 crashes
+  #43. [swift] swift::ArchetypeBuilder::resolveArchetype(swift::Type) (line number 25), 7 crashes
+  #44. [swift] swift::ModuleFile::getDecl(swift::Fixnum<31u, unsigned int>, swift::Optional<swift::DeclContext*>) (line number 9392), 7 crashes
+  #45. [swift] swift::Optional<swift::Diagnostic>::operator=(swift::Optional<swift::Diagnostic>&&) (line number 245), 7 crashes
+  #46. [swift] swift::TypeBase::isEqual(swift::Type) (line number 26), 7 crashes
+  #47. [swift] (anonymous namespace)::RawMemoryObject::readBytes(unsigned long long, unsigned long long, unsigned char*) const (line number 58), 6 crashes
+  #48. [swift] llvm::OnDiskChainedHashTable<swift::ModuleFile::DeclTableInfo>::find(swift::Identifier const&, swift::ModuleFile::DeclTableInfo*) (line number 206), 6 crashes
+  #49. [swift] std::__1::__function::__func<swift::Type::subst(swift::Module*, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*> >&, bool, swift::LazyResolver*) const::$_4, std::__1::allocator<swift::Type::subst(swift::Module*, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*> >&, bool, swift::LazyResolver*) const::$_4>, swift::Type (swift::Type)>::operator()(swift::Type&&) (line number 239), 6 crashes
+  #50. [swift] swift::GenericParamList::addNestedArchetypes(swift::ArchetypeType*, llvm::SmallPtrSetImpl<swift::ArchetypeType*>&, llvm::SmallVectorImpl<swift::ArchetypeType*>&) (line number 153), 6 crashes
+  #51. [swift] swift::GenericSignature::get(llvm::ArrayRef<swift::GenericTypeParamType*>, llvm::ArrayRef<swift::Requirement>) (line number 324), 6 crashes
+  #52. [swift] swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) (line number 173), 6 crashes
+  #53. [swift] swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) (line number 3521), 6 crashes
+  #54. [swift] llvm::FoldingSet<swift::TupleType>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const (line number 71), 5 crashes
+  #55. [swift] llvm::FoldingSetNodeID::operator==(llvm::FoldingSetNodeID const&) const (line number 40), 5 crashes
+  #56. [swift] llvm::SmallVectorImpl<swift::DiagnosticArgument>::operator=(llvm::SmallVectorImpl<swift::DiagnosticArgument>&&) (line number 285), 5 crashes
+  #57. [swift] std::__1::__function::__func<swift::constraints::ConstraintSystem::simplifyType(swift::Type, llvm::SmallPtrSet<swift::TypeVariableType*, 16u>&)::$_5, std::__1::allocator<swift::constraints::ConstraintSystem::simplifyType(swift::Type, llvm::SmallPtrSet<swift::TypeVariableType*, 16u>&)::$_5>, swift::Type (swift::Type)>::operator()(swift::Type&&) (line number 608), 5 crashes
+  #58. [swift] swift::ASTContext::setConformsTo(swift::CanType, swift::ProtocolDecl*, llvm::PointerIntPair<swift::ProtocolConformance*, 1u, bool, llvm::PointerLikeTypeTraits<swift::ProtocolConformance*> >) (line number 102), 5 crashes
+  #59. [swift] swift::DeclName::printPretty(llvm::raw_ostream&) const (line number 139), 5 crashes
+  #60. [swift] swift::ModuleFile::maybeReadPattern() (line number 772), 5 crashes
+  #61. [swift] swift::NominalTypeDecl::computeType() (line number 185), 5 crashes
+  #62. [swift] swift::ParenType::get(swift::ASTContext const&, swift::Type) (line number 278), 5 crashes
+  #63. [swift] swift::ProtocolType::canonicalizeProtocols(llvm::SmallVectorImpl<swift::ProtocolDecl*>&) (line number 1326), 5 crashes
+  #64. [swift] swift::ScopeInfo::addToScope(swift::ValueDecl*, swift::Parser&) (line number 239), 5 crashes
+  #65. [swift] swift::StreamPrinter::printText(llvm::StringRef) (line number 51), 5 crashes
+  #66. [swift] swift::TuplePattern::create(swift::ASTContext&, swift::SourceLoc, llvm::ArrayRef<swift::TuplePatternElt>, swift::SourceLoc, bool, swift::SourceLoc, swift::Optional<bool>) (line number 280), 5 crashes
+  #67. [swift] swift::TypeAliasDecl::TypeAliasDecl(swift::SourceLoc, swift::Identifier, swift::SourceLoc, swift::TypeLoc, swift::DeclContext*) (line number 258), 5 crashes
+  #68. [swift] swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) (line number 28), 5 crashes
+  #69. [swift] bool swift::Parser::parseIdentifier<>(swift::Identifier&, swift::SourceLoc&, swift::Diag<>) (line number 134), 4 crashes
+  #70. [swift] llvm::FoldingSet<swift::TupleType>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const (line number 36), 4 crashes
+  #71. [swift] llvm::raw_fd_ostream::write_impl(char const*, unsigned long) (line number 89), 4 crashes
+  #72. [swift] swift::BoundGenericType::get(swift::NominalTypeDecl*, swift::Type, llvm::ArrayRef<swift::Type>) (line number 331), 4 crashes
+  #73. [swift] swift::ClangModuleUnit::getImportedModules(llvm::SmallVectorImpl<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> >&, swift::Module::ImportFilter) const (line number 1607), 4 crashes
+  #74. [swift] swift::Lexer::lexImpl() (line number 1152), 4 crashes
+  #75. [swift] swift::ModuleFile::getImportedModules(llvm::SmallVectorImpl<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> >&, swift::Module::ImportFilter) (line number 356), 4 crashes
+  #76. [swift] swift::ModuleFile::maybeReadConformance(swift::Type, llvm::BitstreamCursor&) (line number 345), 4 crashes
+  #77. [swift] swift::Parser::consumeToken() (line number 68), 4 crashes
+  #78. [swift] swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) (line number 153), 4 crashes
+  #79. [swift] swift::Parser::parseToken(swift::tok, swift::SourceLoc&, swift::Diagnostic const&) (line number 96), 4 crashes
+  #80. [swift] swift::Parser::parseTypeIdentifier() (line number 1450), 4 crashes
+  #81. [swift] swift::Parser::skipSingle() (line number 327), 4 crashes
+  #82. [swift] swift::StructType::get(swift::StructDecl*, swift::Type, swift::ASTContext const&) (line number 211), 4 crashes
+  #83. [swift] swift::TupleType::get(llvm::ArrayRef<swift::TupleTypeElt>, swift::ASTContext const&) (line number 317), 4 crashes
+  #84. [swift] swift::TypeBase::getCanonicalType() (line number 1845), 4 crashes
+  #85. [swift] swift::TypeBase::isExistentialType(llvm::SmallVectorImpl<swift::ProtocolDecl*>&) (line number 22), 4 crashes
+  #86. [swift] swift::TypeBase::isSpecialized() (line number 122), 4 crashes
+  #87. [swift] swift::TypeBase::operator new(unsigned long, swift::ASTContext const&, swift::AllocationArena, unsigned int) (line number 92), 4 crashes
+  #88. [swift] swift::TypeChecker::coercePatternToType(swift::Pattern*&, swift::DeclContext*, swift::Type, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) (line number 2019), 4 crashes
+  #89. [swift] swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*, swift::ValueDecl*) (line number 248), 4 crashes
+  #90. [swift] swift::constraints::ConstraintGraph::gatherConstraints(swift::TypeVariableType*, llvm::SmallVectorImpl<swift::constraints::Constraint*>&) (line number 843), 4 crashes
+  #91. [swift] swift::constraints::ConstraintLocator::Profile(llvm::FoldingSetNodeID&, swift::Expr*, llvm::ArrayRef<swift::constraints::ConstraintLocator::PathElement>) (line number 46), 4 crashes
+  #92. [swift] swift::constraints::ConstraintSystem::diagnoseFailureFromConstraints(swift::Expr*) (line number 1176), 4 crashes
+  #93. [swift] swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::constraints::DependentTypeOpener*) (line number 3885), 4 crashes
+  #94. [swift] swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) (line number 599), 4 crashes
+  #95. [swift] (anonymous namespace)::ExprRewriter::finishApply(swift::ApplyExpr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) (line number 1457), 3 crashes
+  #96. [swift] bool swift::Parser::parseToken<>(swift::tok, swift::SourceLoc&, swift::Diag<>) (line number 134), 3 crashes
+  #97. [swift] getMemberForBaseType(swift::Module*, swift::Type, swift::AssociatedTypeDecl*, swift::Identifier, swift::LazyResolver*) (line number 409), 3 crashes
+  #98. [swift] llvm::FoldingSet<swift::BoundGenericType>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const (line number 91), 3 crashes
+  #99. [swift] swift::ASTPrinter::printTextImpl(llvm::StringRef) (line number 254), 3 crashes
+  #100. [swift] swift::BoundGenericType::get(swift::NominalTypeDecl*, swift::Type, llvm::ArrayRef<swift::Type>) (line number 877), 3 crashes
+  #101. [swift] swift::ClangModuleUnit::getImportedModules(llvm::SmallVectorImpl<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> >&, swift::Module::ImportFilter) const (line number 1538), 3 crashes
+  #102. [swift] swift::ClangModuleUnit::getImportedModules(llvm::SmallVectorImpl<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> >&, swift::Module::ImportFilter) const (line number 1576), 3 crashes
+  #103. [swift] swift::DerivedConformance::deriveEquatable(swift::TypeChecker&, swift::NominalTypeDecl*, swift::ValueDecl*) (line number 1710), 3 crashes
+  #104. [swift] swift::GenericTypeParamDecl::GenericTypeParamDecl(swift::DeclContext*, swift::Identifier, swift::SourceLoc, unsigned int, unsigned int) (line number 301), 3 crashes
+  #105. [swift] swift::InOutType::get(swift::Type) (line number 340), 3 crashes
+  #106. [swift] swift::Lexer::lexStringLiteral() (line number 330), 3 crashes
+  #107. [swift] swift::NominalTypeDecl::prepareLookupTable() (line number 436), 3 crashes
+  #108. [swift] swift::Parser::parseExprIdentifier() (line number 642), 3 crashes
+  #109. [swift] swift::Parser::parseExprUnary(swift::Diag<>, bool) (line number 805), 3 crashes
+  #110. [swift] swift::Parser::parseIdentifier(swift::Identifier&, swift::SourceLoc&, swift::Diagnostic const&) (line number 140), 3 crashes
+  #111. [swift] swift::Parser::parseToken(swift::tok, swift::SourceLoc&, swift::Diagnostic const&) (line number 643), 3 crashes
+  #112. [swift] swift::TupleType::get(llvm::ArrayRef<swift::TupleTypeElt>, swift::ASTContext const&) (line number 462), 3 crashes
+  #113. [swift] swift::TypeBase::getCanonicalType() (line number 1122), 3 crashes
+  #114. [swift] swift::TypeBase::getDesugaredType() (line number 277), 3 crashes
+  #115. [swift] swift::TypeBase::getTypeVariables(llvm::SmallVectorImpl<swift::TypeVariableType*>&) (line number 113), 3 crashes
+  #116. [swift] swift::TypeChecker::callWitness(swift::Expr*, swift::DeclContext*, swift::ProtocolDecl*, swift::ProtocolConformance*, swift::DeclName, llvm::MutableArrayRef<swift::Expr*>, swift::Diag<>) (line number 816), 3 crashes
+  #117. [swift] swift::TypeChecker::typeCheckPattern(swift::Pattern*, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) (line number 220), 3 crashes
+  #118. [swift] swift::UnboundGenericType::get(swift::NominalTypeDecl*, swift::Type, swift::ASTContext const&) (line number 392), 3 crashes
+  #119. [swift] swift::constraints::ConstraintGraph::addConstraint(swift::constraints::Constraint*) (line number 142), 3 crashes
+  #120. [swift] swift::constraints::ConstraintGraph::removeConstraint(swift::constraints::Constraint*) (line number 234), 3 crashes
+  #121. [swift] swift::constraints::ConstraintGraphScope::~ConstraintGraphScope() (line number 57), 3 crashes
+  #122. [swift] swift::constraints::ConstraintSystem::assignFixedType(swift::TypeVariableType*, swift::Type, bool) (line number 827), 3 crashes
+  #123. [swift] swift::constraints::ConstraintSystem::getFixedTypeRecursive(swift::Type, swift::TypeVariableType*&, bool, bool) (line number 729), 3 crashes
+  #124. [swift] swift::constraints::ConstraintSystem::simplifyType(swift::Type, llvm::SmallPtrSet<swift::TypeVariableType*, 16u>&) (line number 90), 3 crashes
+  #125. [swift] swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) (line number 65), 3 crashes
+  #126. [swift] swift::namelookup::lookupInModule(swift::Module*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::DeclName, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> >) (line number 251), 3 crashes
+  #127. [swift] void checkCircularity<swift::ClassDecl>(swift::TypeChecker&, swift::ClassDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::ClassDecl*>&) (line number 361), 3 crashes
+  #128. [swift] vtable for llvm::PrettyStackTraceEntry (line number 16), 3 crashes
+  #129. [swift] cleanupIllFormedExpression(swift::ASTContext&, swift::constraints::ConstraintSystem*, swift::Expr*)::CleanupIllFormedExpression::walkToExprPost(swift::Expr*) (line number 290), 2 crashes
+  #130. [swift] connectedComponentsDFS(swift::constraints::ConstraintGraph&, swift::constraints::ConstraintGraphNode&, unsigned int, llvm::SmallVectorImpl<unsigned int>&) (line number 75), 2 crashes
+  #131. [swift] diagnoseUnknownType(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::GenericTypeResolver*) (line number 807), 2 crashes
+  #132. [swift] llvm::BitstreamCursor::readRecord(unsigned int, llvm::SmallVectorImpl<unsigned long long>&, llvm::StringRef*) (line number 455), 2 crashes
+  #133. [swift] llvm::BitstreamCursor::readRecord(unsigned int, llvm::SmallVectorImpl<unsigned long long>&, llvm::StringRef*) (line number 671), 2 crashes
+  #134. [swift] llvm::FoldingSet<swift::ClassType>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const (line number 46), 2 crashes
+  #135. [swift] llvm::PrettyStackTraceEntry::~PrettyStackTraceEntry() (line number 34), 2 crashes
+  #136. [swift] std::__1::__function::__func<mapSignatureType(swift::ASTContext&, swift::Type)::$_3, std::__1::allocator<mapSignatureType(swift::ASTContext&, swift::Type)::$_3>, swift::Type (swift::Type)>::operator()(swift::Type&&) (line number 21), 2 crashes
+  #137. [swift] swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) (line number 6747), 2 crashes
+  #138. [swift] swift::AbstractStorageDecl::makeComputed(swift::SourceLoc, swift::FuncDecl*, swift::FuncDecl*, swift::FuncDecl*, swift::SourceLoc) (line number 108), 2 crashes
+  #139. [swift] swift::ArraySliceType::get(swift::Type) (line number 292), 2 crashes
+  #140. [swift] swift::BraceStmt::create(swift::ASTContext&, swift::SourceLoc, llvm::ArrayRef<swift::ASTNode>, swift::SourceLoc, swift::Optional<bool>) (line number 205), 2 crashes
+  #141. [swift] swift::ClangImporter::Implementation::finishLoadingClangModule(swift::ClangImporter&, clang::Module const*, bool) (line number 876), 2 crashes
+  #142. [swift] swift::ClangImporter::create(swift::ASTContext&, swift::ClangImporterOptions const&, swift::IRGenOptions const&, swift::DependencyTracker*) (line number 6133), 2 crashes
+  #143. [swift] swift::ClangImporter::loadExtensions(swift::NominalTypeDecl*, unsigned int) (line number 84), 2 crashes
+  #144. [swift] swift::CompleteGenericTypeResolver::resolveGenericTypeParamType(swift::GenericTypeParamType*) (line number 18), 2 crashes
+  #145. [swift] swift::DependentMemberType::get(swift::Type, swift::AssociatedTypeDecl*, swift::ASTContext const&) (line number 211), 2 crashes
+  #146. [swift] swift::DiagnosticEngine::flushActiveDiagnostic() (line number 4733), 2 crashes
+  #147. [swift] swift::FuncDecl::setDeserializedSignature(llvm::ArrayRef<swift::Pattern*>, swift::TypeLoc) (line number 298), 2 crashes
+  #148. [swift] swift::FunctionType::get(swift::Type, swift::Type, swift::AnyFunctionType::ExtInfo const&) (line number 243), 2 crashes
+  #149. [swift] swift::GenericParamList::deriveAllArchetypes(llvm::ArrayRef<swift::GenericTypeParamDecl*>, llvm::SmallVectorImpl<swift::ArchetypeType*>&) (line number 406), 2 crashes
+  #150. [swift] swift::GenericSignature::get(llvm::ArrayRef<swift::GenericTypeParamType*>, llvm::ArrayRef<swift::Requirement>) (line number 477), 2 crashes
+  #151. [swift] swift::InFlightDiagnostic swift::Parser::diagnose<>(swift::SourceLoc, swift::Diag<>) (line number 205), 2 crashes
+  #152. [swift] swift::InFlightDiagnostic::highlight(swift::SourceRange) (line number 66), 2 crashes
+  #153. [swift] swift::Lexer::lexImpl() (line number 681), 2 crashes
+  #154. [swift] swift::Module::lookupConformance(swift::Type, swift::ProtocolDecl*, swift::LazyResolver*) (line number 2889), 2 crashes
+  #155. [swift] swift::Module::lookupValue(llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::DeclName, swift::NLKind, llvm::SmallVectorImpl<swift::ValueDecl*>&) const (line number 90), 2 crashes
+  #156. [swift] swift::ModuleFile::maybeReadPattern() (line number 103), 2 crashes
+  #157. [swift] swift::NominalType::get(swift::NominalTypeDecl*, swift::Type, swift::ASTContext const&) (line number 53), 2 crashes
+  #158. [swift] swift::NominalTypeDecl::computeType() (line number 184), 2 crashes
+  #159. [swift] swift::NominalTypeDecl::getProtocols(bool) const (line number 22), 2 crashes
+  #160. [swift] swift::OptionalType::get(swift::Type) (line number 295), 2 crashes
+  #161. [swift] swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) (line number 3673), 2 crashes
+  #162. [swift] swift::Parser::parseDeclFunc(swift::SourceLoc, swift::StaticSpellingKind, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::DeclAttributes&) (line number 2871), 2 crashes
+  #163. [swift] swift::Parser::parseExprPostfix(swift::Diag<>, bool) (line number 394), 2 crashes
+  #164. [swift] swift::Parser::parseTypeSimple(swift::Diag<>) (line number 368), 2 crashes
+  #165. [swift] swift::PrintingDiagnosticConsumer::handleDiagnostic(swift::SourceManager&, swift::SourceLoc, swift::DiagnosticKind, llvm::StringRef, swift::DiagnosticInfo const&) (line number 1325), 2 crashes
+  #166. [swift] swift::SubstitutedType::get(swift::Type, swift::Type, swift::ASTContext const&) (line number 102), 2 crashes
+  #167. [swift] swift::TuplePattern::createSimple(swift::ASTContext&, swift::SourceLoc, llvm::ArrayRef<swift::TuplePatternElt>, swift::SourceLoc, bool, swift::SourceLoc) (line number 240), 2 crashes
+  #168. [swift] swift::TupleType::get(llvm::ArrayRef<swift::TupleTypeElt>, swift::ASTContext const&) (line number 771), 2 crashes
+  #169. [swift] swift::Type::print(llvm::raw_ostream&, swift::PrintOptions const&) const (line number 87), 2 crashes
+  #170. [swift] swift::TypeBase::getCanonicalType() (line number 1057), 2 crashes
+  #171. [swift] swift::TypeBase::getCanonicalType() (line number 1734), 2 crashes
+  #172. [swift] swift::TypeBase::getTypeOfMember(swift::Module*, swift::ValueDecl const*, swift::LazyResolver*, swift::Type) (line number 534), 2 crashes
+  #173. [swift] swift::TypeChecker::checkInheritanceClause(swift::Decl*, swift::DeclContext*, swift::GenericTypeResolver*) (line number 5482), 2 crashes
+  #174. [swift] swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) (line number 1506), 2 crashes
+  #175. [swift] swift::TypeChecker::getProtocol(swift::SourceLoc, swift::KnownProtocolKind) (line number 36), 2 crashes
+  #176. [swift] swift::TypeChecker::resolveTypeInContext(swift::TypeDecl*, swift::DeclContext*, bool, swift::GenericTypeResolver*) (line number 434), 2 crashes
+  #177. [swift] swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) (line number 1241), 2 crashes
+  #178. [swift] swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) (line number 1945), 2 crashes
+  #179. [swift] swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) (line number 144), 2 crashes
+  #180. [swift] swift::TypeChecker::validateGenericFuncSignature(swift::AbstractFunctionDecl*) (line number 1801), 2 crashes
+  #181. [swift] swift::TypeDecl::getDeclaredType() const (line number 38), 2 crashes
+  #182. [swift] swift::constraints::ConstraintGraph::Change::undo(swift::constraints::ConstraintGraph&) (line number 74), 2 crashes
+  #183. [swift] swift::constraints::ConstraintGraph::removeConstraint(swift::constraints::Constraint*) (line number 145), 2 crashes
+  #184. [swift] swift::constraints::ConstraintGraph::unbindTypeVariable(swift::TypeVariableType*, swift::Type) (line number 505), 2 crashes
+  #185. [swift] swift::constraints::ConstraintGraphNode::addConstraint(swift::constraints::Constraint*) (line number 219), 2 crashes
+  #186. [swift] swift::constraints::ConstraintGraphNode::getAdjacency(swift::TypeVariableType*) (line number 290), 2 crashes
+  #187. [swift] swift::constraints::ConstraintSystem::assignFixedType(swift::TypeVariableType*, swift::Type, bool) (line number 784), 2 crashes
+  #188. [swift] swift::constraints::ConstraintSystem::getConstraintLocator(swift::Expr*, llvm::ArrayRef<swift::constraints::ConstraintLocator::PathElement>, unsigned int) (line number 137), 2 crashes
+  #189. [swift] swift::constraints::ConstraintSystem::simplify() (line number 103), 2 crashes
+  #190. [swift] swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) (line number 688), 2 crashes
+  #191. [swift] swift::constraints::Solution::simplifyType(swift::TypeChecker&, swift::Type) const (line number 86), 2 crashes
+  #192. [swift] swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) (line number 280), 2 crashes
+  #193. [swift] vtable for (anonymous namespace)::ColoredStream (line number 16), 2 crashes
+  #194. [swift] vtable for swift::PartialGenericTypeToArchetypeResolver (line number 16), 2 crashes
+  #195. [libc++.1.dylib] operator new(unsigned long) (line number 30), 1 crash
+  #196. [swift] (anonymous namespace)::ArgEmitter::emitExpanded(swift::Lowering::RValueSource&&, swift::Lowering::AbstractionPattern) (line number 722), 1 crash
+  #197. [swift] (anonymous namespace)::ExprRewriter::buildMemberRef(swift::Expr*, swift::Type, swift::SourceLoc, swift::ValueDecl*, swift::SourceLoc, swift::Type, swift::constraints::ConstraintLocatorBuilder, bool, swift::AccessKind) (line number 440), 1 crash
+  #198. [swift] (anonymous namespace)::ExprRewriter::coerceToType(swift::Expr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) (line number 57), 1 crash
+  #199. [swift] (anonymous namespace)::IdentifierLookupVisitor::visit(clang::serialization::ModuleFile&, void*) (line number 113), 1 crash
+  #200. [swift] (anonymous namespace)::LowerType::visitAnyStructType(swift::CanType, swift::StructDecl*) (line number 260), 1 crash
+  #201. [swift] (anonymous namespace)::TypeResolver::resolveType(swift::TypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>) (line number 241), 1 crash
+  #202. [swift] NaNL (line number 98506), 1 crash
+  #203. [swift] bool swift::Parser::parseIdentifier<>(swift::Identifier&, swift::Diag<>) (line number 149), 1 crash
+  #204. [swift] clang::ASTContext::getRecordType(clang::RecordDecl const*) const (line number 97), 1 crash
+  #205. [swift] clang::Stmt::StatisticsEnabled (line number 38865), 1 crash
+  #206. [swift] clang::declvisitor::Base<clang::declvisitor::make_const_ptr, (anonymous namespace)::SwiftDeclConverter, swift::Decl*>::Visit(clang::Decl const*) (line number 10401), 1 crash
+  #207. [swift] clang::declvisitor::Base<clang::declvisitor::make_const_ptr, (anonymous namespace)::SwiftDeclConverter, swift::Decl*>::Visit(clang::Decl const*) (line number 3076), 1 crash
+  #208. [swift] llvm::BitstreamCursor::ReadVBR(unsigned int) (line number 142), 1 crash
+  #209. [swift] llvm::BitstreamCursor::readAbbreviatedField(llvm::BitCodeAbbrevOp const&, llvm::SmallVectorImpl<unsigned long long>&) (line number 252), 1 crash
+  #210. [swift] llvm::BitstreamCursor::readRecord(unsigned int, llvm::SmallVectorImpl<unsigned long long>&, llvm::StringRef*) (line number 510), 1 crash
+  #211. [swift] llvm::BumpPtrAllocator::Allocate(unsigned long, unsigned long) (line number 249), 1 crash
+  #212. [swift] llvm::ConstantExpr::getGetElementPtr(llvm::Constant*, llvm::ArrayRef<llvm::Value*>, bool) (line number 107), 1 crash
+  #213. [swift] llvm::DenseMapBase<llvm::SmallDenseMap<std::__1::pair<swift::CanType, swift::Identifier>, llvm::TinyPtrVector<swift::ValueDecl*>, 4u, llvm::DenseMapInfo<std::__1::pair<swift::CanType, swift::Identifier> > >, std::__1::pair<swift::CanType, swift::Identifier>, llvm::TinyPtrVector<swift::ValueDecl*>, llvm::DenseMapInfo<std::__1::pair<swift::CanType, swift::Identifier> > >::moveFromOldBuckets(std::__1::pair<std::__1::pair<swift::CanType, swift::Identifier>, llvm::TinyPtrVector<swift::ValueDecl*> >*, std::__1::pair<std::__1::pair<swift::CanType, swift::Identifier>, llvm::TinyPtrVector<swift::ValueDecl*> >*) (line number 181), 1 crash
+  #214. [swift] llvm::FoldingSet<swift::DeclName::CompoundDeclName>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const (line number 75), 1 crash
+  #215. [swift] llvm::FoldingSet<swift::EnumType>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const (line number 46), 1 crash
+  #216. [swift] llvm::FoldingSet<swift::GenericFunctionType>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const (line number 86), 1 crash
+  #217. [swift] llvm::FoldingSet<swift::GenericSignature>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const (line number 24), 1 crash
+  #218. [swift] llvm::FoldingSet<swift::StructType>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const (line number 46), 1 crash
+  #219. [swift] llvm::FoldingSet<swift::constraints::ConstraintLocator>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const (line number 42), 1 crash
+  #220. [swift] llvm::FoldingSetImpl::FindNodeOrInsertPos(llvm::FoldingSetNodeID const&, void*&) (line number 175), 1 crash
+  #221. [swift] llvm::GetElementPtrInst::getIndexedType(llvm::Type*, llvm::ArrayRef<llvm::Value*>) (line number 26), 1 crash
+  #222. [swift] llvm::JIT::runFunction(llvm::Function*, std::__1::vector<llvm::GenericValue, std::__1::allocator<llvm::GenericValue> > const&) (line number 329), 1 crash
+  #223. [swift] llvm::TinyPtrVector<swift::ValueDecl*>::push_back(swift::ValueDecl*) (line number 58), 1 crash
+  #224. [swift] llvm::Value::setName(llvm::Twine const&) (line number 594), 1 crash
+  #225. [swift] llvm::errs()::S (line number 0), 1 crash
+  #226. [swift] llvm::raw_ostream::write(char const*, unsigned long) (line number 412), 1 crash
+  #227. [swift] llvm::sys::path::append(llvm::SmallVectorImpl<char>&, llvm::Twine const&, llvm::Twine const&, llvm::Twine const&, llvm::Twine const&) (line number 1496), 1 crash
+  #228. [swift] resolveTypeDecl(swift::TypeChecker&, swift::TypeDecl*, swift::SourceLoc, swift::DeclContext*, llvm::ArrayRef<swift::TypeRepr*>, bool, swift::GenericTypeResolver*) (line number 210), 1 crash
+  #229. [swift] std::__1::__function::__func<setBoundVarsTypeError(swift::Pattern*, swift::ASTContext&)::$_5, std::__1::allocator<setBoundVarsTypeError(swift::Pattern*, swift::ASTContext&)::$_5>, void (swift::VarDecl*)>::operator()(swift::VarDecl*&&) (line number 31), 1 crash
+  #230. [swift] std::__1::__function::__func<swift::ArchetypeBuilder::mapTypeIntoContext(swift::Module*, swift::GenericParamList*, swift::Type)::$_3, std::__1::allocator<swift::ArchetypeBuilder::mapTypeIntoContext(swift::Module*, swift::GenericParamList*, swift::Type)::$_3>, swift::Type (swift::Type)>::operator()(swift::Type&&) (line number 331), 1 crash
+  #231. [swift] std::__1::__function::__func<swift::ArchetypeBuilder::mapTypeIntoContext(swift::Module*, swift::GenericParamList*, swift::Type)::$_3, std::__1::allocator<swift::ArchetypeBuilder::mapTypeIntoContext(swift::Module*, swift::GenericParamList*, swift::Type)::$_3>, swift::Type (swift::Type)>::operator()(swift::Type&&) (line number 62), 1 crash
+  #232. [swift] std::__1::__function::__func<swift::TypeBase::getTypeVariables(llvm::SmallVectorImpl<swift::TypeVariableType*>&)::$_1, std::__1::allocator<swift::TypeBase::getTypeVariables(llvm::SmallVectorImpl<swift::TypeVariableType*>&)::$_1>, bool (swift::Type)>::operator()(swift::Type&&) (line number 50), 1 crash
+  #233. [swift] std::__1::__function::__func<swift::constraints::Solution::computeSubstitutions(swift::Type, swift::DeclContext*, swift::Type, llvm::SmallVectorImpl<swift::Substitution>&) const::$_0, std::__1::allocator<swift::constraints::Solution::computeSubstitutions(swift::Type, swift::DeclContext*, swift::Type, llvm::SmallVectorImpl<swift::Substitution>&) const::$_0>, swift::Type (swift::Type)>::operator()(swift::Type&&) (line number 381), 1 crash
+  #234. [swift] substDependentTypes(swift::ArchetypeBuilder&, swift::Type) (line number 56), 1 crash
+  #235. [swift] swift::ASTContext::getConformsTo(swift::CanType, swift::ProtocolDecl*) (line number 74), 1 crash
+  #236. [swift] swift::ASTContext::getIdentifier(llvm::StringRef) const (line number 175), 1 crash
+  #237. [swift] swift::ASTContext::getProtocol(swift::KnownProtocolKind) const (line number 110), 1 crash
+  #238. [swift] swift::ASTContext::setConformsTo(swift::CanType, swift::ProtocolDecl*, llvm::PointerIntPair<swift::ProtocolConformance*, 1u, bool, llvm::PointerLikeTypeTraits<swift::ProtocolConformance*> >) (line number 77), 1 crash
+  #239. [swift] swift::ASTPrinter::printName(swift::Identifier) (line number 2979), 1 crash
+  #240. [swift] swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) (line number 9229), 1 crash
+  #241. [swift] swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) (line number 2274), 1 crash
+  #242. [swift] swift::ASTVisitor<(anonymous namespace)::PrintAST, void, void, void, void, void, void>::visit(swift::Decl*) (line number 544), 1 crash
+  #243. [swift] swift::ArchetypeBuilder::mapTypeIntoContext(swift::DeclContext*, swift::Type) (line number 185), 1 crash
+  #244. [swift] swift::ArchetypeBuilder::resolveArchetype(swift::Type) (line number 273), 1 crash
+  #245. [swift] swift::ArchetypeBuilder::resolveArchetype(swift::Type) (line number 70), 1 crash
+  #246. [swift] swift::ArchetypeType::getNestedType(swift::Identifier) const (line number 182), 1 crash
+  #247. [swift] swift::ArchetypeType::setNestedTypes(swift::ASTContext&, llvm::MutableArrayRef<std::__1::pair<swift::Identifier, llvm::PointerUnion<swift::ArchetypeType*, swift::Type> > >) (line number 111), 1 crash
+  #248. [swift] swift::AssociatedTypeDecl::AssociatedTypeDecl(swift::DeclContext*, swift::SourceLoc, swift::Identifier, swift::SourceLoc, swift::LazyMemberLoader*, unsigned long long) (line number 322), 1 crash
+  #249. [swift] swift::ClangModuleUnit::getImportedModules(llvm::SmallVectorImpl<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::Module*> >&, swift::Module::ImportFilter) const (line number 211), 1 crash
+  #250. [swift] swift::ClassType::get(swift::ClassDecl*, swift::Type, swift::ASTContext const&) (line number 211), 1 crash
+  #251. [swift] swift::CompleteGenericTypeResolver::resolveDependentMemberType(swift::Type, swift::DeclContext*, swift::SourceRange, swift::Identifier, swift::SourceLoc) (line number 623), 1 crash
+  #252. [swift] swift::DeclName::DeclName(swift::ASTContext&, swift::Identifier, llvm::ArrayRef<swift::Identifier>) (line number 423), 1 crash
+  #253. [swift] swift::DiagnosticEngine::flushActiveDiagnostic() (line number 4810), 1 crash
+  #254. [swift] swift::DictionaryType::get(swift::Type, swift::Type) (line number 206), 1 crash
+  #255. [swift] swift::EnumType::get(swift::EnumDecl*, swift::Type, swift::ASTContext const&) (line number 403), 1 crash
+  #256. [swift] swift::Expr::getSourceRange() const (line number 843), 1 crash
+  #257. [swift] swift::GenericFunctionType::get(swift::GenericSignature*, swift::Type, swift::Type, swift::AnyFunctionType::ExtInfo const&) (line number 184), 1 crash
+  #258. [swift] swift::GenericSignature::get(llvm::ArrayRef<swift::GenericTypeParamType*>, llvm::ArrayRef<swift::Requirement>) (line number 453), 1 crash
+  #259. [swift] swift::GenericTypeParamType::get(unsigned int, unsigned int, swift::ASTContext const&) (line number 585), 1 crash
+  #260. [swift] swift::InFlightDiagnostic swift::DiagnosticEngine::diagnose<>(swift::SourceLoc, swift::Diag<>, swift::detail::PassArgument<>::type) (line number 278), 1 crash
+  #261. [swift] swift::InFlightDiagnostic swift::DiagnosticEngine::diagnose<swift::DeclName>(swift::Decl const*, swift::Diag<swift::DeclName>, swift::detail::PassArgument<swift::DeclName>::type) (line number 421), 1 crash
+  #262. [swift] swift::InFlightDiagnostic swift::DiagnosticEngine::diagnose<swift::Identifier>(swift::SourceLoc, swift::Diag<swift::Identifier>, swift::detail::PassArgument<swift::Identifier>::type) (line number 421), 1 crash
+  #263. [swift] swift::InFlightDiagnostic swift::Parser::diagnose<>(swift::Token, swift::Diag<>) (line number 206), 1 crash
+  #264. [swift] swift::IntegerLiteralExpr::getValue() const (line number 43), 1 crash
+  #265. [swift] swift::LangOptions::getTargetConfigOption(llvm::StringRef) (line number 124), 1 crash
+  #266. [swift] swift::Lexer::lexIdentifier() (line number 2722), 1 crash
+  #267. [swift] swift::Lexer::lexIdentifier() (line number 498), 1 crash
+  #268. [swift] swift::Lexer::lexImpl() (line number 3320), 1 crash
+  #269. [swift] swift::Lexer::lexOperatorIdentifier() (line number 507), 1 crash
+  #270. [swift] swift::Lowering::SILGenFunction::emitClosureValue(swift::SILLocation, swift::SILDeclRef, llvm::ArrayRef<swift::Substitution>, swift::AnyFunctionRef) (line number 1303), 1 crash
+  #271. [swift] swift::Lowering::SILGenFunction::emitCurryThunk(swift::FuncDecl*, swift::SILDeclRef, swift::SILDeclRef) (line number 269), 1 crash
+  #272. [swift] swift::Lowering::SILGenFunction::emitRValueForPropertyLoad(swift::SILLocation, swift::Lowering::ManagedValue, bool, swift::VarDecl*, llvm::ArrayRef<swift::Substitution>, swift::AccessKind, swift::Type, swift::Lowering::SGFContext) (line number 333), 1 crash
+  #273. [swift] swift::Lowering::TypeConverter::getConstantInfo(swift::SILDeclRef) (line number 387), 1 crash
+  #274. [swift] swift::Lowering::TypeConverter::getLoweredASTFunctionType(swift::CanTypeWrapper<swift::AnyFunctionType>, unsigned int, swift::AnyFunctionType::ExtInfo) (line number 770), 1 crash
+  #275. [swift] swift::Mangle::Mangler::mangleNominalType(swift::NominalTypeDecl*, swift::ResilienceExpansion, swift::Mangle::Mangler::BindGenerics, swift::GenericParamList*) (line number 34), 1 crash
+  #276. [swift] swift::Mangle::Mangler::mangleType(swift::CanType, swift::ResilienceExpansion, unsigned int) (line number 1164), 1 crash
+  #277. [swift] swift::Module::lookupConformance(swift::Type, swift::ProtocolDecl*, swift::LazyResolver*) (line number 3076), 1 crash
+  #278. [swift] swift::ModuleFile::configureStorage(swift::AbstractStorageDecl*, unsigned int, swift::Fixnum<31u, unsigned int>, swift::Fixnum<31u, unsigned int>, swift::Fixnum<31u, unsigned int>, swift::Fixnum<31u, unsigned int>, swift::Fixnum<31u, unsigned int>, swift::Fixnum<31u, unsigned int>, swift::Fixnum<31u, unsigned int>) (line number 155), 1 crash
+  #279. [swift] swift::ModuleFile::maybeReadPattern() (line number 1457), 1 crash
+  #280. [swift] swift::ModuleFile::maybeReadSubstitution(llvm::BitstreamCursor&) (line number 825), 1 crash
+  #281. [swift] swift::ModuleFile::readMembers() (line number 357), 1 crash
+  #282. [swift] swift::ModuleFile::resolveCrossReference(swift::Module*, unsigned int) (line number 3891), 1 crash
+  #283. [swift] swift::NominalTypeDecl::computeInterfaceType() const (line number 529), 1 crash
+  #284. [swift] swift::NominalTypeDecl::getMembers(bool) const (line number 28), 1 crash
+  #285. [swift] swift::ObjCAttr::createUnnamedImplicit(swift::ASTContext&) (line number 68), 1 crash
+  #286. [swift] swift::Optional<std::__1::pair<swift::api_notes::ContextID, swift::api_notes::ObjCContextInfo> >::operator=(swift::Optional<std::__1::pair<swift::api_notes::ContextID, swift::api_notes::ObjCContextInfo> >&&) (line number 309), 1 crash
+  #287. [swift] swift::Optional<swift::InfixOperatorDecl*> lookupOperatorDeclForName<swift::InfixOperatorDecl>(swift::FileUnit const&, swift::SourceLoc, swift::Identifier, bool, llvm::DenseMap<swift::Identifier, llvm::PointerIntPair<swift::InfixOperatorDecl*, 1u, bool, llvm::PointerLikeTypeTraits<swift::InfixOperatorDecl*> >, llvm::DenseMapInfo<swift::Identifier> > swift::SourceFile::*) (line number 1610), 1 crash
+  #288. [swift] swift::Parser::diagnose(swift::Token, swift::Diagnostic) (line number 565), 1 crash
+  #289. [swift] swift::Parser::parseBraceItemList(swift::Diag<>) (line number 292), 1 crash
+  #290. [swift] swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) (line number 1964), 1 crash
+  #291. [swift] swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) (line number 2431), 1 crash
+  #292. [swift] swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) (line number 2901), 1 crash
+  #293. [swift] swift::Parser::parseDeclImport(swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::DeclAttributes&) (line number 299), 1 crash
+  #294. [swift] swift::Parser::parseDeclInit(swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::DeclAttributes&) (line number 1377), 1 crash
+  #295. [swift] swift::Parser::parseExprArray(swift::SourceLoc, swift::Expr*) (line number 669), 1 crash
+  #296. [swift] swift::Parser::parseExprCallSuffix(swift::ParserResult<swift::Expr>, swift::Identifier, swift::SourceLoc) (line number 138), 1 crash
+  #297. [swift] swift::Parser::parseExprClosure() (line number 1815), 1 crash
+  #298. [swift] swift::Parser::parseExprIdentifier() (line number 1092), 1 crash
+  #299. [swift] swift::Parser::parseExprImpl(swift::Diag<>, bool) (line number 138), 1 crash
+  #300. [swift] swift::Parser::parseExprList(swift::tok, swift::tok) (line number 546), 1 crash
+  #301. [swift] swift::Parser::parseExprOrStmt(swift::ASTNode&) (line number 401), 1 crash
+  #302. [swift] swift::Parser::parseExprPostfix(swift::Diag<>, bool) (line number 326), 1 crash
+  #303. [swift] swift::Parser::parseExprPostfix(swift::Diag<>, bool) (line number 350), 1 crash
+  #304. [swift] swift::Parser::parseExprPostfix(swift::Diag<>, bool) (line number 7692), 1 crash
+  #305. [swift] swift::Parser::parseExprPostfix(swift::Diag<>, bool) (line number 86), 1 crash
+  #306. [swift] swift::Parser::parseFunctionArguments(llvm::SmallVectorImpl<swift::Identifier>&, llvm::SmallVectorImpl<swift::Pattern*>&, swift::Parser::ParameterContextKind, swift::Parser::DefaultArgumentInfo&) (line number 317), 1 crash
+  #307. [swift] swift::Parser::parseGenericArguments(llvm::SmallVectorImpl<swift::TypeRepr*>&, swift::SourceLoc&, swift::SourceLoc&) (line number 285), 1 crash
+  #308. [swift] swift::Parser::parseStmtForCStyle(swift::SourceLoc, swift::LabeledStmtInfo) (line number 165), 1 crash
+  #309. [swift] swift::Parser::parseStmtReturn() (line number 308), 1 crash
+  #310. [swift] swift::Parser::parseTypeSimple(swift::Diag<>) (line number 1062), 1 crash
+  #311. [swift] swift::Parser::parseTypeTupleBody() (line number 407), 1 crash
+  #312. [swift] swift::Parser::skipSingle() (line number 203), 1 crash
+  #313. [swift] swift::Parser::~Parser() (line number 69), 1 crash
+  #314. [swift] swift::Pattern::forEachVariable(std::__1::function<void (swift::VarDecl*)> const&) const (line number 107), 1 crash
+  #315. [swift] swift::Pattern::operator new(unsigned long, swift::ASTContext&) (line number 78), 1 crash
+  #316. [swift] swift::ProtocolCompositionType::build(swift::ASTContext const&, llvm::ArrayRef<swift::Type>) (line number 474), 1 crash
+  #317. [swift] swift::SILDeserializer::readSILInstruction(swift::SILFunction*, swift::SILBasicBlock*, unsigned int, llvm::SmallVectorImpl<unsigned long long>&) (line number 12709), 1 crash
+  #318. [swift] swift::SourceFile::getCache() const (line number 142), 1 crash
+  #319. [swift] swift::SourceManager::addNewSourceBuffer(llvm::MemoryBuffer*) (line number 288), 1 crash
+  #320. [swift] swift::TupleExpr::create(swift::ASTContext&, swift::SourceLoc, llvm::ArrayRef<swift::Expr*>, llvm::ArrayRef<swift::Identifier>, llvm::ArrayRef<swift::SourceLoc>, swift::SourceLoc, bool, bool, swift::Type) (line number 318), 1 crash
+  #321. [swift] swift::TupleType::get(llvm::ArrayRef<swift::TupleTypeElt>, swift::ASTContext const&) (line number 770), 1 crash
+  #322. [swift] swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const (line number 1603), 1 crash
+  #323. [swift] swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const (line number 708), 1 crash
+  #324. [swift] swift::TypeAliasDecl* swift::ClangImporter::Implementation::createDeclWithClangNode<swift::TypeAliasDecl, swift::SourceLoc, swift::Identifier&, swift::SourceLoc&, swift::TypeLoc, swift::DeclContext*&>(swift::ClangNode, swift::SourceLoc&&, swift::Identifier&&&, swift::SourceLoc&&&, swift::TypeLoc&&, swift::DeclContext*&&&) (line number 146), 1 crash
+  #325. [swift] swift::TypeBase::getCanonicalType() (line number 1191), 1 crash
+  #326. [swift] swift::TypeBase::getCanonicalType() (line number 1200), 1 crash
+  #327. [swift] swift::TypeBase::getCanonicalType() (line number 2367), 1 crash
+  #328. [swift] swift::TypeBase::getCanonicalType() (line number 424), 1 crash
+  #329. [swift] swift::TypeBase::getTypeOfMember(swift::Module*, swift::ValueDecl const*, swift::LazyResolver*, swift::Type) (line number 1434), 1 crash
+  #330. [swift] swift::TypeBase::getTypeOfMember(swift::Module*, swift::ValueDecl const*, swift::LazyResolver*, swift::Type) (line number 205), 1 crash
+  #331. [swift] swift::TypeBase::getTypeVariables(llvm::SmallVectorImpl<swift::TypeVariableType*>&) (line number 112), 1 crash
+  #332. [swift] swift::TypeBase::operator new(unsigned long, swift::ASTContext const&, swift::AllocationArena, unsigned int) (line number 78), 1 crash
+  #333. [swift] swift::TypeChecker::buildArrayInjectionFnRef(swift::DeclContext*, swift::ArraySliceType*, swift::Type, swift::SourceLoc) (line number 292), 1 crash
+  #334. [swift] swift::TypeChecker::computeCaptures(swift::AnyFunctionRef) (line number 900), 1 crash
+  #335. [swift] swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) (line number 484), 1 crash
+  #336. [swift] swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) (line number 93), 1 crash
+  #337. [swift] swift::TypeChecker::getBridgedToObjC(swift::DeclContext const*, swift::Type) (line number 120), 1 crash
+  #338. [swift] swift::TypeChecker::getDefaultType(swift::ProtocolDecl*, swift::DeclContext*) (line number 203), 1 crash
+  #339. [swift] swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*, swift::ValueDecl*) (line number 318), 1 crash
+  #340. [swift] swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*, swift::ValueDecl*) (line number 420), 1 crash
+  #341. [swift] swift::TypeChecker::resolveTypeInContext(swift::TypeDecl*, swift::DeclContext*, bool, swift::GenericTypeResolver*) (line number 1036), 1 crash
+  #342. [swift] swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) (line number 161), 1 crash
+  #343. [swift] swift::TypeChecker::typeCheckExpressionShallow(swift::Expr*&, swift::DeclContext*, swift::Type) (line number 1108), 1 crash
+  #344. [swift] swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) (line number 441), 1 crash
+  #345. [swift] swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) (line number 5092), 1 crash
+  #346. [swift] swift::TypeDecl::getDeclaredType() const (line number 78), 1 crash
+  #347. [swift] swift::TypeVisitor<(anonymous namespace)::Traversal, bool>::visit(swift::Type) (line number 3133), 1 crash
+  #348. [swift] swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) (line number 3850), 1 crash
+  #349. [swift] swift::ValueDecl::getInterfaceType() const (line number 50), 1 crash
+  #350. [swift] swift::ValueDecl::setType(swift::Type) (line number 37), 1 crash
+  #351. [swift] swift::camel_case::getFirstWord(llvm::StringRef) (line number 47), 1 crash
+  #352. [swift] swift::constraints::Constraint::create(swift::constraints::ConstraintSystem&, swift::constraints::ConstraintKind, swift::Type, swift::Type, swift::DeclName, swift::constraints::ConstraintLocator*) (line number 559), 1 crash
+  #353. [swift] swift::constraints::ConstraintGraph::addConstraint(swift::constraints::Constraint*) (line number 176), 1 crash
+  #354. [swift] swift::constraints::ConstraintGraph::lookupNode(swift::TypeVariableType*) (line number 50), 1 crash
+  #355. [swift] swift::constraints::ConstraintLocator::Profile(llvm::FoldingSetNodeID&, swift::Expr*, llvm::ArrayRef<swift::constraints::ConstraintLocator::PathElement>) (line number 107), 1 crash
+  #356. [swift] swift::constraints::ConstraintLocator::Profile(llvm::FoldingSetNodeID&, swift::Expr*, llvm::ArrayRef<swift::constraints::ConstraintLocator::PathElement>) (line number 233), 1 crash
+  #357. [swift] swift::constraints::ConstraintLocator::Profile(llvm::FoldingSetNodeID&, swift::Expr*, llvm::ArrayRef<swift::constraints::ConstraintLocator::PathElement>) (line number 325), 1 crash
+  #358. [swift] swift::constraints::ConstraintSystem::addTypeVariableConstraintsToWorkList(swift::TypeVariableType*) (line number 52), 1 crash
+  #359. [swift] swift::constraints::ConstraintSystem::applySolution(swift::constraints::Solution&, swift::Expr*) (line number 8978), 1 crash
+  #360. [swift] swift::constraints::ConstraintSystem::getConstraintLocator(swift::constraints::ConstraintLocatorBuilder const&) (line number 87), 1 crash
+  #361. [swift] swift::constraints::ConstraintSystem::lookThroughImplicitlyUnwrappedOptionalType(swift::Type) (line number 22), 1 crash
+  #362. [swift] swift::constraints::ConstraintSystem::lookupMember(swift::Type, swift::DeclName) (line number 436), 1 crash
+  #363. [swift] swift::constraints::ConstraintSystem::matchDeepEqualityTypes(swift::Type, swift::Type, swift::constraints::ConstraintLocatorBuilder) (line number 489), 1 crash
+  #364. [swift] swift::constraints::ConstraintSystem::matchFunctionTypes(swift::FunctionType*, swift::FunctionType*, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) (line number 881), 1 crash
+  #365. [swift] swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) (line number 1968), 1 crash
+  #366. [swift] swift::constraints::ConstraintSystem::openGeneric(swift::DeclContext*, llvm::ArrayRef<swift::GenericTypeParamType*>, llvm::ArrayRef<swift::Requirement>, bool, swift::constraints::DependentTypeOpener*, swift::constraints::ConstraintLocatorBuilder, llvm::DenseMap<swift::CanType, swift::TypeVariableType*, llvm::DenseMapInfo<swift::CanType> >&) (line number 2113), 1 crash
+  #367. [swift] swift::constraints::ConstraintSystem::simplifyConformsToConstraint(swift::Type, swift::ProtocolDecl*, swift::constraints::ConstraintLocatorBuilder, unsigned int, bool) (line number 50), 1 crash
+  #368. [swift] swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) (line number 767), 1 crash
+  #369. [swift] swift::constraints::ConstraintSystem::simplifyMemberConstraint(swift::constraints::Constraint const&) (line number 420), 1 crash
+  #370. [swift] swift::constraints::ConstraintSystem::simplifyMemberConstraint(swift::constraints::Constraint const&) (line number 7321), 1 crash
+  #371. [swift] swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) (line number 6642), 1 crash
+  #372. [swift] swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) (line number 738), 1 crash
+  #373. [swift] swift::constraints::ConstraintSystem::solveSimplified(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) (line number 6984), 1 crash
+  #374. [swift] swift::constraints::matchCallArguments(llvm::ArrayRef<swift::TupleTypeElt>, llvm::ArrayRef<swift::TupleTypeElt>, bool, swift::constraints::MatchCallArgumentListener&, llvm::SmallVectorImpl<llvm::SmallVector<unsigned int, 1u> >&) (line number 2979), 1 crash
+  #375. [swift] swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) (line number 9179), 1 crash
+  #376. [swift] swift::isPlatformActive(swift::PlatformKind, swift::LangOptions&) (line number 138), 1 crash
+  #377. [swift] swift::operator<<(llvm::raw_ostream&, swift::StaticSpellingKind) (line number 181), 1 crash
+  #378. [swift] void swift::constraints::ConstraintSystem::recordFailure<swift::Type&, swift::Type&>(swift::constraints::ConstraintLocator*, swift::constraints::Failure::FailureKind, swift::Type&&&, swift::Type&&&) (line number 611), 1 crash
+  #379. [swift] void swift::constraints::ConstraintSystem::recordFailureSimplified<swift::Type, swift::DeclName>(swift::constraints::ConstraintLocator*, swift::constraints::Failure::FailureKind, swift::Type&&, swift::DeclName&&) (line number 385), 1 crash
+  #380. [swift] void swift::constraints::ConstraintSystem::recordFailureSimplified<swift::Type, swift::Type>(swift::constraints::ConstraintLocator*, swift::constraints::Failure::FailureKind, swift::Type&&, swift::Type&&) (line number 692), 1 crash
+  #381. [swift] vtable for llvm::raw_ostream (line number 16), 1 crash
+
+Distributed under the terms of the MIT license.
