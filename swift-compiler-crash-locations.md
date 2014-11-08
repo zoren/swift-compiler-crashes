@@ -2,6 +2,7 @@ Summary
 =======
 * Crashes analyzed: 1649
 * Code locations where at least one crash is triggered: 381
+* Analysis updated: 2014-11-08
 * <a href='https://raw.githubusercontent.com/practicalswift/swift-compiler-crashes/master/swift-compiler-call-tree.txt'>Call tree of all analyzed crashes</a>
 
 Toplist: Locations of Swift compiler crashes
