@@ -275,6 +275,9 @@ main() {
     run_tests_in_directory "Currently known crashes" "./crashes"
     run_tests_in_directory "Currently known crashes (crashes found by fuzzing)" "./crashes-fuzzing"
     # run_tests_in_directory "Currently known crashes (duplicates)" "./crashes-duplicates"
+    if [[ ${delete_dupes} == 1 ]]; then
+      exit 0
+    fi
     run_tests_in_directory "Crashes marked as fixed in previous releases" "./fixed"
   else
     for test_path in ${argument_files}; do
