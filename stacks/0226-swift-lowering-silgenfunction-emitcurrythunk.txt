@@ -1,7 +1,7 @@
 4  swift                    swift::Lowering::SILGenFunction::emitCurryThunk(swift::FuncDecl*, swift::SILDeclRef, swift::SILDeclRef) + 269
 5  swift                    swift::Lowering::SILGenModule::emitCurryThunk(swift::SILDeclRef, swift::SILDeclRef, swift::FuncDecl*) + 208
 6  swift                    swift::Lowering::SILGenFunction::emitGlobalFunctionRef(swift::SILLocation, swift::SILDeclRef, swift::Lowering::SILConstantInfo) + 250
-7  swift                    swift::Lowering::SILGenFunction::emitProtocolWitness(swift::ProtocolConformance*, swift::SILDeclRef, swift::SILDeclRef, llvm::ArrayRef<swift::Substitution>, swift::Lowering::IsFreeFunctionWitness_t, swift::Lowering::HasInOutSelfAbstractionDifference_t) + 3833
+7  swift                    swift::Lowering::SILGenFunction::emitProtocolWitness(swift::ProtocolConformance*, swift::SILDeclRef, swift::SILDeclRef, llvm::ArrayRef<swift::Substitution>, swift::Lowering::IsFreeFunctionWitness_t, swift::Lowering::HasInOutSelfAbstractionDifference_t) + 3159
 8  swift                    swift::Lowering::SILGenModule::emitProtocolWitness(swift::ProtocolConformance*, swift::SILLinkage, swift::SILDeclRef, swift::SILDeclRef, swift::Lowering::IsFreeFunctionWitness_t, llvm::ArrayRef<swift::Substitution>) + 2776
 9  swift                    (anonymous namespace)::SILGenConformance::emitFuncEntry(swift::FuncDecl*, swift::ValueDecl*, llvm::ArrayRef<swift::Substitution>) + 213
 10 swift                    swift::Lowering::SILGenModule::getWitnessTable(swift::ProtocolConformance*) + 1531

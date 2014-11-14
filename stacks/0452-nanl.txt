@@ -1,4 +1,4 @@
-3  swift                    NaNL + 98506
+3  swift                    NaNL + 98436
 4  swift                    swift::DeclName::printPretty(llvm::raw_ostream&) const + 60
 5  swift                    formatDiagnosticText(llvm::StringRef, llvm::ArrayRef<swift::DiagnosticArgument>, llvm::raw_ostream&) + 1657
 6  swift                    swift::DiagnosticEngine::flushActiveDiagnostic() + 4452
