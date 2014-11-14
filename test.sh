@@ -41,7 +41,8 @@ columns=$(tput cols)
 verbose=0
 log_stacks=0
 delete_dupes=0
-while getopts "c:vld" o; do
+max_test_number=0
+while getopts "c:vldm:" o; do
   case ${o} in
     c)
       columns=${OPTARG}
@@ -54,6 +55,9 @@ while getopts "c:vld" o; do
       ;;
     d)
       delete_dupes=1
+      ;;
+    m)
+      max_test_number=${OPTARG}
       ;;
   esac
 done
@@ -90,7 +94,6 @@ test_file() {
   elif [[ ${path} =~ (part|library)[2-9].swift ]]; then
     return
   fi
-  num_tests=$((num_tests + 1))
   test_name=$(basename -s ".swift" "${path}")
   test_name=${test_name//-/ }
   test_name=${test_name//.library1/}
@@ -100,6 +103,11 @@ test_file() {
   test_name=${test_name//.runtime/}
   test_name=${test_name//.script/}
   test_name=${test_name//.timeout/}
+  current_test_number=$(echo "${test_name}" | tr " " "\n" | egrep "^[0-9]+$" | head -1 | sed "s/^0*//g")
+  if [[ ${max_test_number} != 0 && ${current_test_number} != "" && ${current_test_number} -gt ${max_test_number} ]]; then
+      return
+  fi
+  num_tests=$((num_tests + 1))
   swift_crash=0
   compilation_comment=""
   output=""
