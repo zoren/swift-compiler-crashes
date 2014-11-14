@@ -11,31 +11,6 @@ echo
 echo "Running tests against: ${swiftc_version} (Swift ${swift_version})"
 echo "Using Xcode found at path: ${xcode_path}"
 echo "Usage: $0 [-v] [-c<columns>] [-l] [file ...]"
-current_max_id=$(ls crashes/*-*.swift crashes-duplicates/*-*.swift crashes-fuzzing/*-*.swift fixed/*-*.swift | cut -f2 -d'/' | egrep '^[0-9]+\-' | sort -n | cut -f1 -d'-' | sed 's/^0*//g' | tail -1)
-next_id=$((${current_max_id} + 1))
-echo "Adding a new test case? The crash id to use for the next test case is ${next_id}."
-echo
-
-color_red="\e[31m"
-color_green="\e[32m"
-color_bold="\e[1m"
-color_normal_display="\e[0m"
-
-show_error() {
-  warning="$1"
-  printf "%b" "${color_red}[Error]${color_normal_display} ${color_bold}${warning}${color_normal_display}\n"
-}
-
-duplicate_bug_ids=$(ls crashes/*-*.swift crashes-fuzzing/*-*.swift crashes-duplicates/*-*.swift fixed/*-*.swift | cut -f2 -d/ | cut -f1 -d'.' | sort | uniq | cut -f1 -d'-' | uniq -c | sed "s/^ *//g" | egrep -v '^1 ' | cut -f2 -d" " | tr "\n" "," | sed "s/,$//g")
-if [[ ${duplicate_bug_ids} != "" ]]; then
-  show_error "Duplicate bug ids: ${duplicate_bug_ids}. Please re-number to avoid duplicates."
-  echo
-fi
-
-xcrun swiftc - -o /dev/null 2>&1 <<< "" | egrep -q "error:" && {
-  show_error "Xcode compiler does not work. Cannot run tests."
-  exit 1
-}
 
 columns=$(tput cols)
 verbose=0
@@ -63,6 +38,35 @@ while getopts "c:vldm:" o; do
 done
 
 shift $((OPTIND - 1))
+
+current_max_id=$(ls crashes/*-*.swift crashes-duplicates/*-*.swift crashes-fuzzing/*-*.swift fixed/*-*.swift | cut -f2 -d'/' | egrep '^[0-9]+\-' | sort -n | cut -f1 -d'-' | sed 's/^0*//g' | tail -1)
+if [[ ${max_test_number} != 0 ]]; then
+    current_max_id=${max_test_number}
+fi
+next_id=$((${current_max_id} + 1))
+echo "Adding a new test case? The crash id to use for the next test case is ${next_id}."
+echo
+
+color_red="\e[31m"
+color_green="\e[32m"
+color_bold="\e[1m"
+color_normal_display="\e[0m"
+
+show_error() {
+  warning="$1"
+  printf "%b" "${color_red}[Error]${color_normal_display} ${color_bold}${warning}${color_normal_display}\n"
+}
+
+duplicate_bug_ids=$(ls crashes/*-*.swift crashes-fuzzing/*-*.swift crashes-duplicates/*-*.swift fixed/*-*.swift | cut -f2 -d/ | cut -f1 -d'.' | sort | uniq | cut -f1 -d'-' | uniq -c | sed "s/^ *//g" | egrep -v '^1 ' | cut -f2 -d" " | tr "\n" "," | sed "s/,$//g")
+if [[ ${duplicate_bug_ids} != "" ]]; then
+  show_error "Duplicate bug ids: ${duplicate_bug_ids}. Please re-number to avoid duplicates."
+  echo
+fi
+
+xcrun swiftc - -o /dev/null 2>&1 <<< "" | egrep -q "error:" && {
+  show_error "Xcode compiler does not work. Cannot run tests."
+  exit 1
+}
 
 argument_files=$*
 name_size=$((columns - 20))
