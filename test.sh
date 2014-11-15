@@ -39,7 +39,7 @@ done
 
 shift $((OPTIND - 1))
 
-current_max_id=$(find crashes/*-*.swift crashes-duplicates/*-*.swift crashes-fuzzing/*-*.swift fixed/*-*.swift | cut -f2 -d'/' | egrep '^[0-9]+\-' | sort -n | cut -f1 -d'-' | sed 's/^0*//g' | tail -1)
+current_max_id=$(find crashes crashes-fuzzing crashes-duplicates fixed -name "????-*.swift" | cut -f2 -d'/' | egrep '^[0-9]+\-' | sort -n | cut -f1 -d'-' | sed 's/^0*//g' | tail -1)
 if [[ ${max_test_number} != 0 ]]; then
   current_max_id=${max_test_number}
 fi
@@ -57,7 +57,7 @@ show_error() {
   printf "%b" "${color_red}[Error]${color_normal_display} ${color_bold}${warning}${color_normal_display}\n"
 }
 
-duplicate_bug_ids=$(find crashes/*-*.swift crashes-fuzzing/*-*.swift crashes-duplicates/*-*.swift fixed/*-*.swift | cut -f2 -d/ | cut -f1 -d'.' | sort | uniq | cut -f1 -d'-' | uniq -c | sed "s/^ *//g" | egrep -v '^1 ' | cut -f2 -d" " | tr "\n" "," | sed "s/,$//g")
+duplicate_bug_ids=$(find crashes crashes-fuzzing crashes-duplicates fixed -name "????-*.swift" | cut -f2 -d/ | cut -f1 -d'.' | sort | uniq | cut -f1 -d'-' | uniq -c | sed "s/^ *//g" | egrep -v '^1 ' | cut -f2 -d" " | tr "\n" "," | sed "s/,$//g")
 if [[ ${duplicate_bug_ids} != "" ]]; then
   show_error "Duplicate bug ids: ${duplicate_bug_ids}. Please re-number to avoid duplicates."
   echo
@@ -256,6 +256,10 @@ test_file() {
     printf "  %b  %-${adjusted_name_size}.${adjusted_name_size}b (%-10.10b)\n" "${color_red}✘${color_normal_display}" "${test_name}" "${checksum}"
   else
     printf "  %b  %-${name_size}.${name_size}b\n" "${color_green}✓${color_normal_display}" "${test_name}"
+    if [[ ${delete_dupes} == 1 ]]; then
+      # shellcheck disable=SC2086
+      rm ${files_to_compile}
+    fi
   fi
   if [[ ${verbose} == 1 ]]; then
     echo
