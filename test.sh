@@ -39,11 +39,11 @@ done
 
 shift $((OPTIND - 1))
 
-current_max_id=$(ls crashes/*-*.swift crashes-duplicates/*-*.swift crashes-fuzzing/*-*.swift fixed/*-*.swift | cut -f2 -d'/' | egrep '^[0-9]+\-' | sort -n | cut -f1 -d'-' | sed 's/^0*//g' | tail -1)
+current_max_id=$(find crashes/*-*.swift crashes-duplicates/*-*.swift crashes-fuzzing/*-*.swift fixed/*-*.swift | cut -f2 -d'/' | egrep '^[0-9]+\-' | sort -n | cut -f1 -d'-' | sed 's/^0*//g' | tail -1)
 if [[ ${max_test_number} != 0 ]]; then
-    current_max_id=${max_test_number}
+  current_max_id=${max_test_number}
 fi
-next_id=$((${current_max_id} + 1))
+next_id=$((current_max_id + 1))
 echo "Adding a new test case? The crash id to use for the next test case is ${next_id}."
 echo
 
@@ -57,7 +57,7 @@ show_error() {
   printf "%b" "${color_red}[Error]${color_normal_display} ${color_bold}${warning}${color_normal_display}\n"
 }
 
-duplicate_bug_ids=$(ls crashes/*-*.swift crashes-fuzzing/*-*.swift crashes-duplicates/*-*.swift fixed/*-*.swift | cut -f2 -d/ | cut -f1 -d'.' | sort | uniq | cut -f1 -d'-' | uniq -c | sed "s/^ *//g" | egrep -v '^1 ' | cut -f2 -d" " | tr "\n" "," | sed "s/,$//g")
+duplicate_bug_ids=$(find crashes/*-*.swift crashes-fuzzing/*-*.swift crashes-duplicates/*-*.swift fixed/*-*.swift | cut -f2 -d/ | cut -f1 -d'.' | sort | uniq | cut -f1 -d'-' | uniq -c | sed "s/^ *//g" | egrep -v '^1 ' | cut -f2 -d" " | tr "\n" "," | sed "s/,$//g")
 if [[ ${duplicate_bug_ids} != "" ]]; then
   show_error "Duplicate bug ids: ${duplicate_bug_ids}. Please re-number to avoid duplicates."
   echo
@@ -109,7 +109,7 @@ test_file() {
   test_name=${test_name//.timeout/}
   current_test_number=$(echo "${test_name}" | tr " " "\n" | egrep "^[0-9]+$" | head -1 | sed "s/^0*//g")
   if [[ ${max_test_number} != 0 && ${current_test_number} != "" && ${current_test_number} -gt ${max_test_number} ]]; then
-      return
+    return
   fi
   num_tests=$((num_tests + 1))
   swift_crash=0
@@ -183,9 +183,9 @@ test_file() {
         output_2=$(xcrun -sdk ${sdk} swift -I . ${source_file_using_library} 2>&1)
         exit_2=$?
         if [[ ${exit_1} != ${exit_2} ]]; then
-            swift_crash=1
-            output="${output_1}${output_2}"
-            compilation_comment="lib III"
+          swift_crash=1
+          output="${output_1}${output_2}"
+          compilation_comment="lib III"
         fi
       fi
     fi
@@ -227,7 +227,7 @@ test_file() {
     stacktrace_log="./stacks/$(cut -f-2 -d. <<< "${files_to_compile}" | cut -f3 -d'/').txt"
     egrep "0x[0-9a-f]" <<< "${output}" | sed 's/ 0x[0-9a-f]*//g' | sed 's/ [0-9][0-9][0-9][0-9][0-9][0-9][0-9]*$/ [N]/g' | sed "s/^swift([0-9]*,0x[0-9a-f]*)/swift(N,0xN)/" | egrep "^[0-9]" | egrep -v '(libdyld|libsystem_kernel|libsystem_malloc|libsystem_platform|libsystem_c|libsystem_malloc)\.dylib' | egrep -v '(llvm::sys::PrintStackTrace|SignalHandler)' > "${stacktrace_log}"
   fi
-  crash_in_function=$(egrep "0x[0-9a-f]" <<< "${output}" | egrep -v '(llvm::sys::PrintStackTrace|SignalHandler|_sigtramp|swift::TypeLoc::isError)' | egrep '(swift|llvm)' | head -1 | sed 's/ 0x[0-9a-f]/|/g' | cut -f2- -d'|' | cut -f2- -d' ')
+  # crash_in_function=$(egrep "0x[0-9a-f]" <<< "${output}" | egrep -v '(llvm::sys::PrintStackTrace|SignalHandler|_sigtramp|swift::TypeLoc::isError)' | egrep '(swift|llvm)' | head -1 | sed 's/ 0x[0-9a-f]/|/g' | cut -f2- -d'|' | cut -f2- -d' ')
   normalized_stacktrace=$(egrep "0x[0-9a-f]" <<< "${output}" | egrep '(swift|llvm)' | awk '{ print $4 }' | uniq | egrep -v "swift::TypeLoc::isError")
   checksum=$(shasum <<< "${normalized_stacktrace}" | head -c10)
   is_dupe=0
@@ -249,7 +249,8 @@ test_file() {
       test_name="${test_name} (${color_bold}dupe?${color_normal_display})"
       adjusted_name_size=$((adjusted_name_size + 8))
       if [[ ${delete_dupes} == 1 ]]; then
-          rm ${files_to_compile}
+        # shellcheck disable=SC2086
+        rm ${files_to_compile}
       fi
     fi
     printf "  %b  %-${adjusted_name_size}.${adjusted_name_size}b (%-10.10b)\n" "${color_red}✘${color_normal_display}" "${test_name}" "${checksum}"
