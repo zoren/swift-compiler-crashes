@@ -80,10 +80,10 @@ seen_checksums=""
 execute_with_timeout() {
   timeout_in_seconds=$1
   command=$2
-  out=$(expect -c "set echo \"-noecho\"; set timeout $timeout_in_seconds; spawn -noecho /bin/sh -c \"${command}\"; expect timeout { exit 1 } eof { exit 0 }")
+  out=$(expect -c "set echo \"-noecho\"; set timeout ${timeout_in_seconds}; spawn -noecho /bin/sh -c \"${command}\"; expect timeout { exit 1 } eof { exit 0 }")
   return_code=$?
   echo "${out}" | tr -d "\r"
-  return $return_code
+  return ${return_code}
 }
 
 test_file() {
