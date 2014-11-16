@@ -2,7 +2,5 @@
 // Test case submitted to project by https://github.com/mattdaw (Matt Daw)
 
 import Foundation
-
-var a:NSMutableArray = ["A"]
-var b:Any = a[0]
-
+var a: NSMutableArray = [""]
+var b: Any = a[0]
