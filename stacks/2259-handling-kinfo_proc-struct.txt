@@ -1,0 +1,21 @@
+2  libsystem_platform.dylib 0x00007fff8b4f05aa _sigtramp + 26
+3  libsystem_platform.dylib 000000000000000000 _sigtramp + 1957755504
+4  swift                    0x0000000101c87f00 swift::irgen::TypeConverter::convertStructType(swift::TypeBase*, swift::CanType, swift::StructDecl*) + 3696
+5  swift                    0x0000000101c97ad6 swift::irgen::TypeConverter::convertAnyNominalType(swift::CanType, swift::NominalTypeDecl*) + 374
+6  swift                    0x0000000101c9758a swift::irgen::TypeConverter::convertType(swift::CanType) + 330
+7  swift                    0x0000000101c96dab swift::irgen::TypeConverter::getTypeEntry(swift::CanType) + 619
+8  swift                    0x0000000101c96934 swift::irgen::IRGenModule::getTypeInfo(swift::SILType) + 20
+9  swift                    0x0000000101c87ec0 swift::irgen::TypeConverter::convertStructType(swift::TypeBase*, swift::CanType, swift::StructDecl*) + 3632
+10 swift                    0x0000000101c97ad6 swift::irgen::TypeConverter::convertAnyNominalType(swift::CanType, swift::NominalTypeDecl*) + 374
+11 swift                    0x0000000101c9758a swift::irgen::TypeConverter::convertType(swift::CanType) + 330
+12 swift                    0x0000000101c96dab swift::irgen::TypeConverter::getTypeEntry(swift::CanType) + 619
+13 swift                    0x0000000101c96934 swift::irgen::IRGenModule::getTypeInfo(swift::SILType) + 20
+14 swift                    0x0000000101c2f426 swift::irgen::emitBuiltinCall(swift::irgen::IRGenFunction&, swift::Identifier, swift::CanTypeWrapper<swift::SILFunctionType>, swift::irgen::Explosion&, swift::irgen::Explosion*, swift::irgen::Address, llvm::ArrayRef<swift::Substitution>) + 1062
+15 swift                    0x0000000101cb6ef4 swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 30068
+16 swift                    0x0000000101caed3b swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9179
+17 swift                    0x0000000101c28447 swift::irgen::IRGenModule::emitLazyDefinitions() + 199
+18 swift                    0x0000000101c9baf6 performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2038
+19 swift                    0x0000000101c9c473 swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+20 swift                    0x0000000101bf16f4 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5444
+21 swift                    0x0000000101beea6d main + 1677
+22 libdyld.dylib            0x00007fff88ff85fd start + 1
