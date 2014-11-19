@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 import Foundation
-class func g<T>Bool)
+func g< >Bool
 protocol A : a {
-class A {
+{
 }
 func a

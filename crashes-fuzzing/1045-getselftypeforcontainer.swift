@@ -4,6 +4,5 @@
 
 protocol B : AnyObject, b {
 var d : A
-typealias b {
-typealias f : (""")
+typealias b
 protocol A

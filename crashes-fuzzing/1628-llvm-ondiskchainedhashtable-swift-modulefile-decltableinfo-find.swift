@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 var b {
-i> {
-protocol b = b> T, y: Array<l : AnyObject, A {
+{
+{
 }
 }
 enum S<T where g: T> : b

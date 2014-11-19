@@ -5,10 +5,10 @@
 0
 class A<B {
 let x {
-extension Array {
+{
 }
-class b(Any, e = a
-func compose<T) -> {
+class b
+{
 }
 class A {
-let start = b())
+let start = b( )

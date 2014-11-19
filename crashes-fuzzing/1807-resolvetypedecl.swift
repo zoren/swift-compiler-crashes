@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 protocol b {
-enum S<T: B)
+enum S<T: B
 }
-class B<d where T : S) {
-}
-for b where T
+class B<d where T : S
+for b

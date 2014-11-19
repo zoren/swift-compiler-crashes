@@ -2,20 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-typealias f = a([0] == 0)
+[ ] == 0
 protocol d {
-typealias B) ->()(m: A> T> String {
-func f(i() -> [T>()(b(n: B<f = "[((f.init(Range("\()
-protocol c {
+{
 }
-deinit {
+{
 }
-typealias b {
-map(A")
-func e, e> {
+typealias b
+{
 }
-func b> {
-return ""cd")
-class A {
+func b
+{
 }
-typealias e: b = g, A
+typealias e: b

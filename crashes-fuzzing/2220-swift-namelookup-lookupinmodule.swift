@@ -2,13 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A : Range<c() {
 protocol A {
-}
+protocol A
 }
 protocol i : A {
-func i : c {
-let c: SequenceType> h> V>(b: [unowned self.b in "a<j d<T? {
-protocol b : AnyObject) {
+func i : c
+{
 }
-func g: A.E ==
+func g: A.E

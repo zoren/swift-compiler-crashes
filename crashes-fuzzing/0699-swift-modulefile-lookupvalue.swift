@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a: T -> Bool {
-0) as String)
+func a: T -> {
+0
 protocol b : A {
 typealias A

@@ -4,6 +4,5 @@
 
 class d
 func b: Int
-func b> () -> [T> T where A.d
-}("
-for b = a(b: d {
+func b
+b = d {

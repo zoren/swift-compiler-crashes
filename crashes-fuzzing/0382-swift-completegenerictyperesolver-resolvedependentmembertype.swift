@@ -2,21 +2,20 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T! {
-b> {
+func g<T {
+{
 }
-let v: Array) -> T where T: c: A : a {
+{
 }
-enum A {
-var c: P {
+{
+{
 }
-class d<I : NSManagedObject {
-}("
+{
 }
-return true
-typealias e where H) -> : P> {
 }
-f = {
+{
+}
+{
 }
 class A {
-class func a(T.c {
+func a(T.c

@@ -3,19 +3,6 @@
 // Test case found by fuzzing
 
 class c {
-struct e = d.init() {
-class B : A, x in c : Hashable> {
-class a {
-func a() {
-class B : U : () {
-class A {
-})
-}
-}
-struct S) {
-}
-}
-class C<S : Any) -> String {
-}
-}
-class A : A?
+init( ) {
+class B : A
+class A : A

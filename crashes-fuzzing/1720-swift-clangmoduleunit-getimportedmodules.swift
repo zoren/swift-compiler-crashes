@@ -3,8 +3,5 @@
 // Test case found by fuzzing
 
 import Foundation
-return m(n: A<T : C(start, let f = ""
-assert(T>(A, ")
-class A<T where d.c : X.c {
-}
-let h: String = A? = A.startInd
+class A<T where d : X
+let : String = A? = A

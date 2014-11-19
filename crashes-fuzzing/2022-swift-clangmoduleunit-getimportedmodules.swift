@@ -5,9 +5,7 @@
 import Foundation
 class B {
 }
-extension Array {
-i() {
-return ""foobar"
+extension {
 }
-class B<T where g: B, self.E == c) -> {
-typealias f = [c> {
+class B<T where g: B {
+typealias f = [c

@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 protocol b {
-typealias d : CollectionType where g.startIndex, T where k.Element>>?) -> a {
+typealias d : CollectionType {
 }
-func b: Any) {
-}
+func b
 }
 class d
-public var d = b.b in
+var d = b.b

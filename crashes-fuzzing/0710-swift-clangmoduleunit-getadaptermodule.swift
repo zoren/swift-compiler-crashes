@@ -3,16 +3,16 @@
 // Test case found by fuzzing
 
 import Foundation
-func a() {
-let i: P> T {
+func a( ) {
+{
 }
+{
+{
+}
+{ {
+}
+}
+}
+return [ self = Int
 protocol A {
-var d = {
-}
-return { x in a {
-}
-}
-}
-return [unowned self.c = Int
-protocol A {
-typealias e : e,
+typealias e : e

@@ -2,13 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-}(a)(i<T) -> [T, 3] {
-}
-func b<Y> {
-var _ = h: H) {
+( ( <T
+func b<Y {
+{
 }
 class A {
-func b[1]
-class a {
+func b
+{
 }
 var d = b

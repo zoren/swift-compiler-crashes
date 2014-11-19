@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-here B {
-enum b = g<l : e = { x in 0
-func f<D> {
+{
+b {
+func f {
 let b {
-static let end = "[c<T.Element>: String {
-enum b in x }
+let end =
+}
 }
 }
 }
@@ -15,4 +15,4 @@ class A {
 protocol P {
 typealias h: d {
 }
-typealias d()
+typealias d

@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 protocol P {
-let h: Int = c: NSObject {
+{
 }
-var b {
+{
 }
-struct B<I : A.B : A? = e: A.d.init()(")->() -> {
+init( )
 }
-func g<T.c : T! {
+func g<T {
 struct D : P

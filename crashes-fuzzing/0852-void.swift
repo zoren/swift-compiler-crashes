@@ -3,14 +3,9 @@
 // Test case found by fuzzing
 
 import Foundation
-var b> <b([T> Any in
-protocol d = """")!.join(c : T) -> (x, ():
-")
+var b> < ( [T
+protocol
 var b {
 protocol C {
-typealias d: S<d>(AnyObject> Any)() {
-struct c]("))"")
-typealias F = { _, let foo as BooleanType, A, g == T>()) {
-}
-}
-enum S<U) -
+typealias d: S<d>
+enum S<U

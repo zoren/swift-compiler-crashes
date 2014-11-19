@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum A : b {
-class b() -> String = b
-func b<j.B == F>() {
-typealias B<U>(y: Any) -> {
+enum A : b
+class b
+func < {
+{
 }
 protocol a : a {
-func a)
-fu
+func a

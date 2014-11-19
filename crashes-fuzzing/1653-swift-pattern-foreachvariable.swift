@@ -3,14 +3,13 @@
 // Test case found by fuzzing
 
 class a {
-class a() {
-struct Q<T where A) {
+{
+{
 }
 }
-var e, b = B>(B<T> Any))
+var e, b = B
 protocol B : b {
-typealias A : ([()
-"""
-class A : A, Any) -> Any {
+typealias A
+{
 }
-var b : (A
+var b : A

@@ -3,13 +3,13 @@
 // Test case found by fuzzing
 
 import Foundation
-func a<T) {
+func a<T {
 class b
-typealias R = compose<T> String {
-([T -> (x: A {
+typealias R = T String {
+{
 }
-func g: Int = A, Any) -> {
+{
 }
-func a: Array) -> T -> S("
+a
 }
 for b {

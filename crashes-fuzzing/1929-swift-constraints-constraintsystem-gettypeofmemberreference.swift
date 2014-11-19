@@ -3,16 +3,14 @@
 // Test case found by fuzzing
 
 func b<U {
-init(true as a<T: T, U) -> String {
+{
 }
-struct D : B<b: A, e : d where f, Any) {
+struct D {
 protocol a {
-case A<d.endIndex - range: A {
-return b.e? = Int>([0x31] = Int](bytes: $0) {
-}
-var e)
+{
+{
 }
 }
-let g = c(a() -> ()) -> {
-return ".advance() {
-class a(
+}
+let g = a( ) ->
+class a

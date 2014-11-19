@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<d {
+func f<d
+class A<T where B : b
 }
-class A<T where B : b[B<T> ()
-return ")
-}
-f = b(c(v: (A<d = 1
+f = ( ( (A<d = 1

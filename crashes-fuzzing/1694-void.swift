@@ -2,28 +2,27 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<e<T -> : d {
-func a(f: C = B, length: (A.Generator.c] == [self, Any) -> : Array) as String)
-typealias R = "
-class a {
-func i: S) -> Bool {
+enum S<e {
+func a(f: C
+{
+{
 }
 }
 protocol C {
 struct c : NSObject {
-extension Array {
+{
 }
 }
 typealias h: a {
-protocol a {
+{
 }
-public var d {
-let c : C = B) {
+{
+{
 }
 }
 }
 enum b {
 }
-class A? {
+{
 }
-func b(c<T.in
+func b

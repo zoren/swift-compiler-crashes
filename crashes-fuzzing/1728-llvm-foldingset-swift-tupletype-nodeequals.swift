@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<U))) -> Any, g : b> {
-func b[""
+func f<U {
+func b[ " "
 struct c {
 }
-protocol a {
+{
 deinit {
 }
 }
-return { c()!)
+return { c( )!

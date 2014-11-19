@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 let a {
-struct d<T where I.b : P {
+struct d<T where I : P {
 let g = f

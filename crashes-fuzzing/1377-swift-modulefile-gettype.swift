@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 extension Array {
-func b.C> : B? = B
+func b
 }
 protocol d {
-let c: A> Bool {
-case c("
-typealias A : A> T
+let c: A
+typealias A : A

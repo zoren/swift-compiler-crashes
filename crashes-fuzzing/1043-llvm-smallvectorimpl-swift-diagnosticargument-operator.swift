@@ -3,12 +3,12 @@
 // Test case found by fuzzing
 
 func p< p {
-l c l.l = {
+{
 }
 {
-p) {
-(e: o, h:}
+{
+( }
 }
-protocol f {
+{
 }
-class l: f{  class f
+class l: f class f

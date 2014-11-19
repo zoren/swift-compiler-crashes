@@ -4,12 +4,12 @@
 
 let b {
 protocol a {
-typealias e = d>) -> {
-func compose(f<A<j : d = Int) {
+typealias e = d {
+{
 }
 }
-typealias h>?) -> {
+{
 }
-class func f):
-typealias e : e, let v: d
-struct d, V, 3]
+func f
+typealias e : e
+struct d

@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g() -> V {
-deinit {
+func g( ) -> {
+{
 }
-struct Q<T where A: T) -> : NSObject {
+struct Q<T where A: T {
 typealias R = c

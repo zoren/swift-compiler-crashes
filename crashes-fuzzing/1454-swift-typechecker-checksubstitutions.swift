@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 protocol A {
-func c] {
+{
 }
-class A<h: A<Int>(""
-typealias h.c = compose("))
+class A<h: A<Int>
 }
 extension String {
-let h : A> U
+let : A

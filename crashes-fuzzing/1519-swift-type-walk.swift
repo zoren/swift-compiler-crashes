@@ -4,10 +4,8 @@
 
 func a: A.d
 enum A {
-get {
+{
 }
-class a {
-f = a() {
-case C("""foobar"ab"A<T -> String {
+{
 }
-func d<T : d>)
+func d<T : d

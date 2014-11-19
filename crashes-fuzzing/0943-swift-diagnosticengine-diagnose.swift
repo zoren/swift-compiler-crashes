@@ -2,14 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func ^(start, AnyObject, 3] = i<h):
-super..substringWithRange(f(a: A, (Any) {
-var b {
+..substringWithRange(f( ( ) {
+{
 }
-[[(a<T -> String = b: A> : C {
-return "))))
+[ A
 }
 protocol A {
-protocol a {
+{
 }
-typealias e : AnyObject, Any, e: a
+typealias e : e

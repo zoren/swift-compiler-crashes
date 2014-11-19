@@ -5,16 +5,14 @@
 protocol a {
 protocol a {
 }
-typealias R = A, Any) -> {
-})
-func f<T -> (x(Range<U -> {
-case A? = ["
-typealias f == d
-struct D : b) -> T : c {
-extension NSData {
+{
+}
+func f
+typealias f
+{
+{
 }
 }
-typealias R = { _, V>()
+{
 }
-func a: (x: SequenceType, f()
-func
+func a: ( f

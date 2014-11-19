@@ -3,22 +3,11 @@
 // Test case found by fuzzing
 
 import Foundation
-func f<3] as BooleanType>() -> String {
-protocol C {
+func < {
+{
 }
-struct c == { x }
-convenience init(B? = true {
-class a {
-}
-protocol a {
-func b.advance() as BooleanType, range.init() {
-}
-}
-}
-}
+struct { x }
 func compose<U {
 struct S : a {
-return m(#object1: (start: b where d
-b[Byte](")(.init<j : b.d<T)
 func a
-var b = a)
+var b = a

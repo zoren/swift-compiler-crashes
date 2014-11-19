@@ -3,15 +3,15 @@
 // Test case found by fuzzing
 
 protocol a {
-class A where H) {
+{
 }
 typealias e : e = a
-class A {
-protocol a {
+{
+{
 }
-protocol P {
-extension NSSet {
+{
+{
 }
 }
 }
-class func f: C<Q<(
+func f

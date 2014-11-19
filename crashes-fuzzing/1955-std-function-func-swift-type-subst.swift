@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let n1: c {
-public class b: b: d = 1
+let : {
+class b: b
 protocol b {
-typealias F = b: A, A? = T) { c, AnyObject) -> A {
-return ")
-typealias b {
-}
+typealias F = b
+typealias b

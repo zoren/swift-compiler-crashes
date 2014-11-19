@@ -3,15 +3,13 @@
 // Test case found by fuzzing
 
 class A {
-init() {
-let n1: A, A {
+init( ) {
+{
 }
-class A {
 func a(a)
 protocol a : d {
-protocol c {
-extension NSData {
+{
+{
 }
-let x }
-typealias d {
-var a
+}
+typealias d

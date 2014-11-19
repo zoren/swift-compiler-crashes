@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 // Distributed under the terms of the MIT license
 
-func c<e>() -> (e, e -> e) -> e {
-   f b f.f =c {
+func c<e {
+{
 }
-struct f<c : f,f where e.c == c.c
+struct f<c where e.c = c.c

@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let end = b(a<Q<c> {
+let end = ( <Q<c> {
 }
-struct c<T where g: AnyObject, end).startIndex)
-println(a()
-var _ = c("))?
-let start = c) -> U
+struct c<T where g: AnyObject
+let start = c

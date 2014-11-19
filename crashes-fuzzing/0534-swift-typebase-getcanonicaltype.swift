@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 protocol P {
-class A : AnyObject, e)
+class A : e
 typealias e : A

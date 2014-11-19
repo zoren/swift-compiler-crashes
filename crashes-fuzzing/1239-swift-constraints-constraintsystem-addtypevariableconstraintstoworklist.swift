@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 __LINE__
-func f<r>() {
-f r f.= {
+func f<r {
+{
 }
 {
-s func j(  claso}
-class b: a {
 }
-(b() as a
+class b {
+}
+(b( ) as a

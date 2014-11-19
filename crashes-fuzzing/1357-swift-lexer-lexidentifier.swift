@@ -2,17 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-uct c = { c(([1]
-var e<T>({
-var d where H.e = b: String {
-case .c, U, f: d where B : String {
-t.a""".B, d>>({
+c { c( ( [ ]
+var e<T> ( {
+{
 }
-let g = c]() ->() {
-}
+let g
 }
 }
 let a {
 protocol c {
 typealias B : B
-func a""
+func a

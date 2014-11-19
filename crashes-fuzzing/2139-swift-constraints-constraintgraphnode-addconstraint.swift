@@ -3,16 +3,16 @@
 // Test case found by fuzzing
 
 class A {
-protocol a {
+{
 }
-private let end = {
+let end = {
 }
-func n: q {
+func n {
 class A {
 struct S {
-k , T where f<o : k : NSObject {
+{
 }
-protocol C {
+{
 }
-class a<T where f: T>: Sequencpe> S<T : m n<A? = A<A
-func f: B
+class a<T where f: T> : S
+func f

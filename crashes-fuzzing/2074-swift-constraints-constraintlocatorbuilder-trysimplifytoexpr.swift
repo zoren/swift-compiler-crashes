@@ -4,29 +4,29 @@
 
 func a<B {
 class A {
-typealias e() -> {
-struct e {
-}
-})()
-func a() {
-enum B {
-}
-enum A : Hashable> {
-}
-func b() {
-struct S : T>() {
-}
-func f<Y> Bool {
-}
-func g<b: a {
-func b(array: d where T) -> {
-}
-return [c(x) + seq
-convenience init(AnyObject> Void>(t: T) {
+{
+{
 }
 }
+func a( ) {
+{
+}
+{
+}
+func b( ) {
+{
+}
+Bool {
+}
+func g {
+-> {
+}
+return [c( ) +
+{
 }
 }
-return S<1 {
+}
+}
+{
 }
 func c

@@ -3,16 +3,12 @@
 // Test case found by fuzzing
 
 enum A {
-let a {
+{
 }
-init() {
-protocol b {
-println().Type) -> {
-return "A<T -> {
+init( ) {
+{
 }
-var b = .init(i> Any {
-return ")
-class c<T where T : end: AnyObject) {
-get {
+class c<T where T : end {
+{
 }
-let c: k) -> {
+let : k

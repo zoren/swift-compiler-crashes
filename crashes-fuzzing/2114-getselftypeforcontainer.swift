@@ -3,22 +3,15 @@
 // Test case found by fuzzing
 
 protocol A {
-typealias e : A.b: d where h
-class A {
+typealias e : A.b
 enum b {
 }
 protocol b {
 }
-l>(n{
+{
 }
-typealias g) {
+{
 }
-var b: a() {
+var b: a {
 }
-protocol a : e = a: d = 1]))
-protocol P {
-protocol A {
-}
-}
-}
-func d>: d:
+protocol a : e

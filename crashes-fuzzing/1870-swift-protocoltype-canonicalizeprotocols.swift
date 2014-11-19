@@ -3,23 +3,19 @@
 // Test case found by fuzzing
 
 protocol c {
-func a(a([c: A {
-func a("]]]]
-func a: NSManagedObject {
-class a")
+func a(a
+"
 protocol a {
-protocol a {
+{
 }
 protocol B {
 typealias d: d {
 }
-func d: U -> {
-var b: A? = Swift.c, T : (c]).startIndex)")
+func d
 }
-struct c) -> U) {
+{
 }
 }
-protocol P {
+{
 }
-func a: String {
-pri
+func a

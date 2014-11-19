@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-f : a {
-let h>() {
-var a: SequenceType where B : I.c>() -> Any) {
-func a():Any) {
-c, range.Element>>? {
+{
+let h> ( ) {
+{
+{
+{
 return nil
 }
 }
@@ -14,5 +14,4 @@ return nil
 }
 }
 protocol a {
-func a<B : a {
-s
+func a<B : a

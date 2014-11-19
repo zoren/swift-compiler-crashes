@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 protocol a {
-func c<h: A, U)
-protocol b = Swift.c {
-class A"
-struct A<H : A>: b: b
+func c<h: A
+protocol b
+struct A<H : A> : b

@@ -3,17 +3,7 @@
 // Test case found by fuzzing
 
 if true {
-class A {
-if true {
-}
-protocol A {
-}
-protocol A {
-var d where H) -> [T
-protocol B == B("](Any, g == o<f = 0
-}
-private class A : a {
+class A : a {
 }
 protocol a {
-override func a<T : a {
-typeal
+func a<T : a

@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<C) {
+func g<C {
 enum A {
-let f = c() {
+let f = c( ) {
 }
-struct c =
+struct c

@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-self, let c {
-func a(A? = {
+let c {
+func a(A {
 }
-private class func c
-protocol A : a {
-class func a(b()
-func b(z: Int {
-for b = a")
+protocol A {
+func a(b(
+func b
 typealias b

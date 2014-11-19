@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-f = compose(b> : e: String = "A? = A(g<(b: C {
-class func g<T) {
-struct c = 0
-var f = c()
+f = (b> String =
+func g<T {
+struct c
+var f = c( )

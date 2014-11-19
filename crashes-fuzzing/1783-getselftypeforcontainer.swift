@@ -4,10 +4,9 @@
 
 protocol c {
 protocol b {
-func a)
-typealias d: a {
-}
+func a
+typealias d: a
 }
 }
 class A {
-let end = c]
+let end = c

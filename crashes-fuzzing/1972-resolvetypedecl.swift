@@ -4,13 +4,12 @@
 
 protocol a : a {
 protocol a {
-enum b = i<T {
-func d>() {
-class A {
+enum b {
+{
+{
 }
 }
 }
-class func a<T : e() -> {
-(a)"","\() as String)-> String {
+func a<T : e
 }
-var e: b: a
+var e: b

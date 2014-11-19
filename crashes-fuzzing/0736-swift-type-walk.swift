@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f: c: e)
+func f: c
 protocol c {
 func a<j : a

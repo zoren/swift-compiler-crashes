@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 func c<T {
-var f = b(T.endIndex - range.c: String {
+var f = (T.endIndex - range {
 }
-class b: Int {
+class b {
 }
 class B : b

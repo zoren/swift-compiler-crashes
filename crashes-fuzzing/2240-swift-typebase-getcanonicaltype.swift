@@ -4,14 +4,10 @@
 
 protocol a {
 protocol d {
-typealias e: AnyObject, e where Optional<A? {
+typealias e: e
 }
 }
+func f {
+{
 }
-protocol c = a: T) -> {
-}
-func f: U {
-extension NSData {
-}
-var _ = c(_ = a)
-}
+var _ = a

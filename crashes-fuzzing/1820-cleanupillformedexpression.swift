@@ -4,20 +4,18 @@
 
 func g<d {
 class A {
-func c) -> Self {
-typealias h: (m: AnyObject, a(t: B, e(")!.dynamicType)
 }
-i: A {
-assert([self.e> String {
+{
+{
 }
-enum b in c {
+{
 }
 }
-protocol a {
+{
 }
 class A : A {
 }
-class B<d) -> {
+class B {
 var d = {
-func b: d {
-var b, g> S
+func b {
+> S

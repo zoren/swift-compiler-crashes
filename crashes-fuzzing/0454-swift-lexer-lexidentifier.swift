@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let d: Array<T) {
+let : {
 class B<T where g: a {
-class func f
+func f

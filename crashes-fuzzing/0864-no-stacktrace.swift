@@ -3,16 +3,14 @@
 // Test case found by fuzzing
 
 var b {
-return [c<Y> {
+{
 }
-typealias d == {
-protocol d {
+{
+{
 }
 }
-class A {
 protocol P {
-func i: (f.<Y> String {
-func c("
-func f, range.h = e: I.C) -> {
-typealias e = b(s(A"""A.B())) -> Self {
-typealias f : $
+func i: (f <Y>
+func
+f
+typealias f

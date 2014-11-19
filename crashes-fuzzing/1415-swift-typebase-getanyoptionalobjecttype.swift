@@ -3,11 +3,10 @@
 // Test case found by fuzzing
 
 protocol A {
-func f: d where d(Any, AnyObject) {
+{
 }
-let t: ExtensibleCollectionType>].C
+let t: ExtensibleCollectionType
 }
 protocol a {
-typealias g: b {
-class func a"
-typealias b in
+typealias g: b
+typealias b

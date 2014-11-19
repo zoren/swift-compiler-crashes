@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class f<p : k, p : k where p.n == pealias n
+class f<p where p = n
 }
-(f() as n).m.k()
+(f( ) as n).m.k( )

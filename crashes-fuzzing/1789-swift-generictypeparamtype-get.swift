@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<h: SequenceType where A>?
-func compose<T: d {
-case .<T -> String {
+enum S<h: SequenceType
+func compose<T {
+{
 }
-class b(h: $0
-private let v: A, d, Any) {
+class b
+{
 }
-return b() -> : B
+return b( )

@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 let a {
-struct S<T> {
-func f: B<T>() -> Self {
-f : A"""
+struct S<T {
+func f: B
 }
-class B<T where H.E == b(g: P {
+class B<T where H = b

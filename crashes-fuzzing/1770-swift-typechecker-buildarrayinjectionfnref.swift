@@ -2,16 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<d: NSObject {
-struct A.<h == {
-println(t: A {
-enum a<e? {
+func b<d {
+struct A. {
+(t: A {
+{
 }
 }
 }
-struct c {
-protocol C {
+c {
+{
 }
 }
 }
-func b[(()
+func b[ (

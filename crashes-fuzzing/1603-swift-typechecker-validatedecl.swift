@@ -4,9 +4,9 @@
 
 protocol B : a {
 protocol a {
-protocol B == .A, (x)
+protocol B
 }
-protocol B : B, y: T)
+protocol B : B
 }
-struct Q<U) -> {
+struct Q {
 typealias F = B

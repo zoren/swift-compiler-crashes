@@ -4,7 +4,6 @@
 
 protocol d {
 protocol a {
-typealias h: a {
-S(b(")
+typealias h: a
 }
-func a<j : a {
+func a<j : a

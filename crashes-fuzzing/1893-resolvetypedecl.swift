@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 protocol B : A {
-typealias f : Range<D>(array: ()
-case A"
+typealias f : Range<D>
 protocol A {
 struct D

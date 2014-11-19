@@ -2,14 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum A : A, A {
-struct A {
-protocol c {
-}
-}
-class b> T> T> String {
-return self.count]["
-class A : b: (h: BooleanType)
+struct A
+class b
+class A : b
 var b {
 struct e {
-func a<I : a :
+func a<I : a

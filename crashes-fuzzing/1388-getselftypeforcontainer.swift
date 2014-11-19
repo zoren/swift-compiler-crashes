@@ -3,16 +3,12 @@
 // Test case found by fuzzing
 
 if true {
-case C(a: A {
-return ")
-let t: b = .Type) -> {
+{
 }
-enum A {
-protocol a {
+{
 }
 protocol A {
-let h: String {
-f.substringWithRange(""")
-var e() {
+let h: String
+{
 }
-typealias B : B, c
+typealias B : B

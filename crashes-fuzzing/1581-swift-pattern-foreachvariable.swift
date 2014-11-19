@@ -3,8 +3,5 @@
 // Test case found by fuzzing
 
 protocol d : d {
-typealias d: c]
-enum S<B {
-}(self.c
-override init<f == d<I : () -> T> T? = ")
-let v: d.Generat
+typealias d
+let v: d

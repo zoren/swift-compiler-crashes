@@ -4,26 +4,24 @@
 
 var d {
 protocol A {
-class c : l : f {
+{
 }
-class n : AnyObject) {
+{
 }
-let v) -> {
+{
 }
-class func c<T : f : d : Int = F
-extension String {
+func c<T : f
+{
 }
-protocol A {
-struct S {
+{
+{
 }
-typealias R = .f l<T: () -> A {
-var f { self..substringWithRange((self..a<D> k where d: e(T, i == "
 }
-protocol d where f: P {
-func s p : P {
-protocol g == { func d.e : e, e
+{
+{
+{
 }
-f : e}
 }
-protocol f : a {
+}
+protocol f : a
 let a: c

@@ -2,31 +2,27 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-init() {
-() -> String {
-self.c> Self {
+init( ) {
+-> {
+{
 }
-func g<d where T! {
-let t: [c) {
+func g {
+{
 }
-func b(array: CollectionType where T> U -> {
-func d<T where B {
-b) {
-var d where B : C<Int) { x = a<d where A> ((false)) {
-func g<d where T> () {
-println() {
-typealias d.c(self.d = c<T>((1]
-c>(e: S) {
-return [T {
-func f(x, A, y: Any) {
-protocol B {
-}
-}
-b("cd"")
+func b( {
+{
+{ {
+{
+{
+( ( (
+(
+[ {
+{
+{
+" " "
 }
 }
 }
 protocol A {
-typealias B : b {
-func a(Any) -> T where S("
-typealias b = a"""
+typealias B : b
+typealias b

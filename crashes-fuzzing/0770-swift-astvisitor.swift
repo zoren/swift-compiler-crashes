@@ -3,4 +3,4 @@
 // Test case found by fuzzing
 
 {
-(_ = a<T? = c, U) -> Any in
+( = T = c ) -> Any in

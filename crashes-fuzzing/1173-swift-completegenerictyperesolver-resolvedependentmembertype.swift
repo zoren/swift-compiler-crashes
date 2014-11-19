@@ -2,14 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T>() -> T -> T {
-return { x in xar) {
+func f<T> ( ) -> T -> T {
+return { x in {
 }
-extension NSSet {
-convenience init<T>(array: Array<T>) {
+{
+{
 }
 }
 struct A {
-func g<U>(h: (A{
+{
 }
-init <A: A where A.B == D>( T.E =B<T>) {
+init < > ( T.E = T )

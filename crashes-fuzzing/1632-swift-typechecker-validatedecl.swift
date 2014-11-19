@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 enum A : A {
-private class A : AnyObject) {
+{
 }
 }
-enum S<T where T.e : S
+enum S<T where T : S

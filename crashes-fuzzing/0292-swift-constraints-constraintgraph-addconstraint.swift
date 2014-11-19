@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func e(d: Int = 0) {
+func e(d: Int = 0 ) {
 let f = e
-f()
+f( )

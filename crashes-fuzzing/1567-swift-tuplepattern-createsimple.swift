@@ -3,20 +3,17 @@
 // Test case found by fuzzing
 
 protocol a {
-typealias B : B<T>>(bytes: C() -> a {
-let start = D> ("[c
+typealias B : B
 }
-var e: P {
-case .A<Int>) {
-func a<j : T>({
-return "
-typealias B<c(object1: d = {
+var P {
+{
+{
 }
-func g<c: b: B) {
+{
 }
 }
-self.A.init(true {
-struct A = {
+A.init( {
+{
 }
-func d(false)
+func d(
 }

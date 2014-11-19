@@ -2,33 +2,28 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<H : Int {
+struct S {
 protocol a {
-if c : A : SequenceType> () {
-println("").C> {
-enum B {
+{
+" " {
+{
 }
-for c where A> {
-convenience init() {
-extension Array {
-}
-}
-protocol d {
+{
+{
+{
 }
 }
+{
 }
 }
-typealias e : e: String
-extension String {
 }
-typealias B>(c()
-func g, "
 }
-if c {
+typealias e : e
 }
-func compose() {
-func f<T> ()] {
+{
+}
+{
+{
 }
 }
 let end = a
-protoco

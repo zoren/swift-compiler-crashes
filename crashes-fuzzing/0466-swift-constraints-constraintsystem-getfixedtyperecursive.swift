@@ -2,17 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-println()
+println( )
 protocol A : P {
 protocol P {
-protocol a {
-}("""\()
-println() {
-protocol A {
+{
+{
 }
 }
-protocol d {
-struct D : P {
+{
+{
 }
 }
-typealias e : e!.
+typealias e : e

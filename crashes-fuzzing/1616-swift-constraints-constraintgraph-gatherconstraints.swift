@@ -3,14 +3,11 @@
 // Test case found by fuzzing
 
 protocol a {
-typealias b = T>, range.init<T> () -> String) -> () -> {
+init< > ( )
+}
+func g<T {
+let a {
+class B : a
 }
 }
-func g<T> {
-static let a {
-init(2, k : P {
-return ")) -> : c: 1, AnyObject) {
-class B : A, a)
-}
-}
-struct c where l.C> () { x in x = {
+{ {

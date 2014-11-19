@@ -2,15 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func v<x>() -> (x, x -> x) -> x {
-l y j s<q : l, y: l m y.= .b {
-println("")
+func v<x {
+{
+println( "" )
 }
-extension NSSet {
-l) {
-n  }
+NSSet {
+{
+}
 }
 protocol f {
-class func n()
+class func n
 }
-class l: f{  class func n {}
+class l: f{ class func n

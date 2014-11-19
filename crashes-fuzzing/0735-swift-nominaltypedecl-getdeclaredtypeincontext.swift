@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 if true {
-struct S<T where H.d.d: I.e = f: a {
+struct S<T where H : a {
 let c = 0

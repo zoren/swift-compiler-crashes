@@ -2,17 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol f {
-}
-protocol e : f {
+protocol f
+protocol e {
 }
 protocol i {
 }
-struct c : i {
+struct c {
 }
-func i<j : j, d : i j d.c == j> (i: d) {
+func < {
 }
-func i<c :{
+func < {
 }
 let e = f
 protocol e : j { func j

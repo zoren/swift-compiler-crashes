@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i((Any, d)i i
-func ^(d: i, j {i !(d)
+func i ( d
+{
 }
 protocol d {
-c i: d {
+{
 }
 protocol i : i { func i

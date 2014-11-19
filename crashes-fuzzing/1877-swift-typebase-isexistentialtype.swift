@@ -2,12 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let g = compose(self.advance(Any] = nil
+let g = ( (Any
 protocol b {
-func a()
-func g(e> Any {
-let h: k) {
+func a
+{
+{
 }
 }
-typealias A : a {
-struc
+typealias A : a

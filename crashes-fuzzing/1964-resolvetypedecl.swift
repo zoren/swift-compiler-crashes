@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 if true {
-struct c<d where B = b: Range(.A> T: T>(i() {
-let a(_ = ["
+struct c<d where B = b
 func e<b: c

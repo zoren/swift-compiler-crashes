@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct i<f : f, g: f where g.i == f.i> { b = i) {
+struct i<f , g where g = f { {
 }
 let i { f

@@ -6,5 +6,5 @@ import DummyModule
 }
 struct c {
 func a<T: a {
-func a: a {
-println((A> (c
+func a {
+println( (A> (c

@@ -3,10 +3,7 @@
 // Test case found by fuzzing
 
 protocol a {
-class A: d = 1)
+class A: d
 }
-f : c(T>() {
-return $0) -> d>: e == ")
-class d<d where k.h : NSObject {
-}
-let f : a
+class d<d where k : NSObject
+let : a

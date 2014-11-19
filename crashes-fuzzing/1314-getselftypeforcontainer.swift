@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-public var d {
-typealias e {
+var d {
+{
 }
 protocol P {
-typealias f : A {
-typealias B : ("
-protocol A : a {
-func a: c
+typealias f : A
+protocol A : a
+func a

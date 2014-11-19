@@ -4,10 +4,9 @@
 
 class A {
 protocol P {
-func e: a = b<Y> T {
-convenience init(")) -> {
-func a<T? = a))
-protocol C {
+func e: a
+func a
+{
 }
 }
-class func b<S : b
+func b<S : b

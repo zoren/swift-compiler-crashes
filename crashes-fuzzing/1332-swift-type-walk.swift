@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum B : a {
-extension NSData {
+enum B {
+{
 }
 func a<T : a

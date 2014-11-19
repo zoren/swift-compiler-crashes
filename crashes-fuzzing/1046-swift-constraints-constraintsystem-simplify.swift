@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 let x {
-struct c : ExtensibleCollectionType>? {
-}
+struct c : ExtensibleCollectionType
 }
 class a {
-class func b<H : b(([1
+func b<H : b

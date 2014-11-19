@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 protocol c : e {
-class A {
-println() -> Int = {
+{
+{
 }
 }
 typealias e

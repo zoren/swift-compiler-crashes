@@ -3,10 +3,7 @@
 // Test case found by fuzzing
 
 protocol c {
-private let n1: b> (z(() -> {
-struct c())(#object1, g : [T> ("
+let : b
 }
 protocol b {
-f<T, A {
-func c("
-typealias b : b: a(
+typealias b : b

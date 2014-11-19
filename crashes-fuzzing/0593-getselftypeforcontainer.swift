@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 protocol P {
-typealias e : e == {
-var d = "
+typealias e : e ==
 let t: P

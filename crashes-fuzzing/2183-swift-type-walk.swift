@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol j : A.b {
+protocol j : A.b
 struct A {
-struct d) {
-ty }
-class func a: j<U) {
+{
 }
-var b class func b<d: b
+{
+}
+func b<d: b

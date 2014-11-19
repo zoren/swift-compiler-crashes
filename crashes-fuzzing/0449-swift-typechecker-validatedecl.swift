@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T>(f: I) {
-class C> Void>? = F
+func g<T {
+class C
 class B : C {
-private class A : A")
+class A : A

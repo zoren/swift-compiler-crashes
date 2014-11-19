@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<I : NSManagedObject {
-class d<I : C {
-var d = A.c) -> Int = compose<C> {
+struct S<I {
+class d<I {
+var d = A.c {
 }
 protocol A {
-struct c == b
+struct c

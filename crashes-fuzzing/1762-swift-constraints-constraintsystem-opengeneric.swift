@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-
-private class B<T, Bool) {
+class B<T, Bool {
 protocol a {
-let n1: d where T : C = { x }
-func b()
+let : C { }
+func b
 }
-init <Int>(1, y: A"
 class b: a {
-func b> : B>
+func b

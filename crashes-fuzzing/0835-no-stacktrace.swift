@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g: b {
-struct c<d where f: B>Bool])
+func g {
+struct c<d where f: B
 if c {

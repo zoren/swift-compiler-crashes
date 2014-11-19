@@ -2,11 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class b<H : e, A = h> : A {
-class A.C<T])
-protocol p {
-}
-enum S<U : a {
-func g<Int][c> T : Any] {
-enum a: A? {
-e
+class b<H , A {
+class A
+enum S<U {
+func g<Int {
+enum a: A

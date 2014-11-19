@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var d : d<Q<T>Bool) {
+var : {
 protocol A {
-var b: b : [T>(A, d.A<T : NSObject {
-self.f : Int = g<T>("))
-typealias e : b> : b {
-func a")
-typealias b {
+var b: b
+typealias e : b
+typealias b

@@ -2,26 +2,24 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let t: A {
+let A {
 if true {
-assert() -> U) {
-func g<T>(x: Int {
-func c() {
+{
+{
+{
 }
 }
 }
-enum B : SequenceType, b where B {
-}
-func b(seq: T, Bool) {
+enum B : SequenceType
+func b( ) {
 protocol a {
-extension NSData {
-extension NSData {
+{
+{
 }
 }
-func a() -> T -> {
-override init(("))
-class A {
+func a
+{
 }
-for b {
+{
 }
-typealias d : a {
+typealias d : a

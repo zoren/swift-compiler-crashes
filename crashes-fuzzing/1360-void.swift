@@ -2,14 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<T) -> V {
+func c<T {
 class B {
-class func a: C<h, b {
-var b(self.init() {
+func a {
+(self.init {
 }
-typealias g: S) {
-}
-struct e = true }
+{
 }
 }
-0)
+}
+}
+0

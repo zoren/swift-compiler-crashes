@@ -2,13 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a: NSObject {
-class C(x(h: AnyObject) {
-struct c<T: ("
-class A {
-class A<H : NSObject {
-convenience init<h : b in c {
+func a {
+{
 }
-}
-class A : b[1])
-class b: b:
+class A : b
+class b: b

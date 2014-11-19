@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c {
-func b<e>(e : e) -> c {  e
-() {
+func b<e {
+{
 }
-enum A : String {
-case b = ""
-let c: A= .b
+enum A {
+case b
+let : A= .b

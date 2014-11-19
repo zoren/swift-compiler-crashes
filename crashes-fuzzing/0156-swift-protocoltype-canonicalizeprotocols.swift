@@ -3,12 +3,12 @@
 // Test case found by fuzzing
 
 protocol m {
-func ji<fe>() -> [q<fe>] {
+func ji< > ( ) -> q {
 }
-    func k(k: k.ed) {
+{
 }
-    func k((on, q))(ji: (on, q)) {
+{
 }
-    fe k {
+{
 }
 protocol q : k { func k

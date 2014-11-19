@@ -2,23 +2,22 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b: a {
+func b {
 protocol C {
-func a: A(T
-override func f(")
+func a: A
 typealias B {
 }
-deinit {
-typealias B<I : String {
-enum A {
+{
+{
+{
 }
-return S) -> {
+{
 }
 }
-b: c> {
+{
 }
 }
 protocol A {
-struct A {
+{
 }
-let t: B)
+let t: B

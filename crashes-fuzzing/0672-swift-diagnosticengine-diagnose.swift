@@ -3,13 +3,13 @@
 // Test case found by fuzzing
 
 {
-class A {
+{
 }
-static let h = B<1 {
-private let n1: A, A> {
-class A<T> Any, q:
+let h = {
+let : > {
+class A
 }
 }
 }
 protocol b : a {
-func a(obj
+func a

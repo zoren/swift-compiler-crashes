@@ -3,23 +3,22 @@
 // Test case found by fuzzing
 
 protocol a {
-func a(self.C) {
-switch x in x in x {
+{
+{
 }
 }
 protocol c {
-S<h : b {
+{
 }
-protocol A {
+{
 }
-func a<A<T>) -> {
-class b<T where A> {
-typealias A {
-}
-}
-}
-typealias A : a {
-struct X<l : d) -> ((")
+func a {
+{
+{
 }
 }
-func f: a {
+}
+typealias A : a
+}
+}
+func f: a

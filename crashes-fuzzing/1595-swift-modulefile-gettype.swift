@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-class a"
-struct c : P {
+class a
+struct c {
 let end = a!
 func a<T: a

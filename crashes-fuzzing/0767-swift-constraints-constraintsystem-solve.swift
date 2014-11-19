@@ -4,12 +4,7 @@
 
 let f = {
 }
-struct A {
-var b {
 let b {
-class func c<h : A.init<T>, y)
-func b.count], f: Hashable> (m: c<()
-let h : b {
-protocol d = [1](")
+func c<h : A
 protocol A : a {
-func a<d
+func a

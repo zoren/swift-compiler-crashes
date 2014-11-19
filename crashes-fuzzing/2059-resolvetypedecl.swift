@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<d where B : Int = "
-static let b {
+struct c<d where B : Int
+let b {
 protocol a {
-func f, A, T)
-protocol A : a {
-struct A {
+func f
+{
+{
 }
 }
-func f(c(n: ()
+func f(c

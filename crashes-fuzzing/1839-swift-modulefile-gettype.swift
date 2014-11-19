@@ -5,8 +5,7 @@
 import Foundation
 class c
 protocol a {
-var a: A {
-("""
+var : A
 }
 protocol A : A<T> {
-typealias A :
+typealias A

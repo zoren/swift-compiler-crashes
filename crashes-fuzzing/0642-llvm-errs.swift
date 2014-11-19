@@ -4,10 +4,7 @@
 
 protocol A {
 protocol a : b {
-typealias b {
-let f : H.A<T>>((")
+typealias b
 }
-case .c {
-return [["","
 }
-func a: A {
+func a: A

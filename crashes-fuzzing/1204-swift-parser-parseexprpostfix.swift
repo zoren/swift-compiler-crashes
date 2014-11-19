@@ -2,14 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import Foundatio: c) {
+import Foundatio
 }
 func h<d {
 enum h {
-fun class b
-struct l<e : SeType> {
+class b
+{
 }
-func h<e>() -> [l<, l: i)) {
+func h {
 b {
-(h -> i)  t: n>(s: t) {
-sinterna
+h n {
+s

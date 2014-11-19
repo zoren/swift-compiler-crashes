@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 import Foundation
-class B : NSObject {
+class B : NSObject
 }
-}
-func g<T> : A? {
+func g<T {
 protocol C {
-typealias B : B.f : e
-public var c, i: T>?
+typealias B : B.f
+var c, i: T

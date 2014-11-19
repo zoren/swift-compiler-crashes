@@ -2,25 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class b(f() {
-}
-return S) -> {
-}
+class b
 import Foundation
-case b {
-extension NSSet {
-}
-S.Type) -> (object1: d where T> Int = T> Bool {
-}
-struct c(bytes: Int][1])).Type) -> U)
-}
-var b = { c]
-}
-return self.Type) {
+Type
+var b = { c
 }
 protocol a {
-typealias e where T -> {
+{
 }
-typealias B : B(t: A, A
-func x: A.E == a: (["[Byte], "")
-let t: b(i(x)
+typealias B : B
+let t: b

@@ -2,16 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-typealias e = Int) {
-}
-var e: a {
-init <T {
+typealias e = Int
+var a {
+{
 }
 protocol d {
-protocol b where H.init(Any, range.advance(f<B {
+{
 }
-typealias f : Any, f: b: ExtensibleCollectionType>Bool) -> (Any) {
-func f("
-let i: a {
-struct e = Swift.h>("
+typealias f : f
+let : a
 func a

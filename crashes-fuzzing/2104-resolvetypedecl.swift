@@ -2,17 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i: A? {
-class func f: U : A> {
+func i {
+{
 }
-func f: a {
-}
-class f: NSObject {
-}
+func f: a
 struct d<T where g: a {
 }
 protocol a {
-var b: a {
+{
 }
-protocol b : d {
-o
+protocol b : d

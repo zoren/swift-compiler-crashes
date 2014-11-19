@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-for c == i<j : b where H.g : T
+for == i
 protocol b : a {
 protocol a {
-func a(b: a {
+func a {
 }
 typealias d: a

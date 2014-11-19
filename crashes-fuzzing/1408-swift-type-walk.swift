@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 class A {
-func a(a")
+func a(a
 func a<H : A.a

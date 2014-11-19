@@ -3,15 +3,12 @@
 // Test case found by fuzzing
 
 {
-var d : c](t: (h> T) {
-}
-case b : SequenceType, AnyObject)
-(s: AnyObject, U) -> Int {
-public subscript ([c: A, x in x = Swift...c : S.A"")) {
-class func g> {
+{
+" " {
+func g> {
 }
 }
 }
 }
 protocol c {
-typealias B : B?
+typealias B : B

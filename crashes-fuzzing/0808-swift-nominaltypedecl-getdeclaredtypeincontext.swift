@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 struct S {
-override init() {
-self.init(x: NSObject {
+init( ) {
+{
 }
-enum S<T where I.c == T
+enum S<T where I = T

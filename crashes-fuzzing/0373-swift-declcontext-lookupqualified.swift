@@ -3,4 +3,4 @@
 // Test case found by fuzzing
 
 var d {
-enum S<T where I.e = b: T>: e
+enum S<T where I.e = b > : e

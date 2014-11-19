@@ -2,17 +2,17 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<h>() -> (h, h -> h) -> h {
-   h e h.b = {
+func g<h {
+{
 }
- {
-   h) {
-        d  }
+{
+{
 }
-g j) {
+}
+{
 }
 class e {
-    func d((c) {
-    }
+{
+}
 }
 e {

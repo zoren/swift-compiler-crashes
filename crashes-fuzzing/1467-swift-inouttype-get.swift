@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 class c {
-a<S {
+{
 }
-let t: SequenceType where I.R
+let : SequenceType
 protocol d : a {
 func a

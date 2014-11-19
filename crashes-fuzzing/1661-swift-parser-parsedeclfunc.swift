@@ -3,13 +3,13 @@
 // Test case found by fuzzing
 
 {
-case b = A, U>: AnyObject) {
-}(g() {
-struct c) -> V>() {
-func f, AnyObject)
+{
+} ( ( ) {
+{
+func
 }
 }
 }
 protocol d {
-func a)
-typealias g: a {
+func a
+typealias g: a

@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-var f = b<T>()
+var f = b<T> ( )
 protocol a {
-var b: b, AnyObject.count]
+var : b
 func b<h: b

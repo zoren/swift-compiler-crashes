@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 var b {
-override func d(a: k.C: B>(T.C) {
+{
 }
-func i() {
+{
 }
-class C<T: ExtensibleCollectionType>
+class C<T: ExtensibleCollectionType
 }
-struct S<d {
-class func b<T : b> T
+struct S {
+func b<T : b

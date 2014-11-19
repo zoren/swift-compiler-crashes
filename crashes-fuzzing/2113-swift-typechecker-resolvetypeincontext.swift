@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 enum S<T where A.B.l : a {
-func b, o {
+func b {
 }
-protocol c = A? {
+{
 }
-var f {
+{
 }
 }
 class A<T

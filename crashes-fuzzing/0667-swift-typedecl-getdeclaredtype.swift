@@ -2,15 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<T>(a) -> {
-(true as String) -> {
-let l p {
+func b<T {
+true as String {
+{
 }
 }
-protocol l : d = {
+{
 }
 class k {
-protocol A {
+{
 }
 }
 k {

@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 protocol b : a {
-return self.B {
-var b> Any) -> T, y: SequenceType where T> Bool {
+{
+{
 }
 }
-var a: a {
-",""a)
-func a)
+var a: a
+func a

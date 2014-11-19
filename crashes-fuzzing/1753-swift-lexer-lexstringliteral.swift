@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-for b {
-protocol c == g> <3] {
-func i(T>() {
-let c((self.endIndex - range: a = [T) -> Any, """
+for {
+{
+func i (
+"
 }
 }
 protocol a {
-typealias B : B<Y> {
+typealias B : B

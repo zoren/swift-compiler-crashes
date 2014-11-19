@@ -4,8 +4,8 @@
 
 protocol C {
 protocol B {
-typealias C = b()
+typealias C = b
 }
-typealias e where S) {
+{
 }
 typealias b = B

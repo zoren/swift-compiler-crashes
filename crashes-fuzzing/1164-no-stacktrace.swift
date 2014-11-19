@@ -2,14 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A {
-func g<U>(h: (A, U) -> U) -> (A, U) -> U {
-return { _, x in retuc b() {
-struct c {
-static let d: String = {
-}()
+func g<U {
+{ {
+{
+{
+}
 }
 }
 }
 enum A : String {
-case b = ""
+case = " "

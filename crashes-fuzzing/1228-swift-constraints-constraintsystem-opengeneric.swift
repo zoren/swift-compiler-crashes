@@ -2,12 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<e>() -> (e, e -> e) -> e {
-f b f.f =c {
+func < {
+{
 }
-class f: c{  class func f {}
-struct f<c : f,f where e.c == c.c
-var e: Int -> Int = {
-}
-let d: Int =  { c, b in
-}(f, e)
+struct f<c : f where e = c
+let Int = { c, b in
+f

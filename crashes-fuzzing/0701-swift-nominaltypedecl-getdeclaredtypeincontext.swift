@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T, range: CollectionType where B : Array) {
-init <T : A {
+class B<T where B : Array {
+{
 }
-enum S<H : b : String)
+enum S<H : b
 func b

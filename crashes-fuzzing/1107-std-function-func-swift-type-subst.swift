@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<d {
-class d<j : i, f : i where j.i == f> : e {
-}
+func < {
+class d<j : i, f where j.i = f> : e
 protocol i {
 protocol i

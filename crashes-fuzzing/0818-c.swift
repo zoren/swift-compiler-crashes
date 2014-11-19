@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a: A {
+func a {
 protocol A {
-func c: d : B)
-func d() {
-return "
+func c: d
+func d
 typealias d

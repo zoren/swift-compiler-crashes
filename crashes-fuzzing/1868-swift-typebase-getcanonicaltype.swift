@@ -4,9 +4,8 @@
 
 protocol b {
 protocol a {
-typealias g: start, g> {
+typealias g: g
 }
 }
-}
-func a<T) {
+func < {
 class a: b

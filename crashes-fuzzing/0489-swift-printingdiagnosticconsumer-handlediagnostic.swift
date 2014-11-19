@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T where g: A: a {
-let c : a {
-struct Q<T : NSManagedObject {
-protocol A {
+class B<T where g: A {
+let : a {
+struct Q {
+{
 }
 var d {

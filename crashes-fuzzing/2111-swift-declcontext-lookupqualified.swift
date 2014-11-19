@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum B : T
-let g : a {
-class C<h : d where B == Swift.h = 0)() { c<Int>) -> {
-class func compose(e(")
+enum B
+let a {
+class C<h where B = Swift.h {
 func c

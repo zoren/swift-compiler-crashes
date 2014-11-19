@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a: a {
+func a {
 protocol f : a {
-typealias b : ih ml]
-enum b : Range<d>(f<U, j: SequenceType, U) as a<e
+typealias b
+enum b : Range<d>
 protocol a {
-r : T! {
+{
 }
 struct d

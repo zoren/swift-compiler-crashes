@@ -5,9 +5,9 @@
 protocol k {
 typealias m
 }
-struct e<j : k> {n: j
+struct e<j : k {
 let i: j.m
 }
-func g<f>() -> (f, f -> f) -> f {
-g e {}
-struct g<g where f.b ==g.b
+func g<f {
+e { }
+struct g<g where f.b =g.b

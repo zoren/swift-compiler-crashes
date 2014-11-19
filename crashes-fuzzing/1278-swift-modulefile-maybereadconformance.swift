@@ -2,22 +2,21 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func m<u>() -> (u, u -> u) -> u {
-p o p.s = {
+func m<u {
+{
 }
 {
-u) {
-o  }
+{
 }
-s m {
 }
-s p {
+{
 }
-q ""
-class e: n, p {
-func p(l: Any, g: Any) -> (((Any, Any) -> Any) -> Any) {
+{
+}
+""
+class e
+func p( ) -> ( ( ( ) ) -> Any) {
 return {
-(p: (Any, Any) -> Any) -> Any in
-func n<n : l,) {
+func n {
 }
-n(e())
+n(e( ) )

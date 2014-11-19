@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class k: c{  class func i {
+class k { func i {
 }
-class d<j : i, f : i where j.i == f> : e {
+class d<j : i, f where j.i = f {
 }
-class d<j, f> {
+{
 }
 protocol i {
 typealias i
-: d {
+: d

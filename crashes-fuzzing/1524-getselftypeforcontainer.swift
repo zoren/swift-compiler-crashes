@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a() -> {
+func a( ) -> {
 protocol c {
 enum a
 protocol a {
-class func b()
+func b
 typealias f : b

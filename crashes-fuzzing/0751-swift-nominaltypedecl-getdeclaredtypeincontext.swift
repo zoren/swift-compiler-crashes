@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 let a {
-struct S<T where T.B == e: NSObject {
+struct S<T where T : NSObject {
 var b = 0

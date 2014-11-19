@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 import Foundation
-for b in
-let g = compose<(g<T? = b
+for in
+let g = ( T? = b
 protocol a {
-class A, let n1: () {
-return "))!.init()
-typealias e : e == ")() ->
+let n : (
+typealias e : e

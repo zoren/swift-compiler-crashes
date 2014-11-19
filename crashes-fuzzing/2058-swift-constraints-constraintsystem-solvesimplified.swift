@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-map()
-func ^((t.Element == {
-protocol A = [")
+map
 struct Q<T where T: a {
-var a: (() -> Any) { c,
+var : ( ( ) -> A

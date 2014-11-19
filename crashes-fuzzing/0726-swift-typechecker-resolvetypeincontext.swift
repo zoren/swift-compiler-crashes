@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class c : Array<h : NSObject {
+class c
 protocol a {
-typealias d: d>?
-typealias B<Int
-func a<T>()
+typealias d: d
+typealias B
+func >
 enum B : c

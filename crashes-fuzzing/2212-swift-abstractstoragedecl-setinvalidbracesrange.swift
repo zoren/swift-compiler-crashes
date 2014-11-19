@@ -4,12 +4,12 @@
 
 import DummyModule
 }
-init <T>(c : l.C) -> S {
-init(x) -> T) {
-class A {
-protocol A {
+-> {
+x {
+{
+{
 }
-class a {
+{
 }
 }
 protocol A {
@@ -19,7 +19,7 @@ var d {
 }
 }
 func a
-() -> {
+{
 }
 protocol a {
-typealias e : e> T {
+typealias e : e

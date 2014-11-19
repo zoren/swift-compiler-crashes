@@ -4,8 +4,8 @@
 
 let c {
 struct A {
-func g> T {
-}))
-var b: A.startIndex, range.advance()
+{
+}
+var b: A
 }
 struct A<T where f: b

@@ -4,6 +4,6 @@
 
 let a {
 protocol P {
-protocol a {
+{
 }
 typealias e : e

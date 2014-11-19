@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 protocol C {
-struct c = compose(1]() {
-self.E == b: T>("
-typealias B : b = c(AnyObject)
-protocol b : B, B
-func f:
+struct c
+typealias B : b = c
+protocol b : B
+func f

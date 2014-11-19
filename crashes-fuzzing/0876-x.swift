@@ -3,15 +3,13 @@
 // Test case found by fuzzing
 
 if true {
-b> {
-return m: a {
-protocol a {
+{
+{
+{
 }
 }
-public var d {
+{
 }
 }
-var d where A<f = Swift.g = c(self.C: (c : b in
-enum b = F>] as [T.f : e("
-class B : b(x, a)
-class b: b {
+class B : b
+class b: b

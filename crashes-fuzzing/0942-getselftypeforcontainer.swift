@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<d : AnyObject) {
-class func i: a: (z(f()
-}))
+class B<d {
+func i: a
 protocol a {
-func c) -> [T>(Any, U>() -> : ({
-init<B : d : SequenceType where A>("
+func c
 typealias d: d

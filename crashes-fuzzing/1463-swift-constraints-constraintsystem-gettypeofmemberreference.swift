@@ -2,14 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i<T : Any) -> {
-protocol b {
+func i<T {
+{
 }
 enum A {
-struct e = g: () {
+struct e {
 }
-class b: 1)) -> {
+{
 }
-var b = e() {
+var b = e( ) {
 }
-func e(b(()
+func e(b

@@ -3,20 +3,19 @@
 // Test case found by fuzzing
 
 enum A {
-protocol A {
+{
 }
-return b) -> b {
+{
 }
-class a<g: c: A>() -> () -> Void>([0x31] = nil
-static let n1: C: A")
-enum s m y: A? {
+class a<g: c
+{
 }
-class a {
+{
 }
-var d {
+{
 }
-var b = c<c(((c: C: m : c<d: b {
+var b = c {
 }
-protocol g m n: A, k b = D> String {
+{
 }
 func c<f : b

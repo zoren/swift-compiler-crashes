@@ -5,14 +5,4 @@
 import CoreData
 if true {
 struct Q<T where I.c : a {
-deinit {
-protocol a {
-}
-protocol A {
-struct S {
-}
-}
-}
-println() {
-let f = A(x: String = "A>(b: d = A.b = c()
-typealias R = F>()
+typealias R = F

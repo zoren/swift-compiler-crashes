@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a() -> a {
-protocol A {
-}("))
-struct B<d) -> e!() {
+func a( ) -> {
+{
+}
+struct B<d {
 enum a: d {
-case b = nil
+case = nil

@@ -2,18 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<T where d: I.B
-class C<T>(c> {
-class C(f)!("\()
-static let c: d = c<c(""foobar""
-func d<T {
-return x in c == { _, Any) {
-struct A {
+class d<T where d: I
+let c: d = ( " "foobar
+func < {
+{ {
+{
 }
-protocol P {
+{
 }
 }
-var d : () -> {
+{
 }
 }
-for c {
+c

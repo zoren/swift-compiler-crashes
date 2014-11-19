@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T) {
-protocol c : NSManagedObject {
+struct B {
+{
 }
 protocol A : A.b {
-func b(
+func b

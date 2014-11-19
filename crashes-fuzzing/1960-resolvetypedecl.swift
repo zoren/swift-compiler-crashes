@@ -2,9 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a<T where H.f = d.Element>(T
-println("A, object2)
-class func a(n: A> {
-typealias R = A"
-class A : a {
-f
+class a<T where H = d
+func a(n: A
+class A : a

@@ -4,8 +4,5 @@
 
 import Foundation
 protocol a {
-struct d() {
-init <H : d = """""A<Int
-func b: c) -> (A? = {
-return "
-func c<H : c: d.c
+func b: c
+func c<H : c

@@ -2,9 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<T : NSManagedObject {
-class B<b: B<c>: Array) { self[B<T -> Any {
-}
-self] = [1]
-}
+enum S<T {
+class B<b: B<c>
 protocol c

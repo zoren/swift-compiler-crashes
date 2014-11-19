@@ -2,23 +2,22 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var k = 1
-n class l<g> {
-let  enum e<q> : r {
-func k<q>() -> q -> q {
-return { h o h 1 {
+class l {
+enum e {
+func k<q {
+{ {
 }
 }
 class k {
-m func p() -> String {
-let m: String = {
-return self.p()
-}()
-func b<d {
-enum b {
-}}
-func e<l {
+func p( ) -> {
+let : String = {
+return self.p( )
+} ( )
+d {
+{
+} }
+func e {
 enum e {
-func p() { p
-func e() {
-unowned(u{
+func p( ) {
+func e( ) {
+unowned(

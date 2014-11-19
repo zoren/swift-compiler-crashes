@@ -2,18 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class func a() -> String {
-re> d) {
+func a( ) -> {
+{
 }
-protocol A {
+{
 }
-init <A: A where A.B == D>(e: A.B) {
+{
 }
-var e: Int -> Int = {
-return $0
-=  { c, b in
-}(f, e)
-func a(b: Int = 0) {
+var : Int -> Int = {
+$0
+{
+}
+func a(b: Int = 0 ) {
 }
 let c = a
-c()
+c( )

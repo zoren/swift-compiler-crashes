@@ -4,5 +4,5 @@
 
 import Foundation
 class A : NSObject {
-let i: NSObject {
-super.E == {
+let i {
+super.E {

@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 import Foundation
-let t: (T>())
+let : (T )
 protocol a {
 func c<T, length: c

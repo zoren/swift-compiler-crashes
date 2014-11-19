@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 class A {
-let start = 1].B, range.A? = c> Self {
+let start = 1 A {
 }
 protocol A {
-typealias B : B<U -> T> (c(n: Any) {
-public var f("ab""\((A() {
-static let n1: ({
+typealias B : B
+let n : (

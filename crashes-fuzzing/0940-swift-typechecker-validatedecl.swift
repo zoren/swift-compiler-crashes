@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 protocol P {
-struct B.d where B : e == [Byte](c<T, y)
+struct B
 }
 protocol d : P {
-public var a: a {
-let f : b {
+var : a {
+{
 }
 }
 class a : B

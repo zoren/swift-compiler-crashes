@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A : l.c {
-typealias d>(Any) {
-return """"".B)
+protocol A {
+typealias d
 }
 extension A {
-protocol d == true }
-enum a: T, A {
+protocol d }
+enum a: A

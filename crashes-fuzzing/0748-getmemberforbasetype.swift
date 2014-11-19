@@ -3,11 +3,8 @@
 // Test case found by fuzzing
 
 protocol b {
-i<T>(Range(e> U -> T : b, T> (p: T>
-typealias e where f<T>(#object1, f(t: SequenceType> ("
-self.init()
-class C(i: start, a)
-typealias C {
+init( )
+class C
+typealias C
 }
-}
-typealias b = b(seq: b() -> Int
+typealias b = b(seq: b( )

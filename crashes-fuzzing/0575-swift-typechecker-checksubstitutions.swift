@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct D : T, f: T>]("")
-class func g<I : NSManagedObject {
-class B<H : B<D> V
+struct D
+func < {
+class B<H : B<D>

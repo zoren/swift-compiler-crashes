@@ -4,8 +4,8 @@
 
 import CoreData
 class A : NSManagedObject {
-func b<T: q o f.g == g> {
+func b<T: q {
 }
-protocol q {
+{
 }
 func q<k:q

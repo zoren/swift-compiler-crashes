@@ -4,11 +4,11 @@
 
 import DummyModule
 }
-i> Void>(T>(a(""\(true {
-class func a: SequenceType where h>] {
+Void> (T> (a( " " ( {
+{
 }
 }
 protocol A : a {
-() -> {
+{
 }
 func a

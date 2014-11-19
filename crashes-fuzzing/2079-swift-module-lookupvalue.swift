@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let f = true }
-struct D : NSObject {
-println() -> {
+let f = true
+struct D {
+{
 }
 protocol P {
-typealias d : d == b> Int = [B
-case A, y: Any, x = ")) -> : NSObject {
+typealias d : d
 func c
-self.B<D

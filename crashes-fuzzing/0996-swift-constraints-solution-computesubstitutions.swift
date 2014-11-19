@@ -4,7 +4,7 @@
 
 protocol A {
 func a
-typealias e : b)
+typealias e
 }
-struct c: a {
-let end = .A.C((a((A.a: Int
+struct c {
+let end = A.C ( A.a

@@ -3,12 +3,12 @@
 // Test case found by fuzzing
 
 {
-b: NSObject {
-static let b {
-(()
+b {
+let b {
+(
 }
 }
 }
-func b<Int) {
+func < {
 protocol e : a {
 func a

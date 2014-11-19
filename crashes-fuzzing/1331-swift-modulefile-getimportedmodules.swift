@@ -2,21 +2,21 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T! {
-map() -> String {
-return d.<d = b) {
-protocol d {
+func f<T {
+{
+{
+{
 }
 }
 }
 var d {
-A() -> String = g, f<S : Int = B<c: c(()() -> Any in
-struct S : Array) {
+A( ) ->
+{
 }
 }
-let i(c) {
+{
 }
 class A {
-for ()-> {
+{
 }
 protocol A : a

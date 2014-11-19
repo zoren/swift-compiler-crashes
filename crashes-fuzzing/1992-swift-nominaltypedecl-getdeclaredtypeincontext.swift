@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<h: SequenceType where h: A where T -> {
-func g(f.Type) -> Self
+class A<h where h: A {
+func g( ) -> Self

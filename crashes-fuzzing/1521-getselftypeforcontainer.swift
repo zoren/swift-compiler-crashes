@@ -2,18 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T: a
-func g: c<S {
-let start = [0) -> (i: b: T> T where H) {
+class B<T
+func g {
+{
 }
 protocol C {
-return self] = {
-public class A {
+{
+{
 }
 }
-enum a((start, AnyObject.Type) -> {
+{
 }
-let foo as String)
-typealias d: B<d>(n: B
-return S<(t: S("
-class func b
+typealias d: B<d>
+func b

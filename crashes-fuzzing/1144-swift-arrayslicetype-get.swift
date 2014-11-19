@@ -2,26 +2,25 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol l : p {
-}
-func p<m>() -> [l<m>] {
-return []
-m o m.i = {
+protocol l
+func p< > ( ) -> [l<m> {
+return [ ]
+i {
 }
 {
-o) {
-p  }
+{
 }
-protocol f {
 }
-class m: f{  class func i {}
-protocol p {
+{
 }
-class o: p {
-func ^(d: e, Bool) -> Bool {g !(d)
+class m { { }
+{
+}
+class o {
+{
 }
 protocol d {
-f func g()
-f e: d {
+func g
+{
 }
 protocol g : e { func e

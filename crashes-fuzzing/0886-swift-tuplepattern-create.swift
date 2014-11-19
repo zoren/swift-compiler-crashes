@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-(T: [c>()
-class b: A {
+( [ > (
+class b {
 func d<S : d

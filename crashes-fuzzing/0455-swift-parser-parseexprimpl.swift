@@ -6,12 +6,10 @@ func k<g {
 enum k {
 func l
 var _ = l
-enum S: P {
-func f<T>() -> T -> T {
-return { -> T
-}
-importct c {
-static let d: String = {
+enum S {
+func f {
+{
+let String = {
 {
 typeac
 }

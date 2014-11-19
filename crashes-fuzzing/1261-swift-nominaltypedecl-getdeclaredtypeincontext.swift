@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A {
-func f() {
-let h: (A, A) -> A = { c, x in x
-struct d<f : e, g: e where g.h == f.h> {
-class A {
+struct A
+func f( ) {
+let : (A A) -> A = { c, x in
+struct d<f where g = f {
+class A

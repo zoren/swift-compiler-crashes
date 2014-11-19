@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 protocol A : d {
-protocol d : NSManagedObject {
-let h : e: B<h : a {
-"
+protocol d {
+let h : e
 }
-typealias e == j>
+typealias e

@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C<H : d where I.e == F>) -> (x: AnyObject, g: c()
-init(")
+class C<H where I = F
 func a
-class func a(array: C> ("")
+func a(array: C

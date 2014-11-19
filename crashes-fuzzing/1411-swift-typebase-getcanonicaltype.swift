@@ -4,10 +4,8 @@
 
 protocol b {
 protocol P {
-typealias d : d where l) -> : c>Bool]((b(()
-println(array: b[c(")
+typealias d : d
 }
 }
-protocol a : [$0
-convenience init("])
-let n1: a = b: B<B {
+protocol a
+let : a = b

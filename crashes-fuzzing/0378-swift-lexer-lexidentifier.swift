@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 if true {
-println(c: NSObject {
-struct D : NSManagedObject {
-struct S {
+{
+{
+{
 }
 }
 }
-struct B<I : d where g: H) -> : P {
+struct B<I where g: H {
 func a

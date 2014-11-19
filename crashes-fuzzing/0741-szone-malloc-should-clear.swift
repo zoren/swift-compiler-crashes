@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c(b, k : a {
-extension NSSet {
+func c(b {
+{
 }
 }
 protocol b {
-func g> {
-return "
+func >
 typealias d : d

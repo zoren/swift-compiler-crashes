@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-println() {
+println( ) {
 }
-class A<I : d.d<Int) -> {
+class A {
 protocol B : C {
-typealias C {
+typealias C

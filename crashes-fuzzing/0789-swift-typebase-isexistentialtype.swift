@@ -2,11 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-a)
-class A = d<T> : c<j : C {
-class a {
-}
+class A
 }
 extension A {
-func g<I : Any, let h == a: 1
+func g<I : Any
 enum S<d

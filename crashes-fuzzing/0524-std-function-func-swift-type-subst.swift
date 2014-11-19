@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 protocol B : a {
-case A, Any, AnyObject, (c(t: d {
+{
 }
 protocol a {
 }

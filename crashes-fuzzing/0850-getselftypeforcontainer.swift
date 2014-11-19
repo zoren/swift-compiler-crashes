@@ -4,9 +4,7 @@
 
 protocol a {
 protocol c : d {
-func d<T: B, a
+func d
 }
-static let h : X<Q<T.Type) {
-struct e = 1]]("))
 }
-func f: a {
+func f: a

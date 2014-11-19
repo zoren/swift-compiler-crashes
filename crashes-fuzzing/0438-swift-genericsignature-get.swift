@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 import Foundation
-class d<true
-func b<d-> d { class d:b class b
+class d
+func b<d { class d:b class b

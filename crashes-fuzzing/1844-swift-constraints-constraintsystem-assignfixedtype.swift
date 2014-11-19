@@ -2,19 +2,19 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A, Any) -> {
+class A
 }
-println(A? {
+A? {
 }
-func g<T: A {
+func < {
 protocol a {
-func b) -> Bool {
-extension NSSet {
+func b {
+{
 }
-class A {
+{
 }
 }
-var d where g: H.init() -> {
+{
 }
 protocol b : a {
-func a(b()
+func a

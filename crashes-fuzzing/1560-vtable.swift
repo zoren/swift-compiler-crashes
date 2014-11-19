@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 protocol A {
-class func b<T) -> ()
+func b
 protocol c {
 }
-typealias b {
-return "
-func c((range: b = b
+typealias b
+func c( (range: b

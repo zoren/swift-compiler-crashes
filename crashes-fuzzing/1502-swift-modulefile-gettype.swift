@@ -4,13 +4,12 @@
 
 if true {
 class A {
-static let g = b: (Any, d
-return "a
-var d {
-for ((c] = a<d>) {
+let g = b
+d {
+{
 }
 }
-class B == {
+{
 }
 protocol b : d {
 typealias d

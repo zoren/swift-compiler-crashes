@@ -2,19 +2,17 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i: BooleanType>, A, g.E == [Int) {
-func a(""")
+func i: BooleanType
 protocol A {
 typealias B : B
-let d: c) {
-self.g == B? {
-protocol c {
-func f<T, a: b> {
-protocol b = d(a: Array) {
+let : c {
+{
+{
+{
+{
 }
 }
 }
 }
 }
-func c({
-c
+func c

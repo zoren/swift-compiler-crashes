@@ -4,10 +4,8 @@
 
 protocol a {
 protocol b : b {
-func b(.Element>: SequenceType where h>(i> S {
-return ")
+func b
 }
-}(n: Range([0] == b: Int -> {
-}
+} ( ( [ ] == b
 }
 a

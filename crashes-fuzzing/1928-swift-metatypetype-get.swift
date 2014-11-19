@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<T -> {
-struct S {
+func b<T {
 enum A {
-func b(n: A? {
-self.h)] = ["""
-let t: Any, i: a = b: (a)
-protocol a {
-let
+func b(n: A?
+"
+let : a = b
+protocol a

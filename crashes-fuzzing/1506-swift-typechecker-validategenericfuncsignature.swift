@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var f: a {
+var a {
 protocol a : a {
-typealias d: U>)()
-var f : d whe
+typealias d
+var f : d

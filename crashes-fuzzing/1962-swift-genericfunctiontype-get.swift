@@ -5,6 +5,6 @@
 == {
 }
 class c<T: c> : A {
-func b: T: H.c {
+{
 }
 class A

@@ -2,31 +2,20 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func o<t>() -> (t, t -> t) -> t {
-   j j j.o = {
+func < {
+{
 }
- {
-   t) {
-        h  }
+{
 }
-protocol o {
+struct c<d {
+var b: c<d> {
+]
 }
-e o<j : u> {
+{
 }
-func n<q>() {
-    b b {
+{
 }
-    k {
+{
 }
-struct c<d : SequenceType> {
-    var b:  [c<d>] {
-    return []
-}
-protocol a {
-}
-class b: a {
-}
-func f<T : BooleanType>(b: T) {
-}
-func a(x: Any, y: Any) -> (((Any, Any) -> Any) -> A  var d: b.Type
+var d: b
 protocol c : b { func b

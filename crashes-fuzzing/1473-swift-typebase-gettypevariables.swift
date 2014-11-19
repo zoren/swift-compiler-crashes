@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 var d {
-typealias e = j> T> Bool {
+Bool {
 }
 protocol a {
 func b<T: b

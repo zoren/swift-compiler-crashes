@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 if true {
-struct B<T where I.c: d = {
-class func b
+struct B<T where I.c: d {
+func b

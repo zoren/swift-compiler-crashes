@@ -5,18 +5,18 @@
 protocol a {
 class b: a {
 }
-func f<T : BooleanType>(b: T) {
+{
 }
-func a(x: Any, y: Any) -> (((Any, Any) -> Any) -g {
+{
 }
-if c == .b {
+{
 }
-struct j<l : o> {
+{
 }
-func a<l>() -> [j<l>] {
+func a< > ( ) -> j {
 }
-func f<l>() -> .l == l> {
+{
 }
-protocol b {
+{
 }
-struct j<n : b> : b {
+struct j<n : b> : b

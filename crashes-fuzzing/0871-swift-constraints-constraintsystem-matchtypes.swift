@@ -2,22 +2,20 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<U : P> : String = nil
-func f<T
+func f< > : String
+func f
 import Foundation
-return [unowned self.Type) {
-return self.d.c = compose(self.init("
-var d where I) {
-println((v: NSObject {
-protocol d = {
-var e!.h = {
+{
+( (v: NSObject {
+{
+{
 }
-struct c {
+{
 }
 }
-var e: A {
-for b = {
+{
+{
 }
 }
-}()
+} ( )
 f = nil

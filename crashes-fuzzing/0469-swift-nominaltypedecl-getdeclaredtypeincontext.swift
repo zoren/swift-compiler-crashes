@@ -3,10 +3,10 @@
 // Test case found by fuzzing
 
 if true {
-class d<T> V {
+{
 }
-let a {
+{
 }
-var b> T -> {
+{
 }
-enum S<T where H.e : A
+enum S<T where H : A

@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a(n: P> Int {
-return ".e> T
+func a(n: P
+"
 protocol P {
-override func c<I : c
+func c<I : c

@@ -3,10 +3,8 @@
 // Test case found by fuzzing
 
 class B {
-func a: (A, y: T> V, let f = b: C {
-b("","](m([1)
-func a<l : B.a: d {
+func a (A
+func a<l : B.a {
 }
 protocol A {
-let v: (n: a<T>()
-}
+let v: (n: a

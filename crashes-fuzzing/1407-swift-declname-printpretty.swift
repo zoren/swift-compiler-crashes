@@ -3,16 +3,14 @@
 // Test case found by fuzzing
 
 class A {
-struct c = i> String {
+{
 }
 protocol B {
-enum S<h> (f.E == h> Int = A(())) -> {
+{
 }
-class func f(t.join(c
-b) -> {
-self.A")) -> Any] = 1))
+func f(t.join
 }
 }
 }
 protocol A : a {
-func a(self)
+func a

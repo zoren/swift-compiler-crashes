@@ -2,19 +2,17 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func compose<() {eturn self.d.endIndex - range.init(e: 1
-protocol c {
+func < ( ) {
+{
 }
-if c {
+{
 }
-let d>) -> {
+{
 }
-let d<U {
+<U {
 }
-class func f(n: a {
-func d>(.A"]() -> Void>()
-func a(x> {
+func f(n: a
+{
 }
 protocol a {
-func a<I : a {
-assert
+func a<I : a

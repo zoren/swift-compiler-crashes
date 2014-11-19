@@ -3,61 +3,61 @@
 // Test case found by fuzzing
 
 func compose<T {
-class C> {
-return d<U -> : Array<C) {
-class A {
-extension NSSet {
-extension NSSet {
+class C {
+{
+{
+{
+{
 }
 }
 }
-deinit {
+{
 }
 }
-}(f: AnyObject, f: C {
-let t: C) {
+} ( f: C {
+{
 }
-return g, object2: U : $0) {
-extension NSSet {
-}
-}
-}
-typealias e == f<T: Array<A? {
-typealias e = b<D> Int -> Self {
-protocol d = {
-}
-return g<D> {
-let h: C) {
+{
+{
 }
 }
 }
-func call() {
+typealias {
+{
+{
+}
+{
+{
 }
 }
-protocol a = c: String {
-self.b in x }
-var f : e: c: Array<T! {
-private class A {
-var d = compose<T where T> {
+}
+{
 }
 }
-protocol P {
+{
 }
-func f: C {
-}
-return b<T>) {
-}
-}
-return ""A>(x: d {
-let a {
-}
-private let t: B? = F>: A {
+{
+{
+{
 }
 }
-private let t: AnyObject) {
-struct d.e == {
-typealias h: AnyObject.b {
+{
 }
-func g<T.d<f : AnyObject) -> T : d {
+{
+}
+{
+}
+}
+" " {
+{
+}
+{
+}
+}
+{
+{
+{
+}
+func g {
 typealias E
 }

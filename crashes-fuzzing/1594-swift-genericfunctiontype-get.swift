@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 protocol C {
-func a: Hashable> {
-typealias g, x in return ".Generator.B : 1])
+func a: Hashable
 }
-struct D : NSObject {
+struct D {
 protocol c : b {
-typealias b = [Byte
+typealias b

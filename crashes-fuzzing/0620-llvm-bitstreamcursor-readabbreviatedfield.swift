@@ -5,4 +5,4 @@
 class a {
 deinit {
 protocol B : a {
-class func a
+func a

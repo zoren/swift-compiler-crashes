@@ -5,12 +5,11 @@
 let a {
 struct c {
 protocol a {
-typealias B : A, a(c(1)
-return "
-func a)?
+typealias B : a
+func a
 }
-func b<1 {
+{
 }
-for c {
+{
 }
-let v: Int = c
+let v: Int

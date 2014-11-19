@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 protocol P {
-typealias h: A<d>(_ c(b: (""ab")
-class func a: P {
+typealias h: A<d>
+func a {
 }
-class A<T : A<T, f(2, Any) -> e: l) -> {
+class A< T {
 }
 typealias d

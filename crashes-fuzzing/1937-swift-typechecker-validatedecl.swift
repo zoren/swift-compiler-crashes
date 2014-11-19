@@ -3,11 +3,8 @@
 // Test case found by fuzzing
 
 protocol a {
-class A> Bool {
+class A
 }
-}
-struct S {
-class func b(c, range.Element == 1
+func b(c ==
 protocol c : a {
-var f : start, object2: A
-e
+var start, object : A

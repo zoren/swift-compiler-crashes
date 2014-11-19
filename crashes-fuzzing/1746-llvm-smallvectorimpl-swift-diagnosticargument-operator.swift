@@ -3,24 +3,23 @@
 // Test case found by fuzzing
 
 let a {
-return self.startIndex, y: A.f : c {
-return b> U {
-protocol a {
-func a<T : P {
-typealias e = e> {
+{
+b {
+{
+{
+{
 }
 }
-})
-class func d>(m: Any, A<T.init(m: Hashable> {
 }
+func d> (
 }
 }
 }
 protocol A : a {
-extension NSSet {
+{
 }
-let h: A<I : NSManagedObject {
-println()) -> Any) {
+{
+{
 }
 }
-private class func a: C: C {
+func a

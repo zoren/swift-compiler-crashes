@@ -3,14 +3,14 @@
 // Test case found by fuzzing
 
 func e<l {
-n<n : l,) {
-}
-) -> (m, m -> m) -> m {
-e c e.i = {
+{
 }
 {
-m) {
-n  }
+{
 }
-protoco}
-class e: f{  class f
+{
+{
+n }
+}
+}
+class e: f class f

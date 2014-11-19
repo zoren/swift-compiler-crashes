@@ -2,16 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-}(a: U) + seq: B<o p)
+( ) + seq
 struct A {
 protocol P {
 typealias e: d {
 }
-var b {
+{
 }
-protocol c : Hashable> : A {
-<T>func c<T>(g(n: B<T>(""\()
-protocol c : e>: A(T) -> {
+protocol c
+protocol c : e {
 }
 func a
-var d : e:
+var d : e

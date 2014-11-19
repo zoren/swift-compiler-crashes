@@ -3,26 +3,26 @@
 // Test case found by fuzzing
 
 var d {
-protocol c = {
+{
 }
-func b> {
+{
 }
-override init<T -> T>) {
+{
 }
-enum A {
-struct e {
-}
-}
-self] {
-}
-assert() {
-self.c) {
-let a {
-}
-protocol P {
-let h> {
+{
+{
 }
 }
+{
+}
+{
+{
+{
+}
+{
+{
 }
 }
-func b()"\(n: AnyObject.Type) -> T -> Int = ")
+}
+}
+" \(n: AnyObject.Type) "

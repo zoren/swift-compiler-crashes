@@ -4,11 +4,11 @@
 
 protocol P {
 func d(i: d
-class func f<U {
+{
 }
-case .<T) {
-class a!.c = true }
-class func d
-class A {
+{
 }
-typealias d((a
+func d
+{
+}
+typealias d

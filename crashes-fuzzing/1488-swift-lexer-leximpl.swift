@@ -2,16 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class b().A> () {
-var b: C<f = {
-""\(self, length: Int>) {
+s {
+var : {
+" " {
 extension NSSet {
-func b)() -> T) -> {
+{
 }
-func compose(object1, (self.Element>()
+func compose (
 }
 }
 }
 }
 protocol a {
-func a<d: a {
+func a<d: a

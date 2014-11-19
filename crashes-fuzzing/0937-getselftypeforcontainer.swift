@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 class d {
-func l<j where j: h, j: d>(l: j) {
+func l<j where j: h, j: d {
 }
-func i(k: b) -> <j>(() -> j) -> b {
+{
 }
-})
+}
 protocol d : b { func b

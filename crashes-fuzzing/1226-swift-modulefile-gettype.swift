@@ -4,21 +4,21 @@
 
 f> {
 }
-func c<g>() -> (g, g -> g) -> g {
-e n e.v = {
+func c<g {
+{
 }
 {
-g) {
-k  }
+{
 }
-f c {
 }
-class e: c{  class func v {}
-func d(g: Int = m) {
+{
+}
+class e { { }
+func d(g: Int {
 }
 let n = d
-class n {
-}(v, h)
-f d : d {
+{
 }
-func d<i>() -
+{
+}
+func d

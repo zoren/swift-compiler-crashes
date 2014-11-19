@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where I.E == Int
-let t: P {
-let t: B
+struct B<T where I = Int
+let P {
+let : B

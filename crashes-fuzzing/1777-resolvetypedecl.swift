@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-public class b<T, T where f: Any) -> Any in
-class func b: [self] {
-func d(B((start, g, c
-enum B : b = ["\(ar
+class b<T where f: Any
+func b {
+func d(B
+enum B : b

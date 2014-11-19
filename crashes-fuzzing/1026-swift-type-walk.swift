@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c : NSObject {
-override init() -> String {
+struct c {
+init {
 }
-func c<d : d where f: AnyObject) -> T : end: [T> (v: NSObject {
-return NSData("
+func c<d : d
 var d: c

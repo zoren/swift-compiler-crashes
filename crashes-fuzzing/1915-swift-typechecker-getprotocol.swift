@@ -5,5 +5,5 @@
 {
 0
 }
-struct X<T where f: c<T>() -> {
-public subscript () -> S
+struct X<T where f: c {
+subscript ( ) -> S

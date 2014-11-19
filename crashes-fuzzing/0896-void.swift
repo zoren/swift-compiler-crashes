@@ -4,6 +4,5 @@
 
 class A {
 deinit {
-class B : A> {
-}
+class B : A
 class A : A

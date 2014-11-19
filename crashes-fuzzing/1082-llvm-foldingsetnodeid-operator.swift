@@ -2,17 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<i>() {
-b b {
+func < {
+{
 }
 protocol b {
 typealias k
 }
-struct j<n : b> : b {
-c == .b {
+struct j<n : b {
+{
 }
 enum S<T> : P {
-func f<T>() -> T -> T {
-}
+func f<T
 protocol P {
-func f<T>()(T) -> T
+func f<T

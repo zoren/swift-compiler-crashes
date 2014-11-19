@@ -5,7 +5,7 @@
 protocol e {
 typealias h
 }
-func b<d-> d { class d:b class b
-struct d<f : e, g: e where g.h == f.h> {{
+func < {
+struct d<f : e, g where g = f.h { {
 }
-struct B<T : A> {
+struct B<T

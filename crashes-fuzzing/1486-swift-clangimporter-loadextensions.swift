@@ -3,9 +3,7 @@
 // Test case found by fuzzing
 
 protocol C {
-protocol A : c<T>((t: S<T -> String {
-println("
+protocol A : String
 }
-import DummyModule
 protocol b : C {
-func compose(n: A) {
+func compose(n: A

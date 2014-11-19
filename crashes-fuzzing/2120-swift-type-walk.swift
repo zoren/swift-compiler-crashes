@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 class c {
-func x: b.init() {
+init( ) {
 protocol b {
-protocol A : b: A<Q<T>? {
+protocol A : b {
 }
 func b<d: A

@@ -3,12 +3,12 @@
 // Test case found by fuzzing
 
 protocol A {
-return g: AnyObject> : C {
-protocol b where f: d {
+{
+{
 }
 }
 typealias d: d {
-let h : T> {
+{
 }
 }
-let h: d :
+let h: d

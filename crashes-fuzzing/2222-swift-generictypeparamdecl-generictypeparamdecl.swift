@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 class a {
-func e<S : d<T>
-var d = c<T>] = c<b> Void>) {
-}(array: Any, c])))" }
-struct c: e where h
+func e<S : d
+var d = c<T {
+}
+struct c: e

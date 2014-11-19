@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 protocol b {
-func b, object2: e).init(self)
-typealias b = a<T>? = g<T)] = i: 1]
-convenience init(array: b = Swift.Type) {
+func b
+typealias b
+init(array: b = Type)

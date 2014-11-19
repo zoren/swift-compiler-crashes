@@ -2,13 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a(x: Any, y: Any) -> (((Any, Any) -> Any) -> Any) {
-return {
+func a( ) -> ( ( ( ) ) ) {
+{
 }
-class A<T : A> {
+{
 }
 class c {
-func b((Any, c))(a: (Any, AnyObj c() -> String {
-}
+func b ( c
 }
 protocol c : b { func b

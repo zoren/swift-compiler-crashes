@@ -3,12 +3,12 @@
 // Test case found by fuzzing
 
 protocol P {
-class func ^(t: e? = D> {
-func c) {
-public var f = D>(c(A? {
+func ^ ( = {
+{
+var f = D> ( {
 }
 }
 }
-func c) {
+func c {
 }
-typealias e : SequenceType, e
+typealias e : e

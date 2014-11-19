@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 protocol b {
-var f : a {
+{
 }
-func b(a<Int>() {}
+func b(a<Int> { }
 class a<T: b

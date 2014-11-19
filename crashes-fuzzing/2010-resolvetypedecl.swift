@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<T where T : B(T! {
-return """)
+struct c<T where T : B
 extension A {
 }
 class A : c

@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 protocol b {
-class func a<S : Int = F>()
+func a<S : Int
 }
-protocol A : String {
-class func c].a() -> {
-func e("
-typealias f : c(n: b<T
+protocol A {
+func c
+typealias f : c

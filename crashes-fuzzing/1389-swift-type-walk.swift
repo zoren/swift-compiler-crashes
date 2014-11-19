@@ -3,18 +3,18 @@
 // Test case found by fuzzing
 
 extension A {
-func b<T: (c) {
+{
 }
 }
 enum A : b {
-class func c<T> String {
+{
 }
-struct S<T>) {
+{
 }
-class A {
+{
 }
-override init() -> V {
-b: AnyObject, Any) {
+{
+{
 }
 }
 func b<j : b

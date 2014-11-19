@@ -3,18 +3,15 @@
 // Test case found by fuzzing
 
 protocol a {
-class func e> {
-self.init()"a(T] = e> (T
-class B {
+func e
+{
 }
-typealias e() { }
-class A(Any)
-var f : AnyObject> e: d = D> {
-typealias d>(f<T : [0.f = B? = ")
-extension NSData {
-class B {
+typealias e { }
+class A
+{
+{
 }
-let foo as String) -> : T> String {
+{
 }
 }
-func e(e?) -> (A: A<T>Bool)
+func e(e? ) -> (A

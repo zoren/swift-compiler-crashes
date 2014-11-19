@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 class a {
-var _ = i() {
+var _ = i {
 }
-func i<j : b, k : d where k.f == j> (n: k) {
+func i<j , k : d {
 }
 }
-func ^(a: BooleanType, Bool) -> Bool {
+func ^ {
 }
-struct d<f : e, g: e where g.h == f.h>
+struct d<f where g = f

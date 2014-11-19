@@ -4,8 +4,8 @@
 
 import CoreData
 extension NSSet {
-let v: C {
-for b : Int -> S((array: P {
+{
+{
 }
 }
-convenience init(array: H) {
+init(array: H)

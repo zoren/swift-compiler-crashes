@@ -2,17 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<1 {
-return self.b : AnyObject, A {
-return b(")
-func a((A.B
-protocol b {
+struct B {
+func a (A.B
+{
 }
-typealias b = nil
-let v: A<T>() {
-let end = b(")
+let v: A
 protocol A {
-typealias f : a {
-return """)
+typealias f : a
 typealias B
-func g<h:
+func h

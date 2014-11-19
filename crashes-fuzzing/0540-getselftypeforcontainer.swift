@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 protocol A : A {
-class B : c: T) {
+{
 }
 func a
 protocol A : a

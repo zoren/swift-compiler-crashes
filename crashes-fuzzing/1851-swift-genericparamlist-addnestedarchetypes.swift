@@ -2,16 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-extension Array {
-}
+extension Array
 protocol A {
-protocol a {
+{
 }
-f: U {
-typealias e: Any) {
+{
+{
 }
 }
-var d: c()
+var d: c
 typealias g: d {
 }
-func c].Gene
+func c

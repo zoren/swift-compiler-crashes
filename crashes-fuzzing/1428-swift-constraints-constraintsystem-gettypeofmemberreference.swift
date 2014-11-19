@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<h : C {
+func g<h {
 class A {
-let start = b() -> {
+let start = b( ) {
 }
-class b> Any, end)
+class b
 protocol b

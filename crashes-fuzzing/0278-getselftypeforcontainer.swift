@@ -2,19 +2,19 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class n<t>: j {
-    init(h: t) {
-        u. j {
+class n<t {
+init(h: t) {
+{
 }
-struct c<j : SequenceType> {
-    var b:  [c<j>] {
-    k []
+struct c {
+var b: c<j> {
+]
 }
-protocol m {
+{
 }
-class b: m {
+{
 }
-func h<o : BooleanType>(b: o) {
+{
 }
-func m(b: q, e: r) -> (((r -> r) -> c  var j: b.Type
+var j: b
 protocol c : b { func b

@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b(e()
-var d = [1)
-protocol A {
+func b (
+d
+{
 }
 protocol d : a {
-protocol P {
-protocol c where l) in x }
-func a(true {
+{
+}
+func a

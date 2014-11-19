@@ -5,6 +5,5 @@
 protocol a : a {
 struct A {
 }
-class A : b = g(g: A, ()(i()
-return "
-typealias b {
+class A : b
+typealias b

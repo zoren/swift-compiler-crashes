@@ -3,11 +3,4 @@
 // Test case found by fuzzing
 
 protocol a : A {
-typealias A where H.d<T) { c<d>>()) -> Void>)
-f: start, Any, e: b {
-}
-}
-}
-func f<f == {
-}
-func a: b
+typealias A

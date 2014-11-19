@@ -3,8 +3,4 @@
 // Test case found by fuzzing
 
 struct c<d where h: e
-protocol P {
-func c> {
-return ")
-}
 if c {

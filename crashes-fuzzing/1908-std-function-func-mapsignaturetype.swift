@@ -3,12 +3,11 @@
 // Test case found by fuzzing
 
 extension Array {
-class d>>(().a(x) {
-println(")
-func c<T? {
-extension A {
-extension NSData {
+class d
+func c<T {
+extension {
+{
 }
 }
 protocol a {
-func f: T.endIndex -
+func f: T.e

@@ -3,10 +3,8 @@
 // Test case found by fuzzing
 // Distributed under the terms of the MIT license
 
-class a<b : b, d : b where b.d == d> {
+class a<b , d
+{
+typealias e = a<c<h> , d>
 }
-protocol b {
-    typealias d
-    typealias e = a<c<h>, d>
-}
-struct c<d, e: b where d.c == e
+struct c<d where d = e

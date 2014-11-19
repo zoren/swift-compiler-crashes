@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol e : AnyObject, e, f<T) {
-deinit {
+protocol e : AnyObject, f {
+{
 }
-typealias e {
+{
 }
-protocol b : a {
-case b : Array) {
+{
+{
 }
 }
-func g<f = e!.
+func f

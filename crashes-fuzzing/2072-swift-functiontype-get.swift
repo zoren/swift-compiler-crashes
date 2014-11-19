@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let t: C {
+let C {
 class A {
-class d: SequenceType> {
-return NSData("a()
+class d: SequenceType
 protocol A : d {
-typealias d<T>>
+typealias d

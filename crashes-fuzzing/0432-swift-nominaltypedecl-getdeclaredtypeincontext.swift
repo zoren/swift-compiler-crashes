@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func p(l: Any, g: Any) -> (((Any, Any) -> Any) -> Any) {
-return {
-(p: (Any, Any) -> Any) -> Any in
-func n<n : l,) {
+func p( ) -> ( ( ( ) ) ) {
+{
+( ( ) ) -> Any in
+{
 }
-struct d<f :  where g.h ==assA {
-class fc
+struct d<f where g =assA {
+class f

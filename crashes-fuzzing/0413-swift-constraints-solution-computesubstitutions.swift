@@ -3,11 +3,9 @@
 // Test case found by fuzzing
 
 protocol b {
-println(f<T.init() {
+{
 }
-struct c = "")"")
-typealias F>(n: String = b> : B? {
-func call(f: A")
-init()
-}()()
-var d = b()-> (f(n:
+typealias F
+init( )
+}
+var d = b( )

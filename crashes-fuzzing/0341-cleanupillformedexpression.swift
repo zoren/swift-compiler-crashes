@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T>() -> T -> T {
+func f<T> ( ) -> T -> T {
 return { x in x 1 {
-b[c][c] = 1
+[ c
 }
 }
 class A {
-class func a() -> String {
-let d: String = {
-self.a()
-}()
+func a( ) -> {
+let : String = {
+self.a( )
+} ( )

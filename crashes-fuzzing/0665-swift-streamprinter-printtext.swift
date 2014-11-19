@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class func i<I : Bool) -> String) {
-override init() {
-protocol b = {
+func i<I {
+{
+{
 }
 }
 class A {
-class b: SequenceType, A, 3):
+class b: SequenceType, A

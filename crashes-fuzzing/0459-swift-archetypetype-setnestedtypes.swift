@@ -3,4 +3,4 @@
 // Test case found by fuzzing
 
 struct Q<T where g: NSObject {
-var d = a()
+var d = a( )

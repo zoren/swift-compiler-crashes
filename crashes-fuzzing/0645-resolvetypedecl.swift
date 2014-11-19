@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class func g<C) {
-func g<T>(f: d = "A? = B(c: C> String {
+func < {
+func g<T> (f: d
 struct d<T where T: c

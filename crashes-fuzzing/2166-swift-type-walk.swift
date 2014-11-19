@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var d: P {
+var P {
 enum B {
-var d = h.E == a: T) -> S) {
-"))
+var d = == a
 func a<h: a

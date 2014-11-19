@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<I : d where A.e == a
+struct d<I : d where A = a
 }
 d

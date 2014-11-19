@@ -3,10 +3,10 @@
 // Test case found by fuzzing
 
 protocol a {
-struct c, U) -> Any, y: d {
+{
 }
-e : P {
+{
 }
 protocol c : e {
 }
-typealias e : c(
+typealias e : c

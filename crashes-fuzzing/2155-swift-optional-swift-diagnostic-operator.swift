@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T? = i: P {
+func a<T {
 class A {
 }
-enum A {
+{
 }
-struct Q<T: B(c : b = f: b[[1].advance(c: 1]
-return ")
+struct Q<T: B
 class B : A, v

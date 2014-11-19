@@ -2,32 +2,32 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<o>() -> (o, o -> o) -> o {
-o m o.j = {
+func f<o {
+{
 }
 {
-o) {
-r  }
+{
 }
-p q) {
+}
+{
 }
 class m {
-func r((Any, m))(j: (Any, AnyObject)) {
-r(j)
+func r( ( ) ) ( ( ) ) {
+r( )
 }
 }
-func m<o {
-r m {
+{
+{
 }
 }
-class m: f {
-j h) {
+class m {
+{
 }
-func j() {
+{
 }
-func j<d {
-enum j {
+func j {
+{
 }
 }
-struct j<d : Sequencpe> {
+struct j<d {
 var m: d

@@ -4,8 +4,7 @@
 
 protocol A {
 protocol b {
-typealias B : B({
-return ")
+typealias B : B
 }
 }
-struct c: A> V {
+struct c: A

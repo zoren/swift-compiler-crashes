@@ -3,9 +3,6 @@
 // Test case found by fuzzing
 
 struct c<T where g: A
-let b = b<A<Y> e, object2: c(t: A {
-}(""""")
-var e(c = [0x31] = B<T> ()
-typealias f = f<T>?
+var e( [ ] = B<T> ( )
+typealias f = f T>?
 c
-init())

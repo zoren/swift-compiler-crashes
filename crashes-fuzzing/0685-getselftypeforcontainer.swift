@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 class c {
-init() {
-var b = b: T) {
-public class A, a(array: T> S) -> {
+init( ) {
+{
+A {
 }
 }
 protocol A {
-func b<A
-typealias e : AnyObject, Any, b whe
+func b
+typealias e : b

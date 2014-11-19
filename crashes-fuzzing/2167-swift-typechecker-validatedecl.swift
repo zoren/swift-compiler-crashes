@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 struct S {
-private let t: A> T> : U {
-struct c, "foo""[1
+let t: A
 protocol A : P {
 protocol P {
-enum b where d()!)
+enum b
 }
-let t: b)
+let t: b

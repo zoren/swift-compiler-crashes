@@ -3,12 +3,11 @@
 // Test case found by fuzzing
 
 struct A {
-var f = {
+{
 }
-let start = a<() {
-}
+let start = a
 protocol a {
 protocol b : a {
-class c {
+{
 }
 func a

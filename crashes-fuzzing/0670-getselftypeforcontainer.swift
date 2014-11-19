@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 protocol a {
-func g(p: a {
-return ["
+func g(p: a
+"
 protocol a : a {
-func a: Co
+func a

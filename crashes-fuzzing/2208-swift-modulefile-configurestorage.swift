@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 protocol P {
-enum B : d = 0)
+enum B
 }
 extension String {
-case C> {
+{
 }
-protocol c : () -> : e() -> T, a<f : A, T)
+protocol c
 protocol A : P {
-func j<S : B, U.e
+func j<S : B

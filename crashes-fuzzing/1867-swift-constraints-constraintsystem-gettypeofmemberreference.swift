@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class func f<T {
+func f<T {
 class a {
-var _ = d, Bool]
+var _ = d
 class B {
 }
-var d = .join(_ = B() {
+var d = _ = B( )

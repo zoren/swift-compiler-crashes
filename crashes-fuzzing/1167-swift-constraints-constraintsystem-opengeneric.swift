@@ -4,14 +4,14 @@
 
 lazy
 }
-func m<u>() -> (u, u -> u) -> u {
-p o p.s = {
+func m<u {
+{
 }
 {
-u) {
-o  }
+{
 }
-s m {
 }
-class p: mass func s {}
-s p {
+{
+}
+class p { }
+p {

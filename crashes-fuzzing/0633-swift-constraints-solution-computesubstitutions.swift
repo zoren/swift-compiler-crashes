@@ -3,10 +3,10 @@
 // Test case found by fuzzing
 
 protocol a {
-struct S {
+{
 }
-typealias E
-convenience init()
+typealias
+convenience init( )
 }
 struct c {
-static let f = a()
+static let f = a( )

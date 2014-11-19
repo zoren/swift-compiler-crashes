@@ -2,15 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var b: NSManagedObject {
-func b.h: Any) {
+var NSManagedObject {
+{
 }
-enum a: a {
-func b: d {
-}
+enum a: a
 protocol a {
 protocol a {
-var b = e<C(A(2, e!.e = { x {
+{ {
 }
 }
-typealias e : e? {
+typealias e : e

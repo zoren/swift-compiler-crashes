@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B : BooleanType, i : T
 protocol P {
-func c: (B) -> d() {
-protocol P {
-typealias h: SequenceType where I) {
+func c: ( ) -> d {
+{
+{
 }
 }
 }

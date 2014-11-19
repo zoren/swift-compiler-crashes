@@ -4,8 +4,8 @@
 
 protocol A {
 protocol c : a {
-func a)
+func a
 }
 }
-var b : String {
-A.d
+var String {
+A

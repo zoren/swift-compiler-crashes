@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T>: c<U -> {
+func a<T {
 struct e {
-func d) {
-return "cd"cd"A(self.d : d {
 protocol a {
-let h : AnyObject, c) {
+{
 }
 }
-func a((T.a: b
+func a (T.a

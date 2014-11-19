@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 func compose<T> : P {
-enum A {
-private class A : C {
-typealias e == {
-c> V, object1, AnyObject) -> {
+class A {
+{
+{
 }
 }
-let i: Int -> T.E == 0)
+let i: Int -> T.E

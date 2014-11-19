@@ -5,13 +5,12 @@
 func b
 protocol A {
 protocol a {
-f : T] {
+{
 }
-typealias e : A? {
-init(f: AnyObject.b = D>>()")
-class A : e!.E == 1: C<f = b
-return g, g.B) -> {
-}
+typealias e : A
+class A : e
+{
 }
 }
-func b: A: T
+}
+func b: A

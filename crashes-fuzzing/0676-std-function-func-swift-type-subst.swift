@@ -2,24 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func call(object1, e)-> {
-struct c {
-struct A {
-func c<Y> {
-typealias F = A<T) {
-func g<b> String {
-protocol d : T] {
+func < {
+{
+{
+{
 }
 }
-}
-}
-if true {
 }
 protocol c {
-typealias f = a"\(AnyObject.init(a(b
-case A>?) {
+typealias f = a
+{
 }
 protocol a {
-i() -> {
+{
 }
-typealias R = f, ""]
+typealias R = f

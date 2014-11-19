@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<T where T : A, 3)
+class A<T where T : A
 }
-println() {
+println( ) {
 }
-var b(f.dynamicType.advance(#object1, A.c))
-cl
+(f.dynamicType. ( A.c

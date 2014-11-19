@@ -3,21 +3,20 @@
 // Test case found by fuzzing
 
 protocol A {
-func f: A? {
-return "
+func f: A?
 }
 protocol b {
-protocol a {
-protocol a {
+{
+{
 }
-(T) {
-protocol P {
-enum A {
-}
-}
+{
+{
+{
 }
 }
-typealias B : B)
-private class A {
 }
-class func ^(.
+}
+typealias B : B
+{
+}
+func ^

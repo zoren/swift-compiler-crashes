@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<I : B() -> T -> V, f: String {
-struct e = {
+class B {
+{
 }
 deinit {
-enum S<T where I.B : T
+enum S<T where I : T

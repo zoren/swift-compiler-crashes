@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 extension Array {
-let start = a() -> U>("a(b: NSManagedObject {
+let start = a > (
 enum b {
 }
-func b(a()
+func b(a
 func a: b

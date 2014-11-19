@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 protocol b {
-init() {
+init( ) {
 }
-typealias F>) -> S<c
+typealias F
 }
-b()
+b( )

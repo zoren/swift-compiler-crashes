@@ -3,26 +3,23 @@
 // Test case found by fuzzing
 
 protocol b {
-struct e = e> () {
-class C) {
+{
+{
 }
 }
-class A<T -> {
-func x(seq: Int = Swift.Generator.d(b<f == A<S {
-convenience init({
-func a: T.f = """""""]()
+{
+{
 }
 }
 protocol a {
-func b> {
+{
 }
-typealias d>(() -> String {
-func c, """
-protocol A {
-})
-protocol a {
+typealias d
+{
 }
-typealias e : d = F>)
+{
+}
+typealias e : d
 }
 }
-var e(b
+b

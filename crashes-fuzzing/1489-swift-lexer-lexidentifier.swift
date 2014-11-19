@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 protocol A : P {
-func e?
-protocol a {
+func e
+{
 }
-typealias e)
-let n1: e?
+typealias e
+let : e?

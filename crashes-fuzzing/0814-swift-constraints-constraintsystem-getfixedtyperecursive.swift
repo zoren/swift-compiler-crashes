@@ -2,13 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T> {
+func g<T {
 struct S {
 var d = 1
 let c {
-d.c: B<T where g())
-c: a {
-}
-class B : A? {
-}
+d. g
+class B : A
 class A

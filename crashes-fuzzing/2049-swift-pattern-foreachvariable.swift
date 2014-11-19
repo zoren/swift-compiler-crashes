@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 protocol a : AnyObject, b {
-let h : (n: A, object2: a {
-init<e? = D> Void>("
-typealias b in
-typealias A {
+let h : (n: A
+typealias b
+typealias A

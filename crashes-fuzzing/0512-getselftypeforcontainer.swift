@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 if true {
-e = F>>()() {
+{
 }
 protocol P {
-deinit {
+{
 }
-let c: T.init() {
+init( ) {
 }
-typealias e : e: A
+typealias e : e

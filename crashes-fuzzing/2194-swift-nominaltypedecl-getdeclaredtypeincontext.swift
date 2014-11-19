@@ -4,18 +4,18 @@
 
 protocol A {
 protocol C {
-protocol a {
-class c : Int {
+{
+{
 }
 }
-class A<h : A : X<T.A<T, q:Any) -> T> : a {
+class A<h : A > : a {
 func a
-() -> S) -> T.init() {
-struct c: String {
+{
+{
 }
-public var b: d {
-}
-}
+{
 }
 }
-func c: C {
+}
+}
+func c: C

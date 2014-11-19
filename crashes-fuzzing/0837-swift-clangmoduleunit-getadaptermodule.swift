@@ -3,15 +3,14 @@
 // Test case found by fuzzing
 
 import Foundation
-class func g<j : T : Hashable> {
-struct c() -> V {
-t.advance(h> [Any) { x = T> Any in
-func g(b(self.E == Swift.c("[1])
-b() {
-protocol A {
+func g<j {
+-> {
+t.advance( [Any)
+{
+{
 }
 }
 }
-struct e : a {
+struct e : a
 protocol a {
-convenience init() {
+init( )

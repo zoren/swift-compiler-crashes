@@ -3,8 +3,5 @@
 // Test case found by fuzzing
 
 class B<T where B : a {
-return [(a(array: NSObject {
-class A.advance(n: Bool](")
-typealias f = b(self.e = {
-protocol d = T>(a()"
-func b(R
+typealias f = b
+func b

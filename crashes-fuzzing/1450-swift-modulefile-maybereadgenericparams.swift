@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 var d {
-func b<h: Int>: T, Any] as a(e!().e = a","foobar"A, f(t: T> (x) in x }
+func b<h: Int
 protocol P {
-class func b<h : b =
+func b<h : b

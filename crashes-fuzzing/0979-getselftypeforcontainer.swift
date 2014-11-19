@@ -3,12 +3,11 @@
 // Test case found by fuzzing
 
 protocol b {
-extension String {
+{
 }
 protocol b : a {
-class func a<b
+func a
 }
 }
-func a<T -> Any) -> {
-class A {
+func < {
 var _ = b

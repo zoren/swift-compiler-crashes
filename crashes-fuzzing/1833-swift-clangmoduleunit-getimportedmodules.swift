@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-f: d where Optional<c
+f
 func g<T {
 struct c {
-convenience init() { c() -> U>(
+init( ) { c( )

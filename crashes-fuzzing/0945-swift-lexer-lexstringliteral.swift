@@ -2,29 +2,27 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-tring {
-class A> String {
-protocol a {
-var b) {
+{
+A {
+{
+{
 }
 }
-let v: C {
-var d : e == T> {
-(() {
+let C {
+var e == {
+( ( ) {
 }
-case c, T where d.<b) in return "
+) in return "
 }
 }
 }
 }
 protocol A : a {
-class A {
-struct c) -> Any) -> T> V {
-() -> String = ["""a: T> T -> {
-b.endIndex - range: String {
+{
+{
 }
-protocol b {
-let n1: (z: a {
+{
+{
 }
 }
 }

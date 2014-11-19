@@ -3,15 +3,14 @@
 // Test case found by fuzzing
 
 protocol j {
-    typealias E
+typealias E
 }
-struct c<m : j> {
-    : i, j: i k j.m == d.m> {
+struct c<m : j {
+{
 }
-protocol i {
+{
 }
 enum f<m> : l {
-    func d<m>() -> m -> m {
-}
+func d<m
 protocol l {
-    func d<m>()(
+func d<m

@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func d<l>() -> l -> l {
-        return { e in o {
+func d<l> ( ) -> l -> l {
+return { e in {
 }
-i c : m {
+{
 }
 enum n : String {
-    case b(
+case b(

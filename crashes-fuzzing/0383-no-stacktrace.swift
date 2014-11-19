@@ -4,5 +4,5 @@
 
 import CoreData
 extension NSSet {
-typealias F = a(")
-convenience init(array: a = f)
+typealias F = a
+init(array a = f)

@@ -2,13 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-map() {
-}
-struct D : a {
-protocol A {
+map
+struct D {
+{
 }
 protocol a {
-protocol P {
+{
 }
 struct c
-override func c<T: c = f: b>
+func c<T: c

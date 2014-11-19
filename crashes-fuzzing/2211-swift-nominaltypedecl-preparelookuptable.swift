@@ -3,18 +3,16 @@
 // Test case found by fuzzing
 
 enum b {
-func f: () -> {
-class A {
-enum b {
+func f ( ) -> {
+{
+{
 }
 }
-func c<T : (a)] = a)..Type) -> Any) -> String {
-func a() -> Any in
-let h : d where k) -> {
-return p: P {
-}
-func call(t: P> {
-return ".substringWithRange(b: S()
+func c {
+func a( ) -> Any
+let : d {
+{
 }
 }
-struct d<T where k.a: a {
+}
+struct d<T where k : a

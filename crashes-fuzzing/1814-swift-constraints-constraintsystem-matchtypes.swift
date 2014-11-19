@@ -4,6 +4,6 @@
 
 let c = {
 }
-func compose<T : NSObject {
-class b)
-let f = b() -> ("A<
+func compose<T {
+class b
+let f = b( )

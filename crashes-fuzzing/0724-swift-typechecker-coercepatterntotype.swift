@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 class B {
-typealias A {
-}(")
+typealias A
 }
 extension String {
 struct Q<f

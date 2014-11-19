@@ -3,15 +3,15 @@
 // Test case found by fuzzing
 
 func p<q {
-    enum p {
-func d() { d
-func n<j>() {
-    f f {
-    }
+enum p {
+func d( ) { d
+{
+{
 }
 }
-p p: d {
 }
-k p.o == q> {
+{
+}
+{
 }
 func d(o: Any

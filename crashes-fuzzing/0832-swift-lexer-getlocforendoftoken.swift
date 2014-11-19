@@ -3,14 +3,10 @@
 // Test case found by fuzzing
 
 protocol A {
-case b = b> a {
-""foo"
-let v: String {
+{
 }
-protocol A : (mx : d = i(Range<j : d {
-println(")
+protocol A
 }
-protocol b : A, e {
-func g<U : C(s(self.init<T where A<T>: a {
-return """"")
-func b(#object1, object2: A, A,
+protocol b : A {
+func g<U : C
+func b( A

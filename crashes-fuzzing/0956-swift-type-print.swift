@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 struct c {
-var _ = true as String)
-}
+var _ = true as String
 }
 protocol d : a {
 func a

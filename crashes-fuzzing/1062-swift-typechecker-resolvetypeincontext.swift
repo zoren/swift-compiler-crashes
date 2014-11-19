@@ -3,21 +3,21 @@
 // Test case found by fuzzing
 
 protocol b : C {
-extension Array {
+{
 }
 typealias C {
 }
-let start = b() -> : Array<h : d where T) {
-let t: NSObject {
+{
+{
 }
 }
-func b)
-struct c {
-typealias F = D> == { _, B
+func b
+{
+{
 }
 }
-case .Type) {
+{
 }
-if true {
+{
 }
 class C: ExtensibleCollectionType

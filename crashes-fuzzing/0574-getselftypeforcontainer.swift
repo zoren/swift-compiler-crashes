@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class w<r>: c {
+class w<r {
 init(g: r) {
-struct t : o {
-p) {
-}
+struct t : o
 protocol o {
-f l: k -> k = {
-}(j, l)
+{
+}
 protocol k : f { func f

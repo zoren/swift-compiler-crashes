@@ -4,32 +4,30 @@
 
 struct A {
 func a<S : a {
-struct X.<T.b where T -> d: b = {
+{
 extension A {
-func c: b<T>() {
+{
 }
-let c, i : a {
-return { c
-typealias F = []() -> {
-protocol c {
+let c, a {
+{
+{
+{
 }
-self.c {
-class a(self.C) {
-func a() -> V {
-}
-}
-}
-class A {
-public var b: ExtensibleCollectionType>(Range() -> S) {
-}
-public var b> {
-}
-case c(z() {
+{
+{
+{
 }
 }
-let c = c: Int>(b<T, U.Type
-return "
+}
+{
+{
+}
+{
+}
+{
 }
 }
-init(.<Int>(")
+}
+}
+init(
 }

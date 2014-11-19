@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 class a {
-init(Any) { _, Any, U) -> {
+init( ) { {
 }
-let c {
+{
 }
 struct S<d where T : NSObject {
-typealias f = e: NSObjec
+typealias f = e

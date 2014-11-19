@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 "cd"
-struct d<d where H.E == j> {
+struct d<d where H = j {
 let start = true as S

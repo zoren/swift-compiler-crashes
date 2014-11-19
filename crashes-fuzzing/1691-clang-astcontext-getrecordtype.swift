@@ -3,8 +3,6 @@
 // Test case found by fuzzing
 
 struct A<T where f: C
-func a)
-func b: a {
-let t: a {
+let a {
 struct S {
 let f = A

@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<d>(self.A, e, y: Array) {
-c(","
+func < {
+( " "
 }
 }
 protocol a {

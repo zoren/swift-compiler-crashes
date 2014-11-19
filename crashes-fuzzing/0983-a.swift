@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<T {
-var b: a {
-d) -> {
+class A {
+{
+{
 }
 }
 let b = 1
 protocol c : c {
-func c<T,
+func c

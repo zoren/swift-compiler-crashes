@@ -4,12 +4,11 @@
 
 struct S {
 protocol a {
-class func f: d where B : d == i([$0.a: String
-typealias R = """
-func d>) {
+func f: d
+func d {
 }
 typealias d
 }
-class B : NSObject {
+{
 }
-var b: a(b()
+var b: a

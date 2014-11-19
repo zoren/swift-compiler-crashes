@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 import Foundation
-class c, U>(")
+class c
 protocol P {
-typealias d where l) {
-return "
+typealias d
 protocol d : b {
 func b

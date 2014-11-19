@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T) {
+func a<T {
 struct c : d {
-func g> T: A: T> : a {
-let f = ")
-var d = g<Int
+func g
+var d = g<I

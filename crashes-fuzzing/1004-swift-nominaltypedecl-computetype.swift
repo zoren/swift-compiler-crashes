@@ -3,11 +3,10 @@
 // Test case found by fuzzing
 
 protocol A {
-func b<I : a(n: (T>Bool) {
-return ")
-override func f<T> {
-func f: a {
+func b<I : a
+{
+{
 }
 }
-func a()
-func a((a<j : A, let t: b: c
+func a
+func a ( let t: b

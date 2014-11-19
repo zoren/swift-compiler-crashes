@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 class A {
-struct X<c<T where T, let start = [c) -> String {
-return b> Any) {
+let start = c {
+{
 }
 }
 protocol c {
-typealias d: d == true {
+typealias d: d == {
 }
-func c: T
+func c

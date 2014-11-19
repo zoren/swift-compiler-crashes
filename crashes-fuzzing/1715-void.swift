@@ -4,8 +4,8 @@
 
 import Foundation
 func f(seq
-func c() {
-return {
+func c( ) {
+{
 }
 protocol b : C {
 typealias C

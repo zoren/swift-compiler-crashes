@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct D : NSObject {
-func compose<f : () -> String {
-struct S<d where S<D> == F
+struct D
+func < {
+struct S<d where S<D> = F

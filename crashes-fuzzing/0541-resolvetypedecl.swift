@@ -3,16 +3,16 @@
 // Test case found by fuzzing
 
 protocol C {
-protocol P {
-d<c>]() -> {
+{
+{
 }
 }
-typealias h: B<T>(e)
-println(#object2: $0) -> {
+typealias h: B
+{
 }
 }
-func g<f : $0) {
-class A : AnyObject.Type) {
+func < {
+{
 }
 }
-class B<T where g: NSManage
+class B<T where g: N

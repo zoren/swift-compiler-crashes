@@ -2,15 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i<T: b = {
-protocol e where f<T>() -> String {
-return z: ExtensibleCollectionType>Bool]))(i: C> : B) {
+func i<T {
+{
+{
 }
 }
 class A {
-func f<d: b> U>(_ c())
-typealias f : l.f = D>)([Byte]() {
+func f<d: b
+{
 }
-a).startIndex)
-func a)
+func a
 let b = a

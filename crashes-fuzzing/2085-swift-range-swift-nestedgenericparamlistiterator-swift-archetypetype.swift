@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 func a
-extension NSSet {
+{
 }
-func a: CollectionType where T -> ()
+func a: CollectionType
 protocol P {
-func b<T : b) -> {
+func b<T : b

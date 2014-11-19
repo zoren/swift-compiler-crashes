@@ -3,11 +3,9 @@
 // Test case found by fuzzing
 
 protocol b {
-class A, ()
-typealias A {
-println((_ c("
-convenience init() -> Void>) -> {
+class A
+typealias A
+init( )
 }
-}
-println() {
-b() ->
+{
+b( )

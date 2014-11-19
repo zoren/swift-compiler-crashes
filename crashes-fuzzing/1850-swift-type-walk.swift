@@ -4,12 +4,10 @@
 
 var b {
 protocol a {
-protocol a {
+{
 }
-func g<T : C(false)
-class B {
-convenience init(a<T -> {
-"a(false)
+func g<T : C
+{
 }
 protocol C {
-typealias e : Any, g == j> {
+typealias e : g

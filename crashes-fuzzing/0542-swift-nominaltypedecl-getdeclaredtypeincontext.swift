@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 let a {
-struct S<T where H.B : Array) {
-class func a
+struct S<T where H.B : Array {
+func a

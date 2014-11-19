@@ -7,5 +7,5 @@ protocol d : b {
 func b
 }
 }
-struct c() + seq
-let c = c(A<f = [self.Gene
+struct c
+let c = A

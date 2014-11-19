@@ -3,16 +3,15 @@
 // Test case found by fuzzing
 
 func i<j {
-b {
+{
 }
-k>(j: i) {
+{
 }
-func p(j: Any, k: Any) -> (((Any, Any) -> Any) -> Any) {
-return {
-(p: (Any, Any) -> Any) -> Any in
-func d<d : j,) {
+{
+( ( ) ) -> Any in
+{
 }
 class h {
-func e((Any, h))(q: (Any, e)) {
+func e ( h
 }
 protocol h : e { func e

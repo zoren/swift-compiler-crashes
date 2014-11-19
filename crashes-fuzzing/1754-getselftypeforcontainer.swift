@@ -3,10 +3,8 @@
 // Test case found by fuzzing
 
 extension String {
-var b = a<T> [[Any) {
-func ^(b(")
+var b = a
 }
 protocol a {
-typealias f : a<T>)
+typealias f : a
 func a
-publ

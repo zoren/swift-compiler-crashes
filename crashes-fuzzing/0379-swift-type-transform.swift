@@ -2,16 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<i>() -> (i, i -> i) -> i {
-k b k.i = {
+func < {
+{
 }
 {
-i) {
-k  }
-}
-protocol c {
-clas F>(f: B<T>) {
+{
 }
 }
-struct d<f : e, g: e where g.h == f.h> {
-func f<T>(
+{
+{
+}
+}
+struct d<f , g where g = f {
+func f

@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i: ExtensibleCollectionType>?
-func a: C {
+func i: ExtensibleCollectionType
+func a {
 protocol P {
-func c]
+func c
 typealias d : d

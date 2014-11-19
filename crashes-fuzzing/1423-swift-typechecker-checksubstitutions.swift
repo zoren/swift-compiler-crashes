@@ -4,4 +4,4 @@
 
 extension A {
 }
-class A<h: A<Int>()
+class A<h: A<Int>

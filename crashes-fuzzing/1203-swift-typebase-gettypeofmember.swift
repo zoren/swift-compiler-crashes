@@ -2,25 +2,25 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-y) ->func n<p>() -> (p, p -> p) -> p {
-h e {
+func < {
+{
 }
-class k: h{  class func r {}
-func a<i>() {
-b b {
+class k { { }
+{
+{
 }
 }
-class a<f : b, l : b m f.l == l> {
+class a<f : b, l {
 }
 protocol b {
 typealias k
 }
-struct j<n : b> : b {
+struct j<n > : b {
 typealias l = n
-typealias k = a<j<n>, l>
-func e<l {
+typealias k = a<j<n> , l>
+func e {
 class m {
-func r((Any, m))(j: (Any, AnyObject)) {
+{
 }
 }
-r m {
+m {

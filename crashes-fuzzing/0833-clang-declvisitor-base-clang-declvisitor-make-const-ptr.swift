@@ -4,6 +4,5 @@
 
 import CoreData
 protocol c : NSManagedObject {
-func b> {
-class b() -> (a)(")
+func b
 typealias e : b

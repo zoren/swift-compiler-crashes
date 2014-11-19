@@ -3,9 +3,7 @@
 // Test case found by fuzzing
 
 var b : Int
-typealias f = c<H : A? = g: U.E == c> Any) -> V>(""A<T
-return "
 for b {
 }
 protocol P {
-typealias e : e where
+typealias e : e

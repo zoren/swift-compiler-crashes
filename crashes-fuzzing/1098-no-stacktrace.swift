@@ -2,20 +2,20 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-private class B<C> {
+class B<C {
 init(c: C) {
-s {
-func g<U>(h: (A, U) -> U) -> (A, U) -> U {
+{
+{
 }
-func f() {
+{
 }
 }
-struct d<f : e, g: e where g.h == f.h> {
+{
 }
-protocol e {
+{
 }
-enum A : String {
-case b = ""
+enum A {
+case b
 }
-let c: A? = nil
+let c: A?
 if c == .b {

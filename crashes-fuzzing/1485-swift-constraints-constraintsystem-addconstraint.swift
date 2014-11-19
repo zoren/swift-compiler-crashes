@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var f = 0] in
-func f<S {
+var f = 0
+func < {
 class A {
-extension NSSet {
+{
 }
-struct c) -> {
+struct c {
 }
-func c<h: c == Sw
+func c<h: c

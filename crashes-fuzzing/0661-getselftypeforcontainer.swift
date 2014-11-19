@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 protocol P {
-typealias b: b.init(f: T: A, g: Any) {
+typealias b: b {
 }
-func b: b(T
+func b

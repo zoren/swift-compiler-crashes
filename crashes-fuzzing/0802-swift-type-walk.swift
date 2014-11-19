@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f: d {
-func e(b> {
-func f<f = e?) -> String {
+func f {
+{
+{
 }
-public var f: A: C {
+{
 }
 }
 class A {
-func b<h: A.b> S
+func b<h: A.b

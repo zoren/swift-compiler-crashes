@@ -3,15 +3,12 @@
 // Test case found by fuzzing
 
 struct S {
-var _ = f)
-func f: U {
+var _ = f
+func f: U
 }
-}
-func i> : SequenceType where T> (A
-return "foo""A("ab")!(b<l : I) {
 protocol A {
-func b(A, b {
-extension NSSet {
+func b {
+{
 }
 }
 typealias A : A

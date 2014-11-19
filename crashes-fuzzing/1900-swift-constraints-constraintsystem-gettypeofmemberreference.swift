@@ -2,14 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<H : T, Any) {
+func f<H {
 class c {
-var d {
-struct e {
+{
+{
 }
 }
-typealias f = g: A<T, length: String {
-func f.Element>? = ")
-get {
+typealias f = g
+{
 }
-let g = c()
+let g = c( )

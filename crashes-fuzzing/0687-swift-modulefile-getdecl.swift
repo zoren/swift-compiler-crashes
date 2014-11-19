@@ -2,13 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-ex - range.substringWithRange(T) -> Any, f<T>() -> a {
-}
+- T
 class A {
-public class A {
+class A {
 protocol a : d {
-func b(s: NSManagedObject {
-var b("
-class a {
+func b
+{
 }
 typealias d

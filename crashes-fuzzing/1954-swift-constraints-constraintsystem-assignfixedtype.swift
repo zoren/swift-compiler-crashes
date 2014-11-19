@@ -2,12 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol b : a {
-init() -> S<h
+protocol b {
+init( )
 protocol b {
 }
-typealias b {
+typealias b
 }
-}
-func i() -> {
-b()
+func i( ) -> {
+b( )

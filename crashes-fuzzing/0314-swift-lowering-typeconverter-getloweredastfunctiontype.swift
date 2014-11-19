@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 enum e<b> : d {
-    func c<b>() -> b {
-     }
+func c<b> ( ) -> b {
+}
 }
 protocol d {
-    func c<b>()(b) -> b
+func c<b> ( ) ( ) -> b
 }

@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<d>() -> [c{    enum b {
-        case
+func c<d> ( ) -> c{ enum b {
+case

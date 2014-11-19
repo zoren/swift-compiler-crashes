@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func call(n: P {
-let f = "A> Int = b(b<T
+func call(n: P
+"
 protocol P {
 typealias e : e

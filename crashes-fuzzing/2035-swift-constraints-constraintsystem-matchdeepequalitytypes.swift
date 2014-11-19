@@ -2,14 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<h, e() {
+class B<h, e {
 protocol a {
-func g: B<1 {
+{
 }
-protocol e = .init())
-let c : a {
+init( )
+{
 }
 }
-c]()) {
+{
 }
-struct c: a {
+struct c: a

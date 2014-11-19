@@ -2,12 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<e> {
-}
-struct d<f : e, g: e where g.h == f.h> {
-}
-struct e<r> {
-j p: , () -> ())] }
-var x1a=1
+struct c
+struct d<f where g = f
+struct e
+var x = 1
 e {
-c(d ())
+c(d ( ) )

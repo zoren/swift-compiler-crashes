@@ -3,13 +3,11 @@
 // Test case found by fuzzing
 
 class A {
-func c<T : A) {
-struct c {
-var _ = .c {
-var e()) ->) -> Self {
+func c<T : A {
+{
+{
+{
 }
 }
 }
-}
-var b: b {
-let start = c: Se
+let start = c

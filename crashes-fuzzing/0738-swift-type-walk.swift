@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 var d {
-extension NSSet {
-class A {
+{
+{
 }
 }
 protocol a {

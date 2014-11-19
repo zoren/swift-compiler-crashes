@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T : a {
-struct c> T -> <u, e = {
+func < {
+{
 }
-struct A<b, T where A: SequenceType> {
-typealias B = A"
-enum S
+struct A<b where A: SequenceType {
+typealias B = A

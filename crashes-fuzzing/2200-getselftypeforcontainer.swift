@@ -4,9 +4,8 @@
 
 protocol a {
 protocol d : a {
-class func a: e> Any, a: U : Array<U) -> T) -> [B()
-return "foobar"].a() -> Int = "
+func a
 }
 }
-func compose() {
-var f = true as a: A
+func compose( ) {
+var f = true as a

@@ -2,14 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<b) {
-func a([[T>(A> ({
-return ")
+func a<b {
 class A {
-func x: X.a)
-protocol a {
-class A {
+func x: X.a
+{
+{
 }
 }
-func c: b.d>()
-c
+func c: b.d

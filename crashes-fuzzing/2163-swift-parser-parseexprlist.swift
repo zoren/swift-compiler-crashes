@@ -2,21 +2,20 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class func g<T> {
+func g<T {
 class A {
-class C> {
+{
 }
 }
-struct e = a)) {
+{
 }
-let t: C) {
-S) -> String {
-let h = a(a)
-let a {
-})))
-}
-convenience init() {
+{
+-> {
+let h = a(
+{
 }
 }
-class A : A {
+{
 }
+}
+class A : A

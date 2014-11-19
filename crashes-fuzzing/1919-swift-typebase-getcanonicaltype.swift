@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 protocol a {
-class func compose(b() -> V {
-case C(array: k.B, g == "
+func compose(b >
 protocol b : e {
-typealias e == B
+typealias e

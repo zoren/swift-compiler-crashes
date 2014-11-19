@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class func a: (AnyObject) {
-f: ExtensibleCollectionType>]() -> {
+func a ( ) {
+{
 }
-protocol A {
-init <T> Bool {
+{
+{
 }
 }
-enum a<T> : a {
+enum a< > : a
 protocol a {
-func b<T : SequenceType, length: b(a<
+func b<T , length: b

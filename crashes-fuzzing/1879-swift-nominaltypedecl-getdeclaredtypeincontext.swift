@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 struct e {
-func a<T) -> String {
+{
 }
-struct e where I.h: T) -> Any {
+{
 }
-struct B<T where B == b: NSObject {
+struct B<T where B = b {
 let h = B

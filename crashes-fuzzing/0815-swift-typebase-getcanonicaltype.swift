@@ -4,8 +4,7 @@
 
 protocol b {
 protocol d {
-typealias B : B, end: A, e: B<T: () {
+typealias B : B
 }
-})
 }
-let v: b) -> U
+let : b

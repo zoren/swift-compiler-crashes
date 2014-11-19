@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 extension String {
-struct S : S<B : b
+struct S
 }
 class A<T where T : T> : c

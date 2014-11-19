@@ -4,6 +4,4 @@
 
 if true {
 protocol b {
-struct B()(T, g<T! {
-convenience init("
-typealias e : e == A>(A
+typealias e : e

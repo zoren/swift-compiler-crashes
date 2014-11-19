@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<d : SequenceType> {
-var b:  [c<d>] {
-return []
+struct c<d {
+var : c<d> {
 }
-protocol a {
+{
 }
 protocol d : b { func b

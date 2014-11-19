@@ -2,18 +2,17 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func compose<T) {
+func < {
 protocol b {
 protocol A {
-typealias d: d where H.a<T> Any, U>
+typealias d: d
 }
-var b = F>() {
-func a() {
-enum b = e: () -> {
+{
+{
+{
 }
 }
 }
-init(mx : T>] {
+{
 }
 func c(b: A
-type

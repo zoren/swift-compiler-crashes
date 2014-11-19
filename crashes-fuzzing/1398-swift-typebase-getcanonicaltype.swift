@@ -2,14 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T) {
-extension NSData {
-extension String {
+func < {
+{
+{
 }
 }
-func f<T>(c) {
+func f<T> (c {
 }
-let t: a {
+{
 }
 protocol c : A<b> {
-typealias A {
+typealias A

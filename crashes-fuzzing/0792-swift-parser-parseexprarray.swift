@@ -2,17 +2,17 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol d = i<f == c<T>) -> : C: String
-func g<T) -> : String {
-struct B<T> {
+protocol d
+func g<T {
+{
 }
-struct c<c: a {
+{
 }
-class a: () -> String {
+class a {
 }
-public var b([c(x: d = a() -> U, x {
-protocol P {
+var b( [c(x: d = a( ) -> , {
+{
 }
-let start = [(x: c) as String
+let start = [ (
 }
-let h)] = [Any, x
+) = Any

@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 protocol P {
-func a(b([Any)
-let c, let t: B)
-let b : () {
-init(i: Int = c>) -> () -> Int {
+func a( ( [Any
+let t: B
+{
+{
 }
 }
 protocol B : a {
-func f:
+func f

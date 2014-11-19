@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import CoreData
-}(n: T)
+(n
 protocol a {
-let i: Any, k : (self.B
-typealias d: d wh
+let i: Any
+typealias d: d

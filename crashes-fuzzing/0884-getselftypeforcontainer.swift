@@ -4,9 +4,8 @@
 
 protocol b {
 protocol A {
-typealias f : a {
-return "
-func a)
+typealias f : a
+func a
 }
 }
-b(b
+b

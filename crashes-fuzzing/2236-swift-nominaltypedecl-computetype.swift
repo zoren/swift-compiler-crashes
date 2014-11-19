@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum a: String {
+enum a {
 protocol A : A.B {
-typealias h: (x) -> {
-var a):Any)"
-let i: b> U) -> {
+let i: b {
 }
-public class b
-typealias A {
+class b
+typealias A

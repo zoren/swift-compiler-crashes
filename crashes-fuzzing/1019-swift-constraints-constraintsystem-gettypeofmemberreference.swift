@@ -2,25 +2,23 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func e() -> {
-protocol a {
+func e( ) -> {
+{
 }
-class A : Int {
+class A {
 var f = A? {
 }
-let t: () -> {
-protocol c {
-protocol a {
-typealias F = {
+let : ( ) -> {
+{
+a {
+{
 }
 }
 }
 func f<b: a {
 }
 protocol a {
-struct c {
+{
 }
-typealias f : a {
-func d<((x: a {
-typealias e where g.init(""\("ab")
+typealias f : a
 func a

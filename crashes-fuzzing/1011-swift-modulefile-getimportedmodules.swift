@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-public class A {
+class A {
 protocol P {
-typealias F = b() {
-case C("""\(x) -> a {
+typealias F = b
 }
 }
 protocol c : a {
-func a")
+func a

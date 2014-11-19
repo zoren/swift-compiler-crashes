@@ -3,11 +3,7 @@
 // Test case found by fuzzing
 
 protocol P {
-class a(A> {
-}
-enum S) { }
+class a
 }
 protocol b : P {
-typealias e = {
-protocol b : a: A<3))"\(a()
-func a((a(
+func a (a

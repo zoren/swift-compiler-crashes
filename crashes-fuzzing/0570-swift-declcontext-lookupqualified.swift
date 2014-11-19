@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 let a {
-struct Q<T where T.E == c(t: I.e == e, V>) -> T]() {
+struct Q<T where T = c {
 struct S<c: N

@@ -4,17 +4,17 @@
 
 class a {
 class A {
-func i<T> {
+func i<T {
 class a {
-func f: A {
+{
 }
 }
-return S<D>(a()
+return S<D> (a( )
 }
-let n1: 1], self.C() -> Any {
+{
 }
 }
-struct A<h: A {
-protocol b : A? {
+struct A {
+{
 }
 class a: NSOb

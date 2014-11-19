@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 extension Array {
-protocol b = "
+protocol b
 }
 class a: a {
 protocol a : a {
-func a<c) {
+func a

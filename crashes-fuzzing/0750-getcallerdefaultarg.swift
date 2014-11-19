@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let i: NSObject {
-println("\(f: Int -> U))"
+let NSObject {
+" \(f: Int -> ) "

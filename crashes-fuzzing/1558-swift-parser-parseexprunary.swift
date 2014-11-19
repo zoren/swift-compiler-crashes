@@ -5,16 +5,16 @@
 deinit {
 return {
 let a {
-var b where A.f : AnyObject.e : A<T> {
-class C: AnyObject.A<T> {
+{
+{
 }
 }
-class B = {
-func i> (h.a)
+{
+func i> ( a)
 }
 }
 }
 }
-public class c<h : b {
+class c {
 protocol b {
 typealias b : b

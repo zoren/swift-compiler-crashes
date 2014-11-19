@@ -3,15 +3,15 @@
 // Test case found by fuzzing
 
 import Foundation
-func b: A()
+func b: A(
 protocol A {
 protocol P {
-for b = { c: NSManagedObject {
+{ {
 }
 }
 }
 protocol P {
-struct Q<T {
+{
 }
 typealias h: a {
 }

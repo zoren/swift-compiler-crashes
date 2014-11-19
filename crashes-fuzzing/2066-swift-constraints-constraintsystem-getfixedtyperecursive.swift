@@ -2,14 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-println()
+println( )
 protocol C {
-protocol A : B) -> {
-init(")
-return z: AnyObject) -> {
-var a: a {
+protocol A : B
+{
+{
 }
-enum S<T] {
+{
 }
 }
-typealias B : A>
+typealias B : A

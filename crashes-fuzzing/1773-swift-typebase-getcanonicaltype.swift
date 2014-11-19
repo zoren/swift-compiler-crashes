@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum B : b.init()
-func a: () {
-private class a: (T> {
-return ""foobar"](self..A, T : A, b = nil
+enum B : b
+func a {
 }
 class A {
 }

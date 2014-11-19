@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 if true {
-struct S<T where T.c: NSObject {
+struct S<T where T. : NSObject {
 var d {
 S<Q

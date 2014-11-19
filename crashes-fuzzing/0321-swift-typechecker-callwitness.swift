@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-[k<j>(h:as b).f.h()
+[k<j> (
 protocol h : j { func j

@@ -2,13 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A : CollectionType where H) {
+class A : CollectionType
 }
 protocol a {
-enum A = {
+{
 }
-typealias B : B<T> {
-func b() -> {
-}
-}
-init() -> {
+typealias B : B
+func b

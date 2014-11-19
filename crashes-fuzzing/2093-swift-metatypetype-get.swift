@@ -5,4 +5,4 @@
 enum b : String
 let a {
 protocol B : d {
-typealias d>(A<T>()
+typealias d

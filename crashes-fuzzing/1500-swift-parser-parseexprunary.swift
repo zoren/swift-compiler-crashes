@@ -4,9 +4,9 @@
 
 import DummyModule
 }
-class func g<T : d : b: A, V>() -> V {
+func g<T {
 class A {
-func c() {
-return !(c = B
-case .Generator.c(start, q:
-let start = B(x, let g : Any, let foo as [Any, U>) {
+func c( ) {
+return ! (c = B
+case .Generator.c(
+start ( foo as U> )

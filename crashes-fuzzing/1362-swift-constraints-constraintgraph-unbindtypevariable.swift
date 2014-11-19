@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<T> {
+func < {
 protocol a {
-class func a
-typealias e : a {
-return "A<T: Range<f == b()
+func a
+typealias e : a
 }
 }
 let end = {

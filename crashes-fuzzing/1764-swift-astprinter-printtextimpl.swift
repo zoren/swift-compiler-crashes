@@ -4,10 +4,8 @@
 
 enum B {
 class a {
-struct S : SequenceType> Self {
+struct S : SequenceType
+func d<T {
+struct c {
 }
-class func d<T, e {
-struct c> : A> (n: c(T>)) -> S) {
-}
-var _ c()
-func f.s
+c( )

@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<C> {
+class B<C {
 init(c: C) {
-c(d ())
+d
 }
 }
-class d<j : i, f : i where j.i == f
+class d<j where j = f

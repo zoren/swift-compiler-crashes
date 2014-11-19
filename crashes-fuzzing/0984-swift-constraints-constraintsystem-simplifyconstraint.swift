@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let c : String = nil
+let : String = nil
 struct A {
 func a<h : a

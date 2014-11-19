@@ -4,21 +4,21 @@
 
 protocol A {
 protocol A {
-protocol e : A, g<T) {
-struct c {
+protocol e : A {
+{
 }
-protocol A {
+{
 }
-class A {
+{
 }
-protocol B {
+{
 }
-typealias A where B {
-protocol a {
-struct S {
-}
-}
+typealias A {
+{
+{
 }
 }
 }
-func c: A? = "f
+}
+}
+func c: A

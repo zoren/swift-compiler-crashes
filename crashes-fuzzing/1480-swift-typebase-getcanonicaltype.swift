@@ -3,38 +3,36 @@
 // Test case found by fuzzing
 
 func a(a: a {
-return x in c {
+{
 }
-struct c {
-class A, e: a {
+{
+{
+}
+}
+{
 }
 }
 protocol a {
+protocol c {
+{
 }
 }
-protocol a {
-protocol c in c {
-case c: a {
-}
-}
-protocol c : b where d: b: a {
-return ")
-case .c<c>(n: String {
+protocol c : b
+{
 }
 typealias b : d
-init(i(self] {
-f: A) {
-self.join(x) {
-return !(true {
-}
-var b = a() -> Any))
+{
+{
+{
+{
 }
 }
 }
-class A : String {
 }
-protocol a {
+{
 }
-protocol a {
+{
 }
-typealias d>()
+{
+}
+typealias d

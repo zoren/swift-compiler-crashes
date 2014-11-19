@@ -3,10 +3,8 @@
 // Test case found by fuzzing
 
 import Foundation
-typealias f = c(A> T {
+typealias f = c( > {
 }
-class func a<j : A.f == Int
+func a<j : A.f
 enum A {
-func b[c>(()
-protocol a = T>(Any, T, range: b: SequenceType, self.E == Swift.dynamicType).Type) -> (".Type) -> : c {
 var f = a

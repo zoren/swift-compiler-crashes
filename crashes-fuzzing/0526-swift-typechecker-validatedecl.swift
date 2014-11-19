@@ -3,10 +3,8 @@
 // Test case found by fuzzing
 
 protocol P {
-struct B<C<U -> : T>(t: A: T>(array: a {
-typealias F = ")
+struct B
 }
 protocol A : P {
-class A where I) {
-println(false)")?
-enum A : B<T>() {
+class A
+enum A : B

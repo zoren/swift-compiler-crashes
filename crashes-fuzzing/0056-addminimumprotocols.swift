@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 func b<d {
-    enum b {
-        func c
-        var _ = c
+enum b {
+func c
+var _ = c

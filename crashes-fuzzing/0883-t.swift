@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 protocol A {
-func d(.b)
-func f: d where I.Element == { self] {
-return ")
+func d
+func f: d
 typealias d

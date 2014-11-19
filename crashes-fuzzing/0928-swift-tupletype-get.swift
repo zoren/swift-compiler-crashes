@@ -3,8 +3,6 @@
 // Test case found by fuzzing
 
 protocol b {
-class func d>(f.h
-"\() -> Any) -> {
-let n1: (object1: d = g<1 {
-class c, T? = """"foobar"
-typealias d.f = T
+func d
+let : (object : d g<
+typealias d

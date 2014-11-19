@@ -2,16 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-}(n: a {
-class C) {
-let v: T>Bool) {
-return self.g : SequenceType, AnyObject) {
+( {
+{
+{
+{
 }
 }
-return z(n: Int>
+return z(
 }
 }
 protocol A {
-extension NSSet {
+{
 }
-typealias A : A, y:
+typealias A : A

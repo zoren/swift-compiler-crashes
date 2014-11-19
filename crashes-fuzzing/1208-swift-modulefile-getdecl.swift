@@ -3,10 +3,8 @@
 // Test case found by fuzzing
 
 func h<d {
-enum h {
-var _ = d:b class b
-struct l<e : SequenceType{
-}
-func h<e>() -> [l<, l: i)) -> i) -> i) {
+class b
+{
+func h<e {
 b {
 (h {

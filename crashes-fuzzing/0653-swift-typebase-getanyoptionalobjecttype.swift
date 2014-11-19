@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T>(""A>) {
+func g<T " " {
 if true {
 class A {
-class C) {
-let g = .h = D>(")?
+class C
 }
-class A : A>(
+class A : A

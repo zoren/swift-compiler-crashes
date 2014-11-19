@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A : a {
-class A {
+protocol A {
+{
 }
-typealias e where T) -> T
-typealias h: c(g<T
-var f : A"))(("")
-let c: e: d =
+typealias e
+typealias h: c
+let c: e

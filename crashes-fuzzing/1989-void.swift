@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum b where f)
+enum b
 }
-b<Int) {
-}
+b<Int
 class B {
 protocol b {
 protocol a {

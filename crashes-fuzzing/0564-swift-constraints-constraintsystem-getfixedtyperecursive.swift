@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B == {
-}
-func f<T.B : A {
-}
-println(f<(x: B? {
+class B
+func f
+f<(x: B? {

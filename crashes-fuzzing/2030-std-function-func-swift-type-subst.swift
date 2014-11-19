@@ -3,12 +3,11 @@
 // Test case found by fuzzing
 
 protocol C {
-typealias d.advance(s: C> [unowned self)
-return """"ab""").b {
-class func b(b, () -> Any in
-protocol a {
+typealias d
+func b(b
+{
 }
-enum a<T> Any) {
+{
 }
 protocol b {
-let h : d>(""""
+let h : d

@@ -5,15 +5,13 @@
 extension Array {
 protocol b {
 }
-get {
+{
 }
-func c(A) {
+func c(A {
 }
-protocol a {
-class a<T> a {
-class A = Swift.a")!)
+{
 }
 }
 protocol A : b {
-typealias b where h)
-class func a:
+typealias b
+func a

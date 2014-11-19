@@ -3,14 +3,14 @@
 // Test case found by fuzzing
 
 class A {
-struct d<f : e, g: e where g.h == f.h> {{
+struct d<f , g: e where g = f { {
 }
-struct B<T : n []
+struct B<T : n
 }
-protocol a {
+{
 }
-class b: a {
+{
 }
-func f<T : BooleanType>(b: T) {
+{
 }
-func e() {
+func e

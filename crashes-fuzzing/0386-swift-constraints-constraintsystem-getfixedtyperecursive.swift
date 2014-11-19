@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var e: () -> {
-struct B<T! {
-init()
-let h = b(object2: B? {
+var : ( ) -> {
+struct B<T
+let h = (object : B? {

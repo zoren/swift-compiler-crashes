@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<j : i, f : i where j.i == f> : e {
+class d<j : i, f where j.i = f> : e {
 }
-class d<j, f> {
+class d {
 }
 protocol i {
 protocol i

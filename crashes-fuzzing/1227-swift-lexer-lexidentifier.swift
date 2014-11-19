@@ -5,8 +5,8 @@
 func e<l {
 enum e {
 func e
-func p(l: Any, Any) {
-fun n<n : l,) {
+func p( ) {
+{
 }
-n(e())
+n(e( ) )
 e

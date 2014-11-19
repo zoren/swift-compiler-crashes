@@ -2,13 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-ere T: a : T>(range: SequenceType, range.E
-")
 class A {
-protocol e : start, a(A.b
-println("A> {
-struct c, () -> {
-protocol P {
+protocol e : a
+{
+{
 }
 }
 func a<h: b

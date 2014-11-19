@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-[0.join() -> String {
-}
+[ join
 func d<B {
-class c = {
+class c {
 }
-let start = c()
+let start = c( )

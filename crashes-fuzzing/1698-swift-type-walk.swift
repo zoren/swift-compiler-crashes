@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 extension String {
-func compose<c
-let f = b> [[0x31] = a
-override func b<l : b
+let f = b
+func b<l : b

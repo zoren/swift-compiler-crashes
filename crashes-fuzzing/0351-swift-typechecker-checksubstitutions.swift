@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c == a(c(b
-convenience init("
-func f<T> {
-struct Q<T! {
+struct c
+func < {
+struct Q<T {
 class B<H : B<c>

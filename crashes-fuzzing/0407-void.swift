@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 let a {
-class A : d {
+class A : d
 class d: d

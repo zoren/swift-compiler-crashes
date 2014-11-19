@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<T](AnyObject) -> Int -> {
+func b<T {
 class A {
 struct c {
 }
 deinit {
-enum S<H : NSManagedObject {
-}()
-typealias F = { c()
+{ c( )

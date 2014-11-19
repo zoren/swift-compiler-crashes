@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 struct c {
-func a)
-class B {
+func a
+{
 }
 protocol d : a {
-}() {
-func b(_ = T>((A((b(a<D>(")?) -> T! {
-class func a<S : d = f:
+}
+func a<S : d

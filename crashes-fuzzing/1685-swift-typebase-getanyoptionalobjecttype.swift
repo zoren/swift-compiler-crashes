@@ -2,19 +2,17 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T) -> {
-extension NSSet {
-protocol P {
-var _ = { c> ()
+func f<T {
+{
+{
+{
 }
-func a(A, x }(.advance()
-return self)(i() -> (""ab"
+}
 }
 class A {
-case s: A {
+{
 }
-protocol c : c: NSObject {
+protocol c : c {
 }
-let c = a<c, f: l.advance(a: S<T>
-class a")
+let c = a<c
 func a

@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T ->(object1: l) {
+func < {
 protocol A {
-typealias e : b.startIndex, Bool]((x: T: a : String {
-struct A? = b(h>(c where B = ")
+typealias e : b.startIndex
 func b
 }
 }
-println() { c
-ext
+print

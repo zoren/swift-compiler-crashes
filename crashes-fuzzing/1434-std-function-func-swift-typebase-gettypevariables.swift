@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 enum A {
-let end = h>(i: Any) {
-}
+let end = h>(
 }
 protocol e : A {
 typealias A

@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func p<p>() -> (p, p -> p) -> p {
-l c l.l = {
+func < {
+{
 }
 {
-p) {
-})
+{
 }
-func d(e: () -> ()) {}
-var _ = d() {
-class b<g : e, d : e where g.f == d> : e
+}
+func d(e: ( ) -> ( ) { }
+var _ = d( ) {
+class b<g where g = d> : e

@@ -5,13 +5,12 @@
 func e<l {
 enum e {
 func e
-j {
+{
 }
-class l: j{  k() -> ())
-func j<o : BooleanType>(l: o) {
-}
-func p(l: Any, g: Any) -> (((Any, Any) -> Any) -> Any) {
+class l: j
+func j<o : BooleanType
+func p( ) -> ( ( ( ) -> Any) -> Any) {
 return {
-(p: (Any, Any) -> Any) -> Any in
+(p: ( ) -> ) -> Any in
 e
 ex

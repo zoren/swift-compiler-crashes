@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func compose<T.e = {
-func call(x: T.init() {
+func < {
+{
 }
-struct D : d {
-}
-struct d<T where H.h: I
+struct D : d
+struct d<T where H : I

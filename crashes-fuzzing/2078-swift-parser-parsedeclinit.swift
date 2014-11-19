@@ -2,15 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
+{
 -> {
-typealias e where S() -> {
-func f<d.f = d) {
-return { c()) {
-convenience init(b<d(Any, i : B<d>)
+func f {
+return { {
+init
 }
 }
 }
 }
 }
-private class b: c {
+class b {
 func d<l : d

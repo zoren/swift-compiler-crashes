@@ -2,12 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-b> T! {
-enum S.B() {
-class A : b> {
-return !.C) -> Any) {
-extension NSSet {
-}
+{
+{
+b {
+{
+extension
 }
 }
 }
@@ -16,4 +15,3 @@ protocol a {
 typealias e : d {
 }
 func d
-let v:

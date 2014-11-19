@@ -4,24 +4,22 @@
 
 import Foundation
 enum b {
-struct d, y)) -> {
-return "\() {
 protocol A {
-class c : T, Any) {
+{
 }
 protocol a {
-typealias b : b> String {
+typealias b : b {
 }
-func e(object1: (c) -> A {
+{
 }
-return $0.B) {
-}()
-protocol P {
-struct A {
-protocol a {
+{
 }
-}
+{
+{
+{
 }
 }
 }
-let n1: A
+}
+}
+let : A

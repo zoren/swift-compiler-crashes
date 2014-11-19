@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-0.init([Any)
-self.c : e: A {
-"A, e where h
+0.init( Any
 protocol A {
-typealias d : d {
+typealias d : d

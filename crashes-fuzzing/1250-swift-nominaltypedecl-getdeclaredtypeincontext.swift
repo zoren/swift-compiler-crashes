@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T>() -> T -> T {
-return { x in xocol P {
+func f<T> ( ) -> T -> T {
+return { x in {
 }
-struct d<f : e, g: e where g.h ==ay) {
-self.init()
+struct d<f where g =ay {
+init( )

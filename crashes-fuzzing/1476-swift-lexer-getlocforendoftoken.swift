@@ -2,24 +2,20 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T where B {
-println(T>] = D>] = {
-func a(A.e: b["
-protocol d {
-default:Any) -> T>(()
-typealias e : X.b: AnyObject)(e())
+func g<T {
+{
 }
-extension NSSet {
+{
 }
-class A : T) {
-class A<T, AnyObject, U) -> {
-func a(range: A {
-enum S<Y> {
+{
+class A {
+func a( {
+{
 }
 }
 }
-return b: T.endIndex - range.E == b> {
+{
 }
 }
 class A : b
-class b:
+class b

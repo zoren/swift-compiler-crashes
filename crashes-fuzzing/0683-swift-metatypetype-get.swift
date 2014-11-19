@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-println() -> A {
-}
-class B<T) {
+println( ) ->
+class B {
 protocol a {
-public var b : e() -> {
+var b : e {
 }
-typealias e : d {
-return ")
+typealias e
 typealias d : d

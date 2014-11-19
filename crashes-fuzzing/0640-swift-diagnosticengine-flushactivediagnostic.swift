@@ -3,21 +3,19 @@
 // Test case found by fuzzing
 
 class A {
-c, object1, AnyObject, f.init(b: H) {
-return [unowned self] {
+{
+{
+}
+{
+}
+}
+{
+{
+}
 }
 protocol C {
-}
-}
-var d {
-protocol P {
-}
-}
-protocol C {
-let v: A(#object2)
-func b: U -> T](b() ->](""
-protocol A where A> (")
+let : A
 }
 class A : NSManagedObject {
 protocol b {
-typealias e : AnyObject, e!.
+typealias e : e

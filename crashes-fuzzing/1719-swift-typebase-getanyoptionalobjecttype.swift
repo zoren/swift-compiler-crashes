@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<T) {
-f: d : e() -> String {
-return "foo"")
-d.init(e: AnyObject) -> String {
+class A<T {
+{
 }
-struct S<l : b(x)
-class func b(AnyObject) -> S<T>(A>], A
+struct S<l : b
+func b(AnyObject) -> S<T>

@@ -4,13 +4,10 @@
 
 protocol d : a {
 protocol a {
-protocol a {
+{
 }
-func c: [B
-protocol b = {
-}
-}
+func c: B
 protocol b {
-}() -> {
-return !.substringWithRange(T>(".A: k.init(f.startIndex)(2, T>) {
-class B<b: b: c]()
+}
+}
+class B<b: b

@@ -2,24 +2,24 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T>() {f {
+func < { {
 }
-class d: f{  class func i {}
-func f() {
+class d { { }
+{
 }
-func prefix(with: String) -> <T>(() -> T) -> String {
+{
 }
-protocol a : a {
+{
 }
-protocol f {
+{
 }
-protocol j : f {
+{
 }
-protocol e : f {
+{
 }
-protocol i {
+{
 }
 struct c : i {
 }
-func i<j : j, d : i j
-init(b: c) {
+func i<j , d : i
+init(b: c)

@@ -4,6 +4,6 @@
 
 import Foundation
 protocol A {
-func b<T where I.B) {
+func T {
 }
 typealias e : e

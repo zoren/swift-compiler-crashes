@@ -3,7 +3,5 @@
 // Test case found by fuzzing
 
 protocol A {
-var _ c, Bool][c
-var b = "
-var b: e> Void>()
+var b: e
 typealias e : A.b

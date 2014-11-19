@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where B : U -> ((g<T.e == {
-return self.h : X.C<T where Optional<T where f, d>(n: A> T>(")
+struct B<T where B : U
 struct A {
-switch x {
+{
 }
 var b = B

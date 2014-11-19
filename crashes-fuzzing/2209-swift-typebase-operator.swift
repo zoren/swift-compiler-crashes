@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 struct d<l : d where T : e {
-let t: b> (z(Range()
-return "):
-let b = b(Any, (t.Generato
+let t: b
+let b = t

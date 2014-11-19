@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 enum S<d {
-func b: A.join("foobar""a<h == nil
-return self.advance() {
+func b
+{
 }
 func a<U : a

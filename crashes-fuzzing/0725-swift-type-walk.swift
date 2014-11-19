@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 struct S {
-let t: b where l.d: end: S<Y> S) -> {
-class func compose<f : e? = h, (")) {
-func b<T : b {
+let t: b
+func b<T : b

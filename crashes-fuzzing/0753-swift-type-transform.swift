@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T) {
-struct B<f = {
-struct D : P {
+func g<T {
+struct B<f {
+struct D : P
 protocol P {
-init()
+init( )

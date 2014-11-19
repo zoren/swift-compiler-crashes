@@ -3,14 +3,13 @@
 // Test case found by fuzzing
 
 var b {
-let a<Int>(n: T>? = c: AnyObject) {
+{
 }
-println()
-class A, Any, U) -> {
-typealias A {
+println
+, {
+{
 }
 }
 protocol A {
-func f(T>(t.E == 1
-let foo as String) -> ()
-typealias e : e)
+func f
+typealias e : e

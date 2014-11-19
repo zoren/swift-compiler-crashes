@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct e = nil
+struct e
 }
-println() {
+println( ) {
 }
-struct c<d where T : A, y: AnyObject, 3] = [B<A) {
-case C: (T: T>(")!() {
-var d = e(n: c = 1)
-convenie
+struct c<d where T : A
+var d = e(n: c = 1 )

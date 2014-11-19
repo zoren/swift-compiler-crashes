@@ -2,27 +2,27 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct j<l : o> {
-func a<l>() -> [j<l>] {
-return []
-l j l.n = {
+struct j
+func a< > ( ) -> [j<l> {
+return [ ]
+n {
 }
 {
-l) {
-n  }
-}
-protocol f {
-}
-class l: f{  class func n {}
-func a<i>() {
-b b {
+{
 }
 }
-class a<f : b, l : b m f.l == l> {
+{
 }
-protocol b {
+class l { { }
+{
+{
 }
-struct j<n : b> : b {
-protocol p{
+}
+{
+}
+{
+}
+struct j {
+{
 }
 protocol g : e { func e

@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct e where A() {
-}
-func b<T.h == {
-class A {
-var f: e = A(false)
+func b<T {
+class A
+var e = A( )

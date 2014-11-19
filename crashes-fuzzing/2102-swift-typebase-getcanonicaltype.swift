@@ -7,5 +7,4 @@ protocol A : d {
 typealias d
 }
 }
-let h: [Any, A : b {
-return
+let : , : b

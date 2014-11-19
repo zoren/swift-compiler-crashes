@@ -2,13 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<A.R
-get {
+func <
+{
 protocol A {
 func f: a {
 }
 protocol a {
-typealias d = g.a: U>() -> T.c() {
-return ""ab"]
+typealias d = g
 }
-typealias g<T
+typealias g

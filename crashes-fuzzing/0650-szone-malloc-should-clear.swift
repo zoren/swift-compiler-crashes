@@ -3,10 +3,10 @@
 // Test case found by fuzzing
 
 import Foundation
-let h: AnyObject, f: Int -> {
-typealias e : NSObject {
+let : Int -> {
+{
 }
 enum A : NSObject {
-override init(T>) {
+{
 }
-case b = 0)
+case = 0

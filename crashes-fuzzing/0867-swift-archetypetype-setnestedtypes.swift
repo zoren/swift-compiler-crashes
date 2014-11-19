@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 protocol C {
-typealias e : SequenceType, x {
+typealias e : SequenceType {
 }
 typealias d
-func f<T] == [c
-c, c(object1, self.f = ")
-typealias f : d {
+func T
+typealias f : d

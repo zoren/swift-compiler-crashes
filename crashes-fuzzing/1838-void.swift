@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 struct S<d {
-init() {
-class a: SequenceType, c()
-typealias F = b(a)(2, 3)
+init( ) {
+class a: SequenceType
+typealias F = b(a) ( )

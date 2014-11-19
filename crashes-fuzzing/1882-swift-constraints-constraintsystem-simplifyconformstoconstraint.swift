@@ -5,8 +5,8 @@
 extension Array {
 var d {
 class b: a {
-func a)
-let n1: A<Int>?
+func a
+let n : A<Int>?
 }
-b(b.a<T> T) -> : a = nil
-protocol A {
+(b.a<T ->
+protocol A

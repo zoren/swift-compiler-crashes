@@ -2,23 +2,23 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true as a<f = { self.Type
-typealias B>() -> {
-super.B {
+{ Type
+-> {
+{
 }
-func c, T : P {
+{
 }
-init <B {
+init {
 extension String {
-func x: NSManagedObject {
+{
 }
 extension NSSet {
-func i(A, Any)(")!(c) -> Any) -> U.Generator.c == [c> () {
+func i(
 }
 }
 }
 }
 }
-protocol c : Any, Any, A {
-init()
+protocol c {
+init( )
 typealias d: d

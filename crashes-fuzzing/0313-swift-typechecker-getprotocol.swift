@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 var g = 1
-class g<k>: NSObject {
-    init(h: k) {
+class g<k {
+init(h: k) {
 class i {
-    class func j() -l ""     static let g:{j()
+func j " " let : {j( )

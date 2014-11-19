@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<c>: NSObject {
+class d<c {
 init(b: c) {
 class A {
-class func a() -> String {
+{
 }
-convenience init<T>(array: Array<T>) { self.init()
+convenience init<T> (array: Array<T> ) { self.init

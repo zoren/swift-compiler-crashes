@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 protocol A : a {
-typealias F = A.c {
-}
+typealias F = A
 protocol a {
 class A

@@ -3,13 +3,11 @@
 // Test case found by fuzzing
 
 class a<B {
-class B : b : U>() -> {
+{
 }
-func a: A> {
+func a: A {
 }
-func f<U, b {
+func f {
 }
-super.<H : a {
-map("))
 let f = a
-class A : a {
+class A : a

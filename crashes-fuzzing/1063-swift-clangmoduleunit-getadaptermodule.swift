@@ -5,9 +5,8 @@
 import Foundation
 let a {
 protocol P {
-func a: A, f<H : (Any) {
-var d == ")
+func a: f
 }
 protocol a {
-typealias B : B(i> Int = e: A""cd""cd""))
+typealias B : B
 func d

@@ -2,15 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<d where T : I.startIndex)
+struct c<d where T : I
 if true {
-protocol a {
+{
 }
 protocol a {
-func ^() -> {
-class B) {
+{
+{
 }
 }
-protocol a {
+{
 }
-func x(c] in
+func x(c

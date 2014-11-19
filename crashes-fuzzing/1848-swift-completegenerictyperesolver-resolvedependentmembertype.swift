@@ -2,16 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<I : NSObject {
-let i> : b, a: Int) -> {
+func f<I {
+{
 }
-private class a {
-class a() {
-struct S : ["
-protocol a : a!
-c>) {
-struct S {
+class a {
+protocol a : a
+{
+{
 }
 }
 func a: I.a
-se

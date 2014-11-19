@@ -3,22 +3,22 @@
 // Test case found by fuzzing
 
 protocol A {
-class func d<T>) {
-println() {
+{
+{
 }
 }
-class b: b<T>(n: d == e: S) {
+{
 }
-class a<T : Any) {
-func call() {
+class a<T : Any {
+{
 }
 }
-class A? {
-func c: e<U -> (Any) -> {
+{
+{
 }
 }
 typealias B : a {
-return !.f : A {
+{
 }
 }
-func a()
+func a

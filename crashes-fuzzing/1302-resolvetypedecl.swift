@@ -3,20 +3,20 @@
 // Test case found by fuzzing
 
 struct c {
-var d: b.Type
-func e() {
+var d: b
+{
 }
 }
-class a<f : b, g : b where f.d == g> {
+class a<f where f = g {
 }
 protocol b {
 }
-struct c<h : b> : b {
+struct c< > : b {
 }
-func ^(a: BooleanType, Bool) -> Bool {
+func ^ ( {
 }
-class a {
+{
 }
-protocol a {
+{
 }
-class b<h : c, i : c where h.g == i> : a
+class b<h , i : c > : a

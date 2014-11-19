@@ -2,7 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let v: A? {
-println(f<f = A: P> Int {
-return ")
-enum S<T where g: e :
+let A {
+enum S<T where g: e

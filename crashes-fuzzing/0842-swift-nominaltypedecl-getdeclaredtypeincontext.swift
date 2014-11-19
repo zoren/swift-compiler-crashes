@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct Q<T where I.c = compose<T> () {
-typealias R = {
+struct Q<T where I = compose {
+{
 }
 let a {
 class d<I : N

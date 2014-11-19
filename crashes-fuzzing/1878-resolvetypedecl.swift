@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 if true {
-t.dynamicType.B)-> U>([]() -> ()) {
+{
 }
-typealias f = B)
-class B<T : b where T: S
+typealias f = B
+class B<T where T: S

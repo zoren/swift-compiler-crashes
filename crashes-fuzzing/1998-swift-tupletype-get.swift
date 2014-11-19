@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 protocol a {
-func d>():
-typealias e = i(b():
-println())) -> Bool {
+func d
+typealias e = i
+{
 }
-typealias d {
-println(""ab"")")
+typealias d
 func i(f: d

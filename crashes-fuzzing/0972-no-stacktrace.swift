@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 var b {
-let start = 0) {
-case c, x }))(c()
-var b(")
+let start = 0 ) {
+}
 protocol B : a {
 func a

@@ -4,6 +4,6 @@
 
 protocol C {
 protocol d : a {
-init()
+init( )
 }
 func a: d

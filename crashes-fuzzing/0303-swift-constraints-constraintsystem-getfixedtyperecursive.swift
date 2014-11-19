@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func t<l>(k: (f, l) -> l) -> (f, l) -> l {
-m e {
-    n r<s>(j: i<s>) {
-        self  }
+func t<l {
+{
+{
+}
 }
 class f {
-    class func q() -> String {
-            u let n: String = {
-       self.q
+func q( ) -> {
+let String =
+self.q

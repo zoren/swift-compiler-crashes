@@ -4,13 +4,13 @@
 
 protocol P {
 protocol A : a {
-class A {
-protocol d = f() {
-func f: P {
-}()
+{
+{
+{
 }
 }
-func a()
+}
+func a
 }
 }
-private let t: P {
+let : P

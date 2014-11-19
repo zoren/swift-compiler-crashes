@@ -3,13 +3,13 @@
 // Test case found by fuzzing
 
 import Founda
-func b<T: A>() -> [T] {
-for p in w {
+func < {
+{
 }
-v class t<k> {
-let l: k
-class k<f>: NSObject {
-g(e: f) {
+class t {
+let : k
+class k< > : NSObject {
+{
 }
 }
 protocol i : d { func d

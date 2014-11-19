@@ -2,20 +2,20 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T>() {f {
+func a<T { {
 }
-class d: f{  class func i {}
-func f() {
+class d { { }
+{
 }
-func prefix(with: String) -> <T>(() -> T) -> String {
+{
 }
-protocol a : a {
+{
 }
 var k = 1
-return { h o h 1 {
+return { {
 }
 }
-m func p() -> String {
-let m: String = {
-return self.p()
-}()
+func p( ) -> {
+let : String = {
+return self.p( )
+} ( )

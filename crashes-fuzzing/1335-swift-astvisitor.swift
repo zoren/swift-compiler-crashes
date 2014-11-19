@@ -3,4 +3,4 @@
 // Test case found by fuzzing
 
 let b = {
-(v: T? = i: A, AnyObject) in x = b
+(v: T ) in x = b

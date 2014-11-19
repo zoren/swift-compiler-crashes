@@ -2,24 +2,23 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<l>() -> (l, l -> l) -> l {
-l j l.n = {
+func f<l {
+{
 }
 {
-l) {
-n  }
+{
 }
-protocol f {
 }
-class {
+{
 }
-struct j<n : b> : b {
-var m: Int -> Int = {
-n $0
-o: Int = { d, l f
-}(k, m)
-protocol j {
+{
 }
-class b: a {
+var : Int -> Int = {
+$0
+{
 }
-(b() as a).d
+{
+}
+class b {
+}
+b( )

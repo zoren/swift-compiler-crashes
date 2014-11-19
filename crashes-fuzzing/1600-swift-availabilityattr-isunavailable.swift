@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B() -> U)
+struct B
 enum A : a {
 }
 protocol a {
 }
 protocol a {
-typealias f : A = B
-func b(n: (c) {
+typealias f = B
+func b {
 }
-typealias d: d wher
+typealias d: d

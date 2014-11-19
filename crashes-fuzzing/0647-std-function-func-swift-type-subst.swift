@@ -4,8 +4,7 @@
 
 protocol P {
 protocol A {
-static let c: B<T>)
+let c: B
 }
-func g: A? = .Type) -> {
-let c(("
-typealias B()
+func g: A
+typealias B

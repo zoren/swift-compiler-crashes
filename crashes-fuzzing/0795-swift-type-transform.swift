@@ -2,24 +2,23 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class Foo<T>: NSObject {
+class Foo<T {
 init(foo: T) {
-A {
+{
 }
-struct B : A {
-struct C<D, E: A where D.C => String {
+struct C<D {
 {
 }
 {
-g) {
-h  }
+{
 }
-protocol f {
 }
-func a<T>()T, T== f.h> {
+{
+}
+{
 }
 protocol A {
-func b(B)
+func b
 }
-struct X<Y> : A {
-func b(b: X.Type) {
+struct X< > : A {
+func b

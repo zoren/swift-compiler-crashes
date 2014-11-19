@@ -3,20 +3,18 @@
 // Test case found by fuzzing
 
 extension Array {
-let t: (.Type) {
-protocol A : ({
-"""):
+{
 }
-let a: a {
+{
 }
-struct c = b(T) {
+{
 }
-convenience init() { self.init(c : e = {
+init( ) { {
 }
-private class B {
+class B {
 func f: a {
-protocol A = B) -> {
+{
 }
 }
 }
-class a<T where l.e: Bool))
+class a<T where l : B

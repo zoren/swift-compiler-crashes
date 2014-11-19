@@ -2,19 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<T
-func a<S {
-return { c: T>: b> V>() -> U)
+func < {
+return {
 }
-extension Array {
-func a(array: Array) -> {
-let x }
+extension
+{
 }
-return NSData((x) -> {
-return ""foo""")
-() -> {
-}
-let t: B
-protocol B : NSObject {
+let : B
+protocol B {
 protocol P {
-typealias A : A {
+typealias A : A

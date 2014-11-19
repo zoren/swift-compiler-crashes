@@ -2,17 +2,17 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func compose<T, AnyObject.B == A: a {
-struct d: NSManagedObject {
-let f = a(t: String {
-d: NSManagedObject {
+func compose<T {
+struct d {
+let f = (t: {
+{
 }
-deinit {
+{
 }
-typealias e = c, b in a {
-struct Q<T>(f: Array<T) {
+{
+{
 }
 }
 }
-b.c: A.h = nil
-func b> Int {
+b
+func b

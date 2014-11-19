@@ -4,4 +4,4 @@
 
 import Foundation
 extension NSData {
-return $0.init<h : T>()
+init<h : T> ( )

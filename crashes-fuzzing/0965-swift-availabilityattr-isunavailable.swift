@@ -2,24 +2,24 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S : a {
-println() -> String {
-var b = true as BooleanType)) {
+struct S {
+{
+{
 }
 }
-private class A {
+class A {
 enum b {
 }
-var a<T -> {
+{
 }
 protocol A {
 }
-func b(#object1, i : A {
+func b( i : A {
 }
-func b<U) -> {
-extension String {
+{
+{
 }
-typealias F>) -> () -> {
+{
 }
 }
 }

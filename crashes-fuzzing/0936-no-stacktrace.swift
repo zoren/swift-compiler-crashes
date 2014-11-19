@@ -4,9 +4,9 @@
 
 protocol C {
 protocol B : a {
-typealias d {
+{
 }
-func a<T>() -> String
+func a
 }
 }
 struct A : C

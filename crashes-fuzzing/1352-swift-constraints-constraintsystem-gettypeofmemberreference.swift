@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a : C
-var b(b(c: a {
+class a
+var b( (c: a {
 }
 protocol A : A {
 typealias A

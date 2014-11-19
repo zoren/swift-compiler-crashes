@@ -2,16 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-bject) {
-let h: String {
-func a<c> V {
-a<Y> : Any, B? {
-case .B == g: X.f = ["])
+{
+let String {
+{
+{
+: [ "
 }
 }
 }
 }
-class b: b() {
-if true }
 protocol B : SequenceType, b {
-func b<T>
+func b

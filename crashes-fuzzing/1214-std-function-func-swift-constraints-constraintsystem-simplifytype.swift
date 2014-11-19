@@ -3,15 +3,15 @@
 // Test case found by fuzzing
 
 enum A : String {
-case b = ""
-func b<T: A>() -> [T] {
-retuwhere g.h == f.h> {
+case = " "
+func b<T {
+{
 }
-protocol e {
+{
 }
 class A {
-class func a() -> Self {
+func a( ) -> {
 struct c {
-static let d: String = {
-return self.a()
-}()
+let : String = {
+return self.a( )
+} ( )

@@ -3,4 +3,4 @@
 // Test case found by fuzzing
 
 {
-"\(object1: Any).C("
+" \(object : Any) "

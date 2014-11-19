@@ -3,24 +3,18 @@
 // Test case found by fuzzing
 
 import Foundation
-struct A {
-}
+struct A
 }
 extension NSSet {
-protocol b {
-}
-let v: b {
-self.init(b<H : Range() {
-")
-override init(#object1, k : a {
-let c: c {
+{
+{
+{
 }
 }
-class A {
+{
 }
 }
 enum A {
 }
 enum a<T
-class A : a {
-t
+class A : a

@@ -4,5 +4,5 @@
 
 import Foundation
 extension NSData {
-class A, let n1: C {
-super.d.init():
+class A let n {
+super.d.init(

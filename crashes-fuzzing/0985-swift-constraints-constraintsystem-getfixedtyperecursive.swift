@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func e<l : d {
-i<T> Int -> {
-if c == c)) {
+func e<l {
+-> {
+{
 }
 }
 class a {
 }
-get {
+{
 }
-let end = a() {
+let end = a( )

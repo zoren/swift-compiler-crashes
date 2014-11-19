@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var b: AnyObject, A {
-class A<l : A.<c) -> {
+var AnyObject, A {
+class A {
 protocol A {
-typealias d : b.count](b<T> (false)
-return "[T {
+typealias d : b.count
 }
 func b<h : b

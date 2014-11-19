@@ -3,12 +3,10 @@
 // Test case found by fuzzing
 
 protocol P {
-let t: ()
-class B : d {
+let t: (
+{
 }
-typealias d: A {
-func b("""A.init(h.c<h == {
-func g, let v: C {
+typealias d: A
+{
 }
-protocol A : d {
-pr
+protocol A : d

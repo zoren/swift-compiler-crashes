@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 import Foundation
-class d<c>: NSObject {
-}
+class d< > : NSObject
 }
 func h<d {
-var _ = d:b class b
-str, i) -> i) {
+class b
+) {
 b {

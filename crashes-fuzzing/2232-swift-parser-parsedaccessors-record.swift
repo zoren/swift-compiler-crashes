@@ -4,18 +4,14 @@
 
 let a {
 class m {
-ss func b: A {
-func l> T where h: n = c>(.init(x: T> {
-}(("\() {
+func b {
 var d {
-let a {s : a {
-}
+let a {
 }
 }
 }
 }
 }
 protocol A {
-typealias d : a : CollectionType where g<1 {
-d("):b : T.<T where T where A: a {
-func a(An
+typealias d : a
+func a

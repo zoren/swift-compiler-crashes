@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 let c {
-assert(n: Int {
+(n: Int {
 }
 protocol A : a {
-func a: b(sel
+func a

@@ -3,16 +3,14 @@
 // Test case found by fuzzing
 // Distributed under the terms of the MIT license
 
-func h<m>() -> (m, m -> m) -> m {
-   m h m.k = {
+func < {
+{
 }
- {
-   m) {
-        h  }
+{
+{
 }
-protocol h {
 }
-class m: h{  class func k
-    var h:  [k<f>] {
+{
 }
+var : k
 protocol k : h { func h

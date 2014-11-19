@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 class a
-class func c<D> T>(AnyObject)
-func c: Any, q:
-public var b {
-for c = a(a))
+func c
+func c: Any
+var b {
+c = a(a)

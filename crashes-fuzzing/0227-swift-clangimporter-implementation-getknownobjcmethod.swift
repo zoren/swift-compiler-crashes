@@ -2,4 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class b<f, d : e where h.g == d> : e
+class b<f where h.g = d> : e

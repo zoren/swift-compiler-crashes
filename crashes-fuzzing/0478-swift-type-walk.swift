@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 var d {
-func f(t: A: a {
+{
 }
-protocol C {
+{
 }
 protocol C {
 func g<H : a {
 }
-class func a(g(n: d =
+func a(g

@@ -2,12 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class o<k>: q {
+class o<k {
 init(j: k) {
-m {
+{
 }
-struct p : m {
-}
-struct l<p{  class func m
-}
-class f<p : k, p : k where p.n == p> : n {
+class f<p where p.n = p> : n

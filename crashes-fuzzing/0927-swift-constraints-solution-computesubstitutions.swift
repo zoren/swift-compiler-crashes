@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 protocol c {
-convenience init()
-protocol A {
+init( )
+{
 }
-protocol P {
+{
 }
-typealias B<h == b
+typealias B
 }
-typealias e = { c())
+{ c( )

@@ -4,10 +4,10 @@
 
 protocol A {
 protocol A : a {
-self.<Q<T: SequenceType, A = c> Int {
+{
 }
 func a
 }
 }
-let n1: (z: [Int
+let : (z: [Int
 extension A

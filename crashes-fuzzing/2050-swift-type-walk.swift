@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 var b {
-struct D : b: [1].R
+struct D : b
 protocol b {
-func b<T, object2: b
-class C
+func b<T, object : b

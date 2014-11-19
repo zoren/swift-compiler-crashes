@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<H : Int = {
-struct Q<d.E == {
+func < {
+struct Q<d {
 struct e : a
-protocol A {
+{
 }
-class a<j : c where f: b: I) {
-protocol P {
+class a<j where f: b {
+protocol P

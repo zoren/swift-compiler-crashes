@@ -4,8 +4,7 @@
 
 0
 protocol A {
-typealias e : B) {
+typealias e : B {
 }
-func a(n: A {
-func g: e)"A? {
+func g
 typealias B

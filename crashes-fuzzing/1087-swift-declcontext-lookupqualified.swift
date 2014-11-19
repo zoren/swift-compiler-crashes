@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 class c {
-func b((Any, c))(a: (Any) -> <T>(() -> T) -> Sunc b(las
-struct c<S: SequenceType, T where Optional<T> == S.Generator.Element>(xs :
+func b ( c
+struct c<S: SequenceType, T where Optional<T> = S.Generator.Element

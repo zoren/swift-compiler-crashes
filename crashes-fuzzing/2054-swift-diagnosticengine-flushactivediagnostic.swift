@@ -2,28 +2,28 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A : b {
-private class B {
-struct c {
+class A {
+class B {
+{
 }
-protocol b = Swift.c {
+{
 }
-class A<h: d where f.h : b = { self)")
+class A<h where f : b {
 let c {
-func f<T -> d>() { c<d: CollectionType where T, k : b<T) {
+f { {
 }
 }
 }
 }
 }
-struct S<U -> {
-if c {
+struct S {
+{
 }
-struct Q<T> String {
+{
 }
-let a {
+{
 }
-class c {
+{
 }
-class A<j : b() {
-let h.g : Exte
+class A {
+let h

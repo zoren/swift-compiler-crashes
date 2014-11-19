@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 protocol d {
-f e: d {
+{
 }
 protocol g : e { func e
 }
 }
-extension d) {
+extension d

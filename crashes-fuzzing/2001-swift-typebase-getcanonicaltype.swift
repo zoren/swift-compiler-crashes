@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-public class A {
-public var _ = T>(c()
-var b: C: I) {
-})
-public var a<T -> String {
+class A {
+var _ = c
+{
+}
+{
 }
 }
 protocol c : b {
-typealias b {
+typealias b

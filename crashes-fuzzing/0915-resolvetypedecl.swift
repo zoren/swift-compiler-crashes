@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<T where S.e = e
-for b in c
+struct c<T where S = e
+for in c

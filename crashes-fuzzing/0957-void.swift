@@ -3,13 +3,11 @@
 // Test case found by fuzzing
 
 import Foundation
-return x = [0.Generator.count](#object1: A? = {
-protocol c = "foo"ab"
-func d(b: T) {
-())() {
+func d( ) {
+{
 }
-func x: String {
-func f<U -> Any, let f : a!
+func x: String
+let : a!
 protocol a {
-typealias d, end: B<T
+typealias d
 typealias e: d

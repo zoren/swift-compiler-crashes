@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 protocol b {
-protocol A : d = i<I : d where g> {
-i> {
+{
+{
 }
 }
-let v: Any) -> {
-return ",""cd""""]() -> e: c: ()
-typealias d: b.d.Ty
+let v: Any
+typealias d: b.d

@@ -4,8 +4,7 @@
 
 protocol a {
 protocol A : d {
-typealias d>](b> V, length: Hashable> Self {
-public subscript ("",""\(x)!)
+typealias d
 }
 }
-class func call(a)
+func call(a

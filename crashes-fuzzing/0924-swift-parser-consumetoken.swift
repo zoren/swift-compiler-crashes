@@ -3,27 +3,27 @@
 // Test case found by fuzzing
 
 struct A {
-let a {
+{
 }
-var b: Array<f = c<Q<T) -> A {
+{
 }
-return !.init(h: P {
+{
 }
-func f<d = {
-class c == b<B {
-func e: Int -> {
-protocol c {
+func f<d {
+class c b {
+{
+{
 }
 }
-typealias f = {
-func a<T : Array<T) {
-protocol A {
+{
+func a {
+{
 }
 enum A {
 }
 }
 }
-A? {
+{
 }
 }
-println([c() ->
+( [c( ) ->

@@ -3,12 +3,12 @@
 // Test case found by fuzzing
 
 class b
-func a<T: P {
-struct S : P {
+func a<T {
+struct S {
 }
-func f<T> S {
-func f<T : A<T where T>() -> T) {
-class B == 1, () {
+func f< > S {
+{
+{
 }
 }
 }

@@ -3,33 +3,28 @@
 // Test case found by fuzzing
 
 struct c {
-protocol A {
-let x {
+{
+{
 }
 }
-func g.i {
-}
-protocol a {
+{
 }
 protocol a {
-protocol b : Array) -> {
-func a("foobar""")""foobar"
-typealias e : h === 1]
-let h : e()
-class A<j : ji.b {
-var d = e() {
-let t: d = { class func f<T: NSManagedObject {
 }
-func a<T where H) -> {
-protocol b in c {
+protocol a {
+typealias e : h ==
+let h : e
+class A {
+var d = ( ) {
+let d = { {
 }
-func b.e() {
-func ^(
-typealias e : Int = {
-h = [")
+{
+{
+}
+{
 }
 }
-init() -> S {
-protocol c v: l -> {
-case C([]).<f : d {
-enum e(j,
+{
+-> {
+{
+enum e

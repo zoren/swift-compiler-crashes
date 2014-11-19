@@ -4,11 +4,8 @@
 
 import Foundation
 extension String {
-class c where h>(()
-return """
-init <f = {
-protocol b = [() {
-func b: l.Element>(i()")
+class c
+{
 }
 enum b {
 func b<T : b

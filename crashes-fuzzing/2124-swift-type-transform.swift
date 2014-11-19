@@ -5,6 +5,6 @@
 class c<d {
 class a<D> : a {
 protocol a {
-struct c == B
+struct c
 }
 struct c

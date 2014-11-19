@@ -4,13 +4,12 @@
 
 let b {
 protocol d {
-typealias d: d {
-return "cd""
-struct d: a: c
+typealias d: d
+struct d: a
 protocol a {
-protocol a {
+{
 }
 }
-protocol b where I) {
+{
 }
-func g<T>()
+func >

@@ -2,20 +2,20 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<H : T) -> {
+func < {
 protocol P {
 protocol a {
-typealias e : e where I.R
-enum A {
-class C> {
-class A {
-struct Q<T! {
+typealias e : e
+{
+{
+{
+{
 }
-extension NSSet {
-}
-}
+{
 }
 }
 }
 }
-var e: P
+}
+}
+var : P

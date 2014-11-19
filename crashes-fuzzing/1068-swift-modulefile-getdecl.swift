@@ -3,12 +3,12 @@
 // Test case found by fuzzing
 
 func d<S {
-protocol b = {
+{
 }
 enum b {
 struct c {
-init()
-func c> U>())
-protocol a {
+init
+func c
+{
 }
-println(b<T : c) -> Any, let end = c()
+let end = c( )

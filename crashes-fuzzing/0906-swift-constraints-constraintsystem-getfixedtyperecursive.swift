@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 let h, A {
-map() {
+map {
 }
 protocol a {
 typealias A : A

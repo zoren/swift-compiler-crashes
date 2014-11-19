@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 protocol a {
-private class A<e: A> : A>], c: d where S<T> a {
-}("""
-return x }
-func c(a<T>
+class A<e: A> : A
+}
+func c(a

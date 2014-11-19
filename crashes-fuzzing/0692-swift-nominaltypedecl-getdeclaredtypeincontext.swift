@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var f: a {
-class B<H : B<T>: T> : B
+var a {
+class B<H : B<T> > : B

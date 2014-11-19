@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T>() -> T -> T {
-type>) {
+func f<T {
+{
 }
 class A {
-class funcs func b() {
-struct c {
-static let d: String = {
-}()
+func b( ) {
+{
+{
 }
-b<T:
+}
+b

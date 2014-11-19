@@ -2,46 +2,46 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func j<f: l: e -> e = {
+func j<f {
 {
-l) {
-m  }
+{
+m }
 }
 protocol k {
-class func j()
+class func j
 }
-class e: k{  class func j
-}
-class i {
-func d((h: (Any, AnyObject)) {
-}
-}
-func d<i>() -> (i, i -> i) -> i {
-i j i.f = {
-}
-protocol d {
-}
-class i: d{  class func f {}
-enum A : String {
-}
-struct d<f : e, g: e where g.h == f.h> {
-}
-}
-extension d) {
-}
-func a() {
-c a(b: Int = 0) {
-}
-func m<u>() -> (u, u -> u) -> u {
-p o p.s = {
+class e: k{ class func j
 }
 {
-o.m == o> (m: o) {
-}
-st.C == E> {s func c() { }
+{
 }
 }
-st> {
+func d {
+{
 }
-func prefix(with: Strin-> <r>(() -> r) -> h {
-n { u o "\(v): \(u()" }
+{
+}
+{ { }
+{
+}
+{
+}
+}
+{
+}
+func a( ) {
+{
+}
+func m {
+{
+}
+{
+{
+}
+{ { }
+}
+}
+{
+}
+func prefix
+" " }

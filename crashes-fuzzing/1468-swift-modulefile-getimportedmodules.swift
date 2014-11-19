@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-(t: $0
-[[(f(a(a
-class b<T where h: Any) -> {
+(
+[ [ ( ( (a
+class b<T where h: Any {
 typealias F = e!

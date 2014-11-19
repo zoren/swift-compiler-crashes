@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 protocol A {
-typealias B : I.join(self.init(A, U, "))->()
+typealias B
 }
 extension A {
-enum B == c> {
+enum B
 }
-}
-class B : A,
+class B : A

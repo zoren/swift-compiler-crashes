@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 protocol c {
-func e!.R
-class A {
-switch x }
-typealias e : P> : A, let t: b: B>: A> ("")
-class func b: e
+func e
+{
+}
+typealias e let : b
+func b: e

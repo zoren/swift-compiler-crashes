@@ -3,12 +3,11 @@
 // Test case found by fuzzing
 
 class B {
-struct c<B : () {
+struct c {
 }
-let b = c() -> : b: BooleanType>(e(a
-private let end = "a: c: b: Array<h: Range()
-println() {
+let b = c( ) >
+{
 }
-protocol P {
+{
 }
 func c<T : b

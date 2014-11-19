@@ -2,21 +2,19 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T>() {f {
+func f( ) {
+{
 }
-func f() {
-return {
+{
 }
-return z({
+{
+{
+{
 }
-g) {
-func b((Any, c))(a: (Any, AnyObject)) {
-if let x = mx {
-}
-retet x = mx {
+{
 }
 }
 }
-func i<l : d where l.f == c> (n: l) {
+func i<l where l = c {
 }
 protocol c : b { func b

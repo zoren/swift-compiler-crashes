@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<c() {
-protocol A {
+enum S {
+{
 }
-var b = e("\(array: [Any) + seq: U -> ("
+var b = " \(array: Any) "

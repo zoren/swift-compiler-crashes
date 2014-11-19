@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 Void{
-return [0x31] == B<T where r) -> String {
-typealias f = {
+-> {
+{
 }
-protocol A : d {
-}
+protocol A
 }

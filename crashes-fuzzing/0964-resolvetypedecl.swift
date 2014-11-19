@@ -2,6 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<T where h: Any, A? {
-switch x }
+struct c<T where h: Any
 var f = compose<c>

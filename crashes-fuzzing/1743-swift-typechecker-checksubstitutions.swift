@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c(c where g<T>)
+func c(c
 struct c<j : c<Int>

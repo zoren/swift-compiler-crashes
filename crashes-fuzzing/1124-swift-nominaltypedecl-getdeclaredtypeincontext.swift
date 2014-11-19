@@ -2,14 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct i<f : f, g: f where g.i == f.i> { b = i) {
+struct i<f where g = f { {
 }
-let i { f
-extension NSSet {
-convenience init<T>(array: Array<T>) {
+let i {
+{
+{
 }
 }
-struct c<e> {
-let d: i h
-}
-func f(h:
+struct c {
+let d: h

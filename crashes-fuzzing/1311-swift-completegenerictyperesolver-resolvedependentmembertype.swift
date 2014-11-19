@@ -2,17 +2,17 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T> {
+func a<T {
 struct A {
-case .init() -> {
+{
 }
-class func i(a)) -> (T, f<T> String)
-deinit {
-let h> {
-if c {
+func i(a
+{
+{
+{
 }
 }
 }
-case C) {
+{
 }
-func a() -> T -> T.h =
+func a( ) -> T -> T.h

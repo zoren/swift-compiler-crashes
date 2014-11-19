@@ -3,11 +3,9 @@
 // Test case found by fuzzing
 
 protocol P {
-class b[T> {
-var e, a"])
+class b
 }
 protocol A : P {
-struct Q<Y> : b: d {
-init(array: b> ()] = "a<T, b {
+struct Q< > : b
 }
 A

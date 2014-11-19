@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 import Foundation
-func i([()
-var b()() {
-return ")
-func a() {
+func i( (
+var b
+func a( ) {
 class A {
-func a<T : a {
+func a<T : a

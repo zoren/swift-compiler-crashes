@@ -4,11 +4,9 @@
 
 protocol d {
 protocol P {
-class A : b(a""foobar"""):
-typealias b : A<T> <C> : (n: A {
-}
-typealias B<T>] as String)
+class A : b
+typealias b : A
 }
 }
 protocol a {
-func b: d =
+func b: d

@@ -4,16 +4,16 @@
 
 let g = c, A {
 enum b {
-let start = c<d = [(a() {
+let start = d {
 }
-class func b.Type) {
+{
 }
 protocol d : b {
-protocol e = {
-default:Any) -> S {
+{
+{
 }
-enum A : NSObject {
-class A {
+{
+{
 }
 }
 }

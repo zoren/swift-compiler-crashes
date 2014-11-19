@@ -2,15 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T? {
-protocol c {
+func < {
+{
 }
-struct Q<c>([$0.advance(b, a: Array<U) -> <l : S({
-var c("
 return {
-func i: [$0)
+$0
 }
 }
 }
 protocol b : a {
-func a(
+func a

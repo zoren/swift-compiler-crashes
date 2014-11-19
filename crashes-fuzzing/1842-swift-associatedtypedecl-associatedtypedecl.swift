@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 protocol A : a {
-func i> {
-let x }
-var a: b(e(a
-func i(start, ")
-var b = A, U) -> Any) {
+func > {
 }
-typealias b {
+var a:
+b {
+}
+typealias b

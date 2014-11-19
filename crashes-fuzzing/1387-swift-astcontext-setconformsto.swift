@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 class a {
-init() {
+init( ) {
 var f = 0
 protocol A : a {
 func a

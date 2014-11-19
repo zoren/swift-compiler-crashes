@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 if true {
-println() {
+println( ) {
 }
-let c : c(self.a: T : e() in c {
+let : c {
 }
 protocol c : a {
 func a

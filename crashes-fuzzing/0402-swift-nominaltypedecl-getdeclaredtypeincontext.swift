@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<T, f: d where T: P {
-let t: NSObject {
-var e: T
+class d<T where T: P {
+let t {
+var : T

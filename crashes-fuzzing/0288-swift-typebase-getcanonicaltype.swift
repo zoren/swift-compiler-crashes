@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 protocol c {
-   typealias b
+typealias b
 :c.b

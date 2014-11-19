@@ -4,11 +4,9 @@
 
 protocol d {
 class A : a {
-protocol a {
+{
 }
-func a<h: A, d: a {
+func a<h , d: a
 }
 }
-}
-let g : d {
-init
+let : d

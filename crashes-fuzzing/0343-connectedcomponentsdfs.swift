@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A : H.init(")
-var b(self.d<T] {
-println("\(b
-func b<I : NSObject {
-if c : String {
-let t: P {
+protocol A
+func < {
+{
+{
 }
 }
-return g<T>(n: A? {
+return g<T> (n: A? {

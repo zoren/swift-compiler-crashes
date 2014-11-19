@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-1]]).C> {
-}
+1
 protocol B {
-protocol a {
+{
 }
-protocol A {
+{
 }
 func b<j : b.c

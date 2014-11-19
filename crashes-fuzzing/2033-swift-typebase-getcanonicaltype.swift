@@ -3,13 +3,13 @@
 // Test case found by fuzzing
 
 class A {
-func compose<h : P> (bytes: b where h: CollectionType where k) -> Any)()
-class a {
-let g = {
+func compose<h > (bytes: b
+{
+{
 }
 }
 }
 protocol b : C {
-struct c where A, object2: Int = {
+{
 }
-typealias C {
+typealias C

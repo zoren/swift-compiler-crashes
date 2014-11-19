@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 import CoreData
-}(self.g : S(()
-""")] {
-func b<T where I) {
+(self.g S (
+func < {
 protocol a {
-init((n: P {
+{
 }
 func b<T : b

@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<T where d: I.<T) -> String {
-let end = B? = F>(T>(A> U>) -> {}
-let foo as a<B {
+class d<T where d: I {
+let end = B = A { }
+{
 }
-for c {
+{
 }
-class A {
+class A

@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 protocol P {
-struct D : C) -> T -> T>)")
-class B<U : B<D> Void>(array: String = b.d: T>: Array<T {
-super.h> T : A(")
+struct D
+class B<U : B<D>
 }
-class A : P> T
+class A : P

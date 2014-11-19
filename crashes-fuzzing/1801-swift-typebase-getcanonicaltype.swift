@@ -3,19 +3,19 @@
 // Test case found by fuzzing
 
 var b {
-protocol c : b {
-static let f = {
-func a: U -> {
-let h, y: B<T>, V, Any) {
-for c == c, a: T) -> Any, length: a {
-func d) -> {
+protocol c {
+{
+{
+{
+{
+{
 }
 }
-func d..c {
+{
 }
 }
-class B {
+{
 }
 }
 }
-typealias d : Array<d>(T? = f(
+typealias d : Array<d>

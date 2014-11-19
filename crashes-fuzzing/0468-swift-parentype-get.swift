@@ -3,18 +3,16 @@
 // Test case found by fuzzing
 
 func g<T {
-class B<f = {
+{
 }
-class B == 0
-class A {
-b<T! {
-}(c: I.E == "
-deinit {
-class C> {
+class B
+{
+{
+{
 }
 }
-private class d: B
+class d: B
 }
-let d: T.d: T -> Self {
+{
 }
 println(false)

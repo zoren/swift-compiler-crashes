@@ -2,14 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T] = a() {
-protocol A {
+struct B {
+{
 }
 protocol c {
-self.e = {
+{
 }
-func b<H : b : ()
-typealias g: b: NSObject {
-f: AnyObject, y: Range<T>("
+func b
+typealias g: b
 }
-var f = c:
+var f = c

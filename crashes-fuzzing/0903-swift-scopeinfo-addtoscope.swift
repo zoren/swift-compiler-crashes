@@ -2,21 +2,19 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<T where A: AnyObject, b {
+struct S<T where A: AnyObject
+var : {
+{
+S( )?
 }
-var f: Array<T, e: NSObject {
-struct c == nil
-self.B == {
-S(false)?
+String {
+{
 }
-typealias e : String {
-self.b = b: a {
+{
 }
-private let c {
+{
+{
 }
-class C) {
-protocol P {
+{
 }
-protocol d where I) -> : a {
-}
-init(t: C {
+init(t: C

@@ -2,12 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum B {
-class B : SequenceType where T)
+class B : SequenceType
 class a {
-protocol C {
+{
 }
-struct Q<h : NSObject {
-class A {
-})
+struct Q {
+{
+}
 enum S<T where B : a

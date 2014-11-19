@@ -3,10 +3,8 @@
 // Test case found by fuzzing
 
 extension String {
-case A, a)) -> T -> [self[c] as BooleanType)
-func x("\(b: String {
-func d: Int) {
-typealias b in a {
+func d: Int {
+{
 }
 }
-func c<H : c:
+func c<H : c

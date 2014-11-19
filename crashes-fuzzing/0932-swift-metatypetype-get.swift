@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let h: (n: String {
-var b in 0):Any, "
+let : (n: String
 class A {
-struct X<I : T.init(Any) {
+{
 }
 protocol c : c {
-func c> String {
+func c

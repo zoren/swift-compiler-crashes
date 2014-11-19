@@ -2,17 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<T? {
-protocol P {
+struct d {
+{
 }
-var e: b(B) -> e: a {
+{
 }
-override init<T>(self.c : NSObject {
+{
 }
-case A<T : A<T> {
+{
 }
-return g<Int].init() {
-class A<T where d: d : l.a)() -> {
-println(b(T
-enum S("[c<T.Element == {
-private let f = A
+init( ) {
+class A<T where d: d {
+let f = A

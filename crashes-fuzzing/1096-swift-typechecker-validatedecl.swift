@@ -2,14 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C<D> {
-init <A: A where A.e {
+class C<D {
+{
 }
-extens {
-typealias t(array: Array) {
+{
+{
 }
 }
-func a() {
+func a( ) {
 class A {
-class func a() -> String {
+func a( ) -> String {
 a

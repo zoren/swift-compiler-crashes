@@ -2,14 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-([0x31] = b, y)
-class func a<T : String {
-protocol a {
-init <h = b() {
+( [ ] = b
+func a<T {
+{
+h {
 }
 }
 class A {
-class b[T {
-"foo"ab"
+class b
 deinit {
-b() ->
+b( )

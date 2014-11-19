@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<I : d where H.e : c: C {
+class d<I : d where H.e : c {
 func f

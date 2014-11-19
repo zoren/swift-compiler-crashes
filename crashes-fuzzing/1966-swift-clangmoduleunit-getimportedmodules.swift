@@ -2,16 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i<Y> {
-for c : b = { self, 3] {}
+func i<Y {
+{ { }
 }
-t: Array<T> (Any) -> Self {
+{
 }
-struct D : T, a)
+struct D : T, a
 }
 class A {
 }
 protocol a {
-init()
+init( )
 }
 import Foundation

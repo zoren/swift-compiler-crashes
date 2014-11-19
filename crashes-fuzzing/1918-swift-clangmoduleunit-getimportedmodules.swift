@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 import Foundation
-func g<b: Int = F>(c, object2: (a: Any) in 0)
+func g<b > ( (a ) )
 protocol B : b {
 typealias b

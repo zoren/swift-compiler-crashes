@@ -2,14 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<I : AnyObject) -> {
-c: C {
+struct d<I {
+{
 }
-override init() {
-struct d<T -> V {
-class func g: I.c : T>() -> Int = 0) {
-}
-}
-typealias F = D> {
-}
-return b<U ->
+init( ) {
+struct d {
+func g: I.c

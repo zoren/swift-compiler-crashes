@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 protocol A {
-struct S {
+{
 }
-class func a(t: B<T> S<T
+func a(t: B
 }
-class B<T: d where T.B == F>)
+class B<T where T = F

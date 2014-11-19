@@ -3,13 +3,13 @@
 // Test case found by fuzzing
 
 protocol A {
-if c : NSObject {
+{
 }
-c>) -> {
+{
 }
-var d where H.B<f = A? {
+{
 }
 protocol A : a {
-class func a
+func a
 }
-}(array: A?
+} (array: A

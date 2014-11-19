@@ -2,18 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A where g.c {
-}
+protocol A
 protocol P {
-init()
+init( )
 }
 protocol C {
-var f : A where H.e : c>? {
-println() -> (T>? = "
+var f : A
 }
-func compose<T](object1: P {
+func compose<T
+{
+{
 }
-struct S<T) {
-typealias R = D> Void>(#object1, AnyObject, e, e: U : A: Int {
-}
-class A : P {
+class A : P

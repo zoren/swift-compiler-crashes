@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 extension String {
-func f(x: b[c) -> {
+func f(x: b {
 }
 func b<h : A
 protocol A : b

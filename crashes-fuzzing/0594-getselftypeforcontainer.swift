@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 protocol C {
-class d: e!.init()
-typealias e : d {
+class d: e init( )
+typealias e : d

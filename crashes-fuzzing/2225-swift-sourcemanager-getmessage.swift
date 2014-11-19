@@ -4,4 +4,4 @@
 
 {
 class
-case c,
+case ,

@@ -2,21 +2,20 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<d.Type) -> {
-class C(object1, a
-typealias F>(a("
+func g<d {
+class C
 class B : C {
-func g(b.endIndex - range.e> String {
+{
 }
 }
-enum A : CollectionType where B : Array) -> : AnyObject.e = f.join() -> T>(A<T ->) { c()
-typealias B {
-typealias e = D>) {
-})
-var f: SequenceType> Int {
-func c, T where B == true }
-class A {
+{
+{
+{
+}
+{
+}
+{
 }
 }
 }
-map(x) {
+map(x)

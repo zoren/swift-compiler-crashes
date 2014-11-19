@@ -3,11 +3,9 @@
 // Test case found by fuzzing
 
 protocol b : A {
-typealias b where B {
-typealias F>("
-override func b(x: c, a<T -> Any) -> {
-return [".<T, object2)
+typealias b
+func b(x: c
+"
 protocol A {
-typealias d(b(#object1: U {
-println("""a)
-protocol c in a {
+typealias d
+protocol c

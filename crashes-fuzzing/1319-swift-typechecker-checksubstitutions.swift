@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 protocol a {
-struct S<T : S<C> U, self.startIndex)
-class C) {
-return ".endIndex - range.B<d<T
+struct S<T : S<C>
+class C
 }
-a: d :
+a

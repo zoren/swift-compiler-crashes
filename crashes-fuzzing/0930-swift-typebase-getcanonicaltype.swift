@@ -4,9 +4,8 @@
 
 protocol b {
 enum A : b {
-typealias e == c) {
+{
 }
 }
-typealias e : A.c {
-case c<d("A) {
+typealias e : A.c
 class c

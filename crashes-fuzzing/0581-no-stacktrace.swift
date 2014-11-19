@@ -4,5 +4,5 @@
 
 import Foundation
 extension NSSet {
-let f = b.d
-init(array: Array)
+let f = b
+init(array Array)

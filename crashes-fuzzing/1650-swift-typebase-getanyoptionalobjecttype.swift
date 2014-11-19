@@ -3,14 +3,14 @@
 // Test case found by fuzzing
 
 struct S {
-class func b()(t.h: b<I : T>>?) {
-class a<T where d: b: b) {
-init <T>? = { c
-var b> {
+func b( ) ( ) {
+class a<T where d: b {
+{
+{
 }
 }
-var b: String {
+var : String {
 }
 }
 }
-let a: b) -> :
+let a: b

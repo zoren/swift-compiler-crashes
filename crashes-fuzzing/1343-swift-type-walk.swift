@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 class a {
-let end = a: b> (f<d {
-convenience init(")
+let end = a
 protocol a {
-func c<U : c()
+func c<U : c

@@ -2,28 +2,27 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct Q<T) {
-class A {
-class a : start, object2: a {
+struct Q<T {
+{
+{
 }
 }
-f<T? {
+{
 }
-class A {
-class A {
+{
+{
 }
 }
-protocol a {
+{
 }
-func a() {
+func a( ) {
 class B {
-func c: T.endIndex - range.g = b: NSManagedObject {
-func a"):
+func c: T. range
 }
-func a(AnyObject) {
-}
-}
-public var b {
+{
 }
 }
-println() -> {
+{
+}
+}
+println( ) ->

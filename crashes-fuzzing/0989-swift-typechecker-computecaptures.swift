@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 var f = 1
-var e: Int -> Int = {
-}
-let d: Int =  { c, b in
-}(f, e)
-struct g<g : e, f: e where f.h = c {
-b let g: c
+var e: Int
+let : Int = { c, b in
+} (f, e)
+struct g<g where f = c {
+let : c

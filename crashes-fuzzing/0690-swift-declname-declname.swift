@@ -6,10 +6,10 @@ import Foundation
 class C
 }
 extension NSSet {
-class func g: T : H) -> T : AnyObject.b = .init(v: AnyObject, AnyObject) -> {
+init(v: AnyObject, AnyObject) {
 }
-enum A {
-func a(x: H.init() {
+{
+{
 }
 }
-struct Q<I :
+struct Q<I

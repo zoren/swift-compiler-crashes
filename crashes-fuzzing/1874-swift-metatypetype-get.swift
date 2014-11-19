@@ -3,11 +3,10 @@
 // Test case found by fuzzing
 
 class c {
-println():Any) -> {
+{
 }
 protocol d {
-func b: A {
-""ab"""
-protocol A : a {
+func b: A
+protocol A {
 protocol A : d {
-func d>()
+func d

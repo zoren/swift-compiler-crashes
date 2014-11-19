@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a() {
+func a( ) {
 protocol a {
-typealias e> Self {
+typealias e {
 }
-func b, object2)
-extension A {
+func b
+{
 }
-typealias b where T> T
-func e(b> S
+typealias b
+func e(b

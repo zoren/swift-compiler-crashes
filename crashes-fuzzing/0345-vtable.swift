@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct l<l : d> : d {
-i j i() {
+struct l< > : d {
+{
 }
 }
 protocol f {

@@ -3,20 +3,19 @@
 // Test case found by fuzzing
 
 protocol A : T {
-var e: H.b {
-}()
-var d = c>: NSObject {
+{
 }
-func b> {
-var b.h == .B == """
-class func a(#object1, f, b = c() {
-for b {
-let c(() -> T -> T where T> Void>) {
-protocol e = a() -> (g<T) {
+{
 }
+func b
+{
+{
+{
+{
 }
 }
 }
-typealias F = b
 }
-println(f: A.b in
+typealias F
+}
+(f: A.b

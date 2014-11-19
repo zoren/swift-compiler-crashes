@@ -4,14 +4,11 @@
 
 import Foundation
 struct c {
-let start = B<I : B
-typealias A {
+{
 }
-class A {
+{
 }
-var b: AnyObject) {
-}
-func f<f = {
+var b: AnyObject
+func f {
 protocol c : a {
 func a
-}

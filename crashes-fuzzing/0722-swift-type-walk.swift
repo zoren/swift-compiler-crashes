@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 enum b {
-let g = F>? = a()) {
-class c == "
-class func compose<1 {
+let g = F = a
+{
 }
-convenience init((b(t: [(Any) -> {
+{
 }
-func a<c: a {
+func a<c: a

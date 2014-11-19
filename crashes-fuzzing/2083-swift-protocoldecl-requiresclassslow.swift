@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol P {
-}
+protocol P
 import DummyModule
-var d = B<T>((array: P {
+var d = B<T> ( (array: P {
 }
 protocol c {
-typealias b : b()
+typealias b : b

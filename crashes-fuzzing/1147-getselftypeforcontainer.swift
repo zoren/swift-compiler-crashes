@@ -2,33 +2,33 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d: f{  class func i {}
-protocol A {
+class d { func i { }
+{
 }
-protocol A {
+{
 }
-class C<D> {
-init <A: A where A.B == D>(e: A.B) {
+{
+{
 }
 }
-: a {
+{
 }
-protocol c : a {
+{
 }
 protocol d {
 typealias f = a
 }
-struct e : d {
+{
 }
-func i<j : b, k : d where k.f == j> (n: k) {
+func i<j , k : d where k.f = j {
 }
-func i<l : d where l.f = 0) {
+{
 }
 let c = a
 protocol c : b { func b
-protocol a {
-ss b<h : c, i : c where }
+{
 }
-struct c<d : SequenceType> {
 }
-func a<d>() -> [c<d>] {
+{
+}
+func a< > ( ) -> c

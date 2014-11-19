@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a<T: SequenceType where d.b = T
-func g(T.c: AnyObject) -> {
+class a<T where d = T
+func g( ) -> {
 protocol A {
-typealias A : S<T>((c<c<T, Bool) {
+{
 }
-class func e> String))
-typealias e : a {
+typealias e : a

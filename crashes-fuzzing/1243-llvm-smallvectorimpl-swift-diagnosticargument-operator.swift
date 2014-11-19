@@ -2,19 +2,19 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T>() -> (T, T -> T) -> T {
-var b: (u) -> u {
-p o p.s = {
+func a<T {
+var : ( ) -> {
+{
 }
 {
-u) {
-o  }
+{
 }
-s m {
 }
-class p: mass func s {}
-s p {
+{
+}
+class p { }
+p {
 }
 class n {
-func p() -> String {
+func p( ) -> {
 func a(

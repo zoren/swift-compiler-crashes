@@ -3,27 +3,22 @@
 // Test case found by fuzzing
 
 enum B {
-func b<T, k : b: b
-println(array: k) {
-func g<T.b {
-var e: Any) {
-let a<T])() ->(n: d = F
-struct D : c = ""foobar"""
+func b<T, k : b
+{
+func g {
+{
 var d {
-protocol b where S(a<T>() -> {
+protocol b ( ( )
+(
+(
+{
+{
+{
 }
-case b = F>](mx : a {
-}(n: Any, T {
-}
-b.Element == {
-b() -> S {
-return b: a {
-}
-protocol b {
-(seq
-protocol c = B<j : X<f = f: b<T> {
-var b, AnyObject) {
-func b(1](t: H) {
-}
-"foobar","A, U.Type
+{
+(
+{
+{
+( (
+" " "
 }

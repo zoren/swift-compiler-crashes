@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<c>(f.c {
-typealias f == h>(T][], e: C(f("a: AnyObject, g : B
-println(c) -> : c: c) {
-func ^(A> Any, end: a {
+func f<c> (f
+( ) ) {
+{
 }
-b) {
+{
 }
-let c: c = c():
-t
+let : c = c( )

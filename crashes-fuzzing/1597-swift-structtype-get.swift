@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol b : BooleanType>? {
-}
+protocol b : BooleanType
 protocol a : b {
-func f: A, AnyObject, T> T>? = a
-typealias b in
+func f
+typealias b

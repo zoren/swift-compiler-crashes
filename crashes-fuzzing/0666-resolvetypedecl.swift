@@ -2,12 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a<f : b, g : b where f.d == g> {
+class a<f , g
+{
+typealias e = a<c<h> , d>
 }
-protocol b {
-typealias d
-}
-struct c<h : b> : b {
-typealias e = a<c<h>, d>
-}
-struct c<d, e: b where d.c == e>
+struct c<d where d = e

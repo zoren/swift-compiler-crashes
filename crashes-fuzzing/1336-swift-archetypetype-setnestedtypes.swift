@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<T where T : A"\() { }
+struct c<T where T : A
 let end = g<T, U, g = c

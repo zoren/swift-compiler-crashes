@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var b: Array<c) -> []() -> == true {
+var : {
 protocol a {
-func b: a {
+func b {
 }
-convenience init(b)
+init(b)
 typealias b

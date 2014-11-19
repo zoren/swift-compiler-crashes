@@ -1,16 +1,15 @@
 // Distributed under the terms of the MIT license
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
-
 // Distributed under the terms of the MIT license
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<T, i: d where B == B
+struct c<T where B = B
 var d {
 protocol a {
-class A {
+{
 }
-protocol b : String {
+protocol b {
 }
-func b: c:
+func b: c

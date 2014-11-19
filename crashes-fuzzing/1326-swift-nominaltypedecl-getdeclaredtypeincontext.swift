@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class b<T where T : b(seq
-func x: T>) -> String {
-let end = { c>(array: A() -> Any in
+class b<T where T : b
+{
+let end = { c
 }
-func c<T {
+func c

@@ -3,39 +3,36 @@
 // Test case found by fuzzing
 
 extension String {
-typealias f = { c
-func b[")
-var b = d(c = [c(Any) -> a {
+var b = (c = [ {
 }
-self] = {
-class B : A {
+] = {
+{
 }
 return {
 }
 }
-protocol a {
-deinit {
+protocol {
+{
 }
-class A, let d(Any)] == [T : a {
+{
 }
-func e: S<T>Bool]
-enum B {
-let h == B<d, b {
+{
+{
 }
 }
-struct Q<(self.startIndex)) -> {
-for b : U : b<T -> : Array<Q<T> String {
-public subscript () {
-class func f<j : d {
-}
+{
+{
+{
+{
 }
 }
 }
 }
-struct c: Any, T -> String {
 }
-protocol P {
-A> U, Any) -> {
+struct c {
+}
+{
+{
 }
 }
-struct c(f: b>
+struct c

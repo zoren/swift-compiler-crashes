@@ -4,8 +4,7 @@
 
 protocol A {
 protocol B {
-typealias A : A> A {
-return "foo"")
+typealias A : A
 }
 }
-for (i(seq: A
+for ( : A

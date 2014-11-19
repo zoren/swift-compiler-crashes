@@ -5,25 +5,24 @@
 func e<l {
 enum e {
 func e
-j {
+{
 }
-class l: j{  k() -> ())
+{
 }
-func j<o : BooleanType>(l: o) {
+{
 }
-func p(l: Any, g: Any) -> (((Any, Any) -> Any) -> Any) {
+func p( ) -> ( ( ( ) -> Any) ) {
 return {
-(p: (Any, Any) -> Any) -> Any in
-func n<n : l,) {
+func n {
 }
-n(e())
+n(e( ) )
 }
-protocol h : e { func e
-func r(d: t, k: t) -> (((t, t) -> t) -i g {
+protocol h {
+{
 }
-struct e<j> : g {
+struct e {
 func e(
-h s: n -> n = {
-retue: d {
-f func g() { }
+s: n -> = {
+{
+func g(
 }

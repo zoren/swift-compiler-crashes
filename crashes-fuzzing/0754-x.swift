@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-nc e(self] == {
-typealias e = c("
-let start = a(()
-println()
+let start = ( ( )
+println( )
 protocol b : a {
-protocol C {
+{
 }
-class func a
+func a

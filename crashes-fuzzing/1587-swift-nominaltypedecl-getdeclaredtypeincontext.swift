@@ -3,8 +3,6 @@
 // Test case found by fuzzing
 
 class B<T where B : a {
-let c: a {
+let : a {
 }
-typealias F = g<B = T>(AnyObject> U -> : P> {
-return ")
-class func a<T : B
+func a

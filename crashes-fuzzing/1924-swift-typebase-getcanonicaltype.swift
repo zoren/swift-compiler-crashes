@@ -4,11 +4,8 @@
 
 protocol a {
 protocol d : d {
-typealias d.B? {
+typealias d
 }
 }
-}
-func f: Int {
-get {
-}
+func f {
 a

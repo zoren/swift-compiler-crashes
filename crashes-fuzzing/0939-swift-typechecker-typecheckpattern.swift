@@ -3,23 +3,22 @@
 // Test case found by fuzzing
 
 protocol A {
-func b: $0
-class a: a {
-typealias g> {
+func b
+class a {
+{
 }
 }
-f<I : NSManagedObject {
-typealias b {
+{
+{
 }
-typealias b {
-}
-}
-class A {
-let c) -> Any {
+{
 }
 }
-convenience init(T) -> S) {
+{
+{
 }
-func a(b> {
-self.init(")-> {
-typealias b = T:
+}
+{
+}
+func a(b
+typealias b

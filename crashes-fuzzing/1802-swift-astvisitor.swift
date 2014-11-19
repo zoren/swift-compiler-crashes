@@ -2,17 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c {
-let c, Any) {
-enum b {
-protocol d : U.c {
-}
-}
-}
-class a: A, B, e> T> T -> {
-"
+class a: B
 class B : a {
-convenience init()
+convenience init( )
 extension A {
-protocol P {
-r
+protocol P

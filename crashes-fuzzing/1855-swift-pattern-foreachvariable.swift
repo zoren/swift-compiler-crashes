@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A : SequenceType, g<T -> {
-typealias A : A? {
-class a).substringWithRange("foobar"foo"\()
+protocol A : SequenceType {
+typealias A : A
 let d: A

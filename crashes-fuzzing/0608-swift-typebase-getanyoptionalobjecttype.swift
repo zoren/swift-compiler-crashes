@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<D>() -> {
-protocol a = b: NSObject {
+func g<D {
+{
 }
-extension NSSet {
+{
 }
 class A {
-convenience init<H : H.E == {
+{
 }
 var f = D>(b
-func b(false)
+func b

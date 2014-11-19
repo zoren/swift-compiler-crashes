@@ -4,9 +4,8 @@
 
 if true {
 class A {
-var d = f: I) -> T -> Self {
-return "
-func a(#object1: T> Self {
+var d = f ->
+{
 }
-var e, f<Q<T.a
+var e, f
 class func f<T: A

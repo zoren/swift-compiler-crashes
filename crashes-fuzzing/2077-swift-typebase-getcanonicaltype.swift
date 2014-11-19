@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-[()
 typealias e = a
 protocol a {
-typealias f : Any, f.c
+typealias f : f

@@ -3,14 +3,14 @@
 // Test case found by fuzzing
 
 import Foundation
-func k<g {
+func < {
 enum k {
 var _ = l
-struct c<e> {
+{
 }
-class l {
-func f((k, l() -> f {
-l func d() -> f {
+{
+{
+{
 }
 }
 }

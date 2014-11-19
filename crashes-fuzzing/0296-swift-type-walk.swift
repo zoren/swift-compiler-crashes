@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class i<m>: j {
-    f l: m   init(l: m) {
-        k{
+class i<m {
+init(l: m) {
+{
 }
 class k {
 func m<l:m

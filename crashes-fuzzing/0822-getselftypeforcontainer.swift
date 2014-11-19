@@ -2,17 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol B : B<T where A, B<h: A<d = {
+protocol B {
 protocol a {
-func c(Any, d.E == nil
-return b<d : a {
+func c
+{
 }
-return { x in c {
-switch x }
+{ {
 }
-typealias f : c: e(f.d {
-class B.d = a("))
 }
-protocol A {
+typealias f : c
+}
+{
 }
 func b(a

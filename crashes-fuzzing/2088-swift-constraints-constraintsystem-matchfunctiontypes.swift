@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A() -> U) -> {
-}
-let h = e(x: A {
+class A
+let h = (x: A {
 }
 protocol C {
-override func a<b: a
+func a<b: a

@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-Array) {
-() -> Any in
+{
+( ) -> Any in
 protocol b {
-typealias B<T where Optional<T>, self[() -> String)
-map(x(")
-typealias e : B)
+typealias B
+typealias e : B

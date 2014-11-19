@@ -4,7 +4,7 @@
 
 0
 protocol b : A {
-struct S {
+{
 }
 class A : a {
 }

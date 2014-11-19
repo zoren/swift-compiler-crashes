@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<T) -> {
+func b<T {
 enum A {
-func b(i: a {
-("
-func e((n: T.f
+func b(i: a
+func e( (n: T.f

@@ -2,15 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T, length: b: A {
+func g<T {
 class A {
-class func f<T -> String {
-func ^() {
-protocol C {
+func f {
+{
+{
 }
-func b: H) -> V {
+{
 }
 }
-assert() {
+assert( ) {
 }
-self.init(T>]
+self.init(

@@ -3,22 +3,19 @@
 // Test case found by fuzzing
 
 enum b {
-func a<T : A, length: a {
-self.init(c() { _, object2: (true {
-self.h : Int>(A, "
-typealias A {
+func a<T , length: a {
+{
+{
 }
 }
 }
-init([T : d {
+{
 }
-func f<D> {
-class A? {
-println(f<T>? {
+func f {
+{
 }
-var f = i> (t: I) -> {
-map("""
-struct c: b.e {
+{
+struct c {
 var b {
-func g: T where g, x in c {
-case s(
+{
+case

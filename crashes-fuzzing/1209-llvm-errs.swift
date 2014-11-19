@@ -2,25 +2,25 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func n<w>() -> (w, w -> w) -> w {
-o m o.q = {
+func n<w {
+{
 }
 {
-w) {
-k  }
+{
 }
-protocol n {
 }
-class o: n{  class func q {}
-func p(e: Int = x) {
+{
+}
+class o { { }
+func p {
 }
 let c = p
 protocol p : p {
 }
 protocol p {
 }
-class e: p {
+{
 }
-k e.w == l> {
+{
 }
-func p(c {
+func p(c

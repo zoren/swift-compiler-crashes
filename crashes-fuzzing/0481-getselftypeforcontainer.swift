@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var f: NSManagedObject {
+var NSManagedObject {
 protocol a {
-typealias e : e : A")
+typealias e : e
 func a

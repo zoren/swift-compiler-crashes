@@ -2,17 +2,17 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func som<T>: NSObject {
-var fostruct B : A {
+func som<T {
+{
 }
-struct C<D, E: A where D.C => String {
+struct C<D {
 {
 }
 {
-g) {
-h  }
+{
+}
 }
 protocol f {
-class func i()
+class func i
 }
-class d: f{  class func i {}
+class d: f{ class func i

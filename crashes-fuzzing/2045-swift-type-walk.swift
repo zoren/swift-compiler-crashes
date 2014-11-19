@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A, e> {
-}
-return """"
+class A
+return " " ""
 enum A {
 class a {
 protocol P {
 typealias e : e
-return [

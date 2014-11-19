@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 protocol e {
-enum S<S : S<Int>] = b
+enum S<S : S<Int>
 }
-enum A : B, e(()
+enum A : e

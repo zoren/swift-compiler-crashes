@@ -5,7 +5,7 @@
 protocol b : a {
 func b(t.b {
 }
-func f(a(Any, object2: SequenceType where d<T>()
+func f(a
 }
 protocol a {
-protocol a {
+protocol a

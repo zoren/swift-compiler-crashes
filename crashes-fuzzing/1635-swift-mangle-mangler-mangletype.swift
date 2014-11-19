@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S : BooleanType>(""))
+struct S : BooleanType
 }
 enum S<T where B : d {
 typealias f = e

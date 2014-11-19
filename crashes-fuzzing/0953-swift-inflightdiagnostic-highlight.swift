@@ -3,18 +3,17 @@
 // Test case found by fuzzing
 
 protocol a {
-class b<T> String {
+class b
 }
-typealias e = true }
 protocol A : a {
-typealias e = F>()-> : b {
-extension Array {
+typealias e = F {
+{
 }
-static let h: a {
+{
 }
 }
-func i: A<h : AnyObject) -> (v: S<T> : e(array: d {
-let x }
-struct X<Int>) -> {
-})
-var e: b(..c
+{
+}
+{
+}
+var e: b

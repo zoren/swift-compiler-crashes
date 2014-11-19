@@ -2,21 +2,21 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let v: String {
-var d = .B == { x }
-func f, U.init() -> {
-protocol c = {
-class func b: T {
+let String {
+var d = == { x }
+init {
+{
+{
 }
-extension NSSet {
+{
 }
-let c : T {
-let v: d = a(g<T -> {
-class A : d = F>() -> {
-}
-}
+{
+{
+{
 }
 }
 }
-struct B<T where T: B? {
-private let t: T>(fals
+}
+}
+struct B<T where T: B {
+let t: T

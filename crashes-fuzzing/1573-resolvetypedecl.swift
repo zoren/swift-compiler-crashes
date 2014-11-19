@@ -3,12 +3,8 @@
 // Test case found by fuzzing
 
 protocol b {
-struct c : A) + seq
+struct c : A
 }
-class A {
-}
-struct A<T where l.e = d.join()
-protocol c {
-}
-func f: Range<T where Optional<T) -> {
-b: (i<c
+struct A<T where l = d
+func f {
+b

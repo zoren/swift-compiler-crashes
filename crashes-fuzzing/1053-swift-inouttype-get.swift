@@ -2,10 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func compose() {
-let v: SequenceType, (#object1, k : a {
-class C<T>() {
-}
-}
+func compose( ) {
+let : SequenceType
 protocol A : a {
-func a<e: k
+func a

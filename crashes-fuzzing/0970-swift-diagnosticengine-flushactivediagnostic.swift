@@ -3,11 +3,10 @@
 // Test case found by fuzzing
 
 protocol b : a {
-typealias C {
+{
 }
-class A, 3)
-public var a: A> {
+class A
+var a: A {
 }
-func a<d {
-class a(b, (")
-class A: c: B
+func a
+class A

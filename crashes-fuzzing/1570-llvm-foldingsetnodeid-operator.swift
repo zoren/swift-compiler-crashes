@@ -3,11 +3,8 @@
 // Test case found by fuzzing
 
 protocol d {
-protocol c : A, f.b {
-func f: T {
+protocol c : f {
+func f
 }
 }
-}
-func i(p: T> (object1: P {
-return self.endIndex - range.d: H.substringWithRange(b("))
-class func d>(Range<d>
+Range<d>

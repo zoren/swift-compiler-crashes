@@ -3,20 +3,13 @@
 // Test case found by fuzzing
 
 import Foundation
-class a<T {
+< {
 }
-var f: X<T) {
-d: (array: AnyObject) -> A : Any) -> {
+var : {
+{
 }
-class func b(x) {
-init<T: String {
-}
-class A<C) {
-}
-}
-extension Array {
-}
+func b(x
 }
 class A {
 protocol a {
-typealias d: d.E == i: S
+typealias d: d.E

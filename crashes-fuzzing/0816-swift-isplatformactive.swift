@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 import Foundation
-class A {
-}
+class A
 }
 extension NSSet {
-struct B) -> {
+struct B {
 }
 class B<I : NSObject

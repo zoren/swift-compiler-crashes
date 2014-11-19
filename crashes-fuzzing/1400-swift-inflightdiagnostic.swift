@@ -3,20 +3,19 @@
 // Test case found by fuzzing
 
 {
-func g<U {
+{
 }
 let a {
-func e<b> {
-protocol c : l) {
+func e {
+{
 }
 return [T -> {
-extension A = {
-}
-class d>("foobar"")
+{
+" " "
 }
 }
 }
 protocol d {
-func b(b<1 {
+func b {
 }
-typealias e : b((x))
+typealias e : b

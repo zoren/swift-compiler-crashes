@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 protocol b {
-convenience init() -> V>) {
+init( ) {
 }
-class B : B<U) -> U):
-typealias B<Q<T {
-let d, "A) in x }
+class B
+typealias B
 }
-b() -> T>
+b( )

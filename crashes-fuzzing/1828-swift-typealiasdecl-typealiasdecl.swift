@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 func c
-struct c: Any) + seq: 1, e> () -> {
-}
+struct c: Any
 protocol C {
 typealias d: d

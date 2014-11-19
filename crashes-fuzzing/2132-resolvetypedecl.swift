@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<d where k.b = B
+class A<d where k = B
 var b {
-struct Q<f = b) {
+struct Q<f {
 init(A)

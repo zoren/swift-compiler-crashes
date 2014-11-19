@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func ^(_ = T) {
+func ^ ( ) {
 protocol a {
 let c: e
-typealias e : C() {
+typealias e : C {
 }
 typealias C

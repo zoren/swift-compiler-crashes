@@ -3,13 +3,11 @@
 // Test case found by fuzzing
 
 protocol a : A {
-typealias A {
-"""A, U, b = true as a
-protocol a {
+typealias A
+{
 }
-})
-return [(b<S {
-func d<T> Any) -> {
-func g(a<B : P {
 }
+return [ ( {
+-> {
+func g
 }

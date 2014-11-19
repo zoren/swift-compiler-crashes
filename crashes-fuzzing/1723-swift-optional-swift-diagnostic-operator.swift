@@ -3,13 +3,10 @@
 // Test case found by fuzzing
 
 class A {
-(t: T
-"[]() {
-protocol A : a {
-public class func e: a
+protocol A {
+func e: a
 }
 }
-return d>)
-class a<d where S.h : A> String {
-a() {
-protoc
+return
+class a<d where S : A> String {
+a( )

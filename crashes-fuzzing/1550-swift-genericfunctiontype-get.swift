@@ -5,5 +5,5 @@
 enum S<T where f: a {
 }
 protocol C {
-self..init().Element == c>()
-self.init()
+init( )
+init( )

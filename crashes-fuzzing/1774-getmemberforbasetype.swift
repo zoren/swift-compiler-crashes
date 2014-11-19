@@ -3,27 +3,25 @@
 // Test case found by fuzzing
 
 protocol a {
-super.d == [0)
-}(A, T) -> : B<U) -> String))")
-protocol d where S) {
-extension NSData {
-protocol A : A? {
+protocol d {
+{
+{
 }
 }
-func g> V {
+{
 }
 }
-init()
-protocol a {
-var d {
+init( )
+{
+{
 }
 }
-a() {
-func a<d {
-func d: AnyObject) {
+{
+{
+{
 }
 }
 }
 typealias d
 }
-var d = a()
+var d = a( )

@@ -2,15 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<Int) {
-struct D : String {
+func < {
+struct D {
 protocol a {
-typealias F>(f()
-return "
-protocol d {
-protocol a {
+typealias F
+{
+{
 }
 }
-convenience init()))
+init( )
 }
-var b = a()
+var b = a( )

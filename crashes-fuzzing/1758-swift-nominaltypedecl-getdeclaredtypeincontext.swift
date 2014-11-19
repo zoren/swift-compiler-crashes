@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<d where f: k.Type) {
-private let c {
-protocol a {
+class A<d where f: k {
+let c {
+{
 }
-struct A<T -> Bool {
-let end = [u
+struct A {
+let end = u

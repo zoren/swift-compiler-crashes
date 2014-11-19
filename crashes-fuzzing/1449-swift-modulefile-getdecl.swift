@@ -2,16 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-re S<T where f: a {
-}
+<T
 class A {
-protocol a {
+{
 }
-func i: b {
-(t: T! {
-}
-}([0.C) {
-func b: l) in x in a = compose<I : T>(")
+func i: b
 }
 protocol b : b {
 func b

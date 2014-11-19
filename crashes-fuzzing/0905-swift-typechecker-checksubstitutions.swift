@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c : String {}
-typealias e = F>(T>(true as String
+struct c
 protocol A {
-enum a<b: a<c> {
-}
+enum a<b: a<c>
 }
 extension A

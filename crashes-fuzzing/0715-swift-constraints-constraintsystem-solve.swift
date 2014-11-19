@@ -3,10 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-extension String {
-protocol d where T>(a<T where h>(range: c, ()
-return ")?
-}
+String {
 }
 enum b {
-func a<T: a {
+func a<T: a

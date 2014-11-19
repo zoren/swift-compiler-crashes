@@ -2,17 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import CoreData
 let x {
 protocol a {
-return g> String {
+{
 }
-protocol e where I) ->, Any, e where f))))-> {
+{
 }
-var d {
+{
 }
-func e: a {
-func b: X<d>("ab"")
-protocol b {
+func e
+{
 }
-typealias b : b: Int {
+typealias b : b

@@ -6,5 +6,5 @@ extension Array {
 func e: String {
 class A {
 }
-let c: start, q:
+let :
 protocol A {

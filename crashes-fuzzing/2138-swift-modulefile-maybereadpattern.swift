@@ -4,24 +4,22 @@
 
 protocol a {
 protocol a {
-typealias b = B)?
-typealias B : b() {
+typealias b
+typealias B : b
+}
+}
+func d {
+var : a {
+}
+{
+{
+}
+{
+{
+{
 }
 }
 }
-func d: b<T) -> Any) {
-var d : a {
-}
-class func b> {
-for (self.E == Swift.d == i: NSObject {
-}
-protocol b {
-class B, y: T? {
-protocol A {
-switch x }
 }
 }
-}
-}
-var d = b(Any) + seq
-l
+var d = ( ) + seq

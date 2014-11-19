@@ -3,11 +3,8 @@
 // Test case found by fuzzing
 
 class A {
-struct c = b.init<T>(v: T) {
+init<T> (v: T) {
 struct c {
-var d where I) {
-struct B<T! {
-init()"
-let d: C) -> V {
+{
 }
-class func g: T.e {
+class func g: T.e

@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<I : AnyObject, U, AnyObject) {
+class d<I , U, AnyObject {
 protocol a {
-init()
+init( )
 }
-var f = a()
+var f = a( )

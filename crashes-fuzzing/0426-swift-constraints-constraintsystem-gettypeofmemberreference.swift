@@ -2,18 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func compose<T -> T where H.Type) {
+func compose<T {
 let c {
-var f: String = c()
+var String = c( )
 }
-protocol a {
-init() {
-}
-}
-typealias F = {
-func b: B(g<D> T {
-struct e {
+{
+{
 }
 }
+{
+{
+{
 }
-struct c ==
+}
+}
+struct c

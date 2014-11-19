@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 struct c {
-var e: A? = A> Int = {
+var e: A {
 }
 protocol A : a {
-class func a()
+func a

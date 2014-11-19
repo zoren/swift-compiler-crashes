@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-for c : Bool)
+for c : Bool
 protocol A {
 typealias e : e

@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 protocol b {
-let v: String {
-init(.Type) -> (self.Element == ")
+let v: String
 typealias A : Array<A>

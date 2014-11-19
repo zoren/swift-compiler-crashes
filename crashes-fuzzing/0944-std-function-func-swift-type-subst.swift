@@ -3,14 +3,13 @@
 // Test case found by fuzzing
 
 protocol P {
-class func d(Any) -> {
+{
 }
 protocol a {
-typealias F = e: a {
+typealias F = e {
 }
 }
-typealias e where g
-struct B() -> Void>(b(bytes: a<T> {
-}(T.startIndex)
-super.B>) in x in 0))
-let h: a {
+typealias e
+{
+}
+let : a

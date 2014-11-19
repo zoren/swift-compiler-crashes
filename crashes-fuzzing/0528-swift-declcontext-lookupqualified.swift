@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 if true {
-let c: e : P> (array: a {
+{
 }
-class C) {
+{
 }
-struct Q<T where g: d where I) {
+struct Q<T where g: d {
 let g = a

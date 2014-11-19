@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B : c(x() {
-let end = [$0.A"
+class B : c
 protocol c : d {
 typealias d

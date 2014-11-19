@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let c: SequenceType where T>])
+let : SequenceType
 protocol P {
-func b: (m(x: d : B<T>())
+func b
 typealias e : b

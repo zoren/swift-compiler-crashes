@@ -4,31 +4,29 @@
 
 import DummyModule
 }
-f: P {
-typealias A {
-func i> S<H : Any) -> {
-protocol b where l) -> {
-return {
-struct c) {
+{
+{
+H {
+{
+{
+{
 }
 }
 }
 enum b {
+{
+}
+{
+}
 class A {
-switch x }
-typealias C {
-}
-private class A {
-return NSData(true {
-return ")
 protocol P {
-let end = b(.c() -> Any, e: 1)
+let end = b( ( ) e: )
 }
 }
 }
 }
 }
 }
-var f : NSManagedObject {
+var NSManagedObject {
 class A {
 func d<S : d

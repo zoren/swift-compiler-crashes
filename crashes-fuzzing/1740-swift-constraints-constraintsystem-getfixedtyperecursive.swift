@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol d {
-}
+protocol d
 var d {
 struct c {
-protocol B == nil
-class A {
+protocol B
+{
 }
 let f = d>(v: B? {
-(

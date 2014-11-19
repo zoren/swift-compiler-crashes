@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 class A {
-protocol P {
+{
 }
-func b() -> [B
+func b( ) -> [B
 }
 protocol B : d {
 typealias d

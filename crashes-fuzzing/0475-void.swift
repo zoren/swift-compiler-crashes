@@ -3,21 +3,21 @@
 // Test case found by fuzzing
 
 import CoreData
-func g<I : () -> {
-class A : C = {
-class C(b: b> <T, c() -> d) -> Self {
+func g<I {
+class A : C {
+{
 }
-enum S() -> Int = B>Bool])) {
-}
-}
-for (array: T! {
-extension Array {
-var d == b: Int = B)):Any, Any, A: a {
-private let v: A {
+{
 }
 }
+for ( : T! {
+{
+{
+{
 }
 }
-func f<f = F>? {
+}
+}
+{
 }
 class C

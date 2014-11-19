@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-}
-let c: A? = nil
+class A
+let c: A = nil
 if c == .b {
 }
 func c<d {

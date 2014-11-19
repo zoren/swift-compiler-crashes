@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 protocol a {
-init() {
-}(T> d<T>Bool)
-typealias C = e: T! {
+init( ) {
 }
+typealias C
 }
 let start = {
-(a()
+a( )

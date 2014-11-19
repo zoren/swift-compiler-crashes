@@ -2,15 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func compose<H : a {
-var f : A>() -> T : P {
+func compose<H {
+{
 }
+{
+}
+struct c : P
 protocol P {
-}
-func b<U : AnyObject, V>(n: A {
-}
-let c : e!.c> V {
-}
-struct c : P {
-protocol P {
-init(b: H) {
+init(b: H)

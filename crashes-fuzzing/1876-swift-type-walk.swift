@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 enum A {
-var f = b(_ c<h.R
-struct e {
+var f = c
+{
 }
-func c<l : a: S<f == g, length: 1
-var a: c, y: d =
+func c<l : a
+var a: c

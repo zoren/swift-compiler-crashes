@@ -2,33 +2,33 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func p<p>() -> (p, p -> p) -> p {
-l c l.l = {
+func p<p {
+{
 }
 {
-p) {
-})
+{
 }
-protocol p {
 }
-class h: p {
+{
 }
-(h() as p).dynamicType.g()
-protocol p {
+class h {
 }
-protocol h : p {
+(h( ) as p).dynamicType.g( )
+{
 }
-protocol g : p {
+{
 }
-protocol n {
+{
 }
-struct h : n {
-t : n q m.t == m> (h: m) {
+{
 }
-func q<t : n q t.t == g> (h: t) {
+struct h {
+{
 }
-func b<d-> d { class d:b class b
-protocol A {
+{
 }
-func f() {
-({})
+func b {
+{
+}
+func f( ) {
+( { } )

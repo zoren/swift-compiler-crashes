@@ -2,14 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-([()
+( [ (
 enum B : A {
-f<T>(x) -> {
+{
 }
 }
 protocol A {
-protocol a {
+{
 }
 func d
-typealias b : b = b[1
-s
+typealias b : b

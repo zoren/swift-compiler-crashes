@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 if true {
-protocol b : A {
-protocol A : a {
+protocol b : A
+protocol A {
 typealias b : b

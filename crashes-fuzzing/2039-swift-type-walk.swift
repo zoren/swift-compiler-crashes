@@ -4,7 +4,5 @@
 
 if true {
 class a {
-i(g<T>, y: NSObject {
-class B : d.init(")
-var f = a)
-func a<T : a : b {
+var f = a
+func a<T : a

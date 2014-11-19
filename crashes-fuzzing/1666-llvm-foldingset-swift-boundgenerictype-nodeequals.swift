@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 import Foundation
-[Byte][0
+[Byte] [ 0
 protocol P {
 func c<d : c

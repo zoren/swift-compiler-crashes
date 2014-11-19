@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 protocol A {
-func d.e where g<Int>() {
-return "A, A<T : b: A, U>(x(bytes: Any] {
-typealias d where d.B())
-func b: (c: d where
+func d
+typealias d
+func b: (c: d

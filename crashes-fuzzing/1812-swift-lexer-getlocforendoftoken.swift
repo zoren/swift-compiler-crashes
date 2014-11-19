@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<d where I.Element == h)
-convenience init(Any) -> : b {
-func b: start: a {
-case .init(_ c<B {
+class A<d where I = h
+init( ) b {
+{
+init(
 }
 }
-}
-var b(A, ob
+(A o

@@ -3,10 +3,7 @@
 // Test case found by fuzzing
 
 extension String {
-func a("foo"\() as String)
-init() {
-self] = [c(f<h = F
-return "foo"cd""\():
+init( ) {
 protocol A {
-typealias h: T, d
+typealias h: d
 func d

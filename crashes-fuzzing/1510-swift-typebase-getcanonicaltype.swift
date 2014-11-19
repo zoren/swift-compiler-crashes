@@ -6,6 +6,6 @@ protocol a {
 protocol a : d {
 typealias d
 }
-protocol A where T](_ = B<T where l) {
+{
 }
-func g: a {
+func g: a

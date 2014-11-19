@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<d where T.b : I.startIndex)
+struct c<d where T : I
 extension A {
 }
 protocol A {
-typealias e = c:
+typealias e = c

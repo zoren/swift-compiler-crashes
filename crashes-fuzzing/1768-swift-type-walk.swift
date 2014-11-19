@@ -4,7 +4,7 @@
 
 var b = {
 }
-class B<T where B : b<T>() {
+class B<T where B : b {
 var b: b {
-func d.Type
+Type
 }

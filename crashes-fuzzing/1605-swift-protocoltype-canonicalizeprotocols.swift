@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 protocol B : b {
-func ^(a!
-func a"
+func ^ (a!
+func
 protocol b {
 protocol a

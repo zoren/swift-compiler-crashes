@@ -2,21 +2,21 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func compose<H : String {
-class A {
-enum S<T].c) {
-func a: () {
+func compose<H {
+class A
+enum S {
+func a {
 }
-var d = a(p: A {
-extension NSData {
-func d<1 {
-}
-}
-return [$0) -> {
+var d = (p: A {
+{
+{
 }
 }
-extension A {
+{
 }
-for c {
+}
+{
+}
+for {
 }
 let a: d

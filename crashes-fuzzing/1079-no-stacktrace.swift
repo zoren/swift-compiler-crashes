@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 extension NSSet {
-func g<T where T.E == F>(f: B<T>) {
+func g<T where T = F {
 }
 }
-func b(c) -> <d>(() -> d) {
+func b {
 }
 import Foundation
 extension NSSet {
-convenience init(array: Array) {
+init(array Array)

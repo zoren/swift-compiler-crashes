@@ -3,19 +3,19 @@
 // Test case found by fuzzing
 
 extension NSSet {
-convenienc   init <A: A where A.B == D>(e: A.B) {
+init <A: A > (e ) {
 }
 }
-func b(c) -> <d>(() -> d) {
+func b ( {
 }
-struct d<f : e, g: e where g.h == f.h> {
+{
 }
-protocol e {
+{
 }
-class d<c>: NSObject {
-init(b: c) {
+{
+{
 }
 }
 import Foundation
 extension NSSet {
-convenience init(array: Array) {
+init(array Array)

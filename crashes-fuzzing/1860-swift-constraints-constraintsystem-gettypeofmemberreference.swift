@@ -2,14 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<T : U {
+func c<T {
 struct A {
-private class func b()
-func b> V>, i<T : T>(B)
+class func b
+func b
 class a {
 deinit {
-let c: T! {
-println(i(b) -> {
+{
+{
 }
 }
-for b where
+b

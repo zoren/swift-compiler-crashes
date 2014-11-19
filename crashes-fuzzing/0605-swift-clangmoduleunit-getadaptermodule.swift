@@ -2,23 +2,23 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<U -> {
-let c: NSObject {
+struct S<U {
+{
 }
-var d {
+{
 }
-func b: A.init()?
-class C) -> {
+func b: A
+{
 }
 }
 import Foundation
 protocol P {
-init(#object2: a = {
+{
 }
-protocol a {
+{
 }
-init() -> V, b in a {
+init( ) {
 }
-protocol P {
+{
 }
-typealias e : e:
+typealias e : e

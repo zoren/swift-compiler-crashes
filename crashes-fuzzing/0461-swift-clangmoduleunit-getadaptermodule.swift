@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 import Foundation
-class B<H : T where g: A {
-static let h = c
+class B<H where g: A {
+let h = c

@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a() {
-var f: B? {
-}
-class B<T: d where g: N
+func a( ) {
+var : B
+class B<T where g: N

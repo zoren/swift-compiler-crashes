@@ -2,20 +2,20 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct s<o : x> {
-m m:  [s<o>] {
+struct s<o {
+{
 }
 protocol r {
-class func s()
+class func s
 }
 class m: r {
-class func s() { }
+class func s
 }
 }
 m
-protocol s : m { o l.s == m> : l {
+protocol s { {
 }
-class o<l, m> {
+{
 }
 protocol s {
 }

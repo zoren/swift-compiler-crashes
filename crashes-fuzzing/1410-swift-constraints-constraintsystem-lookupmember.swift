@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let end = Swift.g == B<H : d = A<T : b
+let end = Swift.g == B<H
 protocol a {
 typealias B : B

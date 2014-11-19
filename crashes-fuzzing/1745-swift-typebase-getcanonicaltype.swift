@@ -2,22 +2,20 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<B == { c<b(t: d {
-return self.a(#object1, d>([T : [c> {
-func f: C {
+func g<B { {
+{
+{
 }
-enum A {
+{
 }
 }
 }
-println(a<S : NSObject {
-i<T> T: P> (")!)
 struct A {
-func c(t.Generator.Generator.a<h: ExtensibleCollectionType>) -> {
-var b = B(#object1, g == Swift.B
+func c( ) -> {
+var b = ( g == B
 }
-override func g.E == a)
+func g
 }
-class b: AnyObject) {
+{
 }
-[1])?) -> (
+[ 1

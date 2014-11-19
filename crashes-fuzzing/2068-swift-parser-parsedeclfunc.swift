@@ -4,17 +4,13 @@
 
 deinit {
 return {
-typealias R = B, range: Array<f = g: d {
-let c {
-func a(n: d : A>() {
-struct A? = """
+{
+{
 }
-func c({
-return "
+func
 }
 }
 }
-struct d<d where l.E == b.<T>())
+struct d<d where l = b
 }
 d
-func d

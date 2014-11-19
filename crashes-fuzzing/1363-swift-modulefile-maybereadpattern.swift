@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-(bytes: (()(g<c) -> Int {
-}
-func i<T> {
+( ( ( ( <c
+func < {
 protocol b {
-func c(A..E == F
+func c
 typealias B : B

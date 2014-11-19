@@ -3,11 +3,9 @@
 // Test case found by fuzzing
 
 protocol a {
-protocol A {
-}
+protocol A
 }
 protocol b : a {
-protocol c : A {
+protocol c : A
 }
-}
-for b
+b

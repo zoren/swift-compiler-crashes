@@ -5,5 +5,5 @@
 {
 }
 extension Array {
-func d: Int
+func d
 class A

@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 struct c : A {
-struct d: () {
+struct d {
 }
 class A<T: A<d>

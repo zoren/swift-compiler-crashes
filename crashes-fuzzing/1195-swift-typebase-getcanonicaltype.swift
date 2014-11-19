@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func r(#e: l, i: l) {
-for p in w {
+func r( ) {
+{
 }
 protocol c {
 typealias b

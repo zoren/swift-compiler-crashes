@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<T where T.c: A, end)) -> String {
-public var b {
+class A<T where T : A {
+var b {
 for b : A

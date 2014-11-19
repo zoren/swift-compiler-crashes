@@ -4,8 +4,8 @@
 
 import DummyModule
 class A {
-typealias e {
+{
 }
 }
-class A<T where f.f = T) {
+class A<T where f.f = T {
 deinit {

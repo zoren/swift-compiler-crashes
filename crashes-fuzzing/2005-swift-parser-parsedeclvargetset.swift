@@ -4,23 +4,20 @@
 
 protocol A {
 func d
-typealias B : B) {
-class c() as String) -> Any] as String) -> <S : d where g.init(range.Type
-}))!)
+typealias B : B {
 }
 }
-func d<T) -> {
-public subscript () {
+func < {
+{
 }
-class func b> {
-func d<1 {
+func b> {
+{
 }
 return {
 var b {
-typealias e : A, let h, f: ({
+{
 }
-typealias f == b) -> U -> {
+{
 }
 class a {
 let a {
-let h

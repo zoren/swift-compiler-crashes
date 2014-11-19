@@ -5,9 +5,8 @@
 struct c {
 let c {
 class B<T where T: String {
-let b : Any) -> (f<T>()
-func a<U -> : b("[](f() -> [c<Q<d : AnyObject) {
+let : Any
 }
 }
 }
-println([c() {
+( [ ( ) {

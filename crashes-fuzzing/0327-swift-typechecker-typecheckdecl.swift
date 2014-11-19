@@ -4,9 +4,9 @@
 
 func e<l {
 enum e {
-func p() { p
-() {
+func p( ) { p
+) {
 }
 }
-class d<c>: NSObject {
+class d<c {
 var b: c

@@ -4,20 +4,19 @@
 
 extension String {
 struct S {
-func g: A where Optional<1 {
-func d.advance(self, length: SequenceType> (g.init("]]
-class b<d.startIndex, AnyObject) {
-case C<h, e: A {
+func g: Optional
+class b {
+{
 }
 protocol A {
-typealias E
-convenience init()
+typealias
+convenience init( )
 }
 }
-struct d<T -> d) -> String {
+struct d<T {
 var d {
 class A {
-func b() -> Any {
-deinit {
+func b( ) -> {
+{
 }
-return "ab"[T : A.Element == b(Any))
+return " " [ .Element == b( )

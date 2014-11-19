@@ -4,4 +4,4 @@
 
 import Foundation
 extension NSSet {
-    c init<d: b>()
+init<d: b> ( )

@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<T) {
+func < {
 protocol a {
-class a {
+{
 }
-func a(b(#object1, AnyObject.startIndex, Any] in
-protocol a {
+func a(b
+{
 }
 protocol b : a {
-func d({
+func d

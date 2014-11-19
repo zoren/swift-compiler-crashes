@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C<T where A: T>)(f, object2: Int
-println(f))
+class C<T where A: T
 import Foundation
 S<C>

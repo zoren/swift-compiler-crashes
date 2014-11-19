@@ -3,14 +3,7 @@
 // Test case found by fuzzing
 
 protocol c {
-typealias B = [c, U)] as [self] = F
+typealias B = [c
 }
-self, length: BooleanType>(c
-func g<H : A, i> V, object2: $0) -> (bytes: $0
-func a<T where g() { }
-class func i<T>])
-let v: Array) {
-}
-f<h = A, object2)
 protocol B : b {
-func b(t: 
+func b

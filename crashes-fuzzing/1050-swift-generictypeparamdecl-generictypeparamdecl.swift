@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 protocol B {
-func b: a {
-"\() -> {
+func b: a
 func a<l : b

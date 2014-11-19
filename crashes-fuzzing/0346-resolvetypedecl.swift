@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<T where H.c = f: P {
-}
+class d<T where H : P
 var d {
-func a(c(self.d<T>()() -> {
+func a ( ( {
 }
 protocol d

@@ -2,14 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum a: String = f<T>>(Range<h
-func c>? = F>(Any, V, i> ("a)
+enum a: String
 }
-struct Q<U) -> T) {
-protocol A {
-if true }
-class c = ["]
-typealias A {
+struct Q {
+{
+}
+class c
+{
 }
 func a<H : a {
 }

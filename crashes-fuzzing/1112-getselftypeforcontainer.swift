@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<e> {
-let d: i h
+struct c {
+let d: i
 }
-func f(h: b) -> <e>(()-> e
-c= d() as e).j.i()
 protocol i : d { func d

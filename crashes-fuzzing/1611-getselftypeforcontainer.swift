@@ -3,11 +3,9 @@
 // Test case found by fuzzing
 
 protocol A {
-let g : SequenceType> (p
-struct e = f("
-typealias e : e = j> String {
-return ")
-extension A {
+let g : SequenceType
+typealias e : e
+{
 }
 }
 extension A

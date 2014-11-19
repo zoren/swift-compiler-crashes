@@ -2,38 +2,37 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<c>: NSObject {
-init(b: c) {
+class d< > : NSObject {
+{
 }
 }
 import Foundation
-class A {
-}
+class A
 break
 import CoreData
-class A : NSManagedObject {
-func b<T: A>() -> [T] {
-return [T P {
+class A : NSManagedObject
+func b<T {
+{
 }
-extension NSSet {
-convenience init<T>(array: Array<T>) {
-}
-}
-protocol A {
-}
-class C<D> {
-init <A: A where A.B == D>(e: A.B) {
+{
+{
 }
 }
-extension NSSet {
-convenience init(array: Array) {
+{
+}
+{
+{
+}
+}
+{
+{
 }
 }
 class A {
-class func a() -> String {
+func a {
 }
-class func b() {
+func b( ) {
 struct c {
-static let d: String = {
-return self.a()
-}()
+let : String = {
+return self.a( )
+} ( )

@@ -2,10 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<T where T: c: e: B
-struct S<T -> {
-struct c(f, f: NSObjec
-init<b()"\(h> ()
-}
+struct c<T where T: c
 if c {
-c(c: A

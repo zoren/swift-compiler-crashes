@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<f : e, g: e where g.h == f.h> {
-}
-var e: Int -> Int = {
-return $0
+struct d<f where g = f
+var : Int -> Int = {
+$0
 d

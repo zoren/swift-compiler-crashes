@@ -3,12 +3,10 @@
 // Test case found by fuzzing
 
 protocol c {
-typealias B : AnyObject, i : U) {
-return b() -> == "))
-return g<T : AnyObject) ->] = Swift.init() -> (b
-A, range.startIndex)!))
+typealias B : AnyObject
+init( )
 }
-func f<T where T>() {
-class a {
+func < {
+{
 }
-([c() ->
+c( )

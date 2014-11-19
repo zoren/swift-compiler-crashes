@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<f : e, g: e where g.h == f.h> {{
-tT : A> {
+struct d<f where g = f { {
+{
 }
-protocol C {
-ty    }
+{
+}
 }
 lazy
-var x1 = 1
+var x = 1

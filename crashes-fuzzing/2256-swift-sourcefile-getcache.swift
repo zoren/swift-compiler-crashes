@@ -4,9 +4,9 @@
 
 let b {
 class a {
-enum A {
+{
 }
-func b<H : Int>()
+func b<H : Int
 }
 }
 protocol B : a {

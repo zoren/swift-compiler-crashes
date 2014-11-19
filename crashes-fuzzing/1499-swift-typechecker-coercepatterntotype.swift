@@ -2,22 +2,22 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class func f<T>(z: A, Any, g == B) {
+func f<T {
 class A {
-struct X<Q<T, k : k) -> V {
-func a<j : Any) {
+struct X {
+{
 }
-protocol e = A? {
+{
 }
 struct A {
 protocol b {
-func c>()
+func >
 }
 }
 }
 }
-class b.E == {
-b: a {
+class b {
+{
 }
 }
-for b = b()
+for b = b( )

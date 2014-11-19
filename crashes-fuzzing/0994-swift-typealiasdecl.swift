@@ -3,10 +3,10 @@
 // Test case found by fuzzing
 
 import Foundation
-class d<c>: NSObject {
-var b: c
-func f<g>() -> (g, g -> g) -> g {
-e e: ((g, g -> g) -> g)!
+class d< > : NSObject {
+var : c
+func f {
+e
 }
 protocol e {
 protocol d : b { func b

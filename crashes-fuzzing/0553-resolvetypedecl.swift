@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 let a {
-struct B<T where H.d: A.h = D> : Int = {
-deinit {
+struct B<T where H = D {
+{
 }
 }
-[B
+B

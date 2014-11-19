@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C<T where g: H.init<C<T
-struct B<T.b : d = {
+class C<T where g: H
+struct B {
 let c: C

@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<T where B = D> {
-let t: () -> : b {
-case C<I : e == "
-extension String {
+enum S<T where B = D {
+{
 }
-var _ = true as Strin
+var _ = true as S

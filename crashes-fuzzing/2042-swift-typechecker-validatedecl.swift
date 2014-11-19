@@ -5,9 +5,7 @@
 extension A {
 }
 protocol A : A {
-let h == T>([c: BooleanType))
-func f: A""")
-protocol b : A> {
+protocol b : A {
 }
 protocol A {
 struct A

@@ -3,18 +3,16 @@
 // Test case found by fuzzing
 
 protocol a {
-extension NSSet {
-protocol P {
+{
+{
 }
 }
-extension NSData {
+{
 }
-init() -> String {
-super.<U : Any) -> ("))?) -> {
+init( )
 typealias B
 }
-protocol b : a {
-}
-func f() {
-let v: l.A> Any) -> {
-(b.init("
+protocol b : a
+func f( ) {
+-> {
+b.init

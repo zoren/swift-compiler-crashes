@@ -2,13 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c: a {
-func x: BooleanType, g == F
-func i<T, f()(Any, Bool]
-(i: b<b("
+func c {
+func x: BooleanType
 }
 }
 protocol A {
-typealias B : B) -> Int = true {
-let v: Any, e? = d(".join(Any, i : a {
-func g: () {
+typealias B : B
+func g

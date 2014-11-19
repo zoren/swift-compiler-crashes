@@ -3,10 +3,10 @@
 // Test case found by fuzzing
 
 func h<d {
->( (((i, i) -> i) -> i) {
-b {
-h  }
+> ( ( ( ( ) ) ) {
+{
 }
-protocol o {
 }
-class j: o{  class o
+o {
+}
+class j: o class o

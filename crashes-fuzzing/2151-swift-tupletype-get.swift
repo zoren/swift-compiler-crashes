@@ -2,16 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f: a {
-self.b> Any {
+func f {
+b> Any {
 }
 }
 }
 class A {
-struct c = a: Any) {
+{
 }
 enum B {
 class A {
 protocol P {
-typealias B : B) {
-t:
+typealias B : B

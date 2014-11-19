@@ -2,13 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-public class A {
+class A {
 protocol b : d {
-convenience init() -> : A {
-var _ = "
+init( )
 }
-case C) {
+{
 }
-typealias f = {
+{
 }
-var d = b():
+var d = b( )

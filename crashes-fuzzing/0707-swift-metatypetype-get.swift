@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-Y> Void>], let g : NSManagedObject {
+Void> let NSManagedObject {
 class B {
-class func b<T: b : Ra
+func b<T: b

@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 protocol a {
-typealias e == nil
-typealias b : b, T where T, range.E
+typealias e ==
+typealias b : b
 var e: B
 class B : d

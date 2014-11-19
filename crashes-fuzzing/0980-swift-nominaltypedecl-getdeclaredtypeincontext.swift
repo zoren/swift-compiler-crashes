@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<f : e, g: e where g.h == f.h> { Int = 0) {
+struct d<f where g = f { {
 }
-let ceturn { e
-as
+let ceturn {
 enum k {
-func j(m)
+func j(m

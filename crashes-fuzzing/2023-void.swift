@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-class A<d where H) {
+class A<d {
 deinit {
 class b: T
-class d, let end = d.init(p: A {
+class d let end = d.init(

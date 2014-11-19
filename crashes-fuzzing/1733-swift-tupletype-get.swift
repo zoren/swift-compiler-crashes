@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f(()) {
+func f( ( ) ) {
 protocol a {
-func b(b() {
-func f.d.init(i("
-override func b
+func b(b(
+func
+b
 typealias b

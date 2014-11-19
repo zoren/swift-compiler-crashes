@@ -3,14 +3,14 @@
 // Test case found by fuzzing
 
 struct S {
-extension String {
+{
 }
 struct c<T : a {
 }
-enum S<T : C {
-class b) {
-func f<T {
+{
+{
+{
 }
 }
 }
-func a(c<Int>()!.init(
+func a(c<Int>

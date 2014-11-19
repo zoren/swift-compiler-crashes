@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-= {
+{
 var d {
-let d: T> [T.d<H : C
+let T> [ H
 }
 }
-struct S<T where g: AnyObject.d: NSManagedObject {
-var e)() -> Int = A.Type) -> [T> T : NSObject {
-protocol e = c("""\("
-var e: A")
+struct S<T where g: AnyObject {
+var : A

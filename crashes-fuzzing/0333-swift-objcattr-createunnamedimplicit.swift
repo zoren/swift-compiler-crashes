@@ -9,10 +9,10 @@ protocol a {
 }
 struct S<c
 }
-func compose<(object1: Array) {
-S<T> {
-class A {
-func g<T) {
+func < {
+{
+{
+{
 }
 }
 }

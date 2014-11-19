@@ -6,11 +6,8 @@ __COLUMN__
 func e<l {
 enum e {
 func e
-j {
-}
-func p(l: Any, g: Any) -> (((Any, Any) -> Any) -> Any) {
+func p( ) -> ( ( ( ) -> Any) ) {
 return {
-(p: (Any, Any) -> Any) -> Any in
-func n<n : l,) {
+func n {
 }
-n(e())
+n(e( ) )

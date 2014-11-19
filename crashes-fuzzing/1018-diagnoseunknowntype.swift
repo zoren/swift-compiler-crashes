@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<g>() -> (g, g -> g) -> g {
-d b d.f = {
+func c<g {
+{
 }
 {
-g) {
-i  }
+{
 }
-i c {
 }
-class d: c{  class func fd<c : f,f where g.i == c.i>
+{
+}
+class d { func fd<c : f where g.i = c.i

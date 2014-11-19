@@ -2,13 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<T where g: T> T, object1, V, f: A(n: NSObject {
-override init("
-private let i: A? {
-let v: A(e!.e = {
-let i: NSObject {
+struct d<T where g: T
+let A {
+{
+{
 }
-let a {
+{
 }
 }
-struct B<c: d {
+struct B<c: d

@@ -2,22 +2,20 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<c: P {
-b<T) {
-protocol c {
-let i: C {
-var e, f<T : AnyObject) -> U, e!.d.d.b : c: Int = ")
+func g<c {
+{
+{
 }
-var d {
+{
 }
 }
-static let d: C) {
-class func g: Array) -> {
+{
+{
 }
 }
 struct c {
-let c: d = .Type) {
+{
 }
-func a()
-var d = b(f<T where I) {
-var d = a(AnyObject) -> {
+func a
+var d = ( where ) {
+var d = a

@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func compose<T) {
-c(n: Int = { c: A> V, object1: Int = a
+func compose<T {
+{
 }
 class A {
-struct S<T -> Int -> {
+{
 }
-func f, g<T, e)
+func f
 deinit {
 f

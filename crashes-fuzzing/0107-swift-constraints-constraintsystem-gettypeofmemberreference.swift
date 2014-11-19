@@ -2,35 +2,35 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<g>() -> (g, g -> g) -> g {
-   e n e.v = {
+func c<g {
+{
 }
- {
-   g) {
-        k  }
+{
+{
 }
-f c {
 }
-class e: c{  class func v {}
-func d(g: Int = m) {
+{
+}
+class e { func v { }
+func d {
 }
 let n = d
-class n {
-}(v, h)
-f d : d {
+n {
 }
-func d<i>() -> (i, i -> i) -> i {
+{
 }
-f d {
+func d<i> ( ) -> i {
 }
-f g : d {
+{
 }
-f n : d {
+{
 }
-f e {
+{
 }
-c g : e {
+{
 }
-func v<n : g, g : e where g.c == n> (n: g) {
+{
 }
-func v<f : e where f.c == n
+{
+}
+func v<f where f = n

@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-for () in 0)!.count](self):
-case c> T>][unowned self.A.E
-println(T) -> ("]() {
-struct Q<T where d: A.Type) + seq: a {
-var b = F>(i: T.
+for ( ) 0
+struct Q<T where d: A {
+var b = F>(

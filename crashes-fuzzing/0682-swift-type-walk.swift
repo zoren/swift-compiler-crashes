@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func d<T] {
-struct S<T) {
-e = A, let f : a {
+func < {
+struct S {
+let : a {
 }
-enum b {
+{
 }
-func a<T : a {
+func a<T : a

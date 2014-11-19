@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 class n {
-var _ = r()
+var _ = r( )
 func e<l {
 enum e {
-func p() { p
+func p( ) { p

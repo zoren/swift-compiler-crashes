@@ -3,13 +3,12 @@
 // Test case found by fuzzing
 
 protocol b {
-typealias F = h>(self)
-return self.init() -> {
-func f.e = ").b {
+typealias F
+init( )
 }
-func f<j : Array) -> A {
-protocol c in a : ExtensibleCollectionType>(f, c) {
-return { self..d : T
+func < {
+{
+{
 }
 }
-b() -> S
+b( )

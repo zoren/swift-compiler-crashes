@@ -4,10 +4,9 @@
 
 {
 }
-protocol b : SequenceType where g<T where B : d.e = [T>(.g : Any, g : d where k.<h
-return "
-A<Y> {
+protocol b : SequenceType
+{
 }
-class B : P {
+class B {
 protocol a {
-typealias A : A.Type) ->
+typealias A : A

@@ -4,14 +4,12 @@
 
 import DummyModule
 }
-func i> Int = f() {
-for c {
+{
+for {
 protocol P {
-func x) -> String {
-}(g: a = i> U>(b(Range<T: (")
+func x) >
 }
 }
 }
-struct A<H : SequenceType where B : b : d {
-}
-let d(x((A) {
+struct A<H where B : b
+let d( ( (A) {

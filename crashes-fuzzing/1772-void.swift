@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-struct B<A, T where T : B, i("[0x31] == B
+struct B<A, T where T : B
 if c {
 }
-var b[B) {
+var b[B

@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c = c> Int = B? = nil
+struct c
 import Foundation
 }
 extension NSSet {

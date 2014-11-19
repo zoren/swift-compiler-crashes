@@ -3,18 +3,18 @@
 // Test case found by fuzzing
 
 let a {
-extension Array {
+{
 }
-return d) -> Bool {
+{
 }
-func c, AnyObject) {
+{
 }
 enum B {
 var d {
 protocol A {
-typealias e: start, e?) {
+typealias e: e {
 }
 }
 }
 }
-var b: Int = I
+var : Int = I

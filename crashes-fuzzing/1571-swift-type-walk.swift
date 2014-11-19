@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 class B<T : A {
-protocol B : A, y: a {
+{
 }
 }
 class A<T, d: B<T>

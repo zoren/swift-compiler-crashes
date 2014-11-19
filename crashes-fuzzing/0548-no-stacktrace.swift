@@ -4,6 +4,6 @@
 
 import CoreData
 extension NSSet {
-extension NSSet {
+{
 }
-override init<T>(array: U)
+init<T> (array: U)

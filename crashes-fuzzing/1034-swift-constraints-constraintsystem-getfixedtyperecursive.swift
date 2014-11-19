@@ -4,9 +4,8 @@
 
 protocol A {
 protocol a : a {
-func a)
+func a
 }
 }
-let start = "ab")
-}
+let start = "ab"
 A

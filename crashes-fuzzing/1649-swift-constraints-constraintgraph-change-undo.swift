@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 class A {
-private let start = []
+let start = [ ]
 protocol P {
-typealias e : d where T>, Any)
-public class func d
+typealias e : d
+func d

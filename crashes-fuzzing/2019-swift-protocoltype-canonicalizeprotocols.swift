@@ -2,24 +2,24 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-override func f<T? {
-class A : Any, AnyObject) {
+func f<T {
+class A {
 }
-class d: A, let t: e?
-let g : Int -> {
-}
-}
-protocol a {
-func ^(f: A {
-return { self.Type) -> {
-}
-extension Array {
-}
-}
-}
-func a(a((s(t: Range(s() -> {
+class d: A
+{
 }
 }
 protocol a {
+func ^ (f: A {
+{ {
 }
-protocol A {
+{
+}
+}
+}
+{
+}
+}
+protocol a {
+}
+protocol A

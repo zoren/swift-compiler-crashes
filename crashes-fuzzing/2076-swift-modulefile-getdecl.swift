@@ -3,13 +3,11 @@
 // Test case found by fuzzing
 
 protocol A {
-extension NSData {
+{
 }
 protocol P {
-typealias A = e: a {
-func e(.f = 1, ")
-typealias e : A()
+typealias A
+typealias e : A
 }
 }
-func call(range: SequenceType, A {
-clas
+func call(range: SequenceType A

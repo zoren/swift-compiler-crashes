@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 protocol d : a {
-typealias g.Type
+typealias g
 protocol a {
-class b: b()
+class b
 }
-func g(b(T.C: 1]
+func g(b

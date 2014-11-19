@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 protocol A {
-typealias e : e {
-return "
-let t: a {
+typealias e : e
+let : a {
 }
 func a

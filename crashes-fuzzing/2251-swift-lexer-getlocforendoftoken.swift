@@ -3,27 +3,21 @@
 // Test case found by fuzzing
 
 var f, g {
-let end = a {l {
+{l {
 }
 }
-protocol B : SequenceType, b {
-func b) {
-typealias d>("[B)) -> String {
+protocol B : b {
+func b
 }
-func e: a {
-let n == C {
+func e {
+{
 }
 protocol a {
-protocol b {
+{
 }
-h = Swift.<T] {
+{
 }
 protocol P {
-self] {
-func g(gf: a(Any, "\() {
-private class a {
-func c(Any, a() {
+class a {
+func c (
 }
-}
-}
-cla

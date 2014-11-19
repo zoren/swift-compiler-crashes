@@ -3,20 +3,20 @@
 // Test case found by fuzzing
 
 class e {
-var _ = d() {
-class A {
-class func a() -> Self {
+var _ = d( ) {
+{
+{
 }
 }
-func b<T>(t: AnyObject.Type) -> T! {
+{
 }
 }
-class d<j : i, f : i where j.i == f> : e {
+class d<j , f : i {
 }
-class d<j, f> {
+{
 }
-protocol i {
+{
 }
-protocol e {
+{
 }
 protocol i : d { func d

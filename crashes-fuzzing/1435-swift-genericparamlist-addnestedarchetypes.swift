@@ -3,16 +3,12 @@
 // Test case found by fuzzing
 
 extension Array {
-let h : d where B {
-}
+let : d
 }
 protocol a {
-self.C) -> T).C> {
-protocol A = b: SequenceType> Any) -> {
-"[1
-func e?
-typealias e : A() {
-protocol c where l.e: b: BooleanType>(a: d == [].B<h> U) -> U : Int {
+func e
+typealias e : A {
+{
 }
 }
-typealias A where f
+typealias A

@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 class A {
-private let a = [B<(AnyObject, AnC) {
-self.c = c
+let a = {
+c = c
 }
 }
 protocol c : b { func b

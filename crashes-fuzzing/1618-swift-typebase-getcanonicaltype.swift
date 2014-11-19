@@ -4,8 +4,7 @@
 
 protocol A {
 protocol A {
-typealias e : e!)() {
+typealias e : e
 }
 }
-}
-let h: c<Int>(T: a<A> (T, Any) {
+T <A>

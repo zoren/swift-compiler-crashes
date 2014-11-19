@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-map() {
-}
+map
 protocol P {
-func a!() -> : A, i(v: NSObject {
-}(a(""")
+func a
 typealias g: a

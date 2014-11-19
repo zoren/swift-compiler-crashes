@@ -4,14 +4,13 @@
 
 let x {
 protocol a {
-func f<h: Bool)!.c) -> Any) {
+{
 }
 protocol A {
-typealias B : b(v: d.h == [[]]() -> String {
-return "[Byte])
-func b: C = "
+typealias B : b ==
+func b
 }
 }
-class B, T) -> {
+{
 }
-var b, range: a {
+var : a

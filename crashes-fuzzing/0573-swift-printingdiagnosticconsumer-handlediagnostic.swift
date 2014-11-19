@@ -3,12 +3,11 @@
 // Test case found by fuzzing
 
 protocol A : a {
-class func a(x)() {
-typealias e = ")
+func a
 }
-var b: AnyObject) {
-var d = {
+{
+{
 }
-func g.e = A? = D> : B) {
-let t: B<H : A? = e: e = f<T -> {
-for b : T.
+{
+let : {
+for b :

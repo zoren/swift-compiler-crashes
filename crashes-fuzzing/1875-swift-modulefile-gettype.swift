@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 extension String {
-class a<T where S.f == b: T> {
-let x = a(T: a {
+class a<T where S.f = b {
+let x = (T: a {

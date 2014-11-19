@@ -3,15 +3,10 @@
 // Test case found by fuzzing
 
 func i<j {
-    enum i {
-        func i
-       b {
+enum i {
+func i
+func p( ) -> ( ( ( ) ) -> Any) {
+return {
+{
 }
-k>(j: i) {
-}
-func p(j: Any, k: Any) -> (((Any, Any) -> Any) -> Any) {
-    return {
-        (p: (Any, Any) -> Any) -> Any in
-func d<d : j,) {
-}
-d(i
+i

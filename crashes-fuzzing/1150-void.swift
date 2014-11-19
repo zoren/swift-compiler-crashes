@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T : A> {
-func g<T wh typealias F = Int
-func g<T where T.E == F>(f: B<T>) {
+struct B {
+func g
+func g< > (f: B
 }
+struct d<f where g = f { {
 }
-struct d<f : e, g: e where g.h == f.h> {{
-}
-let d: I
+let : I

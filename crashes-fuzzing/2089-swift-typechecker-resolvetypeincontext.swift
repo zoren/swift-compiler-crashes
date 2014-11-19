@@ -5,6 +5,6 @@
 enum A : b
 protocol b {
 protocol a {
-typealias f : e = T>?) -> {
+typealias f : e {
 }
 typealias e

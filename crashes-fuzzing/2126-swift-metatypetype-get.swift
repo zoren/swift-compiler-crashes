@@ -3,23 +3,20 @@
 // Test case found by fuzzing
 
 if true {
-typealias g: B
-class func g<j(i {
-println("
-) -i -> e {
-d<A()
-return { clq) ->, e: AnyObject, length: a : Sequen
-protocol c {
-protocol P {
+func g
+{
+<
+{
+{
+{
 }
-class A {
+{
 }
 }
-protocol k {
+{
 }
 }
 protocol b : A {
-class A : e)
-typealias e() {
-func f<T>>("](T
-let t: A, T -> A
+class A : e
+typealias e
+let t: A

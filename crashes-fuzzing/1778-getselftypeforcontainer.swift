@@ -4,15 +4,14 @@
 
 struct e {
 protocol c : a {
-func a: B<T : Int](t: U : a {
-return "][T where S(h: Any)
+func a
 }
-class A {
-if true {
-case c<T> a {
-}
-}
-func i: A.a(x) {
+{
+{
+{
 }
 }
-convenience init(#object1: c = B<h)
+{
+}
+}
+init( object : c = h)

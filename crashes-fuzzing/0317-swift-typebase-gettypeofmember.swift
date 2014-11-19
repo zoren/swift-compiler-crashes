@@ -3,21 +3,21 @@
 // Test case found by fuzzing
 
 protocol k {
-    typealias x
+typealias x
 }
-class l<ed> {
-    init <k: k where k.x == ed>(p: k.x) {
-    }
+class l<ed {
+init <k: k where k.x = ed> (p: k ) {
 }
-extension  k : s {
-class ed<n>: p {
-    init(i: n) {
-   }
 }
-class k {
-    class dc ed() -> r {
-        w i fe ed {
-        }
-    }
+extension k {
+{
+{
 }
-hg class x
+}
+{
+{
+{
+}
+}
+}
+class x

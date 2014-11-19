@@ -2,17 +2,17 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<g {
-    q c {
-        p _ = : h {
+func < {
+{
+{
 }
-class h<f : q, g : q o f.g == g> {
+{
 }
-protocol q {
+{
 }
 }
-class f<o : h, o : h c o.o> : p {
+class f< > : p
 protocol p {
-f q: h -> h = {
-}(k, q)
+{
+}
 protocol h : f { func f

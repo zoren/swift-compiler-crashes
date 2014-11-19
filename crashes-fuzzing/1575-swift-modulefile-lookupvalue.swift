@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-f<T>] {
-}
+f<T> ]
 protocol P {
-typealias A : start, A
+typealias A : A

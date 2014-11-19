@@ -4,16 +4,14 @@
 
 import DummyModule
 }
-func d<S : b: (start, U, f: U, T : BooleanType>) {
-struct c == e<T? {
-return { c> (object1, U) {
+func d<S {
+struct c {
+{ {
 }
 }
-return self.advance(n: Any, T] as a<d>(A, AnyObject.C(B<3).startIndex)!(seq
-println((")(t: end: B<Q<T) {
 }
 for c {
-let h : end: NSObject {
-enum a: P {
+{
+enum a {
 protocol a {
-enum A : b[T>
+enum A

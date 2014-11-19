@@ -3,17 +3,17 @@
 // Test case found by fuzzing
 
 nil
-func f<r>() -> (r, r -> r) -> r {
-f r f.j = {
+func f<r {
+{
 }
 {
-r) {
-s  }
+{
 }
-protocol f {
 }
-class f: f{func j
+{
 }
-class r: j {
+{
 }
-(r().m()
+class r {
+}
+(r( ) .m( )

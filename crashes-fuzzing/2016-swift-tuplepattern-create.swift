@@ -4,14 +4,13 @@
 
 func b<S {
 enum A {
-func b.init() {
-typealias B<d {
-struct A.Element == a: (() -> {
-map(g.C(T>? = "[c, g == T>() {}
+func b init( ) {
+{
+"
 }
-let d, U) {
-b.endIndex - range.join(.A> T where Optional<d) {
+{
+b.endIndex - {
 }
 }
 let a {
-func a(t:
+func a(

@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 if true {
-println() {
-}
-func g<T.b : U : T] in
-self.b = c: P {
-struct c = { c()
+println
+func g<T
+{
+struct c = { c( )

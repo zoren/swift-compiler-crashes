@@ -7,14 +7,14 @@ enum k {
 func l
 var _ = l
 extension NSSet {
-struct c<e> {
+{
 }
-func f<o>() -> (o, o -> o) -> o {
-o m o.j = {
+func f {
+{
 }
-func j<d {
+func j {
 enum j {
 class j {
-func y((Any, j))(v: (Any, AnyObject)) {
-y(v)
+func y( ( ) ) ( ( ) ) {
+y
 }

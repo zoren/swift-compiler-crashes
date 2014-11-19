@@ -3,8 +3,6 @@
 // Test case found by fuzzing
 
 class B {
-class d<T, i where B : b> : d {
-case c> : P {
-init<D> s: e("
+class d<T, B : b> : d {
 }
-var b = g<Q<d
+var b = d

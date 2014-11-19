@@ -2,16 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i: Int {
-class func g<d {
+func i: Int
+func g<d {
 class c {
-extension NSSet {
-func d.A<T> S.Type) {
-}((")
-return S<S {
+{
+{
 }
 }
-func f())
-func a<1 {
+func f
+{
 }
-let g = f<c(
+let g = f<c

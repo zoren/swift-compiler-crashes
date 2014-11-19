@@ -4,10 +4,9 @@
 
 protocol B : C {
 protocol C {
-typealias B<T : Int {
+typealias B {
 }
-struct c<U : ExtensibleCollectionType>] = [unowned self.e = c(x: (Any, length: NSObject {
-")
+struct c
 let h : B
 }
-class func e: c wh
+func e: c

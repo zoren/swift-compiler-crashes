@@ -2,10 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A {
-}
-typealias F = D>() -> String {
-}
-func b: AnyObject.E == b<U : NSObject {
-}
+protocol A
+typealias F = D
 var b = F>(g: A? {

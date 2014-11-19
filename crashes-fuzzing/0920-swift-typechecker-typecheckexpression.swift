@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 class B {
-let end = f: Any) ->(seq: Any) -> Int = {
+let end = f
 }
-}
-enum a<T where T: T) {
-deinit {
+enum a<T where T: T {
+{
 }
 typealias F = B

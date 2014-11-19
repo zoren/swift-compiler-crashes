@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T> {
-struct c<T where B : P> {
-private let g : b((x: ()
-func f(_ c> U.endIndex - range.Element>(")
-case .C(i: e
+func < {
+struct c<T where B : P {
+let : b
+.C

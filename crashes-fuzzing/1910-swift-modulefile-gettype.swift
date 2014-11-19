@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func compose<H : A, T : T, T : BooleanType, U) {
-}
+func compose<H , T , T : BooleanType
 protocol a {
-let n1: (a(start, T -> Any) -> : Int = { }
-typealias B : B>(
+let n : a { }
+typealias B : B

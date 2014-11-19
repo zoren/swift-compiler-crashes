@@ -3,16 +3,15 @@
 // Test case found by fuzzing
 
 import Foundation
-func g<d where T -> Any {
+func < {
 class c {
 protocol A {
-func f() -> (a))
+func f( ) -> (a
 }
-func a)
+func a
 protocol a {
-func call(c
-typealias b : b: (m: String {
-return "a()
+func call
+typealias b : b
 }
 }
 }

@@ -2,21 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f: c<T) -> {
-func j: a {
-deinit {
-struct A {
-let f : b, e {
-let h {
-class A {
-}
-}
-}
-}
-}
-}
+func f {
+func j: a
 protocol a {
-protocol a {
+{
 }
 protocol c : C {
 typealias C

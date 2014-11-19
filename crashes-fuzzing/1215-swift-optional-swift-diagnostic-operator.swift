@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func l<c>(m: (l, c) -> c) -> (l, c) -> c {
-f { i
-}, k)
+func l<c {
+{
+}
 class l {
-class func m {
-b le        }()let c = a
-func b(}
+func m {
+b } let c = a
+func b

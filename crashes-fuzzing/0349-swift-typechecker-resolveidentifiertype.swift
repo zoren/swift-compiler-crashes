@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func o<t>() -> (t, t -> t) -> t {
+func o<t> ( ) -> ( ) -> t {
 o = {
 }
 {
-t) }
+t }
 }
-class func o
+func o

@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<l : T) {
+func < {
 protocol a {
-struct d: a = c(start: B
-case s(seq: SequenceType, T>()"foo"")
+struct d: a
 func a<e: d

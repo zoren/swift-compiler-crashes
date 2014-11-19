@@ -4,6 +4,6 @@
 
 import CoreData
 let h> (T
-func d<T) -> {
-class A : A : d.f = a)
-class A"]
+func d<T {
+class A : A
+class A

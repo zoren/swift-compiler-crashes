@@ -2,15 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class m: f {
-j h) {
+class m {
+{
 }
-func j() {
+{
 }
-func j<d {
-enum j {
+{
+{
 }
 }
-struct j<d :d = i
+struct j<d :d
 }
-class d<j : i, f : where j.i == f>  }
+class d<j where j = f

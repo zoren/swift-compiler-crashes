@@ -3,18 +3,17 @@
 // Test case found by fuzzing
 
 {
-protocol P {
+{
 }
-case c, length: a {
+{
 }
-struct D : e: b {
+{
 var b {
 func e> {
-let start = {
-}
+let
 }
 }
 }
 }
 protocol c : d {
-func d.
+func d

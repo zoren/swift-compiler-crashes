@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-tln(Range<T where h
+(Range<T
 protocol a {
-typealias e: b, U, y)
-var b) -> {
-d<T..advance(T> Any, g(")
-class func b.j
+typealias e: b
+func b

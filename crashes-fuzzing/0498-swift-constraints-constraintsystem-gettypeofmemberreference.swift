@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<C> {
-case b = T>](AnyObject) {
+func f<C {
+{
 }
 class A {
-if true {
+{
 }
 func b
 deinit {

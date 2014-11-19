@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-println(true as [1
-func b: a {
-class a<A? {
-enum a<T, () -> T> T! {
+(true as 1
+func b {
+{
+T {
 }
 }
-struct S : a {
-class func c<S : c: d.Gen
+struct S {
+func c<S : c

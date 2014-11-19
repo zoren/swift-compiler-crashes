@@ -4,12 +4,11 @@
 
 protocol e {
 protocol c {
-func g(A")
-typealias e : a {
-class func c(")
-let h>) -> V {
+func g
+typealias e : a
+{
 }
 }
-let c<f = {
+{
 }
-func a(c)
+func a(c

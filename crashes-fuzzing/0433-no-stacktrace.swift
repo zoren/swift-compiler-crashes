@@ -5,15 +5,13 @@
 import Foundation
 extension NSSet {
 protocol a {
-let d.B<T>() {
-override init(#object2: c: NSManagedObject {
+{
+{
 }
-struct Q<T where A.B? = c, e)
-func f<T> {
+{
 }
 }
-func f<T : e: a {
-return "")("A.B<T : A {
+func f<T : e
 typealias e = b
 }
-init(array: U)
+init(array U)

@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b(t: l) -> (Any) {
-return { self.Element>() -> {
-return ""a<T : a {
+func b( ) -> ( ) {
+{ {
+" " {
 }
-func f.e : CollectionType where B {
+{
 }
 }
 }

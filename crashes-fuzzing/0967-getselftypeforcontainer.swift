@@ -4,8 +4,7 @@
 
 protocol B {
 protocol b : a {
-func a() ->() -> String {
+func a
 }
 }
-}
-static let f = B
+let f = B

@@ -2,29 +2,29 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func d<i>() -> (i, i -> i) -> i {
-i j i.f = {
+func d<i {
+{
 }
-protocol d {
+{
 }
-class i: d{  class func f {}
-func f<T : BooleanType>(b: T) {
+class i { func f { }
+func f<T > (b: T {
 }
-protocol f : f {
+protocol f {
 }
-func h<d {
-enum h {
+{
+{
 }
 }
 protocol e {
 }
-struct h {
-func e() {
+{
+{
 }
 }
 protocol f {
 }
-var e: Int -> Int = {
+{
 }
-let d: Int =  { c, b in
-}(f, e)
+let : Int = { c, b in
+} (f, e)

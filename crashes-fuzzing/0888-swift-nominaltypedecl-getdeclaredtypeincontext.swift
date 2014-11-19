@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B {
+class B
 class d<T where B : d {
-let v: d
+let : d

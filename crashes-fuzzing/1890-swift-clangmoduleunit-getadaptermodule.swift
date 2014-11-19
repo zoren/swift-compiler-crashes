@@ -5,9 +5,7 @@
 import Foundation
 protocol c {
 protocol a : a {
-func f<T : T> {
-assert(.d.init("
+func T
 }
-class func a<I : B
+func a
 func a(z(a
-p

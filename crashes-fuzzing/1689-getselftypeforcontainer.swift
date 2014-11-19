@@ -3,21 +3,19 @@
 // Test case found by fuzzing
 
 protocol a {
-var d = e(Any, y: C {
-class A {
+{
+{
 }
 }
 protocol a {
 func a
-class B = Int) {
-return """
-let g : l) {
-i() -> T] {
+{
+{
 }
 }
-protocol c {
+{
 }
-typealias e : d = d, T -> String {
+typealias e : d {
 }
 }
-func d: a(t: R
+func d: a

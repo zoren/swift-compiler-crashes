@@ -3,16 +3,16 @@
 // Test case found by fuzzing
 
 protocol b {
-class A {
-protocol a {
+{
+{
 }
 }
-func f.advance(""")
-protocol a : T>(a<h = Int) {
+func f
+{
 }
-typealias f : T] = nil
-protocol b {
+typealias f
+{
 }
-protocol C {
+{
 }
-func call(f)
+func call(f

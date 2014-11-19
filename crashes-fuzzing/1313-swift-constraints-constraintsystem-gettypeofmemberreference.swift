@@ -2,17 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class func a<Q<U.Type) -> {
-class c: a {
-protocol a {
-A>? = .c {
+func a<Q {
+class c {
+{
+{
 }
 }
-func c: b: CollectionType where k) -> T
-func e? = 1)))(range.a: A {
-convenience init("
-return z() -> {
+func c: b
+func e
+{
 }
-let h : String {
+{
 }
-let b = e: A {
+let b = e

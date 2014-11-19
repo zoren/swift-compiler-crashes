@@ -4,7 +4,7 @@
 
 func e<l {
 enum e {
-func p() { p
+func p( ) { p
 {
-class func g() { }
+func g( ) { }
 }

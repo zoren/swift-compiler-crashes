@@ -4,7 +4,5 @@
 
 protocol A {
 typealias f = a
-func a: b.e = [Byte]]
-self[Int) {
-return g<T -> T.E == "[T : C {
-typealias f : A.f = B<T>
+func a
+typealias f : A.f

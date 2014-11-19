@@ -4,24 +4,24 @@
 
 import DummyModule
 }
-b: () { c
+{
 let a {
-extension NSSet {
+{
 }
-b<h: AnyObject> {
+{
 }
-extension A {
-() {
-public var b = B<A, U>()) as a<T! {
-}
-}
-func e(Any, A = {
+{
+{
+{
 }
 }
-struct c, B<I : a {
-init(b[1]
+{
+}
+}
+{
+init(
 }
 }
 }
 protocol c : b {
-func b> {
+func b

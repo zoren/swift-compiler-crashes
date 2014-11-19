@@ -4,4 +4,4 @@
 
 prefix
 }
-func b<d-> d { class d:b class b
+func b<d { class d:b class b

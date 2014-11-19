@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<T, k : CollectionType where T: T) -> String {
+class A<T where T: T {
 var b {
 super.h

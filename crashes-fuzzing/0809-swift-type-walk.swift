@@ -4,4 +4,4 @@
 
 if true {
 protocol A {
-func d<b: d = B
+func d<b: d

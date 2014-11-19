@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 import Foundation
-enum S<T where f: end: Int = b(".Generator.b : AnyObject> Any) -> Int = i> String {
-func a: NSObject {
+enum S<T where f: end
+func a: NSObject

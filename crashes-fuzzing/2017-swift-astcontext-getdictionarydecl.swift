@@ -3,13 +3,9 @@
 // Test case found by fuzzing
 
 import CoreData
-extension NSSet {
-}
-struct D : A : P> d(true }
-"""
+extension NSSet
+struct D : A
 protocol A : c {
-var a(f: X<Y> T : A) {
-return "
-protocol e : SequenceType> T) {
+{
 }
-func c: Any) -
+func c

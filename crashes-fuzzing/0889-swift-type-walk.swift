@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 protocol a {
-class c<T : a)
-class C(v: T) {
+class c<T : a
+{
 }
 func a<S : c

@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 if true {
-return $0] = Swift.<T>() -> : String {
+{
 }
-struct Q<d where g: Int = {
-let n1: T
+struct Q<d where g: Int {
+let : T

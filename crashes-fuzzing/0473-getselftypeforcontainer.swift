@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 protocol c : A {
-class A : a = {
-return self)"A.E == b<I : a {
-d.c {
+class A : a
+{
 }
 func a

@@ -5,11 +5,11 @@
 protocol A {
 typealias B
 }
-class C<D> {
-init <A: A where A.B == D>(e: A.B) {
-func p(l: Any, g: Any) -> (((Any, Any) -> Any) -> Any) {
-return {
-(p: (Any, Any) -> Any) -> Any in
-func n<n : l,) {
+class C<D {
+init <A: A where A.B = D> (e: A.B) {
+func p( ) -> ( ( ( ) ) ) {
+{
+( ( ) ) -> Any in
+{
 }
-n(e
+e

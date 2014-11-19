@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 protocol l {
-func i((Any, d)i i
-}
+func i ( d)
 protocol d {
-c i: d {
+{
 }
 protocol i : i { func i

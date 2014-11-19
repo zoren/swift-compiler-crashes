@@ -3,15 +3,15 @@
 // Test case found by fuzzing
 
 if true {
-typealias b : a {
+{
 }
-func c> (self.B<d where Optional<h, g == 1
-func i(T>) {
-let i<h.A, range.e> S) {
+func c> ( == 1
+func i( ) {
+{
 }
-private class a<U : a {
-typealias b {
+{
+{
 }
 }
 enum A {
-func b<h : b(i(
+func b<h : b

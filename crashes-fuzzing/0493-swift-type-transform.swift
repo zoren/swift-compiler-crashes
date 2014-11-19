@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<c>: NSObject {
-<d>(() -> d) {
+class d<c {
+{
 }
 enum S<T> : P {
-func f<T>() -> T -> T {
+{
 }
 protocol P {
-func f>()(
+func >

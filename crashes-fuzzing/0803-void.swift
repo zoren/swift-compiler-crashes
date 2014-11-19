@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 import Foundation
-let c: NSObject {
-struct Q<T where I.E == c: U : AnyObject, object2: T) {
-if true {
+let NSObject {
+struct Q<T where I.E = AnyObject {
+{
 }
-static let a = c
+let a = c

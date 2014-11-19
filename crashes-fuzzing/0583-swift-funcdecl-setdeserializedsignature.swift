@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 extension String {
-protocol A {
+{
 }
-func f<T! {
-enum A : C {
+func f {
+enum A {
 func a<H : a

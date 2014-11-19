@@ -4,24 +4,24 @@
 
 struct S {
 protocol A {
-return self...h == B) -> String {
-protocol a {
+{
+{
 }
 }
-typealias e : e: B
-deinit {
+typealias e : e
+{
 }
 }
-extension NSData {
-class b: Any, i<d, c: NSObject {
+{
+{
 }
-typealias h: a : a {
-return "")(s: A> S : AnyObject) {
-}
-}
-init <T] = g> String {
-}
-assert()-> U) -> {
+{
+" " {
 }
 }
-var d : A: A
+{
+}
+{
+}
+}
+var d : A

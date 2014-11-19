@@ -5,6 +5,4 @@
 let a = 1
 let a {
 protocol a {
-return g() -> String {
-struct c == { _, e? = 1](a"foobar"")
-class func b<I : b
+func b<I : b

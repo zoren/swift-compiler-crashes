@@ -2,21 +2,19 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<U : a {
-super.A<f : C = T> {
-enum A {
+func < {
+{
+{
 }
 }
-f<T> T, e> Any {
-var d: T> S {
+{
+{
 }
 }
-class func b(a<T> {
-return "
+func b(a<T>
+"
 protocol a {
-extension NSSet {
-typealias C {
-"..endIndex - range.Type
+{
 }
 protocol c : a {
-class func a:
+func a

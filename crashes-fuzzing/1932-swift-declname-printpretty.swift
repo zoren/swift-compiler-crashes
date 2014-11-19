@@ -3,12 +3,10 @@
 // Test case found by fuzzing
 
 protocol A : A {
-func g: A, ([].c()) -> (() -> String {
-for (")
+func g: A
 protocol A {
-class A, q:Any) -> {
-var d.A>(".a)
-i<1 {
+class A
+{
 }
 }
-typealias h: T whe
+typealias h: w

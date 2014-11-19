@@ -4,13 +4,12 @@
 
 let b {
 protocol a {
-func i() -> e: ExtensibleCollectionType>([0x31] = 0
-for ("
+func i( ) -> e
 protocol a {
-var d : NSObject {
+{
 }
-let v: e> Any) -> Any in
-protocol a {
+let v: e
+a {
 }
 }
-typealias e : d = a(c {
+typealias e = a

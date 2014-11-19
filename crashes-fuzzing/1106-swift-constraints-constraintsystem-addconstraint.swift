@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<g>() -> (g, g -> g) -> g {
-return !(a)
-enum c e() {
-for f in 0..<1 {
-d[f]  }
+func a<g {
+return ! a
+) {
+{
+f }
 }
 protocol f {
-class func i()
+class func i
 }
-class e: f{  class func i {}
+class e: f{ class func i

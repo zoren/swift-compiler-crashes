@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T : a {
+func f<T {
 class A {
 func d
 class a {
 }
-let start = b(Range<U : d where k) -> {
+{
 }
-var d = .E == a(t: a {
+var d = (t: a {

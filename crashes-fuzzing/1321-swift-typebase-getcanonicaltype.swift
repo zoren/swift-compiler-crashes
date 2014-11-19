@@ -3,10 +3,10 @@
 // Test case found by fuzzing
 
 protocol c {
-protocol A : Any) {
-return x {
+{
+{
 }
-let t.e: end: A? {
+{
 }
 }
-typealias d: Range<d>) ->
+typealias d: Range<d>

@@ -4,12 +4,10 @@
 
 let b = true {
 }
-class a<A? {
-protocol c : A, x {
-protocol a {
-protocol a {
+class a {
+protocol c : x {
+{
+{
 }
-typealias e = b<T -> V {
-"\(x, range.B? {
 }
-class func x
+func x

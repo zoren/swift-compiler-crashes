@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<h: d where T : b> {
-}
+struct S<h where T : b
 struct A {
-init<T>(x: S)
+init<T> (x: S)

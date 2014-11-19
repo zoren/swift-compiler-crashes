@@ -2,14 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<c>: NSObject {
+class d<c {
 init(b: c) {
 {
-(p: (Any, Any) -> Any) -> Any in
-func n<n : l,) {
+( ( ) ) -> Any in
+{
 }
-func ^(d: e, Bool) -> Bool {g !(d)
+{
 }
-f e: d {
+{
 }
 protocol g : e { func e

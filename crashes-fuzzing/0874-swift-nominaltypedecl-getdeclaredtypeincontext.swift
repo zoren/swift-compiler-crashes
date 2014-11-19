@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct Q<T where T.e = e, V, g<Q<f = { c: NSManagedObject {
-typealias B<A")))
+struct Q<T where T = g {
 let c {
-private class A : B<T) {
-class A : Strin
+class A : S

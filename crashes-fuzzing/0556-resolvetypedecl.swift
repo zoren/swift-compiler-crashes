@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a<T where g: A> == e> ()
-class func a<T : b = b: T)
+class a<T where g: A
+func a<T : b
 enum b : a

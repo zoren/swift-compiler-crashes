@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 protocol P {
-func b<H : e)
+func b<H : e
 typealias e = b

@@ -3,12 +3,10 @@
 // Test case found by fuzzing
 
 protocol b {
-func b(e: b: b = a)
-protocol b {
+func b(e: b
+{
 }
-convenience init(()) {
-return "
-func b: d : Int = Swift.h : a {
+func b: d {
 }
-func d>()
-typealias d: A
+func d
+typealias d

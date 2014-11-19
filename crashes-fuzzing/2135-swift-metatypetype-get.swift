@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let t: Array) -> Any, end: d where Optional<3] = d(self.Type
-return ")
+let : Array
 protocol d : a {
-typealias d = c) -> T, U) -> U.advance(g() -> String {
-t: BooleanType>] = "
+typealias d
 protocol a {
-typealias b : d where
+typealias b : d

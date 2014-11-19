@@ -2,12 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A : a {
-protocol b : T, B
-protocol B : Int {
-func a<Int
-typealias e : a {
-struct c : ("
+protocol A {
+protocol b : B
+protocol B {
+func a
+typealias e : a
 }
 }
-extension A {
+extension A

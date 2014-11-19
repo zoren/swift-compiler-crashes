@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d: c<T) {
-let v: P> : b(_ c: S<T : 1, e?
-class b> (()"))
+struct d {
+let v: P
 }
 protocol P {
-override func b(mx : (n: A"foo"""")
-typealias e: b {
+func b
+typealias e: b

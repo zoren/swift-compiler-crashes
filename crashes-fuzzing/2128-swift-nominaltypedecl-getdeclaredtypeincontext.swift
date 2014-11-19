@@ -3,10 +3,8 @@
 // Test case found by fuzzing
 
 let a {
-class g<T where p: BooleanType, g == g> {
-var _ = c: a
-class A {
+class g<T where p: BooleanType, g = g {
+var _ = c
+{
 }
-f<T: AnyObject) {
-h : o.init(Any, i : ng) -> : A".<f where A.<T> Int = Int
-class c {
+class c

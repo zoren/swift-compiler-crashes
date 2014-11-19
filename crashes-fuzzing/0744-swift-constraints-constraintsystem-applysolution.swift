@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 var d = 0
-struct Q<T where I.d: A? = b: A {
+struct Q<T where I : A {
 typealias e = b

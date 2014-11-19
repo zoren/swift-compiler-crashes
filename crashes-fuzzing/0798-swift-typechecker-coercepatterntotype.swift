@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<H : AnyObject, U.c = {
+func b<H {
 class A {
-init<(t: A? = F>()?
-return "A? = [T) -> Int = nil
-convenience init(g: H) {
+init(g: H) {
 class d: A {
 class A {
 protocol P {

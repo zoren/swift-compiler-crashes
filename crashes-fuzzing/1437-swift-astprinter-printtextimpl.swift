@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T -> : Int = {
+func f<T {
 class A {
-func a() {
-func compose<T) -> {
-protocol d = a: T! {
-assert(Any, A, a<d
+func a( ) {
+func compose {
+{
+( a<d
 }
 }
-return { x in x in x
+return { x in

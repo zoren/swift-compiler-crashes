@@ -2,24 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T) {
-private class n {
-protocol C {
-public class C<C) -> String = {
-class B) {
+func a<T {
+class n {
+{
+{
+{
 }
 }
 }
-enum S<S {
+{
 }
-struct B<U {
+struct B {
 class A {
-protocol c {
-}
-protocol d where B == i<h: n {
-""")
-}
-}
-class a
-func b: a {
-b = f<
+protocol c
+func b {
+b = f

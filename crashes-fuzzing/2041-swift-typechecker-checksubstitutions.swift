@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 struct A {
-class A<h : A<Int>(x, range.C
-if c where B : Any) -> {
-func g: d where I) {
+class A<h : A<Int>
+{
+{
 }
 }
-let d: A.R
+let d: A

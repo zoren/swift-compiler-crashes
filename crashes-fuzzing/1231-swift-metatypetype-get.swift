@@ -2,14 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C<D> {
-init <A: Ac a() -> String {
+class C<D {
+{
 }
-class func b() {
+func b( ) {
 struct c {
-ivate let a = [B<(AnyObject, AnyOid>]()
-func call(#object1: Any  for b in a e)
-func a(b: Int = 0) {
+let a = AnyObject
+func call( object : Any
+func a(b: Int {
 }
 let c = a
-import Fo  self.init()
+init

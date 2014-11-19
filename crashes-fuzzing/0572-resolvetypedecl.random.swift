@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<T where I.d.e == D> [B<T>) -> {
-override init()"""
+struct d<T where I = D
 protocol A {
-class A : P {
+{
 }
-var e: d whe
+var : d

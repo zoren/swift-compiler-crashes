@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-for c : Hashable> U -> (f(A
-assert(A, f<h = "A> T where h: a {
+for c : Hashable >
+h
 class c {
 class A {
-return x in x in 0) -> S) {
+{
 }
-class A : S.startIndex)
-struct S<T where h: Bool) { self.Generator.<d
-class B = [$0.a
+class A : S.startIndex
+struct S<T where h: Bool {
+class B

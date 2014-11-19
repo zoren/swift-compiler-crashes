@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 extension Array {
-enum S<T where g.c : b = {
+enum S<T where g.c : b {
 class A<T, length: d

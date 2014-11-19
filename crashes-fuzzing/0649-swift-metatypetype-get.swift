@@ -3,6 +3,4 @@
 // Test case found by fuzzing
 
 protocol A : A.b {
-struct D : C<T> T> Void>() {
-f = a()")
-func b: AnyO
+func b

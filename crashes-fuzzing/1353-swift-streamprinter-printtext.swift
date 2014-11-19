@@ -2,11 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<T where B : k.dynamicType)
-enum b {
-}(T, let x = [c(#object1: T>(Any, B<T where d
-")
-typealias e = c() { c>()?
-class C()
+class A<T where B : k
+typealias e = c( ) {
 }
-map("""ab"A? = a: T, i
+( " " " "A? = a

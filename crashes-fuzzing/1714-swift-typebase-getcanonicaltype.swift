@@ -4,15 +4,13 @@
 
 let c {
 protocol a {
-func i() -> {
-func b: A<h = A<T) -> Bool {
-typealias F = e: a {
+{
+{
+{
 }
 }
 }
 protocol a {
-typealias e : e, d>(object1: a {
-return ")
+typealias e : e
 }
 func b: a
-() -

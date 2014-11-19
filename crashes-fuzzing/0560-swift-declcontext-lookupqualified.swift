@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 let a {
-struct d<T where A.B : d where T.d: String {
-enum S<T where T.E == A
+struct d<T where A : d {
+enum S<T where T = A

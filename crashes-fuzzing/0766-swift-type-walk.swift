@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 class A {
-func b(x: C {
+{
 }
-func b> U) {
+{
 }
 func b<T : A.b

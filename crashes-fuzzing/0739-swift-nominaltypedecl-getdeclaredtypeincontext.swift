@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<T where T.e = a() -> {
-private let a {
-var d = { x
+class d<T where T = a {
+let a {
+var d = x

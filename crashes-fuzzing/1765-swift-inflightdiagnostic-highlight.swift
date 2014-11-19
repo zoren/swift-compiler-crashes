@@ -3,13 +3,12 @@
 // Test case found by fuzzing
 
 protocol c : C {
-typealias B : Int = b
+typealias B = b
 protocol C {
-class b: a {
-class A {
-return { c()
+class b {
+{
+{
 }
 }
 }
-func g: T]))
-r
+func g: T

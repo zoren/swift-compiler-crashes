@@ -4,14 +4,13 @@
 
 protocol a {
 protocol b {
-typealias e : A,) -> T {
+typealias e : A {
 }
-protocol A : b() {
-func a: q l {
-}
-}
-func b: U) {
+protocol A : b {
+{
 }
 }
+func b
 }
-func ^(start: a {
+}
+func ^ (start: a

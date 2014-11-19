@@ -4,5 +4,5 @@
 
 class A {
 deinit {
-class A<T where B : d = {
-class func f() {
+class A<T where B : d {
+func f

@@ -5,8 +5,7 @@
 import Foundation
 protocol b {
 protocol a {
-typealias d: d where T> String) -> {
-struct S(x() -> String = [$0)")
+typealias d: d
 }
 }
-private let start = b<T ->
+let start = b<T

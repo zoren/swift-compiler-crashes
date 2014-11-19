@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<A<T : b() -> Any) {
+class A<A {
 struct c : B
-struct B<d where f: SequenceType, Any) -> U {
-println((()
-let n1: ()!))->, end)
-enum a(t
+struct B<d where f: SequenceType {
+enum a

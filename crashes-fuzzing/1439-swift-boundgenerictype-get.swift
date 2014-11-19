@@ -3,20 +3,17 @@
 // Test case found by fuzzing
 
 extension String {
-private let t: k) {
-return self)("
-let i: A {
-protocol b {
+let : A {
+{
 }
-enum S<Y> {
-func f.e(Any) {
+enum S {
+{
 }
 class a {
 protocol a {
-return x in a {
-return g<h: Any) {
+{
+{
 }
 }
-typealias A : A {
-struct c where B = "
-func f.i
+typealias A : A
+func f

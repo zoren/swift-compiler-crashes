@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 class A {
-private let a = [B<(AnyObj = h
-l()
+let a =
+l
 protocol l : f { func f

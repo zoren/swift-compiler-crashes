@@ -4,14 +4,13 @@
 
 protocol a {
 protocol A {
-struct A where S.e {
-typealias f = {
-})
-}
-let g : S<T {
-}
-typealias h: Array<h> {
+{
+{
 }
 }
+{
 }
-var b: a
+typealias h: Array<h>
+}
+}
+var : a

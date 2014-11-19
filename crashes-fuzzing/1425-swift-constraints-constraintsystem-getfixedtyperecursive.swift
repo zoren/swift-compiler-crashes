@@ -6,9 +6,9 @@ let start = {
 }
 enum B {
 class a {
-var c) {
-println() -> e(T) -> Any) -> S {
+{
+{
 }
 }
 protocol A : b {
-func b<d : C
+func b

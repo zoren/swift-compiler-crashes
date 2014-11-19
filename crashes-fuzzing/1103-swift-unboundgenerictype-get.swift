@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var k = 1
-n class l<g> {
-let  enum e<q> : r {
-func k<q>() -> q -> q {
-let d{
+class l {
+enum e<q {
+func k
+{
 protocol c : b { func b

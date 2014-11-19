@@ -4,10 +4,8 @@
 
 protocol A {
 protocol d : A {
-typealias A where f)
+typealias A
 }
 }
 var b {
-func compose(array: a {
-return """)
-let d: A : b
+let : A

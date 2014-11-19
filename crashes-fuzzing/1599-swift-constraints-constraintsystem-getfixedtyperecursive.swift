@@ -4,8 +4,8 @@
 
 var d = {
 }
-class func b: A, object2)
-class C<T? {
+func b: A
+class C {
 }
 protocol A : a {
-func a(t:
+func a

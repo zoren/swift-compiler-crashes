@@ -3,4 +3,4 @@
 // Test case found by fuzzing
 
 class A {
-var e: Int = b(array: A? {
+var : Int = (array: A? {

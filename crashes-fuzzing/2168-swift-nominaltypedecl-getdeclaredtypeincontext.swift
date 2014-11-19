@@ -5,9 +5,8 @@
 extension NSSet {
 class B : P {
 protocol P {
-func> : SequenceType, y: p : a {
+func>
 }
 }
 }
-}
-(((h: b.init(m>(()
+( b. > )

@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-public var e: String {
-return "[1]("
+var : String {
+return " ( "
 }
 struct c {
 protocol A {
-typealias d: d where T
-func a() {
+typealias d: d
+func a

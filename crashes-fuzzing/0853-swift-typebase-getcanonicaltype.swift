@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<I : NSObject {
+struct S {
 init(n: AnyObject) {
-self.E == c> {
+{
 }
 protocol c {
-typealias e : A {
-func a(")
-typealias e : e w
+typealias e : e

@@ -2,24 +2,21 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-ss func g<l : A {
-var b<T) {
-super.Element>(h.b: (g<T where g() {
+func < {
+{
+{
 }
-func b, Any, Bool) -> : T
 }
-let f = e(t: T]() -> String {
-func ^(")
-enum b = {
-deinit {
-func d: A {
+{
+{
+{
 }
 }
 }
-return [Int>({
+{
 }
 protocol b {
-class func b(Any, d, A {
-return ")
+func b( A
+)
 protocol A : d {
-class func d
+func d

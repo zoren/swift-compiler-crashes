@@ -3,21 +3,19 @@
 // Test case found by fuzzing
 
 class B {
-protocol a {
-protocol P {
-return d, A = b: C {
-struct c, f.b = "A, length: c<T>(g<d {
-protocol b {
+{
+{
+{
 }
-extension A {
+{
 }
 }
-protocol A {
+{
 }
 }
-var b = A.init(h: B<T> d.d>()
+var b = A
 }
 protocol A {
-case c) -> <T: B, Any, B<T>]].Generator.c == e: d {
+{
 }
-typealias e: e> a
+typealias e: e

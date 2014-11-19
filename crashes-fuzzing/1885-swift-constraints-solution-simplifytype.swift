@@ -3,11 +3,9 @@
 // Test case found by fuzzing
 
 let a {
-class func e?) -> String {
+{
 }
-let b : (.Element>()
-enum a<T: Int -> Void>(x()
-func x)"""
+let b : (
 }
 protocol A {
-typealias e : e?)
+typealias e : e

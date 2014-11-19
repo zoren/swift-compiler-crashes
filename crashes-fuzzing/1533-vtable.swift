@@ -4,14 +4,12 @@
 
 protocol B {
 protocol c : d {
-typealias d = a(#object1: A> String {
-["
-typealias b {
+typealias d
+{
 }
-let n1: CollectionType where T : B<S {
+{
 }
 }
-class B<3] = a<c: [unowned self.b {
+{
 }
-func a<T>] == B, d
-static let h : c(
+let : c

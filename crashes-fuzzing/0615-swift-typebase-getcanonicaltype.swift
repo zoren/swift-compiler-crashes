@@ -3,17 +3,17 @@
 // Test case found by fuzzing
 
 protocol a {
-assert() -> {
+{
 }
-self.A() {
+{
 }
-protocol b {
+{
 }
-static let c<S {
-}
-protocol a {
-typealias b : b.startIndex, () -> Any] = i<T
+{
 }
 protocol a {
+typealias b : b
 }
-func i(a(Range(
+{
+}
+func i(a

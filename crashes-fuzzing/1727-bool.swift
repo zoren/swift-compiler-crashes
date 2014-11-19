@@ -7,15 +7,15 @@ import DummyModule
 func a<T {
 protocol b {
 class A {
-let start = e(A: a {
+let start = e( {
 }
-typealias e(Any) -> T -> {
+{
 }
-struct c {
+{
 }
 }
 }
-protocol a {
+{
 }
-class b: a {
-class a {
+class b: a
+class a

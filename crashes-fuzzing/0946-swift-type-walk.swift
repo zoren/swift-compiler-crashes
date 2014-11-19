@@ -5,5 +5,5 @@
 struct A : a {
 protocol a {
 }
-class C<T where h: Any) -> {
+class C<T where h: Any {
 typealias e = c

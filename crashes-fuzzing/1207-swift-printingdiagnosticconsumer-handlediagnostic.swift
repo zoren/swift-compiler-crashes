@@ -2,17 +2,17 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<T> : P {
-func f<T>() -> T -> T {
-return { x) {
-r  }
+enum S {
+func f<T {
+{ {
 }
-p q) {
+}
+{
 }
 class m {
-func r((Any, m))(j: (Any, AnyObject)) {
+{
 }
 }
-func m<o {
-r m {
+func m {
+m {
 func n

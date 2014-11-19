@@ -3,10 +3,10 @@
 // Test case found by fuzzing
 
 protocol c {
-convenience init()
-typealias B<T
+init( )
+typealias B
 }
-class func f<T.Type) {
-let h == {
+func < {
+{
 }
-let g = c()
+let g = c( )

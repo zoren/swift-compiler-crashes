@@ -3,16 +3,16 @@
 // Test case found by fuzzing
 // Distributed under the terms of the MIT license
 
-func s<ih {
-  enum s {
-n m {
+func < {
+enum s {
+{
 }
-s t<dc : m> {
+{
 }
-n cb {
+{
 }
-s ih : cb {
-    func ih<dc l dc.o == u>(s: t<dc>) {
-    }
+{
+{
+}
 }
 func b<ih:b

@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var e: Int = d<T>(object1: b(s(x("
-map()?
+var : Int = d<T> (object : ( ( (
+map( )?

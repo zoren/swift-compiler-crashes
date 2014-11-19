@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C<f : SequenceType, object2: d where I) {
+class C<f : SequenceType
 func a<T {
 class A {
 }

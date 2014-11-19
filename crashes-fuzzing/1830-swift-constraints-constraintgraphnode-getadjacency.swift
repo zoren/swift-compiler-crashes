@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 if true {
-let v: () -> <T, A : Int = 1)
+let : ( ) -> <T, A
 protocol A {

@@ -3,7 +3,5 @@
 // Test case found by fuzzing
 
 protocol A {
-class B<c>(t: Int = Int
-}(")
-typealias h: A.h> T : B<C
+typealias h: A.h
 func g

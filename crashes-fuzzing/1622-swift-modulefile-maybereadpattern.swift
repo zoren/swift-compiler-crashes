@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<d where B : a {
-}
-let g : (Any) -> (e: BooleanType>: A<T> Void>()
+class B<d where B : a
+let : ( ) -> (e: BooleanType
 let h = B

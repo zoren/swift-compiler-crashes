@@ -4,19 +4,8 @@
 
 func g: U -> V {
 }
-case s: d where T
+case s:
 extension NSSet {
-struct S<b(f(b() -> {
-return { self.h = ")
-let start = {
-protocol c {
-}
-}
-d() {
-protocol P {
-class B {
-protocol b where d.c {
-println(A"
+struct S<b
 }
 import Foundation
-type

@@ -4,14 +4,12 @@
 
 protocol A {
 protocol b {
-extension NSSet {
+{
 }
-class func a<d: Any) -> e? {
+{
 }
-typealias A : A {
+typealias A : A
 }
 }
-}
-func a<Y> {
-i<h : a {
-A, i : d
+func < {
+A

@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c: a):
-func b(x: SequenceType> String {
+func c: a
+func b {
 }
 protocol a {
-class A {
+{
 }
-init(c([T>) {
+{
 }
-typealias d: c<T>]
-class func c(seq: I
+typealias d: c
+func c

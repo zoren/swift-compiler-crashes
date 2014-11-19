@@ -2,13 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct Q<h.d() {
-enum B : T : l.advance(n: Array) -> {
-protocol A = compose("
+struct Q {
+enum B
 }
 class a : AnyObject, A {
-protocol P {
-protocol a : P> {
+{
+{
 }
 }
-class A : A, b
+class A : A

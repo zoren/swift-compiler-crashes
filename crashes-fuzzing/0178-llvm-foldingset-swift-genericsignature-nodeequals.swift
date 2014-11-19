@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 func e<l {
-    enum e {
-func p() { p
+enum e {
+func p( ) { p

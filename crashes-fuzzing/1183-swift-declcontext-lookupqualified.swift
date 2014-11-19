@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 class c {
-func b((Any, c))(Any, AnyObject
+func b ( c
 }
-struct A<T> {
+struct A {
 }
-struct c<S: SequenceType, T where Optional<T> == S.Generator.Element>(xs
+struct c<S: SequenceType, T where Optional<T> = S.Generator.Element

@@ -2,12 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i(c: () -> ()) {
-}
+func i(c: ( ) -> (
 class a {
-var _ = i() {
-s: Int =  a {
+var _ = i( ) {
+{
 }
-cla> Bool {
+{
 }
 protocol c : b { func b

@@ -3,10 +3,8 @@
 // Test case found by fuzzing
 
 extension NSSet {
-protocol i : t {
-func e>] {
-func a("\(f) -> Bool {
-var b = c<v func> ())
+protocol i {
+func>
 }
 }
-func j> == f() -> [unowned
+func j> == f

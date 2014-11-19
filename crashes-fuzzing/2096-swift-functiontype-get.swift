@@ -2,14 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol b {
-}
+protocol b
 protocol P {
-func d.startIndex, Any, B<T, end)
-class B == compose<T where h, x in a {
+func d
+{
 }
-func i(b<e> Int -> d
-class c {
+func i(b<e> -> d
+{
 }
-typealias d {
-f
+typealias d

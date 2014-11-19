@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-private class func b: b in
+func b: b
 protocol b {
-typealias e : e where A> {
-class b> ("
+typealias e : e
 protocol A {
 }
-func f<T
-enum A : A) ->
+func T
+enum A : A

@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a: B<T: U, object2: Int {
+func a {
 protocol A {
-typealias f : A {
-return """)
-func b: start: String)
-class A<S : b> {
+typealias f : A
+func b
+class A<S : b

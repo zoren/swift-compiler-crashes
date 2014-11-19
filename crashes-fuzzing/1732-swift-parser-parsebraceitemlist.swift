@@ -3,15 +3,15 @@
 // Test case found by fuzzing
 
 {
-typealias R = [(self.h == {
+{
 }
-protocol d where h> a {
-typealias f = h, Any, range.a<U {
-let f == { c: T) {
+{
+{
+let f == { {
 if true }
 }
 }
 }
 }
 protocol P {
-func b<T : b>
+func b<T : b

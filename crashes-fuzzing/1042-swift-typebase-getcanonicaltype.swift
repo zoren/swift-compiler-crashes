@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 protocol a {
-func c(b[c: b[c
-func a(""foo"""foobar""
+func c(b[
 class b: b {
 var b = c

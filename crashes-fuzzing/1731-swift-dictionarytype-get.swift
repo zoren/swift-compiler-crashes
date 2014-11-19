@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-func compose<T : a {
-class b) -> U) -> String {
+func compose<T {
+class b {
 }
-public var f = b(b)("")()
+var f = b( ) ( " " ) ( )

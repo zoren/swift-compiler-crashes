@@ -2,16 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class func a<T where g: a {
+func a<T {
 class A {
 }
-extension Array {
-protocol d {
-return d.Element == c>()(A? {
-(c]("
-let h : a {
+{
+{
+{
 }
 }
 }
-for ()
-println(A()
+for ( )
+A( )

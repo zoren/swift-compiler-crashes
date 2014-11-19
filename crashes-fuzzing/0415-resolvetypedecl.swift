@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where T: A.init(array: A : NSManagedObject {
-}
-var e: P {
+struct B<T where T: A
+var P {
 protocol A : B

@@ -4,20 +4,20 @@
 
 protocol A : A {
 typealias A {
-func b: C {
-func b) -> String {
+{
+{
 }
 }
-extension Array {
+{
 }
-class A {
+{
 }
-private class B == B<c) {
+{
 }
-let f == .B {
-var b = {
-}
-}
+{
+{
 }
 }
-extension A =
+}
+}
+extension A

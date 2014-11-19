@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol d : c {
+protocol d {
 protocol a {
-return {
-return { c(")
-typealias R = e: B, g.d<d
+typealias R = e
 }
-typealias e = [unowned self, "
-func f(a<T>
+typealias e
+func f(a

@@ -2,13 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<f = g, A, (() {
-}
-struct c : Any, y: Array) {
-class a {
+func <
+{
 protocol A {
-typealias R = e> : C
-typealias e where T>? {
-return "]() {
+typealias R = e
+typealias e
 }
-struct c : A, T
+struct c : A

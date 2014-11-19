@@ -3,11 +3,10 @@
 // Test case found by fuzzing
 
 if true {
-func b() {
-class A {
+func b( ) {
+{
 }
 protocol a {
-typealias h: A, (T>(n: NSObject {
-protocol b = A"A) -> ()
-protocol A : AnyObject, V, b {
-func b.init
+typealias h: A
+protocol A : b
+func b

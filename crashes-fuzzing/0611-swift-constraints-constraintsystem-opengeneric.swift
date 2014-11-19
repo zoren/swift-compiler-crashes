@@ -3,4 +3,4 @@
 // Test case found by fuzzing
 
 class B<T where T: B
-var d = [B
+var d = B

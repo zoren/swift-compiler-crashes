@@ -4,7 +4,5 @@
 
 struct A {
 func c<T : C {
-public subscript (n: b[() -> Any, (true {
-func d, e("""[self.E == h>()
 }
-class C<h: A.c :
+class C<h: A.c

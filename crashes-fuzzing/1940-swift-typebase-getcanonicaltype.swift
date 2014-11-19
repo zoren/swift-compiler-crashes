@@ -3,11 +3,8 @@
 // Test case found by fuzzing
 
 struct S {
-let c {
+{
 }
-return {
-func a("A, a)
-let v: c: S) -> (t: c(n: end: A {
-typealias d>(")
+let v: c
 protocol c : d {
-typealias d.B<
+typealias d

@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 func compose<D> : Int
-struct c<T : d where f: b: String {
-var _ = B<I : d
+struct c<T where f: b {
+var _ = B<I

@@ -3,12 +3,10 @@
 // Test case found by fuzzing
 
 class c {
-struct c: ([c(b<T> T> {
-}("
-S.C<T, end: e() -> {
+{
 }
 deinit {
-let t: NSObject {
+{
 }
 class A {
-func b<S : b: e:
+func b<S : b

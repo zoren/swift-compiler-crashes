@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var e: Int -> Int = {
-return $0
-struct d<f : e, g: e where g.h = f.h> { : C {
-func g<T where T>(f: B<T>) {
+var : Int -> Int = {
+$0
+struct d<f where g = f { {
+{
 }
 }
-class A {
+class A

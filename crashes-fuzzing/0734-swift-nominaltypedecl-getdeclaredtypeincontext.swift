@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 struct S<T where g: P {
-assert(t: d {
+{
 }
-var d where I.B<T>: P> V, U)
 let a {
 func b<c: A

@@ -4,13 +4,12 @@
 
 protocol A {
 protocol a {
-var b.<T : P> {
+{
 }
-func a: B<U, i: A: b = 0
-public var d = 1, c<T : a {
+func a
+{
 }
-typealias e : a {
+typealias e : a
 }
 }
-}
-extension A {
+extension A

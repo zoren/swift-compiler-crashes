@@ -2,18 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<s>(p: (j, s) -> s) -> (j, s) -> s {
-		u { _, a in u a }p {
-    func p<<y>(o: n<y>) {
-    }
+func a<s {
+{ } {
+{
+}
 }
 class j {
-    class func w() -> String {
-        struct l {
-    func r(#e: l, i: l) {
-        for p in w {
-        }
-    }
+func w( ) -> {
+struct l {
+func r( ) {
+for in w {
 }
-v class t<k> {
-    let l: k
+}
+}
+class t<k {
+let l: k

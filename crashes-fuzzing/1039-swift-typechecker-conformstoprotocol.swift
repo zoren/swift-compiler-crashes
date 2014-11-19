@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class k<g>: d {
+class k<g {
 init(f: g) {
-l. d {
+{
 }
 class j {
 class j {
-func y((Any, j))(v: (Any, AnyObject)) {
-y(v)
+func y( ( ) ) (v: ( AnyObject) ) {
+y( )

@@ -3,11 +3,10 @@
 // Test case found by fuzzing
 
 extension Array {
-func x: NSObject {
-var d : start: NSManagedObject {
-println(T) {
+func x {
+{
+println( ) {
 }
 }
 class B {
 init(T.startIndex)
-s

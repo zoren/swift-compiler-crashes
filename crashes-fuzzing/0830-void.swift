@@ -3,26 +3,21 @@
 // Test case found by fuzzing
 
 import Foundation
-func a<I : X.E == 0.C(T) -> {
-typealias C {
-enum b = g: Array) -> : Any, A {
+func a<I {
+{
+{
 }
 }
-protocol d {
-typealias F>()() {
+{
+{
 }
-protocol b = true }
-self] {
+}
+{
 }
 class A {
-protocol b {
+{
 }
 }
-typealias e where H) -> V>(a()
-}("
-func g(b
-let t: T where l) -> {
-extension A {
-}
-}
-A()
+func g(
+let t: T ) -> {
+A( )

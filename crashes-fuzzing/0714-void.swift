@@ -4,10 +4,10 @@
 
 import Foundation
 struct Q<T where A: NSObject {
-self] {
+{
 }
-let a {
-protocol b = c) {
+{
+{
 }
 }
-var b: () {
+var b: (

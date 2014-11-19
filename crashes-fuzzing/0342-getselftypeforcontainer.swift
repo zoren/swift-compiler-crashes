@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 // Distributed under the terms of the MIT license
 
-class f<p : k, p : k n p.d> : o {
+class f< > : o
 protocol o {
-f l: k -> k = {
-}(j, l)
+{
+}
 protocol k : f { func f

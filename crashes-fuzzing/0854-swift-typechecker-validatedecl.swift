@@ -3,10 +3,8 @@
 // Test case found by fuzzing
 
 protocol P {
-class B<H : A.h = 0
+class B
 }
 class A {
-return [unowned self.init(self)
-typealias e = A"""A.init<T] in
 protocol A : P {
-let t: B<c>
+let : B

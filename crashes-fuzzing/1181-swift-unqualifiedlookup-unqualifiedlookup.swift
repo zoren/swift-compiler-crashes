@@ -2,29 +2,21 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-}
-func prefix(with: ng) -> <T>(() -> T)
-where
-)
-func o<t>() -> (t, t -> t) -> t {
-j j j.o = {
+func o<t {
+{
 }
 {
-t) {
-h  }
+{
+}
 }
 protocol o {
-class func o()
+class func o
 }
-class j: o{  class func o {}
-e o<j : u> {
-k []
+class j: o{ class func o { }
+{
 }
-n=p r n=p
-func n<q>() {
-b b {
-o o
+func n {
+{
 }
 }
-func n(j: Any, t: Any) -> (((Any, Any) -> Any}()
-f
+func n( ) -> ( ( ( ) -> Any

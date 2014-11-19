@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 protocol d {
-typealias F = b: A> {
+typealias F = b {
 }
-typealias b {
+typealias b
 }
-0.Generator.c<T : SequenceType where T, Any, g, x }
-enum A : d whe
+enum A : d

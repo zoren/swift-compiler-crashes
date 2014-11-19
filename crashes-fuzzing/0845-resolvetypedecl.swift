@@ -2,22 +2,21 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a<T where d: T> V {
-}
-func f() {
-protocol a {
-class A: A<T : a {
-}
-}
-}
-class B {
-public subscript () -> {
-convenience init(bytes: Int) {
-}
-class func e? {
-class c : (i: Any))) {
+class a<T where d: T
+func f( {
+{
+{
 }
 }
 }
+{
+{
+{
 }
-func f<d : a {
+{
+{
+}
+}
+}
+}
+func f<d : a

@@ -3,10 +3,6 @@
 // Test case found by fuzzing
 
 println(array: SequenceType, Any)
-protocol P {
-}
-struct Q<T, Any) {
-typealias A {
-[")
+struct Q {
 protocol b {
-typealias A : A : Int
+typealias A : A

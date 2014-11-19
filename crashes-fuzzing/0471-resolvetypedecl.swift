@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<H : T where A: T> T -> : A>(x)
+struct B<H where A: T
 class A {
 var f = B

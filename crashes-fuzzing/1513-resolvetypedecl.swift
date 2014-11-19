@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T : d where A: A, g(false)
-protocol c : B, AnyObject> (b
+struct B<T where A: A
+protocol c : B, AnyObject

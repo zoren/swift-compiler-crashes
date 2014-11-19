@@ -3,21 +3,16 @@
 // Test case found by fuzzing
 
 struct c {
-func c() -> (v: A>(self] = A<T: H) {
-return ["]
 class A {
-class c: CollectionType where T where l.h == {
-}
-}
-override init() {
+class c: CollectionType
+init( ) {
 protocol A {
-protocol A {
-extension String {
+{
+{
 }
-protocol b where A: Int {
-protocol a : B<T> {
+{
+{
 }
 }
 }
-typealias e : T, e())
-asse
+typealias e : e

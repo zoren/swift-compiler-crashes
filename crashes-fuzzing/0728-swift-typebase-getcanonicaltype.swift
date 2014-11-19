@@ -4,15 +4,15 @@
 
 protocol P {
 protocol A {
-enum A {
-protocol a {
-for b in x }
-typealias e : T -> (f()-> : I) {
+{
+{
+}
+{
 }
 }
-init <T) {
+{
 }
-typealias e : e)
+typealias e : e
 }
 }
 func f(n: P

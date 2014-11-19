@@ -4,17 +4,15 @@
 
 protocol c : P {
 protocol P {
-var d where H) {
-let h> {
-f = B<U -> T {
-typealias F>) {
+{
+{
+{
+{
 }
 }
 }
 }
 class A {
 }
-typealias e {
-func call() -> U)"
 }
-func g<T where A: P {
+func g<T where A: P

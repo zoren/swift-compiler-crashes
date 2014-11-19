@@ -2,16 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let b {
-let t: AnyObject.h = [self.init() -> {
-println() {
-}
-}
-var f = A> String {
+let : {
+{
 }
 protocol c {
-func a(f() -> Int {
+func a(f( {
 }
-func f<T : NSObject {
-(")
+func f
 typealias f

@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct D : C {
-func g<T where T.E == F>(f: B<T>) {
+struct D {
+func g<T > (f: B
 }
+struct d<f where g = f { {
 }
-struct d<f : e, g: e where g.h == f.h> {{
-}
-struct B<T : A>
+struct B<T : A

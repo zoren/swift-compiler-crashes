@@ -3,12 +3,10 @@
 // Test case found by fuzzing
 
 import CoreData
-class A()
-func g<d : Array<Int) {
-struct e : A, b {
+func g<d {
+struct e : b {
 func b
-let c = b.init())
+let c = b.init(
 }
 }
 if c {
-prot

@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<C> {
+class B<C {
 let c: C
 init(c: C) {
 self.c = c
 class A {
-class func a() {
-n self.a
+func a( ) {
+a

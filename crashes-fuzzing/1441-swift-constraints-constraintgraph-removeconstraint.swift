@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<l : a {
-return """
+func < {
+return " "
 }
 }
 class A {
 protocol b {
-typealias B : B, A
+typealias B : B

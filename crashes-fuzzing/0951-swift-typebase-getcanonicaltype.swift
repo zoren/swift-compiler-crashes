@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 protocol a {
-return p: NSObject {
+{
 }
-typealias A : a {
-return ""foo"a: AnyObject, x in x }
-enum B : a : b : A<T where d.init()
+typealias A : a
+init( )
 }
-let start = a()
+let start = a( )

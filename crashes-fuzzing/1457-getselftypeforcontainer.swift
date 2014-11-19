@@ -3,17 +3,14 @@
 // Test case found by fuzzing
 
 protocol c {
-class B = D> V {
-class b() {
+{
+{
 }
 }
 protocol A : b {
-A, Any) + seq: A where g<Q<T.<j : P {
+{
 }
-func b(c {
+func b
 }
 }
-}
-extension A = b(f<T! {
-self, f(")
 if c {

@@ -2,17 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import DummyModule
-}
-struct A where l.c<T where T>(n: I.e : b : d {
-return "
-typealias B<T) -> {
+{
 var d {
-var b = g: a {
-enum S(h: [0x31] {
-return ")] {
+{
+enum S
 }
 }
 }
 protocol a : d {
-typealias d())
+typealias d

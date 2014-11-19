@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var f1: Int -> Int = {
-    return $0
- crashes: Int = { x, f in
-}(x1, f1)
-protocol a {
+var : Int -> Int = {
+$0
+{
 }
-class b<h : c, i : c where h.g == i> : a {
+{
+}
+class b<h , i where h = i> : a

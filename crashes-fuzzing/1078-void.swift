@@ -2,14 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var
-f g
-}
-struct d<i : b>l
-func b((Ane: (Any) -> <d>(()-> d) -> f
-f) = g
+func b( (Ane: (Any) -> ( )
+)
 return
 protocol A {
 typealias B
-: A.B) {
-}
+: A.B

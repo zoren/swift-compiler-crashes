@@ -5,10 +5,10 @@
 var d {
 protocol a {
 protocol b : a {
-func call(g<c(false)()
-let c> : c, object1: P {
-protocol C {
+func call
+{
+{
 }
 }
 }
-func a(b(n
+func a(b

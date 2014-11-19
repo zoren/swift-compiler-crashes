@@ -4,16 +4,14 @@
 
 protocol b {
 protocol a : d {
-enum S.count]..Element>(A>
-var _ = .dynamicType.Element == ["
-func d: [unowned self.c] == 0
+func d
 }
 }
-func a(a: T) {
-typealias F>: a {
-extension NSSet {
+func a( ) {
+{
+{
 }
 }
-typealias e = a((true }
-class a() in x }
-let h : b wh
+true }
+}
+let : b

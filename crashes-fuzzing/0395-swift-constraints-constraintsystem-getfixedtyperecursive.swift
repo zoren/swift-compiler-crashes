@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A : d = ")
-func g<D> Void>(v: A? {
+protocol A
+func D Void>(v: A? {

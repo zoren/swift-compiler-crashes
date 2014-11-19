@@ -2,14 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol a {
+class b<T where B : end
 }
-class b<T where B : end)
-}
-b((T: a {
+b( (T: {
 }
 var b {
-class A : Any) {
+{
 }
 }
-fun

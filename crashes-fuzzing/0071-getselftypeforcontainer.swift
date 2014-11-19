@@ -3,12 +3,12 @@
 // Test case found by fuzzing
 
 class h {
-    func e((Any, h))(q: (Any, e)) {
+func e ( h {
 }
-d h : l {
-    func u<s i s.k == n>(l: m<s>) {
-    }
+{
+{
 }
-func l<s : u>(e: s) {
+}
+{
 }
 protocol h : e { func e

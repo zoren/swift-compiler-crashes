@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A<b: Int -> Bool {
-private let b = c(f: A? {
+struct A<b {
+let b = (f: A? {

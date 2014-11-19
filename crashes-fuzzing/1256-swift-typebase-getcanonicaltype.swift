@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T>() -> T -> T {
+func f<T {
 class A {
-class func a() -> String {
-return ""
+func a( ) -> String {
+return " "
 struct c {
-unc a(b: Int = 0) {
+{
 }
 let c = a

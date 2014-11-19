@@ -3,16 +3,13 @@
 // Test case found by fuzzing
 
 import DummyModule
-class A : T>(f, A {
-return "
-return "")
+" "
 protocol A : a {
-func a")
+func a
 }
-typealias e where T) -> Int = "ab""")] {
-""ab""\() { self.C(() {
-func d>(A, AnyObject) -> {
+" " " " {
+" " " " { self ( ( ) {
+{
 }
-"a()
+"
 }
-let

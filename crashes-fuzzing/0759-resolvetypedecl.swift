@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i<h : c) -> {
+func < {
 protocol A : a {
 protocol a {
-class A = c) -> (s(a)
-case C<T)
+class A
 }
 func c: A

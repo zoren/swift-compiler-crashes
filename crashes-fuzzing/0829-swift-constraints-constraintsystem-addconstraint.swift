@@ -4,6 +4,5 @@
 
 if true {
 }
-struct B<d where T : A {
-}
-let start = B, leng
+struct B<d where T : A
+let start = B

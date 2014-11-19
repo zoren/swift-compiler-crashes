@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let t: Int) -> Int {
-}
-func c: B<S : Array<T) {
-func x) -> : AnyObject, c) -> {
+func c {
+{
 }
 protocol C {
 typealias d: d {
 }
-let c, Any, end: String)
+let c, Any, end: String

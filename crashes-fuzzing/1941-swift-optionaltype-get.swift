@@ -2,12 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let b = 0)
-}(x: BooleanType)?) -> String = {
-println("a()
-return [() {
-return "A) -> {
-}
+0
+(x: BooleanType)? ->
 class A {
 class A {
-func a<I : a {
+func a<I : a

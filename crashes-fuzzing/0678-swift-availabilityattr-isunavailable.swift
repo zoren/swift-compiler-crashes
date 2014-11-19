@@ -3,8 +3,6 @@
 // Test case found by fuzzing
 
 protocol c : d {
-typealias d: C = a() {
-enum B = """)
-func c<Y> (Any, q:Any) {
-}
-class a())
+typealias d = a
+func >
+class a

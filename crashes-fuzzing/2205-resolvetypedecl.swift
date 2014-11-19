@@ -2,12 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-ic class A {
-func f, range.E == b> Void>, k : A.d.init() {
-typealias F = B<T) in return b, let t: c = c<T>()
-func a: ExtensibleCollectionType>({
-println() -> == e([]
-protocol b {
-let start = ")
+class A {
+init( ) {
+let : c
+{
 }
-struct c<T where f: A =
+struct c<T where f: A

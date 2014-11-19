@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 extension Array {
-let f = b([0x31] = T, A = {
+let f = ( [ 0 3 ] = T A = {
 }
 class A {
 }

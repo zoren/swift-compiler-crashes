@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T, b {
-self.C(Any) {
+func < {
+{
 }
 protocol B : P {
-func a(s: a {
+func a(s: a
 }
 protocol P {
-protocol a {
+protocol a

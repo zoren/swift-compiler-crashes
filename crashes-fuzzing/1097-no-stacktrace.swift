@@ -3,12 +3,12 @@
 // Test case found by fuzzing
 
 extension NSSet {
-if c == .b {
+{
 }
 var f = 1
-var e: Int -> Int = {
+-> {
 }
 }
 import Foundation
 extension NSSet {
-convenience init(array: Array) {
+init(array Array)

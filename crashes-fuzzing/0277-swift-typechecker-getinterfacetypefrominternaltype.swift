@@ -2,43 +2,43 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func n<a>() -> (a, a -> a) -> a {
-   p m p.u = {
+func n<a {
+{
 }
- {
-   a) {
-        dc  }
+{
+{
 }
-protocol n {
 }
-class p: n{  class func u {}
-func t(a: Int = cb) {
+{
+}
+class p { func u { }
+func t {
 }
 let m = t
-class m {
-    func a((x, m))(t: (x, a)) {
-    }
+{
+{
 }
-p w: Int -> Int = {
 }
-let dc: Int = { (o: Int, n: Int -> Int) -> Int r
-}(u, w)
-let b: Int = { o, n r
-}(u, w)
-protocol t : t {
+-> {
 }
-func t<y>() -> (y, y -> y) -> y {
+{
+}
+{
 }
 protocol t {
 }
-protocol a : t {
+{
 }
-protocol m : t {
+protocol t {
 }
-protocol p {
+{
 }
-n o : p {
+{
 }
-func u<m : a, o : p where o.n == m> (m: o) {
+{
 }
-func u<dc : p where dc.n == m
+{
+}
+{
+}
+func u<dc where dc = m

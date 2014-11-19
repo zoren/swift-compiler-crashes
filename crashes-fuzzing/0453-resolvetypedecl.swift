@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<T where g: A? = [T
-protocol d = c, U)"
-struct Q<U -> {
-enum A : d = b
-func g: A> {
+struct d<T where g: A
+struct Q {
+enum A : d
+{
 }
-var e: A> {
+var e: A

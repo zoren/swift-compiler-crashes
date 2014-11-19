@@ -4,13 +4,13 @@
 
 protocol a {
 protocol a {
-typealias B : b> String {
-return { self.R
-protocol A {
-}))
+typealias B : b {
+{
+{
+}
 }
 }
 func b
 }
 }
-var e(true as a: St
+true as a

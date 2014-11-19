@@ -3,8 +3,5 @@
 // Test case found by fuzzing
 
 if true {
-struct c {
-e = T>: Int = c> String {
-func f()"A> {
 protocol A : a {
 func a

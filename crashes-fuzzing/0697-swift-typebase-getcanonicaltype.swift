@@ -3,18 +3,17 @@
 // Test case found by fuzzing
 
 func d: a {
-public var f(self.h : AnyObject) -> {
+{
 }
-super.b {
+{
 }
-struct c {
-A> T -> : T> == j> {
+{
+{
 }
 }
-get {
+{
 }
 }
 protocol a {
-typealias d : a {
-return "
-enum a: d {
+typealias d : a
+enum a: d

@@ -2,18 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var f : AnyObject, AnyObject, range: a {
-e where B {
-return m: String {
-func g<c) -> T -> Int {
+var AnyObject, AnyObject, a {
+{
+{
+{
 }
 }
 }
-println() -> {
+{
 }
 protocol a {
 protocol A {
-typealias A : a: SequenceType where T>("
+typealias A : a
 func a
-return x in x }
-func a: A, g
+}
+func a: A

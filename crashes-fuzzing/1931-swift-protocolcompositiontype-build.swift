@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f(f, U) -> Any)
+func f( ) -> Any
 class A {
 protocol A {
-self.init(b() {
+{
 }
-typealias d: d.count]
+typealias d: d.c

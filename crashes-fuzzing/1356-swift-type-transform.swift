@@ -3,20 +3,16 @@
 // Test case found by fuzzing
 
 extension Array {
-struct S<T where I.advance(Any, (A<A> (()
-b> : A> Any) -> T) -> {
-}
-enum S) -> String {
-public subscript () -> Self {
-return b(x) {
+struct S<T
+{
+{
+{
 }
 }
 struct e : a {
-deinit {
-struct A {
+{
+{
 }
 }
-func c, let c<T {
-func b(c : AnyObject, Any] as [".advance() -> V>([]
 protocol a {
 protocol a

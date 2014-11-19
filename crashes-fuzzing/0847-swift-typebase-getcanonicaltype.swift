@@ -3,18 +3,16 @@
 // Test case found by fuzzing
 
 protocol P {
-let t: c) {
-println("""A: (t: e = [T) -> (self.B : String = {
 protocol P {
-extension NSSet {
-protocol b in x in a {
+{
+{
 }
-func b<C<U -> {
-return self.B : Array) -> String {
-}() -> V, U)
-}
-}
-typealias e : e, e, U.E
+{
+{
 }
 }
-class A : P {
+}
+typealias e : e
+}
+}
+class A : P

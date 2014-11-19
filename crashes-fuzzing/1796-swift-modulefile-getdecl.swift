@@ -2,13 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b(b: Hashable> A {
-A<T : [1](")
+func b(b: Hashable
 class a {
 deinit {
-func f: A {
+{
 }
-init(T: Any, let a {
+{
 }
 protocol e : a {
 func a

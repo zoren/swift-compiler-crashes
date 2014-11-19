@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func d<e? {
+func d<e {
 struct c {
 class A {
-struct c : CollectionType where I) {
+struct c : CollectionType {
 }
 }
 }
-var b((Any, e(x) -> S) {
+{
 }
-protocol b = { c()
+protocol { c( )

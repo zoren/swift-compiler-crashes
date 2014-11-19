@@ -2,24 +2,23 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b() {
+func b( ) {
 struct S {
 protocol P {
-struct c where T>) {
+{
 }
-protocol c {
-struct c(x: a {
+{
+{
 }
-self)() {
+{
 }
 }
-typealias f = A> (Any) {
+typealias f = A {
 }
 }
 }
 protocol b {
-struct A {
+{
 }
-func b: C {
-func f: (")
+func b
 typealias f : b.E ==

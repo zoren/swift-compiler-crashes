@@ -7,5 +7,5 @@ protocol a {
 typealias B : B
 }
 }
-func c<T>([1
-e = h> Any)(b[B
+func c<T> (
+b

@@ -4,10 +4,7 @@
 
 protocol C {
 protocol b : b {
-typealias b where A<I : C {
+typealias b
 }
 }
-}
-typealias f : ((a!)
-var a(")
-struct S : C(b(c<D>)
+struct S : C

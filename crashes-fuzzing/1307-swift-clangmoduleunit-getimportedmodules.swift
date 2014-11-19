@@ -3,19 +3,19 @@
 // Test case found by fuzzing
 
 import Foundation
-func n<w>() -> (w, w -> w) -> w {
-o m o.q = {
+func n<w {
+{
 }
 {
-w) {
-k  }
+{
 }
-protocol n {
 }
-class o: n{  class func q {}
-func p(e: Int = x) {
+{
+}
+class o { { }
+func p(e: Int {
 }
 let c = p
-protocol p : p {
-}
 protocol p {
+}
+protocol p

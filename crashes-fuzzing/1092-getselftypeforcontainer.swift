@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 extension
-l()
+l
 protocol l : f { func f

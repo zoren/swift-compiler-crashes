@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 if true {
-func f: NSObject {
+{
 }
 struct S<T where T: NSObject {
 class A

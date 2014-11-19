@@ -3,12 +3,12 @@
 // Test case found by fuzzing
 
 var k = 1
-    func k<q>() -> q -> q {
-        return { h o h 1 {
-    }
+func k<q {
+{ {
+}
 }
 class k {
-m func p() -> String {
-     let m: String = {
-                return self.p()
-            }()
+func p( ) -> {
+let : String = {
+return self.p( )
+} ( )

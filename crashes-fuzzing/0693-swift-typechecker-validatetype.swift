@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-typealias f : C {
+as
 }
 extension Array {
-override init({
+{
 }
-class func g(t: NSObject {
-return ")
-enum b =
+func g(t: NSObject
+enum b

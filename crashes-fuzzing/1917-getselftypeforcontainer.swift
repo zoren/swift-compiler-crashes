@@ -2,13 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var b: a {
-struct D : P> String {
-}
-class A = e? {
-}
+var a {
+struct D : P
 protocol P {
-return {
+{
 }
 protocol B : a {
-func a"[T:
+func a

@@ -3,11 +3,11 @@
 // Test case found by fuzzing
 
 protocol P {
-let c: a {
+let : a {
 }
 protocol a {
-extension NSSet {
+{
 }
-var e: NSObject {
+{
 }
-typealias e : e {
+typealias e : e

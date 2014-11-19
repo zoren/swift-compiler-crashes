@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-(true }
-class func b, Any, a):
+(true
+func b
 protocol b {
-func c<3)!)
+func c
 typealias f : c

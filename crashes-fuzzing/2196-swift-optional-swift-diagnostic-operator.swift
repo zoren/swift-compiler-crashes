@@ -3,11 +3,6 @@
 // Test case found by fuzzing
 
 protocol A {
-let foo as BooleanType>] as a<(.c> {
-}
-func k<T, AnyObject))
-typealias e : e: e
-public var e: Array) {
-println((e(c: A : b: (c<D> {
-func e(A, k , "\((h: b(bytes: p) -> Stri>(_ = a() -> {
+typealias e : e
+var e: Array
 func f

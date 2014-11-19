@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-Self {
-var c: A>(bytes: P {
-protocol e where l.c where B {
-return [1
+{
+var A> ( {
+{
+return
 }
 }
 }
-func i<T : () -> {
-class A : a {
+func i<T {
+class A : a
 class a

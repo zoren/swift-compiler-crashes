@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class c: NSObject {
-static let b = """"a
+class c {
+let b = " "
 enum b {
-struct Q<U {
-deinit {
+{
+{
 }
 }
 func a<j : a
