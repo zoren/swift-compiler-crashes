@@ -39,7 +39,7 @@ done
 
 shift $((OPTIND - 1))
 
-current_max_id=$(find crashes crashes-fuzzing crashes-duplicates fixed -name "????-*.swift" | cut -f2 -d'/' | egrep '^[0-9]+\-' | sort -n | cut -f1 -d'-' | sed 's/^0*//g' | tail -1)
+current_max_id=$(find crashes crashes-fuzzing crashes-duplicates fixed -name "?????-*.swift" | cut -f2 -d'/' | egrep '^[0-9]+\-' | sort -n | cut -f1 -d'-' | sed 's/^0*//g' | tail -1)
 if [[ ${max_test_number} != 0 ]]; then
   current_max_id=${max_test_number}
 fi
@@ -57,7 +57,7 @@ show_error() {
   printf "%b" "${color_red}[Error]${color_normal_display} ${color_bold}${warning}${color_normal_display}\n"
 }
 
-duplicate_bug_ids=$(find crashes crashes-fuzzing crashes-duplicates fixed -name "????-*.swift" | cut -f2 -d/ | cut -f1 -d'.' | sort | uniq | cut -f1 -d'-' | uniq -c | sed "s/^ *//g" | egrep -v '^1 ' | cut -f2 -d" " | tr "\n" "," | sed "s/,$//g")
+duplicate_bug_ids=$(find crashes crashes-fuzzing crashes-duplicates fixed -name "?????-*.swift" | cut -f2 -d/ | cut -f1 -d'.' | sort | uniq | cut -f1 -d'-' | uniq -c | sed "s/^ *//g" | egrep -v '^1 ' | cut -f2 -d" " | tr "\n" "," | sed "s/,$//g")
 if [[ ${duplicate_bug_ids} != "" ]]; then
   show_error "Duplicate bug ids: ${duplicate_bug_ids}. Please re-number to avoid duplicates."
   echo
@@ -80,7 +80,7 @@ seen_checksums=""
 execute_with_timeout() {
   timeout_in_seconds=$1
   command=$2
-  out=$(expect -c "set echo \"-noecho\"; set timeout ${timeout_in_seconds}; spawn -noecho /bin/sh -c \"${command}\"; expect timeout { exit 1 } eof { exit 0 }")
+  out=$(expect -c "set echo \"-noecho\"; set timeout ${timeout_in_seconds}; spawn -noecho /bin/sh -c \"${command}\"; expect timeout { exit 1 } eof { exit 0 }" 2>&1)
   return_code=$?
   echo "${out}" | tr -d "\r"
   return ${return_code}
@@ -118,10 +118,13 @@ test_file() {
   # Test mode: Run Swift code and catch a portential hang (infinite running time).
   #            Used for test cases named *.timeout.swift.
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.timeout\. ]]; then
-    execute_with_timeout 5 "xcrun -sdk ${sdk} swift ${files_to_compile}" > /dev/null 2> /dev/null
+    output=$(execute_with_timeout 5 "xcrun -sdk ${sdk} swift ${files_to_compile}")
     if [[ $? == 1 ]]; then
       swift_crash=1
       compilation_comment="timeout"
+    elif [[ ${output} =~ \ malloc:\  ]]; then
+      swift_crash=1
+      compilation_comment="malloc"
     fi
   fi
   # Test mode: Run in Swift code in REPL and catch segmentation fault.
@@ -140,7 +143,11 @@ test_file() {
     for _ in {1..50}; do
       # shellcheck disable=SC2086
       output=$(xcrun -sdk ${sdk} swiftc -Onone -o /dev/null ${files_to_compile} 2>&1 | strings)
-      if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1) ]]; then
+      if [[ ${output} =~ \ malloc:\  ]]; then
+        swift_crash=1
+        compilation_comment="malloc"
+        break
+      elif [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1) ]]; then
         swift_crash=1
         compilation_comment=""
         break
@@ -154,7 +161,10 @@ test_file() {
   if [[ ${swift_crash} == 0 ]]; then
     # shellcheck disable=SC2086
     output=$(xcrun -sdk ${sdk} swiftc -O -o /dev/null ${files_to_compile} 2>&1 | strings)
-    if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1) ]]; then
+    if [[ ${output} =~ \ malloc:\  ]]; then
+      swift_crash=1
+      compilation_comment="malloc"
+    elif [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1) ]]; then
       swift_crash=1
       compilation_comment="-O"
     fi
