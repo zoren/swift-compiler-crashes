@@ -1,4 +1,4 @@
-3  swift                    swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 65
+3  swift                    swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 6642
 4  swift                    swift::TypeBase::getCanonicalType() + 1403
 5  swift                    swift::TypeBase::getCanonicalType() + 775
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 451

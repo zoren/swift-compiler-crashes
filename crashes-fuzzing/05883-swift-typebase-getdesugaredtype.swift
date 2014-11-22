@@ -1,0 +1,9 @@
+// Distributed under the terms of the MIT license
+// Test case submitted to project by https://github.com/practicalswift (practicalswift)
+// Test case found by fuzzing
+
+let a {
+protocol P {
+typealias e : T.Element == 0
+func b<T where T where T>(v: B
+class B<T where T.Element == e) -> Voi

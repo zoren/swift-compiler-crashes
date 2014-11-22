@@ -29,11 +29,10 @@
 32 swift                    swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*, swift::ValueDecl*) + 116
 33 swift                    (anonymous namespace)::TypeResolver::resolveType(swift::TypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>) + 241
 34 swift                    swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*, swift::ValueDecl*) + 221
-35 swift                    (anonymous namespace)::DeclChecker::visitAssociatedTypeDecl(swift::AssociatedTypeDecl*) + 102
-36 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 544
-37 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6103
-38 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
-39 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
-40 swift                    swift::CompilerInstance::performSema() + 2060
-41 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-42 swift                    main + 1677
+35 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 5734
+36 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2695
+37 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+38 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
+39 swift                    swift::CompilerInstance::performSema() + 2060
+40 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+41 swift                    main + 1677

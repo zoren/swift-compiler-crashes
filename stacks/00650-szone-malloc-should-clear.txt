@@ -1,4 +1,3 @@
-3  swift                    swift::Pattern::forEachVariable(std::__1::function<void (swift::VarDecl*)> const&) const + 235
 4  swift                    swift::IntegerLiteralExpr::getValue() const + 43
 5  swift                    (anonymous namespace)::RawValueKey::RawValueKey(swift::LiteralExpr*) + 174
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 8191

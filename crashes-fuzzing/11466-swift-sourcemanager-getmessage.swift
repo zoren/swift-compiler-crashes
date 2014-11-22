@@ -1,0 +1,11 @@
+// Distributed under the terms of the MIT license
+// Test case submitted to project by https://github.com/practicalswift (practicalswift)
+// Test case found by fuzzing
+
+var d {
+protocol P {
+enum e {
+var d = [ 3 e {
+( {
+class
+case ,

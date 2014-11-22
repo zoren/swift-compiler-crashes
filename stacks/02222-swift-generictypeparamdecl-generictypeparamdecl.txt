@@ -17,7 +17,7 @@
 19 swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 3232
 20 swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
 21 swift                    (anonymous namespace)::PreCheckExpression::walkToExprPre(swift::Expr*) + 125
-22 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1009
+22 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1543
 23 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
 24 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 153
 25 swift                    swift::TypeChecker::typeCheckBinding(swift::PatternBindingDecl*) + 162

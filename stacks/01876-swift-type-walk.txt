@@ -30,16 +30,15 @@
 33 swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 3232
 34 swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
 35 swift                    (anonymous namespace)::PreCheckExpression::walkToExprPre(swift::Expr*) + 125
-36 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1543
-37 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1843
-38 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
-39 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 153
-40 swift                    swift::TypeChecker::typeCheckBinding(swift::PatternBindingDecl*) + 162
-41 swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 560
-42 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 224
-43 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 9408
-44 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
-45 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
-46 swift                    swift::CompilerInstance::performSema() + 2060
-47 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-48 swift                    main + 1677
+36 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 3458
+37 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
+38 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 153
+39 swift                    swift::TypeChecker::typeCheckBinding(swift::PatternBindingDecl*) + 162
+40 swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 560
+41 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 224
+42 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 9408
+43 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+44 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
+45 swift                    swift::CompilerInstance::performSema() + 2060
+46 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+47 swift                    main + 1677

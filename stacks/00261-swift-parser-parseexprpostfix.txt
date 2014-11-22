@@ -1,4 +1,4 @@
-3  swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 7692
+3  swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 326
 4  swift                    getCallerDefaultArg(swift::TypeChecker&, swift::DeclContext*, swift::SourceLoc, swift::ConcreteDeclRef&, unsigned int) + 61
 5  swift                    (anonymous namespace)::ExprRewriter::coerceCallArguments(swift::Expr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 2391
 6  swift                    (anonymous namespace)::ExprRewriter::finishApply(swift::ApplyExpr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 585

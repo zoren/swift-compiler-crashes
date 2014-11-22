@@ -1,0 +1,11 @@
+// Distributed under the terms of the MIT license
+// Test case submitted to project by https://github.com/practicalswift (practicalswift)
+// Test case found by fuzzing
+
+let a = [ T
+let {
+{
+struct S< {
+class A {
+class
+case ,

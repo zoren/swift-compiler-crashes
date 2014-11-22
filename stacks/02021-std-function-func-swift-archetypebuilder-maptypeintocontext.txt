@@ -10,7 +10,7 @@
 12 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 4115
 13 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 6474
 14 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1655
-15 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1843
+15 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1655
 16 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1655
 17 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 6567
 18 swift                    swift::Expr::walk(swift::ASTWalker&) + 53

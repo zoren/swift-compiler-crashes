@@ -26,7 +26,7 @@
 28 swift                    swift::TypeChecker::validateGenericTypeSignature(swift::NominalTypeDecl*) + 69
 29 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 876
 30 swift                    checkRedeclaration(swift::TypeChecker&, swift::ValueDecl*) + 532
-31 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 9436
+31 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6131
 32 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
 33 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
 34 swift                    swift::CompilerInstance::performSema() + 2060

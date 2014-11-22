@@ -10,7 +10,7 @@
 13 swift                    swift::TypeChecker::typeCheckBinding(swift::PatternBindingDecl*) + 162
 14 swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 560
 15 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 224
-16 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 9408
+16 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2695
 17 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
 18 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
 19 swift                    swift::CompilerInstance::performSema() + 2060

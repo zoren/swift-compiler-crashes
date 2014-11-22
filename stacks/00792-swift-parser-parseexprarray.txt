@@ -18,9 +18,9 @@
 20 swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 162
 21 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 6591
 22 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1843
-23 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1655
-24 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1935
-25 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 6474
+23 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 6474
+24 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1655
+25 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1935
 26 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1655
 27 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
 28 swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 96

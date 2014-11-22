@@ -1,0 +1,17 @@
+// Distributed under the terms of the MIT license
+// Test case submitted to project by https://github.com/practicalswift (practicalswift)
+// Test case found by fuzzing
+
+{
+enum S {
+var b = [ e
+a {
+protocol C {
+class A {
+func g {
+case
+var {
+{
+{
+class
+case ,

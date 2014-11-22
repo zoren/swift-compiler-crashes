@@ -1,4 +1,3 @@
-3  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 1603
 4  swift                    getCallerDefaultArg(swift::TypeChecker&, swift::DeclContext*, swift::SourceLoc, swift::ConcreteDeclRef&, unsigned int) + 61
 5  swift                    (anonymous namespace)::ExprRewriter::coerceCallArguments(swift::Expr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 2391
 6  swift                    (anonymous namespace)::ExprRewriter::finishApply(swift::ApplyExpr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 585

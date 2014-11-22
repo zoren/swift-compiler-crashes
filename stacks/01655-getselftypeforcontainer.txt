@@ -17,10 +17,8 @@
 20 swift                    swift::TypeChecker::validateGenericTypeSignature(swift::NominalTypeDecl*) + 69
 21 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 876
 22 swift                    checkRedeclaration(swift::TypeChecker&, swift::ValueDecl*) + 532
-23 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2723
-24 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 9408
-25 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
-26 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
-27 swift                    swift::CompilerInstance::performSema() + 2060
-28 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-29 swift                    main + 1677
+23 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
+24 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
+25 swift                    swift::CompilerInstance::performSema() + 2060
+26 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
+27 swift                    main + 1677

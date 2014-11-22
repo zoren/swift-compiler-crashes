@@ -1,0 +1,13 @@
+// Distributed under the terms of the MIT license
+// Test case submitted to project by https://github.com/practicalswift (practicalswift)
+// Test case found by fuzzing
+
+struct S<T
+func < {
+protocol A {
+class c
+struct c : S<b>
+{
+}
+func b
+typealias b
