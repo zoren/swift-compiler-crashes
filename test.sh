@@ -10,14 +10,15 @@ xcode_path=$(xcode-select -p)
 echo
 echo "Running tests against: ${swiftc_version} (Swift ${swift_version})"
 echo "Using Xcode found at path: ${xcode_path}"
-echo "Usage: $0 [-v] [-c<columns>] [-l] [file ...]"
+echo "Usage: $0 [-v] [-q] [-c<columns>] [-l] [file ...]"
 
 columns=$(tput cols)
 verbose=0
 log_stacks=0
 delete_dupes=0
 max_test_number=0
-while getopts "c:vldm:" o; do
+quick_mode=0
+while getopts "c:vldm:q" o; do
   case ${o} in
     c)
       columns=${OPTARG}
@@ -33,6 +34,9 @@ while getopts "c:vldm:" o; do
       ;;
     m)
       max_test_number=${OPTARG}
+      ;;
+    q)
+      quick_mode=1
       ;;
   esac
 done
@@ -302,6 +306,9 @@ run_tests_in_directory() {
   echo
   found_tests=0
   for test_path in "${path}"/*.swift; do
+    if [[ -h "${test_path}" ]]; then
+      test_path=$(readlink "${test_path}" | cut -b4-)
+    fi
     if [[ -f ${test_path} ]]; then
       found_tests=1
       test_file "${test_path}"
@@ -316,7 +323,11 @@ run_tests_in_directory() {
 main() {
   if [[ ${argument_files} == "" ]]; then
     run_tests_in_directory "Currently known crashes" "./crashes"
-    run_tests_in_directory "Currently known crashes (crashes found by fuzzing)" "./crashes-fuzzing"
+    if [[ ${quick_mode} == 1 ]]; then
+        run_tests_in_directory "Currently known crashes (quick mode, testing only the most important fuzzing crashes)" "./crashes-fuzzing-crash-locations"
+    else
+        run_tests_in_directory "Currently known crashes (crashes found by fuzzing)" "./crashes-fuzzing"
+    fi
     # run_tests_in_directory "Currently known crashes (duplicates)" "./crashes-duplicates"
     if [[ ${delete_dupes} == 1 ]]; then
       exit 0
