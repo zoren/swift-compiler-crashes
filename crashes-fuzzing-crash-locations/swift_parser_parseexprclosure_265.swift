@@ -1,0 +1,1 @@
+../crashes-fuzzing/02452-swift-parser-parseexprclosure.swift

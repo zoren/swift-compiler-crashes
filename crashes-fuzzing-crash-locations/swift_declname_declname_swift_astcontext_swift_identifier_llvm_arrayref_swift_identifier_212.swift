@@ -1,0 +1,1 @@
+../crashes-fuzzing/03782-swift-declname-declname.swift

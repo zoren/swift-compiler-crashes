@@ -1,0 +1,1 @@
+../crashes-fuzzing/08710-swift-declcontext-isclassorclassextensioncontext.swift

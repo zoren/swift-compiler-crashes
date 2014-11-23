@@ -1,0 +1,1 @@
+../crashes-fuzzing/01915-swift-typechecker-getprotocol.swift

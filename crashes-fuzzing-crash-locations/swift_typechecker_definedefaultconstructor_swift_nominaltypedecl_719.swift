@@ -1,0 +1,1 @@
+../crashes-fuzzing/07566-swift-typechecker-definedefaultconstructor.swift

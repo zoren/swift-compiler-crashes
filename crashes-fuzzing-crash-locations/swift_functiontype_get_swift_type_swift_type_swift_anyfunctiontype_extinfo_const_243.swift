@@ -1,0 +1,1 @@
+../crashes-fuzzing/05264-swift-functiontype-get.swift

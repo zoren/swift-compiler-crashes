@@ -1,0 +1,1 @@
+../crashes-fuzzing/05850-swift-typebase-operator.swift

@@ -1,0 +1,1 @@
+../crashes-fuzzing/05948-swift-parser-parsedecltypealias.swift

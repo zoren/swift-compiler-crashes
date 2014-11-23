@@ -1,0 +1,1 @@
+../crashes-fuzzing/06929-llvm-smallvectorimpl-swift-diagnosticargument-operator.swift

@@ -1,0 +1,1 @@
+../crashes-fuzzing/02535-swift-nominaltype-get.swift

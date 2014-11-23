@@ -1,0 +1,1 @@
+../crashes-fuzzing/01515-swift-typebase-getcanonicaltype.swift

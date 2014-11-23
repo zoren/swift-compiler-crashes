@@ -1,0 +1,1 @@
+../crashes-fuzzing/10364-swift-nominaltypedecl-preparelookuptable.swift

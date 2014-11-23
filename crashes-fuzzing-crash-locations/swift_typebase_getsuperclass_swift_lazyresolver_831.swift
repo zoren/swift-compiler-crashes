@@ -1,0 +1,1 @@
+../crashes-fuzzing/07982-swift-typebase-getsuperclass.swift

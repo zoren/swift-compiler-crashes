@@ -1,0 +1,1 @@
+../crashes-fuzzing/01028-swift-camel-case-getfirstword.swift

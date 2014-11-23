@@ -1,0 +1,1 @@
+../crashes-fuzzing/08439-swift-typechecker-resolveidentifiertype.swift

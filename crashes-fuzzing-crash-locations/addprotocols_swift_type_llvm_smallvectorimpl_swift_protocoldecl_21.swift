@@ -1,0 +1,1 @@
+../crashes-fuzzing/07729-addprotocols.swift

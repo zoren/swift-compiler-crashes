@@ -1,0 +1,1 @@
+../crashes-fuzzing/06640-swift-mangle-mangler-manglenominaltype.swift

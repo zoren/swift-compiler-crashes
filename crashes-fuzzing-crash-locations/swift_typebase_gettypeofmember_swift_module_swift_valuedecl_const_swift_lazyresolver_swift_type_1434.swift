@@ -1,0 +1,1 @@
+../crashes-fuzzing/06250-swift-typebase-gettypeofmember.swift

@@ -1,0 +1,1 @@
+../crashes-fuzzing/01896-swift-parser-parsedecl.swift

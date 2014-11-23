@@ -1,0 +1,1 @@
+../crashes-fuzzing/01791-swift-typedecl-getdeclaredtype.swift

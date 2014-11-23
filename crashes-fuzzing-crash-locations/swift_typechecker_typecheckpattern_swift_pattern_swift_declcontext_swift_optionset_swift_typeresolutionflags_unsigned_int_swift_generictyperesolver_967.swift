@@ -1,0 +1,1 @@
+../crashes-fuzzing/03205-swift-typechecker-typecheckpattern.swift

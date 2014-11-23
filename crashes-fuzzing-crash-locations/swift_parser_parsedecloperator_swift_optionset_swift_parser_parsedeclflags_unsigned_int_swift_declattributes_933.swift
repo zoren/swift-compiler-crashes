@@ -1,0 +1,1 @@
+../crashes-fuzzing/06342-swift-parser-parseabstractfunctionbodydelayed.swift

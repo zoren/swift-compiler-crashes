@@ -1,0 +1,1 @@
+../crashes-fuzzing/07704-swift-protocoltype-canonicalizeprotocols.swift

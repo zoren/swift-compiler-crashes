@@ -1,0 +1,1 @@
+../crashes-fuzzing/01996-swift-parser-parsedeclenumcase.swift

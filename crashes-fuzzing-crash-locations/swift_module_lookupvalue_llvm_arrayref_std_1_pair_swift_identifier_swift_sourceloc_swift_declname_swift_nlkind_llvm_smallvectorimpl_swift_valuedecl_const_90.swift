@@ -1,0 +1,1 @@
+../crashes-fuzzing/06712-swift-module-lookupvalue.swift

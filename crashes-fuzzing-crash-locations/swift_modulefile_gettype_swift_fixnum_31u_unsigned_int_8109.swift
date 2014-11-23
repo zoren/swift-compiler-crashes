@@ -1,0 +1,1 @@
+../crashes-fuzzing/06069-swift-modulefile-gettype.swift

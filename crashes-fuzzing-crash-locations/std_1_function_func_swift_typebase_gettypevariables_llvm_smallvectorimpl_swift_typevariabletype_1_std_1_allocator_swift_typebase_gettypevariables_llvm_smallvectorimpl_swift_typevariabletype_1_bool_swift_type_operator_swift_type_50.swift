@@ -1,0 +1,1 @@
+../crashes-fuzzing/01434-std-function-func-swift-typebase-gettypevariables.swift

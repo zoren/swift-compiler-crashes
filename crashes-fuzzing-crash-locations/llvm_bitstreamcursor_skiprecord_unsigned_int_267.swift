@@ -1,0 +1,1 @@
+../crashes-fuzzing/12112-llvm-bitstreamcursor-skiprecord.swift
