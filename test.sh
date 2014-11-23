@@ -238,11 +238,12 @@ test_file() {
     stacktrace_log="./stacks/$(cut -f-2 -d. <<< "${files_to_compile}" | cut -f3 -d'/').txt"
     egrep "0x[0-9a-f]" <<< "${output}" | sed 's/ 0x[0-9a-f]*//g' | sed 's/ [0-9][0-9][0-9][0-9][0-9][0-9][0-9]*$/ [N]/g' | sed "s/^swift([0-9]*,0x[0-9a-f]*)/swift(N,0xN)/" | egrep "^[0-9]" | egrep -v '(libdyld|libsystem_kernel|libsystem_malloc|libsystem_platform|libsystem_c|libsystem_malloc)\.dylib' | egrep -v '(llvm::sys::PrintStackTrace|SignalHandler)' > "${stacktrace_log}"
   fi
-  # crash_in_function=$(egrep "0x[0-9a-f]" <<< "${output}" | egrep -v '(llvm::sys::PrintStackTrace|SignalHandler|_sigtramp|swift::TypeLoc::isError)' | egrep '(swift|llvm)' | head -1 | sed 's/ 0x[0-9a-f]/|/g' | cut -f2- -d'|' | cut -f2- -d' ')
-  normalized_stacktrace=$(egrep "0x[0-9a-f]" <<< "${output}" | egrep '(swift|llvm)' | awk '{ print $4 }' | uniq | egrep -v "swift::TypeLoc::isError")
-  checksum=$(shasum <<< "${normalized_stacktrace}" | head -c10)
+  # Definition of crash uniqueness (improvements welcome!) …
+  # A crash is treated as non-duplicate if it has an unique "crash hash" as computed by the following crash hash function:
+  checksum=$(egrep "0x[0-9a-f]" <<< "${output}" | egrep '(swift|llvm)' | awk '{ $1=""; $2=""; $3=""; print $0 }' | sed 's/^ *//g' | sort | uniq | shasum | head -c10)
   is_dupe=0
-  if [[ ${normalized_stacktrace} == "" ]]; then
+  # special case: ignore empty ("") outputs (checksum da39a3ee5e).
+  if [[ ${checksum} == "da39a3ee5e" ]]; then
     checksum="        "
   else
     if [[ ${seen_checksums} =~ ${checksum} ]]; then
@@ -273,6 +274,10 @@ test_file() {
     fi
   fi
   if [[ ${verbose} == 1 ]]; then
+    crashed_in_function=$(egrep "0x[0-9a-f]" <<< "${output}" | grep -v '\*\*\*' | egrep -v '(llvm::sys::PrintStackTrace|SignalHandler|_sigtramp|swift::TypeLoc::isError)' | egrep '(swift|llvm)' | head -1 | sed 's/ 0x[0-9a-f]/|/g' | cut -f2- -d'|' | cut -f2- -d' ')
+    echo
+    printf "%b" "${color_bold}Crashed in function:${color_normal_display}\n"
+    echo "${crashed_in_function}"
     echo
     printf "%b" "${color_bold}Compilation output:${color_normal_display}\n"
     echo "${output}"
