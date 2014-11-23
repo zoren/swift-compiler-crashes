@@ -75,7 +75,7 @@ if [[ ${name_size} -lt 35 ]]; then
 fi
 num_tests=0
 num_crashed=0
-seen_checksums=""
+seen_crash_hashes=""
 
 execute_with_timeout() {
   timeout_in_seconds=$1
@@ -84,6 +84,19 @@ execute_with_timeout() {
   return_code=$?
   echo "${out}" | tr -d "\r"
   return ${return_code}
+}
+
+# Definition of crash uniqueness (improvements welcome!) …
+# A crash is treated as non-duplicate if it has an unique "crash hash" as computed by the following crash hash function:
+get_crash_hash() {
+  compilation_output="$1"
+  normalized_stack_trace=$(egrep "0x[0-9a-f]" <<< "${compilation_output}" | egrep '(swift|llvm)' | awk '{ $1=""; $2=""; $3=""; print $0 }' | sed 's/^ *//g' | sort | uniq)
+  if [[ ${normalized_stack_trace} == "" ]]; then
+    crash_hash=""
+  else
+    crash_hash=$(shasum <<< "${normalized_stack_trace}" | head -c10)
+  fi
+  echo -n "${crash_hash}"
 }
 
 test_file() {
@@ -140,7 +153,7 @@ test_file() {
   fi
   # Test mode: Compile using swiftc without any optimizations ("-Onone").
   #            Used for test cases named *.swift.
-  if [[ ${swift_crash} == 0 ]]; then
+  if [[ ${swift_crash} == 0 && ! ${files_to_compile} =~ \.timeout\. ]]; then
     for _ in {1..50}; do
       # shellcheck disable=SC2086
       output=$(xcrun -sdk ${sdk} swiftc -Onone -o /dev/null ${files_to_compile} 2>&1 | strings)
@@ -159,7 +172,7 @@ test_file() {
   fi
   # Test mode: Compile using swiftc with optimization option "-O".
   #            Used for test cases named *.swift.
-  if [[ ${swift_crash} == 0 ]]; then
+  if [[ ${swift_crash} == 0 && ! ${files_to_compile} =~ \.timeout\. ]]; then
     # shellcheck disable=SC2086
     output=$(xcrun -sdk ${sdk} swiftc -O -o /dev/null ${files_to_compile} 2>&1 | strings)
     if [[ ${output} =~ \ malloc:\  ]]; then
@@ -238,18 +251,15 @@ test_file() {
     stacktrace_log="./stacks/$(cut -f-2 -d. <<< "${files_to_compile}" | cut -f3 -d'/').txt"
     egrep "0x[0-9a-f]" <<< "${output}" | sed 's/ 0x[0-9a-f]*//g' | sed 's/ [0-9][0-9][0-9][0-9][0-9][0-9][0-9]*$/ [N]/g' | sed "s/^swift([0-9]*,0x[0-9a-f]*)/swift(N,0xN)/" | egrep "^[0-9]" | egrep -v '(libdyld|libsystem_kernel|libsystem_malloc|libsystem_platform|libsystem_c|libsystem_malloc)\.dylib' | egrep -v '(llvm::sys::PrintStackTrace|SignalHandler)' > "${stacktrace_log}"
   fi
-  # Definition of crash uniqueness (improvements welcome!) …
-  # A crash is treated as non-duplicate if it has an unique "crash hash" as computed by the following crash hash function:
-  checksum=$(egrep "0x[0-9a-f]" <<< "${output}" | egrep '(swift|llvm)' | awk '{ $1=""; $2=""; $3=""; print $0 }' | sed 's/^ *//g' | sort | uniq | shasum | head -c10)
+  hash=$(get_crash_hash "${output}")
   is_dupe=0
-  # special case: ignore empty ("") outputs (checksum da39a3ee5e).
-  if [[ ${checksum} == "da39a3ee5e" ]]; then
-    checksum="        "
+  if [[ ${hash} == "" ]]; then
+    hash="        "
   else
-    if [[ ${seen_checksums} =~ ${checksum} ]]; then
+    if [[ ${seen_crash_hashes} =~ ${hash} ]]; then
       is_dupe=1
     fi
-    seen_checksums="${seen_checksums}:${checksum}"
+    seen_crash_hashes="${seen_crash_hashes}:${hash}"
   fi
   if [[ ${swift_crash} == 1 ]]; then
     if [[ ${compilation_comment} != "" ]]; then
@@ -265,7 +275,7 @@ test_file() {
         rm ${files_to_compile}
       fi
     fi
-    printf "  %b  %-${adjusted_name_size}.${adjusted_name_size}b (%-10.10b)\n" "${color_red}✘${color_normal_display}" "${test_name}" "${checksum}"
+    printf "  %b  %-${adjusted_name_size}.${adjusted_name_size}b (%-10.10b)\n" "${color_red}✘${color_normal_display}" "${test_name}" "${hash}"
   else
     printf "  %b  %-${name_size}.${name_size}b\n" "${color_green}✓${color_normal_display}" "${test_name}"
     if [[ ${delete_dupes} == 1 ]]; then
