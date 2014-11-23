@@ -115,7 +115,8 @@ test_file() {
   swift_crash=0
   compilation_comment=""
   output=""
-  # Test mode: Run Swift code and catch a portential hang (infinite running time).
+  # Test mode: Run Swift code and catch a portential hang (infinite running time),
+  #            excessive running time or excessive compilation time.
   #            Used for test cases named *.timeout.swift.
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.timeout\. ]]; then
     output=$(execute_with_timeout 5 "xcrun -sdk ${sdk} swift ${files_to_compile}")
