@@ -6,16 +6,11 @@ import Foundation
 enum A : String {
     case a = ""
 }
-class B {
-    func processChangedItem(item: NSMetadataItem) {
-        if (item.downloadingStatus == .a) {
-        }
-    }
-}
 extension NSMetadataItem {
     var downloadingStatus: A? {
-        if let value = self.valueForAttribute(NSMetadataItemURLKey) as? String {
-        }
         return nil
     }
+}
+func b(c: NSMetadataItem) -> Bool {
+    return c.downloadingStatus == .a
 }
