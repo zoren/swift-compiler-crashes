@@ -1,0 +1,19 @@
+// Distributed under the terms of the MIT license
+// Test case submitted to project by https://github.com/practicalswift (practicalswift)
+// Test case found by fuzzing
+
+for
+let a {
+case
+var {
+protocol A {
+deinit {
+return m( [ {
+class A {
+{
+{
+}
+}
+enum b {
+class
+case ,

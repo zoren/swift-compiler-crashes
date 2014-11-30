@@ -1,0 +1,1 @@
+../crashes-fuzzing/19299-swift-verifydiagnostics.swift

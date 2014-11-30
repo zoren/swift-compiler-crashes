@@ -1,0 +1,13 @@
+// Distributed under the terms of the MIT license
+// Test case submitted to project by https://github.com/practicalswift (practicalswift)
+// Test case found by fuzzing
+
+init {
+struct Q {
+let a {
+for {
+protocol A {
+deinit {
+for in {
+class
+case ,

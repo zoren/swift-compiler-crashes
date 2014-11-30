@@ -1,0 +1,1 @@
+../crashes-fuzzing/14437-swift-typechecker-checkinheritanceclause.swift

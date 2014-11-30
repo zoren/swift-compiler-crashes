@@ -1,0 +1,1 @@
+../crashes-fuzzing/20741-swift-funcdecl-funcdecl.swift

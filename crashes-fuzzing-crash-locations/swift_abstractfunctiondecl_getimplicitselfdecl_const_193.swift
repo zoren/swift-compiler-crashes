@@ -1,0 +1,1 @@
+../crashes-fuzzing/19511-swift-abstractfunctiondecl-getimplicitselfdecl.swift

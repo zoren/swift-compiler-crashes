@@ -1,0 +1,17 @@
+// Distributed under the terms of the MIT license
+// Test case submitted to project by https://github.com/practicalswift (practicalswift)
+// Test case found by fuzzing
+
+if true {
+for in {
+var b {
+case
+let {
+struct A {
+let f = [ {
+func g {
+protocol A {
+class a {
+deinit {
+class
+case ,

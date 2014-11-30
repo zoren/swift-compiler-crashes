@@ -1,0 +1,1 @@
+../crashes-fuzzing/19768-swift-typechecker-handleexternaldecl.swift

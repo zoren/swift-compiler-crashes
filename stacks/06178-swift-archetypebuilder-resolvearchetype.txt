@@ -1,3 +1,4 @@
+3  swift                    llvm::SMDiagnostic::print(char const*, llvm::raw_ostream&, bool) const + 3280
 4  swift                    swift::ArchetypeBuilder::resolveArchetype(swift::Type) + 25
 5  swift                    swift::ArchetypeBuilder::addRequirement(swift::RequirementRepr const&) + 83
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 812

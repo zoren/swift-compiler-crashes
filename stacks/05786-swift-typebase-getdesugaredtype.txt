@@ -1,4 +1,4 @@
-4  swift                    swift::TypeBase::getDesugaredType() + 277
+4  swift                    swift::TypeBase::getDesugaredType() + 156
 5  swift                    swift::ArchetypeBuilder::resolveArchetype(swift::Type) + 25
 6  swift                    swift::resolvePotentialArchetypeToType(swift::ArchetypeBuilder&, llvm::ArrayRef<swift::GenericTypeParamType*>, swift::ArchetypeBuilder::PotentialArchetype*) + 334
 7  swift                    swift::resolvePotentialArchetypeToType(swift::ArchetypeBuilder&, llvm::ArrayRef<swift::GenericTypeParamType*>, swift::ArchetypeBuilder::PotentialArchetype*) + 53

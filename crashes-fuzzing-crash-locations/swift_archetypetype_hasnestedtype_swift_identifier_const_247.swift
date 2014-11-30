@@ -1,0 +1,1 @@
+../crashes-fuzzing/19636-swift-archetypetype-hasnestedtype.swift

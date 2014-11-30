@@ -1,0 +1,10 @@
+// Distributed under the terms of the MIT license
+// Test case submitted to project by https://github.com/practicalswift (practicalswift)
+// Test case found by fuzzing
+
+func a
+func a<e> ( < > ( [Void
+class A {
+protocol P {
+var f : e
+typealias e : e
