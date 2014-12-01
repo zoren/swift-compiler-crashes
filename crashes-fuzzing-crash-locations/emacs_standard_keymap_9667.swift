@@ -1,1 +1,1 @@
-../crashes-fuzzing/19802-swift-type-walk.swift
+../crashes-duplicates/19802-swift-type-walk.swift
