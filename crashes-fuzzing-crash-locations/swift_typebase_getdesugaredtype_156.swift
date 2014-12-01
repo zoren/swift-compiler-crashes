@@ -1,1 +1,1 @@
-../crashes-fuzzing/05883-swift-typebase-getdesugaredtype.swift
+../crashes-duplicates/05883-swift-typebase-getdesugaredtype.swift

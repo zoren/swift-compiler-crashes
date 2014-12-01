@@ -1,1 +1,1 @@
-../crashes-fuzzing/10568-swift-typeexpr-createfordecl.swift
+../crashes-duplicates/10568-swift-typeexpr-createfordecl.swift
