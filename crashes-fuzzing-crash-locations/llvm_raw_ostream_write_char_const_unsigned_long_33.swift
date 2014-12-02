@@ -1,1 +1,1 @@
-../crashes-fuzzing/10716-llvm-raw-ostream-write.swift
+../crashes-duplicates/10716-llvm-raw-ostream-write.swift
