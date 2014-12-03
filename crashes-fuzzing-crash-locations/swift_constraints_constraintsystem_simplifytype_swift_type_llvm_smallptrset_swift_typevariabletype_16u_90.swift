@@ -1,1 +1,1 @@
-../crashes-fuzzing/10424-swift-constraints-constraintsystem-simplifytype.swift
+../crashes-duplicates/10424-swift-constraints-constraintsystem-simplifytype.swift

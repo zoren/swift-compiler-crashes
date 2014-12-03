@@ -1,1 +1,1 @@
-../crashes-fuzzing/01712-swift-boundgenerictype-get.swift
+../crashes-duplicates/01712-swift-boundgenerictype-get.swift

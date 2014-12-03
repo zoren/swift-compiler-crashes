@@ -1,1 +1,1 @@
-../crashes-fuzzing/03141-clang-astreader-readtyperecord.swift
+../crashes-duplicates/03141-clang-astreader-readtyperecord.swift

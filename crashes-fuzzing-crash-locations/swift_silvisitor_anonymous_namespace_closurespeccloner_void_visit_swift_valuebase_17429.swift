@@ -1,1 +1,1 @@
-../crashes-fuzzing/20862-swift-silcombiner-optimizeapplyofpartialapply.swift
+../crashes-duplicates/20862-swift-silcombiner-optimizeapplyofpartialapply.swift

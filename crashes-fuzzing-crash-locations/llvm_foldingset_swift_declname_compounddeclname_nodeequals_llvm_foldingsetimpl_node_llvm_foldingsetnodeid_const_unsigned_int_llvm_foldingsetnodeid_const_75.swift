@@ -1,1 +1,1 @@
-../crashes-fuzzing/10357-llvm-foldingset-swift-declname-compounddeclname-nodeequals.swift
+../crashes-duplicates/10357-llvm-foldingset-swift-declname-compounddeclname-nodeequals.swift

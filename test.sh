@@ -49,7 +49,6 @@ if [[ ${max_test_number} != 0 ]]; then
 fi
 next_id=$((current_max_id + 1))
 echo "Adding a new test case? The crash id to use for the next test case is ${next_id}."
-echo
 
 color_red="\e[31m"
 color_green="\e[32m"
@@ -94,7 +93,7 @@ execute_with_timeout() {
 # A crash is treated as non-duplicate if it has an unique "crash hash" as computed by the following crash hash function:
 get_crash_hash() {
   compilation_output="$1"
-  normalized_stack_trace=$(egrep "0x[0-9a-f]" <<< "${compilation_output}" | egrep '(swift|llvm)' | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^ *//g' | head -15)
+  normalized_stack_trace=$(egrep "0x[0-9a-f]" <<< "${compilation_output}" | egrep '(swift|llvm)' | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^ *//g' | head -10)
   if [[ ${normalized_stack_trace} == "" ]]; then
     crash_hash=""
   else
@@ -299,11 +298,17 @@ test_file() {
   fi
 }
 
+print_header() {
+  header=$1
+  echo
+  printf "%b" "== ${color_bold}${header}${color_normal_display} ==\n"
+  echo
+}
+
 run_tests_in_directory() {
   header=$1
   path=$2
-  printf "%b" "== ${color_bold}${header}${color_normal_display} ==\n"
-  echo
+  print_header "${header}"
   found_tests=0
   for test_path in "${path}"/*.swift; do
     if [[ -h "${test_path}" ]]; then
@@ -317,17 +322,20 @@ run_tests_in_directory() {
   if [[ ${found_tests} == 0 ]]; then
     printf "  %b  %-${name_size}.${name_size}b\n" "${color_green}✓${color_normal_display}" "No tests found."
   fi
-  echo
 }
 
 main() {
   if [[ ${argument_files} == "" ]]; then
-    run_tests_in_directory "Currently known crashes" "./crashes"
+    run_tests_in_directory "Currently known crashes, set #1 (crashes not found by fuzzing)" "./crashes"
     if [[ ${quick_mode} == 1 ]]; then
-        run_tests_in_directory "Currently known crashes (quick mode, testing only the most important fuzzing crashes)" "./crashes-fuzzing-crash-locations"
-    else
-        run_tests_in_directory "Currently known crashes (crashes found by fuzzing)" "./crashes-fuzzing"
+      print_header "Fuzzing crashes triggering unique crash locations"
+      for test_file in $(find crashes-fuzzing-crash-locations/ -type l | xargs readlink | cut -f2- -d/ | sort -t/ -k2); do
+        test_file "${test_file}"
+      done
+      echo
+      exit
     fi
+    run_tests_in_directory "Currently known crashes, set #2 (crashes found by fuzzing)" "./crashes-fuzzing"
     # run_tests_in_directory "Currently known crashes (duplicates)" "./crashes-duplicates"
     if [[ ${delete_dupes} == 1 ]]; then
       exit 0
