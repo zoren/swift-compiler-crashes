@@ -1,1 +1,1 @@
-../crashes-fuzzing/04520-swift-lexer-lexunicodeescape.swift
+../crashes-duplicates/04520-swift-lexer-lexunicodeescape.swift
