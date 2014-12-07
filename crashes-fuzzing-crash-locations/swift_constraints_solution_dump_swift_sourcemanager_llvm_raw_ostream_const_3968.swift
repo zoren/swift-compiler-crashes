@@ -1,0 +1,1 @@
+../crashes-fuzzing/21504-foldsequence.swift

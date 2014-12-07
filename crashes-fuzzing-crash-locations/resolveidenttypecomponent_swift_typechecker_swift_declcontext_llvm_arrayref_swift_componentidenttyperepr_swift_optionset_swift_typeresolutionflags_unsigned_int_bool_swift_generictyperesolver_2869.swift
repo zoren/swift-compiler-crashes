@@ -1,0 +1,1 @@
+../crashes-fuzzing/17842-swift-typechecker-applygenericarguments.swift

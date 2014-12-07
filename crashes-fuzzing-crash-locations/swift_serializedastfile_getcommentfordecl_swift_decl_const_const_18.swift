@@ -1,0 +1,1 @@
+../crashes-fuzzing/21878-swift-serializedastfile-getcommentfordecl.swift

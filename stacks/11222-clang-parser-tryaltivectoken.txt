@@ -1,4 +1,4 @@
-3  swift                    llvm::DenseMapBase<llvm::DenseMap<clang::FileID, clang::ASTReader::FileDeclsInfo, llvm::DenseMapInfo<clang::FileID> >, clang::FileID, clang::ASTReader::FileDeclsInfo, llvm::DenseMapInfo<clang::FileID> >::InsertIntoBucketImpl(clang::FileID const&, std::__1::pair<clang::FileID, clang::ASTReader::FileDeclsInfo>*) + 354
+3  swift                    llvm::Function::lookupIntrinsicID() const + [N]
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

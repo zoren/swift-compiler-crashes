@@ -1,0 +1,10 @@
+3  libedit.3.dylib          emacs_standard_keymap + 34241
+4  swift                    swift::irgen::CallEmission::emitToUnmappedExplosion(swift::irgen::Explosion&) + 33
+5  swift                    swift::irgen::CallEmission::emitToExplosion(swift::irgen::Explosion&) + 470
+6  swift                    swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 34874
+7  swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9179
+8  swift                    swift::irgen::IRGenModule::emitLazyDefinitions() + 199
+9  swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2038
+10 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+11 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5444
+12 swift                    main + 1677

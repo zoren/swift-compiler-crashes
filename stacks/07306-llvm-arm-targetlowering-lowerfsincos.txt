@@ -1,4 +1,4 @@
-3  swift                    (anonymous namespace)::ExeDepsFix::runOnMachineFunction(llvm::MachineFunction&) + 5520
+3  swift                    llvm::InstCombiner::transformConstExprCastCall(llvm::CallSite) + 1792
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11407
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2164

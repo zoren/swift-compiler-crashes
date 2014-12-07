@@ -1,0 +1,1 @@
+../crashes-fuzzing/21825-resolveidenttypecomponent.swift

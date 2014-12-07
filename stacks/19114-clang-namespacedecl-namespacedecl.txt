@@ -1,4 +1,4 @@
-3  swift                    (anonymous namespace)::LoopUnswitch::SimplifyCode(std::__1::vector<llvm::Instruction*, std::__1::allocator<llvm::Instruction*> >&, llvm::Loop*) + 658
+3  swift                    clang::CodeGen::CreateMacObjCRuntime(clang::CodeGen::CodeGenModule&) + 610
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363

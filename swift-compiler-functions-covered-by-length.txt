@@ -1,5 +1,7 @@
 emitPolymorphicParametersForGenericValueWitness
 lookThroughImplicitlyUnwrappedOptionalType
+initializeUnreachableMachineBlockElimPass
+convertQualifiersAndValueKindIfNecessary
 isValidIdentifierContinuationCodePoint
 getTypeLoweringForUncachedLoweredType
 getUncachedSILFunctionTypeForConstant
@@ -9,15 +11,14 @@ getImplicitlyUnwrappedOptionalDecl
 typeCheckFunctionsAndExternalDecls
 addValueWitnessesForAbstractType
 getInterfaceTypeFromInternalType
-parseAbstractFunctionBodyDelayed
 simplifyOptionalObjectConstraint
 substituteInputSugarArgumentType
+visitUncheckedTrivialBitCastInst
 addContextParamsAndRequirements
 resolvePotentialArchetypeToType
 diagnoseFailureFromConstraints
-fillObjCRepresentableTypeCache
+emitClassExistentialProjection
 getAsCanonicalGenericSignature
-getDelegatingOrChainedInitKind
 isClassOrClassExtensionContext
 makeStoredWithTrivialAccessors
 parseClosureSignatureIfPresent
@@ -29,8 +30,10 @@ simplifyCheckedCastConstraint
 tryMangleStandardSubstitution
 typeCheckAbstractFunctionBody
 typeCheckConstructorBodyUntil
+createDesignatedInitOverride
 emitManagedBufferWithCleanup
 emitTypeMetadataRefForLayout
+lookupVisibleMemberDeclsImpl
 parseMatchingPatternVarOrVal
 simplifyConformsToConstraint
 simplifyRestrictedConstraint
@@ -49,9 +52,11 @@ computeConnectedComponents
 getAddrOfValueWitnessTable
 resolveDependentMemberType
 skipUntilGreaterInTypeList
+transformConstExprCastCall
 typeCheckExpressionShallow
 typeCheckFunctionBodyUntil
 validatePatternBindingDecl
+visitUncheckedAddrCastInst
 addConformanceRequirement
 checkGenericFuncSignature
 checkTypeDeclAvailability
@@ -84,17 +89,19 @@ mapSignatureFunctionType
 parsePatternTupleAfterLP
 setDeserializedSignature
 simplifyMemberConstraint
+updateRuntimeLibraryPath
 validateGenericSignature
 addAccessorsToStoredVar
 addImplicitConstructors
 emitRValueAsSingleValue
+emitToUnmappedExplosion
 getDefaultDefinitionLoc
 getEncodedStringSegment
 getSelfTypeForContainer
 isAnyClassReferenceType
-isBuiltinTypeOverloaded
 mergeEquivalenceClasses
 parseNominalDeclMembers
+simplifyClassConstraint
 typeCheckForEachBinding
 visitPatternBindingDecl
 addSameTypeRequirement
@@ -111,7 +118,6 @@ matchDeepEqualityTypes
 maybeReadGenericParams
 parseFunctionArguments
 parseFunctionSignature
-writeDocBlockInfoBlock
 addImplicitDestructor
 addNestedRequirements
 applyGenericArguments
@@ -120,6 +126,7 @@ checkGenericParamList
 computeAssignDestType
 convertAnyNominalType
 createGetterPrototype
+createUnavailableAttr
 createUnnamedImplicit
 emitGeneratorFunction
 emitGlobalFunctionRef
@@ -127,7 +134,6 @@ emitValueWitnessTable
 flushActiveDiagnostic
 getAddrOfLLVMVariable
 getFixedTypeRecursive
-getLocalDiscriminator
 getTargetConfigOption
 isDeclAsSpecializedAs
 isRepresentableInObjC
@@ -143,7 +149,6 @@ addMaterializeForSet
 computeAccessibility
 computeInterfaceType
 computeSubstitutions
-demangleSymbolAsNode
 diagnoseRedefinition
 emitAbstractFuncDecl
 forAllVisibleModules
@@ -152,6 +157,7 @@ getAPINotesForModule
 getConstraintLocator
 getMemberForBaseType
 getOverloadSignature
+getPotentialBindings
 maybeReadConformance
 parseDefaultArgument
 parseMatchingPattern
@@ -166,6 +172,7 @@ validateTypedPattern
 visitNominalTypeDecl
 addGenericParameter
 addNestedArchetypes
+checkDeclAttributes
 coercePatternToType
 collectRequirements
 deriveAllArchetypes
@@ -174,6 +181,7 @@ emitLazyDefinitions
 emitProtocolWitness
 emitTypeMetadataRef
 generateConstraints
+getBuiltinValueDecl
 getCallerDefaultArg
 getImplicitSelfDecl
 getKnownObjCContext
@@ -189,6 +197,7 @@ performTypeChecking
 removeShadowedDecls
 substDependentTypes
 typeCheckExpression
+writeBlockInfoBlock
 addNewSourceBuffer
 checkRedeclaration
 checkSubstitutions
@@ -198,7 +207,6 @@ createImplicitHack
 emitGlobalTopLevel
 emitStructMetadata
 findBestImportKind
-getBBForDefinition
 getImportedModules
 getLLVMIntrinsicID
 getSILFunctionType
@@ -207,12 +215,10 @@ getTypeOfReference
 handleExternalDecl
 isSubstitutableFor
 lookupConstructors
-lookupVisibleDecls
 mapTypeIntoContext
 matchCallArguments
 matchFunctionTypes
 moveFromOldBuckets
-parseAnyIdentifier
 parseBraceItemList
 parseDeclExtension
 parseDeclSubscript
@@ -223,6 +229,7 @@ parseStmtCondition
 parseStmtForCStyle
 parseTypeAttribute
 parseTypeTupleBody
+performNameBinding
 prepareLookupTable
 readSILInstruction
 replaceAllUsesWith
@@ -233,18 +240,20 @@ typeCheckCondition
 unbindTypeVariable
 validateAttributes
 visitExtensionDecl
-cacheVisibleDecls
 convertStructType
 createDisjunction
 createNominalType
+emitRValueForDecl
 fixItReplaceChars
 gatherConstraints
 getBBForReference
 getCommentForDecl
 getDictionaryDecl
+getMemoryBehavior
 inferRequirements
 isExistentialType
 lookupConformance
+lookupIntrinsicID
 mangleNominalType
 parseDeclEnumCase
 parseDeclOperator
@@ -254,6 +263,7 @@ parseVersionTuple
 requiresClassSlow
 runFunctionAsMain
 trySimplifyToExpr
+updateLookupTable
 validateExtension
 verifyDiagnostics
 compareSolutions
@@ -262,7 +272,6 @@ diagAvailability
 emitClosureValue
 emitEnumMetadata
 findBestSolution
-forwardArguments
 getAdapterModule
 getBridgedToObjC
 getCanonicalType
@@ -273,7 +282,6 @@ getTypeVariables
 handleDiagnostic
 isPlatformActive
 lexStringLiteral
-lexUnicodeEscape
 lookupMemberType
 mangleIdentifier
 maybeReadPattern
@@ -289,6 +297,7 @@ typeCheckBinding
 typeCheckPattern
 visitForEachStmt
 assignFixedType
+collectFullName
 computeCaptures
 deriveEquatable
 emitBuiltinCall
@@ -296,6 +305,7 @@ emitConstructor
 emitIgnoredExpr
 emitMetatypeRef
 emitSILFunction
+emitToExplosion
 fetchMoreTokens
 forEachVariable
 getConstantInfo
@@ -306,7 +316,6 @@ getTypeLowering
 getTypeOfMember
 getTypeOfRValue
 getWitnessTable
-handleREPLInput
 isUnaryOperator
 lookupQualified
 matchTupleTypes
@@ -326,13 +335,13 @@ solveSimplified
 addOverloadSet
 addRequirement
 emitCurryThunk
+emitReturnExpr
 emitSourceFile
 emitStructDecl
 getConformance
 getDefaultType
 getDynamicSelf
 getIndexedType
-getSelectorRef
 getSourceRange
 importDeclImpl
 loadAllMembers
@@ -358,6 +367,7 @@ getConformsTo
 getExtensions
 getIdentifier
 getNestedType
+getRawComment
 getSuperclass
 hasNestedType
 isSpecialized
@@ -375,7 +385,10 @@ parseTopLevel
 printTextImpl
 serialization
 setConformsTo
+traverseChild
 typeCheckDecl
+visitFuncDecl
+writeToStream
 addProtocols
 canParseType
 coerceToType
@@ -395,8 +408,8 @@ makeComputed
 matchWitness
 parseDeclVar
 parsePattern
-printContext
 printDeclUSR
+shrinkToUses
 simplifyType
 validateDecl
 validateType
@@ -406,6 +419,7 @@ constraints
 convertType
 declvisitor
 emitClosure
+getFullName
 getFunction
 getProtocol
 getTypeInfo
@@ -413,7 +427,6 @@ lookupValue
 openGeneric
 parseStmtIf
 performSema
-printIndent
 printPretty
 readMembers
 resolveType
@@ -421,6 +434,7 @@ runFunction
 addToScope
 emitProlog
 emitRValue
+getFieldNo
 getMembers
 getTokenAt
 hasStorage
@@ -435,6 +449,7 @@ readRecord
 removeNode
 skipRecord
 skipSingle
+getString
 highlight
 lexNumber
 parseArgs
@@ -446,6 +461,7 @@ printName
 printText
 substType
 transform
+buildCFG
 diagnose
 emitType
 finalize
@@ -469,9 +485,9 @@ getNew
 mangle
 reader
 record
+verify
 build
 clang
-clone
 irgen
 print
 setup

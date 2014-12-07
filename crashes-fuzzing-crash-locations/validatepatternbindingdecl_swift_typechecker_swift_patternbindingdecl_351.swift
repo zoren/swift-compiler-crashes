@@ -1,1 +1,1 @@
-../crashes-fuzzing/02012-inferdynamic.swift
+../crashes-duplicates/02012-inferdynamic.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/02212-swift-abstractstoragedecl-setinvalidbracesrange.swift
+../crashes-duplicates/02212-swift-abstractstoragedecl-setinvalidbracesrange.swift

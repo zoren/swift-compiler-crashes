@@ -1,0 +1,12 @@
+4  swift                    collectFullName(swift::ArchetypeType const*, llvm::SmallVectorImpl<char>&) + 92
+5  swift                    collectFullName(swift::ArchetypeType const*, llvm::SmallVectorImpl<char>&) + 40
+6  swift                    swift::ArchetypeType::getFullName() const + 49
+7  swift                    swift::irgen::IRGenFunction::bindArchetype(swift::ArchetypeType*, llvm::Value*, llvm::ArrayRef<llvm::Value*>) + 70
+8  swift                    swift::irgen::emitClassExistentialProjection(swift::irgen::IRGenFunction&, swift::irgen::Explosion&, swift::SILType, swift::CanTypeWrapper<swift::ArchetypeType>) + 102
+9  swift                    swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 23310
+10 swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9179
+11 swift                    swift::irgen::IRGenModule::emitGlobalTopLevel() + 208
+12 swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1900
+13 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+14 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5444
+15 swift                    main + 1677

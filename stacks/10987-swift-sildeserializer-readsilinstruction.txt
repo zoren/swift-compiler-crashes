@@ -1,4 +1,4 @@
-3  swift                    swift::SILDeserializer::getBBForDefinition(swift::SILFunction*, unsigned int) + 287
+3  swift                    swift::ModuleFile::resolveCrossReference(swift::Module*, unsigned int) + 3343
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 228
 5  swift                    swift::NominalTypeDecl::computeType() + 29
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 865

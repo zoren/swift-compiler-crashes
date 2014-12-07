@@ -1,4 +1,4 @@
-3  swift                    clang::GeneratePCHAction::ComputeASTConsumerArguments(clang::CompilerInstance&, llvm::StringRef, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, llvm::raw_ostream*&) + 66
+3  swift                    clang::ASTWriter::WritePreprocessor(clang::Preprocessor const&, bool) + 5794
 4  swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 68
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
 6  swift                    (anonymous namespace)::PreCheckExpression::walkToExprPre(swift::Expr*) + 125

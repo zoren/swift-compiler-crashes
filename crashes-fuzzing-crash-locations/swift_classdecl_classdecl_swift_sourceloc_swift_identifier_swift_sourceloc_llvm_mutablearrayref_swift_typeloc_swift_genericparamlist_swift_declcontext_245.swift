@@ -1,0 +1,1 @@
+../crashes-fuzzing/19612-swift-classdecl-classdecl.swift

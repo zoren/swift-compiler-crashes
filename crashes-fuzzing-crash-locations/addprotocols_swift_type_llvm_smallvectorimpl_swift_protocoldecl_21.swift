@@ -1,1 +1,1 @@
-../crashes-fuzzing/07729-addprotocols.swift
+../crashes-duplicates/07729-addprotocols.swift
