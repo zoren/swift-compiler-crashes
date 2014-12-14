@@ -1,0 +1,1 @@
+../crashes/00049-swift-nominaltypedecl-getmembers.swift

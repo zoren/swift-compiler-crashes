@@ -1,0 +1,1 @@
+../crashes/01340-llvm-getelementptrinst-getindexedtype.swift

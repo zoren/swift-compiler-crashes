@@ -1,0 +1,1 @@
+../crashes/00271-swift-irgen-irgenfunction-emittypemetadataref.swift

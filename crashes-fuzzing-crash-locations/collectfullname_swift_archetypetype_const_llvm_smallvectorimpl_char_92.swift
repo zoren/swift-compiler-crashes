@@ -1,0 +1,1 @@
+../crashes/21266-generic-protocol-init.swift
