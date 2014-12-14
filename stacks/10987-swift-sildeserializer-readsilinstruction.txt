@@ -1,4 +1,4 @@
-3  swift                    swift::ModuleFile::resolveCrossReference(swift::Module*, unsigned int) + 3343
+3  swift                    swift::ModuleFile::ModuleFile(std::__1::unique_ptr<llvm::MemoryBuffer, std::__1::default_delete<llvm::MemoryBuffer> >, std::__1::unique_ptr<llvm::MemoryBuffer, std::__1::default_delete<llvm::MemoryBuffer> >, bool) + 415
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 228
 5  swift                    swift::NominalTypeDecl::computeType() + 29
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 865

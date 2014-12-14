@@ -1,4 +1,4 @@
-3  swift                    llvm::Function::lookupIntrinsicID() const + [N]
+3  swift                    clang::RecursiveASTVisitor<(anonymous namespace)::ParentMapASTVisitor>::TraverseTypeLoc(clang::TypeLoc) + 1266
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

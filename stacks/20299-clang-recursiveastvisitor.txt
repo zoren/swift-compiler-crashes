@@ -1,4 +1,4 @@
-3  swift                    clang::CFG::buildCFG(clang::Decl const*, clang::Stmt*, clang::ASTContext*, clang::CFG::BuildOptions const&) + 1826
+3  swift                    swift::PolymorphicFunctionType::substGenericArgs(swift::Module*, llvm::ArrayRef<swift::Type>) + 1170
 4  swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 68
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
 6  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 549

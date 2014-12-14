@@ -1,3 +1,4 @@
+3  swift                    swift::Parser::parseToken(swift::tok, swift::SourceLoc&, swift::Diagnostic const&) + 643
 4  swift                    swift::SourceManager::GetMessage(swift::SourceLoc, llvm::SourceMgr::DiagKind, llvm::Twine const&, llvm::ArrayRef<llvm::SMRange>, llvm::ArrayRef<llvm::SMFixIt>) const + 162
 5  swift                    swift::PrintingDiagnosticConsumer::handleDiagnostic(swift::SourceManager&, swift::SourceLoc, swift::DiagnosticKind, llvm::StringRef, swift::DiagnosticInfo const&) + 1054
 6  swift                    swift::DiagnosticEngine::flushActiveDiagnostic() + 4667

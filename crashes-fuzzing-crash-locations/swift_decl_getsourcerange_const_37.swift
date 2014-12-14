@@ -1,1 +1,1 @@
-../crashes-fuzzing/13864-swift-getbuiltinvaluedecl.swift
+../crashes-duplicates/13864-swift-getbuiltinvaluedecl.swift

@@ -1,0 +1,1 @@
+../crashes-fuzzing/22514-swift-lexer-lexunicodeescape.swift

@@ -1,4 +1,4 @@
-3  swift                    swift::TypeChecker::typeCheckCheckedCast(swift::Type, swift::Type, swift::DeclContext*, swift::SourceLoc, swift::SourceRange, swift::SourceRange, std::__1::function<bool (swift::Type)>) + 2133
+3  swift                    swift::TypeChecker::isSubstitutableFor(swift::Type, swift::ArchetypeType*, swift::DeclContext*) + 373
 4  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 3843
 5  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 281
 6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 436

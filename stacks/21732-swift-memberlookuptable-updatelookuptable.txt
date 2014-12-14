@@ -1,4 +1,4 @@
-3  swift                    swift::SingleRawComment::SingleRawComment(llvm::StringRef, unsigned int) + 110
+3  swift                    swift::NormalProtocolConformance::setTypeWitness(swift::AssociatedTypeDecl*, swift::Substitution const&) const + 94
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

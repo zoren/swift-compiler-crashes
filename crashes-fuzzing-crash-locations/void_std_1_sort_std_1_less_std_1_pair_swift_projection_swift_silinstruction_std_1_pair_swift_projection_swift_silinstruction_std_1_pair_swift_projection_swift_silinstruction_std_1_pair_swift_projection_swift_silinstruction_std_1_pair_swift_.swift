@@ -1,1 +1,1 @@
-../crashes-fuzzing/10122-stringconcatenationoptimizer-optimize.swift
+../crashes-duplicates/10122-stringconcatenationoptimizer-optimize.swift

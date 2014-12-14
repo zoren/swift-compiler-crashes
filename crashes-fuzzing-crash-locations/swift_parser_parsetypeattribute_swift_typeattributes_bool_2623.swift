@@ -1,0 +1,1 @@
+../crashes-fuzzing/22024-swift-parser-parsedeclenum.swift

@@ -1,0 +1,1 @@
+../crashes-fuzzing/22315-swift-typebase-getrelabeledtype.swift
