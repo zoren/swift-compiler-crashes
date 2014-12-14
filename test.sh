@@ -326,15 +326,15 @@ run_tests_in_directory() {
 
 main() {
   if [[ ${argument_files} == "" ]]; then
-    run_tests_in_directory "Currently known crashes, set #1 (crashes not found by fuzzing)" "./crashes"
     if [[ ${quick_mode} == 1 ]]; then
-      print_header "Fuzzing crashes triggering unique crash locations"
-      for test_file in $(find crashes-fuzzing-crash-locations/ -type l | xargs readlink | cut -f2- -d/ | sort -t/ -k2); do
+      print_header "Quick mode — testing only crashes triggered at unique crash locations"
+      for test_file in $(find unique-crash-locations/ -type l | xargs readlink | cut -f2- -d/ | sort -t/ -k2); do
         test_file "${test_file}"
       done
       echo
       exit
     fi
+    run_tests_in_directory "Currently known crashes, set #1 (crashes not found by fuzzing)" "./crashes"
     run_tests_in_directory "Currently known crashes, set #2 (crashes found by fuzzing)" "./crashes-fuzzing"
     # run_tests_in_directory "Currently known crashes (duplicates)" "./crashes-duplicates"
     if [[ ${delete_dupes} == 1 ]]; then
