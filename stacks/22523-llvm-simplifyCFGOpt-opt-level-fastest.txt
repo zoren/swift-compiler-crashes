@@ -1,0 +1,14 @@
+2  libsystem_platform.dylib _sigtramp + 26
+3  libsystem_platform.dylib _sigtramp + 1789909616
+4  swift                    (anonymous namespace)::SimplifyCFGOpt::run(llvm::BasicBlock*) + 3487
+5  swift                    llvm::SimplifyCFG(llvm::BasicBlock*, llvm::TargetTransformInfo const&, llvm::DataLayout const*) + 31
+6  swift                    (anonymous namespace)::CFGSimplifyPass::runOnFunction(llvm::Function&) + 2051
+7  swift                    llvm::FPPassManager::runOnFunction(llvm::Function&) + 301
+8  swift                    llvm::FPPassManager::runOnModule(llvm::Module&) + 43
+9  swift                    llvm::legacy::PassManagerImpl::run(llvm::Module&) + 975
+10 swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 3828
+11 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+12 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5444
+13 swift                    main + 1677
+14 libdyld.dylib            start + 1
+15 libdyld.dylib            start + 1828674105
