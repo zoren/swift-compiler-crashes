@@ -6,15 +6,14 @@
 // The following is compacted from XCGLogger. Occurs when optimization level is
 // set to "Fastest [-O]"
 
-class Logger {
-    enum LogLevel: Int {
-        case Verbose
-        case Debug
-        case Info
-        case Warning
+class A {
+    enum B: Int {
+        case C1
+        case C2
+        case C3
+        case C4
     }
-        
-    func isEnabledForLogLevel(logLevel: Logger.LogLevel) -> Bool {
-        return logLevel.rawValue >= LogLevel.Debug.rawValue
+    func d(e: A.B) -> Bool {
+        return e.rawValue >= B.C2.rawValue
     }
 }
