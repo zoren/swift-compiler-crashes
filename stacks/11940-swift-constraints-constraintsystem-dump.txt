@@ -1,4 +1,4 @@
-3  swift                    swift::TypeChecker::isSubstitutableFor(swift::Type, swift::ArchetypeType*, swift::DeclContext*) + 373
+3  swift                    swift::InFlightDiagnostic swift::DiagnosticEngine::diagnose<swift::Identifier, unsigned int>(swift::SourceLoc, swift::Diag<swift::Identifier, unsigned int>, swift::detail::PassArgument<swift::Identifier, unsigned int>::type) + 709
 4  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 3843
 5  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 281
 6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 436

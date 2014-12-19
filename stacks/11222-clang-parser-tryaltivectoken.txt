@@ -1,4 +1,4 @@
-3  swift                    clang::RecursiveASTVisitor<(anonymous namespace)::ParentMapASTVisitor>::TraverseTypeLoc(clang::TypeLoc) + 1266
+3  swift                    (anonymous namespace)::GlobalsModRef::alias(llvm::AliasAnalysis::Location const&, llvm::AliasAnalysis::Location const&) + 322
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

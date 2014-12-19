@@ -1,0 +1,1 @@
+../crashes-fuzzing/22605-swift-parser-canparsetype.swift

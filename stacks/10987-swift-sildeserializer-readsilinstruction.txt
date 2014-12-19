@@ -1,4 +1,4 @@
-3  swift                    swift::ModuleFile::ModuleFile(std::__1::unique_ptr<llvm::MemoryBuffer, std::__1::default_delete<llvm::MemoryBuffer> >, std::__1::unique_ptr<llvm::MemoryBuffer, std::__1::default_delete<llvm::MemoryBuffer> >, bool) + 415
+3  swift                    llvm::DenseMapBase<llvm::DenseMap<unsigned int, swift::ValueBase*, llvm::DenseMapInfo<unsigned int> >, unsigned int, swift::ValueBase*, llvm::DenseMapInfo<unsigned int> >::InsertIntoBucketImpl(unsigned int const&, std::__1::pair<unsigned int, swift::ValueBase*>*) + 335
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 228
 5  swift                    swift::NominalTypeDecl::computeType() + 29
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 865

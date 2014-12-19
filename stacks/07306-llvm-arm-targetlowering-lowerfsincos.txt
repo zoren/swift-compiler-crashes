@@ -1,4 +1,4 @@
-3  swift                    (anonymous namespace)::ScalarExprEmitter::EmitOr((anonymous namespace)::BinOpInfo const&) + 48
+3  swift                    (anonymous namespace)::ARM64FastISel::TargetMaterializeConstant(llvm::Constant const*) + 1136
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11407
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2164
