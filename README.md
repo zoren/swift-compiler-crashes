@@ -12,7 +12,7 @@ Contributor hall of fame
 
 | GitHub contributor | Twitter | Cases contributed | Started contributing |
 | :----------------- | :------ | ----------------: | -------------------: |
-| <a href="https://github.com/practicalswift">practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 22535 cases (65 manual + 22470 fuzzing) | Xcode6.0-Beta6 |
+| <a href="https://github.com/practicalswift">practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 22695 cases (67 manual + 22628 fuzzing) | Xcode6.0-Beta6 |
 | <a href="https://github.com/fluidsonic">fluidsonic</a> – Marc Knaup | <a href="https://twitter.com/marcknaup">@marcknaup</a> | 7 cases | Xcode6.1-Beta3 |
 | <a href="https://github.com/tmu">tmu</a> – Teemu Kurppa | <a href="https://twitter.com/Teemu">@Teemu</a> | 4 cases | Xcode6.0-Beta6 |
 | <a href="https://github.com/beltex">beltex</a> – beltex | … | 3 cases | Xcode6.1.1-GM-Seed |
