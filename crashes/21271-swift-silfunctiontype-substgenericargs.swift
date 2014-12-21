@@ -3,10 +3,9 @@
 // http://www.openradar.me/19097334
 
 func f() {
-    func g<T>(h: T -> ()) -> () {
-        return ()
+    func g<T>(T -> ()) {
     }
     func i() {
-        g { (x: Int) in () }
+        g { }
     }
 }

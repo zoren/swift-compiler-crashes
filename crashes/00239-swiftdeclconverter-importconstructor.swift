@@ -3,6 +3,6 @@
 
 import Foundation
 extension NSSet {
-    convenience init(array: Array) {
+    init(array: a) {
     }
 }

@@ -7,10 +7,10 @@ enum A : String {
     case a = ""
 }
 extension NSMetadataItem {
-    var downloadingStatus: A? {
-        return nil
+    var a: A? {
+        return a
     }
 }
 func b(c: NSMetadataItem) -> Bool {
-    return c.downloadingStatus == .a
+    return c.a == .a
 }

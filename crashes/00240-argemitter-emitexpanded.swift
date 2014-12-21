@@ -2,14 +2,14 @@
 // Test case submitted to project by https://github.com/fluidsonic (Marc Knaup)
 
 class A {
-    private let a = [B<(AnyObject, AnyObject) -> Void>]()
-    func call(#object1: AnyObject, object2: AnyObject) {
+    let a = [B<(AnyObject, AnyObject) -> Void>]()
+    func a(o: AnyObject, p: AnyObject) {
         for b in a {
-            b.c(object1, object2)
+            b.c(o, p)
         }
     }
 }
-private class B<C> {
+class B<C>{
     let c: C
     init(c: C) {
     }

@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/fluidsonic (Marc Knaup)
 
 class A {
-    class func a() -> String {
-    }
-    class func b() {
+    func a() -> String {
         struct c {
-            static let d: String = {
-                return self.a()
+            static let a = {
+                self.a()
             }()
         }
     }

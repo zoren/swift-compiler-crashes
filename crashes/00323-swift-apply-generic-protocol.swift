@@ -2,11 +2,11 @@
 // Test case submitted to project by http://github.com/valfer (Valerio Ferrucci)
 
 protocol C {
-    class func c(o: AnyObject) -> Self?
+    class func c(AnyObject)
 }
-func d<A,B>(a : A, f : A -> B) -> B {
+func d<A, B>(a: A, f: A -> B) -> B {
 }
-class D<A:C> {
+class D<A : C> {
     func e(o: AnyObject) {
         d(o, A.c)
     }
