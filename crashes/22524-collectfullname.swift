@@ -1,5 +1,5 @@
 // Distributed under the terms of the MIT license
-// Test case submitted to project by https://github.com/practicalswift (practicalswift)
+// Test case submitted to project by https://github.com/zneak (Félix Cloutier)
 // https://twitter.com/zneakr/status/544581388817928192
 
 protocol c {

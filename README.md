@@ -12,7 +12,7 @@ Contributor hall of fame
 
 | GitHub contributor | Twitter | Cases contributed | Started contributing |
 | :----------------- | :------ | ----------------: | -------------------: |
-| <a href="https://github.com/practicalswift">practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 22695 cases (67 manual + 22628 fuzzing) | Xcode6.0-Beta6 |
+| <a href="https://github.com/practicalswift">practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 22694 cases (66 manual + 22628 fuzzing) | Xcode6.0-Beta6 |
 | <a href="https://github.com/fluidsonic">fluidsonic</a> – Marc Knaup | <a href="https://twitter.com/marcknaup">@marcknaup</a> | 7 cases | Xcode6.1-Beta3 |
 | <a href="https://github.com/tmu">tmu</a> – Teemu Kurppa | <a href="https://twitter.com/Teemu">@Teemu</a> | 4 cases | Xcode6.0-Beta6 |
 | <a href="https://github.com/beltex">beltex</a> – beltex | … | 3 cases | Xcode6.1.1-GM-Seed |
@@ -29,6 +29,7 @@ Contributor hall of fame
 | <a href="https://github.com/owensd">owensd</a> – David Owens II | <a href="https://twitter.com/owensd">@owensd</a> | 1 case | Xcode6.0-Beta6 |
 | <a href="https://github.com/radex">radex</a> – Radek Pietruszewski | … | 1 case | Xcode6.1 |
 | <a href="https://github.com/valfer">valfer</a> – Valerio Ferrucci | <a href="https://twitter.com/valferweet">@valferweet</a> | 1 case | Xcode6.1-GM-Seed2 |
+| <a href="https://github.com/zneak">zneak</a> – Félix Cloutier | <a href="https://twitter.com/zneakr">@zneakr</a> | 1 case | Xcode6.1.1-GM-Seed |
 
 Getting started
 ===============
