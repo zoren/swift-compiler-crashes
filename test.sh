@@ -334,7 +334,7 @@ main() {
       echo
       exit
     fi
-    run_tests_in_directory "Currently known crashes, set #1 (human reported crashes - i.e. non-fuzzing generated)" "./crashes"
+    run_tests_in_directory "Currently known crashes, set #1 (human reported crashes, crashes not found by fuzzing)" "./crashes"
     run_tests_in_directory "Currently known crashes, set #2 (crashes found by fuzzing)" "./crashes-fuzzing"
     # run_tests_in_directory "Currently known crashes (duplicates)" "./crashes-duplicates"
     if [[ ${delete_dupes} == 1 ]]; then
