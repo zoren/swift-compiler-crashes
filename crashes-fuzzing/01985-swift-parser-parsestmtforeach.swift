@@ -2,16 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<T {
-func f( ) {
-struct A {
-{
-}
-}
-(range: A {
--> {
-{
-}
-for (
-}
-}
+func b<T{func f(){struct A{}(A{->{{}for(}}

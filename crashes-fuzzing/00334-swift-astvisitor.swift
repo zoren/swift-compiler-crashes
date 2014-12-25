@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 import Foundation
-class A : NSObject {
-let i {
-super.E {
+class A:NSObject{
+let i{
+super.E{

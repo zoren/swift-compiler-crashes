@@ -3,8 +3,6 @@
 // Test case found by fuzzing
 
 func b
-(e : B<e
-protocol c : ((([Void{
-0.C("\(object1: e) -> Void{
+(((([Void
 func b
 Void{

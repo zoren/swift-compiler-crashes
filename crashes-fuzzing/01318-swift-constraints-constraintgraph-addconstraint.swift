@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-{
-{
+{{
 }
-}
-class b<T where I : String
+}class b<T where I:a
 for b

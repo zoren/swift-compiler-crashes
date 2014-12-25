@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-let : ( ) -> <T, A
-protocol A {
+if true{
+let:<A
+protocol A{

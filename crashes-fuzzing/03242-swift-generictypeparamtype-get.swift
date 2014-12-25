@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A : NSObject {
-typealias b : d {
-class B<T>: A")
-let d: A")
+protocol A{
+typealias b:d
+let d:A
 func b
-protocol A : b
+protocol A:b

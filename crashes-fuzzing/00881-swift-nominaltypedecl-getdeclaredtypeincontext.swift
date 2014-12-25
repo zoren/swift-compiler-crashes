@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<C {
-init(c: C) {
-{
-}
-struct d<f , g where g = f {
-func f
+class B<C{init(c:C){struct d<f,g where g=f{func f

@@ -2,11 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-(true as 1
-func b {
-{
-T {
-}
-}
-struct S {
-func c<S : c
+(1
+func b{
+struct S{func c<S:c

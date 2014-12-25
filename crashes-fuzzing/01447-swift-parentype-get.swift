@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var b {
+var b{
 {
 }
-{
+class C<T:ExtensibleCollectionType
 }
-class C<T: ExtensibleCollectionType
-}
-struct S {
-func b<T : b
+struct S{
+func b<T:b

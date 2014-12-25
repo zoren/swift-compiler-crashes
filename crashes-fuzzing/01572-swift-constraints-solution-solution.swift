@@ -3,7 +3,5 @@
 // Test case found by fuzzing
 
 1
-func f {
-struct Q<T where B : C
-{
-var d = I
+func f{struct Q<T where B:C{
+var d=I

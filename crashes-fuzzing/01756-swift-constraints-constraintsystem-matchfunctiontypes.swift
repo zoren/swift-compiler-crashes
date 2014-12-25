@@ -4,16 +4,7 @@
 
 func h
 struct A
+}h=((A{
 }
-h = ( (g: A {
-}
-protocol a {
-{
-}
-typealias b : d {
-}
-{
-{
-}
-}
+protocol a{typealias b:d
 func d

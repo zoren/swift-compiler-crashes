@@ -2,5 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i( ) -> ( ) {
-class a<d where T : T> : b
+func i{class a<d where T:T>:b

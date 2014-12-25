@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 0
-protocol A {
-typealias e : B {
+protocol A{
+typealias e:B{
 }
 func g
 typealias B

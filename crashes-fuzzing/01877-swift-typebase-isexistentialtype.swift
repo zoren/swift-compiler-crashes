@@ -2,11 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let g = ( (Any
-protocol b {
-func a
-{
-{
-}
-}
-typealias A : a
+let g=((Any
+protocol b{func a
+typealias A:a

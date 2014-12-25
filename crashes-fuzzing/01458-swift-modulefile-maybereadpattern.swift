@@ -2,7 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-println(array: SequenceType, Any)
-struct Q {
-protocol b {
-typealias A : A
+print(y:SequenceType,a)
+struct Q{protocol b{typealias A:A

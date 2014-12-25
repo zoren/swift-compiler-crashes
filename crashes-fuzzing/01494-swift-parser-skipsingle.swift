@@ -2,27 +2,23 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import DummyModule
-}
-var d {
-protocol A {
-typealias e: e
-{
+import a
+}var d{protocol A{
+typealias e:e
 {
 }
 }
-}
-case .d {
-init {
+case{
+init{
 {
-enum ( ( {
+enum(({
 {
 {
-[ [
-{
+[[
 {
 {
 {
-( ( (
+{
+(((
 a"
 }

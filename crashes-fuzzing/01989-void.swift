@@ -5,8 +5,6 @@
 enum b
 }
 b<Int
-class B {
-protocol b {
-protocol a {
-}
-func a<T : a
+class B{
+protocol b{protocol a
+func a<T:a

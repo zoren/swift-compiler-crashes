@@ -2,23 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T {
-struct c {
-func b(T.R
-}
-{
-}
-{
-{
-{
-}
-{
-}
-{
-{
-}
-}
-{
-}
-typealias e
-}
+func a<T{struct c{func b(T.R}{{{}typealias e}

@@ -4,8 +4,6 @@
 
 class B<A
 func g
-{
-{
-}
-}
-let g = (array: B? {
+{{
+}}
+let g=(a:B?{

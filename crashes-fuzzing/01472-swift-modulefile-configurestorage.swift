@@ -3,9 +3,7 @@
 // Test case found by fuzzing
 
 (
-struct Q {
-{
-}
+struct Q{
 func a
-let t: BooleanType
-func a<T : a
+let t:BooleanType
+func a<T:a

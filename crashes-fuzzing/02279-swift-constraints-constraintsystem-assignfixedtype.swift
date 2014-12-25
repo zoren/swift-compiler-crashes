@@ -2,29 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i {
-{
-}
-{
-{
-{
-}
-}
-}
-{
-{
-}
-{
-}
-}
-var b {
-protocol A : A.f {
-func f {
-}
-}
-{
-{
-}
-}
-}
-println( ) {
+func i{{}{{{}}}var b{protocol A:A.f{func f{}}}print

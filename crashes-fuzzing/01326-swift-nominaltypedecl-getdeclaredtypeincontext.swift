@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class b<T where T : b
-{
-let end = { c
-}
-func c
+class b<T where T:b{let a={c}func c

@@ -3,10 +3,10 @@
 // Test case found by fuzzing
 
 import Foundation
-class d< > : NSObject {
-var : c
-func f {
+class d<>:NSObject{
+var:c
+func f{
 e
 }
-protocol e {
-protocol d : b { func b
+protocol e{
+protocol d:b{func b

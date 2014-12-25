@@ -2,11 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-extension NSSet {
-class B : P {
-protocol P {
-func>
-}
-}
-}
-( b. > )
+extension a{class P{protocol P{func>}}}(b. >)

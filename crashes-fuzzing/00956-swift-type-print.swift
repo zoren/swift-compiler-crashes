@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c {
-var _ = true as String
-}
-protocol d : a {
-func a
+struct c{var _=true as String}protocol d:a{func a

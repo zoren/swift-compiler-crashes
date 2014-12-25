@@ -2,5 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<T {
-class B<I : B<T>
+enum S<T{class B<I:B<T>

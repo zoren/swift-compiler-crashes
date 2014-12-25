@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<T where B : Any
-func p( ) {
+struct c<T where B:a
+func p{
 f
-}
-}
+}}
 c

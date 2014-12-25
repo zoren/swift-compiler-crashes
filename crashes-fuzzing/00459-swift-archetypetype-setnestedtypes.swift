@@ -2,5 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct Q<T where g: NSObject {
-var d = a( )
+struct Q<T where g:t{var d=a()

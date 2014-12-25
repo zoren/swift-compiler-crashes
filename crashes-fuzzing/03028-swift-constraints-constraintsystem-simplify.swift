@@ -4,11 +4,11 @@
 
 func a
 {
-return ""[1))))"
+return""[
 class a
 {
-protocol A {
+{
 }
-protocol P {
-typealias e : e
+protocol P{
+typealias e:e
 func g

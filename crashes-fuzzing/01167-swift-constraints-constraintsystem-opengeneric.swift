@@ -2,16 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-lazy
-}
-func m<u {
-{
-}
-{
-{
-}
-}
-{
-}
-class p { }
-p {
+lazy}func m<u{class p{}p{

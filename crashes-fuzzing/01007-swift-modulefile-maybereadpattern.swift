@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-(mx : CollectionType
-class B {
+(a:CollectionType
+class B{
 {
-}
-protocol a {
+}protocol a{
 func c
-typealias f : c
+typealias f:c

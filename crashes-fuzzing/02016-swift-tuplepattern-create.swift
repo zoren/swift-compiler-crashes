@@ -2,15 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<S {
-enum A {
-func b init( ) {
-{
-"
-}
-{
-b.endIndex - {
-}
-}
-let a {
-func a(
+func b<S{enum A{func b init(){{b.e - {}}let a{func a(

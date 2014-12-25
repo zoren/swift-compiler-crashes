@@ -3,15 +3,6 @@
 // Test case found by fuzzing
 
 class a
-func f<g {
-{
-}
-{
-{
-}
-}
-{
-}
-class d { { }
-struct d<f : e where g.h = f.h
-typealias e = a
+func f<g{class d{
+struct d<f:e where g.h=f.h
+typealias e=a

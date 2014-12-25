@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-println( ) {
+println(){
 }
-struct c {
+struct c{
 class a
-func a<l : a
+func a<l:a

@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct X<d where h: T
+struct X<d where h:T
 {
-typealias f = [c
-class A {
-init < > ( ( ) -> = e(
+typealias f=[c
+class A{
+init(()=e(

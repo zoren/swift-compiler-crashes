@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-struct S<T, g: A? {
-class B<f : B<T>()
+if true{struct S<T{class B<f:B<T>

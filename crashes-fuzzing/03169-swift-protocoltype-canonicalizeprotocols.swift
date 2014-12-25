@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A {
-struct A : T, g: e
-if true {
-protocol b : H.h : B<T: A")
-protocol A {
-typealias b : b> Void>: e
-protocol b : b>
+protocol A{struct A:protocol A{typealias b:b:protocol b:b

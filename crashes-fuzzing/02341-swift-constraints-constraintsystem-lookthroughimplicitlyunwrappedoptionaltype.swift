@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol c {
-init( )
-protocol e
+protocol c{
+init()protocol e
 typealias e
-} ( [c( )
+}([c()

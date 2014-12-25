@@ -2,14 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import DummyModule
+import a
 }
 {
-for {
-protocol P {
-func x) >
+for{
+protocol P{
+func x)>
 }
 }
 }
-struct A<H where B : b
-let d( ( (A) {
+struct A<H where B:b
+let d(((A){

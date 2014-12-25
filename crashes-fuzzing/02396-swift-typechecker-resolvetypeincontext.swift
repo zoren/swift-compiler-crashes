@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
+let a{
 class a
-struct B<I {
-struct Q<T where I.Generator.E = a
+struct B<I{
+struct Q<T where I.a.E=a

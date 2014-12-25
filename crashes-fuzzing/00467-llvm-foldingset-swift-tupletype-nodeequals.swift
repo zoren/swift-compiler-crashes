@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var a {
-protocol d {
-let t: Int
+var a{
+protocol d{
+let t:Int}
 }
-}
-protocol A : a {
+protocol A:a{
 func a

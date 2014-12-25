@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 0
-extension Array {
-class A {
-func g: a {
-}
-func a<T : a
+extension Array{
+class A{
+func g:a
+func a<T:a

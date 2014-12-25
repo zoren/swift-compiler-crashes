@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
-class g<T where p: BooleanType, g = g {
-var _ = c
-{
-}
-class c
+let a{class g<T where p:a,g=g{var _=c{}class c

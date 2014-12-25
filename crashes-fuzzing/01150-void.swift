@@ -2,10 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B {
-func g
-func g< > (f: B
-}
-struct d<f where g = f { {
-}
-let : I
+struct B{func g
+func g(B}struct d<f where g=f{let:I

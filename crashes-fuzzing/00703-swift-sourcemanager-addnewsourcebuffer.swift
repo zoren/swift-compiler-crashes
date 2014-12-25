@@ -3,8 +3,5 @@
 // Test case found by fuzzing
 
 var c
-extension String {
-{
-}
-class func S
+extension String{{}class func S
 struct c<T

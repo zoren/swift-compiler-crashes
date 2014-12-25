@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-[]
-struct A<T : String {
-class C<T where f: a() {
-private let v: () -> Bool {
-str
+if true{[]struct A{class C<T where f:a{let:()->a

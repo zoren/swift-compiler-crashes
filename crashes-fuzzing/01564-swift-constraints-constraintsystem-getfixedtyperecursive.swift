@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a<T where T: A
-enum A : CollectionType
-typealias e = b(a
+class a<T where T:A
+enum A:CollectionType
+typealias e=b(a

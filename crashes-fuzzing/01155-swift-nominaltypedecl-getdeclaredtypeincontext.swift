@@ -2,16 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func p( ) -> ( ( ( ) ) ) {
-{
-( ( ) ) -> Any in
-{
-}
-{
-}
-{
-{
-}
-}
-struct d<f , g where g = f {
-func f
+func p{{()->a in{{}}struct d<f,g where g=f{func f

@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum A {
-let end = h>(
-}
-protocol e : A {
-typealias A
+enum A{let a=h>(}protocol e:A{typealias A

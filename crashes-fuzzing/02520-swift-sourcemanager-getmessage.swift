@@ -2,12 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a( ) {
-for (Any) {
-if true {
-{
-protocol e {
-struct S {
-var A {
+f
+protocol e{
+struct S{
+var A{
 class
-case ,
+case,

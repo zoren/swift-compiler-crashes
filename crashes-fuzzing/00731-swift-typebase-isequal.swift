@@ -2,11 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T>Bool)
-func f: String {
-f = {
-self.a(n: NSObject {
-}
-}
-}
-import Foundation
+func f func f:String{f={NSObject{}}}import Foundation

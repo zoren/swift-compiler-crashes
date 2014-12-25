@@ -4,6 +4,6 @@
 
 import Foundation
 class a
-struct c {
-let end = a!
-func a<T: a
+struct c{
+let d=a!
+func a<T:a

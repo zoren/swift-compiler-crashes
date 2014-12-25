@@ -2,17 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import DummyModule
-}
+import a}
 {
-func b( ) {
+func b(){
 {
-protocol a {
-case ( ).B = [T ->
+protocol a{
+case().B=[T
 }
 }
 }
-}
-protocol a {
+}protocol a{
 func b
-typealias B : b
+typealias B:b

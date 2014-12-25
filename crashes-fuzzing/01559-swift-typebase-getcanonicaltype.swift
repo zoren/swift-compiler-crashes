@@ -2,19 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<d {
-{
-}
-class B : a {
-class a {
-}
-{
-{
-}
-}
-{
-}
-}
-{
-}
-return - r
+func a<d{class B:a{class a}return-r

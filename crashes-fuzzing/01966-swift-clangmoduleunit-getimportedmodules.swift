@@ -2,16 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i<Y {
-{ { }
-}
-{
-}
-struct D : T, a
-}
-class A {
-}
-protocol a {
-init( )
-}
-import Foundation
+func i<Y{{{}}struct D:T,a}protocol a{init()}import Foundation

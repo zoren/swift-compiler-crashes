@@ -4,6 +4,5 @@
 
 class c
 protocol b
-var b = c ->
-protocol b {
-func a<T, y: a
+var b=c protocol b{
+func a<a:a

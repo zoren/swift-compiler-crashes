@@ -2,34 +2,32 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-return {
+return{
 {
 }
 {
 {
 }
 }
-{
-}
-let t = {
+let t={
 {
 {
 }
-for {
+for{
 {
 }
 struct f<
-" {
+"{
 }
 }
 }
 }
-func < {
-protocol A {
+func<{
+protocol A{
 {
 {
 }
 }
 {
 }
-func a<T : a
+func a<T:a

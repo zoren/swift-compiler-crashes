@@ -3,8 +3,4 @@
 // Test case found by fuzzing
 // Distributed under the terms of the MIT license
 
-class a<b , d
-{
-typealias e = a<c<h> , d>
-}
-struct c<d where d = e
+class a<b,d{typealias e=a<c<h>,d>}struct c<d where d=e

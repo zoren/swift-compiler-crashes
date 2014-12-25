@@ -3,13 +3,12 @@
 // Test case found by fuzzing
 
 import Foundation
-< {
+<{
 }
-var : {
-{
+var:{{
 }
 func b(x
 }
-class A {
-protocol a {
-typealias d: d.E
+class A{
+protocol a{
+typealias d:d.E

@@ -2,29 +2,22 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c {
+struct c{
 {
 {
 }
 }
 {
 }
-protocol a {
+protocol a{
 }
-protocol a {
-typealias e : h ==
-let h : e
-class A {
-var d = ( ) {
-let d = { {
+protocol a{
+typealias e:h==
+let h:e
+class A{
+var d=(){
+let d={{
 }
-{
-{
-}
-{
-}
-}
-{
--> {
+{->{
 {
 enum e

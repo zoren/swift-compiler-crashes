@@ -2,16 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b( ) {
-{
-}
-{
-{
-}
-}
-return nil
-}
-}
-struct c {
-enum S<d where f: CollectionType {
-let : [T
+func b(){{}{{}}return nil}}struct c{enum S<d where f:a{let:[T

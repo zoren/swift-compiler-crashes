@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol b : ExtensibleCollectionType
-func e( ) {
-protocol A : d {
+protocol b:ExtensibleCollectionType
+func e(){
+protocol A:d{
 func d

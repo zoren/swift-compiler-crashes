@@ -2,18 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-{
-{
-}
-}
-func c<e {
-struct e
-{
-{
-}
-{
-{
-}
-}
-}
-e {
+{{}}func c<e{struct e{{}}e{

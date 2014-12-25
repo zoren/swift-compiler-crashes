@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 struct d
-class A
-}
-class A<S : d where h: d > : Hashable
+class A}
+class A<S:d where h:d>:Hashable

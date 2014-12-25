@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol b : BooleanType
-protocol a : b {
+protocol b:BooleanType
+protocol a:b{
 func f
 typealias b

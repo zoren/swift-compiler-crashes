@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct Q<f {
-enum S<T where g.init()
-let start = true as S
-struct S<T where g: NSObject {
-let a {
-let start = e: B
+struct Q{
+init
+let a=true as S
+struct S<T where g:N{
+let a{
+let b=e

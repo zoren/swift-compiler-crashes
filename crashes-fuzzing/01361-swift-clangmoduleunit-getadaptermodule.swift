@@ -3,11 +3,9 @@
 // Test case found by fuzzing
 
 import Foundation
-func < {
-{
-}
-struct { x }
-func compose<U {
-struct S : a {
+func<{
+{x}
+func a<U{
+struct S:a{
 func a
-var b = a
+var b=a

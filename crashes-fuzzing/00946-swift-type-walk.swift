@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A : a {
-protocol a {
-}
-class C<T where h: Any {
-typealias e = c
+struct A:a{protocol a{}class C<T where h:a{typealias e=c

@@ -4,6 +4,6 @@
 
 import CoreData
 (n
-protocol a {
-let i: Any
-typealias d: d
+protocol a{
+let i:a
+typealias d:d

@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let c {
-(n: Int {
-}
-protocol A : a {
-func a
+let c{Int{}protocol A:a{func a

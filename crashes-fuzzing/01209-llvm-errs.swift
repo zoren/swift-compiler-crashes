@@ -2,24 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func n<w {
-{
+func n<w{
+class o{func p{
 }
-{
-{
-}
-}
-{
-}
-class o { { }
-func p {
-}
-let c = p
-protocol p : p {
-}
-protocol p {
-}
-{
+let c=p
+protocol p:p
+protocol p{
 }
 {
 }

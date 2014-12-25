@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-protocol A {
-func T {
+protocol A{
+func T{
 }
-typealias e : e
+typealias e:e

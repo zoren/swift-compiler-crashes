@@ -2,14 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<H : A where I.e = e: B<I : e, b = e: P> {
-let c {
-return self.B<I : U)->>>: A {
-return b<T.b {
-}
-}
-let h = {
-protocol A {
-}
-}
-func call(a
+struct d<H:where a=e{let c{func b(a

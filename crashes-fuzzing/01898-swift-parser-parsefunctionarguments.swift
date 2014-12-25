@@ -2,13 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A : a {
-func a
-}
-{
-}
-{
-func i> {
-var b = {
-func a(
-}
+protocol A:a{func a}{>{var b={func a(}

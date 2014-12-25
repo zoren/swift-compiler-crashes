@@ -3,11 +3,6 @@
 // Test case found by fuzzing
 
 map
-struct D {
-{
-}
-protocol a {
-{
-}
+struct D{protocol a{
 struct c
-func c<T: c
+func c<T:c

@@ -2,27 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func j<d {
-{
-}
-{
-{
-}
-}
-{
-}
-class b { { }
-{
-}
-{
-{
-}
-}
-class l: b {
-{
-}
-{
-}
-func k {
-}
-func k< > ( ) -> <h> ( ( ) -> h
+func j<d{class b{{}class l:b{{}{}func k{}func k<>-> <h>(()->h

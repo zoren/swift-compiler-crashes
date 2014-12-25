@@ -2,12 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<U {
-func b[ " "
-struct c {
-}
-{
-deinit {
-}
-}
-return { c( )!
+func f<U{[""struct c{}return{c()!

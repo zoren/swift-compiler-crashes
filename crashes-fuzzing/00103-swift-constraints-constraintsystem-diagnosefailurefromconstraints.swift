@@ -2,4 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<e> (e : e) -> c { e
+func b<e>(e:e)->c{e

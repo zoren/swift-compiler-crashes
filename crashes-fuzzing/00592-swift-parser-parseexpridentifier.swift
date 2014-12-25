@@ -2,14 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<d { class d:b class b
-func c {
-{
-}
-{
-{
-}
-}
-let String = {
-return self
+func b<d{class d:b class b
+func c{
+let b={
+return a
 }

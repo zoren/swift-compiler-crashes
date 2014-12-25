@@ -3,5 +3,4 @@
 // Test case found by fuzzing
 
 class B
-class d<T where B : d {
-let : d
+class d<T where B:d{let:d

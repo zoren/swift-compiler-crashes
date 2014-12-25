@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 import CoreData
-protocol c : NSManagedObject {
+protocol c:NSManagedObject{
 func b
-typealias e : b
+typealias e:b

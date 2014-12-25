@@ -3,9 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-class B {
+class B{
 }
-extension {
-}
-class B<T where g: B {
-typealias f = [c
+class B<T where g:B{
+typealias f=[c

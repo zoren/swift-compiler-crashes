@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C<T where A: T
-import Foundation
+class C<T where A:T
+import a
 S<C>

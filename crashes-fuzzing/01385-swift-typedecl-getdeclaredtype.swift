@@ -2,16 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func d<b {
-enum A {
-func c {
-(v: c
-}
-{
-}
-}
-{
-{
-}
-}
-let start = b<T
+func d<b{enum A{func c{(c}}let a=b<T

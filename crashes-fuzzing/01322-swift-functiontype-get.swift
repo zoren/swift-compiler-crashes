@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B : SequenceType
-let AnyObject
-protocol c : A {
+class B:SequenceType
+let a
+protocol c:A{
 typealias A

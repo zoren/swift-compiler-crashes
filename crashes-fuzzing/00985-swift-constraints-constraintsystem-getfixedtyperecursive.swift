@@ -2,13 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func e<l {
--> {
-{
-}
-}
-class a {
-}
-{
-}
-let end = a( )
+func e<l{{{}}class a
+let a=a()

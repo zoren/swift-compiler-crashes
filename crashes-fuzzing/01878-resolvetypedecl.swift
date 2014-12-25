@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-{
-}
-typealias f = B
-class B<T where T: S
+if true{
+typealias f=B
+class B<T where T:S

@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 import Foundation
-struct S {
-func c<j : c let h : (t: c
+struct S{
+func c<j:c let h:(t:c

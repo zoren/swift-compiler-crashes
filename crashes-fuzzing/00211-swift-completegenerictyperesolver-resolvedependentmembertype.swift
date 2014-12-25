@@ -3,7 +3,4 @@
 // Test case found by fuzzing
 // Distributed under the terms of the MIT license
 
-func c<e {
-{
-}
-struct f<c where e.c = c.c
+func c<e{{}struct f<c where e.c=c.c

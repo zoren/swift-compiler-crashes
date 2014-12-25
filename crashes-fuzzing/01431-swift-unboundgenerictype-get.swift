@@ -2,13 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var : Range
-class A {
-protocol A {
-{
-{
-}
-{
-}
-}
-typealias A : A
+var:Range
+class A{protocol A{typealias A:A

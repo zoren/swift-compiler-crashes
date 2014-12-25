@@ -2,10 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<f where g = f {
-{
-}
-{
-}
-nonmutating
+struct d<f where g=f{mutating
 func i

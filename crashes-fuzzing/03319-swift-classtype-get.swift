@@ -2,14 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<T>: NSObject {
-protocol a() { c: T -> () {
-struct B<T, g: A")
-class a {
-class B<T, g: T where g: a {
-let d: N
-class B<D> {
-}
-}
-func a
-str
+enum S<T{protocol a class a{class B<T,g where g:a{let:N{}}func a

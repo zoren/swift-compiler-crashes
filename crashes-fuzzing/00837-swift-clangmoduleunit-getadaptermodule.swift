@@ -3,14 +3,14 @@
 // Test case found by fuzzing
 
 import Foundation
-func g<j {
--> {
-t.advance( [Any)
+func g<j{
+->{
+([Any)
 {
 {
 }
 }
 }
-struct e : a
-protocol a {
-init( )
+struct e:a
+protocol a{
+init()

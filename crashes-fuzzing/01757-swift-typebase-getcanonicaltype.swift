@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<T where g: Any) + seq: e = ")
-func c: [Byte][T {
-map(A, y)
+class A<T where g:y)func c{map(A,y)

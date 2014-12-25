@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-struct g<g where f = c {
-let : c
+func<{struct g<g where f=c{let:c

@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-let start = [ ]
-protocol P {
-typealias e : d
+class A{
+let s=[]protocol P{typealias e:d
 func d

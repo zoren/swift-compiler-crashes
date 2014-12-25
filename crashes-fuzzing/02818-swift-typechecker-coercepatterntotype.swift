@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-struct B<T where H.E == compose() { c
-var f: S<h: d {
-let d: B
+if true{struct B<T where H=a{var f:{let:B

@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<d , j where j = d { {
-}
-func d
+struct c<d,j where j=d{func d

@@ -3,13 +3,9 @@
 // Test case found by fuzzing
 
 import Foundation
-func a<T {
+func a<T{
 class b
-typealias R = T String {
-{
+typealias R=T String{{
 }
-{
 }
-a
-}
-for b {
+for b{

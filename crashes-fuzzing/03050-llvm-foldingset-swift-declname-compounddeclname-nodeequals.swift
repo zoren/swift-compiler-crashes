@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
-if true {
-if true {
+let a{
+if true{
+if true{
 }
 }
 }
-class B<T : d where H.h == e, A : P {
-struct c<I : Int = B
+class B<d where H:P{
+struct c<I:B

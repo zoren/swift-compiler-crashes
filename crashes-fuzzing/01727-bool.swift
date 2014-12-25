@@ -2,20 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import DummyModule
+import a
 }
-func a<T {
-protocol b {
-class A {
-let start = e( {
-}
-{
-}
-{
+func a<T{
+protocol b{
+class A{
+let b=e({
 }
 }
 }
-{
-}
-class b: a
+class b:a
 class a

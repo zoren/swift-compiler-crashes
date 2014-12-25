@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<T {
-var f = (T.endIndex - range {
-}
-class b {
-}
-class B : b
+func c<T{var f=(T.b - a{}class b{}class B:b

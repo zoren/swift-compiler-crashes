@@ -4,7 +4,6 @@
 
 import Foundation
 class B
-func g<c {
-enum A {
-func c( ) {
-if c {
+func g<c{
+enum A{
+func c{if c{

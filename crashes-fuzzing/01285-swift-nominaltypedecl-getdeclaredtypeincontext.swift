@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<f where g = f { {
-}
-let ceturn {
-self
+struct d<f where g=f{let a{self

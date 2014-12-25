@@ -2,43 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-{
-}
-{
-{
-}
-}
-{
-}
-class m {
-{
-}
-{
-}
-{
-}
-{
-{
+func<{
+class m{
+struct c{
+protocol d:b{func b
+func d(={{
 {
 }
 }
-{
-{
-}
-}
-}
-struct c {
-{
-}
-protocol d : b { func b
-func d( = { {
-}
-{
-{
-}
-}
-{
-}
-struct D {
-func g< > (
+struct D{func g(

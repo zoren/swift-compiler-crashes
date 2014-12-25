@@ -2,10 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-( [ 1
-class A {
-class B {
-func d
-{
-}
-func d<T : d
+([1
+class A{class B{func d
+func d<T:d

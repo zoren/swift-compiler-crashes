@@ -4,7 +4,7 @@
 
 import Foundation
 for in
-let g = ( T? = b
-protocol a {
-let n : (
-typealias e : e
+let g=(T?=b
+protocol a{
+let n:(
+typealias e:e

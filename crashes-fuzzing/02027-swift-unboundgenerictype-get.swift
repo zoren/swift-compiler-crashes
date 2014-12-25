@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<d : Array {
+func f<d:Array{
 struct c
-for c = c( )
+for c=c()

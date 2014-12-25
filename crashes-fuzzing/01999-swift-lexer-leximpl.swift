@@ -3,13 +3,13 @@
 // Test case found by fuzzing
 
 {
-let String {
+let a{
 {
 {
-: [ "
+:["
 }
 }
 }
 }
-protocol B : SequenceType, b {
+protocol B:SequenceType,b{
 func b

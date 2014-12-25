@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 struct j
-func f<d> ( ) -> [j<d> {
-protocol c : b { func b
+func f<d>->[j{
+protocol c:b{func b

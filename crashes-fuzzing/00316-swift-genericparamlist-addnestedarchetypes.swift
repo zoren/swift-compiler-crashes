@@ -2,12 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func j<h {
-{
-}
-class f {
-func g( ) -> {
-struct j {
-let : String = {
-self g( )
-} ( )
+func j<h{{}class f{func g let:String={a g()}()

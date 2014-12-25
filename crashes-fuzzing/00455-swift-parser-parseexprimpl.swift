@@ -2,15 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func k<g {
-enum k {
+func k<g{
+enum k{
 func l
-var _ = l
-enum S {
-func f {
+var _=l
+enum S{
+func f{
 {
-let String = {
+let b={
 {
-typeac
+a
 }
 }

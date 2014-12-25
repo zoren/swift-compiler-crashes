@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 func a
-let a = 1)
-class A {
-class C<b: T where S.c : String {
-struct A<T where B : Int = e
+let a=1
+class A{
+class C<b:where b:a{
+struct A<T where B:c

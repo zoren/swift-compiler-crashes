@@ -2,13 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import DummyModule
-}
-Void> (T> (a( " " ( {
-{
-}
-}
-protocol A : a {
-{
-}
-func a
+import b}a>(T>(a(({{}}protocol A:a{func a

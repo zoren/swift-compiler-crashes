@@ -3,9 +3,4 @@
 // Test case found by fuzzing
 
 protocol A
-func < {
-{
-{
-}
-}
-return g<T> (n: A? {
+func<{return(n:A?{

@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 class a
-var b( (c: a {
-}
-protocol A : A {
+var b((a{}
+protocol A:A{
 typealias A

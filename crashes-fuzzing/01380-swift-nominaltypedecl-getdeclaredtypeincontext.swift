@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<T where f: NSObject {
-var d {
-protocol P {
-typealias e: A
+struct c<T where f:a{var d{protocol P{typealias e:A

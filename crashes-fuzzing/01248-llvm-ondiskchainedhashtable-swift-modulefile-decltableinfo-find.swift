@@ -3,17 +3,4 @@
 // Test case found by fuzzing
 
 nil
-func f<r {
-{
-}
-{
-{
-}
-}
-{
-}
-{
-}
-class r {
-}
-(r( ) .m( )
+func f<r{class r{}(r().m()

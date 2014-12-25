@@ -2,19 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<h {
+func f<h{
 return true
-class a {
-{
-{
-}
-{
+class a{
 {
 }
-}
-}
-}
-{
 }
 (
-let a {
+let a{

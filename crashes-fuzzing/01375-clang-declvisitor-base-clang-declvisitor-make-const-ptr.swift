@@ -3,11 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-var d, i
-extension NSData {
-let end = i( ) ->
-{
-{
-}
-}
-func a<T : a
+var d,i
+extension NSData{
+let a=i()
+func a<T:a

@@ -2,11 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B { func b
 {
-C(
-{
-struct A {
-protocol c {
-class
-case ,
+struct A{protocol c{class
+case,

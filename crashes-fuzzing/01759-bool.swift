@@ -2,11 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class b<T where B : end
-}
-b( (T: {
-}
-var b {
-{
-}
-}
+class b<T where B:a}b((var b{{}}

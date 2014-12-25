@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a() -> Bool {
-struct A {
-private let b = 1)
-struct B<T where f: A {
-() -> V {
-func a("""
-struct A<T where f: A.c(f
+func a()->{struct A{let b=1)struct B<T where f:A{struct A<T where f:a

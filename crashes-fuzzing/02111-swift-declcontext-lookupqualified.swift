@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 enum B
-let a {
-class C<h where B = Swift.h {
-func c
+let a{
+class C<h where B=Swift.h{func c

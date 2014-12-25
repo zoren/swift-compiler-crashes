@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<T {
-struct A {
-struct A {
-class d<Int> : c {
+struct S<T{
+struct A{
+struct A{
+class d<a>:c{
 class d
-protocol c {
+protocol c{
 class d

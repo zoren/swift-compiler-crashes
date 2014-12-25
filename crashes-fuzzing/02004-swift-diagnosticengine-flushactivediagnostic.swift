@@ -5,25 +5,15 @@
 {
 {
 }
+c({
 {
 {
-{
-}
-}
-}
-{
-}
-c( {
-{
-{
-}
-{
-case g : {
+case g:{
 "
 }
 }
 }
 }
-func < {
-class B {
-func a<T : a
+func<{
+class B{
+func a<T:a

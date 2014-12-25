@@ -2,14 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-class A {
-let g = b
-d {
-{
-}
-}
-{
-}
-protocol b : d {
+if true{
+class A{let g=b
+protocol b:d{
 typealias d

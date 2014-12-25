@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S {
-init( ) {
-{
-}
-enum S<T where I = T
+struct S{init(){enum S<T where I=T

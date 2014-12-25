@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 import Foundation
-func g<b > ( (a ) )
-protocol B : b {
+func g<b>((a))
+protocol B:b{
 typealias b

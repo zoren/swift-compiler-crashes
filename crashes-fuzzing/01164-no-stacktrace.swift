@@ -2,13 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<U {
-{ {
-{
-{
-}
-}
-}
-}
-enum A : String {
-case = " "
+func g<U{{}enum A:String{case=""

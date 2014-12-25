@@ -2,24 +2,21 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol a {
-protocol a {
+protocol a{
+protocol a{
 typealias b
-typealias B : b
+typealias B:b
 }
 }
-func d {
-var : a {
+func d{
+var:a{
 }
 {
-{
-}
-{
-{
+{{
 {
 }
 }
 }
 }
 }
-var d = ( ) + seq
+var d=()+

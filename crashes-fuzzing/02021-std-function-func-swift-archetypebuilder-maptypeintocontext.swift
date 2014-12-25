@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 func f<d
-class A<T where B : b
-}
-f = ( ( (A<d = 1
+class A<T where B:b
+}f=(((A<d=1

@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-( == B
-class A {
-protocol c : a {
+(==B
+class A{
+protocol c:a{
 }
-{
-}
-func a<I : a
+func a<I:a

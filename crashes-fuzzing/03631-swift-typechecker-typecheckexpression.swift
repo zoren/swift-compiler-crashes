@@ -2,19 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let t: c {
-typealias e : a {
+let c{
+{
 }
-class b: C {
-class a<T {
-class c<T>: a {
-func f: b
+class a{
+class c<>:a{
+func f
 }
-protocol P {
-}
-struct S<T where T : BooleanType, A {
-}
-class func f: b
-let f = [Void{
-let i: a {
-s
+func f
+let f=Void{

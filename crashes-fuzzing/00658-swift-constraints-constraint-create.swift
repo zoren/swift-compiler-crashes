@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 0.C
-protocol e : c {
+protocol e:c{
 func c

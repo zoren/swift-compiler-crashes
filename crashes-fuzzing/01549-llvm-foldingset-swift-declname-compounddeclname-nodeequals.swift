@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<Int {
-let start = 1
-struct A {
-func f {
+func b<a{let s=1
+struct A{
+func f{
 return self.init(

@@ -2,27 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import DummyModule
+import a
+}{var b((([0
 }
-{
-{
-{
-{
-}
-}
-{
-}
-{
-}
-{
-{
-}
-}
-{
-}
-}
-var b( " " ( ( [ 0
-}
-protocol P {
-func b
-typealias h: b
+protocol P{func b
+typealias h:b

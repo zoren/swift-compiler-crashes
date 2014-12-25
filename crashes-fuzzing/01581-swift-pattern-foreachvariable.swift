@@ -2,6 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol d : d {
-typealias d
-let v: d
+protocol d:d{typealias d
+let v:d

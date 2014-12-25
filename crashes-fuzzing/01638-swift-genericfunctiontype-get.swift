@@ -2,14 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-t> ]
-class B : Hashable
+t> class B:Hashable
+struct D:A{
 }
-struct D : A {
-}
-struct c {
-}
-protocol A : a {
-{
-}
-func a
+protocol A:a{{
+}func a

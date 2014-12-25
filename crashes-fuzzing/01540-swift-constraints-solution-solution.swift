@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 1
-protocol A : b {
-var b: b.endIndex
+protocol A:b{var b:b.x
 func b

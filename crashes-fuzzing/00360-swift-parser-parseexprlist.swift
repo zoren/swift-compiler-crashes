@@ -5,8 +5,8 @@
 import
 h
 }
-func e<l {
-enum e {
+func e<l{
+enum e{
 func e
 {
 }
@@ -14,37 +14,18 @@ func e
 }
 {
 }
-func p( ) -> ( ( ( ) -> Any) ) {
-return {
+func p()->((()->Any)){return{
 {
 }
-(e( ) )
-{ {
-}
-{
-}
-{
+(e())
+{{
 }
 }
 {
 }
-{
-}
-{
-}
-{
-}
-{
-}
-{
-}
-{
-}
-{
-}
-protocol f {
-protocol c {
-class A {
+protocol f{
+protocol c{
+class A{
 {
 {
 }
@@ -52,8 +33,6 @@ class A {
 {
 {
 }
-}
-{
 }
 {
 {
@@ -65,21 +44,14 @@ class A {
 }
 }
 }
-{
-}
-{
-{
-{
-}
-}
-{
+{{
 {
 }
 }
 }
-struct c {
+struct c{
 {
 }
-class A {
-func a( ) -> {
+class A{
+func a()->{
 return b(

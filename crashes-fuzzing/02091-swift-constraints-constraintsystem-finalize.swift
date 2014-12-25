@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 func b
-class A<T where I = F
+class A<T where I=F
 }
 b
-( ( " "A? = G
+((A?=G

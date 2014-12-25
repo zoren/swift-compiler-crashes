@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol b {
-init( ) {
-}
-class B
+protocol b{
+init(){}class B
 typealias B
 }
-b( )
+b()

@@ -3,5 +3,4 @@
 // Test case found by fuzzing
 
 import Foundation
-class B<I where H.h: NSManagedObject {
-let c = F
+class B<I where H.h:a{let c=F

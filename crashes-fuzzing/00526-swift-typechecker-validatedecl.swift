@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol P {
+protocol P{
 struct B
 }
-protocol A : P {
-class A
-enum A : B
+protocol A:P{class A
+enum A:B

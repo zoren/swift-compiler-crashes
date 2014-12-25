@@ -2,5 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let b = {
-(v: T ) in x = b
+let b={(v:T)in x=b

@@ -2,17 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T where l) -> {
-struct A {
-let v: AnyObject.c {
-b: A {
-}
-}
-var b {
-func i: [Int>) {
-for c {
-}
-func f<Int
-}
-}
-func b
+func g<T{struct A{let:{b:{{}func f}}func b

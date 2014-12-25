@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-struct S<T where T. : NSObject {
-var d {
-S<Q
+if true{struct S<T where T:a{var d{S<Q

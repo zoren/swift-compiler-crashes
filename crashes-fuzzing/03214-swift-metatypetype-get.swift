@@ -3,11 +3,10 @@
 // Test case found by fuzzing
 
 {
-static let a {
-class a
+let a{class a
 {
-struct A<T>: b { func c,
-protocol a {
+struct A{
+protocol a{
 class
 case c,
 class

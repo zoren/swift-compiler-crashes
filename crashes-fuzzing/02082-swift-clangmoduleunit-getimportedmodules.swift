@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 import CoreData
-func g<d {
-struct e : b {
+func g<d{
+struct e:b{
 func b
-let c = b.init(
+let c=b.init(
 }
-}
-if c {
+}if c{

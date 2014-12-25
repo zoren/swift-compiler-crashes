@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var b { func b
-if true {
-private let a : String {
-class A {
-struct c<T where B : String {
-typealias e = e
-s
+var b{if true{let a{class A{struct c<T where B:a{typealias e=s

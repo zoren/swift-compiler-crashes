@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 __LINE__
-struct g<g where f = c {
-let : c
+struct g<g where f=c{
+let:c

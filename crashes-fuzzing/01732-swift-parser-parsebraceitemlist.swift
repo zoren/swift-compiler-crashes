@@ -2,16 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-{
-{
-}
-{
-{
-let f == { {
-if true }
-}
-}
-}
-}
-protocol P {
-func b<T : b
+{{{=={{if a}}}}}protocol P{func b<T:b

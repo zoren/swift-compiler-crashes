@@ -2,31 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<j : Int {
-{
-{
-}
-{
-}
-{
-{
-{
-}
-{
-}
-}
-{
-{
-}
-}
-}
-}
-struct c {
-}
-{
-{
-}
-}
-{
-}
-for c {
+func g<j:Int{struct c{}for c{

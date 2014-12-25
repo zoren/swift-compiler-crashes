@@ -2,16 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import DummyModule
-}
-func d<S {
-struct c {
-{ {
-}
-}
-}
-for c {
-{
-enum a {
-protocol a {
-enum A
+import a}func d<S{struct c{}for c{{b a{enum A

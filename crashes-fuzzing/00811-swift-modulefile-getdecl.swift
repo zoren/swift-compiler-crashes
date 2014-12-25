@@ -2,17 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-var : Int
-func compose {
-{
-}
-{
-}
-class A {
-protocol a {
-{
-}
-{
-}
-typealias e : e
+class A{var:Int{class A{protocol a{typealias e:e

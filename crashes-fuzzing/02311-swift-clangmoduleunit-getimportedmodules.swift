@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T where h : c
+class B<T where h:c
 import Foundation
-class A {
-var f = B
+class A{
+var f=B

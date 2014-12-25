@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol C {
-func a: Hashable
-}
-struct D {
-protocol c : b {
-typealias b
+protocol C{func a:Hashable}struct D{protocol c:b{typealias b

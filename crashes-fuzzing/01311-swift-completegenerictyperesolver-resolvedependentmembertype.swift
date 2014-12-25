@@ -2,17 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T {
-struct A {
-{
-}
-func i(a
-{
-{
-{
-}
-}
-}
-{
-}
-func a( ) -> T -> T.h
+func a<T{
+struct A{func i(a
+func a(T.h

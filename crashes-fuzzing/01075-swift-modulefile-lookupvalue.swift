@@ -2,4 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<f , g: e where g = f { typealias F = InA.B
+struct d<b:e where g=f{typealias F=a.B

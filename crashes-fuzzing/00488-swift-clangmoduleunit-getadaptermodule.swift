@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 import CoreData
-enum S<T where g: String {
-typealias F = c
+enum S<T where g:g{
+typealias F=c

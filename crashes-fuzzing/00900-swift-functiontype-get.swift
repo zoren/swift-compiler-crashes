@@ -2,16 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
+func<{
 protocol b
-class A {
+class A{
 {
 }
-protocol C {
-let h: b
+protocol C{
+let h:b
 }
 }
-}
-A
-protocol b : a {
+}A
+protocol b:a{
 func a

@@ -2,47 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-{
-}
-{
-{
-}
-}
-{
-}
-class e: f{ { }
-{
-}
-{
-}
-{
-}
-{
-{
-}
-{
-{
-{
-}
-}
-}
-}
-func f<r> ( ) -> (r r -> r -> r {
-{
-}
-{
-{
-}
-}
-{
-}
-}
-}
-{
-}
-{
-{
-}
-}
-protocol i : d { func d
+class e:f{{}{}func f<r>()->(r r->r->r}protocol i:d{func d

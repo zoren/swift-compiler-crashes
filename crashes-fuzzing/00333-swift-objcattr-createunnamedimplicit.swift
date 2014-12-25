@@ -4,17 +4,9 @@
 
 {
 }
-extension NSSet {
-protocol a {
+extension NSSet{
+protocol a{
 }
 struct S<c
-}
-func < {
-{
-{
-{
-}
-}
-}
 }
 import Foundation

@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-for (Any) {
-protocol e : a {
-func a
+for(Any){protocol e:a{func a

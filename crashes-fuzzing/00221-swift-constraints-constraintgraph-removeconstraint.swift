@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct i<d where d = k
-func f<k> ( ) -> i
+struct i<d where d=k
+func f<k>->i

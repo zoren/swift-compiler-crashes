@@ -2,12 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct D : CollectionType
-}
-protocol b {
-func a
-{
-{
-}
-}
-typealias A : A
+struct D:CollectionType}protocol b{func a{{}}typealias A:A

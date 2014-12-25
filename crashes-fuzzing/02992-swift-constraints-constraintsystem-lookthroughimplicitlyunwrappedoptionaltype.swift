@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 struct d
-var d = 0.c
+var d= .c
 Void{

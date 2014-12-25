@@ -2,9 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var f = 1
-var e: Int
-let : Int = { c, b in
-} (f, e)
-struct g<g where f = c {
-let : c
+let:Int={
+}()
+struct g<g where f=c{let:c

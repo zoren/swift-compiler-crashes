@@ -3,12 +3,11 @@
 // Test case found by fuzzing
 
 typealias B
-extension String {
+extension String{
 class a
 func b
-struct S<c {
-}
-var b: a {
+struct S<c{}
+var b:a{
 {
 }
 }

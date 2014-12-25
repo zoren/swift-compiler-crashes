@@ -2,11 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f( ) -> {
-enum A : Int {
-{
-}
-}
-{
-}
-Void{
+func f{enum A:Int{}Void{

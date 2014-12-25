@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum k {
-class d<I : d
-{
-}
-var d = [ [Void{
+enum k{class d<I:d{}var d=[[Void{

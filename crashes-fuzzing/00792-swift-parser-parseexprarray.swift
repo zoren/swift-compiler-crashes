@@ -3,16 +3,6 @@
 // Test case found by fuzzing
 
 protocol d
-func g<T {
-{
-}
-{
-}
-class a {
-}
-var b( [c(x: d = a( ) -> , {
-{
-}
-let start = [ (
-}
-) = Any
+func g<T{
+class a{}([c(x:d=a()->,{let a=[(
+}) = b

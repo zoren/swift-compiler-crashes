@@ -3,21 +3,14 @@
 // Test case found by fuzzing
 
 {
+func b(){
 {
-}
-{
-}
-{
-}
-func b( ) {
--> {
-protocol b {
-init < > (
+protocol b{init<>(
 }
 }
 }
 }
-func compose<T {
-struct c {
+func a<T{
+struct c{
 }
-c( ) ->
+c()

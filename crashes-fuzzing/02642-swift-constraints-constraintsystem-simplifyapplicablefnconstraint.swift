@@ -2,12 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<h : C<h = c: b> Void>() {
-if true {
+func b{
+if true{
 }
-protocol b : NSObject {
-protocol A : d where S<T where I.E == {
-let d: A")
-protocol A {
-typealias b : b
-func b:
+protocol b{
+protocol A
+protocol A{
+typealias b:b
+func b

@@ -2,44 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f {
-let c = " " ) {
-{
-{
-{
-}
-}
-{
-{
-}
-}
-{
-}
-{
-{
-{
-{
-}
-}
-}
-{
-{
-}
-}
-{
-{
-}
-}
-{
-}
-{
-}
-{
-}
-}
-}
-{
-}
-}
-protocol b {
-func a<T : a
+func f{let c=""protocol b{func a<T:a

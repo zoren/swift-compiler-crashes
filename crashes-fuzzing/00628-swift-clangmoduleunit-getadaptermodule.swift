@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-f = (b> String =
-func g<T {
+f=(b> a=
+func g<T{
 struct c
-var f = c( )
+var f=c()

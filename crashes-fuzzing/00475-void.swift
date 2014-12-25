@@ -3,21 +3,7 @@
 // Test case found by fuzzing
 
 import CoreData
-func g<I {
-class A : C {
-{
-}
-{
-}
-}
-for ( : T! {
-{
-{
-{
-}
-}
-}
-}
-{
-}
+func g<I{
+class A:C
+for(:T!{}
 class C

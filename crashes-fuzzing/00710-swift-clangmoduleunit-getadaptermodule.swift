@@ -3,16 +3,6 @@
 // Test case found by fuzzing
 
 import Foundation
-func a( ) {
-{
-}
-{
-{
-}
-{ {
-}
-}
-}
-return [ self = Int
-protocol A {
-typealias e : e
+func a(){return[a=b
+protocol A{
+typealias e:e

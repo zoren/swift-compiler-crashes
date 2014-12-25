@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-let t: b { func a
-i> Void{
+{
 class B
 {
-extension NSData {
+extension a{
 class
-case c,
+case,

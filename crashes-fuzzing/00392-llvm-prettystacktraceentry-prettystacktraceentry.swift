@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 struct c
-import Foundation
-}
-extension NSSet {
+import Foundation}
+extension NSSet{
 class B<f

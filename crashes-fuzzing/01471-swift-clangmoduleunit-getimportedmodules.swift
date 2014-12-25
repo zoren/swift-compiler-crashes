@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import CoreData
-let h> (T
-func d<T {
-class A : A
+>(T
+func d<T{
+class A:A
 class A

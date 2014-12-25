@@ -3,11 +3,5 @@
 // Test case found by fuzzing
 
 protocol A
-protocol A {
-protocol a : A {
-{
-{
-}
-}
-}
-func a<I : a
+protocol A{
+protocol a:A func a<I:a

@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A {
-typealias B
-}
-extension A {
-enum B
-}
-class B : A
+protocol A{typealias B}extension A{enum B}class B:A

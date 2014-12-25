@@ -2,11 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B : SequenceType
-class a {
-{
+class B:SequenceType
+class a{{
 }
-struct Q {
-{
-}
-enum S<T where B : a
+struct Q{
+enum S<T where B:a

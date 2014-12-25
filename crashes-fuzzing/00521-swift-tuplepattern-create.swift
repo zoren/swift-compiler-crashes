@@ -3,20 +3,7 @@
 // Test case found by fuzzing
 
 <T>
-protocol P {
+protocol P{
 {
-}
-{
-{
-{
-}
-{
-{
-{
-}
-}
-}
-}
-}
-func f
-typealias e : e
+}func f
+typealias e:e

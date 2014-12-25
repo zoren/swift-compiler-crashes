@@ -2,11 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c {
-let c {
-class B<T where T: String {
-let : Any
-}
-}
-}
-( [ ( ) {
+struct c{let c{class B<T where T:b{let:a}}}([(){

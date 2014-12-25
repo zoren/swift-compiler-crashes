@@ -2,21 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T {
-class A {
-protocol b
-{
-{
-{
-}
-{
-}
-{
-}
-}
-{
-{
-}
-}
-}
-func b: T.E
+func g<T{class A{protocol b{}func b:T.E

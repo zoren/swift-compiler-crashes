@@ -3,9 +3,5 @@
 // Test case found by fuzzing
 
 import Foundation
-extension NSSet {
-func ^(t..Element == B(Range(T, g == j> T) ->) -> S : d = F>(start, i : A {
-typealias e = [T>(c(")-> {
-let a {
-super.d.Generator.e {
-return { _,
+extension NSSet{let a{
+super.d.b.a{

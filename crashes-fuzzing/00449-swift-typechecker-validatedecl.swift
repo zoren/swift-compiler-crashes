@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T {
+func g<T{
 class C
-class B : C {
-class A : A
+class B:C{
+class A:A

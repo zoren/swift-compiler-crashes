@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-println( 1 )
-func < {
-struct A<T where B : b {
-let end = a
+println(1)func<{struct A<T where B:b{let end=a

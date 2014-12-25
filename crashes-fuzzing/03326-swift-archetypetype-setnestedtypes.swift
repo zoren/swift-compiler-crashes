@@ -4,11 +4,10 @@
 
 {
 {
-struct B? {
-case c,
-[Void{
 {
-enum A {
+case
+[{{
+enum A{
 class
 case c,
 case

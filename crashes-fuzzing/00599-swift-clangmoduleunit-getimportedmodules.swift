@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 import Foundation
-struct B<T where T: P
+struct B<T where T:P
 }
-[B( ) ( )
+[B()()

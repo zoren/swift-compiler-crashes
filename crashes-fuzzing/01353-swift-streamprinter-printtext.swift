@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<T where B : k
-typealias e = c( ) {
-}
-( " " " "A? = a
+class A<T where B:k
+typealias e=c(){}
+(A?=a

@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 <U>(
-struct c {
-class A {
+struct c{
+class A{
 func f(a
-func a<l : a
+func a<l:a

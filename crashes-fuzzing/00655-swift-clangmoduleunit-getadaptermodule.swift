@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 import CoreData
-S<d) -> {
-}
-class B : a {
-func a<S : a {
+S<
+class B:a{
+func a<S:a

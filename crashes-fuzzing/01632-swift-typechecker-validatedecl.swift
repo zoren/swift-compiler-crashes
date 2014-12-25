@@ -2,8 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum A : A {
-{
-}
-}
-enum S<T where T : S
+enum A:A
+enum S<T where T:S

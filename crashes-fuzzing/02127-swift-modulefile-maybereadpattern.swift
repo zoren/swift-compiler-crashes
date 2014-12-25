@@ -2,36 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-extension String {
-func f: d
-{
-{
-{
-}
-{
-{
-{
-{
-}
-}
-}
-{
-{
-}
-{
-{
-}
-}
-}
-}
-}
-{
-{
-}
-}
-}
-protocol d {
-{
-}
+extension String{func f:d
+protocol d{
 func g
-typealias B : f
+typealias B:f

@@ -3,9 +3,5 @@
 // Test case found by fuzzing
 
 enum b
-let : b = { }
-protocol P {
-func >
-{
-}
-typealias B : B
+let:b={}
+protocol P{func>typealias B:B

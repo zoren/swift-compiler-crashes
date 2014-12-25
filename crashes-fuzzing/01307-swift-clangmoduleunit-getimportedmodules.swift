@@ -3,19 +3,13 @@
 // Test case found by fuzzing
 
 import Foundation
-func n<w {
+func n<w{
 {
 }
-{
-{
+class o{{}
+func p(e:Int{
 }
-}
-{
-}
-class o { { }
-func p(e: Int {
-}
-let c = p
-protocol p {
+let c=p
+protocol p{
 }
 protocol p

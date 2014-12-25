@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<T {
-class c {
-func f: BooleanType
-var d {
-c( )
+func b<T{class c{func f:BooleanType{c()

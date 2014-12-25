@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 import Foundation
-protocol a {
-func b: c
-func c<H : c
+protocol a{
+func b:c
+func c<H:c

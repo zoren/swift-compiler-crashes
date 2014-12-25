@@ -2,15 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func compose<U {
-class A {
-{
-{
-}
-}
-var b {
-{
-}
-self.init( ) {
-return (
-}
+func c<U{class A{{{}}var b{{}self.init(){return(}

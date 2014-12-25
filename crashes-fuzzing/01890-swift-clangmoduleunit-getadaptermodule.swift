@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 import Foundation
-protocol c {
-protocol a : a {
+protocol c{
+protocol a:a{
 func T
 }
 func a

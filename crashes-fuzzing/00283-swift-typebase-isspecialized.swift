@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct f {
+struct f{
 {
 }
 {
@@ -10,26 +10,20 @@ struct f {
 }
 }
 {
+}
+class l{
+func y(){
 {
 }
-}
-class l {
-func y( ) {
-{
-}
-{
-{
-}
-}
-class l {
-func gf( ) -> String {
-return " "
+class l{
+func a()->String{
+return""
 }
 }
 }
 }
 }
-func gf(k: Int = lk) {
+func a(k:Int=b){
 }
-let n = gf
-n( )
+let n=a
+n()

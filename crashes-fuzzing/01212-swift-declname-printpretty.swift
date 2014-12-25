@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class n {
-var _ = r( )
-func e<l {
-enum e {
-func p( ) { p
+class n{var _=r()func e<l{enum e{func p{p

@@ -2,16 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T {
-class A {
-{
-}
-func b( ) -> {
-return b e {
-{
-}
-}
-{
-}
-}
-let t: A
+func g<T{class A{{}func b->{return b e{{}}}let t:A

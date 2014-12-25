@@ -4,4 +4,4 @@
 
 import Foundation
 class d
-func b<d { class d:b class b
+func b<d{class d:b class b

@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class b<T where f: Any
-func b {
+class b<T where f:a
+func b{
 func d(B
-enum B : b
+enum B:b

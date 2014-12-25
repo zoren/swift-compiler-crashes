@@ -2,8 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func compose<T {
-func e> {
-}
-struct c
-var b = [c( )
+func c<T{>{}struct c
+var b=[c()

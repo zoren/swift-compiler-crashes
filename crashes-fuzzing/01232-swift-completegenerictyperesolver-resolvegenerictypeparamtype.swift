@@ -2,11 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<c {
-init(b: c) {
-class A {
-func a " " let : {a( )
-==ay {
-}
-}
-init<T> (array: Array<T> )
+class d<c{init(){class A{func a{a{}}init<T>(Array<T>)

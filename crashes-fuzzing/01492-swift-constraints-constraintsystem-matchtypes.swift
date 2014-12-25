@@ -3,8 +3,6 @@
 // Test case found by fuzzing
 
 0 as String
-protocol C {
-typealias B
-{
-}
-typealias e : B
+protocol C{
+typealias B{
+}typealias e:B

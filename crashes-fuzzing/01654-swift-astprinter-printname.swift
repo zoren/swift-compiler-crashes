@@ -2,13 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func d<e {
-struct c {
-class A {
-struct c : CollectionType {
-}
-}
-}
-{
-}
-protocol { c( )
+func d<e{struct c{class A{struct c:CollectionType{}}}{}protocol{c()

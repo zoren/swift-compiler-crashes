@@ -3,26 +3,8 @@
 // Test case found by fuzzing
 
 __FUNCTION__
-func < {
-class a {
-var _ = i( ) {
-{
+func<{
+class a{
+var _=i{
 }
-{
-}
-{
-}
-{
-}
-{
-}
-{
-}
-}
-{
-}
-{
-{
-}
-}
-protocol i : d { func d
+protocol i:d{func d

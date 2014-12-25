@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-extension String {
-class a<T where S.f = b {
-let x = (T: a {
+extension String{class a<T where S.f=b{let x=(a{

@@ -2,20 +2,19 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S {
-func b<h : b {
-func g {
+struct S{
+func b<h:b{
+func g{
 {
 {
 {
 }
-protocol P {
-init( ) {
-( {
-[ " " " " [ { {
+protocol P{
+init(){({
+[""""[{{
 {
 {
 (
-return "
+a"
 }
 }

@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-deinit {
-class A<T where B : d {
-func f
+class A{deinit{class A<T where B:d{func f

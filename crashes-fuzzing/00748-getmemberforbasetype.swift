@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol b {
-init( )
+protocol b{init()
 class C
 typealias C
 }
-typealias b = b(seq: b( )
+(b()

@@ -5,16 +5,7 @@
 import Foundation
 func f
 {
-}
-func f: B? {
-typealias R = a {
-}
-{
-{
-{
-}
-}
-}
-protocol a {
-typealias B
-typealias b : B
+}func f:B?{
+typealias R=a
+protocol a{
+typealias B:B

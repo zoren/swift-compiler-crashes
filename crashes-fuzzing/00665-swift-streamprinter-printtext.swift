@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i<I {
-{
-{
-}
-}
-class A {
-class b: SequenceType, A
+func i<I{class A{class b:SequenceType,A

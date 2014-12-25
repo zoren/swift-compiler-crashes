@@ -2,13 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func d<S {
-{
-}
-enum b {
-struct c {
-init
+func d<S{
+enum b{
+struct c{init
 func c
-{
-}
-let end = c( )
+let a=c()

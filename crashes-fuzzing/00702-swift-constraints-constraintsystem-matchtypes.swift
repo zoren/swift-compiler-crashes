@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 map
-protocol P {
-func a
-typealias g: a
+protocol P{func a
+typealias g:a

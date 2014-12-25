@@ -2,12 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-{
-}
-protocol P {
-{
-}
-init( ) {
-}
-typealias e : e
+if true{{}protocol P{init()typealias e:e

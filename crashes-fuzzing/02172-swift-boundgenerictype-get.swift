@@ -2,27 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-( ( [ ( : {
-{
-}
-{
-}
-}
-let f = > Any
-struct S {
-{
-{
-{
-{
-}
-}
-}
-{
-}
-{
-}
-}
-{
-}
-struct S<T where f: Int {
-var _ = true as St
+(([(:
+let f= >c
+struct S{{}
+struct S<T where f:b{var _=true as a

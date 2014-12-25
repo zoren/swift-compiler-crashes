@@ -3,10 +3,6 @@
 // Test case found by fuzzing
 
 import Foundation
-class a {
-class A, range: c {
-}
-protocol c {
-}
-func a<T: b: A""]][]
-func b<f : a
+class a{
+func a<T:b
+func b<f:a

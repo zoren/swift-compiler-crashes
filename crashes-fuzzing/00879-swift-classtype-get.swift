@@ -3,9 +3,7 @@
 // Test case found by fuzzing
 
 import CoreData
-class A : NSManagedObject {
-func b<T: q {
-}
-{
+class A:NSManagedObject{
+func b<T:q{
 }
 func q<k:q

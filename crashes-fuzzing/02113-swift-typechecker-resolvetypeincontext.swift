@@ -2,12 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<T where A.B.l : a {
-func b {
-}
-{
-}
-{
-}
-}
-class A<T
+enum S<T where A.B.l:a{func b}class A<T

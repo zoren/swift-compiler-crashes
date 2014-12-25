@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A : SequenceType
-var d {
-protocol a {
-typealias b : b.E
+class A:SequenceType
+var d{
+protocol a{typealias b:b.E

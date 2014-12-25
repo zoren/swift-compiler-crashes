@@ -2,16 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import Founda
+import c
 (
-func < {
+func<{
 {
 {
 }
 }
 {
 }
-class e {
+class e{
 {
 {
 }
@@ -22,27 +22,15 @@ class e {
 }
 {
 }
-struct d<f where g = f { {
+struct d<f where g=f{{
 }
-struct B<T : A {
-}
-{
-}
-}
-{
-{
-}
-{
-}
-{
-}
-{
+struct B<T:A{
 }
 }
 {
 }
-class o {
-class m {
+class o{
+class m{
 {
 }
 {
@@ -53,6 +41,6 @@ class m {
 }
 {
 }
-func f {
-let Int = {
-init(array Atati
+func f{
+let b={
+init(array a

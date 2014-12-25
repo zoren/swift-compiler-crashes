@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func l<c {
-{
-}
-class l {
-func m {
-let : String = {
-self.m ( )
+func l<c{class l{func m{let:String={self.m()

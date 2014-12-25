@@ -2,15 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<d where T : I
-if true {
+struct c<d where T:I
+if true{
 {
 }
-protocol a {
-{
-{
-}
-}
-{
-}
+protocol a{
 func x(c

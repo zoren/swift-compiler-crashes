@@ -2,13 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-return {
-}
-extension
+func<{return
 {
 }
-let : B
-protocol B {
-protocol P {
-typealias A : A
+let:B
+protocol B{
+protocol P{
+typealias A:A

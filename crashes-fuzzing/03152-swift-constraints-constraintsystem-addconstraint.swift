@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class b: a {
-let end = a<h == a
-func a<h : String = a
-class d-> d {
-func b<T>("
-class d<T where I.E == F>: A> d
+class b{
+let nd=a<h == a
+func a<h
+class d class d<T where E=F>:A

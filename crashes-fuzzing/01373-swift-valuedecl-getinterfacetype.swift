@@ -3,15 +3,13 @@
 // Test case found by fuzzing
 
 import Foundation
-extension NSData {
-var d = c
+extension NSData{
+var d=c
 let c n
 {
 {
 }
 }
-{
-}
-protocol a {
-typealias A : A
+protocol a{
+typealias A:A
 func b

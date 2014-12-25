@@ -4,9 +4,7 @@
 
 {
 }
-protocol b : SequenceType
-{
-}
-class B {
-protocol a {
-typealias A : A
+protocol b:SequenceType
+class B{
+protocol a{
+typealias A:A

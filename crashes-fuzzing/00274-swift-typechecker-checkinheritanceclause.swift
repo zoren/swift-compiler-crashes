@@ -3,16 +3,4 @@
 // Test case found by fuzzing
 // Distributed under the terms of the MIT license
 
-func < {
-enum s {
-{
-}
-{
-}
-{
-}
-{
-{
-}
-}
-func b<ih:b
+enum s{func b<a:b

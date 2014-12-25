@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 class A
-return " " ""
-enum A {
-class a {
-protocol P {
-typealias e : e
+return""""
+enum A{
+class a{
+protocol P{typealias e:e

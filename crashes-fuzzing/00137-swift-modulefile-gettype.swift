@@ -2,13 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class t<l where l = w
-class b< > : t {
+class t<l where l=w
+class b:t{
 }
-class b {
-}
-protocol w {
-}
-class t {
-}
-protocol t : t
+protocol t:t

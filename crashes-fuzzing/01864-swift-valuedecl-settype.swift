@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S {
-var _ = f
-func f: U
+struct S{
+var _=f
+func f:U
 }
-protocol A {
-func b {
+protocol A{
+func b{
 {
 }
 }
-typealias A : A
+typealias A:A

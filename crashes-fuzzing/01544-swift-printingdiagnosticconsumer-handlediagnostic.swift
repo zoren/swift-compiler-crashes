@@ -2,19 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var NSObject {
-class A {
-func a<f : a {
-}
-class A {
-var Any, C {
-{
-{
-}
-}
-{
-{
-}
-{
-}
-init(
+var a{class A{func a<f:a{}class A{var A{{init(

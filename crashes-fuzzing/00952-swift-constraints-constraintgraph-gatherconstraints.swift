@@ -4,7 +4,7 @@
 
 class A
 enum A
-var _ = A.E == b
-protocol P {
-typealias f : d
+var _=A.E == b
+protocol P{
+typealias f:d
 func d

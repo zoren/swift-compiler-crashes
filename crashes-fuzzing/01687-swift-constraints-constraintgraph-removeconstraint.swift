@@ -2,18 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T {
-class A {
-{
-{
-{
+func g<T{
+class A{func f
+let g=[f}
 }
-}
-}
-func f
-let g = [ f C {
-}
-}
-}
-class B {
-var b = {
+class B{
+var b={

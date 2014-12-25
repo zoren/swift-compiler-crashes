@@ -2,6 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-0 ->
-protocol A {
-func a<l : A.a
+0
+protocol A{func a<l:A.a

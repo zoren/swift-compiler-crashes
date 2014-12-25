@@ -3,9 +3,5 @@
 // Test case found by fuzzing
 
 as
-}
-extension Array {
-{
-}
-func g(t: NSObject
+}extension Array{func g(a
 enum b

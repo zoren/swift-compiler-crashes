@@ -3,16 +3,10 @@
 // Test case found by fuzzing
 
 enum B
-func f<C {
+func f<C{
 class A
-class C: A {
-{
-{
-}
+class C:A{{
 }
 }
 {
-{
-}
-}
-if true as [B {
+}if true as[B{

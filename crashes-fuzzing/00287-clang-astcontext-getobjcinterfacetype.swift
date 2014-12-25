@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 import Foundation
-extension NSSet {
-init<d: b> ( )
+extension NSSet{
+init<d:b>()

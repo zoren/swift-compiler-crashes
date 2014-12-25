@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
+func<{
 class B<T
 {
-let f = T
-let f = ( ( [Void{
+let f=T
+let f=(([Void{

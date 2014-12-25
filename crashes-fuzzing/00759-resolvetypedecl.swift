@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-protocol A : a {
-protocol a {
-class A
-}
-func c: A
+func<{protocol A:a{protocol a{class A}func c:A

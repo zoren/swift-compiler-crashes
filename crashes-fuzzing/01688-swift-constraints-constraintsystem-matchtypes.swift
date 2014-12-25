@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-( (Range( ) ->
-struct c<T where B : U
+((Range()
+struct c<T where B:U
 var _ c

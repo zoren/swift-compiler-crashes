@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 assert(false)
-protocol a {
-func a<T: a
+protocol a{
+func a<T:a

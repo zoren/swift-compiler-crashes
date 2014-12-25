@@ -3,9 +3,6 @@
 // Test case found by fuzzing
 
 import Foundation
-extension NSSet {
-convenience init() {
-typealias e where A>) ->(f<T>) {
-}
-}
-convenience init()
+extension NSSet{
+init(){
+}init()

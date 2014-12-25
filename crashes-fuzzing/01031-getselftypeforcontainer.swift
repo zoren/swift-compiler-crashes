@@ -3,14 +3,11 @@
 // Test case found by fuzzing
 
 protocol b
-let start = b
-protocol A : a {
-}
-protocol a {
-func e {
-}
-{
+let s=b
+protocol A:a
+protocol a{
+func e{
 }
 {
 }
-typealias d : e
+typealias d:e

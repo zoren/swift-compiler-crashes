@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 enum A
-class a<T where B : start
-extension A : a
+class a<T where B:a
+extension A:a

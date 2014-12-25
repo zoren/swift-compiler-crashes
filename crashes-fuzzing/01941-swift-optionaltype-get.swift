@@ -3,7 +3,5 @@
 // Test case found by fuzzing
 
 0
-(x: BooleanType)? ->
-class A {
-class A {
-func a<I : a
+()?
+class A{class A{func a<I:a

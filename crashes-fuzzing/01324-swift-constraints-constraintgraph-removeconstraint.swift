@@ -2,20 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-{
-{
-}
-}
-protocol a {
-{
-{
-{
-}
-}
-}
-typealias d: b.startIndex
-{
-{
-}
-}
+{{}}
+protocol a{{}typealias d:b.a
 func b

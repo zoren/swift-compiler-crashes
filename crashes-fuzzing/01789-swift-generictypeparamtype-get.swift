@@ -2,11 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<h: SequenceType
-func compose<T {
-{
-}
+enum S<h:SequenceType
+func a<T{{}
 class b
-{
-}
-return b( )
+return b()

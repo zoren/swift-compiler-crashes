@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 import Foundation
-extension NSSet {
-let f = b
-init(array Array)
+extension NSSet{
+let f=b
+init(array a)

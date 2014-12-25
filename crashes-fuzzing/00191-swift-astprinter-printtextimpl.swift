@@ -3,30 +3,18 @@
 // Test case found by fuzzing
 // Distributed under the terms of the MIT license
 
-func v<dc {
-enum v {
+func v<a{
+enum v{
 func r
-var _ = r
+var _=r
 }
 }
-class u {
+class u{
 }
-struct r {
-{
-}
-}
-enum dc {
-}
-protocol n {
-}
-struct v {
+struct r{
 {
 }
 {
-{
-}
-{
-}
 }
 {
 }
@@ -40,18 +28,18 @@ struct v {
 }
 {
 }
-class w {
+class w{
 {
 }
 {
 }
-protocol u {
+protocol u{
 {
 }
 {
 }
-class u: u {
+class u:u{
 }
 {
 }
-class u<b : u
+class u<b:u

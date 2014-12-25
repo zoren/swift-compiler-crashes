@@ -2,23 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-{ Type
--> {
-{
-}
-{
-}
-init {
-extension String {
-{
-}
-extension NSSet {
-func i(
-}
-}
-}
-}
-}
-protocol c {
-init( )
-typealias d: d
+{{init{extension a{{}extension b{func i(}}}}}protocol c{init()typealias d:d

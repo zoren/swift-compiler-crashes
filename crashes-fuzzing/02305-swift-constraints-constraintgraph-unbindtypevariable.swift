@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c {
-func f<j : f.C {
-}
-let start = {
+struct c{func f<j:f.C let a={

@@ -2,9 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let start = ( ( )
-println( )
-protocol b : a {
-{
-}
-func a
+let a=(println()
+protocol b:a{func a

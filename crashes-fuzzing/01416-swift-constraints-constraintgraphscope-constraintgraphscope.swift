@@ -3,5 +3,4 @@
 // Test case found by fuzzing
 
 ""
-protocol c {
-typealias B : B.E
+protocol c{typealias B:B.E

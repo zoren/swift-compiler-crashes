@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func e: Int
-struct c : a {
-protocol a {
+func e:Int
+struct c:a{
+protocol a{
 typealias d
-typealias e : d
+typealias e:d

@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S : CollectionType
-}
-struct Q<T where g: NSObject {
-var : U -> (
+struct S:CollectionType}struct Q<T where g:a{var:U->(

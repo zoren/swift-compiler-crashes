@@ -2,39 +2,19 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
+func<{
 {
-}
-{
-{
-}
-}
-func e<l {
-enum e {
-func p( ) { p
-NSManagedObject {
-{
+}func e<l{
+enum e{
+func p(){p
 }
 }
-}
-{
-}
-}
-func k {
+func k{
 {
 {
-}
-{
-}
-{
-}
-{
-}
-{
-}
-}
-class n {
-func p( ) -> {
+}}
+class n{
+func p()->{
 "
 }
 }

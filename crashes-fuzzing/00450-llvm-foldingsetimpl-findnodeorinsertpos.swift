@@ -3,12 +3,11 @@
 // Test case found by fuzzing
 
 import Foundation
-protocol C {
-class A where g(t: c> () -> {
-class func a("A? {
+protocol C{
+class A
 }
-var e: C) -> T where A"A.c {
-extension NSSet {
-func g<f : P {
+var:C
+extension NSSet{
+func g<f:P{
 }
 struct B<T

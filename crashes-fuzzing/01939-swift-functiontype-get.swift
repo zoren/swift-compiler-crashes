@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 class c
-for c {
+for c{
 }
-protocol b {
-typealias b : b.c
+protocol b{
+typealias b:b.c

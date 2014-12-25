@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<b<h : String = e.h == nil
-var b = [Void{
+func b
+var b=Void{

@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<h : SequenceType {
-class A {
-}
-return (i: A {
+func f<h:SequenceType{class A{}return(A{

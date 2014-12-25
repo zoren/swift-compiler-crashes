@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-"cd"
-struct d<d where H = j {
-let start = true as S
+""
+struct d<d where H=j{
+let s=true as S

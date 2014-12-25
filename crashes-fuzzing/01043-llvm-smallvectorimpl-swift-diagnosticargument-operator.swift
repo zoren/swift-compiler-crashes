@@ -2,13 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func p< p {
-{
-}
-{
-{
-( }
-}
-{
-}
-class l: f class f
+func p<p{{{(}}class l:f class f

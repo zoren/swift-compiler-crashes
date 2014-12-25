@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-extension Array {
-func e: String {
-class A {
-}
-let :
-protocol A {
+extension Array{func e:a{class A{}A{

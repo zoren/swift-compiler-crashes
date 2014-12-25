@@ -2,14 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C<D {
-{
-}
-{
-{
-}
-}
-func a( ) {
-class A {
-func a( ) -> String {
-a
+class C<D{{}func a(){class A{func a()->String{a

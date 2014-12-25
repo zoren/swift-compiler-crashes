@@ -2,68 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func e<l {
-{
-( ( ) ) -> Any in
-{
-}
-{
-{
-}
-{
-}
-{ { }
-{
-}
-{
-{
-}
-}
-{
-{
-}
-}
-}
-{
-}
-{
-{
-{
-{
-}
-}
-{
-{
-}
-}
-}
-{
-}
-{
-}
-{
-}
-{ { }
-}
-{
-{
-{
-}
-}
-{
-}
-}
-{
-}
-}
-}
-{
-{
-f
-}
-}
-protocol f {
+func e<l{
+{(())->a in
+protocol f{
 class func c
 }
-class e: f {
+class e:f{
 class func c

@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-{
-}
-struct A<b where A: SequenceType {
-typealias B = A
+func<{struct A<b where A:a{typealias B=A

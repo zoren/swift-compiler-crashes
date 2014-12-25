@@ -2,14 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import Founda
-func < {
-{
-}
-class t {
-let : k
-class k< > : NSObject {
+import b
+class t{let:k
+class k<>:a{
 {
 }
 }
-protocol i : d { func d
+protocol i:d{func d

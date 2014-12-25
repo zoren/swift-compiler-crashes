@@ -2,38 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol a {
-{ {
-}
-}
+protocol a{
+func c typealias d:d
+func i(
+=g({
 {
-{
-}
-}
-{
-{
-}
-}
-func c {
-}
-typealias d: d
-func i( = {
-{
-{
-{
-{
-}
-}
-}
-}
-}
-= g( {
-{
-}
-{
-{
-}
-{
-}
 b
 }

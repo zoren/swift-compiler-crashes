@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 import Foundation
-typealias f = c( > {
+(>{
 }
-func a<j : A.f
-enum A {
-var f = a
+func a<j:A.f
+enum A{
+var f=a

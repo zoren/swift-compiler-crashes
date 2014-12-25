@@ -3,8 +3,4 @@
 // Test case found by fuzzing
 // Distributed under the terms of the MIT license
 
-class f< > : o
-protocol o {
-{
-}
-protocol k : f { func f
+protocol o:f{func f

@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import Ftoc ( )
+import a()
 >- (
-struct c<d , j where j = d { {
+struct c<d,j where j=d{{
 }
 func d

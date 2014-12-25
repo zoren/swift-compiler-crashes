@@ -2,6 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-( " " " "
-protocol c {
-func a<h : a
+(""""
+protocol c{func a<h:a

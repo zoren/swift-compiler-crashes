@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol P {
-class B
-}
-class A {
-protocol A : P {
-let : B
+protocol P{class B}class A{protocol A:P{let:B

@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol P {
-override func c<T>: A> == B(c() {
-for ("))
-struct A<T : A>: a {
-class a
+protocol P{func c:A)struct A<T:A>:a{class a

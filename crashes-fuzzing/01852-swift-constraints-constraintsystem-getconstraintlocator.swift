@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 class a
-var f = a( )
-protocol A {
+var f=a()
+protocol A{
 func a
-typealias f : a
+typealias f:a

@@ -3,13 +3,6 @@
 // Test case found by fuzzing
 
 import Foundation
-class C
-}
-extension NSSet {
-init(v: AnyObject, AnyObject) {
-}
-{
-{
-}
-}
-struct Q<I
+class C}
+extension NSSet{
+init(v:AnyObject)struct Q<I

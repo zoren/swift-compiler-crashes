@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 struct c
-enum B {
+enum B{
 }
-class B<d where B : A {
+class B<d where B:A{
 protocol B

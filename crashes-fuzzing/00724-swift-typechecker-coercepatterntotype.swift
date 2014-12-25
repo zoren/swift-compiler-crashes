@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B {
-typealias A
-}
-extension String {
-struct Q<f
+class B{typealias A}extension String{struct Q<f

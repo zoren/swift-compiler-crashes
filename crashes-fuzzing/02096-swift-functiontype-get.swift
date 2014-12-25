@@ -3,11 +3,7 @@
 // Test case found by fuzzing
 
 protocol b
-protocol P {
+protocol P{
 func d
-{
-}
-func i(b<e> -> d
-{
-}
-typealias d
+func i(b->d{
+}typealias d

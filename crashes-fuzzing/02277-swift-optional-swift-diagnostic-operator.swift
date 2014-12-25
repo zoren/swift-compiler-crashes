@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 class A<T
-func < {
-struct c<T where A.g = c
-{
+func<{
+struct c<T where A.g=c{
 func c

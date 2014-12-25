@@ -2,12 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol b {
-struct c<h: a {
-{
-{
-}
-}
-}
-func i(mx : a
-func a<b: c
+protocol b{struct c<h:a
+func a<b:c

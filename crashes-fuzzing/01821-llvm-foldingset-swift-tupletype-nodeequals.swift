@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 import Foundation
-extension NSData {
-class A let n {
+extension NSData{
+class A let n{
 super.d.init(

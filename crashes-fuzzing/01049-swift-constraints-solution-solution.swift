@@ -3,9 +3,4 @@
 // Test case found by fuzzing
 
 1
-protocol B {
-{
-}
-{
-}
-func b<j : b.c
+protocol B{func b<j:b.c

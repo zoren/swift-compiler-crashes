@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-for c : Hashable >
+for c:Hashable>
 h
-class c {
-class A {
+class c{
+class A{
 {
 }
-class A : S.startIndex
-struct S<T where h: Bool {
+class A:S.b
+struct S<T where h:a{
 class B

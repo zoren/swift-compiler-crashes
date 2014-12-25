@@ -2,12 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol P {
-enum B
+protocol P{enum B
 }
-extension String {
+extension String{
 {
 }
 protocol c
-protocol A : P {
-func j<S : B
+protocol A:P{
+func j<S:B

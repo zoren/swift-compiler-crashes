@@ -3,9 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-extension String {
+extension String{
 class c
-{
-}
-enum b {
-func b<T : b
+enum b{
+func b<T:b

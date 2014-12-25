@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A<A where k = j
-struct S : a
-protocol a {
-struct c : A
+struct A<A where k=j
+struct S:a
+protocol a{struct c:A

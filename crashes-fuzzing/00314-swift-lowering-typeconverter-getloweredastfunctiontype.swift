@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum e<b> : d {
-func c<b> ( ) -> b {
+enum e<b>:d{func c<b>()->b{
 }
 }
-protocol d {
-func c<b> ( ) ( ) -> b
-}
+protocol d{
+func c<b>()()}

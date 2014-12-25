@@ -4,11 +4,11 @@
 
 class b
 import Foundation
-Type
-var b = { c
+a
+var b={c
 }
-protocol a {
+protocol a{
 {
 }
-typealias B : B
-let t: b
+typealias B:B
+let t:b

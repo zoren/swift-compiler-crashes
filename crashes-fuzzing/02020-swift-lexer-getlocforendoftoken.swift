@@ -2,32 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A {
-func a<S : a {
-{
-extension A {
-{
-}
-let c, a {
-{
-{
+struct A{
+func a<S:a{{
+extension A{
 {
 }
+let a{
 {
-{
-{
-}
-}
-}
-{
-{
-}
-{
-}
-{
-}
-}
-}
 }
 init(
 }

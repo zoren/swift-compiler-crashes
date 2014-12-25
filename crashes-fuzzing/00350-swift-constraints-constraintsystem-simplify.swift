@@ -2,11 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-return " "
-protocol A : a {
-{
-}
-{
-}
-func a( ) -> Self
+func<{return""protocol A:a{func a()->Self

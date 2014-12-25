@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func x(n: SequenceType
+func x(n:SequenceType
 }
-protocol b {
+protocol b{
 func a
-typealias f : a
+typealias f:a

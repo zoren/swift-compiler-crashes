@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where T: e
-func g<H : B
+struct B<T where T:e
+func g<H:B

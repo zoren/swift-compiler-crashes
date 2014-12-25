@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<T {
-return [ <h>?
+func c<T{return[<h
 func c<S
-class A {
+class A{
 struct c
-let end = c( )
+let a=c()

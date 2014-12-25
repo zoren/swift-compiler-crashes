@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 import Foundation
-struct S<T where H.B : T {
-typealias R = F
+struct S<T where H.B:T{
+typealias R=F

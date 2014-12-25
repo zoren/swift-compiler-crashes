@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 func c
-struct c: Any
-protocol C {
-typealias d: d
+struct c:Any
+protocol C{
+typealias d:d

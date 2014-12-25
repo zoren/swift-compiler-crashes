@@ -3,10 +3,8 @@
 // Test case found by fuzzing
 
 class A
-let c: A = nil
-if c == .b {
+let c:A=a
+if c == .b{
 }
-func c<d {
-enum c {
-func e
-var _ = e
+func c<d{enum c{func e
+var _=e

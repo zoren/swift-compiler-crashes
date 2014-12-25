@@ -2,18 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var a: a {
-typealias B<h> {
+var a{
+enum a{class A{let a=[T:(A<T
 }
-enum a<1 {
-class A {
-class A {
-}
-let end = [T : (A<T : (A<U>](c("A
-}
-}
-}
-protocol a {
-typealias b : b, range.g = c(a
-func c> ("])
-func a)
+}}
+protocol a{
+typealias b:b func a

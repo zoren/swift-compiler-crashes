@@ -3,15 +3,6 @@
 // Test case found by fuzzing
 
 protocol f
-protocol e {
-}
-protocol i {
-}
-struct c {
-}
-func < {
-}
-func < {
-}
-let e = f
-protocol e : j { func j
+protocol e{}
+let e=f
+protocol e:j{func j

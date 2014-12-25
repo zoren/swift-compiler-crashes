@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-extension String {
-func d: Int {
-{
-}
-}
-func c<H : c
+extension String{func d:n{}func c<H:c

@@ -2,16 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func p<q {
-enum p {
-func d( ) { d
-{
-{
-}
-}
-}
-{
-}
-{
-}
-func d(o: Any
+func p<q{enum p{func d{d}{}func d:Any

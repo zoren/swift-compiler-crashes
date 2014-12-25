@@ -3,4 +3,4 @@
 // Test case found by fuzzing
 
 struct c
-struct B<T: B<c>
+struct B<T:B<c>

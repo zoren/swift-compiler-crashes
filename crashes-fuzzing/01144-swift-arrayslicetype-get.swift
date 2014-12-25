@@ -3,24 +3,17 @@
 // Test case found by fuzzing
 
 protocol l
-func p< > ( ) -> [l<m> {
-return [ ]
-i {
-}
-{
-{
+func>()->[l<m>{
+return[]
+i
+{{
 }
 }
-{
-}
-class m { { }
+class m{class o{
 {
 }
-class o {
-{
-}
-protocol d {
+protocol d{
 func g
 {
 }
-protocol g : e { func e
+protocol g:e{func e

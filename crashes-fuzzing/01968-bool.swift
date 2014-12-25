@@ -2,44 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-func a<h: a {
-{
-{
-{
-}
-}
-}
-{
-}
-{
-}
-{
-}
-{
-}
-{
-{
-{
-{
-{
-{
-}
-}
-}
-}
-}
-{
-}
-{
-{
-}
-}
-{
-}
-{
-var U = {
-protocol P {
-Foundation
-}
-}
+class A{func a<h:a{{{{}}{var U={protocol P{a}}

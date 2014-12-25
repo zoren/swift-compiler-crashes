@@ -2,19 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class o<k {
-init(j: k) {
-{
-}
-struct l<c {
-{
-{
-}
-}
-{
-{
-}
-}
-func l( ) -> {
-func c<d> ( ) -> c{ enum b {
-case
+class o<k{init(){{}struct l<c{func l->{func c<d>->c{enum b{case

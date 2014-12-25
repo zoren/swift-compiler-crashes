@@ -2,26 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<l {
-{
-}
-{
-{
-}
-}
-{
-}
-class l { { }
-func a {
-b {
-}
-}
-class a<f , l : b {
-}
-{
-{
-}
-}
-{
-}
-class b: a
+func f<l{class l{func a{b{}}class a<f:b class b:a

@@ -3,10 +3,8 @@
 // Test case found by fuzzing
 
 import Foundation
-let a {
-protocol P {
-func a: f
-}
-protocol a {
-typealias B : B
+protocol P{
+func a:f
+}protocol a{
+typealias B:B
 func d

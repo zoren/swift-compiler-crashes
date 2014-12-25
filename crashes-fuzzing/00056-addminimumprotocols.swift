@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<d {
-enum b {
+func b<d{
+enum b{
 func c
-var _ = c
+var _=c

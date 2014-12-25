@@ -3,27 +3,22 @@
 // Test case found by fuzzing
 
 {
-A {
+A{
+{
+{
+}}
+let C{
+var e=={
+((){
+}
+)in return"
+}
+}
+}
+}
+protocol A:a{{
 {
 {
 }
-}
-let C {
-var e == {
-( ( ) {
-}
-) in return "
-}
-}
-}
-}
-protocol A : a {
-{
-{
-}
-{
-{
-}
-}
-}
+}}
 func a

@@ -2,27 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class w {
-{
-{
-}
+class w{
 {
 }
-{
-}
-}
-{
-}
-{
-}
-{
-}
-{
-}
-{
-}
-struct c {
-typealias e = a
+struct c{
+typealias e=a
 {
 }
 {
@@ -35,25 +19,17 @@ typealias e = a
 }
 }
 }
-protocol e {
+protocol e
+struct m<v:e{
 }
-struct m<v : e {
-}
-{
-{
+{{
 }
 }
-{
-}
-{
-{
-}
-}
-class e<v : e
-func c<d {
-enum c {
+class e<v:e
+func c<d{
+enum c{
 func e
-var _ = e
+var _=e
 }
 }
 protocol a

@@ -2,33 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import DummyModule
-}
-class a {
-func a<T : a {
-return [ ] ( ( ) {
-{
-}
-{
-{
-}
-{
-}
-{
-}
-{
-{
-}
-{
-{
-}
-{
-}
-}
-}
-{
-}
-}
-{
-protocol A {
-var _ = b
+import a}class a{func a<T:a{return((){{protocol A{var _=b

@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 protocol P
-import DummyModule
-var d = B<T> ( (array: P {
+import a
+var d=B<T>((a:P{
 }
-protocol c {
-typealias b : b
+protocol c{
+typealias b:b

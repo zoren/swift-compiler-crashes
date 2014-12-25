@@ -5,17 +5,15 @@
 {
 {
 }
-let a {
-func e {
+let a{
+func e{
 {
 }
-return [T -> {
+return[T->{
 {
-" " "
+"""
 }
 }
 }
-protocol d {
-func b {
-}
-typealias e : b
+protocol d{
+func b typealias e:b

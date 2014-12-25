@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 (Range<T
-protocol a {
-typealias e: b
+protocol a{
+typealias e:b
 func b

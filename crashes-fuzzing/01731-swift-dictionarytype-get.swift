@@ -3,7 +3,5 @@
 // Test case found by fuzzing
 
 import Foundation
-func compose<T {
-class b {
-}
-var f = b( ) ( " " ) ( )
+func a<T{class b{
+}var f=b()()()

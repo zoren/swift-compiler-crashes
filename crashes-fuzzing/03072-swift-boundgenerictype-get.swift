@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
-if true {
-let : A = d>
+let a{
+if true{
+let:A=d>
 class A
-func a( ) -> {
+func a()->{
 struct B
-protocol a {
-typealias e : e {
+protocol a{
+typealias e:e{
 }
-let t: B
+let t:B

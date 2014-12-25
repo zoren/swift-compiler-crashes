@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 protocol A
-enum j : a {
-func a: A.Type
-func d<d : d
+enum j:a{
+func a:A.Type
+func d<d:d

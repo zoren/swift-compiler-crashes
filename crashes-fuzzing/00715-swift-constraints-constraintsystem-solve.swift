@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-String {
+String{
 }
-enum b {
-func a<T: a
+enum b{
+func a<T:a

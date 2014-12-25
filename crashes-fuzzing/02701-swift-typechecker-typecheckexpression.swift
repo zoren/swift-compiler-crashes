@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 {
-(f: AnyObject) -> Any in
-i> Void{
+()->a in
+i Void{

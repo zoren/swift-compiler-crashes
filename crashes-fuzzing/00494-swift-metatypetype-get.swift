@@ -3,14 +3,10 @@
 // Test case found by fuzzing
 
 func b
-protocol A {
-protocol a {
+protocol A{
+protocol a{
 {
 }
-typealias e : A
-class A : e
-{
-}
-}
-}
-func b: A
+typealias e:A
+class A:e}}
+func b:A

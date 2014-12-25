@@ -2,20 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<C {
-init(c: C) {
-{
-{
-}
-{
-}
-}
-{
-}
-{
-}
-enum A {
-case b
-}
-let c: A?
-if c == .b {
+class B<C{init(){enum A{case b}let c:A?if c == .b{

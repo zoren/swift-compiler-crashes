@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-(true as String) {
+(true as String){
 }
-protocol a : e {
+protocol a:e{
 typealias e

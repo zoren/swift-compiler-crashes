@@ -3,15 +3,15 @@
 // Test case found by fuzzing
 
 import Foundation
-func < {
-class c {
-protocol A {
-func f( ) -> (a
+func<{
+class c{
+protocol A{
+func f()->(a
 }
 func a
-protocol a {
-func call
-typealias b : b
+protocol a{
+func a
+typealias b:b
 }
 }
 }

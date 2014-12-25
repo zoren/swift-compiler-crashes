@@ -2,32 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import DummyModule
+import a
 }
-class A {
-class A {
-var d {
+class A{
+class A{var d{
 {
 }
-{
-{
-}
-}
-{
-}
-{
-{
-}
-}
-{
-{
-}
-func e > (h: [ [ ] (
+{func e>(h:[[](
 }
 "
 }
 }
-protocol a {
+protocol a{
 {
 }
-typealias d : d
+typealias d:d

@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A {
-protocol a : a {
-func a
-}
-}
-let start = "ab"
-A
+protocol A{protocol a:a{func a}}let a=""A

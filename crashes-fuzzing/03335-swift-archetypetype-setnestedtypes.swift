@@ -3,11 +3,10 @@
 // Test case found by fuzzing
 
 {
-{ func a<Int
-case c,
 {
-func a<T>: A {
-struct A {
+case{
+func A{
+struct A{
 class
 case c,
 case

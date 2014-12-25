@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
-typealias e = c
-struct c<T where T.Element == c<T>
+let a{
+typealias e=c
+struct c<T where T=c<T>

@@ -3,16 +3,15 @@
 // Test case found by fuzzing
 
 import Foundation
-func b: A(
-protocol A {
-protocol P {
-{ {
+func b:A(
+protocol A{
+protocol P{
+{{}
 }
 }
-}
-protocol P {
+protocol P{
 {
 }
-typealias h: a {
+typealias h:a{
 }
 func a

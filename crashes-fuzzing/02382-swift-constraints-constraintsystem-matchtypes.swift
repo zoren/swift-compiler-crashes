@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b
-{
-struct S {
-let start = [ [Void{
+func b{struct S{let a=[[Void{

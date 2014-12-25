@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f {
-{
-}
-struct B<T where A : P {
-var f = 0
+func f{struct B<T where A:P{var f=0

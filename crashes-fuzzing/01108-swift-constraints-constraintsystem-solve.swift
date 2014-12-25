@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 struct c
-struct d<f where g = f
+struct d<f where g=f
 struct e
-var x = 1
-e {
-c(d ( ) )
+var x=1
+e{c(d())

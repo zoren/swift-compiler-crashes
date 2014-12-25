@@ -2,19 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<T where A: AnyObject
-var : {
-{
-S( )?
-}
-String {
-{
-}
-{
-}
-{
-{
-}
-{
-}
-init(t: C
+struct S<T where A:j
+var:{{S()?}
+a{{
+init(t:C

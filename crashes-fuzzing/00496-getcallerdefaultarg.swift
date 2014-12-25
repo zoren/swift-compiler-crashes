@@ -2,27 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var d {
-{
-}
-{
-}
-{
-}
-{
-{
-}
-}
-{
-}
-{
-{
-{
-}
-{
-{
-}
-}
-}
-}
-" \(n: AnyObject.Type) "
+var d{"\(n:Any)"

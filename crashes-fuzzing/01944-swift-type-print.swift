@@ -5,16 +5,7 @@
 import Foundation
 struct A
 }
-extension NSSet {
-{
-{
-{
-}
-}
-{
-}
-}
-enum A {
+extension NSSet{enum A{
 }
 enum a<T
-class A : a
+class A:a

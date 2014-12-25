@@ -2,23 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<U {
+struct S<U{
 {
 }
-{
-}
-func b: A
-{
-}
-}
+func b:A}
 import Foundation
-protocol P {
+protocol P{
 {
 }
 {
 }
-init( ) {
+init(){
 }
 {
 }
-typealias e : e
+typealias e:e

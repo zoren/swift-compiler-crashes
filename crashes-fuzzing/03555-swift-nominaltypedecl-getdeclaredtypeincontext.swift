@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T where B : d<T>: P {
-var d {
-func a<T>: b
-protocol b : N
+class B<T where B:T{var d{protocol b:N

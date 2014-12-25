@@ -2,9 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<e {
-{
-}
-enum A {
-case b
-let : A= .b
+func b<e{{}
+enum A{case b
+let:A= .b

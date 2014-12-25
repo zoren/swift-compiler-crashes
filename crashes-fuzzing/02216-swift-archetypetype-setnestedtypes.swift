@@ -3,14 +3,8 @@
 // Test case found by fuzzing
 
 extension Array
-let String {
-{
-{
-{
-}
-}
-}
-protocol A {
+let a{
+protocol A{
 enum c
 func c
-typealias h: Array<h>
+typealias h:Array<h>

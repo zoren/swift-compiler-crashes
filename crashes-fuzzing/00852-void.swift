@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 import Foundation
-var b> < ( [T
+var b> <([T
 protocol
-var b {
-protocol C {
-typealias d: S<d>
+var b{
+protocol C{
+typealias d:S<d>
 enum S<U

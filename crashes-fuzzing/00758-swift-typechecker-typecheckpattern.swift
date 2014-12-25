@@ -2,17 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol b {
-{
-{
-}
-}
+protocol b{
 func f
-{
-}
 typealias f
-{
-}
-{
-}
-func call(f
+func a(f

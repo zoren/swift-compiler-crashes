@@ -2,15 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol j {
+protocol j{
 typealias E
 }
-struct c<m : j {
+struct c<m:j{
 {
-}
-{
-}
-enum f<m> : l {
+}enum f<m>:l{
 func d<m
-protocol l {
+protocol l{
 func d<m

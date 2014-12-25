@@ -5,6 +5,6 @@
 func a
 {
 }
-func a: CollectionType
-protocol P {
-func b<T : b
+func a:CollectionType
+protocol P{
+func b<T:b

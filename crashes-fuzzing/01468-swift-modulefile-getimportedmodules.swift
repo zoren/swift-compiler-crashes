@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 (
-[ [ ( ( (a
-class b<T where h: Any {
-typealias F = e!
+[[(((a
+class b<T where h:a{typealias F=e!

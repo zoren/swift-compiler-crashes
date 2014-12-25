@@ -3,10 +3,10 @@
 // Test case found by fuzzing
 
 {
-== [ == j> {
+==[==j> {
 }
 }
-class A {
-protocol c {
+class A{
+protocol c{
 func c
-typealias B : B
+typealias B:B

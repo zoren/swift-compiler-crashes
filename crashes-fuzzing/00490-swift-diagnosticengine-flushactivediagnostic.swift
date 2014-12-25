@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-{
-var d {
-let T> [ H
-}
-}
-struct S<T where g: AnyObject {
-var : A
+{var d{let T>[H}}struct S<T where g:a{var:A

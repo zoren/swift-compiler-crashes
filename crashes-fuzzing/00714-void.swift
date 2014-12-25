@@ -3,11 +3,4 @@
 // Test case found by fuzzing
 
 import Foundation
-struct Q<T where A: NSObject {
-{
-}
-{
-{
-}
-}
-var b: (
+struct Q<T where A:t{var b:(

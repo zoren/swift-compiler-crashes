@@ -2,15 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-println( )
-protocol A : P {
-protocol P {
-{
-{
-}
-}
-{
-{
-}
-}
-typealias e : e
+print()
+protocol A:P{
+protocol P{
+typealias e:e

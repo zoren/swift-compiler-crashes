@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 class d
-func b: Int
+func b:Int
 func b
-b = d {
+b=d{

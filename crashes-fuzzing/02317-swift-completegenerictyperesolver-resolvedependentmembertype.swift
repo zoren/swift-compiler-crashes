@@ -3,9 +3,5 @@
 // Test case found by fuzzing
 
 typealias F
-extension Array {
-let h> Int {
-}
-func x: T.Generator.h == D>(a()
-struct X.init<B == ".C() -> a {
-class a(mx
+extension Array{func x:T.a.h
+class b

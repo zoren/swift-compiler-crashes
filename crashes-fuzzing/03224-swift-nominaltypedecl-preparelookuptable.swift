@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-struct B<T where B : String {
-private let a : Int -> Bool
+if true{struct B<T where B:a{let a:Int->Bool

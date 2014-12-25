@@ -2,6 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let end = [ ]
-struct Q<T where h: T {
-var _ = a<b
+let a=[]
+struct Q<T where h:T{var _=a<b

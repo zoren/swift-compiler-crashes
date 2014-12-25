@@ -2,13 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-typealias e = Int
-var a {
+typealias e=Int
+var a{
+protocol d{
 {
 }
-protocol d {
-{
-}
-typealias f : f
-let : a
+typealias f:f
+let:a
 func a

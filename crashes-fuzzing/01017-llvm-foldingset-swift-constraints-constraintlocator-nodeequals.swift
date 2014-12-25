@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var : Int -> Int = {
+var:Int->Int={
 return $0
 }
-struct c {
-var : [c {
-{
+struct c{
+var:[c{
 }
-}
-protocol c : b { func b
+protocol c:b{func b

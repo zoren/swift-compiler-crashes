@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-println
+if true{
+print
 func g<T
 {
-struct c = { c( )
+struct c={c()

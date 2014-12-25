@@ -2,10 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import DummyModule
-class A {
+import a
+class A{
 {
-}
-}
-class A<T where f.f = T {
-deinit {
+}}class A<T where f.f=T{deinit{

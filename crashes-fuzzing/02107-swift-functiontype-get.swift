@@ -2,10 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-" "
-struct c {
-{
-}
-protocol c : a {
-}
-func a<T : a
+""
+struct c{protocol c:a func a<T:a

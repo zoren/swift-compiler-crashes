@@ -3,18 +3,8 @@
 // Test case found by fuzzing
 
 false
-func f<r {
-{
-{
-}
-{
-}
-}
-{ {
-}
-}
-class A {
-func a {
-let : String = {
-return self.a( )
-} ( )
+func f<r{class A{
+func a{
+let:String={
+return self.a()
+}()

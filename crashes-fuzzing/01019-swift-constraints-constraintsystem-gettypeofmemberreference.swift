@@ -2,23 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func e( ) -> {
+func>{
 {
 }
-class A {
-var f = A? {
+class A{
+var f=A?{}
+}func f<b:a{
 }
-let : ( ) -> {
-{
-a {
-{
+protocol a{{
 }
-}
-}
-func f<b: a {
-}
-protocol a {
-{
-}
-typealias f : a
+typealias f:a
 func a

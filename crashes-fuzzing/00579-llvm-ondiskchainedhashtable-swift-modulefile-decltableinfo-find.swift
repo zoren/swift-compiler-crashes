@@ -2,29 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func compose<U {
-class A {
-}
-{
-}
-return [ H {
-{
-}
-}
-= {
-}
--> {
-{
-}
-{
-{
-}
-{
-}
-}
-}
-{
-}
-{
-}
-class A : A
+func a<U{class A return[H{{}}={}class A:A

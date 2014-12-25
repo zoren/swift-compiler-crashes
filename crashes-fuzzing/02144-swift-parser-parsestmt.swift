@@ -2,20 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-{
-{ {
-}
-{
-}
-}
-func f{
-{
-{
-return
-}
-}
-}
-}
-protocol b {
-typealias B : d ==
-typealias d
+{{{}}func f{{{return}}}}protocol b{typealias B:d typealias d

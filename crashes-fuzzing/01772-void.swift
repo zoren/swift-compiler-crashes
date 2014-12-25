@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-struct B<A, T where T : B
-if c {
+struct B<A,T where T:B
+if c{
 }
 var b[B

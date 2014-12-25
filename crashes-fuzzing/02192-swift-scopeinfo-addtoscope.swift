@@ -2,14 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let : ( ) -> {
-func a {
-let end = B {
-{
-enum S
-}
-}
-}
-}
-struct B<T where A: Int {
-var d = (b
+let:{func a{let a={{enum S}}}}struct B<T where A:b{var d=(b

@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b( ) -> Any
-class i<l {
-deinit {
-class b {
+func b->Any
+class i<l{
+deinit{
+class b{
 }
-return b( )
+return b()

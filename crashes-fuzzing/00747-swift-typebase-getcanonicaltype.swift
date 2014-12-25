@@ -4,7 +4,7 @@
 
 import Foundation
 class c
-protocol P {
+protocol P{
 typealias d
-protocol d : b {
+protocol d:b{
 func b

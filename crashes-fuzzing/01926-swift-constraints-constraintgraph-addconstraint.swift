@@ -2,8 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<T where T : A
-}
-println( ) {
-}
-(f.dynamicType. ( A.c
+class A<T where T:A}print
+((A.c

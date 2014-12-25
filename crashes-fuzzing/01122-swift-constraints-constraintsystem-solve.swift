@@ -3,26 +3,10 @@
 // Test case found by fuzzing
 
 struct j
-func a< > ( ) -> [j<l> {
-return [ ]
-n {
-}
-{
-{
-}
-}
+func a<>->[j<l>{
+return[]
+class l{
+struct j{
 {
 }
-class l { { }
-{
-{
-}
-}
-{
-}
-{
-}
-struct j {
-{
-}
-protocol g : e { func e
+protocol g:e{func e

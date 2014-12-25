@@ -2,16 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-s {
-var : {
-" " {
-extension NSSet {
+s{
+var:{
+{
+extension b{
 {
 }
-func compose (
+func a(
 }
 }
 }
 }
-protocol a {
-func a<d: a
+protocol a{
+func a<d:a

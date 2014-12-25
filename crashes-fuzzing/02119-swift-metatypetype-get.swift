@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 Any
-struct A {
-struct A<T where f: a {
-var b = Swift.c {
+struct A{
+struct A<T where f:a{
+var b=t.c{

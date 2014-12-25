@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 class A
-let h = (x: A {
+let h=(A{
 }
-protocol C {
-func a<b: a
+protocol C{
+func a<b:a

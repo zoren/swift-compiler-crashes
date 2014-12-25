@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 protocol A
-typealias F = D
-var b = F>(g: A? {
+typealias F=D
+var b=F>(g:A?{

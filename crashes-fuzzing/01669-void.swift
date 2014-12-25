@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 import Foundation
-protocol b : A {
-typealias B : c, B
-protocol A : A
+protocol b:A{
+typealias B:c,B
+protocol A:A

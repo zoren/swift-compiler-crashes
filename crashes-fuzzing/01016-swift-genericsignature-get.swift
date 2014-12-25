@@ -3,13 +3,7 @@
 // Test case found by fuzzing
 
 <d
-class A {
-struct X {
-{
-{
-}
-{
-}
-}
-protocol a {
-typealias d: d
+class A{
+struct X{
+protocol a{
+typealias d:d

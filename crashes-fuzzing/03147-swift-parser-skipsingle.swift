@@ -2,14 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-case c,
-protocol c {
+protocol c{
 class
-case c,
-let start = a
+case,
+let
 {
 {
-(((f: a {
-(((f: a
-(((((((((((f: a
-C((((([Void{
+((({
+(((
+(((((((((((
+((((([a{

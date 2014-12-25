@@ -3,5 +3,4 @@
 // Test case found by fuzzing
 
 map
-struct Q<T where T: a {
-var : ( ( ) -> A
+struct Q<T where T:a{var:(()->A

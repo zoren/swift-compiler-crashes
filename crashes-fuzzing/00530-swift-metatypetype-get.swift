@@ -2,18 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C {
-{
+class C{{
 }
 static
-func c<g {
+func c<g{
 {
 }
-{
-{
-}
-}
-{
-}
-class d { { }
-struct d<c where g.i = c.i
+class d{{}
+struct d<c where g.i=c.i

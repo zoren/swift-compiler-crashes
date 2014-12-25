@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-> Any
-protocol c {
-typealias B : B
-var : [c
+>a
+protocol c{typealias B:B
+var:[c
 func c

@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<T where B : b
+class A<T where B:b
 protocol b
-typealias R = Swift (v: b( ) ->
-}
-"ab"A
+typealias R=a(v:b()}A

@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol C {
-typealias e : SequenceType {
+protocol C{
+typealias e:SequenceType{
 }
 typealias d
 func T
-typealias f : d
+typealias f:d

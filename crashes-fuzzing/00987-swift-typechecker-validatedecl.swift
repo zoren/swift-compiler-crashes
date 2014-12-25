@@ -2,14 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T {
-struct D : P {
-protocol P {
-{
-{
-}
-{
-}
-}
-init( )
-typealias e
+func f<T{struct D:P{protocol P{init()typealias e

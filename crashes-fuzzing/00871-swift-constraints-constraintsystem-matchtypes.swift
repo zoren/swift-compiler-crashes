@@ -2,20 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f< > : String
+func f<>:String
 func f
 import Foundation
 {
-( (v: NSObject {
-{
-{
-}
-{
-}
-}
+((v:NSObject{
 {
 {
 }
 }
-} ( )
-f = nil
+}f=nil

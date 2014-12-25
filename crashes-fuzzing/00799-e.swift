@@ -4,11 +4,5 @@
 
 protocol P
 protocol P
-protocol C {
-{
-}
-var b : P {
-}
-func b {
-}
-typealias d: b
+protocol C{{}var b:P{
+}func b{}typealias d:b

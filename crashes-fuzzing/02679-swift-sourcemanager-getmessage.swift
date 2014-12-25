@@ -3,9 +3,5 @@
 // Test case found by fuzzing
 
 {
-case c,
-{
-enum B : a<j : a<T where T: a
-{
-class
-case c,
+enum a{class
+case,

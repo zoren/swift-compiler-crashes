@@ -5,7 +5,7 @@
 import Foundation
 class A
 }
-extension NSSet {
-struct B {
+extension NSSet{
+struct B{
 }
-class B<I : NSObject
+class B<I:NSObject

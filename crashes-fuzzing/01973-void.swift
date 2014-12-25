@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class c {
-init( ) {
-class B : A
-class A : A
+class c{
+init(){
+class B:A
+class A:A

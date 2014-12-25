@@ -2,23 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-return ( ) {
-{
-{
-}
-{
-}
-}
-{
-{
-{
-}
-}
-}
-{
-{
-}
-var b>
-}
-}
-func g< > Void{
+return{{{{}}b}}func>Void{

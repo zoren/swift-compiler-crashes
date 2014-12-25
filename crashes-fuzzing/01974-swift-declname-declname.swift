@@ -2,7 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-(s: CollectionType
-func g<T {
-class b > {
-b( )
+(s:CollectionType
+func g<T{class b>{b()

@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<T where d: I {
-let end = B = A { }
-{
-}
-{
-}
-class A
+class d<T where d:I{let e=A class A

@@ -2,11 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-class A {
-var d = B
-}
-}
-}
-class A {
-func i<T : i
+func<{class A{var d=B}}}class A{func i<T:i

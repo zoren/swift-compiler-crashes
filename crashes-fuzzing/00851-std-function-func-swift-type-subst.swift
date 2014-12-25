@@ -3,14 +3,12 @@
 // Test case found by fuzzing
 
 protocol A
-protocol P {
-init( )
+protocol P{
+init()
 }
-protocol C {
-var f : A
+protocol C{var f:A
 }
-func compose<T
-{
+func a<T{
 {
 }
-class A : P
+class A:P

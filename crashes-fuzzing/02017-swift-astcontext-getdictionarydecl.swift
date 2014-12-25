@@ -4,8 +4,8 @@
 
 import CoreData
 extension NSSet
-struct D : A
-protocol A : c {
+struct D:A
+protocol A:c{
 {
 }
 func c

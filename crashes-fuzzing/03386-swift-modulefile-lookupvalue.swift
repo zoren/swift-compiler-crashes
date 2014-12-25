@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a : A {
-struct A<T where B : Int = []
-if true {
-struct A<T : A.c
+let A{struct A<T where B:a]if true{struct A<T:A.c

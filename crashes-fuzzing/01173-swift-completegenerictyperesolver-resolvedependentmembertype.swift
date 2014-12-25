@@ -2,14 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T> ( ) -> T -> T {
-return { x in {
-}
-{
-{
-}
-}
-struct A {
-{
-}
-init < > ( T.E = T )
+func f<T>->T->T{return{x in{{}}struct A{{}init(T.E)

@@ -4,13 +4,13 @@
 
 import CoreData
 extension NSSet
-protocol c : a {
+protocol c:a{
 func x
-protocol a {
+protocol a{
 {
 }
 {
 }
-protocol B : x {
+protocol B:x{
 }
-typealias e: B
+typealias e:B

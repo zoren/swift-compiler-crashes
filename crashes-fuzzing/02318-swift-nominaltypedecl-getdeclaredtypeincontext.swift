@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-{
-}
-class B<T where B : C {
-let start = B
-}
-class B
+class A{{}class B<T where B:C{let a=B}class B

@@ -3,13 +3,12 @@
 // Test case found by fuzzing
 
 struct B
-func g<b
-func b: S<H : a {
+func g
+{
 }
-func g: String {
+func g:String{
 }
-struct B<T where B : a {
-protocol d : Any, A? {
-return "[1)
+struct B<T where B:a{
+protocol a
 }
-func g<b: Any,
+func g<b:Any

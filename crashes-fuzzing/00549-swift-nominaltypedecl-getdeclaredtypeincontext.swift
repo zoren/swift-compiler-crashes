@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C<T where H : AnyObject {
-let c {
-typealias F = c
+class C<T where H:a{let c{typealias F=c

@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-( [ 1
-}
-let a {
-{
-}
-class A {
-func c<S : c
+([1}let a{class A{func c<S:c

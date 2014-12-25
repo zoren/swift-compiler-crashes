@@ -3,12 +3,8 @@
 // Test case found by fuzzing
 
 import CoreData
-let d>(g> [0.E == c()
-}
-let c {
-protocol A {
-func f<D> {
-enum b in return "
-class B {
-}
-typealias B : B,
+>([E=c()
+}let c{
+protocol A{
+func a
+typealias B:B

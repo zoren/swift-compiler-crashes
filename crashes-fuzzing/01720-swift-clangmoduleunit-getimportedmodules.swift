@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 import Foundation
-class A<T where d : X
-let : String = A? = A
+class A<T where d:X
+let:String=A?=A

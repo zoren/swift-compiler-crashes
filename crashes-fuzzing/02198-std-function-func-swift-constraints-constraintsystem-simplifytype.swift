@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 func f
-{
-f == {
+{f == {
 }
-protocol d {
-func a<j : c
-func c( (a
+protocol d{
+func a<j:c
+func c((a

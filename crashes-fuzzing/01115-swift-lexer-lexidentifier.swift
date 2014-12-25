@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b( ) {
-{
-{
-}
-}
-struct d<f , g where g = f.h {
-init( )
+func b{{{}}struct d<f,g where g=f.h{init()

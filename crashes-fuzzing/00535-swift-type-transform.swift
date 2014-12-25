@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func compose<T> : P {
-class A {
-{
-{
-}
-}
-let i: Int -> T.E
+func a<T>:P{class A{let i:Int->T.E

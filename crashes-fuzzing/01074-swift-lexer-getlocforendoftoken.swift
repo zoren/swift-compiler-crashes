@@ -2,5 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C<T where I.h : Any {
-func c( ) -> Self
+class C<T where I.h:y{func c()->Self

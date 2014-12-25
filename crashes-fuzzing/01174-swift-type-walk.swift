@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 import Foundation
-class d< > : NSObject
-}
-func h<d {
+class d:NSObject}
+func h<d{
 class b
-) {
-b {
+){
+b{

@@ -2,11 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func compose<H {
-{
-}
-{
-}
-struct c : P
-protocol P {
-init(b: H)
+func a<H{struct c:P
+protocol P{
+init()

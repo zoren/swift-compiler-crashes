@@ -2,4 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C<T where I.E = F> : AnyObject.h
+class C<T where a=F>:b

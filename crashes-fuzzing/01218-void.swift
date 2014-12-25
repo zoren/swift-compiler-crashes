@@ -3,15 +3,15 @@
 // Test case found by fuzzing
 
 import Foundation
-extension NSSet {
-init<T> (array: Array<T> )
-func n<p {
+extension NSSet{
+init<T>(array:Array<T>)
+func n<p{
 {
 }
-class k { func r { }
+class k{func r{}
 {
 }
-func r(e: ( {
+func r(e:({
 }
-class n {
-var _ = r
+class n{
+var _=r

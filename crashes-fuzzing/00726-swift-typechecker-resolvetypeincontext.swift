@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 class c
-protocol a {
-typealias d: d
+protocol a{typealias d:d
 typealias B
-func >
-enum B : c
+func>
+enum B:c

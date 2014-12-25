@@ -3,4 +3,4 @@
 // Test case found by fuzzing
 
 class
-case ,
+case,

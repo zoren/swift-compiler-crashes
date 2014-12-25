@@ -3,10 +3,5 @@
 // Test case found by fuzzing
 
 import Foundation
-let : Int -> {
-{
-}
-enum A : NSObject {
-{
-}
-case = 0
+let:{
+enum A:NSObject{case=0

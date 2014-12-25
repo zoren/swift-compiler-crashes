@@ -3,9 +3,4 @@
 // Test case found by fuzzing
 
 0
-protocol b : A {
-{
-}
-class A : a {
-}
-func a
+protocol b:A{class A:a{}func a
