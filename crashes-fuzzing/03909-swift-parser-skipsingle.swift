@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T where I.E == a<T where g: b { func a<T where I.E == a<T : b { func f: a {
+class B{func a{
 class
-case c,
+case,
 {
-(((((((_ = [[Void{
+((((((([[{
 {
-case c, U) {
+{
 (((((

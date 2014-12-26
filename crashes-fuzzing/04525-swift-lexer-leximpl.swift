@@ -3,14 +3,12 @@
 // Test case found by fuzzing
 
 {
-{
-class a<T>: T where A<T : d where H.e == 0.g : T where g: A {
-case c] = a
+{{
+case c=a
 }
 }
-protocol a {
-struct A<T>: A {
+protocol a{
+struct A{
 class
 case c,
-case c,
-fu
+case

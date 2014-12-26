@@ -2,16 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-{ func c,
-func a<T>: e
-{
-Void{
+{func a
 {
 {
-func a<T where g: d where H.c
 {
-var d = [Void{
-protocol a {
+{
+func d
+{
+var d=[{
+protocol a{
 class
 case c,
 {

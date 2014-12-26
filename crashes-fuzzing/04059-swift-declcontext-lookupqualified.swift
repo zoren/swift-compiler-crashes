@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<T where f: a {
-var b { func a<T
-if true {
-let a {
-A
+class d<T where f:a{var b{if true{let a{A

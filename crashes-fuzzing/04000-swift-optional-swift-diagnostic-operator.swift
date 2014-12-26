@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-let : d
-class d<T where g: String > :
+func<{
+let:d
+class d<T where g:a>:
 b let g
-class d: C
+class d:C

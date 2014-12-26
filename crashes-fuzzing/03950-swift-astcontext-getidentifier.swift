@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-C(((([Void{
-func f: B<T
+{
+func f:B<T
 class
 case c,
 case

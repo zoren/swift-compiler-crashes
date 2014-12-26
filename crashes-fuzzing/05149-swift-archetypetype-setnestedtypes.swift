@@ -3,10 +3,8 @@
 // Test case found by fuzzing
 
 {
-protocol c {
-let start = [Void{
-extension NSData {
-let start = [[Void{
+protocol a{
+let t=[[{
 class
 case c,
 case

@@ -2,7 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T : e : b: a {
-class a
-let f = """
-let i(f: a {
+func g<T{class a
+let f=""l(a{

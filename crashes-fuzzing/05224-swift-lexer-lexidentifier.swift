@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a() {
-class C<T where S.c : A? {
-private let a {
-var b = [Void{
-c
+func a{class C<T where a:A{let a{var b=[{c

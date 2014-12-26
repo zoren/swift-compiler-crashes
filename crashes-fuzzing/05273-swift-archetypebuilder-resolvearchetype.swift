@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<H : C {
-struct A : a {
-let c : B
-class B<T where H.h = T>: a<
+class d<H{
+struct A{let c:B
+class B<T where H.h=T

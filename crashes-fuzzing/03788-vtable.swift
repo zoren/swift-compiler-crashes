@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<d<T) {
-deinit {
-class A<T where I.d:b class A
-protocol A : A
+class d{deinit{
+class A<T where a:A
+protocol A:A

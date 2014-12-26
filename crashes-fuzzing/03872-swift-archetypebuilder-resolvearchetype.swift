@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol c : d: d = nil
-if true {
-let c {
+protocol c
+if true{
+{
 }
-class B<H : C {
-class d<T where H.h = c
+class B<H{
+class d<T where H.h=c

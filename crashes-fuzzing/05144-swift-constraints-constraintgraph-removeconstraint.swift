@@ -4,10 +4,9 @@
 
 {
 {
-}
-}
-(([Void{
-protocol a {
+}}
+(([{
+protocol a{
 class
 case c,
 case

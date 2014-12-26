@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-println() -> Any in
-protocol a {
+println()
+protocol a{
 func c(a!)
-protocol a {
-protocol A {
+protocol a{{
 }
-typealias B : B(T)
+typealias B:B

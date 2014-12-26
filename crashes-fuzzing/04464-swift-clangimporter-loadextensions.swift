@@ -2,10 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g: a {
-struct B<T>: a {
+func g{struct B{
 class C
-var d {
-class C<h: d where H.Generator.b : a {
-func a
-enum
+var d{
+class C<h where H.a.b:a{func b

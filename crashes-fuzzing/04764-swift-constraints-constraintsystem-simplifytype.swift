@@ -3,14 +3,8 @@
 // Test case found by fuzzing
 
 func a
-class A<H : A {
-func b<T -> {
-class B : A {
-var f = a<H : d where T : a {
-func a")
-class A {
+class A<H{
+func b<T{var f=a<H class A{
 func b
-var b = b: b: b<d {
-func a"\(a
-var f = b
-func b: T
+var f=b
+func b:T

@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a<T where H.g : A {
-static let a {
-([[[Void{
+class a<T where H.g:A{let a{([[[a{

@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let start = Int
-struct B<T : a {
-func a<T : b { func a<T where T: a<T : P {
+let a=Int
+struct B{
+func a{func a{
 {
 {
 {
 class
 case c,
 class
-([Voi
+(

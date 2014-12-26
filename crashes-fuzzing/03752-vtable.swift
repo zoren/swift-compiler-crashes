@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<T where T.e = e: A? {
-let a {
-func b<I : A? {
+struct S<T where a=e{let a{func b<I:A

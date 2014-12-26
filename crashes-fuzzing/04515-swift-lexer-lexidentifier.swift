@@ -3,25 +3,18 @@
 // Test case found by fuzzing
 
 {
-case c,
-[k<T>(Any) {
-struct B<h : A? {
-protocol A : a {
-if true {
-protocol h : d = ")
+struct B{
+protocol A{
 class
-case c,
-var e() {
-struct B<Int>(h:as b: S<Int>
-{
-for (Any) {
+case,
+var e(){
+({{
 {
 {
-[k<b)
-protocol A : T: a {
-struct S<T {
-protocol e = a() {
-struct d<f : a {
-class c : T.Generator.f.f(h(v: d where S(f.Generator.h() {
+[
 {
-protocol A : d
+{{
+{
+((((){
+{
+A:d

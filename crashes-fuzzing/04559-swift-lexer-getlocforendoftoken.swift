@@ -2,6 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-class a<T where H.e = e
+if true{class a<T where H.e=e
 func b(a

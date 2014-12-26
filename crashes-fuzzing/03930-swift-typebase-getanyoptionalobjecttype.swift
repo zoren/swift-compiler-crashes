@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A<T where f: a {
-private let b { func a<T
+struct A<T where f:a{let b{
 class b
-typealias e = [V
+typealias e=[V

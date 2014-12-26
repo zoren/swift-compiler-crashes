@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g: B<h: a {
-if true {
-struct S<T where T : B? {
-var d {
-let d: a
+func g{if true{struct S<T where T:B{var d{let:a

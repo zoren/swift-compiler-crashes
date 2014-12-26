@@ -2,15 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T : d {
-func b: S<T {
-println(false)
-enum b {
-func b> {
-return "[1)
-struct A {
-}
+class B<d{func b{print(false)enum b{
 func f
-struct d<T: a : a {
-let g = f
-proto
+struct d{let g=f

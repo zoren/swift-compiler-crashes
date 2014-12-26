@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-class A {
+if true{
+class A{
 enum B
-struct B<T where B : a {
+struct B<T where B:a{
 func j
 }
 protocol B

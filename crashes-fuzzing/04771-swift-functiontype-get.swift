@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-enum S<h: d where H.Generator.e = {
-struct A : NSObject {
-class a {
-protocol A : b<T: B? {
+if true{
+enum a{struct A{
+class a{protocol A{
 func c
-typealias b : b: e
+typealias b:b

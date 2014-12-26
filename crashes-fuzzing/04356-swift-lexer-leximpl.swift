@@ -2,12 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a() {
-struct B<T) {
-class C<T, A {
-struct A.e = Swift.c : Int -> Bool {
-for b in c(f: ("""""""""""
-struct A<b
-struct A<T where f: String {
-private let a {
-var b = Swift.e = e
+func a(){struct B{class C{struct A<T where f:b{let a{var b=a.e=e

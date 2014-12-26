@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-struct B<b: Int = {
-struct B<T where f: A : A {
-private let v: (
+if true{struct B{struct B<T where f:A{let v:(

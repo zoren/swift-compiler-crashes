@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import CoreData
-class A {
-struct Q<h {
-struct Q<T where h: T {
+class A{
+struct Q<h{
+struct Q<T where h:T{
 func p

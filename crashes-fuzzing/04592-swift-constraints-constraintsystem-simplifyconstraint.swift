@@ -2,23 +2,17 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let g = 1)
-class b<T : a {
-protocol c : a {
+let g=1
+class b{
+protocol c{
 {
-return "[1]]
-enum b {
-class b: b : b: P {
-return "[1]
 }
-struct A {
-let a {
-init<T : S<T {
-}
-init<T where I.b : b> {
-class B<d {
-var _ = compose(x: A.b {
-if true {
+struct A{
+let a{
+init{
+class B{
+var _=a({
+if b{
 class
 case c,
 case

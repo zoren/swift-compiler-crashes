@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 []
-struct A {
-func b<T : b { e) -> c {
-Void{
-struct A {
+struct A{
+func a{{{
+struct A{
 class
 case c,
 0

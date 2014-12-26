@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A {
+struct A{
 func a
-func a<I : Any)?
+func a<I:Any
 }
 Void{

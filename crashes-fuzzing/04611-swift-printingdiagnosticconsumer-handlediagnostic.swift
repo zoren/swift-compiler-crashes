@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-struct B<H : S<b<Int>
-struct S<T where B : BooleanType)
-class a : S
+if true{
+struct B<a
+struct S<T where B:b
+class a:S

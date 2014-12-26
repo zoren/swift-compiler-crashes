@@ -2,17 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a {
-deinit {
-{
-{
-{
-}
-}
-}
-protocol g {
-var b: (
+class a{
+deinit{protocol g{
+var b:(
 }
 struct B
-struct B<T where B : String {
-class B<T where g: A
+struct B<T where B:a{
+class B<T where g:A

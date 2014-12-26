@@ -2,7 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T) {
-extension g<b class A {
-let end = a
-func a<T : A
+func f<T{class A{let e=a
+func a<T:A

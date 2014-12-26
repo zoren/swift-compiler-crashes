@@ -4,6 +4,6 @@
 
 func a
 {
-protocol e : d
+protocol e:d
 func b
 Void{

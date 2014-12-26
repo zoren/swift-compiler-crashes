@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<b: String {
-class A {
-class C<T where S.c : a {
-private let v: (
+struct B<b:String{class A{class C<T where a:a{let v:(

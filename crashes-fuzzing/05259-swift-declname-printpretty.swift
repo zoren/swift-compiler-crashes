@@ -2,10 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-class C<h : NSObject {
-class a {
-struct B? {
-class B<T where g: d = ")
-struct B<T : T where H.Generator.Generator.h : H.Generator.E == compose() {
-enum S
+if true{
+class a{
+struct B
+struct B<T where H.a.a.h:H{enum S

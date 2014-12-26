@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-var b = a
+class A{var b=a
 class a
-func i() -> {
-class B<T where T : T>: B
+func i(){class B<T where T:T>:B

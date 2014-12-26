@@ -2,11 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T where f.h> {
-let c : String = [Void{
-}
-class C<T) {
-}
-enum A {
-protocol A : a {
-func a
+func a{let:a=[{}class a{protocol A:a{func a

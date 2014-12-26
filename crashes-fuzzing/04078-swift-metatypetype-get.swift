@@ -2,23 +2,20 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-: A? {
-if true {
-for (Any) {
-struct d<T: C {
+{
+if a{
+for(b){
+struct d{
 protocol a
 {
-var e(h() {
-protocol A : d = ")
-struct B<b: S<h : a {
-struct d<b: AnyObject) {
-protocol e : j { func a
-class c : a {
-var e: j { func j
-var e(f.e : AnyObject) {
+struct B{
+struct d{
+protocol e{
+class c{
+var:{{
 func a
 {
-func a(Any) {
+func a(){
 class
 case c,
 var d

@@ -2,7 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class b: a {
-class func a
-class a<T where T : e : NSObject {
-func i
+class b:a{func a
+class a<T where T:Nc{func i

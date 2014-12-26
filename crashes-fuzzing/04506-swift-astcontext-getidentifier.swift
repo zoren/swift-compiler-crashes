@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 {
-func f: B<f : a<T where T
+func f:B<T
 class
 case c,
 case

@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<C
-struct B<T where I.Generator.Generator.h : b: A? {
-protocol a
+class B<struct B<T where I.a.b.h:A{protocol a

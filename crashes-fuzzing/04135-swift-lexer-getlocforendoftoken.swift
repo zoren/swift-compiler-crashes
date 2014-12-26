@@ -2,18 +2,17 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a {
-let t: P
-case c,
-protocol P {
-typealias e : e : e
-struct A : C {
-class a {
-struct S<T : NSObject {
-let i: c {
-class a {
-struct A {
-let t: c {
-class a {
-protocol A {
-func g: e :
+class a{
+let:P
+protocol P{
+typealias e:e
+struct A{
+class a{
+struct a{
+let:{
+class a{
+struct A{
+let:{
+class a{
+protocol A{
+func

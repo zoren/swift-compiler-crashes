@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-private let a : a {
-private let v: (""""""""""
-class C<T where B : a = {
-typealias e = c
+if true{let:{class C<T where B:a{typealias e=c

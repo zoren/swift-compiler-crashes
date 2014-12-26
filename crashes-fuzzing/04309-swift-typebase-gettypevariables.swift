@@ -3,9 +3,4 @@
 // Test case found by fuzzing
 
 []
-struct A<T where f: T where B : a {
-[Void{
-func a("""""
-let v: (f: A<T where f: T, AnyObject
-protocol c : T
-pro
+struct A<T where f:T{let:(a

@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 []
-struct A<h : String {
-struct A {
-class C<T where S.c : T : A {
-typealias e = c
+struct A{struct A{
+class C<T where T:A{
+typealias e=c
