@@ -1,0 +1,10 @@
+0   swift         0x0000000108dec6b4 swift::irgen::reemitAsUnsubstituted(swift::irgen::IRGenFunction&, swift::SILType, swift::SILType, llvm::ArrayRef<swift::Substitution>, swift::irgen::Explosion&, swift::irgen::Explosion&) + 196
+1   swift         0x0000000108e37028 emitApplyArgument((anonymous namespace)::IRGenSILFunction&, swift::SILValue, swift::SILParameterInfo, llvm::ArrayRef<swift::Substitution>, swift::irgen::Explosion&) + 456
+2   swift         0x0000000108e340ad swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 34605
+3   swift         0x0000000108e2ad3b swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9179
+4   swift         0x0000000108da4447 swift::irgen::IRGenModule::emitLazyDefinitions() + 199
+5   swift         0x0000000108e17af6 performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2038
+6   swift         0x0000000108e18473 swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+7   swift         0x0000000108d6d6f4 frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5444
+8   swift         0x0000000108d6aa6d main + 1677
+9   libdyld.dylib 0x00007fff8a5425c9 start + 1

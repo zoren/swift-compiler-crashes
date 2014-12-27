@@ -42,7 +42,7 @@ $ ./test.sh
 Running tests against: swift-600.0.56.1 (Swift 1.1)
 Using Xcode found at path: /Applications/Xcode.app/Contents/Developer/
 Usage: ./test.sh [-v] [-q] [-c<columns>] [-l] [file ...]
-Adding a new test case? The crash id to use for the next test case is 22775.
+Adding a new test case? The crash id to use for the next test case is 22777.
 
 == Currently known crashes, set #1 (human reported crashes - i.e. non-fuzzing generated) ==
 
