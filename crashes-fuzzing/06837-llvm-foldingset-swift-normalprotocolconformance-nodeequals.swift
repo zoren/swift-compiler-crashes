@@ -3,10 +3,7 @@
 // Test case found by fuzzing
 
 0
-protocol a {
-class A>() {
-func a")
-class A : e
-typealias e : A {
-init(A.a")
-var b : a {
+protocol a{
+class A:e
+typealias e:A
+var b:a

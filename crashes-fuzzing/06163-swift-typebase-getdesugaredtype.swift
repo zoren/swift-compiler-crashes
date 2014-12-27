@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T where I.b : e: A? {
-enum a<T where T>: a {
-class B<T where T: A : a {
-let v: I
+func a{enum a:a{class B<T where T:a{let:I

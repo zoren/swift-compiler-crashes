@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 1
-struct S<T where T.B == e: a {
-struct S<T where g: d where g:
+struct S<T where T=a{
+struct S<T where g:g

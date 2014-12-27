@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<d where g: B
-Void{
-class A {
-class a<T : b
-var b = a()
+class A{
+class a<T:b
+var b=a()

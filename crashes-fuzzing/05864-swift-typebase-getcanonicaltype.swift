@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import CoreData
-func b<d {
+func b<d{
 class A
 struct c
-for in c( )
+for in c()

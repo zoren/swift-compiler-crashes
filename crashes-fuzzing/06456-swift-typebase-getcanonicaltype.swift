@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 [0
-func g<I : b<d : c<C) {
-struct g<T where B : a {
-let f = c<T
+func<{struct g<T where B:a{
+let f=c<T

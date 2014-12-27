@@ -2,5 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<T where T.B == B<T>
-class B<T where T.B == B<T>
+func b<T where T=B>class B<T where T=B<T>

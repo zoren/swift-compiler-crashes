@@ -2,12 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<T where S<Int>() {
-private let b class a {
-typealias F = c(a<T {
-return "[1)
-class c {
-}
-}
-struct A<T where f: T where f<T) {
-let b : b
+struct S<S{class a{
+typealias F=c
+class c
+}struct A<T where f:T{
+let:b

@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T where g: Int {
-typealias b> {
-"
-var d {
-struct S<T) {
-protocol A : Array<T.init() {
-assert()
+class B<T where g:b{var d{struct S{init(){a

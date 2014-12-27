@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b() {
-class c<T where g: c<T : c<T where T where g: B? = f {
-var f : c: c<T where g: e : e = 1)
-struct d<T where g: e = f {
-class d<I : P {}
+func b(){class c<a{var f:c)struct d<T where g:e{class d<I:P

@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<T where T: d = c<T where T.e : A? {
-let a {
+struct c<T where T:d{
+let a{
 struct c
-let end = c<T>
+let a=c<T>

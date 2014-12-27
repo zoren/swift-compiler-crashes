@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-struct c<T where T>: P {
-protocol b : b
+if true{
+struct c<e{
+protocol b:b
 func b
-class A {
-class B<T where T.b : A {
-let v: P {
+class A{
+class B<T where a:A{
+let:P

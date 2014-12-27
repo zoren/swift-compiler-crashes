@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A : NSObject {
-class B : c
-class b<T where h: NSObject {
-var d {
-var f : B?
+struct A{
+class c
+class b<T where h:a{var d{
+var:B?

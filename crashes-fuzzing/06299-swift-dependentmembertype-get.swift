@@ -3,10 +3,7 @@
 // Test case found by fuzzing
 
 1
-protocol a {
-let c : A>(([1
-protocol a")
-var b = f {
-}
-class A : e
-typealias e : e where
+protocol a{
+let c:A
+class A:e
+typealias e:e

@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var f : a {
-class a<T, A : a {
+var:{
+struct d<T where g:d{
 }
-struct d<T where g: d = b() {
-}
-class a<I : P {}
-protocol A {
+class a<I{}
+protocol A{
 class c
-struct c: d = D>)
+struct c:d

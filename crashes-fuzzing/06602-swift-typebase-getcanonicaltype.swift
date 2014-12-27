@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 1
-protocol A : AnyObject, b {
-typealias b {
-:c<Int>(")
-var e, b : b
+protocol A:AnyObject,b{
+typealias b
+var e,b:b

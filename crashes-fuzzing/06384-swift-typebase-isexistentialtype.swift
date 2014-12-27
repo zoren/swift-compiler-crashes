@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class c { class a : a {
-func g: S<f : B
-class a {
-f(""[1)
-}(""")
-func g: B<Int>
-func b<T {
-struct B<T where h: e = 0) {
-struct S<T : Any, A
+class c{class a:a{
+func g
+class a{
+func g:B
+func b{
+struct B<T where h:e{
+struct S<T:b

@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let t: a {
-struct S<T: BooleanType, A {
-let f = "\(f: Int -> () -> U)"
+let a{struct S{let f="\(f:Int)"

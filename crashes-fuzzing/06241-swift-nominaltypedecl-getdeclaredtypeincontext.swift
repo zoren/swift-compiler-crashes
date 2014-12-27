@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T where T.e : A? {
-let a {
-protocol P {
-func b<T where T where T>
-typealias e = [Void>() { }
-func b<T : e
+class B<T where a:A{let a{protocol P{func b<typealias e=a{}func b<T:e

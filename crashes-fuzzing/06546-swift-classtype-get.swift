@@ -2,16 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
-class B<A {
-class a {
-class b {
+let a{
+class B<A{
+class a{
+class b{
 {
 }
-struct B {
-{
-}
-class b {
+struct B{
+{}class b{
 enum b
-class d<T where T : b {
-typealias e = c
+class d<T where T:b{
+typealias e=c

@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T where B : a {
-if true {
-struct B<T : T where T: a : e = compose<Int>
-class func a<b: AnyObject) {
-class b: B<Int>
-t
+func<{if true{struct B<T where T:b func a{class b:B

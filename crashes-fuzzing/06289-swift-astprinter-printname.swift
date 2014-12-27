@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-func f<T where g: NSObject {
+func f<T{
 [Byte][0
-struct S<d {
-func p(T.B : Int ->
+struct S{
+func p(T.B

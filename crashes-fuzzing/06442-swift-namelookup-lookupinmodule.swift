@@ -2,16 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var f : a {
-struct S<T where h: S(""[1)
-return ")
+var f{struct S<T where h:S
 func a
-f(d: S(v: Any, A>) {
-let f = A>) {
-func g<T where B : AnyObject) {
-}
-}
-switch x }
-var f = compose<Int>
-}()
-prot
+f(S(){}
+var f=a<Int>

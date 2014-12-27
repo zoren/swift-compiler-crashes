@@ -2,14 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<T where g: BooleanType, A {
-class c<d where g: a {
-protocol P {
-}
-struct A : a {
-typealias e {
-}
-typealias e {
-}
-class a {
-let f = [Void{
+struct S<T where g:A{class c<d where g:a{{}struct A{{}{}class a{let f={

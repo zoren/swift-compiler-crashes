@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<H : A {
-class A {
-class B : A: A {
-")
-class B<T where T -> {
-class B<I : T>(x)
-struct B<T where T where T : T> : T :
+func a<A{class A{class B:A:class B<T{class B<struct B:T

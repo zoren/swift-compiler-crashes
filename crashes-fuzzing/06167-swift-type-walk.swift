@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<T where H.h = c : a<H : T: NSObject {
-let c {
-if true {
-struct A {
-func a<U : B
+class d<T where b=a{let c{if true{struct A{func a<U:B

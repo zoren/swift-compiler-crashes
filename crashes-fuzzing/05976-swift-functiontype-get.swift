@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-println())"\() { p
-func b<T.b<T.b<f {
-class A {
-struct d<T where T.B : NSObject {
-var d : e
+println
+func b{
+class A{
+struct d<T where a:t{
+var:e

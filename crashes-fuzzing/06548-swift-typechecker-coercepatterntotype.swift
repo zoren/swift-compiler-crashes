@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<T.B == {
-class B? {
-class A : c<("
-struct S<T where g: Int -> U)"
-va d<I : NSManagedObject {
-let a {
-[Byte][Byte][0
+struct S{class B{struct S<T where g:b{let a{[a[][

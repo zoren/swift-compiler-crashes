@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-"cd"cd"
-let a {
-assert(n: e : d {
-"
-struct d<T where B : e!.E == f : NSObject {
-var b = F
-func a:
+""let a{struct d<T where B:a{var b=F

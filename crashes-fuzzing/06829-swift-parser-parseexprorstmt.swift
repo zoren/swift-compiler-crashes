@@ -2,11 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var d {
-protocol A : Int {
-}
-struct d<T where g.h == j> {
-let c {
-var d = a()
-let d: Int {
-p
+var d{{}struct d<T where a=j{let c{var d=a()let d{p

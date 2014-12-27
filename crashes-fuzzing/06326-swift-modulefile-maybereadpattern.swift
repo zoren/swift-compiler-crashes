@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d: A {
-var f = b: T
-var f = a<H : T>(x)
+class d{var f=b:var f=a<
 func b
-let a {
-class A {
-class d: A<H : A.a<T where T where T : A {
-protocol A {
-typealias e : e
+let a{
+class A{
+class d{
+protocol A{
+typealias e:e

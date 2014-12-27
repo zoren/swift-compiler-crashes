@@ -2,18 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<D> {
-class c {
-}
-class c {
-}
-extension A? {
-S<D> {
-protocol b : a {
-}
-}
-}
-for c {
-}
-}
-struct S<Int>
+func c<D{class c{}{S{{}}}for c{}}struct S<a

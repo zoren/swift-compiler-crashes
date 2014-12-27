@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<I : T: c: c: a<T>: f { func f
-func f: C {
-struct g: f { func f: a {
-class d<I : e where H.h : a {
-let i: C {
+class B<I{func f{struct g:f{func f:a{class d<I where h:a{let:C

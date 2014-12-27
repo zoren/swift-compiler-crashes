@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A {
-struct c<b
-private let a = c
-struct c(f: T where f: A<T where f: b in c
-class d<h : ("
-class A {
-struct A<T where f: Int = Swift.e = {
-struct A<T : Int
+struct A{
+struct c
+let a=c
+struct c
+class A{
+struct A<T where f:a{
+struct A<T:a

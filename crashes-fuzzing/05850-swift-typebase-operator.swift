@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a {
-deinit {
-struct A<T where f: a {
-typealias b = S
+class a{deinit{struct A<T where f:a{typealias b=S

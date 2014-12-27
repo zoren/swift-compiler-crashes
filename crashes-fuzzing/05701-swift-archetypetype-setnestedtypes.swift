@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 {
-if true {
+if a{
 {
-if true {
+if t{
 class
 case c,
 case

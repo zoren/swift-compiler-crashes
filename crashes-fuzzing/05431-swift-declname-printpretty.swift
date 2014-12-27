@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T where B == a: Int {
-let d: NSObject {
-assert(n: B<T
+class B<T where B=a{let d:a{(B<T

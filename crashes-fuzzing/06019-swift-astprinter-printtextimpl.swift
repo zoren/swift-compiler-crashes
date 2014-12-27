@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T {
-let g = a<T C {
+func a<T{
+let g=a<T C{
 }
-{
-}
-protocol b : f.b {
+protocol b:f.b{
 typealias f
-var b: T
+var b:T

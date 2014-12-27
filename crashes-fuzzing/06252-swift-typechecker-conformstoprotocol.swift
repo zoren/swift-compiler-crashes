@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<h == B<h : e where S<T -> {
-init() {
-protocol b = b) {
-}
-enum S<T where S.h : T> : T> : T whe
+enum S{init(){enum S<T where S:T>:T

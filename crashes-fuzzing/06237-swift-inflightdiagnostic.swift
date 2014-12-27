@@ -2,18 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol B : A {
-class A {
-}
-func a<H : e = b
+protocol B{func a<H:e
 func c
-typealias e = b
-if true {
-typealias e = F>(")
+typealias e=b
 func c
-<T : c {
+<T:c{
 }
 func b
-let t: a {
-}
-enum b { func
+enum b

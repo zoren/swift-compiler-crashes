@@ -3,13 +3,10 @@
 // Test case found by fuzzing
 
 import Foundation
-class B : NSObject {
-struct S<T where h: NSObject {
-let a {
-class n {
-struct A {
+class B:NSObject
+struct S<T where h:a{
+let a{
+{
 }
-}
-var f {
-let i: A {
-fu
+var f{
+let:A

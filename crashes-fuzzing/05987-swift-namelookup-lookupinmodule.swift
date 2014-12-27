@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol c {
-if true {
-protocol c : String = T: e : c: A")
-let g: c
-protocol c {
-struct A : d where T: B
-let d: T>: e)
-protocol A : f { func f.h :
+protocol a{
+let:c
+protocol c{
+struct A:d
+let d:T
+protocol A:f{func f

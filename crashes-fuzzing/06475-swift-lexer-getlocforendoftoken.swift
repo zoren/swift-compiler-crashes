@@ -2,9 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let i {
-struct c {
-func c
-struct c<d where I.j: Array {
-var b {
-func f: A
+let i{
+struct c{func c
+struct c<d where I.j:a{var b{func f:A

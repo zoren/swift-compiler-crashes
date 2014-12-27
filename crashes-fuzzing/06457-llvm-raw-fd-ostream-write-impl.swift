@@ -2,20 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-e {
-extension g<T where T : A {
-enum A {
-let a {
-func c() {
+extension g{
+enum A{
+{
+{
 }
 }
-struct g: a {
-class a {
-func c<d where T : e {
-deinit {
-}
-}
-protocol P {
+struct a{
+class a{
+protocol P{
 class
-case c,
-()
+case,

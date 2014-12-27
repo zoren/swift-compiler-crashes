@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<e) { e
-let a {
-class B<T where T: T.Element == B
-let end = e: e
-protocol A : B
+class e
+let a{
+class B<T where T:a
+let b=e protocol A:B

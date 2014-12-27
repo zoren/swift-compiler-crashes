@@ -2,14 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-override func c<f {
+func<{
 1
-struct d: NSObject {
-var d {
-}
-struct d: a {
-override func c<T where T) {
-}
-class d: B<T.E == j> {
-struct Q<T where g.B == j> {
-struct Q<T : a
+struct d{
+struct a{
+class b{
+struct Q<T where a=j{
+struct Q<T:a

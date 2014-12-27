@@ -2,16 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let t: f.c {
-extension NSData {
+let:{{
 }
-protocol c : A {
-extension NSData {
+protocol c:A{
+protocol A{
+struct B
 }
-protocol A {
-struct B, leng
-}
-let t: b { func a<T : b {
-return "
-typealias f = B, leng
-func b<H : f
+let:b
+typealias f=B
+func b<H:f

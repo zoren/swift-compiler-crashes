@@ -3,20 +3,8 @@
 // Test case found by fuzzing
 
 []
-class c : a {
-protocol A : e where g.b: A : A? {
-S(f(v: d = ")
-protocol A {
-func a<b: S(v: C {
-var e(")
-class B : A? {
-func c<f : A {
-}
-}
-let a {
-}
-protocol c {
-}
-typealias b: e where g: a {
-func a<D> Void>(")
-var e, g: a
+class c{
+protocol A
+protocol A{
+func a typealias b:e
+var e:a

@@ -2,14 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a {
-deinit {
-[ ]
-protocol A {
-protocol A {
+class a{deinit{[]
+protocol A{protocol A{
 typealias b
-typealias A : b
-{
+:b{
 }
 }
 class A

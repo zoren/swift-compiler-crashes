@@ -2,19 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where g<T where T: C {
+struct B{
 func e
-func g<T {
-protocol A {
-protocol A {
-}
-var f = 0) {
-f("
-}())))
-var f = e()
-class a {
-protocol d : a : e {
-return """)
-struct S<T where h: C {
-typealias e = e
-cl
+func g{
+var f=e()
+class a{
+struct S<T where h:C{
+typealias e=e

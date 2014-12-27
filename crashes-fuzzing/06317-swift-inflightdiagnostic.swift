@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 func a
-class a {
-struct B<T where B : a {
+class a{
+struct B<T where B:a{
 }
-struct B<T where B : T {
-var f : BooleanType
+struct B<T where B:T{
+var f:a

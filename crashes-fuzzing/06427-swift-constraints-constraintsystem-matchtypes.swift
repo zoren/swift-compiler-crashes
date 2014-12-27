@@ -2,12 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<T: U : A : c<f {
-struct A {
-let start = f : A {
-}
-func f<d {
-struct c<T where g: NSObject {
-let start = r("
-let a {
-class
+func f{struct A{let b=f:func f{struct c<T where g:a{let c=(let a{

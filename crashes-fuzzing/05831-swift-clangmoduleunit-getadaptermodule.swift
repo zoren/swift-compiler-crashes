@@ -3,10 +3,7 @@
 // Test case found by fuzzing
 
 import Foundation
-var f {
-struct S<T where g: e {
-[Byte][Byte][Byte][0
-func e())"\(f: e<() { p(f: NSObject {
-var f {
-var f = r(f<T
-enum e
+var f{
+struct S<T where g:e{
+var f{
+var f=(f<T

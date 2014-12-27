@@ -2,9 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f: A {
-class A<T: d where g: d where e: A {
-}
-func f: T>
-class d<T: a {
-func c: A {
+func a{class A<T:where g:d
+func f:T
+class d<T{func c:A{

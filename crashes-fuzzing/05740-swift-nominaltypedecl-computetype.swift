@@ -3,11 +3,10 @@
 // Test case found by fuzzing
 
 {
-case c,
+case
 {
-if true {
-((((f: B
-i> Void{
+if a{
+(((({
 class
 case c,
 case

@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class b<T {
-struct S<T where S<Int>: T>: T {
-var f : b
-}
-class func b: T
+class b<T{struct S<T where S<t>:T{var f:b}class func b:T

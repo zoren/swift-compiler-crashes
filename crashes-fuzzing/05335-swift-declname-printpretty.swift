@@ -2,14 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<d where h: a {
-let c {
-protocol A : b
-func a<H : f {
+struct B<d where h:a{
+let c{
+protocol A:b
+func a<H:f{
 }
 {
-{
-{
+{{
 }
 }
 }

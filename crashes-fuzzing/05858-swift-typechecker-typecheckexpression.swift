@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol b : a {
-typealias b : b.c() {
-}
-}
-let b = [Void{
+protocol b{typealias b:b{}}let b=Void{

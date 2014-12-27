@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 import Foundation
-enum e {
-func f: NSObject {
-class A : NSObject {
-struct S<T where g: NSObject {
-let a {
-func p() { p(f<T
+func f{
+class A:NSObject
+struct S<T where g:t{
+let a{
+func p(){(f<T

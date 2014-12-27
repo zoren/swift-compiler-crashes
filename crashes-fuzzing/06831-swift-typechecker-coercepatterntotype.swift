@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<T where h: e {
-var f = r("\()
-class n {
-func f: T.B
+func b<T{var f=(class n{func f:T.B

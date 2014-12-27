@@ -2,12 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T where B {
-class A {
-protocol A : b: d {
-"\() -> {
+class B<B{
+class A{
+protocol A:b
 func b
-var d {
-enum a<T where B {
-struct d<T where T.b : A? {
-let g = f
+var d{
+enum a{
+struct d<T where a:A{
+let g=f

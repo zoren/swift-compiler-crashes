@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 {
-struct Q<T : e {
-let t: C {
-protocol A {
+struct Q{
+let:{
+protocol A{
 class
 case c,
 case

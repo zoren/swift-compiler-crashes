@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<T, g = B<I : e
-struct c
-let a {
-let end = c
-class B<T where g: e) { e) -> c { }
-typealias e = c<T>
-cla
+let a{class B<T where g:e{typealias e=c

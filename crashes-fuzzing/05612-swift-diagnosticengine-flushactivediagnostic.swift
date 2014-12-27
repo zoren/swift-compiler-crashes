@@ -2,5 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<T where T: d<T>: (e : Any)?
-protocol c {
+class d<T where T:d<T>protocol c{

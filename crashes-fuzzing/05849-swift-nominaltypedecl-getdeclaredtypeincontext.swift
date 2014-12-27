@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a<T where T : a() { p
-{
-}
-class A<T where T : a
+class a<T where T:a{{}class A<T where T:a

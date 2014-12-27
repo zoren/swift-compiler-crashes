@@ -2,17 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d: NSObject {
-let start = 0
-protocol A : d {
+struct d{
+let a=0
+d{
 }
-va d: Int {
-"
-var d {
-}
-enum S<f : d = j> {
-struct Q<d {
-func c<T where B : e where B == f : c<T : e : NSObject {
-}
-class B<d where g: d {
-protocol C {
+enum S{
+struct Q{
+func c<T where B:e
+class B<d where g:d{protocol C

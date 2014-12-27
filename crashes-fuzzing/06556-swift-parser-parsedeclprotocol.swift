@@ -2,15 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-class B<I : A {
-let a {
-func b: A {
-class A {
-class A {
-protocol C {
+class A{
+class B{
+let a{
+func b{
+class A{
+class A{
+protocol C{
 func b
-typealias e : b
-class A {
-let a = b> {
-protocol B {
+typealias e:b
+class A{
+let a={
+protocol

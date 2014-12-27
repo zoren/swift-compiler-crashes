@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
-protocol A : B<T>() { }
-class B<T where T: B<T>
+let a{protocol A:B{}class B<T where T:B<T>

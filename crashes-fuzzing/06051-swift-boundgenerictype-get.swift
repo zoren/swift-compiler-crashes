@@ -2,17 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-func h: T.E == F>
-func f<T {
-enum k : h { func a
+if true{
+==F>
+func f<T{
+{
 }
-class A {
-class A {
-protocol c : h { func j
+class A{
+class A{
+{
 }
-if true {
-func g: a"
-struct B<T where g: b {
-}
-func g: T.E ==
+struct B<T where g:b
+func g:T.E

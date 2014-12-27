@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g: A<T : A {
+func A<T{
 []
-struct B<A? = {
-private let b { func b: a : a
 struct c
-var b = c() -> V {
+var b=c()

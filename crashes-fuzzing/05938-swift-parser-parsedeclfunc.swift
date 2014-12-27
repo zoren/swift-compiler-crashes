@@ -2,40 +2,26 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<T : b {
-extension NSData {
+func b{{
 }
-enum b { func b
-enum b { func a
-typealias e {
-func a")
-enum b {
-protocol c {
-typealias f = c
-class A {
-}
-protocol c {
-protocol c : a {
+enum b{
+enum b{enum b{
+protocol c{
+typealias f=c
+protocol c{
+protocol c:a{
 func a
-enum B : b { func b
-class A {
-func a<d {
-extension NSData {
+enum B{
+class A{
+{
+{
 }
-}
-extension NSData {
+}extension a{
 func b
-<d {
-protocol B : b { func c
-protocol P {
+{
+{
+{
 }
-protocol B : A {
-}
-enum b {
-if true {
-func a")
-protocol P {
-}
-let t: A {
-class A {
-func b<d
+let A{
+class A{
+func b

@@ -2,14 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-var _ = B<d {
-}
+if true{
 []
-func b<T : b { func b
-}
-protocol B : A.a<d {
-protocol e : b { func b
-}
+protocol B{
 func a
-typealias e : a {
+typealias e:a

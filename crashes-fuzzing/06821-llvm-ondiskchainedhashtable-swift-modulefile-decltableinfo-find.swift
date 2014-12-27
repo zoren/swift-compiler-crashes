@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<T where T.B == c<D> Void{
-let a {
-let end = e
+struct c<T where T=c<D>{let a{let a=e
