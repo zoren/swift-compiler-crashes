@@ -2,10 +2,10 @@
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1192
 6  swift                    (anonymous namespace)::PreCheckExpression::walkToExprPre(swift::Expr*) + 125
-7  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1635
-8  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1935
-9  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 2099
-10 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 2099
+7  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 2079
+8  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 2099
+9  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1655
+10 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1935
 11 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
 12 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 153
 13 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 554

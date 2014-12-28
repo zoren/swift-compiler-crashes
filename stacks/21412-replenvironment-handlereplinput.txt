@@ -1,4 +1,4 @@
-3  swift                    swift::SILCombiner::visitUncheckedAddrCastInst(swift::UncheckedAddrCastInst*) + 1061
+3  swift                    IRGenImportedModules(swift::CompilerInstance&, llvm::Module&, llvm::SmallPtrSet<swift::Module*, 8u>&, llvm::SmallVectorImpl<llvm::Function*>&, swift::IRGenOptions&, swift::SILOptions const&, bool) + 2181
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6103

@@ -1,4 +1,4 @@
-3  swift                    swift::SILDeserializer::getBBForDefinition(swift::SILFunction*, unsigned int) + 287
+3  swift                    swift::SILDeserializer::readSILInstruction(swift::SILFunction*, swift::SILBasicBlock*, unsigned int, llvm::SmallVectorImpl<unsigned long long>&) + 12031
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 228
 5  swift                    swift::NominalTypeDecl::computeType() + 29
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 865

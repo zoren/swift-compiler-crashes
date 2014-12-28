@@ -33,7 +33,7 @@
 35 swift                    std::__1::__function::__func<swift::Parser::parseExprList(swift::tok, swift::tok)::$_0, std::__1::allocator<swift::Parser::parseExprList(swift::tok, swift::tok)::$_0>, swift::ParserStatus ()>::operator()() + 461
 36 swift                    swift::Parser::parseList(swift::tok, swift::SourceLoc, swift::SourceLoc&, swift::tok, bool, bool, swift::Diag<>, std::__1::function<swift::ParserStatus ()>) + 465
 37 swift                    swift::Parser::parseExprList(swift::tok, swift::tok) + 328
-38 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 3744
+38 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 1269
 39 swift                    swift::Parser::parseExprUnary(swift::Diag<>, bool) + 805
 40 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 153
 41 swift                    swift::Parser::parseExprImpl(swift::Diag<>, bool) + 138

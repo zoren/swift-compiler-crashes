@@ -1,0 +1,1 @@
+../crashes/22727-lambda-testing-optional-enum-field.swift

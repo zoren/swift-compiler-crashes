@@ -1,4 +1,4 @@
-3  swift                    clang::SwitchStmt::SwitchStmt(clang::ASTContext const&, clang::VarDecl*, clang::Expr*) + 146
+3  swift                    clang::PredefinedExpr::ComputeName(clang::PredefinedExpr::IdentType, clang::Decl const*) + 4930
 4  swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 68
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
 6  swift                    (anonymous namespace)::PreCheckExpression::walkToExprPre(swift::Expr*) + 125

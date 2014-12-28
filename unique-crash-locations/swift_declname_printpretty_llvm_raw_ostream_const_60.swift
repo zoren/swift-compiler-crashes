@@ -1,1 +1,1 @@
-../crashes-fuzzing/00260-swift-declname-printpretty.random.swift
+../crashes-duplicates/00260-swift-declname-printpretty.random.swift

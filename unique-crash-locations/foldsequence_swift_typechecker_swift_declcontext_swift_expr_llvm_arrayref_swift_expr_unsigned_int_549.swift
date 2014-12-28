@@ -1,0 +1,1 @@
+../crashes-fuzzing/22198-swift-typechecker-typecheckcheckedcast.swift

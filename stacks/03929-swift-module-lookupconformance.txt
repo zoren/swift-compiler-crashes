@@ -5,7 +5,7 @@
 7  swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 3120
 8  swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 796
 9  swift                    swift::Parser::parseExprClosure() + 914
-10 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 4688
+10 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 1291
 11 swift                    swift::Parser::parseExprUnary(swift::Diag<>, bool) + 805
 12 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 153
 13 swift                    swift::Parser::parseExprImpl(swift::Diag<>, bool) + 138

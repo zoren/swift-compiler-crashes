@@ -1,0 +1,1 @@
+../crashes-fuzzing/22984-mapsignaturefunctiontype.swift

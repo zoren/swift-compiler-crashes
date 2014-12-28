@@ -1,0 +1,1 @@
+../crashes-fuzzing/21628-resolvetypedecl.swift

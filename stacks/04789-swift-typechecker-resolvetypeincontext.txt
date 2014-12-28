@@ -1,4 +1,4 @@
-3  swift                    swift::TypeChecker::resolveTypeInContext(swift::TypeDecl*, swift::DeclContext*, bool, swift::GenericTypeResolver*) + 1036
+3  swift                    swift::TypeChecker::resolveTypeInContext(swift::TypeDecl*, swift::DeclContext*, bool, swift::GenericTypeResolver*) + 103
 4  swift                    swift::ArchetypeBuilder::resolveArchetype(swift::Type) + 25
 5  swift                    swift::resolvePotentialArchetypeToType(swift::ArchetypeBuilder&, llvm::ArrayRef<swift::GenericTypeParamType*>, swift::ArchetypeBuilder::PotentialArchetype*) + 334
 6  swift                    swift::resolvePotentialArchetypeToType(swift::ArchetypeBuilder&, llvm::ArrayRef<swift::GenericTypeParamType*>, swift::ArchetypeBuilder::PotentialArchetype*) + 53

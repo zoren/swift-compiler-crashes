@@ -8,7 +8,7 @@
 10 swift                    swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 1373
 11 swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 162
 12 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 6498
-13 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1843
+13 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1655
 14 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1655
 15 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
 16 swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 96

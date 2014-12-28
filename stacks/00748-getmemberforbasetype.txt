@@ -1,3 +1,4 @@
+3  swift                    getMemberForBaseType(swift::Module*, swift::Type, swift::AssociatedTypeDecl*, swift::Identifier, swift::LazyResolver*) + 464
 4  swift                    getMemberForBaseType(swift::Module*, swift::Type, swift::AssociatedTypeDecl*, swift::Identifier, swift::LazyResolver*) + 409
 5  swift                    std::__1::__function::__func<swift::Type::subst(swift::Module*, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*> >&, bool, swift::LazyResolver*) const::$_4, std::__1::allocator<swift::Type::subst(swift::Module*, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*> >&, bool, swift::LazyResolver*) const::$_4>, swift::Type (swift::Type)>::operator()(swift::Type&&) + 949
 6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55
@@ -8,7 +9,7 @@
 11 swift                    (anonymous namespace)::ExprRewriter::finishApply(swift::ApplyExpr*, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 1457
 12 swift                    (anonymous namespace)::ExprRewriter::visitApplyExpr(swift::ApplyExpr*) + 79
 13 swift                    swift::ASTVisitor<(anonymous namespace)::ExprRewriter, swift::Expr*, void, void, void, void, void>::visit(swift::Expr*) + 90
-14 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1864
+14 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1679
 15 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
 16 swift                    swift::constraints::ConstraintSystem::applySolution(swift::constraints::Solution&, swift::Expr*) + 8967
 17 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 1241

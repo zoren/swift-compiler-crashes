@@ -10,7 +10,7 @@
 12 swift                    swift::Parser::parseExprOrStmt(swift::ASTNode&) + 185
 13 swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 2335
 14 swift                    swift::Parser::parseExprClosure() + 914
-15 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 4688
+15 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 1291
 16 swift                    swift::Parser::parseExprUnary(swift::Diag<>, bool) + 805
 17 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 153
 18 swift                    std::__1::__function::__func<swift::Parser::parseExprList(swift::tok, swift::tok)::$_0, std::__1::allocator<swift::Parser::parseExprList(swift::tok, swift::tok)::$_0>, swift::ParserStatus ()>::operator()() + 461

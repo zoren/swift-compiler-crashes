@@ -1,5 +1,4 @@
-3  swift                    vtable for swift::PartialGenericTypeToArchetypeResolver + 16
-4  swift                    swift::TupleType::get(llvm::ArrayRef<swift::TupleTypeElt>, swift::ASTContext const&) + 317
+4  swift                    swift::TupleType::get(llvm::ArrayRef<swift::TupleTypeElt>, swift::ASTContext const&) + 462
 5  swift                    (anonymous namespace)::TypeResolver::resolveType(swift::TypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>) + 3294
 6  swift                    swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*, swift::ValueDecl*) + 221
 7  swift                    validateTypedPattern(swift::TypeChecker&, swift::DeclContext*, swift::TypedPattern*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 79

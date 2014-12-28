@@ -1,4 +1,3 @@
-3  swift                    llvm::raw_fd_ostream::write_impl(char const*, unsigned long) + 89
 4  swift                    swift::TypeVisitor<(anonymous namespace)::Traversal, bool>::visit(swift::Type) + 3133
 5  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 6  swift                    swift::ArchetypeBuilder::inferRequirements(swift::Pattern*) + 52

@@ -1,0 +1,1 @@
+../crashes-fuzzing/03034-swift-lexer-lexnumber.swift

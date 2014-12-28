@@ -1,0 +1,1 @@
+../crashes-fuzzing/22797-swift-inflightdiagnostic.swift

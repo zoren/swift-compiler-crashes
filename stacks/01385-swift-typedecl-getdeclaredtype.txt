@@ -9,7 +9,7 @@
 11 swift                    swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 28
 12 swift                    swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 9064
 13 swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 162
-14 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1864
+14 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1679
 15 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
 16 swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 96
 17 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 479

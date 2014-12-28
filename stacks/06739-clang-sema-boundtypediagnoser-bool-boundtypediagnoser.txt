@@ -1,4 +1,4 @@
-3  swift                    _load_method_type + [N]
+3  swift                    clang::ASTDeclReader::VisitVarTemplateSpecializationDeclImpl(clang::VarTemplateSpecializationDecl*) + 450
 4  swift                    swift::TypeBase::getCanonicalType() + 1403
 5  swift                    swift::TypeBase::getCanonicalType() + 775
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 451
