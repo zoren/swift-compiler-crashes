@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/zneak (zneak)
 
 struct A {
-	init() {
-	}
-	let a = A()
+    init() {
+    }
+    let a = A()
 }
