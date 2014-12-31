@@ -1,1 +1,1 @@
-../crashes-fuzzing/22787-swift-classtype-profile.swift
+../crashes-duplicates/22787-swift-classtype-profile.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/22973-swift-declattribute-getattrkindfromstring.swift
+../crashes-duplicates/22973-swift-declattribute-getattrkindfromstring.swift

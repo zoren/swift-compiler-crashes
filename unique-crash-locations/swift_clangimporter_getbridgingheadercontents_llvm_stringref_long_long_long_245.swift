@@ -1,1 +1,1 @@
-../crashes-fuzzing/22738-swift-compilerinstance-performsema.swift
+../crashes-duplicates/22738-swift-compilerinstance-performsema.swift
