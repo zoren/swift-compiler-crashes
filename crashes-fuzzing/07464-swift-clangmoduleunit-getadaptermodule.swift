@@ -2,14 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B { }
+class B{}
 import CoreData
-var d {
-class d: BooleanType
-class A {
+var d{
+class d:a
+class A{
 {
 }
 {
 }
-class A<T where B : d {
-let : A
+class A<T where B:d{let:A

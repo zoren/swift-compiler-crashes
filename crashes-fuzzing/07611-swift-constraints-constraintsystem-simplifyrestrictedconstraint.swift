@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<d {
-let t: P {
+class B<d{
+{
 }
-var d = Int
-func a() {
-class d<T where g: P {
-let t: AnyObject.d
+var d=Int
+func a{
+class d<T where g:P{let:a.d

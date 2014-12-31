@@ -2,22 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A : Array<I : C {
-protocol P {
+class A{protocol P{
 struct d
-protocol P {
-typealias e : A: T
-class d<I : A> {
-protocol A : d = b<I : C {
-deinit {
-struct D : NSObject {
+protocol P{typealias e:A
+protocol A:e
 }
-}
-}
-deinit {
-}
-}
-protocol A : e
-}
-class d<h : P
-de
+class d<h:P

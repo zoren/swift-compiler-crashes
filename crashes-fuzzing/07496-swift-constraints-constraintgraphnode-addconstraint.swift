@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a {
-var f = a
-let a {
-func b<T where A.e : T
-protocol A {
-typealias e : b { e>([Void{
-func b<T where A: A"\([Void{
-func b<
+class a{
+var f=a
+let a{
+func b<T where A.e:T
+protocol A{
+typealias e:b
+func b

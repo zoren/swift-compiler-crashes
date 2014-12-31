@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let start = 1
+let a=1
 class A
-protocol A {
+protocol A{
 struct c
-let d: A?
-protocol c : A
-typealias b : A. Array
+let d:A?
+protocol c:A
+typealias b:A.b
 typealias A

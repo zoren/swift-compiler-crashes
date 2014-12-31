@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T {
-return """[Void{
-protocol b class c {
-deinit {
-for c {
+func g<T{return""class c{deinit{for c{

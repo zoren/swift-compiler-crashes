@@ -3,12 +3,9 @@
 // Test case found by fuzzing
 
 struct S
-struct Q<T) {
-let c {
-protocol C {
+let c{{
 }
-struct Q<T where T where T.h == f {
-var d = true as S
-let c {
-struct Q<d where g: NSObject {
-var b = F
+struct e{
+var d=true as S
+let c{struct Q<d where g:a{
+var b=F

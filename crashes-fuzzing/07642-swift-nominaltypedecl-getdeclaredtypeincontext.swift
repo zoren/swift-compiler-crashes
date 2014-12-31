@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where T.E == e: NSObject {
-var b {
-struct S<d {
-struct B<T where T.B == e
-let t: B
+struct B<T where T:t{
+var b{
+struct S{
+struct B<T where a=e
+let t:B

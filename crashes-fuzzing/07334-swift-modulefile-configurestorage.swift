@@ -3,9 +3,6 @@
 // Test case found by fuzzing
 
 []
-func b<I : d where A: e>(() {
-protocol c : d where A: A: d where A"\([Void{
-protocol A : a {
-typealias e : T, A {
-d<T where A"\() { }
-protocol A : b { func b<
+func b<I where A:e
+protocol A{typealias e:A
+protocol A:b func b

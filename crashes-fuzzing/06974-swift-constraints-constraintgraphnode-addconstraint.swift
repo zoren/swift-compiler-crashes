@@ -2,21 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum B : b { func b
-enum b {
-enum b { func c
-let t: a {
+enum b{
+enum b{func c
+var _=c
 }
-var _ = c
-protocol A {
+let:A.C
+protocol A{
+{
 }
-class A {
-}
-class A {
-}
-}
-let t: A.C
-protocol A {
-protocol P {
-}
-typealias e : e : A {
+typealias e:e

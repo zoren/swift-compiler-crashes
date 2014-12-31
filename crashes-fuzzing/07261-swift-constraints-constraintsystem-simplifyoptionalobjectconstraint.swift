@@ -2,9 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b: a {
-println((false)?
-protocol c {
-typealias e : a {
-println(false)"
+func b{false?protocol c{typealias e:a
 func a

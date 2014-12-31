@@ -5,9 +5,9 @@
 protocol A
 class B
 {
-var _ = d<H
+var _=d<H
 {
 }
-var d {
-class d {
-class B<T where A: T> : j
+var d{
+class d{
+class B<T where A:T>:j

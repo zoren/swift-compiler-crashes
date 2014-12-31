@@ -5,6 +5,5 @@
 let:{
 struct A{
 class B{
-protocol l{
-let:d
+protocol l{let:d
 class d<g:d>:f{func f

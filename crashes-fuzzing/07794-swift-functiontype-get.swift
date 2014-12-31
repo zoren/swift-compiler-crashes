@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-class A {
-struct B<b: String {
-func b: AnyObject) {
-var _ = e(f(")
-struct d<T where B : b {
-var b { func b: String
+if true{class A{struct B{func b:struct d<T where B:b{var b{func b:a

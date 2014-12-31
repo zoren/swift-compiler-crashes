@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A {
-let t: Int -> Bool {
-}
-}
-Void{
+protocol A{let t:Int}Void{

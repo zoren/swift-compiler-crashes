@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T where T: Int = c: ()
+class B<T where T:a
 import CoreData
-protocol A : d = 1)
-var d = [B
+protocol A:d
+var d=[B
 (

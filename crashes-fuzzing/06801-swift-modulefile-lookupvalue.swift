@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true{
-var _= >(
-a
+if true{var _= >(a
 protocol c{
 typealias e:f.C
 typealias f

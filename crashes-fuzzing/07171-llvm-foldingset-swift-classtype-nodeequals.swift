@@ -2,19 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let t: A {
-struct B<T {
+let A{
+struct B<T{
 class a
-class C<A? {
-struct Q<T) -> V {
-}
-var d = b(a
-}
-enum S<T) -> {
-}
-struct B<d = {
-class A {
-class C<T where h: A? {
-() {
-var e: T : A.dynamicType)"
-typealias F = b(
+class C{
+var d=(a}
+{
+}struct B{class A{
+class C<T where h:A{
+typealias F=b

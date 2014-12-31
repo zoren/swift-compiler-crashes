@@ -7,7 +7,4 @@ class c<T where a=A
 var d={}
 class d{
 class a{class a{
-{
-}
-class g{
-struct Q<I:c
+class g{struct Q<I:c

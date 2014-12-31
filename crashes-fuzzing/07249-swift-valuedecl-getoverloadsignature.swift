@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a {
-class A : A
-class d<T where H : a {
-let : AnyObject
+class a{
+class A:A
+class d<T where H:a{
+let:a
 }
-class A : a
+class A:a

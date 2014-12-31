@@ -2,6 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where g.g : P {
-let h = 0.c] = b("
-class a<T: A.g
+struct B<T where g:P{let h=0.b
+class a<T:A.g

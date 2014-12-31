@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 1
-class n {
-enum e {
-enum e {
-struct S<T where g: NSObject {
-struct S<f : e
+class n{
+enum e{
+enum e{struct S<T where g:a{
+struct S<f:e

@@ -3,9 +3,6 @@
 // Test case found by fuzzing
 
 import CoreData
-class A {
-func g<T where f: T) -> V {
-class b: a<T where g: a {
-enum b {
-func g: T.c
-r
+class A{func g<T where f:T{class b{
+enum b{
+func g:T.c

@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where T: B() {
-let a {
-protocol g {
-}
-for c : B
+struct B<T where T:B{let a{protocol g for c:B

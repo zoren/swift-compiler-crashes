@@ -3,7 +3,5 @@
 // Test case found by fuzzing
 
 1
-protocol c : AnyObject, b { func g.c<Int>(v: S(f(f(v: a {
-func a<S : AnyObject, g: a = ")
+protocol c:AnyObject,b{func a
 typealias b
-pro

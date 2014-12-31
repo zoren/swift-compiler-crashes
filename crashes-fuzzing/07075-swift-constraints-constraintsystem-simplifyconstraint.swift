@@ -3,15 +3,8 @@
 // Test case found by fuzzing
 
 func e
-if true {
-var f = e
-protocol A {
-class b: T: String {
-return "[1)
-}
-func g<T where h: S<T where B : a {
-let t: AnyObject) {
-switch x }
-struct S<T where B : a {
-var f : a
-func g<c
+if true{
+var f=e
+func g{
+struct S<T where B:a{
+var:a

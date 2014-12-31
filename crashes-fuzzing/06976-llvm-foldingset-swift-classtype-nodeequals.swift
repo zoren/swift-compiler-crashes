@@ -2,11 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class c {
-class c : b { func b
-func a<D> {
-class c {
-}
-protocol A {
-}
-for c {
+class c{class c:b{func b
+func a<D{class c{}
+for c{

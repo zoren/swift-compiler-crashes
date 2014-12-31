@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a<T where h: A? = b: B? {
-var d {
-let t: d = Swift.c
-func a(array: P {
-}
-var d
+class a<T where h:A{var d{let:d func a(b{}var d

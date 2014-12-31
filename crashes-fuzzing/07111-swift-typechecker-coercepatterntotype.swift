@@ -2,7 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<T where g: P {
-}
-let v: ()
-va d
+struct d<T where g:P
+let v:()d

@@ -2,12 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func <
-{
-func g< > Void{
-}
-{
-}
-}
-if true {
-(true {
+func<{func g<>Void{}{}}if true{(true{

@@ -8,8 +8,6 @@ struct A{
 struct A{
 func a(){
 d<{
-}
-}
-func d
+}}func d
 struct S{
 var f={

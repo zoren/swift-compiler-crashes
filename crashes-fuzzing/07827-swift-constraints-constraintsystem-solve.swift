@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let t: d {
-class a {
-struct S<T : T {
-let end = Int
-let a {
+let:{
+class a{
+struct S<T{
+let a=Int
+let a{
 struct B
-let end = [B()
+let a=[B()

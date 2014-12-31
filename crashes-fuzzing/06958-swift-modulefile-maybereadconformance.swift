@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-let a {
-if true {
-struct c: C {
-struct Q<T where S.e : C {
-var d = b()
+if true{let a{if true{struct c{struct Q<T where a:C{var d=b()

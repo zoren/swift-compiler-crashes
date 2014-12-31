@@ -2,12 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class b<T {
-enum S<Int>: T {
-private let b : a {
-protocol b class a {}
-typealias b {
-}
-class c {
-let end = Swift.c(a<Int>() {
-(
+class b<T{enum S:T{let:{class a{let en=(a<a>()

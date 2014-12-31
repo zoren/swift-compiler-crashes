@@ -4,13 +4,8 @@
 
 var f
 {
-map()
-protocol A {
-}
-enum A {
-func b<T>(s(i: c,
-typealias h> : String {
-func b(x("
-protocol c : a {
+map()enum A{
+func b<T>((i:c
+typealias
+protocol c:a{
 func a
-typeal

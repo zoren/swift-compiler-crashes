@@ -2,10 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A : e
-protocol A : CollectionType where B : BooleanType, A : e)"\(("
-static let a {
-protocol A : T {
-typealias e : a {
-("
+protocol A
+protocol A:CollectionType let a{
+protocol A{typealias e:a
 func a

@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 class B
-func b: BooleanType
-class B<T where H : T> : e
+func b:BooleanType
+class B<T where H:T>:e

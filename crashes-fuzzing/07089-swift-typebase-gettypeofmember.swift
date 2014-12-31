@@ -2,11 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<d {
-class A {
-class d: A {
-var f = a<T where A>: A: Bool)
+func c<d{class d:A{
+var f=a<T
 func a
-class A {
+class A{
 func a
-c

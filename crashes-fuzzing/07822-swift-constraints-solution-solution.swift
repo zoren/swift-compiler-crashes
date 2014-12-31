@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a {
-let start = 1
-class B : A.h
-protocol A : Array< { func b
-typealias A : A
+class a{
+let b=1
+class B:A.h
+protocol A{func b
+typealias A:A

@@ -3,7 +3,5 @@
 // Test case found by fuzzing
 
 func c<T{
-let a{
-class n{class n{
-func p(T.c
+let a{class n{class n{func p(T.c
 func c{{

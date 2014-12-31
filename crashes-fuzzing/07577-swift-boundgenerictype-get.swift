@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<h : c = {
-[k<d where B : C {
-("\() {
-class A : A {
+func a<h{
+[k< class a{
 func f
-class A? = nil
-class A<T : c
-struct A {
-let c = f
+class A
+class A<T
+struct A{
+let c=f
