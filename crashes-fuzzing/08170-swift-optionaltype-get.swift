@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A
-class C {
-var d = A? = f
-func g {
-class a<T where B : P {
-let : I.b
+class A{
+var d=A?=f
+func g{
+class a<T where B:P{let:I.b

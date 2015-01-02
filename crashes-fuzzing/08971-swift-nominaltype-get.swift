@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B< T {
+class B<T{
 class B
-class C<T> : B
-let a {
-class C<T where I : String {
-class C<T where I.E = F
+class C<T>:B
+let a{class C<T where I:a{
+class C<T where I.E=F

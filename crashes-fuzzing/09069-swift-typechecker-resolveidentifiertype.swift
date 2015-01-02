@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S {
-let a = "\(e: A.dynamicType)"
+struct S{
+let a="\(e:A.dynamicType)"
 protocol A
 protocol A

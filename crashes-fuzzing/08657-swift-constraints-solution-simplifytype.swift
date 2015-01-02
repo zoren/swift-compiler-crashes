@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A {
-let h = {
-println( )
-}
-}
-protocol c : a {
-func a
+struct A{let h={print()}}protocol c:a{func a

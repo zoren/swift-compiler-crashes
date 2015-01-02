@@ -2,11 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum b {
+enum b{
 {
 }
-struct S {
+struct S{
 class c
-struct c : S
+struct c:S
 }
-struct S<T where g: b { enum b
+struct S<T where g:b{enum b

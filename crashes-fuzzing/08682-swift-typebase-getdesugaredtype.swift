@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 enum a
-class b {
-struct B<T where f: T {
-let start = c
-}
-}
-let a = " "
+class b{
+struct B<T where f:T{
+let a=c
+}}
+let a=""

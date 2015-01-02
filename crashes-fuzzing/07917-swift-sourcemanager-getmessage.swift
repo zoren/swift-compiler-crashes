@@ -2,9 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var a {
-case
-var {
-for in a {
+{for in a{
 class
-case ,
+case,

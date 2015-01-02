@@ -2,6 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class c {
-struct B<S : b
-var b = B( )
+class c{struct B<S:b
+var b=B()

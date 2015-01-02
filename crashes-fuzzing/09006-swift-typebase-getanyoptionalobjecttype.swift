@@ -3,14 +3,6 @@
 // Test case found by fuzzing
 
 struct B
-protocol b {
-{
-{
-}
-{
-}
-}
-func a(T { }
-}
-struct B<T where B : b {
+protocol b{
+func a(T}struct B<T where B:b{
 protocol c

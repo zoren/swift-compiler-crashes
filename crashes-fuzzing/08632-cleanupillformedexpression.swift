@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
+func<{
 Void{
 }
 }
@@ -12,12 +12,12 @@ Void{
 {
 }
 {
-func i( ) -> {
-} (
-let a {
-func i( ) -> {
-(v {
+func i()->{
+}(
+let a{
+func i()->{
+(v{
 g
 Void
 {
-H a {
+H a{

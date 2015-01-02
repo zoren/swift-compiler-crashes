@@ -2,13 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func e<T {
-enum e {
-class A : A
-var b {
-let start = b<T
-{
+func e<T{
+enum e{
+class A:A
+var b{
+let a=b<{
 }
-}
-class A : A
+}class A:A
 func b

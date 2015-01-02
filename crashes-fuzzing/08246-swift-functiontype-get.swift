@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
+if true{
 {
 }
-struct B<T where A<T> : A
+struct B<T where A:A
 struct B
-typealias F = B
+typealias F=B

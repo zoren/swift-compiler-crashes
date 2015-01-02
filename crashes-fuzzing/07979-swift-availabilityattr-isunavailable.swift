@@ -2,12 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func e<l {
-class d {
+func e<l{
+class d{class n{
+let f=1
+let b{
 {
-}
-class n {
-let f = 1
-let b {
-{
-( ( d {
+((d{

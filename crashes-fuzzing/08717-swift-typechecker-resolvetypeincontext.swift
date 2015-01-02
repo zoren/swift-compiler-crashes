@@ -2,13 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol P {
-class A : A {
+protocol P{class A:A{
 }
-{
-}
-protocol A : Array<b> {
-{
-}
+protocol A:Array<b>{
 typealias b
 func b

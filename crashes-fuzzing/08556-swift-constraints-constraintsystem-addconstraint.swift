@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 map
-class A {
-struct S {
-struct A<T where g: a {
-let h = (x: A {
+class A{
+struct S{
+struct A<T where g:a{
+let h=(x{

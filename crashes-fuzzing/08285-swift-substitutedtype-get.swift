@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a<d {
+class a<d{
 class A
-var d = A
-var d {
+var d=A
+var d{
 class a
-let c = a( )
+let c=a()

@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<g {
-let AnyObject, A {
-struct d: A {
+struct d<g{
+let a{
+struct d:A{
 func b
-protocol A : A {
+protocol A:A{
 func b

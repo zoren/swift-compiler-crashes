@@ -3,9 +3,7 @@
 // Test case found by fuzzing
 
 class B
-func b<H {
-struct c {
-func b
-{
-enum A : B
+func b<H{
+struct c{func b
+{enum A:B
 for b

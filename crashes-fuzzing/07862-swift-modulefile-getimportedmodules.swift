@@ -2,6 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f {
-func a<I : T
-class B<T where g: T> : AnyObject.j
+func f{func a<I:T
+class B<T where g:T>:An.j

@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol a {
+protocol a{
 class d
-class d: A
+class d:A
 class A
 }
-let a {
+let a{
 Void{

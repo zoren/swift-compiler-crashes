@@ -2,30 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a( ) {
-struct d {
-{
-{
+struct c{
 }
-{
-}
-}
-struct c {
-}
-struct c {
-let start = 0
-let start = j> {
-}
-A {
-{
-}
-{
-}
-{
+struct c{
+let a=0
+let a=j> {
 }
 }
-}
-struct c {
-class a {
-class B<T where f: e {
-let start = true as S
+struct c{
+class a{
+class B<T where f:e{
+let a=true as S

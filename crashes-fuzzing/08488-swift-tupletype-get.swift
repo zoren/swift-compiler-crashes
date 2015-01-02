@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 struct B
-protocol A {
-func a: (
+protocol A{
+func a:(
 {
 }
 }
-struct B<T where B : a {
-func c
+struct B<T where B:a{func c

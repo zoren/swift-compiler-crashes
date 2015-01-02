@@ -3,15 +3,13 @@
 // Test case found by fuzzing
 
 func e
-if true {
-struct A<d {
-{
-}
-let start = e?
-var b {
-class n {
+if true{
+struct A<d{
+let s=e?
+var b{
+class n{
 func b
-class A {
-class A {
-struct Q {
-let start = b
+class A{
+class A{
+struct Q{
+let a=b

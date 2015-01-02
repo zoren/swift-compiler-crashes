@@ -2,18 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-class a {
-{
-{
+class a{protocol P{let d:A
+typealias A:a,A
 }
-}
-protocol P {
-{
-{
-}
-}
-let d: A
-typealias A : start, A
-}
-let start = 1
+let a=1

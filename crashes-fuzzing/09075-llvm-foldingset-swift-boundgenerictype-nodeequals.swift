@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<I {
-var f: AnyObject
+class B<I{
+var f:AnyObject
 }
-" "
-class B<T where j: d {
-var _ = B<H
+""
+class B<T where j:d{
+var _=B<H

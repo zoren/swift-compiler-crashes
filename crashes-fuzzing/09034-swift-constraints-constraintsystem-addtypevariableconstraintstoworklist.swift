@@ -2,16 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-if true {
-[ ]
-}
-enum b {
-{
-}
-{
-}
-{
-}
-class A {
-protocol c : b { func b
+if true{if true{[]}enum b{{}{}class A{protocol c:b{func b

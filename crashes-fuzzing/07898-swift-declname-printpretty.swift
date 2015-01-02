@@ -2,12 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-override func b: d {
-class A {
-class n {
-let t: d {
-for c : d {
-}
-struct B<T where h: a {
-let t: T -> g : P {
-s
+func b{class A{class n{let t:d{struct B<T where h:a{let:T->g

@@ -2,22 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a = ""
-class A : {
+let a=""
+class A{
+class a{
 {
 }
 {
-}
-class a {
-{
-}
-{
-}
-{
-{
-}
-}
-struct A {
-struct D : A
-protocol A : a {
+}struct A{
+struct D:A
+protocol A:a{
 func a

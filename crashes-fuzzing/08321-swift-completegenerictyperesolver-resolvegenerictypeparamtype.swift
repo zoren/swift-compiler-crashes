@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum A {
-class B<T : a
-func a<T> : T
+enum A{
+class B<T:a
+func a<T>:T
 }
-protocol b {
+protocol b{
 func a
-func a<d : a
+func a<d:a

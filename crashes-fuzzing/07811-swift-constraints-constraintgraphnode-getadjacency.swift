@@ -4,8 +4,7 @@
 
 class a{
 var f=0
-class a{
-}
+class a
 var f=a
 class a{
 protocol A{

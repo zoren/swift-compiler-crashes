@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<T where h: a {
-let a {
-func a<h : a
-> : d
+struct S<T where h:a{let a{func a<h:a>:d

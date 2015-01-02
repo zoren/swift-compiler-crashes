@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<c {
-var :
+class B<c{
+var:
 {
-class c {
+class c{
 }
-if true {
-class d {
-let end = c
-let a {
-c {
+if true{
+class d{
+let a=c
+let a{
+c{

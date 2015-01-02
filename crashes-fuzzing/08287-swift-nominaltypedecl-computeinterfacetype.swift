@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-var _ = a< NSManagedObject {
-}
-func a
-struct B<T where h: NSManagedObject {
+class A{
+var _=a<c{
+}func a
+struct B<T where h:a{
 {
-}
-let end = a<l
+}let b=a<l

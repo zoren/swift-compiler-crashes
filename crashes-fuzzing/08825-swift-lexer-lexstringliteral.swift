@@ -2,35 +2,32 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-protocol c {
-typealias A : A
+class A{
+protocol c{
+typealias A:A
 {
 }
 func b
-protocol P {
-class A {
+protocol P{
+class A{
 {
 {
 }
-}
-deinit {
-if true {
+}deinit{
+if a{
 {
-deinit {
-class a {
-{
-}
-{
-{
-{
-{
-{
-{
-{
-{
+deinit{
+class a{
 {
 }
+{
+{
+{
+{
+{
+{
+{
+{
 {
 {
 }
@@ -43,20 +40,15 @@ class a {
 {
 {
 {
-{ {
-{
-{
-{
-}
-{
-}
+{{
+{{
 {
 {
 {
 {
-( {
+({
 {
-( ( ) {
+((
 {
 {
 {
@@ -71,4 +63,4 @@ class a {
 {
 {
 {
-: A"
+:A"

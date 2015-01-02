@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum B {
-class A {
+enum B{
+class A{
 class A
-class B<T where A: AnyObject {
-let a {
-func g<T> : AnyObject.B
+class B<T where A:t{
+let a{
+func g<T>:a.B

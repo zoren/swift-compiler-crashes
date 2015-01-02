@@ -2,23 +2,21 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c {
+struct c{
 {
 }
 {
 }
-let f = 0
-struct S {
-struct A {
-struct A {
-struct A {
+let f=0
+struct S{
+struct A{
+struct A{
+struct A{
 }
 {
 }
-protocol A {
-func f {
-{
-}
+protocol A{
+func f{
 }
 {
 {
@@ -32,4 +30,4 @@ func f {
 }
 {
 }
-typealias B : B
+typealias B:B

@@ -5,11 +5,11 @@
 import CoreData
 func a
 {
-var d [ ]
-var d {
-class B {
-protocol b {
+var d[]
+var d{
+class B{
+protocol b{
 {
 }
 func a
-typealias e : a
+typealias e:a

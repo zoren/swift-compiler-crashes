@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 func a
-class A {
-let f = (a
-struct Q<d where k : A {
-var b {
-class n {
-var _ = B
+class A{
+let f=(a
+struct Q<d where k:A{
+var b{
+class n{
+var _=B

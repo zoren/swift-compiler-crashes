@@ -3,24 +3,13 @@
 // Test case found by fuzzing
 
 class A
-let a {
-enum B {
-{
-{
-{
-}
-{
-}
-}
-}
+let a{
+enum B{
 func a
-func a<T where S<c> : T
-let c : A.b
+func a<T where S<c>:T
+let c:A.b
 }
 enum S<h
 {
-{
-}
-class B {
-struct S<T where h: Array {
-let : B
+class B{
+struct S<T where h:a{let:B

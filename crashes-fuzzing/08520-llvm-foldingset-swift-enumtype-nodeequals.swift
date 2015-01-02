@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<b {
-enum B {
-enum e {
-enum e {
-func p( ) { p
+func a<b{enum B{enum e{enum e{func p(){p

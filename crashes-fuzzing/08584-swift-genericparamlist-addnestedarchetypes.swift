@@ -2,14 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<f {
-{
-}
+func g<f{
 struct c
-struct d: Array<Int>
+struct d:Array
 {
-}
-struct S {
-struct S {
-var f = {
+struct S{
+var f={
 [c{

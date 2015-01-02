@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 func a
-var _ = a<T
-struct Q<j where A : String {
-struct A<H : N
+var _=a<T
+struct Q<j where A:a{
+struct A<H:N

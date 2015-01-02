@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 extension A
-protocol A {
-func g: A?
-class A {
+protocol A{
+func g:A?
+class A{
 }
-protocol c : b { func b
+protocol c:b{func b

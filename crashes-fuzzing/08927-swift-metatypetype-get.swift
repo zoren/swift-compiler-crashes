@@ -2,23 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct D {
+struct D{{{
+}}class func d<T{
+enum S{
 {
-{ {
-}
-{
-}
-{
-}
-}
-}
-class func d<T {
-{
-{
-}
-}
-enum S {
-{
-}
-struct D : B
-class B<I : B<T.j>
+}struct D:B
+class B<I:B<T.j>

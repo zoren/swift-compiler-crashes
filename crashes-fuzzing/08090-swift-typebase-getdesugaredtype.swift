@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d: g
-protocol g : g {
-class A : e
-{
-}
+class d:g
+protocol g:g{
+class A:e
 typealias e

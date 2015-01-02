@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b {
+func b{
 {
 }
-let c = f.h>
-class C<T where I = e {
-typealias F = c
+let c=f.h>
+class C<T where I=e{
+typealias F=c

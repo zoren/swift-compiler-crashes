@@ -2,12 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum A {
-class a
-let a {
-class B {
-}
-class a {
-struct c<T where A: T { func g
+enum A{class a
+let a{
+class a{struct c<T where A:T{func g
 }
 protocol A

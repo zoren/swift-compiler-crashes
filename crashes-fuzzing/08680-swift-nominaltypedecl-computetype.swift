@@ -4,9 +4,9 @@
 
 {
 {
-protocol A {
-protocol A {
-protocol P {
+protocol A{
+protocol A{
+protocol P{
 class
 case c,
 case

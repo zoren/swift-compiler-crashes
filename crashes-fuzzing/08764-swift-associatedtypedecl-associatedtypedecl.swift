@@ -4,14 +4,14 @@
 
 import Foundation
 class
-A {
-struct Q {
+A{
+struct Q{
 {
 }
 {
 }
-class A {
-struct Q {
-func b<T : B
-protocol c : b
-class B<T : c
+class A{
+struct Q{
+func b<T:B
+protocol c:b
+class B<T:c

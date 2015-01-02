@@ -3,11 +3,9 @@
 // Test case found by fuzzing
 
 func c
-struct S<T {
-var C {
-for in c<T { }
-if true {
-class A {
-class func b
+struct S<T{
+var C{for in c<T
+if true{
+class A{class func b
 func b
-var f = b
+var f=b

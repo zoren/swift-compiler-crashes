@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a<T where B : String
-if true {
-var d = a( )
+class a<T where B:a
+if true{
+var d=a()

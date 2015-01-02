@@ -2,10 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C<T: A {
-var d = [[0x31] as a(e: B<T where I.E == b(e
-typealias e : AnyObject.E == "
-class B<T where h: P {
-() -> V {
-func a(e: A? = b(array: c = "
-let t: N
+class C{var d=[[0]as a
+class B<T where h:P{
+let:N

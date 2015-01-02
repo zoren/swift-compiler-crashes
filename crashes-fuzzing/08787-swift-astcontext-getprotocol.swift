@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 func a
-let a = " "
-protocol b {
+let a=""
+protocol b{
 func a
-typealias e : e
+typealias e:e

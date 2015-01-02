@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true { }
-struct B {
-struct S {
-struct b {
-struct d<T where f : j {
-var : j
+if true{}
+struct B{
+struct S{struct b{
+struct d<T where f:j{
+var:j

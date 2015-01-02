@@ -3,8 +3,6 @@
 // Test case found by fuzzing
 
 func a<f
-{
-if true {
-let start = c( )?
-class A : d
+{if true{let a=c()?
+class A:d
 class d

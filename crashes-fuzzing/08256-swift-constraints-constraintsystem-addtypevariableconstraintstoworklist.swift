@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where g: b
+struct B<T where g:b
 func a
 map
-let h = B
+let h=B

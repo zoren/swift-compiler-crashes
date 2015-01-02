@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 struct d
-<T {
+<T{
 class A
-enum S<T where B : d
-struct B<i : A {
-class b<T where h: A {
-struct B<T where g: A
+enum S<T where B:d
+struct B<i:A{
+class b<T where h:A{
+struct B<T where g:A

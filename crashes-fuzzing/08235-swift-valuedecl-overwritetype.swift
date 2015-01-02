@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 struct d
-class d<T where g: a {
-struct e
-}
-var d = {
-g {
+class d<T where g:a{
+struct e}
+var d={
+g{
 func g

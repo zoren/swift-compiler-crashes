@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-let : CollectionType
-class A {
-struct B<d where g: AnyObject
+if true{
+let:CollectionType
+class A{
+struct B<d where g:a
 {
-{
-}
-class a<T : A
+class a<T:A

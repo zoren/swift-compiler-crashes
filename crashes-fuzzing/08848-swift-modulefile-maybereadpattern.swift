@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 func f
-func f<I : BooleanType
-{
-Void{
+func f<I:BooleanType
+{Void{

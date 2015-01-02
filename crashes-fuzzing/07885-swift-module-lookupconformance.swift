@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-println(false)"
-protocol A : Int -> U))
-protocol c {
-}
-protocol A : a {
-func a<f : a<f
+println(false)
+protocol A
+protocol A:a{
+func a

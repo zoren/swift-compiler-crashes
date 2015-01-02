@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<T where B : d
+struct d<T where B:d
 func c
-> Any
-class A {
-let f = d
+>Any
+class A{let f=d

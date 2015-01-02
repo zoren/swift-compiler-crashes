@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S {
-func c
-let c {
+enum S{
+func c{
 for in c
-enum S<T where g: T> : A.e
+enum S<T where g:T>:A.e

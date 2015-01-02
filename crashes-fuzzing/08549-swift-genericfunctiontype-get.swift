@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-struct d<T : CollectionType
-struct B<d where f: a {
-let v: (
+func<{struct d<T:CollectionType where f:a{let v:(

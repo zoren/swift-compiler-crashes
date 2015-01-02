@@ -3,10 +3,7 @@
 // Test case found by fuzzing
 
 <H
-protocol A {
-let d: A?
-typealias b : b {
+protocol A{let d:A?typealias b:b{
 }
-protocol A {
-class A
-enum b : A
+protocol A{
+class A:A
