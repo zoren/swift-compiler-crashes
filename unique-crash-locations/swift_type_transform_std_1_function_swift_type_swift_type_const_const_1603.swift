@@ -1,1 +1,1 @@
-../crashes-fuzzing/08925-swift-type-transform.swift
+../crashes-duplicates/08925-swift-type-transform.swift

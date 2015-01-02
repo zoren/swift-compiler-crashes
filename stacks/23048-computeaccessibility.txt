@@ -1,3 +1,4 @@
+3  swift                    swift::GenericSignature::Profile(llvm::FoldingSetNodeID&) + 173
 4  swift                    computeAccessibility(swift::TypeChecker&, swift::ValueDecl*) + 611
 5  swift                    computeAccessibility(swift::TypeChecker&, swift::ValueDecl*) + 402
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 80

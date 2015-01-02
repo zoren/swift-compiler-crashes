@@ -1,4 +1,4 @@
-3  swift                    llvm::DenseMapIterator<llvm::DenseMapAPIntKeyInfo::KeyTy, llvm::ConstantInt*, llvm::DenseMapAPIntKeyInfo, false>::AdvancePastEmptyBuckets() + 98
+3  swift                    clang::Parser::HandlePragmaOpenCLExtension() + 1426
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363

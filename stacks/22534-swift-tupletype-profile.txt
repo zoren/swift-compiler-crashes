@@ -1,4 +1,4 @@
-3  swift                    llvm::FoldingSet<swift::SpecializedProtocolConformance>::~FoldingSet() + 11
+3  swift                    llvm::DenseMapBase<llvm::DenseMap<std::__1::pair<swift::Type, swift::Type>, swift::SubstitutedType*, llvm::DenseMapInfo<std::__1::pair<swift::Type, swift::Type> > >, std::__1::pair<swift::Type, swift::Type>, swift::SubstitutedType*, llvm::DenseMapInfo<std::__1::pair<swift::Type, swift::Type> > >::InsertIntoBucketImpl(std::__1::pair<swift::Type, swift::Type> const&, std::__1::pair<std::__1::pair<swift::Type, swift::Type>, swift::SubstitutedType*>*) + 107
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363

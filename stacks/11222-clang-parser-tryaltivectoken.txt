@@ -1,4 +1,4 @@
-3  swift                    clang::driver::tools::Clang::ConstructJob(clang::driver::Compilation&, clang::driver::JobAction const&, clang::driver::InputInfo const&, llvm::SmallVector<clang::driver::InputInfo, 4u> const&, llvm::opt::ArgList const&, char const*) const + 2962
+3  swift                    (anonymous namespace)::BinaryDoubleFPOpt::callOptimizer(llvm::Function*, llvm::CallInst*, llvm::IRBuilder<true, llvm::ConstantFolder, llvm::IRBuilderDefaultInserter<true> >&) + 146
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

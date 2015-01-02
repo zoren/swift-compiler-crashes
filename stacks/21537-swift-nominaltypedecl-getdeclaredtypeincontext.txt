@@ -1,4 +1,4 @@
-3  swift                    clang::ASTWriter::WriteASTCore(clang::Sema&, llvm::StringRef, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, clang::Module*) + 1943
+3  swift                    (anonymous namespace)::ARMAsmParser::processInstruction(llvm::MCInst&, llvm::SmallVectorImpl<llvm::MCParsedAsmOperand*> const&) + 42855
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::NominalTypeDecl::computeType() + 29
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1605

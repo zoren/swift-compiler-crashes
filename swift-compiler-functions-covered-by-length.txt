@@ -19,6 +19,7 @@ diagnoseFailureFromConstraints
 emitClassExistentialProjection
 fillObjCRepresentableTypeCache
 getAsCanonicalGenericSignature
+getDelegatingOrChainedInitKind
 isClassOrClassExtensionContext
 makeStoredWithTrivialAccessors
 parseClosureSignatureIfPresent
@@ -33,27 +34,22 @@ typeCheckConstructorBodyUntil
 createDesignatedInitOverride
 emitManagedBufferWithCleanup
 emitTypeMetadataRefForLayout
-lookupVisibleMemberDeclsImpl
 parseMatchingPatternVarOrVal
 simplifyConformsToConstraint
 simplifyRestrictedConstraint
 typeCheckDestructorBodyUntil
 validateGenericFuncSignature
 validateGenericTypeSignature
-buildIndexForwardingPattern
 checkExtensionGenericParams
 existentialConformsToItself
 getBoundTypesFromConstraint
-optimizeApplyOfPartialApply
 replaceUsesOfWithOnConstant
 resolveGenericTypeParamType
 resolveImplicitConstructors
-restoreTypeVariableBindings
 cleanupIllFormedExpression
 computeConnectedComponents
 createTrivialSubstitutions
 getAddrOfValueWitnessTable
-getAlternativeLiteralTypes
 resolveDependentMemberType
 skipUntilGreaterInTypeList
 typeCheckExpressionShallow
@@ -89,11 +85,11 @@ getAnyOptionalObjectType
 getDeclaredInterfaceType
 getDeclaredTypeInContext
 getTypeOfMemberReference
-isKnownToBeTypeSpecifier
 mapSignatureFunctionType
 parsePatternTupleAfterLP
 setDeserializedSignature
 simplifyMemberConstraint
+updateRuntimeLibraryPath
 validateGenericSignature
 addAccessorsToStoredVar
 addImplicitConstructors
@@ -106,7 +102,6 @@ isAnyClassReferenceType
 mergeEquivalenceClasses
 parseIdentifierDeclName
 parseNominalDeclMembers
-simplifyClassConstraint
 typeCheckForEachBinding
 visitPatternBindingDecl
 addSameTypeRequirement
@@ -122,13 +117,13 @@ importDeclAndCacheImpl
 isUnspecializedGeneric
 matchDeepEqualityTypes
 maybeReadGenericParams
+parseExprStringLiteral
 parseFunctionArguments
 parseFunctionSignature
 parseGenericParameters
 addImplicitDestructor
 addNestedRequirements
 applyGenericArguments
-buildStorageReference
 canonicalizeProtocols
 checkGenericParamList
 computeAssignDestType
@@ -143,6 +138,7 @@ flushActiveDiagnostic
 getAPINotesForContext
 getAddrOfLLVMVariable
 getFixedTypeRecursive
+getInnerObjCOwnership
 getTargetConfigOption
 hasReferenceSemantics
 isDeclAsSpecializedAs
@@ -151,7 +147,6 @@ lexOperatorIdentifier
 maybeReadSubstitution
 parseGenericArguments
 parseNewDeclAttribute
-processStillExecuting
 resolveCrossReference
 resolveIdentifierType
 setInvalidBracesRange
@@ -161,7 +156,6 @@ addMaterializeForSet
 computeAccessibility
 computeInterfaceType
 computeSubstitutions
-demangleSymbolAsNode
 diagnoseRedefinition
 emitAbstractFuncDecl
 forAllVisibleModules
@@ -171,8 +165,7 @@ getConstraintLocator
 getExemplarArchetype
 getMemberForBaseType
 getOverloadSignature
-getPotentialBindings
-getPrimaryMergedDecl
+intersectConstraints
 maybeReadConformance
 parseDefaultArgument
 parseMatchingPattern
@@ -201,6 +194,7 @@ getCallerDefaultArg
 getImplicitSelfDecl
 getKnownObjCContext
 getLocForEndOfToken
+loadAllConformances
 parseExprCallSuffix
 parseExprCollection
 parseExprDictionary
@@ -212,18 +206,16 @@ performTypeChecking
 removeShadowedDecls
 substDependentTypes
 typeCheckExpression
-writeBlockInfoBlock
 addNewSourceBuffer
 checkRedeclaration
 checkSubstitutions
-collectCommonLoops
 conformsToProtocol
 createBindOverload
 createImplicitHack
-createLazyResolver
 emitGlobalTopLevel
 emitStructMetadata
 findBestImportKind
+getBBForDefinition
 getImportedModules
 getLLVMIntrinsicID
 getSILFunctionType
@@ -232,7 +224,6 @@ getTypeOfReference
 handleExternalDecl
 isSubstitutableFor
 lookupConstructors
-mangleProtocolDecl
 mapTypeIntoContext
 matchCallArguments
 matchFunctionTypes
@@ -243,6 +234,7 @@ parseDeclExtension
 parseDeclSubscript
 parseDeclTypeAlias
 parseDeclVarGetSet
+parseLineDirective
 parseMatchingToken
 parseStmtCondition
 parseStmtForCStyle
@@ -261,6 +253,7 @@ visitExtensionDecl
 convertStructType
 createDisjunction
 createNominalType
+decompileAPINotes
 emitApplyArgument
 emitRValueForDecl
 fixItReplaceChars
@@ -270,6 +263,7 @@ getCommentForDecl
 getDictionaryDecl
 inferRequirements
 isExistentialType
+isIntegerLikeType
 lookupConformance
 mangleNominalType
 parseDeclEnumCase
@@ -277,12 +271,13 @@ parseDeclOperator
 parseDeclProtocol
 parseExprSequence
 parseVersionTuple
-performJobsInList
 requiresClassSlow
 runFunctionAsMain
 trySimplifyToExpr
 validateExtension
 verifyDiagnostics
+addIdentifierRef
+buildCompilation
 cloneForwardable
 compareSolutions
 configureStorage
@@ -290,7 +285,6 @@ diagAvailability
 emitClosureValue
 emitEnumMetadata
 findBestSolution
-findReachingDefs
 getAdapterModule
 getBridgedToObjC
 getCanonicalType
@@ -300,7 +294,6 @@ getInterfaceType
 getRelabeledType
 getTypeVariables
 handleDiagnostic
-isBinaryOperator
 isPlatformActive
 lexStringLiteral
 lexUnicodeEscape
@@ -313,6 +306,7 @@ parseInheritance
 parsePatternAtom
 parseStmtForEach
 prepareApplyExpr
+readWitnessTable
 removeConstraint
 resolveArchetype
 substGenericArgs
@@ -340,6 +334,7 @@ getTypeLowering
 getTypeOfMember
 getTypeOfRValue
 getWitnessTable
+handleREPLInput
 isUnaryOperator
 lookupObjCClass
 lookupQualified
@@ -360,6 +355,7 @@ simplifyLocator
 solveSimplified
 addOverloadSet
 addRequirement
+createConsumer
 emitCurryThunk
 emitReturnExpr
 emitSourceFile
@@ -381,7 +377,6 @@ readTypeRecord
 setNestedTypes
 setSpecialized
 setTypeWitness
-visitApplyInst
 visitBraceStmt
 walkToTypePost
 addConstraint
@@ -400,7 +395,6 @@ getRawComment
 getSuperclass
 hasNestedType
 isSpecialized
-isSpelledLike
 isStartOfDecl
 isUnavailable
 lexIdentifier
@@ -418,6 +412,7 @@ serialization
 setConformsTo
 typeCheckDecl
 visitFuncDecl
+visitLoadInst
 addProtocols
 canParseType
 coerceToType
@@ -455,7 +450,6 @@ getFullName
 getFunction
 getProtocol
 getTypeInfo
-initSection
 lookupValue
 materialize
 openGeneric
@@ -469,6 +463,7 @@ runOnModule
 addToScope
 emitProlog
 emitRValue
+getFieldNo
 getMembers
 getTokenAt
 hasStorage
@@ -483,7 +478,9 @@ readRecord
 removeNode
 skipRecord
 skipSingle
-getModule
+toLineList
+toolchains
+freeState
 getString
 highlight
 lexNumber
@@ -520,9 +517,11 @@ findIf
 getLoc
 getNew
 legacy
+lookup
 mangle
 reader
 record
+verify
 build
 clang
 clone
@@ -532,7 +531,6 @@ setup
 solve
 subst
 swift
-tools
 visit
 write
 dump

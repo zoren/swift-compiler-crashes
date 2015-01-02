@@ -1,4 +1,4 @@
-3  swift                    swift::Lexer::lexUnicodeEscape(char const*&, swift::Lexer*) + 213
+3  swift                    swift::Lexer::lexOperatorIdentifier() + 1813
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

@@ -1,4 +1,4 @@
-3  swift                    swift::resolvePotentialArchetypeToType(swift::ArchetypeBuilder&, llvm::ArrayRef<swift::GenericTypeParamType*>, swift::ArchetypeBuilder::PotentialArchetype*) + 52
+3  swift                    swift::OptionalType::get(swift::Type) + 324
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

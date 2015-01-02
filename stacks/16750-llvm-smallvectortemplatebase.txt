@@ -1,4 +1,4 @@
-3  swift                    llvm::DenseMapBase<llvm::SmallDenseMap<swift::constraints::ConstraintLocator*, swift::constraints::SelectedOverload, 4u, llvm::DenseMapInfo<swift::constraints::ConstraintLocator*> >, swift::constraints::ConstraintLocator*, swift::constraints::SelectedOverload, llvm::DenseMapInfo<swift::constraints::ConstraintLocator*> >::moveFromOldBuckets(std::__1::pair<swift::constraints::ConstraintLocator*, swift::constraints::SelectedOverload>*, std::__1::pair<swift::constraints::ConstraintLocator*, swift::constraints::SelectedOverload>*) + 335
+3  swift                    swift::constraints::ConstraintSystem::solveSimplified(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 5647
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363

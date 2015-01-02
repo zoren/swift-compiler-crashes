@@ -1,1 +1,1 @@
-../crashes-fuzzing/08474-checktypedeclavailability.swift
+../crashes-duplicates/08474-checktypedeclavailability.swift

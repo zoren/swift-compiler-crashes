@@ -1,4 +1,4 @@
-3  swift                    llvm::MachineModuleInfo::TidyLandingPads(llvm::DenseMap<llvm::MCSymbol*, unsigned long, llvm::DenseMapInfo<llvm::MCSymbol*> >*) + 1488
+3  swift                    isIntegerLikeType(clang::QualType, clang::ASTContext&, llvm::LLVMContext&) + 272
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6649
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 9408

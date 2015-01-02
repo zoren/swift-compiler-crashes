@@ -1,1 +1,1 @@
-../crashes-fuzzing/08402-mapsignaturefunctiontype.swift
+../crashes-duplicates/08402-mapsignaturefunctiontype.swift

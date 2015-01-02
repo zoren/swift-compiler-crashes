@@ -1,1 +1,1 @@
-../crashes-fuzzing/22903-swift-polymorphicfunctiontype-polymorphicfunctiontype.swift
+../crashes-duplicates/22903-swift-polymorphicfunctiontype-polymorphicfunctiontype.swift

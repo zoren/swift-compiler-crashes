@@ -1,4 +1,4 @@
-3  swift                    std::__1::__function::__func<swift::driver::Compilation::performJobsInList(swift::driver::JobList const&, llvm::DenseSet<swift::driver::Command const*, llvm::DenseMapInfo<swift::driver::Command const*> >&, llvm::DenseSet<swift::driver::Command const*, llvm::DenseMapInfo<swift::driver::Command const*> >&)::$_2, std::__1::allocator<swift::driver::Compilation::performJobsInList(swift::driver::JobList const&, llvm::DenseSet<swift::driver::Command const*, llvm::DenseMapInfo<swift::driver::Command const*> >&, llvm::DenseSet<swift::driver::Command const*, llvm::DenseMapInfo<swift::driver::Command const*> >&)::$_2>, void (int, void*)>::__clone(std::__1::__function::__base<void (int, void*)>*) const + 15
+3  swift                    swift::driver::Driver::buildCompilation(llvm::ArrayRef<char const*>) + 495
 4  swift                    swift::TypeVisitor<(anonymous namespace)::Traversal, bool>::visit(swift::Type) + 3133
 5  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 6  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52

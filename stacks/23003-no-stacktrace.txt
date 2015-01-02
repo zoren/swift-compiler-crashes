@@ -1,4 +1,4 @@
-3  swift                    swift::Lexer::lexUnicodeEscape(char const*&, swift::Lexer*) + 213
+3  swift                    swift::TypeChecker::isRepresentableInObjC(swift::VarDecl const*, swift::ObjCReason) + 613
 4  swift                    swift::TypeBase::getCanonicalType() + 1403
 5  swift                    swift::TypeBase::getCanonicalType() + 775
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 451
