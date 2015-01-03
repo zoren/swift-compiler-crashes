@@ -1,5 +1,5 @@
 // Distributed under the terms of the MIT license
-// Test case submitted to project by https://github.com/practicalswift (practicalswift)
+// Test case found by https://github.com/robrix (Rob Rix)
 // http://www.openradar.me/18332184
 // https://twitter.com/rob_rix/status/510875744667701248
 

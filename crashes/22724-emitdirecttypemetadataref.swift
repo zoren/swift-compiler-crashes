@@ -1,5 +1,5 @@
 // Distributed under the terms of the MIT license
-// Test case submitted to project by https://github.com/practicalswift (practicalswift)
+// Test case found by https://github.com/robrix (Rob Rix)
 // http://www.openradar.me/19335891
 
 func b<S : Sliceable>(e: S) -> (S.Generator.Element, S.SubSlice)? {
