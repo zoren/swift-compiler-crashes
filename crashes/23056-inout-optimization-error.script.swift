@@ -1,5 +1,5 @@
 // Distributed under the terms of the MIT license
-// Test case submitted to project by https://github.com/practicalswift (practicalswift)
+// Test case submitted to project by https://github.com/airspeedswift (airspeedswift)
 // https://twitter.com/AirspeedSwift/status/550315158942519297
 
 import Darwin
