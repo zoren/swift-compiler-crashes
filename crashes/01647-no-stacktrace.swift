@@ -1,5 +1,5 @@
 // Distributed under the terms of the MIT license
-// Test case submitted to project by https://github.com/radex
+// Test case submitted to project by https://github.com/radex (radex)
 // rdar://18851497
 
 struct A {
