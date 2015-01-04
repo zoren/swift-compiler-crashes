@@ -4,14 +4,14 @@
 // rdar://19067567
 
 enum E {
-  case A
+    case A
 }
 
 func f() -> (t: (Int,Int),e: E) {
-  return ((0,0),.A)
+    return ((0,0),.A)
 }
 
 func h() {
-  let (t,e) = f()
-  print(e)
+    let (t,e) = f()
+    print(e)
 }
