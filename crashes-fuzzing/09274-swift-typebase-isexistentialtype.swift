@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func d<T {
+func d<T{
 d
-class B<T where A: B
+class B<T where A:B
 class B
-struct c< > : B
+struct c<>:B
 protocol A

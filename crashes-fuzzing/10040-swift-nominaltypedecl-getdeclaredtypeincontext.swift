@@ -2,19 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
-class B<T where B : P {
-{
-{
-{
-{
-}
-}
-{
-{
-}
-}
-}
-}
-typealias e = a
-func a( ) -> Self
+let a{
+class B<T where B:P{
+typealias e=a
+func a()->Self

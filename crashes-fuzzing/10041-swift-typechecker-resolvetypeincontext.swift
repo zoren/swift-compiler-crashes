@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<T {
-class b {
+func b<T{class b{
 func b
 class B
-class b: a
-func a: B? {
-let g = a<T
+class b:a
+func a:B?{
+let g=a<T

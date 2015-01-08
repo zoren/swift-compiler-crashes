@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f<h , d {
-struct c<l {
-init( ) {
-enum S<T > : d
+func f<h,d{struct c<l{init(){enum S<T>:d

@@ -3,21 +3,21 @@
 // Test case found by fuzzing
 
 {
-class a {
-func g {
-class A {
-init {
+class a{
+func g{
+class A{
+init{
 {
 }
-let a {
-class B {
-class A {
-class A {
-func b {
-let a {
-extension A {
-class B {
-extension A {
+let a{
+class B{
+class A{
+class A{
+func b{
+let a{
+extension A{
+class B{
+extension A{
 class
 case c,
 let f

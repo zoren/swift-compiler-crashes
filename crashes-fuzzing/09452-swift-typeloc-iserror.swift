@@ -2,27 +2,20 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
+class A{
 {
 }
-{
-{
+struct g{
+struct c{
 }
-}
-struct g {
-struct c {
-}
-func c<g : a {
+func c<g:a{
 {
 {
 }
 }
-class B<T where H = e {
-var f = true as
-start {
+class B<T where H=e{
+var f=true as
+a{
 }
 }
-}
-{
-}
-let start = c
+}let a=c

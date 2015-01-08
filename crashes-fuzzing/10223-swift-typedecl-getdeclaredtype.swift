@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<S {
-class B {
-protocol A {
-typealias e = c
+func g<S{
+class B{
+protocol A{
+typealias e=c
 }
-func c( ) -> Any
-let g = c
+func c()->Any
+let g=c

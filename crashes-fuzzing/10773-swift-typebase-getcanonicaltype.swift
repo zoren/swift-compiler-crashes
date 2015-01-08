@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol b {
+protocol b{
 typealias e
-func a<U : e
+func a<U:e
 }
-struct B<T where g: B {
-class d<U : d
+struct B<T where g:B{
+class d<U:d

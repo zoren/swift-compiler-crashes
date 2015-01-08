@@ -2,17 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
+class A{
 {
 }
-deinit {
-struct d<f {
-class a {
-enum A {
+deinit{struct d<f{class a{
+enum A{
 struct B
 struct D
-struct B<d where g: T
-{
-{
+struct B<d where g:T
+{{
 }
 struct B

@@ -2,13 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-var f = ( <T
+if true{
+var f=(<T
 }
-if true {
-struct A {
+if true{
+struct A{
 {
 }
-protocol b {
+protocol b{
 func T
-typealias e : e
+typealias e:e

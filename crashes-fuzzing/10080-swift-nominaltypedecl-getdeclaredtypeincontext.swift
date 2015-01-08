@@ -3,8 +3,6 @@
 // Test case found by fuzzing
 
 {
-( ) -> Any in
-{
-}
-class C<T where I.b : P {
+()->a in
+class C<T where I.b:P{
 func a

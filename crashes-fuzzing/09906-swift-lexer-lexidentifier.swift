@@ -2,10 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-{
-( ) -> Any in
-class d<T where B : b {
-{
-}
-func f
+func<{{()->a in
+class d<T where B:b{func f

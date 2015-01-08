@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-[ 0
-func f {
-struct d {
-struct S<ff where I : A { {
+[0
+func f{struct d{
+struct S<a where I:A{{
 }
-class A<T, j: A
+class A<b:A

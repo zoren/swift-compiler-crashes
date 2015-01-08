@@ -2,16 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a {
-deinit {
-class a {
-{
-{
+class a{
+deinit{
+class a{{
 }
-}
-var b = c
-func c {
-struct d {
-struct c {
-struct B<T where g: AnyObject {
-var b = c<T
+var b=c
+func c{
+struct d{
+struct c{
+struct B<T where g:a{var b=c<T

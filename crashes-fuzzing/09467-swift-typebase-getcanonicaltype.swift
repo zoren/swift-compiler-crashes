@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
-class B<h , A {
-{
-}
-struct c<T {
-class d<T> : d
+let a{class B<h,A{{}struct c<T{class d<T>:d

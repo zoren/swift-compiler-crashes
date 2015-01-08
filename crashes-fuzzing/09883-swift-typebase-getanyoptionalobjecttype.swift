@@ -2,12 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<f {
-class d<T: a {
-}
-func a
-var String {
-class d<f : d > : a {
-{
-}
-class a
+class B<f{class d<T:a func a{class d<f:d>:a{class a

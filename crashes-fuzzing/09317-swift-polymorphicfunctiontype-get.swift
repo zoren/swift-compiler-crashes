@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<b: A
-protocol A : a {
-protocol A : A
+struct c<b:A
+protocol A:a{
+protocol A:A
 {
 }
-protocol a : A
+protocol a:A

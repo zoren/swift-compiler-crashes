@@ -3,9 +3,5 @@
 // Test case found by fuzzing
 
 map
-enum B : a {
-{
-}
-}
-protocol a {
-typealias b : b
+enum B:a protocol a{
+typealias b:b

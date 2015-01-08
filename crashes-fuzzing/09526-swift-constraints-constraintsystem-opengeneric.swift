@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<f, d > : C {
+class B<f,d>:C{
 protocol A
-protocol C {
+protocol C{
 protocol A

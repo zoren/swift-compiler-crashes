@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<T where B : AnyObject
-protocol A : B
-protocol B {
+enum S<T where B:a
+protocol A:B
+protocol B{
 typealias e
 enum a
 {

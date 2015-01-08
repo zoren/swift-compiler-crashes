@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-extension A.Element
-protocol a {
-}
-protocol A {
-typealias e : A.b
+extension A.a
+protocol A{
+typealias e:A.b
 func b

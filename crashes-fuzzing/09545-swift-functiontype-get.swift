@@ -2,15 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C<f {
-var C {
-{
-{
+class C<f{
+var C{protocol B{
+var f:String
 }
-}
-protocol B {
-var f : String
-}
-class A {
+class A{
 func b
-func b: f.d
+func b:f.d

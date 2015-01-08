@@ -3,10 +3,8 @@
 // Test case found by fuzzing
 
 protocol A
-let t: A?
-protocol P {
-let : A {
-}
-protocol A {
-protocol b : a {
+let t:A?
+protocol P{
+let:A protocol A{
+protocol b:a{
 func a

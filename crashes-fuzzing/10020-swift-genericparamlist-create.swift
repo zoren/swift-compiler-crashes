@@ -2,14 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let AnyObject, A {
-struct S {
-class n {
+let a{
+struct S{
+class n{
 {
-}
-{
-}
-protocol P {
-class A : e
+}protocol P{class A:e
 func p
-typealias e : A.g ==
+typealias e:A.g

@@ -2,18 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol a {
-protocol A {
-{
-{
+protocol a{
+protocol A{{{
 }
 }
 }
 typealias F
 }
-let a {
-protocol A : a {
-func c(x ( {
-}
-var e: a
-typealias F = A
+let a{
+protocol A:a{
+func c(x
+var a
+typealias F=A

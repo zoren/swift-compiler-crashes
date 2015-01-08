@@ -2,18 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a {
-class A {
-protocol k : c
-protocol k {
+func a{
+class A{
+protocol k:c
+protocol k{
 func c
 {
 }
-typealias B : c
+typealias B:c
 }
 }
-var a {
+var a{
 {
 }
 }
-class c< > : a
+class c<>:a

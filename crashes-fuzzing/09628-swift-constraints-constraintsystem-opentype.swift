@@ -2,16 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a {
-struct g<d {
+class a{
+struct g<d{
 protocol d
-struct d {
-}
-let start = (g: d :
-let a {
--> {
-}
-struct c {
-init( ) {
-}
-var f = c {
+struct d let a=(g:d:
+let a{struct c{
+init()var f=c{

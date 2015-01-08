@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let f {
-" "
-class d<T where g: a {
-typealias f = F
+let f{""class d<T where g:a{typealias f=F

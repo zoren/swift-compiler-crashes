@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c( ) -> {
-enum b : String {
-protocol A {
-typealias e : e
+func>{enum b:String{protocol A{typealias e:e

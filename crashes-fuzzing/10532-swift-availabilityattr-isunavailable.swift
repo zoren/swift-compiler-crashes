@@ -2,12 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol C {
-{
-}
-typealias A : A
-{
-}
-}
-protocol b
-struct D : AnyObject, b
+protocol C{{}
+typealias A:A}protocol b
+struct D:AnyObject,b

@@ -4,6 +4,6 @@
 
 class B
 import CoreData
-struct B<d where B : a {
-var b {
-enum S<T: f
+struct B<d where B:a{
+var b{
+enum S<T:f

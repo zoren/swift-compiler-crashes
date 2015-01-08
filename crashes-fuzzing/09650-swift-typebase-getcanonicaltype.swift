@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 class B<I
-func g<T {
-enum A : T
-enum S<b: B<T.j>
+func g<T{enum A:T
+enum S<b:B<T.j>

@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let d {
+let d{
 struct c
-class B {
-let end = i [c
+class B{let a=i[c
 }
-struct g<b where B : d {
-let : d
+struct g<b where B:d{let:d

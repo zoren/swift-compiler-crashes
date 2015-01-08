@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-typealias b = Int
-class A {
-{
-}
-struct B {
-class A {
-class b<f where T: NSManagedObject {
-let : P
+typealias b=Int
+class A{
+{}struct B{
+class A{
+class b<f where T:a{
+let:P

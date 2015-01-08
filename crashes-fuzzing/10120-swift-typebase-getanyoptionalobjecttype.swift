@@ -2,13 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d {
-{
-}
-var d = " "
-class a<T where h: A {
-var d {
-protocol P {
-protocol b {
-}
-func i: c
+class d{var d=""class a<T where h:A{var d{protocol P{protocol b{}func i:c

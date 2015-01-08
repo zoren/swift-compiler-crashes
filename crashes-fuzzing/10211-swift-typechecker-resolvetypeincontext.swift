@@ -2,13 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-{
-}
-protocol A {
-class d init( )
-typealias e : d
-let d: e
-F {
-}
-class d: BooleanType
+protocol A{
+class d init()typealias e:d
+let d:e
+class d:BooleanType

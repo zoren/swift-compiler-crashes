@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-class A<T where k : a {
-}
+func<{
+class A<T where k:a{}
 false
-func a: A.c
+func a:A.c

@@ -3,9 +3,4 @@
 // Test case found by fuzzing
 
 <d
-if true {
-if true {
-{
-}
-enum b { class B<d where T : A {
-var f = compose<c
+if true{if true{enum b{class B<d where T:A{var f=a<c

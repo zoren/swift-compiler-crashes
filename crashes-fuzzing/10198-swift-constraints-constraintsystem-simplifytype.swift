@@ -3,8 +3,5 @@
 // Test case found by fuzzing
 
 func c
-let a = c<Int
-struct e<U : e<T> > : a {
-{
-}
-func a
+let a=c<Int
+struct e<U:e<T>>:a{func a

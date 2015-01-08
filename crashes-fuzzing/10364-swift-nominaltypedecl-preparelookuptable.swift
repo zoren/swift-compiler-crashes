@@ -4,8 +4,6 @@
 
 class A
 protocol B
-func b: (n: A.c
-{
-}
-struct B<T where B : Int {
+func b:(n:A.c{}
+struct B<T where B:a{
 func c

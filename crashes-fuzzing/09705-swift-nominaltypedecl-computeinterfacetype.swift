@@ -2,15 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var d {
-class a {
-init( ) {
-{
+var d{
+class a{
+init(){{}
+protocol A{
+typealias e:A.e}
 }
-protocol A {
-typealias e : A.e
-}
-}
-class a {
+class a{
 var d
 protocol b

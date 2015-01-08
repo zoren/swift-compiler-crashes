@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 protocol g
-struct B<T where B : a {
-var b: (
-}
-class B<T where T: g
+struct B<T where B:a{
+var b:(}
+class B<T where T:g

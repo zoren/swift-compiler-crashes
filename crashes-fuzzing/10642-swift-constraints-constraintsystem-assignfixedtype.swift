@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-println( )
-func a {
-struct B {
-let c: A
-}
-protocol A : b {
-typealias b
+println()func a{struct B{let c:A}protocol A:b{typealias b

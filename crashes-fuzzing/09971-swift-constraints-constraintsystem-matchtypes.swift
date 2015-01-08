@@ -3,14 +3,14 @@
 // Test case found by fuzzing
 
 class B
-class a {
+class a{
 {
 {
 }
 }
-let start = B<T
+let a=B<T
 }
 struct B
-struct A {
-struct d<d where B : a {
-struct B<d where H.g : Collect
+struct A{
+struct d<d where B:a{
+struct B<d where H.g:b

@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-let T, g = c
-}
-protocol A {
-typealias A : A
+if true{
+let a=c}
+protocol A{typealias A:A

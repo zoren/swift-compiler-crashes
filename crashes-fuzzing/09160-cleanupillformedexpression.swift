@@ -2,42 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b {
-if true {
-var f = <T {
-{
-{
-}
-{
-}
-{
-}
-}
-if {
-let a = <T {
-{
-}
-}
-{
-}
-{
-: {
-{
-}
-}
-}
-{
-{
-}
-{
-}
-}
-}
-{
-{
-}
-}
-}
-}
-struct c<T where A: compose {
-let : Any
+func b{if true{var f=T{{{}{}{}}{l<T{{}}}}}struct c<T where A:a{let:b

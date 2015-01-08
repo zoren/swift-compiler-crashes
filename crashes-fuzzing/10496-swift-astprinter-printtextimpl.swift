@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<H {
+struct B<H{
 class b
-enum B {
-let start = b<H
+enum B{let a=b<H
 }
-struct B<T where B : AnyObject {
-var f = b
+struct B<T where B:b{var f=b

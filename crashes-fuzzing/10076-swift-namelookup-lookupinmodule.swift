@@ -4,4 +4,4 @@
 
 class b
 func a
-let a = b> Void{
+let a=b> Void{

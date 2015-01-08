@@ -2,5 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T > : P {
-let : T.c = [ [ 0
+func g<T>:P{let:T.c=[[0

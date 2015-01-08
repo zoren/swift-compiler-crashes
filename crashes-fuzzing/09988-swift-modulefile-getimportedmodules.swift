@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 func b
-func b<H where I.c: B
-struct B<T where T: b {
-var b { func
-g<h: e
+func b<H where I.c:B
+struct B<T where T:b{var b{func
+g<h:e

@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<d : A
-protocol A : b
-typealias b = Int
+func b<d:A
+protocol A:b
+typealias b=Int

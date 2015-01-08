@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 struct A
-struct A<U : CollectionType where B : a {
-var b: (
+struct A<U:CollectionType where B:a{
+var b:(

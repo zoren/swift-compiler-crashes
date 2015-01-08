@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-[ (
-class A {
-protocol C {
-struct B
-var f : B
-typealias f : f
+[(
+class A{
+protocol C{struct B
+var f:B
+typealias f:f

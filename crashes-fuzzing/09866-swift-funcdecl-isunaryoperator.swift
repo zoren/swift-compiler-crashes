@@ -2,15 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<Int {
-{
-}
+func b<a{
 struct b
-if true {
+if true{
 {
 }
-class c {
-struct B<c : b
+class c{
+struct B<c:b
 class func b
-let a {
-b( )
+let a{
+b()

@@ -2,31 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-protocol b {
-typealias e : e
-init( )
+func<{
+protocol b{
+typealias e:e
+init()protocol P{
 {
-}
-{
-{
-{
-}
-}
-{
-}
-}
-protocol P {
-{
-}
-class a {
-protocol P {
-{
-{
-}
-}
-{
-{
-}
-}
-var d = [ [ [ [ ] as a<T.c T
+}class a{
+protocol P{var d=[[[[]as a<T.T

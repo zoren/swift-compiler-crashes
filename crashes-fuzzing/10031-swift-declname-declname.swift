@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol g {
+protocol g{
 {
 }
-}
-func g: CollectionType
-class d<T where B : a {
-typealias F = T
+}func g:CollectionType
+class d<T where B:a{
+typealias F=T

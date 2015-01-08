@@ -2,13 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var d = [ {
-let end = { func b {
--> {
-func i( ) {
-class A {
-protocol B {
-enum S {
+var d=[{
+let a={func b{
+->{
+func i(){
+class A{
+protocol B{
+enum S{
 class
-case c,
-case
+case c,case

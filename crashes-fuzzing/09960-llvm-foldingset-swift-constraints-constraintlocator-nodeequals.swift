@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 func f
-let i { f
-struct A {
-struct S<T where T : A {
+let i{f
+struct A{struct S<T where T:A{
 func a

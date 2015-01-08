@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 1
-b > T
-struct d: A {
-protocol A {
+b>
+struct d:A{protocol A{
 func b
-typealias e : e
+typealias e:e

@@ -2,15 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b( ) -> {
-protocol A {
-let : a
-protocol A {
-}
+protocol A{let:a
+protocol A
 func a(x
 {
-{
 }
-}
-protocol A : a {
+protocol A:a{
 func a

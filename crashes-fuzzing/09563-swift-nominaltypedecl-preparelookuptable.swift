@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-class B<T where A : AnyObject
-enum S< > : String
-let : B
+if true{
+class B<T where A:a
+enum S:String
+let:B

@@ -2,13 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a<T {
-func b {
-}
-struct b<T where g: a {
-func b
-{
-}
-}
-func b(
-let g: AnyObject
+class a<T{func b{}struct b<T where g:a{func b{}}func b(let g:AnyObject

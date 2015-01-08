@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 struct B
-let B {
-var d = B? {
+let B{
+var d=B?{
 }
-class A<T where g: C {
-let i: (
+class A<T where g:C{
+let i:(

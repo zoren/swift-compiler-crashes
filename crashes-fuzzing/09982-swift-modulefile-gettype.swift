@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<H where B : A
+struct c<H where B:A
 import CoreData
-let A {
+let A{
 class f
-let end = c
+let a=c

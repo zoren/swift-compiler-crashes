@@ -2,13 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var d {
-{
-}
-struct S {
-class b: P {
-}
-var d = [ 1
-protocol P {
+struct S{
+class b:P{}
+var d=[1
+protocol P{
 func f
-typealias e : e
+typealias e:e

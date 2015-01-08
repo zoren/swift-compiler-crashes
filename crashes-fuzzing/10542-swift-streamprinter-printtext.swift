@@ -2,19 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
+if true{
 class b<T where h:
-B {
+B{
 }
-enum S<T {
-struct A {
-protocol B : d
+enum S<T{
+struct A{
+protocol B:d
 class d
 {
-}
-}
-struct A {
-{
-}
-struct B {
-enum S<T where T: b
+enum S<T where T:b

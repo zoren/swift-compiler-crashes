@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-class a<T where h: b
-if true {
+func<{class a<T where h:b
+if true{
 }
-var d = [ ] as a
+var d=[]as a

@@ -2,41 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
+if true{
+protocol A{{
 {
+{}}
 }
-{
-}
-{
-}
-{
-{
-}
-}
-{
-{
-}
-}
-{
-}
-protocol A {
-{
-{
-{
-{
-}
-}
-}
-{
-}
-}
-{
-{
-}
-}
-typealias e : A
+typealias e:A
 protocol A
 }
 }
-protocol a : a {
+protocol a:a{
 func a

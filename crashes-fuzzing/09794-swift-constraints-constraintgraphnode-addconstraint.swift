@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-Int {
+Int{
 }
-enum B {
-struct S {
-struct B<T where h: NSObject {
-let : b
+enum B{
+struct S{struct B<T where h:a{
+let:b

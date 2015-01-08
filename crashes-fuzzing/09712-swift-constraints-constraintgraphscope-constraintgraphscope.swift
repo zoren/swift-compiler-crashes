@@ -2,12 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let d {
-let end = 1
-A {
-}
-var : A {
-}
-protocol A {
+let d{
+let a=1
+var:A{}protocol A{
 func a
-func a<h: a
+func a<h:a

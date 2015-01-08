@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
-class a {
-class b<T where A.B : T> : NSManagedObject {
+let a{
+class a{
+class b<T where A.B:T>:a{
 }
-class A : a
+class A:a
 class a

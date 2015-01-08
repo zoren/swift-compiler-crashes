@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a {
-deinit {
-struct c<d where f: A
-if c {
+class a{
+deinit{
+struct c<d where f:A
+if c{

@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where k : a {
-let f = compose(n: A? {
-struct B {
-func a {
-let c {
-}
-}
+struct B<T where k:a{let f=a(a?{struct B{func a{let c{}}

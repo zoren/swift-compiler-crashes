@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d {
-typealias F = A
-protocol A {
-typealias b = A
+protocol A{
+typealias b=A
 func a
-typealias e : A.b
+typealias e:A.b

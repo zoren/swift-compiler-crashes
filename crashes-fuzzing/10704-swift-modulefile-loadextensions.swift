@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 class n
-func p( ) {
-enum e
-enum S<T where h = d> : e
+func p{enum e
+enum S<T where h=d>:e

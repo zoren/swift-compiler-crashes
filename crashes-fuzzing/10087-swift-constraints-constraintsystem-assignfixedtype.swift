@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C<T {
+class C<T{
 class A
-class d: A {
-var d {
-struct A<T where H : Any
-var d {
-struct S<b: A
+class d:A{var d{struct A<T where H:a
+var d{
+struct S<b:A

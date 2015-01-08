@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-class A<d where f: B
-var b {
-{
-}
-func c<T> (A
+if true{class A<d where f:B
+var b{
+{}
+func c<T>(A

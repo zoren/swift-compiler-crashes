@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T > : a {
-enum A {
-init( ) {
-enum B : T.f
+func a<T>:a{enum A{init(){enum B:T.f

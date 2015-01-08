@@ -2,20 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol P {
-func c
-enum B : a {
-{
+protocol P{func c
+enum B:a{{
 }
-protocol a {
-{
+protocol a
 }
-}
-{
-}
-{
-}
-}
-typealias e : A
-class A: B
-protocol A : e
+typealias e:A
+class A:B
+protocol A:e

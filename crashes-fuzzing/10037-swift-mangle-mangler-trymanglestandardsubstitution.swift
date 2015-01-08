@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<T where I : e
-enum b : b P {
-(v: d {
+class d<T where I:e
+enum b:b P{
+(d{

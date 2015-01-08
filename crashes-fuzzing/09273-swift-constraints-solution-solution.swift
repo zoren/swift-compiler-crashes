@@ -3,13 +3,12 @@
 // Test case found by fuzzing
 
 struct B
-struct c {
-let h = B
-func g {
-class B {
-class d {
+struct c{let h=B
+func g{
+class B{
+class d{
 {
 }
-class A {
-class A<T where g: C {
-let : c
+class A{
+class A<T where g:C{
+let:c

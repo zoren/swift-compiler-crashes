@@ -2,22 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B {
+struct B{
 {
 {
 }
-{
 }
-}
-{
-}
-{
-}
-class a {
-class a {
+class a{
+class a{
 class d
-struct B<d where B : a {
+struct B<d where B:a{
 {
 }
-var b {
-enum S<U : Collec
+var b{
+enum S<U:a

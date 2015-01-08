@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 <T
-enum b {
-protocol c : A. T
-protocol A : d {
+enum b{
+protocol c:A.T
+protocol A:d{
 func a
-protocol d : A.a
+protocol d:A.a

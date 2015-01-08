@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 extension A<c
-class A<T where T: A {
+class A<T where T:A{
 {
 {
 {
@@ -34,12 +34,11 @@ class A<T where T: A {
 {
 {
 {
+{{
 {
 {
 {
 {
 {
 {
-{
-{
-true {
+a{

@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 import CoreData
-protocol l : String
-struct B<d where B : A {
-struct B<T where B : d
+protocol l:a
+struct B<d where B:A{struct B<T where B:d

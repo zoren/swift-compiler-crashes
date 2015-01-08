@@ -2,25 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
+let a{
+class a{
 struct A
-let a {
-class a {
-}
-class A {
-struct A : String
-func a<T {
-}
-enum S<T {
-}
-{
-}
-{
-}
-struct c<T {
-}
-protocol A : Array
-let a {
-struct A {
-class a {
-struct S<T where h: Array {
-let : AnyObject
+protocol A:Array
+class a{
+struct S<T where h:r{
+let:a

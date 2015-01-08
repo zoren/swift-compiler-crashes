@@ -2,16 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-enum b {
-{
-}
-enum S<T where g: T
-{
+class A{
+enum b{
+{}enum S<T where g:T
 {
 }
 }
-}
-}
-enum B
-enum B : f.E
+}enum B
+enum B:f.E

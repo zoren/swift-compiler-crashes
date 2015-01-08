@@ -4,7 +4,7 @@
 
 protocol b
 struct D
-class a<d where T = j {
-let : A
+class a<d where T=j{
+let:A
 }
-var b = D>
+var b=D>

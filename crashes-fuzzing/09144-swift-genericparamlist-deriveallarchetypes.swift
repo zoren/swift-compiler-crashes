@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b( [Void
-enum S<T where H : C {
-typealias f = e
+func b([Void
+enum S<T where H:C{
+typealias f=e

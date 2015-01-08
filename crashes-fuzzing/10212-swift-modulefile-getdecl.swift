@@ -2,13 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<i { {
-}
-struct c {
+func b<i{
+struct c{
 {
 }
-struct B {
-struct B
-{
-class c : e
+struct B{
+struct B{
+class c:e
 func e(i.j.j

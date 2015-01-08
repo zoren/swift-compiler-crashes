@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A {
+protocol A{
 enum b
-func b: T
-}
+func b:T}
 Void{

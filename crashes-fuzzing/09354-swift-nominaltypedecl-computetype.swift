@@ -4,18 +4,12 @@
 
 extension
 prefix
-enum S<T, U, g {
+enum S<T,U,g{
 func b
-enum S<b {
+enum S<b{
 struct c<b
-struct c {
+struct c class c{
+class d{
 {
 }
-}
-{
-}
-class c {
-class d {
-{
-}
-var d = c( )
+var d=c()

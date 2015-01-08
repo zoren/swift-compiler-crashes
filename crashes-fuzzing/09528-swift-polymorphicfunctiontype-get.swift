@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 struct c
-if true {
-class A {
-enum b : c
-func a<d {
-class A : A
+if true{class A{
+enum b:c
+func a<d{
+class A:A
 class A

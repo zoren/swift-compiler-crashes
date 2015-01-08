@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 class B<c class c
-func < {
-let : Int = [B<c->
-let c {
-class B<T where h: NSObject {
-struct S<H : P
+func<{
+let:Int=[B<c->
+let c{
+class B<T where h:a{struct S<H:P

@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 import CoreData
-let start = g
-class B<T where B : A {
-let end = B
+let b=g
+class B<T where B:A{let a=B
 class B

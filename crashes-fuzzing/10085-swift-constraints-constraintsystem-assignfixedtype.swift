@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b {
-println ->
-class B {
-class B<T where B : Any {
-class B<T where B : d
+func b{println class B{class B<T where B:a{class B<T where B:d

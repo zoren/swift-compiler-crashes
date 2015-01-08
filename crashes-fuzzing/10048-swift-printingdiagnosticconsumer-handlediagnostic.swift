@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum k {
+enum k{
 {
 }
-class A {
+class A{
 func c
-class c<c {
+class c<c{
 }
-let a {
-struct S<T where T : c<T>
+let a{
+struct S<T where T:c<T>

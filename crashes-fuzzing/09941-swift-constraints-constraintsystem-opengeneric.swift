@@ -2,12 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<T, j, j {
-struct S<T {
+struct S<T,j,j{
+struct S<T{
 {
-}
-struct c<d {
-let g = d
+}struct c<d{
+let g=d
 struct d
 struct d
 var d

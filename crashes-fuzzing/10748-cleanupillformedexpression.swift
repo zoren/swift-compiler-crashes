@@ -2,14 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let c {
+let c{
 {
 }
-enum S {
-let f = compose( ) {
-assert(false)?
+enum S{
+let f=(){
+c(a)?
 }
 }
 }
-struct A {
-enum S<T where B : Range > : H.g
+struct A{
+enum S<T where B:d>:H.g

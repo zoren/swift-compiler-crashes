@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-[ ]
-enum A {
-class C<T where g: T> : AnyObject.h
+func<{[]enum A{class C<T where g:T>:t.h

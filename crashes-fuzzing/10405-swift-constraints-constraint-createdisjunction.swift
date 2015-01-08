@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct Q {
-var _ = B<T>Bool
-}
-protocol e : b {
-{
-}
-typealias b
+struct Q{var _=B<T>B}protocol e:b{typealias b
