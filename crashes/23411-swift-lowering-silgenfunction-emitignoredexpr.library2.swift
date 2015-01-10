@@ -1,4 +1,4 @@
-import CrashModule
+import DummyModule
 
 // Minimized by Ivan Milles from issue
 // at https://github.com/SwiftyJSON/SwiftyJSON/issues/67
