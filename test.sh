@@ -43,7 +43,7 @@ done
 
 shift $((OPTIND - 1))
 
-current_max_id=$(find crashes crashes-fuzzing crashes-duplicates fixed -name "?????-*.swift" | cut -f2 -d'/' | egrep '^[0-9]+\-' | sort -n | cut -f1 -d'-' | sed 's/^0*//g' | tail -1)
+current_max_id=$(find crashes crashes-fuzzing crashes-duplicates fixed -name "?????-*.swift" | cut -f2 -d'/' | grep -E '^[0-9]+\-' | sort -n | cut -f1 -d'-' | sed 's/^0*//g' | tail -1)
 if [[ ${max_test_number} != 0 ]]; then
   current_max_id=${max_test_number}
 fi
@@ -60,13 +60,13 @@ show_error() {
   printf "%b" "${color_red}[Error]${color_normal_display} ${color_bold}${warning}${color_normal_display}\n"
 }
 
-duplicate_bug_ids=$(find crashes crashes-fuzzing crashes-duplicates fixed -name "?????-*.swift" | cut -f2 -d/ | cut -f1 -d'.' | sort | uniq | cut -f1 -d'-' | uniq -c | sed "s/^ *//g" | egrep -v '^1 ' | cut -f2 -d" " | tr "\n" "," | sed "s/,$//g")
+duplicate_bug_ids=$(find crashes crashes-fuzzing crashes-duplicates fixed -name "?????-*.swift" | cut -f2 -d/ | cut -f1 -d'.' | sort | uniq | cut -f1 -d'-' | uniq -c | sed "s/^ *//g" | grep -E -v '^1 ' | cut -f2 -d" " | tr "\n" "," | sed "s/,$//g")
 if [[ ${duplicate_bug_ids} != "" ]]; then
   show_error "Duplicate bug ids: ${duplicate_bug_ids}. Please re-number to avoid duplicates."
   echo
 fi
 
-xcrun swiftc - -o /dev/null 2>&1 <<< "" | egrep -q "error:" && {
+xcrun swiftc - -o /dev/null 2>&1 <<< "" | grep -E -q "error:" && {
   show_error "Xcode compiler does not work. Cannot run tests."
   exit 1
 }
@@ -93,7 +93,7 @@ execute_with_timeout() {
 # A crash is treated as non-duplicate if it has an unique "crash hash" as computed by the following crash hash function:
 get_crash_hash() {
   compilation_output="$1"
-  normalized_stack_trace=$(egrep "0x[0-9a-f]" <<< "${compilation_output}" | egrep '(swift|llvm)' | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^ *//g' | head -10)
+  normalized_stack_trace=$(grep -E "0x[0-9a-f]" <<< "${compilation_output}" | grep -E '(swift|llvm)' | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^ *//g' | head -10)
   if [[ ${normalized_stack_trace} == "" ]]; then
     crash_hash=""
   else
@@ -123,7 +123,7 @@ test_file() {
   test_name=${test_name//.runtime/}
   test_name=${test_name//.script/}
   test_name=${test_name//.timeout/}
-  current_test_number=$(echo "${test_name}" | tr " " "\n" | egrep "^[0-9]+$" | head -1 | sed "s/^0*//g")
+  current_test_number=$(echo "${test_name}" | tr " " "\n" | grep -E "^[0-9]+$" | head -1 | sed "s/^0*//g")
   if [[ ${max_test_number} != 0 && ${current_test_number} != "" && ${current_test_number} -gt ${max_test_number} ]]; then
     return
   fi
@@ -252,7 +252,7 @@ test_file() {
   fi
   if [[ ${log_stacks} == 1 ]]; then
     stacktrace_log=./stacks/$(basename $(head -1 <<< "${files_to_compile}") | sed 's/.swift$//').txt
-    egrep "0x[0-9a-f]" <<< "${output}" | sed 's/ 0x[0-9a-f]*//g' | sed 's/ [0-9][0-9][0-9][0-9][0-9][0-9][0-9]*$/ [N]/g' | sed "s/^swift([0-9]*,0x[0-9a-f]*)/swift(N,0xN)/" | egrep "^[0-9]" | egrep -v '(libdyld|libsystem_kernel|libsystem_malloc|libsystem_platform|libsystem_c|libsystem_malloc)\.dylib' | egrep -v '(llvm::sys::PrintStackTrace|SignalHandler)' > "${stacktrace_log}"
+    grep -E "0x[0-9a-f]" <<< "${output}" | sed 's/ 0x[0-9a-f]*//g' | sed 's/ [0-9][0-9][0-9][0-9][0-9][0-9][0-9]*$/ [N]/g' | sed "s/^swift([0-9]*,0x[0-9a-f]*)/swift(N,0xN)/" | grep -E "^[0-9]" | grep -E -v '(libdyld|libsystem_kernel|libsystem_malloc|libsystem_platform|libsystem_c|libsystem_malloc)\.dylib' | grep -E -v '(llvm::sys::PrintStackTrace|SignalHandler)' > "${stacktrace_log}"
   fi
   hash=$(get_crash_hash "${output}")
   is_dupe=0
@@ -287,7 +287,7 @@ test_file() {
     fi
   fi
   if [[ ${verbose} == 1 ]]; then
-    crashed_in_function=$(egrep "0x[0-9a-f]" <<< "${output}" | grep -v '\*\*\*' | egrep -v '(llvm::sys::PrintStackTrace|SignalHandler|_sigtramp|swift::TypeLoc::isError)' | egrep '(swift|llvm)' | head -1 | sed 's/ 0x[0-9a-f]/|/g' | cut -f2- -d'|' | cut -f2- -d' ')
+    crashed_in_function=$(grep -E "0x[0-9a-f]" <<< "${output}" | grep -v '\*\*\*' | grep -E -v '(llvm::sys::PrintStackTrace|SignalHandler|_sigtramp|swift::TypeLoc::isError)' | grep -E '(swift|llvm)' | head -1 | sed 's/ 0x[0-9a-f]/|/g' | cut -f2- -d'|' | cut -f2- -d' ')
     echo
     printf "%b" "${color_bold}Crashed in function:${color_normal_display}\n"
     echo "${crashed_in_function}"
