@@ -4,18 +4,18 @@
 
 {
 {
-func g {
-let d {
-{
--> {
-struct c {
-class A {
-let end = {
+func g{
+let d{
 {
 {
+struct c{
+class A{
+let a={
 {
-class B {
-class B {
+{
+{
+class B{
+class B{
 class
 case c,
 let e

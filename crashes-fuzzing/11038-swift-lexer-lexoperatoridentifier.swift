@@ -2,23 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-let : T -> {
-struct c<T where k : d
-func a( ) {
-class A {
-let start = c
-func a( ) {
-let start = i [ where [
+class A{let:T->{
+struct c<T where k:d
+func a(){
+class A{
+let a=c
+func a(){
+let a=i[where[{
 {
 {
 {
+{{
+{{
 {
 {
-}
-[ {
-{ {
-{
-{
-{
-where f.
+{e f.

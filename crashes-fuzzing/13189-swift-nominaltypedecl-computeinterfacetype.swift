@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum e {
+enum e{
 class b
-class B<T where B : NSObject {
-var d {
+class B<T where B:a{
+var d{
 (b

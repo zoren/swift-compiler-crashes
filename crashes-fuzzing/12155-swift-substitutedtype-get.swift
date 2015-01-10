@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 class A
-let b {
-struct c<T where T : A { }
-func a< > Void{
+let b{
+struct c<T where T:A
+func a<>Void{

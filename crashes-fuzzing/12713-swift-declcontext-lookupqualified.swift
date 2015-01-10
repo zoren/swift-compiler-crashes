@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c { func a
-var f = > (a
-class {
-}
-class A {
+struct c{func a
+var f= >(a
+class A{
 protocol B
-struct B<T where f: A {
+struct B<T where f:A{
 protocol c

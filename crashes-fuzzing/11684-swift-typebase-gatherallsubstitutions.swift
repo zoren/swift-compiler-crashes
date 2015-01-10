@@ -2,6 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-var d = [ 1
-func a<T: A.a
+class A{var d=[1
+func a<T:A.a

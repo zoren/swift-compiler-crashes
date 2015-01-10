@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<d {
-class A {
+func g<d{
+class A{
 protocol d
-var d : d {
+var d:d{
 }
-class d<d where g: NSObject {
+class d<d where g:a{
 enum S

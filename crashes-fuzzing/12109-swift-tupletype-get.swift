@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 <h
-enum B : B
-func < {
-enum B {
-protocol a {
-func a<T where A: e
-protocol A : a {
+enum B:B
+func<{enum B{
+protocol a{
+func a<T where A:e
+protocol A:a{
 func a

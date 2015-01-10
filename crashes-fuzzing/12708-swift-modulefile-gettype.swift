@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a( ) -> {
-enum A : S
-class C<T where I = compose
+func a()->{
+enum A:S
+class C<T where I=a
 enum S
-class c {
-class B< > : C
+class c{
+class B<>:C

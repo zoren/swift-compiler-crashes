@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B {
-struct A {
-struct g
-}
-}
-func a< > Void{
+class B{struct A{struct g}}Void{

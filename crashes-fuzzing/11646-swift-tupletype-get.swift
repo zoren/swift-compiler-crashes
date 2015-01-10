@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<T where T: T {
-let a {
-[ 1 ]
-for in c
+struct d<T where T:T{let a{[1]for in c

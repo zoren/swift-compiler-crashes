@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum a< d
-enum S<T where B : Int {
-let f = (sel
+enum a<d
+enum S<T where B:a{let f=(b
 }
-protocol B : a
+protocol B:a

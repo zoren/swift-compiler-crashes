@@ -2,11 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
+if true{
 }
-class B {
-{
-}
-struct B<T where B : T {
-let start = c<H
+class B{
+struct B<T where B:T{let a=c<H
 struct c

@@ -3,13 +3,10 @@
 // Test case found by fuzzing
 
 0.e
-protocol k {
-class d {
-{
-}
-func a {
-if c {
+protocol k{
+class d{
+func a{
+if c{
 {
 class
-case c,
-_
+case c,_

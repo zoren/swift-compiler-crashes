@@ -2,14 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol A : AnyObject, b {
+protocol A:AnyObject,b{
 typealias b
-protocol A {
-class A {
+protocol A{
+class A{
 {
 }
 {
 }
-let a {
-class A {
-protocol {
+let a{
+class A{
+protocol

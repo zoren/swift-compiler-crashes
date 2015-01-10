@@ -2,12 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<T {
-class c : a {
-{
-{
-}
-{
-}
-}
-func a< > : (T.f
+func b<T{class c:a{func a:(T.f

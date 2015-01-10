@@ -3,9 +3,7 @@
 // Test case found by fuzzing
 
 func b
-class c<T {
-let end = b
-let a {
-struct c<T where h: P {
-}
-if c {
+class c<T{
+let a=b
+let a{struct c<T where h:P
+if c{

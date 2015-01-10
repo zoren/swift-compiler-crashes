@@ -2,12 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
-struct d {
-var d = 0
-c {
-}
+let a{
+struct d{
+var d=0
 struct c
-{
-struct Q<T where f: A {
-var : A?
+{struct Q<T where f:A{
+var:A?

@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct g<T {
-func g<T : a
-func a( g = {
+struct g<T{
+func g<T:a
+func a(g={
 }
 {
 {
@@ -13,14 +13,14 @@ func a( g = {
 }
 {
 }
-println(
+a(
 {
 {
 {
 {
 }
-struct A {
-struct g {
+struct A{
+struct g{
 {
 }
 {
@@ -60,8 +60,8 @@ struct g {
 {
 {
 {
-( {
-[ [ { {
+({
+[[{{
 {
 {
-= A"
+=A"

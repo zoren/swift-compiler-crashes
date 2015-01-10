@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<S {
-class A : g {
-func g
-let a {
-g {
+func a<S{class A{func g{g

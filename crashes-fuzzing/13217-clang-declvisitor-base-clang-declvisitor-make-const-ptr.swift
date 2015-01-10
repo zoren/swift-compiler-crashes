@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 import Foundation
-func f {
-class A {
-struct A {
+class A{
+struct A{
 {
 }
-protocol b : b
-func b<T: A.b
+protocol b:b
+func b<T:A.b

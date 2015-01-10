@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var d {
+var d{
 class d
-var b = [B<T> (
+var b=[(
 class d
 {
-class d<T where g: T> : AnyObject.e
+class d<T where g:T>:a.e

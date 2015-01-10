@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T where T : T {
-let b {
-[ ]
-struct d {
-func b(array: Int -> B
+class B<T where T:T{let b{struct d{func b(t

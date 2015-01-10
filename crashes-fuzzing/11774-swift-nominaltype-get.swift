@@ -2,15 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a<d {
-class A {
+class a<d{
+class A{func c{class a{let b=c}class A{
 func c
-let a {
-class a {
-{
-}
-let b = c
-}
-class A {
-func c
-var _ = c
+var _=c

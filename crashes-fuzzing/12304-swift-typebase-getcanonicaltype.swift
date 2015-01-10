@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<h {
+class B<h{
 struct B<T
 protocol B
-class B<T where f.e = B
-var f = [B
+class B<T where f.e=B
+var f=[B

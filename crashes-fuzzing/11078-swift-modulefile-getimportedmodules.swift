@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g<T {
-class b {
+func g<T{
+class b{
 func b
-func b: a {
-struct c : d
-protocol d {
+func b:a{
+struct c:d
+protocol d{
 {
 }
-init( )
+init()

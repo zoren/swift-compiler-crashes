@@ -3,19 +3,16 @@
 // Test case found by fuzzing
 
 {
-class d {
-enum S {
-enum S {
-let a {
-class A {
-var AnyObject {
--> {
-case
-< {
+class d{
+enum S{
+enum S{
+let a{class A{
+var a{
+->{case
+<{
 {
-}
-T S {
-enum S {
+}{
+enum S{
 class
 case c,
 var b

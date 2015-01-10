@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 class B
-typealias f = F
-let a {
-var b = [B<f = F :
-enum S<T where I = F> : AnyObject.f
+typealias f=F
+let a{
+var b=[B<f=F:
+enum S<T where I=F>:a.f

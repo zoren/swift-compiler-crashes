@@ -2,18 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B
-func a
-class A {
+class a
+func a(c{
 }
-func a(c
-{
-}
-protocol a : a {
-func a
-}
-struct c<T where T : a {
-{
-}
-}
+protocol a:a{
+func a}struct c<T where T:a
 import CoreData

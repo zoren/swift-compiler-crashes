@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var : Int = < I
-class a {
-let g = c
-let b = c
-) {
+class a{
+let g=c
+let b=c
+{
 }
-protocol c : b { func i
+protocol c:b{func i

@@ -3,8 +3,6 @@
 // Test case found by fuzzing
 
 class A
-class A : A
-protocol A {
-}
-func < {
+class A:A
+protocol A func<{
 Void{

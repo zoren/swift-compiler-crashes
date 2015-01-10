@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 class B
-let f = B
-struct B {
-class A<T where T : T {
-let : T.h
+let f=B
+struct B{
+class A<T where T:T{let:T.h

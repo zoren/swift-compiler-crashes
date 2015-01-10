@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b {
-class C<T where I = compose
-func f == b<e
-enum S<T where T : C
+func b{
+class C<T where I=a
+func f==b<e
+enum S<T where T:C

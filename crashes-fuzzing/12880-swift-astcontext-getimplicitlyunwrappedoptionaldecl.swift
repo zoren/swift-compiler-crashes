@@ -4,13 +4,8 @@
 
 class B
 struct B
-struct B<H {
-let start = B? {
-}
-let T {
-class A {
-{
-}
+struct B<H{
+let a=B?let T{class A{
 struct c
-class B {
-let start = c( ) ->
+class B{
+let a=c()

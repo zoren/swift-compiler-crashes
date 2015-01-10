@@ -2,14 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<T {
-var f = < {
-}
-class d<T {
-let end = a( )
-{
-}
-{
-}
-protocol a {
-init( )
+class d<T{var f= <{}class d<T{let e=a()protocol a{init()

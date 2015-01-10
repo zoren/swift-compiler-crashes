@@ -2,14 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c {
-struct A {
-let v: a
-func a<T : d
+struct c{
+struct A{
+let v:a
+func a<T:d
 {
-struct A {
-func c
-func g {
-{
-}
-let start = c
+struct A{
+func c{
+let a=c

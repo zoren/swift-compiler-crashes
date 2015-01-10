@@ -3,9 +3,7 @@
 // Test case found by fuzzing
 
 class a
-var d = 0 as a
-protocol a {
-{
-}
+var d=0 as a
+protocol a{
 func a
-func a<H : a
+func a<H:a

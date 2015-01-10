@@ -2,43 +2,42 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-enum e {
-func b {
-let a {
+func<{
+enum e{
+func b{
+let a{
 {
 }
-var d = [ ] as a
+var d=[]as a
 }
-class a<T where h: d
+class a<T where h:d
 }
-var P {
-func a( ( as
+var P{
+func a((as
 protocol
 {
-( ( ( ) {
-( ( ) {
+(((){
+((){
 {
 {
 (
-[ {
-{ ( ( [ {
+[{
+{(([{
 {
 {
 {
 {
 {
 {
-( {
+({
+{
+{(
+[{
+(([[[]
+{
 {
 {
 (
-[ {
-( ( [ [ [ ]
-{
-{
-{
-(
-( ( ) {
-( [ 1 ]
-struct
+((){
+([1]
+a

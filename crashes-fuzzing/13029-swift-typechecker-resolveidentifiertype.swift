@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 func a
-class B<T where T: B
-let a = [B
+class B<T where T:B
+let a=[B

@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d<Int
-{
-struct S<T where S<Int> : a {
-var b {
-protocol a {
-func ^ (a
+struct d<b where S<b>:a{
+var b{
+protocol a{
+func^(a
 "
-protocol a {
-struct S<ff where g: b
+protocol a{
+struct S<a where g:b

@@ -2,13 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-class b: a {
+class A{
+class b:a{
 }
 {
-}
-func a
+}func a
 class a
 }
-struct B<T where g: C {
-class b<T where g: A
+struct B<T where g:C{
+class b<T where g:A

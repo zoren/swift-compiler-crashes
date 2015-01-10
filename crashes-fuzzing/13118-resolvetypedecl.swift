@@ -3,9 +3,6 @@
 // Test case found by fuzzing
 
 func i{
-class B<T where g = B
-{
-}
-struct S< > : A
-protocol A {
-typealias e = B
+class B<T where g=B
+struct S<>:A
+protocol A{typealias e=B

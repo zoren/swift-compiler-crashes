@@ -3,6 +3,5 @@
 // Test case found by fuzzing
 
 func a
-var f = (a<T
-class d<T where g: b {
-enum S<H : a
+var f=(a<T
+class d<T where g:b{enum S<H:a

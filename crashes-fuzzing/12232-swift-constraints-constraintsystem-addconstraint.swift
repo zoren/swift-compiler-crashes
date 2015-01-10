@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 class A
-class A : d
+class A:d
 class d
 }
 Void{

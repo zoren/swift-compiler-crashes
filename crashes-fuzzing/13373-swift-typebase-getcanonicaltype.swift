@@ -2,15 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B {
+class B{
 {
 }
 {
 }
-enum A : e
-class A {
-enum S<d where f: P {
-var b = Swift.d
+enum A:e
+class A{
+enum S<d where f:P{
+var b=a.d
 }
 }
-protocol e : CollectionType
+protocol e:CollectionType

@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 ""
-class A {
-var f = c
-protocol c : b { func b
+class A{
+var f=c
+protocol c:b{func b

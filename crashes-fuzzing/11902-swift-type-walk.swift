@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d {
-let a {
-struct B {
-} ( (a( )
-}
-func a<l : d
+class d{let a{((a()}func a<l:d

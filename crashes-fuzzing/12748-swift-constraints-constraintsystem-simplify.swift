@@ -2,18 +2,17 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a( ) {
-if true {
-enum A {
-let start = { }
-func g<d {
+func a(){
+if true{
+enum A{
+let b={}
+func g<d{
 {
-a {
+a{
 {
+}}
 }
-}
-}
-enum A {
+enum A{
 struct c
-struct B {
-let start = c( )
+struct B{
+let a=c()

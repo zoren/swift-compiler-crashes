@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b( ) {
-{
-}
-[ ]
-struct A<d where H : C {
-let : (array: A.b
+func b{[]struct A<d where H:C{let:b

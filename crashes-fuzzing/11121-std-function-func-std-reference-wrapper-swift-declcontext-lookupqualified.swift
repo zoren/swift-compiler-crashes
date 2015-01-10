@@ -2,14 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum b {
+enum b{
+let a= .h == Swift.h ==
 {
 }
-let end = .h == Swift.h ==
-{
-}
-struct B {
-{
-}
-struct Q<T where g: T {
-struct B<T : T
+struct B{
+struct Q<T where g:T{
+struct B<T:T

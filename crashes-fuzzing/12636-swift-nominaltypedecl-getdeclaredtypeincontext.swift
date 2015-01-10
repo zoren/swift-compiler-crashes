@@ -2,20 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where B : AnyObject {
-var e: AnyObject, b {
-{
-}
-{
-{
-}
-}
-struct B {
-var d {
-{
-}
-{
-{
-}
-}
-e )
+struct B<T where B:a{
+var e:AnyObject,b{
+struct B{
+var d{e)

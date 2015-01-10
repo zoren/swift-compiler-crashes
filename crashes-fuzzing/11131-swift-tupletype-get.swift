@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-class A : a
-protocol a {
-func i(d: b
+func<{
+class A:a
+protocol a{func i(d:b
 func b
 typealias b

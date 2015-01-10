@@ -2,12 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
+if true{
 {
 }
-[ [ ]
-struct A {
-struct A {
-protocol b {
-typealias e : e
+[[]struct A{
+struct A{
+protocol b{
+typealias e:e
 func e

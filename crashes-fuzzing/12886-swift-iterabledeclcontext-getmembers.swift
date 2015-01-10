@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A {
-func e<H : e
+struct A{
+func e<H:e
 enum S
 enum S
-var d = true as S
+var d=true as S

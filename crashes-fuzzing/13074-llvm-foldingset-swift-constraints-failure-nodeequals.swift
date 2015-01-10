@@ -2,14 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
+func<{
 struct S<h
-let start = true as S
-class B {
+let a=true as S
+class B{
 {
 }
-class B {
-class B {
-struct A : A
-protocol A : b {
+class B{
+class B{
+struct A:A
+protocol A:b{
 func b

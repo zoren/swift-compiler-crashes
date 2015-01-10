@@ -2,18 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T {
-{
-{
+class B<T{
+let a=(b=c>
+class B<T{protocol a{
+init()
 }
-}
-{
-}
-let end = (object = c>
-class B<T {
-protocol a {
-{
-}
-init( )
-}
-let h = a( )
+let h=a()

@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T {
-struct A {
-var f = ( j> {
-}
-class c {
-var f = (v: A {
+func a<T{struct A{var f=(j> {}class c{var f=(v:A{

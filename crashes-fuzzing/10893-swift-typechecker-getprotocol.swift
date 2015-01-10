@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
-if true {
-" "
-func a {
-class A {
-func a<f : a
+let a{if true{""func a{class A{func a<f:a

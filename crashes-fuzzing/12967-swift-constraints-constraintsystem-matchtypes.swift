@@ -3,12 +3,10 @@
 // Test case found by fuzzing
 
 func a
-class b<T {
-func d {
-class B<T where H = d
-class n {
+class b<T{func d{
+class B<T where H=d
+class n{
 struct Q
-var d = a<T
-struct Q {
-var d = [B
+var d=a<T
+struct Q{var d=[B
 t

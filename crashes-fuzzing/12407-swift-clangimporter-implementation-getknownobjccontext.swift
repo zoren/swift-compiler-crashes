@@ -3,14 +3,12 @@
 // Test case found by fuzzing
 
 import Foundation
-class c {
+class c{{
+}
+struct S<d{
 {
 }
-struct S<d {
-{
-}
-class A {
-func a(x: b
-}
-protocol b : a {
+class A{
+func a(b}
+protocol b:a{
 func a

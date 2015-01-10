@@ -3,19 +3,14 @@
 // Test case found by fuzzing
 
 func a
-struct B<T where B : T
-struct c {
-class d< T {
-{
-{
+struct B<T where B:T
+struct c{
+class d<T{
+{{
 }
 }
-let end = a
+let end=a
 }
 }
-enum A {
-}
-func < {
-}
-class d {
-let f = B? {
+enum A{
+let f=B?{

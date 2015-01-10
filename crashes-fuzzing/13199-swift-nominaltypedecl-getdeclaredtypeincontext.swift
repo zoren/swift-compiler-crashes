@@ -2,12 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<d where g: String {
-let t: ( {
-{
-}
-}
-}
-let B {
-{
-switch }
+struct c<d where g:a{let t:(

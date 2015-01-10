@@ -2,17 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
+func<{class B<T where I:a
 {
 }
-class B<T where I : T
-class C {
-{
-}
-class c : T.e
-func b {
-struct S<I : a {
-{
-}
-enum A {
-enum S<S : B
+class c:T.e
+enum A{enum S<S:B

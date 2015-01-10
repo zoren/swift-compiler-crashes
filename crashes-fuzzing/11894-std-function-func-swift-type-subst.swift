@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<S
-{
-enum e
-func a {
-struct S<T where h: e> ) { e<S
+struct S<S{enum e
+func a{
+struct S<T where h:e>){e<S

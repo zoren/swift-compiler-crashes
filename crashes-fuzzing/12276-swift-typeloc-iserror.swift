@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-class b<T where g: AnyObject
-if true {
-protocol A {
+if true{
+class b<T where g:A
+if true{
+protocol A{
 }
 }
-typealias e = b
+typealias e=b

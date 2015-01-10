@@ -2,15 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var d {
-var d = [ 1
-enum e {
-struct S {
+var d{
+var d=[1
+enum e{
+struct S{
 {
 }
-protocol P {
+protocol P{
 func b
-(a )
-protocol a {
+(a)
+protocol a{
 func T
-typealias e : b
+typealias e:b

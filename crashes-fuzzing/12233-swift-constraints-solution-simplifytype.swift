@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 class A
-protocol A : S
-let end = A
-enum A {
-enum S<T where g: a {
-typealias F = A
+protocol A:S
+let a=A
+enum A{
+enum S<T where g:a{
+typealias F=A

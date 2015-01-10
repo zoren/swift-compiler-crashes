@@ -3,8 +3,8 @@
 // Test case found by fuzzing
 
 func b
-enum S<I {
-let f = b<b<Int>
-let a {
+enum S<I{
+let f=b<b<I>
+let a{
 class B
-class c : B
+class c:B

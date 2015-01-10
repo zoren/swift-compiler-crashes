@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-var d = [ ]
-class A {
-protocol c : a
-func a<g : a
+class A{var d=[]
+class A{protocol c:a
+func a<g:a

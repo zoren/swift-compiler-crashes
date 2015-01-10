@@ -2,15 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol b : a {
-typealias F = A.c
-protocol a {
-typealias F = A
-{
-{
-}
-{
-}
-}
-protocol A {
-protocol A
+protocol b:a{
+typealias F=A.c
+protocol a{typealias F=A
+protocol A{protocol A

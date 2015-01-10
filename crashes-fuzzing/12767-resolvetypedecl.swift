@@ -2,9 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-struct B<T where g:
-B {
-}
-if true {
-var d = [B
+func<{
+struct B<T where g:B
+var d=B

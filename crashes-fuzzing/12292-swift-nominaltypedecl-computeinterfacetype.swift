@@ -3,6 +3,4 @@
 // Test case found by fuzzing
 
 class A
-struct S<T where B : e {
-let a {
-for ( : a
+struct S<T where B:e{let a{for(:a
