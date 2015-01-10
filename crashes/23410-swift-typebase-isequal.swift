@@ -1,3 +1,6 @@
+// Distributed under the terms of the MIT license
+// Test case submitted to project by https://github.com/rustedivan (Ivan Milles)
+
 import Foundation
 
 // Create a tuple type that can be initialized with
