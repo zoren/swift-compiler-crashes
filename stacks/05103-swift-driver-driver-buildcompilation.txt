@@ -1,4 +1,4 @@
-3  swift                    swift::driver::Driver::buildCompilation(llvm::ArrayRef<char const*>) + 495
+3  swift                    llvm::DenseMap<std::__1::pair<swift::driver::Action const*, swift::driver::ToolChain const*>, swift::driver::Job*, llvm::DenseMapInfo<std::__1::pair<swift::driver::Action const*, swift::driver::ToolChain const*> > >::grow(unsigned int) + 63
 4  swift                    swift::TypeVisitor<(anonymous namespace)::Traversal, bool>::visit(swift::Type) + 3133
 5  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 6  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52

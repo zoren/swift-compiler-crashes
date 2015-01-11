@@ -1,4 +1,4 @@
-3  swift                    clang::StmtVisitorBase<clang::make_ptr, (anonymous namespace)::StmtPrinter, void>::Visit(clang::Stmt*) + 8354
+3  swift                    convertValue(llvm::DataLayout const&, llvm::IRBuilder<false, llvm::ConstantFolder, (anonymous namespace)::IRBuilderPrefixedInserter<false> >&, llvm::Value*, llvm::Type*) + 1522
 4  swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 68
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
 6  swift                    (anonymous namespace)::PreCheckExpression::walkToExprPre(swift::Expr*) + 125

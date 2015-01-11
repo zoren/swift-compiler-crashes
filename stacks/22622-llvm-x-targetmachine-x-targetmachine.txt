@@ -1,4 +1,4 @@
-3  swift                    isIntegerLikeType(clang::QualType, clang::ASTContext&, llvm::LLVMContext&) + 272
+3  swift                    (anonymous namespace)::CGObjCCommonMac::PushProtocolProperties(llvm::SmallPtrSet<clang::IdentifierInfo const*, 16u>&, llvm::SmallVectorImpl<llvm::Constant*>&, clang::Decl const*, clang::ObjCProtocolDecl const*, (anonymous namespace)::ObjCCommonTypesHelper const&) + 272
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6649
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 9408

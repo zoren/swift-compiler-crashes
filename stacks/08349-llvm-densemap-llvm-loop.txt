@@ -1,4 +1,4 @@
-3  swift                    llvm::DependenceAnalysis::intersectConstraints(llvm::DependenceAnalysis::Constraint*, llvm::DependenceAnalysis::Constraint const*) + 3472
+3  swift                    emitFuncToBlock(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::Lowering::ManagedValue, swift::CanTypeWrapper<swift::SILFunctionType>) + 640
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11407
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2695

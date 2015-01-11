@@ -1,1 +1,1 @@
-../crashes-fuzzing/10983-checktypeaccessibility.swift
+../crashes-duplicates/10983-checktypeaccessibility.swift

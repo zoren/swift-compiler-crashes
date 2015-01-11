@@ -1,4 +1,4 @@
-3  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 2869
+3  swift                    swift::InFlightDiagnostic swift::DiagnosticEngine::diagnose<bool, unsigned int>(swift::Decl const*, swift::Diag<bool, unsigned int>, swift::detail::PassArgument<bool, unsigned int>::type) + 325
 4  swift                    checkRedeclaration(swift::TypeChecker&, swift::ValueDecl*) + 153
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2193
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2164

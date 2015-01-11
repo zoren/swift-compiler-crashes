@@ -1,0 +1,1 @@
+../crashes-fuzzing/23228-no-stacktrace.swift

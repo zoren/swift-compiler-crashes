@@ -1,4 +1,4 @@
-3  swift                    swift::Lexer::lexIdentifier() + 183
+3  swift                    swift::Lexer::lexIdentifier() + 165
 4  swift                    swift::TypeDecl::getDeclaredInterfaceType() const + 9
 5  swift                    swift::TypeChecker::resolveTypeInContext(swift::TypeDecl*, swift::DeclContext*, bool, swift::GenericTypeResolver*) + 754
 6  swift                    resolveTypeDecl(swift::TypeChecker&, swift::TypeDecl*, swift::SourceLoc, swift::DeclContext*, llvm::ArrayRef<swift::TypeRepr*>, bool, swift::GenericTypeResolver*) + 79

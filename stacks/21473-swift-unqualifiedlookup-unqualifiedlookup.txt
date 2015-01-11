@@ -1,4 +1,4 @@
-3  swift                    llvm::DenseMapBase<llvm::SmallDenseMap<swift::InfixOperatorDecl*, bool, 16u, llvm::DenseMapInfo<swift::InfixOperatorDecl*> >, swift::InfixOperatorDecl*, bool, llvm::DenseMapInfo<swift::InfixOperatorDecl*> >::InsertIntoBucketImpl(swift::InfixOperatorDecl* const&, std::__1::pair<swift::InfixOperatorDecl*, bool>*) + 15
+3  swift                    swift::SourceFile::clearLookupCache() + 47
 4  swift                    resolveTypeDecl(swift::TypeChecker&, swift::TypeDecl*, swift::SourceLoc, swift::DeclContext*, llvm::ArrayRef<swift::TypeRepr*>, bool, swift::GenericTypeResolver*) + 100
 5  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 2460
 6  swift                    swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*, swift::ValueDecl*) + 116

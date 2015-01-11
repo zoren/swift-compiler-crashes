@@ -1,4 +1,4 @@
-3  swift                    std::__1::__function::__func<void swift::ASTContext::addDestructorCleanup<swift::SourceFile>(swift::SourceFile&)::'lambda'(), std::__1::allocator<void swift::ASTContext::addDestructorCleanup<swift::SourceFile>(swift::SourceFile&)::'lambda'()>, void ()>::~__func() + 5
+3  swift                    (anonymous namespace)::OverrideFilteringConsumer::foundDecl(swift::ValueDecl*, swift::DeclVisibilityKind) + 1493
 4  swift                    swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::constraints::DependentTypeOpener*) + 626
 5  swift                    swift::constraints::ConstraintSystem::resolveOverload(swift::constraints::ConstraintLocator*, swift::Type, swift::constraints::OverloadChoice) + 329
 6  swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 816

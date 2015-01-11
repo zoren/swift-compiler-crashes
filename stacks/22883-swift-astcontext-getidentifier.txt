@@ -1,4 +1,3 @@
-3  swift                    swift::ASTContext::getIdentifier(llvm::StringRef) const + 56
 4  swift                    computeAccessibility(swift::TypeChecker&, swift::ValueDecl*) + 611
 5  swift                    computeAccessibility(swift::TypeChecker&, swift::ValueDecl*) + 402
 6  swift                    computeAccessibility(swift::TypeChecker&, swift::ValueDecl*) + 402

@@ -1,4 +1,4 @@
-3  swift                    swift::ConstraintCheckerArenaRAII::ConstraintCheckerArenaRAII(swift::ASTContext&, llvm::BumpPtrAllocator&, std::__1::function<swift::Type (swift::TypeVariableType*, swift::AssociatedTypeDecl*)>) + 949
+3  swift                    swift::ClassType::Profile(llvm::FoldingSetNodeID&, swift::ClassDecl*, swift::Type) + 21
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6103

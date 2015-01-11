@@ -13,7 +13,7 @@
 15 swift                    swift::ASTVisitor<(anonymous namespace)::Traversal, swift::Expr*, swift::Stmt*, void, swift::Pattern*, bool, void>::visit(swift::Pattern*) + 1390
 16 swift                    swift::ASTVisitor<(anonymous namespace)::Traversal, swift::Expr*, swift::Stmt*, void, swift::Pattern*, bool, void>::visit(swift::Pattern*) + 881
 17 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 6696
-18 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1843
+18 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1655
 19 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
 20 swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 96
 21 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 479

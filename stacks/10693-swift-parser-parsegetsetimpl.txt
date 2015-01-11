@@ -5,7 +5,7 @@
 7  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 3115
 8  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 3478
 9  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 3217
-10 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1843
+10 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1655
 11 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
 12 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 153
 13 swift                    swift::TypeChecker::typeCheckBinding(swift::PatternBindingDecl*) + 162

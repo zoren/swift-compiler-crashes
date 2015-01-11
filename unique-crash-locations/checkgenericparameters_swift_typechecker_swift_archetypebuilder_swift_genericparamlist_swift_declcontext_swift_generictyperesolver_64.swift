@@ -1,1 +1,1 @@
-../crashes-fuzzing/11422-checkgenericparameters.swift
+../crashes-duplicates/11422-checkgenericparameters.swift
