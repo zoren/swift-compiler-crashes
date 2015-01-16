@@ -1,4 +1,4 @@
-3  swift                    (anonymous namespace)::RewriteObjC::SynthMessageExpr(clang::ObjCMessageExpr*, clang::SourceLocation, clang::SourceLocation) + 6167
+3  swift                    (anonymous namespace)::FunctionAttrs::inferPrototypeAttributes(llvm::Function&) + 8135
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::NominalTypeDecl::computeType() + 29
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 865

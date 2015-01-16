@@ -1,4 +1,4 @@
-3  swift                    swift::TypeChecker::isSubstitutableFor(swift::Type, swift::ArchetypeType*, swift::DeclContext*) + 373
+3  swift                    std::__1::__function::__func<cleanupIllFormedExpression(swift::ASTContext&, swift::constraints::ConstraintSystem*, swift::Expr*)::CleanupIllFormedExpression::walkToExprPre(swift::Expr*)::'lambda'(swift::VarDecl*), std::__1::allocator<cleanupIllFormedExpression(swift::ASTContext&, swift::constraints::ConstraintSystem*, swift::Expr*)::CleanupIllFormedExpression::walkToExprPre(swift::Expr*)::'lambda'(swift::VarDecl*)>, void (swift::VarDecl*)>::__clone() const + 53
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 228
 5  swift                    swift::NominalTypeDecl::computeType() + 29
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1605

@@ -1,4 +1,4 @@
-3  swift                    void std::__1::vector<swift::Decl*, std::__1::allocator<swift::Decl*> >::__push_back_slow_path<swift::Decl*>(swift::Decl*&&) + 245
+3  swift                    llvm::DenseMap<swift::CanType, bool, llvm::DenseMapInfo<swift::CanType> >::grow(unsigned int) + 389
 4  swift                    swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::constraints::DependentTypeOpener*) + 626
 5  swift                    swift::constraints::ConstraintSystem::resolveOverload(swift::constraints::ConstraintLocator*, swift::Type, swift::constraints::OverloadChoice) + 329
 6  swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 816

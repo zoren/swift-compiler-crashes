@@ -1,4 +1,4 @@
-3  swift                    swift::Pattern::cloneForwardable(swift::ASTContext&, swift::DeclContext*, swift::OptionSet<swift::Pattern::CloneFlags, unsigned int>) const + 1039
+3  swift                    swift::PrettyStackTraceExpr::print(llvm::raw_ostream&) const + 159
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

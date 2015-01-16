@@ -1,4 +1,4 @@
-3  swift                    swift::constraints::ConstraintLocator::dump(swift::SourceManager*, llvm::raw_ostream&) + 2757
+3  swift                    swift::constraints::ConstraintSystem::ConstraintSystem(swift::TypeChecker&, swift::DeclContext*, swift::OptionSet<swift::constraints::ConstraintSystemFlags, unsigned int>) + 549
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1192
 6  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 549

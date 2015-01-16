@@ -1,1 +1,1 @@
-../crashes-fuzzing/21969-swift-type-getstring.swift
+../crashes-duplicates/21969-swift-type-getstring.swift

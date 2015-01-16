@@ -1,4 +1,4 @@
-3  swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 2069
+3  swift                    swift::Parser::parseTypeAttribute(swift::TypeAttributes&, bool) + 2885
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

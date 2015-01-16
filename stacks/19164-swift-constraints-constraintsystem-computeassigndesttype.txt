@@ -1,3 +1,4 @@
+3  swift                    swift::constraints::ConstraintSystem::computeAssignDestType(swift::Expr*, swift::SourceLoc) + 1502
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::NominalTypeDecl::computeType() + 29
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1605

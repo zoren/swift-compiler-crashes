@@ -1,4 +1,4 @@
-3  swift                    llvm::DenseMap<std::__1::pair<swift::driver::Action const*, swift::driver::ToolChain const*>, swift::driver::Job*, llvm::DenseMapInfo<std::__1::pair<swift::driver::Action const*, swift::driver::ToolChain const*> > >::grow(unsigned int) + 63
+3  swift                    swift::InFlightDiagnostic swift::DiagnosticEngine::diagnose<llvm::StringRef, llvm::StringRef>(swift::SourceLoc, swift::Diag<llvm::StringRef, llvm::StringRef>, swift::detail::PassArgument<llvm::StringRef, llvm::StringRef>::type) + 191
 4  swift                    swift::TypeVisitor<(anonymous namespace)::Traversal, bool>::visit(swift::Type) + 3133
 5  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 6  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52

@@ -1,0 +1,1 @@
+../crashes-fuzzing/23440-swift-decl-getrawcomment.swift

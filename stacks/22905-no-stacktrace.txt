@@ -1,4 +1,4 @@
-3  swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 3618
+3  swift                    swift::InFlightDiagnostic swift::DiagnosticEngine::diagnose<bool, swift::DeclName>(swift::SourceLoc, swift::Diag<bool, swift::DeclName>, swift::detail::PassArgument<bool, swift::DeclName>::type) + 658
 4  swift                    swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::constraints::DependentTypeOpener*) + 626
 5  swift                    swift::constraints::ConstraintSystem::resolveOverload(swift::constraints::ConstraintLocator*, swift::Type, swift::constraints::OverloadChoice) + 329
 6  swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 816

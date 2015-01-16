@@ -1,4 +1,4 @@
-3  swift                    unsigned int std::__1::__sort3<(anonymous namespace)::OrderArchetypeByName&, std::__1::pair<swift::Identifier, llvm::PointerUnion<swift::ArchetypeType*, swift::Type> >*>(std::__1::pair<swift::Identifier, llvm::PointerUnion<swift::ArchetypeType*, swift::Type> >*, std::__1::pair<swift::Identifier, llvm::PointerUnion<swift::ArchetypeType*, swift::Type> >*, std::__1::pair<swift::Identifier, llvm::PointerUnion<swift::ArchetypeType*, swift::Type> >*, (anonymous namespace)::OrderArchetypeByName&) + 639
+3  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 3247
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 228
 5  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 53
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514

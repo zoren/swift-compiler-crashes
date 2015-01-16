@@ -1,4 +1,4 @@
-3  swift                    swift::MemberLookupTable::updateLookupTable(swift::NominalTypeDecl*) + 206
+3  swift                    swift::operator<<(llvm::raw_ostream&, swift::PatternKind) + 238
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

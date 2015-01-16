@@ -1,4 +1,4 @@
-3  swift                    std::__1::__function::__func<checkAccessibility(swift::TypeChecker&, swift::Decl const*)::$_24::operator()(swift::Pattern const*) const::'lambda'(swift::Pattern const*), std::__1::allocator<checkAccessibility(swift::TypeChecker&, swift::Decl const*)::$_24::operator()(swift::Pattern const*) const::'lambda'(swift::Pattern const*)>, void (swift::Pattern const*)>::__clone(std::__1::__function::__base<void (swift::Pattern const*)>*) const + 21
+3  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 23285
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1192
 6  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 549

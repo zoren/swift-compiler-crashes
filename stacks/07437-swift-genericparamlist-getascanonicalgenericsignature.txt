@@ -1,4 +1,4 @@
-3  swift                    mapSignatureFunctionType(swift::ASTContext&, swift::Type, bool, bool, bool, unsigned int) + 613
+3  swift                    swift::FuncDecl::getObjCSelector() const + 693
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

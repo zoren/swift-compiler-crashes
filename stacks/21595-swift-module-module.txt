@@ -1,4 +1,4 @@
-3  swift                    swift::lookupVisibleDecls(swift::VisibleDeclConsumer&, swift::DeclContext const*, swift::LazyResolver*, bool, swift::SourceLoc) + 1029
+3  swift                    swift::Module::Module(swift::Identifier, swift::ASTContext&) + 133
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 228
 5  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 2394
 6  swift                    std::__1::__function::__func<(anonymous namespace)::DeclChecker::visitBoundVars(swift::Pattern*)::'lambda'(swift::VarDecl*), std::__1::allocator<(anonymous namespace)::DeclChecker::visitBoundVars(swift::Pattern*)::'lambda'(swift::VarDecl*)>, void (swift::VarDecl*)>::operator()(swift::VarDecl*&&) + 139

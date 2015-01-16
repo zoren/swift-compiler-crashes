@@ -1,4 +1,4 @@
-3  swift                    clang::ItaniumMangleContext::create(clang::ASTContext&, clang::DiagnosticsEngine&) + 82
+3  swift                    clang::driver::tools::Clang::ConstructJob(clang::driver::Compilation&, clang::driver::JobAction const&, clang::driver::InputInfo const&, llvm::SmallVector<clang::driver::InputInfo, 4u> const&, llvm::opt::ArgList const&, char const*) const + 27538
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363

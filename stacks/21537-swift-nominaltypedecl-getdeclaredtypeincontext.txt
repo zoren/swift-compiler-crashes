@@ -1,4 +1,4 @@
-3  swift                    (anonymous namespace)::ARMDAGToDAGISel::CheckComplexPattern(llvm::SDNode*, llvm::SDNode*, llvm::SDValue, unsigned int, llvm::SmallVectorImpl<std::__1::pair<llvm::SDValue, llvm::SDNode*> >&) + 11271
+3  swift                    llvm::DAGTypeLegalizer::ExpandFloatResult(llvm::SDNode*, unsigned int) + 199
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::NominalTypeDecl::computeType() + 29
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1605

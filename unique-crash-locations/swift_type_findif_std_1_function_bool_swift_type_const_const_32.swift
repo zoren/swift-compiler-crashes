@@ -1,1 +1,1 @@
-../crashes-fuzzing/13025-swift-type-findif.swift
+../crashes-duplicates/13025-swift-type-findif.swift

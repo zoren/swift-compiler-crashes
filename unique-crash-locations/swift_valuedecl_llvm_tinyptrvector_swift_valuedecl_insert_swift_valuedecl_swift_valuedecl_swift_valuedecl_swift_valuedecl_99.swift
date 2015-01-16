@@ -1,0 +1,1 @@
+../crashes-fuzzing/23549-swift-valuedecl.swift

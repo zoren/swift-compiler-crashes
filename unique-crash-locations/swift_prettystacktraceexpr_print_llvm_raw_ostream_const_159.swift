@@ -1,1 +1,1 @@
-../crashes-fuzzing/23363-swift-typebase-gatherallsubstitutions.swift
+../crashes-duplicates/23363-swift-typebase-gatherallsubstitutions.swift

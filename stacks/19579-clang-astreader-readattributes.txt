@@ -1,4 +1,4 @@
-3  swift                    (anonymous namespace)::RewriteObjC::RewriteFunctionBodyOrGlobalInitializer(clang::Stmt*) + 36290
+3  swift                    clang::CodeGen::CodeGenFunction::EmitCall(clang::CodeGen::CGFunctionInfo const&, llvm::Value*, clang::CodeGen::ReturnValueSlot, clang::CodeGen::CallArgList const&, clang::Decl const*, llvm::Instruction**) + 2514
 4  swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 68
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
 6  swift                    (anonymous namespace)::PreCheckExpression::walkToExprPre(swift::Expr*) + 125
