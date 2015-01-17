@@ -17,7 +17,7 @@ For example, the crash case 226 is triggered in function `swift::Lowering::SILGe
 ### 1. Find the currently highest crash case number in use
 
 ````
-    $ ls -1 crashes/ crashes-fuzzing/ | egrep '^[0-9]{5}-.*\.swift' | sort -n | tail -1
+    $ ls -1 crashes/ crashes-fuzzing/ crashes-duplicates/ fixed/ | egrep '^[0-9]{5}-.*\.swift' | sort -n | tail -1
     22721-substituteinputsugarargumenttype.swift
 ````
 
