@@ -12,7 +12,7 @@ Contributor hall of fame
 
 | GitHub | Twitter | Cases contributed | First contribution |
 | :----- | :------ | ----------------: | -----------------: |
-| <a href="https://github.com/practicalswift">@practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 23581 cases (56 manual + 23525 fuzzing) | Xcode6.0-Beta6 |
+| <a href="https://github.com/practicalswift">@practicalswift</a> – practicalswift | <a href="https://twitter.com/practicalswift">@practicalswift</a> | 56 cases (+ 23525 fuzzing) | Xcode6.0-Beta6 |
 | <a href="https://github.com/robrix">@robrix</a> – Rob Rix | <a href="https://twitter.com/rob_rix">@robrix</a> | 16 cases | Xcode6.0-Beta6 |
 | <a href="https://github.com/fluidsonic">@fluidsonic</a> – Marc Knaup | <a href="https://twitter.com/marcknaup">@marcknaup</a> | 7 cases | Xcode6.1-Beta3 |
 | <a href="https://github.com/zneak">@zneak</a> – Félix Cloutier | <a href="https://twitter.com/zneakr">@zneakr</a> | 5 cases | Xcode6.1.1-GM-Seed |
