@@ -3,6 +3,6 @@
 // http://www.openradar.me/19363080
 
 func a() -> String
-func a() -> (String Int) {
+func a() -> (String, Int) {
     a().0
 }
