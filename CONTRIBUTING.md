@@ -12,7 +12,7 @@ The crash cases are named according to the following pattern:
 
 For example, the crash case 226 is triggered in function `swift::Lowering::SILGenFunction::emitCurryThunk(…)` and is thus named `crashes/00226-swift-lowering-silgenfunction-emitcurrythunk.swift`.
 
-## Step by step guide
+## Step-by-step guide
 
 ### 1. Find the currently highest crash case number in use
 
