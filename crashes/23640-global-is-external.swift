@@ -1,6 +1,7 @@
 // Distributed under the terms of the MIT license
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // https://twitter.com/schwa/status/556507588775272448
+// http://www.openradar.me/19509451
 
 import Foundation
 protocol A {
