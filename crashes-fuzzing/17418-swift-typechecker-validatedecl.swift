@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B : Any
-}
+class B:Any}
 {
-enum e {
+enum e{
 class
-case c,
-case
+case c,case

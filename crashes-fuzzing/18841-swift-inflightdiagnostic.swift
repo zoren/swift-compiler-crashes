@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import Ftoc ( )
+import a()
 Void{
-class A {
-class A {
-{
-}
-class A {
+class A{
+class A{
+class A{

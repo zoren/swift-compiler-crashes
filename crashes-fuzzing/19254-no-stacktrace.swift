@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-( ( (Any) as a
-case c {
+(((Any)as a
+case c{
 class
 case c,
 case

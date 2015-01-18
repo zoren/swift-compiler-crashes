@@ -2,7 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-enum e {
-class d
-var d = [ [Void{
+if true{enum e{class d
+var d=[[Void{

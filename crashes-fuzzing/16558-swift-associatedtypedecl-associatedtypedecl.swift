@@ -4,10 +4,9 @@
 
 func a
 {
-protocol b {
-func i: A
+protocol b{
+func i:A
 {
 }
-protocol A {
-typealias b : A.a
+protocol A{typealias b:A.a
 func a

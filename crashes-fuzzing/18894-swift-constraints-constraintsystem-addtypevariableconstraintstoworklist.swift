@@ -3,14 +3,8 @@
 // Test case found by fuzzing
 
 struct c<T
-let a {
-{
-{
-}
-}
-for c {
-}
-enum S {
-enum e {
-struct c<T where B = b {
-var : w
+let a{
+for c{}
+enum S{
+enum e{
+struct c<T where B=b{var:w

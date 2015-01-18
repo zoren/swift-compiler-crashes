@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 1
-struct B<T where d: Any
-let a {
-[ 1
-public var b[B {
+struct B<T where d:a
+let a{
+[1
+public var b[B{

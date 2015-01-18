@@ -2,15 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-let start = 1
-class a {
-{
-}
-class A {
-enum B {
-class a {
-class A {
+class A{
+let a=1
+class a{class A{
+enum B{
+class a{
+class A{
 func b(a
-class a<T where g: C {
+class a<T where g:C{
 func b

@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol a {
+protocol a{
 func a
-func a( (a
+func a((a
 }
-enum a<T where h: NSObject {
-var d = a<T
+enum a<T where h:N{
+var d=a<T

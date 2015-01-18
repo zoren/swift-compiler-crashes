@@ -2,12 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<l : A.a
-protocol A {
-{
-{
-}
-}
+func a<l:A.a
+protocol A{
 func b
 typealias b
-func a(d: b
+func a(d:b

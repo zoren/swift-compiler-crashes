@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d {
-var b = { }
-func d< T {
-class c {
+class d{
+var b={}
+func d<T{
+class c{
 func a
-struct c {
-let end = a<T
+struct c{
+let end=a<T

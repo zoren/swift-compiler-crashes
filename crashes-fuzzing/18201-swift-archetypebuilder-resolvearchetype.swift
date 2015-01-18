@@ -2,15 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c<f {
-class A : b
-protocol b {
+func c<f{class A:b
+protocol b{
 {
 }
-{
-}
-{
-{
-}
-}
-class B<T where T.Element = f
+class B<T where T.E=f

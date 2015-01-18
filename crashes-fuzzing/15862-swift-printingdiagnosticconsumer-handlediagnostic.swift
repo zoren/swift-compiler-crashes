@@ -3,17 +3,13 @@
 // Test case found by fuzzing
 
 1
-struct Q<h {
-let A {
-struct Q<i {
-var d = c.d{
-}
-protocol c : c
-protocol c : a {
-}
-protocol c {
+struct Q<h{
+struct Q<i{
+var d=c.d{}
+protocol c:c
+protocol c:a
+{
 {
 {
 }
-}
-struct d
+}struct d

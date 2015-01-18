@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func i<T {
-( [ 1
+func i<T{[1
 struct B
 let a
-( [B {
+[B{

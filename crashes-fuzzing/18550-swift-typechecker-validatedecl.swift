@@ -2,6 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A: A, AnyObject
-func b {
-Void{
+struct A:A,AnyObject
+func b{Void{

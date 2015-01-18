@@ -2,15 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol P {
-{
-}
-{
-}
-class b
-func <
-}
-protocol A : P {
-typealias e = b
-}
-extension A
+protocol P{{}{}class b}protocol A:P{typealias e=b}extension A

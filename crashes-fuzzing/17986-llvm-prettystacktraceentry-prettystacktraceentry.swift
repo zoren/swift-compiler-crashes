@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-let : Int
-class A {
-class B<T where I : Any {
-typealias e = [V
+func<{class B<T where I:a{typealias e=V

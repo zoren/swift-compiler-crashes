@@ -8,23 +8,23 @@
 }
 {
 {
-struct c {
+struct c{
 {
 }
-struct B {
-{
-{
-}
+struct B{
 {
 {
 }
 {
+{
+}
+{
 }
 }
 }
-protocol a {
-protocol e {
-enum b { func a {
+protocol a{
+protocol e{
+enum b{func a{
 {
 }
 {

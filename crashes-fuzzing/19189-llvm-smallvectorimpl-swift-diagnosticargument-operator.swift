@@ -2,21 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c<T where h: NSObject {
-var b {
-for c {
-{
-{
-}
-}
-{
-{
-}
-{
-{
-}
-}
-}
-}
-:
-let end = [V
+struct c<T where h:a{var b{for c{{{}}}:let b=[V

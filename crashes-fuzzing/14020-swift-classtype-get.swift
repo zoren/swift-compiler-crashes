@@ -2,16 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<d {
-class A {
-init( ) {
-struct Q<d where k =b {
-var b = B<c
+struct S<d{
+class A{
+init(){
+struct Q<d where k=b{
+var b=B<c
 }
 }
-class A {
+class A{
 class
-a {
+a{
 }
-var e: a {
-struct
+var e:a{a

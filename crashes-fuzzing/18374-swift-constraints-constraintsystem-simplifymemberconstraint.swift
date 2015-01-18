@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 map
-struct d<T where T : A
-protocol A : a {
+struct d<T where T:A
+protocol A:a{
 func a

@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-let end = c
-}
-let start = Void{
+class A{let e=c}let a=Void{

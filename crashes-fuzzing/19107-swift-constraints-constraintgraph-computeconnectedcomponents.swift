@@ -2,17 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var b {
-{
-{
-{
+var b{
+{{
+{}
 }
 }
-}
-b {
-}
-class a<T where hg = c
-class j {
+class a<T where h=c
+class j{
 class C
 {
-struct c<I : a
+struct c<I:a

@@ -2,9 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-struct B<T where g: a
-class A {
-let start = b<
-class b<T where g: C {
+if true{
+class A{
+let t=b
+class b<T where g:C{
 func b

@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-if true {
-func g {
-struct B<T where h: a
-{
-} (v: B? {
+if true{if true{func g{struct B<T where h:a{}(v:B?{

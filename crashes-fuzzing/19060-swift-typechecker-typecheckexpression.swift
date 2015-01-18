@@ -2,6 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-{
-( ) -> Any in
-let c = Void{
+{()->A in
+let c=Void{

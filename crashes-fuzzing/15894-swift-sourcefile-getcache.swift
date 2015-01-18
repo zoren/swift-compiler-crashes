@@ -2,27 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol b {
-protocol A {
-{
-}
-{
-{
-{
-}
-}
-{
-}
-{
-}
-{
-}
-}
-}
-{
-}
-let h, A : A
-class A : Int
-}
-class d<ff where j: a {
-let end = B<T
+protocol b{protocol A{
+}let A:A
+class A:Int}
+class d<b where j:a{let a=B<T

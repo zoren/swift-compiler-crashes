@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct d {
-func c
-func b( ) -> <T, A {
-let : A.h = c
+struct d{func c-> <A{let:A.h=c

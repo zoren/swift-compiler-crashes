@@ -2,12 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum e {
+enum e{
 {
 }
 class A
-struct b<T where g: a {
-var b {
-enum e {
-init( ) {
-(f: A {
+struct b<T where g:a{
+var b{
+enum e{
+init(){
+(f{

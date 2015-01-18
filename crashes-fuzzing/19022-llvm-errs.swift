@@ -2,6 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
-var : A
-class A<T where T : A<T>
+let a{var:A
+class A<T where T:A<T>

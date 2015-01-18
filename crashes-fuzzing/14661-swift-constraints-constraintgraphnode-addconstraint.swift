@@ -2,24 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T {
-var b {
-class A {
-func f: AnyObject
+class B<T{
+var b{
+class A{
+func f:A
 func f
-let a {
-let i { f
 {
-{
-}
-NSObject {
-}
+let i{f
 }
 {
-}
-{
-}
-}
-{
-map( ) {
+map(){
 Void{

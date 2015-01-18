@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<b where h: e {
-var _ = e
-var _ = ( ) {
+enum S<b where h:e{
+var _=e
+var _={
 {
-{
-{
-}
-}
+{{
+}}

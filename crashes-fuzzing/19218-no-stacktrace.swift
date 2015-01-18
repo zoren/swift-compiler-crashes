@@ -2,9 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-" "
-class B {
-let a {
-class
-case c,
-case
+""
+class B{
+let a{class
+case c,case

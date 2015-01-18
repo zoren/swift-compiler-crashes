@@ -3,7 +3,5 @@
 // Test case found by fuzzing
 
 0.C
-enum A {
-enum k {
-class a<T where B : a {
-class a<T: T
+enum A{enum k{
+class a<T where B:a{class a<T:T

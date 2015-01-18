@@ -4,19 +4,15 @@
 
 func i(a
 func
-protocol A {
+protocol A{
 func a
-typealias e : e
-{
+typealias e:e
 }
-}
-protocol a {
-protocol a {
+protocol a{
+protocol a{
 func b
 {
 }
-}
-{
 {
 }
 }

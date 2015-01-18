@@ -2,12 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-(false .C
-protocol c {
-let start = {
-extension NSData {
+false.C
+protocol c{
+let a={
+extension b{
 ,
-protocol a {
-class
+protocol a{class
 case c,
 case

@@ -2,40 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T where T = B<T>
-enum e {
-[ {
-{
-{
-{
-{
-( {
-{
-{
-{
-(
-{
-{
-[
-{
-{
-{
-{
-[
-{
-{
-[ {
-{
-{
-{
-[
-{
-{
-[ {
-{
-{
-( {
-{
-{
-[ {
-T :
+class B<T where T=B<T>enum e{[{{{{{({{{{({{[{{{{[{{[{{{{[{{[{{{({{{[{T:

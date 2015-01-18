@@ -3,15 +3,10 @@
 // Test case found by fuzzing
 
 class A
+{func g:Int
+let P{
+class a{struct Q
+{struct B
 {
-{
-}
-func g: Int
-let P {
-class a {
-struct Q
-{
-struct B
-{
-class B<T where f: b {
-let : a
+class B<T where f:b{
+let:a

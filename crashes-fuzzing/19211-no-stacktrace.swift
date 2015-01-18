@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let f = B
-protocol c {
-class A {
-protocol c {
+let f=B
+protocol c{
+class A{protocol c{
 class
 case c,
 {

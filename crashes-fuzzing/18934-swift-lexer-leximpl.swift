@@ -2,22 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-struct A {
-class A {
+struct A{
+class A{
 func a
-func a: A
+func a:A
 }
-struct A : e
-}
-{
-}
-protocol A {
-{
-}
-{
-}
+struct A:e
 func a
-{
-}
-func a<T : a
+func a<T:a

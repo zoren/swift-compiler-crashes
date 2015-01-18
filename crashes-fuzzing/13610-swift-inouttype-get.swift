@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 import Foundation
-if true {
+if true{
 }
-struct g {
-struct d {
-struct d<T where g: T {
-let start = true as S
+struct g{
+struct d{
+struct d<T where g:T{let a=true as S

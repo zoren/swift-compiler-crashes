@@ -3,10 +3,10 @@
 // Test case found by fuzzing
 
 func d
-( ) {
-var d = [ ] as a
-struct S<T where H : P {
-var d {
-protocol P {
+(){
+var d=[]as a
+struct S<T where H:P{
+var d{
+protocol P{
 struct S
-func b<S : e
+func b<S:e

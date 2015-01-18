@@ -4,12 +4,11 @@
 
 class A
 struct B
-class B : A
-func b<T {
-class A {
+class B:A
+func b<T{
+class A{
 func b
+{class A
 {
-class A
-{
-class A {
-var d = b
+class A{
+var d=b

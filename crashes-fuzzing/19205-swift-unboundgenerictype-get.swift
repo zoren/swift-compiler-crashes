@@ -2,28 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct c
-{
-let : Array
-let a {
-{
-{
-}
-}
-{
-}
-struct c {
-{
-}
-class A {
-{
-{
-}
-{
-}
-{
-{
-}
-}
-}
-class B<T where k : T> : A.B
+struct c{let:Array{struct c{class A{{{}}class B<T where k:T>:A.B

@@ -2,7 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where B : a
-{
-var b {
-var b = " \(self ) "
+struct B<T where B:a{var b{var b=self

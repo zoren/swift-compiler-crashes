@@ -2,14 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-struct S {
-let start = [ {
-{
-{
-}
-case c = 0
-}
+{{case c}
 class
-case c,
-( )
+case c,()

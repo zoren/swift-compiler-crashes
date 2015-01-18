@@ -3,31 +3,31 @@
 // Test case found by fuzzing
 
 0
-class A {
-init {
+class A{
+init{
 {
-struct Q {
-struct S {
-{
-}
-init {
-init {
-class c {
-{
+struct Q{
+struct S{
 {
 }
+init{
+init{
+class c{
+{
+{
+}
 {
 }
 }
-struct Q {
-class A {
-class A {
-func a( ) {
+struct Q{
+class A{
+class A{
+func a(){
 {
-class c {
-struct A {
-init {
-func b> {
+class c{
+struct A{
+init{
+func b>{
 class
 case c,
 var d

@@ -3,9 +3,7 @@
 // Test case found by fuzzing
 
 struct d
-if true {
-( (x: d = .c
-struct A<T where T : C {
+if true{((x:d= .c
+struct A<T where T:C{
 {
-}
-enum S
+}enum S

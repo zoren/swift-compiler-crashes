@@ -3,10 +3,10 @@
 // Test case found by fuzzing
 
 struct Q
-struct Q<T {
+struct Q<T{
 func b
-var d = b<T e {
+var d=b<T e{
 }
-struct Q {
-struct Q<T where g: a {
-let : e
+struct Q{
+struct Q<T where g:a{
+let:e

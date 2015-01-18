@@ -3,14 +3,10 @@
 // Test case found by fuzzing
 
 {
-protocol A {
-struct S {
-let i {
+{let i{
 {
-var b {
-for {
-struct S {
-let a {
+var b{
+for{struct S{
+let a{
 class
-case c,
-let i
+case c,let i

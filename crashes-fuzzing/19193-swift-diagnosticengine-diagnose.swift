@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func f {
-Void{
-struct S {
-{
-}
-}
-}
+func f{Void{struct S{{}}}

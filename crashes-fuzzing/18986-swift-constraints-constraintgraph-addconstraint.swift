@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let A {
-if true {
-__LINE__
-}
-Void{
+let A{if true{__LINE__}Void{

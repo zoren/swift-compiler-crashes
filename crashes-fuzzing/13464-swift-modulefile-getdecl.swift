@@ -2,12 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol b {
-struct Q {
-struct S {
+protocol b{
+struct Q{struct S{
 {
 }
-extension NSSet {
+extension a{
 class
 case c,
 case

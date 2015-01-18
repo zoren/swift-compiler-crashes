@@ -2,4 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T: B<T> > : B<T>
+class B<T:B>:B<T>

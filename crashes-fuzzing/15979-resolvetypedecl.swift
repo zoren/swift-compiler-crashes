@@ -2,12 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var d {
+var d{
 {
-}
-struct B<T where T: NSObject {
-}
-protocol a {
-func a
-}
-struct S<T where T: B
+}struct B<T where T:N
+struct S<T where T:B

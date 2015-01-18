@@ -2,12 +2,11 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T {
-{
+class B<T{{
 }
-let a {
+let a{
 class b
-for b {
+for b{
 }
 }
-let end = " "
+let a=""

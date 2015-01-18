@@ -2,11 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b
-if true {
-var d = b(v: BooleanType)
-class c : A
-class A : a {
+if true{
+class c:A
+class A:a{
 func a
-class a<T where g: d {
-func a
+class a<T where g:d{func a

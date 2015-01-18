@@ -3,5 +3,5 @@
 // Test case found by fuzzing
 
 import CoreData
-struct B<ff where B : A {
-let i { f
+struct B<a where B:A{
+let i{f

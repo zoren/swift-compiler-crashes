@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-struct B<T where g: Array
-protocol A : Array< {
+func<{
+struct B<T where g:a
+protocol A:a<{
 class a
-func a<T where B : N
+func a<T where B:N

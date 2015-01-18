@@ -4,14 +4,14 @@
 
 {
 {
-let a {
+let a{
 {
-for {
-func f {
-let i { {
-struct S {
-struct d {
-struct d<T {
+for{
+func f{
+let i{{
+struct S{
+struct d{
+struct d{
 class
 case c,
 {

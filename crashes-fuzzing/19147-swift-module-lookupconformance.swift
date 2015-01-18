@@ -3,10 +3,9 @@
 // Test case found by fuzzing
 
 s
-var b = 0
-[ {
-{
-extension A {
+var b=0
+[{
+{extension A{
 class
 case c,
 var b

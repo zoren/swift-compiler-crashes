@@ -2,22 +2,22 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a {
+class a{
 {
 }
-class a {
-class A {
-func i<T {
-enum S {
+class a{
+class A{
+func i<T{
+enum S{
 struct A
-class B {
-var d = B
-var d = A
+class B{
+var d=B
+var d=A
 {
 {
 }
-struct S {
-class B {
+struct S{
+class B{
 {
 {
 {
@@ -64,8 +64,7 @@ class B {
 {
 {
 {
-{
-{
+{{
 {
 (
 {
@@ -78,6 +77,7 @@ class B {
 {
 {
 {
+{{
 {
 {
 {
@@ -89,13 +89,11 @@ class B {
 {
 {
 {
-{
-{
-[ {
+[{
 {
 {
 {
 {
 {
 {
-: b
+:b

@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-for in a = e
-let f = Void{
+for in a=e
+let f=Void{

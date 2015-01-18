@@ -4,6 +4,5 @@
 
 import Foundation
 class A
-func b {
-class A {
-func a<U : A.a
+func b{
+class A{func a<U:A.a

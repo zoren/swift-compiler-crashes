@@ -3,7 +3,5 @@
 // Test case found by fuzzing
 
 func d
-var d = [ 1
-struct S {
-protocol P {
-typealias e : e
+var d=[1
+struct S{protocol P{typealias e:e

@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where f: A {
-let end = [Void{
-let a {
-{
-{
-}
-case
+struct B<T where f:A{let b=[a{let a{{{}case

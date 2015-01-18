@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T where H : T
-var d = 1
-let : Int = B
+class B<T where H:T
+var d=1
+let:Int=B

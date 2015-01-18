@@ -2,10 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let : Array
-let : {
-let a {
-{
-class
-case c,
-case
+let:Array
+let:{let a{{class
+case c,case

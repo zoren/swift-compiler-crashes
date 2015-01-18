@@ -2,19 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<T where g: NSManagedObject {
-let a {
-let a {
-{
-}
-struct B : d {
-let a = e!.B = F
-}
-{
-{
-}
-}
-}
-struct d {
-let a {
-func o{
+struct S<T where g:a{let a{let a{{}struct B:d{let a=e!.B{}}}struct d{let a{func o{

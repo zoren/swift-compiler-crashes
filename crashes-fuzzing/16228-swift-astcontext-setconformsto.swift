@@ -3,10 +3,8 @@
 // Test case found by fuzzing
 
 ""
-var f , A {
+var a{
 struct
-S {
-{
-}
-protocol A {
-typealias A : A.e
+S{{
+}protocol A{
+typealias A:A.e

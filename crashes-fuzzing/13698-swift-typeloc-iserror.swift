@@ -2,14 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol a {
+protocol a{
 func b
 }
-struct S<l {
-let a {
-enum e : a {
-func b< > (e {
+struct S<l{
+let a{
+enum e:a{
+func b<>(e{
 }
-func b( Void{
-"
+func b(a
 func b

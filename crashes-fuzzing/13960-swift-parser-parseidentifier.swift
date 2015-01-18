@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-var d {
-func a( = [ ] as a)
-}
-}
-enum S<T where B : AnyObject {
-enum S<T : e
+func<{var d{func a(=[]as a)}}enum S<T where B:a{enum S<T:e

@@ -2,11 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var a {
-class A {
+var a{class A{
 {
-}
-protocol A : S
-func a<T {
-class A {
+}protocol A:S
+func a<T{
+class A{
 init(T.B)

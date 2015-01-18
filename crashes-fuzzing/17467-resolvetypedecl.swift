@@ -2,8 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func c( ) ->
-{
-( " " " " " " " "cd
-class d<T where g = c
-let : d
+func c{class d<T where g=c
+let:d

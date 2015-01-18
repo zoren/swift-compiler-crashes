@@ -2,20 +2,16 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let end = Void{
+let a=Void{
 case
-let i( :
+let i(:
 {
 {
-{
-}
-}
-{
-( [ {
-( [ {
+([{
+([{
 (
-( [ {
-( {
+([{
+({
 {
 {
 {
@@ -25,7 +21,7 @@ let i( :
 {
 {
 (
-( (
+((
 {
 (
 {
@@ -38,7 +34,7 @@ let i( :
 {
 {
 {
-[ {
+[{
 {
 {
 {
@@ -46,12 +42,11 @@ let i( :
 {
 {
 {
-[ {
-( {
+[{({
 {
 {
 {
 }
 {
 {
-struct c
+b c

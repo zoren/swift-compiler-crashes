@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-protocol B : b.e {
-{
-{
-}
-}
-func b
+if true{protocol B:b.e{func b

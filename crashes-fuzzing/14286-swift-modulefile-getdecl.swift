@@ -2,10 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-struct S<T where g: A
-protocol A : BooleanType
-protocol A {
-{
-}
-typealias f : S
+if true{
+struct S<T where g:A
+protocol A:BooleanType{
+typealias f:S

@@ -5,8 +5,8 @@
 1
 {
 }
-let a {
-protocol b { func c
-typealias b: A
+let a{
+protocol b{func c
+typealias b:A
 typealias e
-protocol A : e
+protocol A:e

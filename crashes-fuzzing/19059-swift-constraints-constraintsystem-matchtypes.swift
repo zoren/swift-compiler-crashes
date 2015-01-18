@@ -2,6 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-deinit {
-for in ( ( [Void{
+class A{deinit{for in(([Void{

@@ -3,8 +3,6 @@
 // Test case found by fuzzing
 
 class a
-func < {
-if true {
-( ) as a
+func<{if true{()as a
 }
 Void{

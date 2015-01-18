@@ -2,15 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S {
-{
+enum S{
 {
 }
-}
-var f {
+var f{
 class a
 {
-struct d<T {
-struct B<T where B : U
-let a {
-let end = f = B? {
+struct d<T{
+struct B<T where B:U
+let a{let a=f=B?{

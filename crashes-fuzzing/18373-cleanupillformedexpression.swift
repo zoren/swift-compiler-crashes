@@ -2,12 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-{
+if true{
+class A{
+let a=b<T}
 }
-class A {
-let start = b<T
-}
-}
-protocol A : a {
+protocol A:a{
 func a

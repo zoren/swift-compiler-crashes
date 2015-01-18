@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var d {
-class B<T where B : B
-func a( ( )?
-private let : String = B? = D
+var d{
+class B<T where B:B
+func a(()?
+private let:String=B?=D

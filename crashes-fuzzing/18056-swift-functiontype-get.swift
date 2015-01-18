@@ -2,27 +2,19 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func d<f {
-func n {
-struct A {
+func d<f{
+func n{
+struct A{
 {
 {
-}
-}
+}}
 class C
-{
-func n( ( ( ( ( ( ( ) -> ( ) -> ( ) -> ( ) -> Any
-func { {
-}
-}
-{
-{
-}
-}
-let a = true as S
-}
+{func n((((((()->()->()->()->Any
+func{{
 }
 {
 }
 }
-struct S<T where j: AnyObjec
+let a=true as S
+}}}
+struct S<T where j:a

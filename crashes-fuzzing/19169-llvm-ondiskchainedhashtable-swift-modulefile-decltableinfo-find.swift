@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
--> {
-(
-0.a<T
-}
-Void{
+let a{->{(0.a<T}Void{

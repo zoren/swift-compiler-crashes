@@ -2,5 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-0.j == B<T
+0.j==B<T
 Void{

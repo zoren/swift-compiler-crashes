@@ -3,12 +3,8 @@
 // Test case found by fuzzing
 
 struct A<T
-struct B<T where f: A
-let c = A
-class A {
-{
-}
-{
-}
-let c = B
+struct B<T where f:A
+let c=A
+class A{
+let c=B
 {

@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let NSObject {
-protocol A : A {
+let b{
+protocol A:A{
 protocol c
-let : A
-let c : [c
-protocol A : Array {
+let:A
+let c:[c
+protocol A:a{
 protocol A

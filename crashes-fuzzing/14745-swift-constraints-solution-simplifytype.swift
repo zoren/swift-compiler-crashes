@@ -5,7 +5,6 @@
 enum S
 {
 case
-func compose {
-struct B<T where B = compose {
-let a {
-struct S<T : a
+func a{
+struct B<T where B=b{let a{
+struct S<T:a

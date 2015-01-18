@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func d: A
-protocol A : a {
-func ^ (a"
-protocol a {
+func d:A
+protocol A:a{func^(a"
+protocol a{
 protocol a

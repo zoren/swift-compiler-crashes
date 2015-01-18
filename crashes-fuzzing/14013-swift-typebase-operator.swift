@@ -2,10 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class c {
 protocol B
-protocol c {
-struct S<T where B = e
+protocol c{
+struct S<T where B=e
 typealias e
-}
-var d = c
+}var d=c

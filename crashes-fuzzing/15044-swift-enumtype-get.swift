@@ -2,11 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct S<A {
-enum B {
-class A {
-enum A {
-let end = B
-{
-}
-struct B<T where B : A
+struct S<A{enum B{class A{enum A{let e=B{}struct B<T where B:A

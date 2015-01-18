@@ -6,15 +6,15 @@ enum a
 {
 {
 }
-class c {
-var d {
-struct B<T where g: NSObject {
-var d = a
-a {
+class c{
+var d{
+struct B<T where g:a{
+var d=a
+a{
 }
 }
 }
 }
-protocol a {
-typealias F = a
+protocol a{
+typealias F=a
 func a<T

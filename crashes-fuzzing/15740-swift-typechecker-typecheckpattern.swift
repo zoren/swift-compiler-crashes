@@ -3,11 +3,9 @@
 // Test case found by fuzzing
 
 func a
-func a<h > : a
-protocol a {
-class B : a {
+func a<h>:a
+protocol a{
+class B:a func a
 }
-func a
-}
-struct d<T where H : a {
-let end = a<n
+struct d<T where H:a{
+let end=a<n

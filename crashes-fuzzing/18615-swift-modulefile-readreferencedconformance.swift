@@ -3,13 +3,10 @@
 // Test case found by fuzzing
 
 class d
-var d = [ ]
-func < {
-class c {
-protocol b {
+var d=[]
+func<{
+class c{protocol b{
 {
 }
 func f
-{
-}
-typealias b : b
+typealias b:b

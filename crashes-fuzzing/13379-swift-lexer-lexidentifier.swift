@@ -2,35 +2,26 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T where B : P {
-var _ = [B
+class B<T where B:P{
+var _=[B
 d
-struct Q {
-let a {
-if true {
+struct Q{
+let a{
+if a{
 {
 {
 }
 {
 }
 }
-deinit {
-struct c< ( {
+deinit{
+struct c<({
 {
 {
 {
 {
 {
 {
-{
-{
-{
-}
-[
-{
-{
-{
-[
 {
 {
 {
@@ -40,7 +31,14 @@ struct c< ( {
 [
 {
 {
-[ ( {
+{
+{
+{
+{
+[
+{
+{
+[({
 {
 {
 {
@@ -50,7 +48,7 @@ struct c< ( {
 {
 {
 {
-[ (
+[(
 {
 {
 {
@@ -62,15 +60,15 @@ struct c< ( {
 {
 {
 {
-[ {
+[{
 {
 {
 {
 {
 }
-[ {
+[{
 {
-[ ( {
+[({
 {
 {
 {

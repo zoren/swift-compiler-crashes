@@ -2,8 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-[ ]
-class B<T where B : e {
-var d = b<f {
-}
-class b
+[]
+class B<T where B:e{var d=b{}class b

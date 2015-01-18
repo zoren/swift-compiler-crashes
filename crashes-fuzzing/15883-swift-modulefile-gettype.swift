@@ -2,6 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where h: A
-class A {
-let f = [B?
+struct B<T where h:A
+class A{let f=[B?
