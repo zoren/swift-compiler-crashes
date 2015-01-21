@@ -2,12 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A< T
+class A<T
 {
-var d {
+var d{
 }
 class C
-let NSObject {
-class B : C {
-class d<T where T : T {
+let a{class B:C{class d<T where T:T{
 enum P

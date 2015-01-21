@@ -2,20 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class C {
-{
-}
-struct A<f {
-{
-}
-{
-{
-}
-{
-}
-}
-class B
-}
-}
-class A<c where g: Any {
-let : e
+class C{{}struct A<f{{}{{}}class B}}class A<c where g:a{let:e

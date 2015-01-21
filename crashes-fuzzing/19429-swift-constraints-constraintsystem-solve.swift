@@ -2,8 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A : CollectionType
-class A {
-struct Q {
-struct B {
-enum S<T where T = c
+class A:CollectionType
+class A{
+struct Q{struct B{
+enum S<T where T=c

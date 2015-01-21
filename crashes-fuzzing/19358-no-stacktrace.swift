@@ -2,19 +2,19 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func g {
+func g{
 {
-class A {
+class A{
 {
 }
-class a {
-let a {
-for in {
-if true {
-for in {
-if true {
-if true {
-if true {
+class a{
+let a{
+for in{
+if a{
+for in{
+if a{
+if a{
+if a{
 class
 case c,
 case

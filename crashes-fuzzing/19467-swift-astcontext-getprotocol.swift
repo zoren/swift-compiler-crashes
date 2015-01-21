@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b: a
+func b:a
 class a
-let a {
-Void{
+let a{Void{

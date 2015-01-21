@@ -5,8 +5,7 @@
 {
 {
 let
-(
-}
+(}
 class
 case c,
 case

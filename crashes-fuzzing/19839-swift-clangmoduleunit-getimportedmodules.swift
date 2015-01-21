@@ -3,16 +3,8 @@
 // Test case found by fuzzing
 
 import CoreData
-var d { class b<l where T: b
-struct g<l {
-func f: T {
+var d{class b<l where T:b
+struct g<l{
+func f:T{
 }
-{
-}
-{
-}
-{
-{
-}
-}
-enum S { class d:b
+enum S{class d:b

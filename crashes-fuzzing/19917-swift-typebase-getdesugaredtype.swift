@@ -3,7 +3,7 @@
 // Test case found by fuzzing
 
 class b
-class d<T where g: A {
-var b { class A {
-let end = [ 0
-func a<h : C
+class d<T where g:A{
+var b{class A{
+let en=[0
+func a<h:C

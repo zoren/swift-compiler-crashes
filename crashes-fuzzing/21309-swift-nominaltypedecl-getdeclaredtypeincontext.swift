@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-return " " [
-init {
-}
-struct B<T where T: T {
-enum A
+func<{struct B<T where T:T{enum A

@@ -4,13 +4,13 @@
 
 {
 case
-( [ {
+([{
 {
 {
-let a {
-struct A {
-protocol a {
-protocol a {
+let a{
+struct A{
+protocol a{
+protocol a{
 class
 case c,
 {

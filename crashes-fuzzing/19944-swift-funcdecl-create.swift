@@ -2,11 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class a {
-class A {
-enum B<T where B : N
+class a{class A{
+enum B<T where B:N
 }
-let i: a
-a {
-}
-let i: (
+let i:a
+let i:(

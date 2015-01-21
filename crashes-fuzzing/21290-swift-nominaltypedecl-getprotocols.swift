@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 protocol a
-enum S {
-enum S<T where i : B
-}
-protocol c : a {
-init( )
+enum S{
+enum S<T where i:B
+}protocol c:a{
+init()

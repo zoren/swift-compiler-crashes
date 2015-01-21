@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum e : e
-struct c<T where h: B
-for c {
+enum e:e
+struct c<T where h:B
+for c{

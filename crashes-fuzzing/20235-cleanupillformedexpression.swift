@@ -2,12 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-{
-( ( [Void{
-( [ [ {
-}
-let end = [ e :
-}
-func b
-}
-Void{
+{(([V{([[{}let a=[e:}func b}Void{

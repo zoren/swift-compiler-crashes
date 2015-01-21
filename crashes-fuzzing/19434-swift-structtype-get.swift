@@ -2,9 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B : a {
-func a
-struct d<T where g = b
-{
-var f {
-let start = f {
+struct B:a{func a
+struct d<T where g=b{var f{
+let t=f{

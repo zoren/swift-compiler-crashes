@@ -2,10 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let end = 0 as a
-struct g
-{
-let a {
+let a=0 as a
+struct g{
+let a{
 class
 case c,
 case

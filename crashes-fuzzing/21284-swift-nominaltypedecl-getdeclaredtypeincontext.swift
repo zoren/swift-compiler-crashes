@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S {
-enum a {
-struct B<d where B : d {
-var d {
-for b {
+struct B<d where B:d{var d{f

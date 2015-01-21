@@ -3,7 +3,4 @@
 // Test case found by fuzzing
 
 class B
-var b : B? {
-class A {
-deinit {
-return (v: b
+var b:B?{class A{deinit{return(v:b

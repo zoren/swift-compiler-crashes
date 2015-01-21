@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-[ ]
-struct S<T where g: a {
-var b = true as S
+[]
+struct S<T where g:a{
+var b=true as S

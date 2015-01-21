@@ -2,24 +2,18 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B {
-class d {
+class B{
+class d{
 {
 }
-var f = c<
+var f=c<
 }
 }
-extension NSSet {
-struct S<T {
+extension a{
+struct S<T{
 struct d
-struct D : d
+struct D:d
 {
 }
-{
-}
-protocol P {
-{
-}
-{
-}
-func <
+protocol P{
+func<

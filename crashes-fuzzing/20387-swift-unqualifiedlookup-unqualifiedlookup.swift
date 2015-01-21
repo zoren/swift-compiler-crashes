@@ -3,11 +3,9 @@
 // Test case found by fuzzing
 
 protocol P
-struct Q<d {
-func i( ) {
-struct c {
-class b {
-struct S {
-func i: P
-{
-c {
+struct Q<d{func i(){
+struct c{
+class b{
+struct S{
+func i:P{
+c{

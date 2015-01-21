@@ -2,16 +2,13 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-init( ) {
-class B {
+class A{
+init(){
+class B{
 struct B
-struct D {
+struct D{
 func a
-func a<T {
-{
+func a<T{}
 }
-}
-}
-class B<T where h: Array {
+class B<T where h:a{
 struct B

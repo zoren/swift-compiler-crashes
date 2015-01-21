@@ -2,17 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-" " [ 1
-init( ) " " [ 1
-func <
+""[1
+init""[1
+func<
 {
-class c {
-class B {
-class a {
-class A {
-class A {
-{
-}
+class c{
+class B{
+class a{class A{
+class A{
 {
 }
-func a<h: a
+func a<h:a

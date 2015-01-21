@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 import CoreData
-struct A {
-let start = [ ]
-struct d<T where g: S {
-let a {
-var : T -> {
-class b<d where g: d
+struct A{
+let a=[]
+struct d<T where g:S{
+let a{
+var:T->{
+class b<d where g:d

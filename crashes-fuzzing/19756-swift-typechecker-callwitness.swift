@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<T {
-var d = 0
+func b<T{
+var d=0
 class a
-var : Int = a( )
+var:a=a()

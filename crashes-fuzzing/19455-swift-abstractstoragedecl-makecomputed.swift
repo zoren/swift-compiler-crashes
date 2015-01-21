@@ -3,22 +3,13 @@
 // Test case found by fuzzing
 
 {
-class c {
-{
-{
-{
-{
+class c{
+var f{
+let a{a
 }
 }
 }
 }
-var f {
-let a {
-a
-}
-}
-}
-}
-class d<T where g: a
+class d<T where g:a
 func
-va d
+a d

@@ -2,17 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var b = 0
-func <
+var b=0
+func<
 {
-if true {
+if a{
 {
-}
-{
-{
-}
-case
-[ {
+case[{
 class
 case c,
-for (
+for(

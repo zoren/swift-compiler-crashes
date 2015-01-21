@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func < {
-enum k : CollectionType
-{
-}
-protocol k : e {
-typealias e
+func<{enum k:CollectionType{}protocol k:e{typealias e

@@ -4,10 +4,10 @@
 
 protocol A
 }
-func g: A {
+func g:A{
 }
-protocol A : b { func a
+protocol A:b{func a
 func a<b
 :c
-protocol b {
+protocol b{
 class c

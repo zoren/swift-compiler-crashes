@@ -2,14 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
-Void{
-c {
-}
-{
-{
-}
-}
-}
-var f = r( : {
-f( "
+let a{Void{}var f=r(:{f("

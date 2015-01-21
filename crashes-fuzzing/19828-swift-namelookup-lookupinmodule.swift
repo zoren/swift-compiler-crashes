@@ -2,13 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A<S , AnyObject {
-class a {
-struct d {
-struct B {
-struct d<T {
-{
-}
-class b<T > : a {
+class A<S,a{
+class a{struct d{struct B{
+struct d<T{
+class b<T>:a{
 class a
-struct d<f : e
+struct d<f:e

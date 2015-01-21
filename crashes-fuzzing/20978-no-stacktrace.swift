@@ -2,35 +2,35 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A {
+struct A{
 case
-( [ {
+([{
 {
-[ {
-{
-{
+[{
 {
 {
 {
 {
-( [ {
+{
+{
+([{
 {
 {
 {
 {
-[ {
+[{
 {
 }
 {
 {
 {
-" " [ {
+""[{
 {
 {
-( [
-( [ {
+([
+([{
 {
-( ( ) ( ( ( ( {
+((((({
 {
 }
 {
@@ -49,26 +49,26 @@ case
 (
 {
 {
-( [ {
+([{
 {
 {
 {
 {
 }
 }
-( [ {
+([{
 {
 {
 {
 }
 {
-( [ [ {
+([[{
 {
 {
-( ( [ {
+(([{
 {
-( [ {
-] = "
+([{
+]="
 }
 {
 {

@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-var d = B? = b
+class A{
+var d=B?=b
 class func b
 func b
 func b
 }
-class B<T where T : e
+class B<T where T:e

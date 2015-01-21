@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where B : P {
-var b = == f
-var f: d
-struct d<T where g: a
+struct B<T where B:P{
+var b=f
+var f:d
+struct d<T where g:a

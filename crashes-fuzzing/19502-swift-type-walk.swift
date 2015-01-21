@@ -2,7 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where B : I
-func < {
-return " "
-[B? {
+struct B<T where B:I
+func<{return""
+[B?{

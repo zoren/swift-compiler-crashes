@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 import CoreData
-struct d<T where T : a {
-var a {
-( ) as a
+struct d<T where T:a{
+var a{
+()as a
 }
 }
-[ <T {
+[<T{

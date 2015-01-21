@@ -2,21 +2,19 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S {
+enum S{
 struct c
 {
-let a {
-class d<d where h: c { {
+let a{
+class d<d where h:c{{
 {
 }
 }
+}func f:A
+protocol A{
+typealias F=c
 }
-func f: A
-protocol A {
-typealias F = c
+protocol c:d{
 }
-protocol c : d
-{
-}
-let String {
-class d {
+let a{
+class d{

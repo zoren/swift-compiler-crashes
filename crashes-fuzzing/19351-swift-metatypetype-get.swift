@@ -3,4 +3,4 @@
 // Test case found by fuzzing
 
 for
-var d = Void{
+var d=Void{

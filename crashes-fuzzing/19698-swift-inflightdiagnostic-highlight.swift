@@ -4,9 +4,8 @@
 
 func b<T
 {
-class A {
-enum S<T : A
-func e: T.e
-enum A {
-}
+class A{
+enum S<T:A
+func e:T.e
+enum A
 class A

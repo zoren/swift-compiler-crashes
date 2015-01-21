@@ -2,13 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-import DummyModule
-}
-Void{
-{
-}
-{
-}
-class a {
-extension NSSet {
-func a {
+import e}Void{class a{extension a{func a{

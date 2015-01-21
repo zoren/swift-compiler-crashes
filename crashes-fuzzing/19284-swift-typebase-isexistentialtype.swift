@@ -2,10 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class c<T where g : CollectionType {
-var b {
+class c<T where g:a{
+var b{
 class a
-var b = b<Int> (a
+var b=b<b>(a
 b
-class a {
-var : e.h
+class a{
+var:e.h

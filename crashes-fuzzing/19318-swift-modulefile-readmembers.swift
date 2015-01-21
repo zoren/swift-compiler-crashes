@@ -3,5 +3,4 @@
 // Test case found by fuzzing
 
 class A
-enum S<T where S<T> : A.e {
-protocol B
+enum S<T where S<T>:A.e{protocol B

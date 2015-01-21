@@ -2,10 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var A {
-{
-}
-var _ = <T
-class a<T where h: String {
-}
-var _ = [ [ ] as a<T> :
+var A{
+var _= <T
+class a<T where h:a
+var _=[[]as a:

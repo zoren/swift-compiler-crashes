@@ -2,22 +2,19 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let f = [ [ ]
+let f=[[]
 class d
 {
-enum S {
+enum S{
 {
 }
-let start = {
+let a={
 {
+deinit{
 {
-}
-deinit {
-{
-var d = {
-protocol P {
-protocol P {
-deinit {
+var d={protocol P{
+protocol P{
+deinit{
 class
 case c,
 case

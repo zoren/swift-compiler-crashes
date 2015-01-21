@@ -2,25 +2,23 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T {
-enum A {
+struct B<T{
+enum A{
 {
 {
 }
+}
+struct S{
+enum b{
+enum A{
 {
 }
-}
-struct S {
-enum b {
-enum A {
+struct B{
 {
 }
-struct B {
-{
+enum A{
+class A:A
 }
-enum A {
-class A : A
-}
-protocol C {
-typealias B : a
+protocol C{
+typealias B:a
 func a

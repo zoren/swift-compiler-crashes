@@ -3,6 +3,6 @@
 // Test case found by fuzzing
 
 func a
-func a( Void
+func a(Void
 case
-for in a = [Void{
+for in a=[Void{

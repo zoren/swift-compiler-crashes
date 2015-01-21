@@ -3,8 +3,7 @@
 // Test case found by fuzzing
 
 class b
-let end = false
-protocol B {
-class
+let a
+protocol B{class
 case c,
 case

@@ -2,7 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-( ( ( [ 1
-class a<T where I : c
+((([1
+class a<T where I:c
 {
-struct Q<T where B : C
+struct Q<T where B:C

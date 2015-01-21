@@ -3,9 +3,9 @@
 // Test case found by fuzzing
 
 import CoreData
-func c<d {
+func c<d{
 {
 }
-class A {
-enum b { func b: NSManagedObject {
-var _ = b
+class A{
+enum b{func b:NSManagedObject{
+var _=b

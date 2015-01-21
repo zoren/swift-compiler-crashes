@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-protocol A {
-func b
+if true{protocol A{func b
 typealias b
-func i<T> : b
+func i<T>:b

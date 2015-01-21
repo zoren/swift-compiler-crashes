@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<l {
-enum e {
-protocol a {
-var d : a
-}
-func p( ) { p
+func a<l{enum e{protocol a{var d:a}func p(){p

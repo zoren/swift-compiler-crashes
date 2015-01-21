@@ -3,12 +3,10 @@
 // Test case found by fuzzing
 
 class a
-class B : a {
+class B:a{
 {
 }
-{
-}
-func b( ) -> {
-class A<T where h: d
-func f {
-protocol c : A
+func b{
+class A<T where h:d
+func f{
+protocol c:A

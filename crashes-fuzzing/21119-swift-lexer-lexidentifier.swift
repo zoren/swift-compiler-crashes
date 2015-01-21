@@ -2,39 +2,14 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct B<T where I : A
-var f = [B? {
--> {
-class [ {
+struct B<T where I:A
+var f=[B?{
+->{
+class[{
 {
 {
 {
-( (
-{
-{
-{
-{
-{
-{
-{
-{
-{
-{
-{
-{
-{
-( {
-{
-{
-{
-{
-{
-}
-{
-{
-{
-{
-}
+((
 {
 {
 {
@@ -48,15 +23,7 @@ class [ {
 {
 {
 {
-{
-{
-{
-{
-{
-{
-{
-{
-[ {
+({
 {
 {
 {
@@ -65,14 +32,38 @@ class [ {
 }
 {
 {
-[ {
-( ( {
+{
+{{
+{
+{
+{
+{
+{
+{
+{
+{
+{
+{
+{
+{
+{
+{
+{
+{
+{
+{
+{
+[{
+{
 {
 {
 {
 {
 }
 {
+{
+[{
+(({
 {
 {
 {
@@ -83,9 +74,7 @@ class [ {
 {
 {
 {
-{
-{
-( {
+}
 {
 {
 {
@@ -93,7 +82,15 @@ class [ {
 {
 {
 {
-[ {
+({
+{
+{
+{
+{
+{
+{
+{
+[{
 {
 {
 [
@@ -104,6 +101,6 @@ class [ {
 {
 }
 {
-[ {
+[{
 {
 B<d

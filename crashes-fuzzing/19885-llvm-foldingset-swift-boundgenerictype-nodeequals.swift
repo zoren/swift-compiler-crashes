@@ -2,13 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class B<T {
-{
+class B<T{{
 {
 }
 }
-var e: T
-var d {
-class d {
-class B<T where B : A {
-var f: T
+var e:T
+var d{
+class d{
+class B<T where B:A{
+var f:T

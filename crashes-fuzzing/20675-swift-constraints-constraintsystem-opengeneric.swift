@@ -2,10 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-"
-struct B<T where B : T
-func < {
-let start = B? {
-struct d {
-var a {
-(object :
+struct B<T where B:T
+func<{let a=B

@@ -3,13 +3,10 @@
 // Test case found by fuzzing
 
 class b<h
-func i<T {
-{
-}
-for b {
-}
-class a {
-class a {
+func i<T{
+for b{
+}class a{
+class a{
 func b
-var f =b
+var f=b
 class func b

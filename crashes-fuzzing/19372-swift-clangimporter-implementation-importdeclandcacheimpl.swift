@@ -3,9 +3,8 @@
 // Test case found by fuzzing
 
 import CoreData
-func e<T {
-struct S {
-class B : NSObject {
+func e<T{
+struct S{class B:NSObject{
 }
-class B : e
+class B:e
 func e(T.h

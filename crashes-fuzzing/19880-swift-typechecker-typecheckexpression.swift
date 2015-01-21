@@ -2,12 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S {
-init( ) {
-struct B {
-{
-}
-let end = g
-{
-}
-let end = B, U, U, U, g = Void{
+enum S{init(){struct B{let a=g{},g=Void{

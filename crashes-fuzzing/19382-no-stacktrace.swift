@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-var d = c
-struct Q {
-func f {
+var d=c
+struct Q{
+func f{
 class
 case c,
 case

@@ -2,8 +2,5 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-"
-let end = [ [ [ [ {
-enum b {
-class
-case c, " "
+let a= [[[[{enum b{class
+case c,""

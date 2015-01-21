@@ -2,11 +2,10 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum A {
-struct Q {
-struct Q<T {
-enum A : A
-var b {
+enum A{
+struct Q{struct Q<T{
+enum A:A
+var b{
 class b
-struct Q {
-let end = b( " " )
+struct Q{
+let a=b()

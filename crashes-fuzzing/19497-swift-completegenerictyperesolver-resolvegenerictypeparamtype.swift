@@ -2,8 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-class A {
-struct B<d where d: A
-}
-Void{
+if true{class A{struct B<d where d:A}Void{

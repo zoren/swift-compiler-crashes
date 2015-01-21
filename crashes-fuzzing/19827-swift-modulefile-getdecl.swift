@@ -2,17 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A {
+struct A{{
+}
+class B:Array
+init(){
+protocol c{
 {
 }
-{
-}
-class B : Array
-init( ) {
-protocol c {
-{
-}
-{
-}
-typealias b : b
+typealias b:b
 func d

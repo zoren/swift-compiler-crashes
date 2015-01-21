@@ -2,17 +2,15 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct Q {
+struct Q{
 init
-struct D {
+struct D{
 class d
 {
 }
-{
+struct d<T where g:b
 }
-struct d<T where g: b
-}
-let g = compose
-let a {
-struct Q<T where I : NSObject {
-let g = (f: NSObject {
+let g=b
+let a{
+struct Q<T where I:a{
+let g=(f{

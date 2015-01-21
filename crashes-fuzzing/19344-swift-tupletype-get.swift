@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-let a {
-class d<T where h: compose {
-}
-func g
-{
-(
-func a<h > : d
+let a{class d<T where h:a{}(func a<h>:d

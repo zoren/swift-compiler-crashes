@@ -6,11 +6,7 @@
 func a
 {
 func a
-( ( ( ) -> c
-{
+((()->c
+deinit{
 }
-deinit {
-{
-}
-}
-protocol c : b { func b
+protocol c:b{func b

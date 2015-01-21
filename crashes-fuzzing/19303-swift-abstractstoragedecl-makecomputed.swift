@@ -3,5 +3,4 @@
 // Test case found by fuzzing
 
 func b
-class b<h: BooleanType where h: d {
-struct S<T where k : T
+class b<h:BooleanType where h:d{struct S<T where k:T

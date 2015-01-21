@@ -2,10 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<T {
-if true {
-class a : a
-{
-}
-protocol a {
-init( )
+func b<T{if true{class a:a{}protocol a{init()

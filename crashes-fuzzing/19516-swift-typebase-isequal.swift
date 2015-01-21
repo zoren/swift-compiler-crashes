@@ -2,12 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-" "
-class a {
-{
-{
-}
-}
-class A {
-struct B<T where I : a {
-let : B
+""
+class a{
+class A{
+struct B<T where I:a{
+let:B

@@ -2,13 +2,12 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func b<T {
+func b<T{
 1
-class a<d: g {
-class c : Array<T {
-{
-{
+class d{
+class c{
+{{
 }
 }
-struct B< g {
-func d: T.c
+struct B<g{
+func d:T.c

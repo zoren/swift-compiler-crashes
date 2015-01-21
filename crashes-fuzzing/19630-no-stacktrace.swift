@@ -2,10 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-{
-}
+if true{{}
 class B<e
-class C<T where B : A
-{
-init < > ( )
+class C<T where B:A{
+init()

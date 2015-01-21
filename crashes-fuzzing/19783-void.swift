@@ -4,7 +4,6 @@
 
 func a
 {
-struct d<h
-protocol k : a
-protocol A : A
-protocol a : A
+protocol k:a
+protocol A:A
+protocol a:A

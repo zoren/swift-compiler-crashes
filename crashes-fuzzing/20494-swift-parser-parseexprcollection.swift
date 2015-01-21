@@ -2,8 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol P {
-{
-}
-typealias e : e
-let end = [ [ [ [ [ [
+protocol P{
+typealias e:e
+let e=[[[[[[

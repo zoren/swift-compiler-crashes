@@ -2,18 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-func g ((e : Any)?
-struct B<T where B : BooleanType, A {
-let a {
-struct A {
-Void{
-var _ = e
-struct A {
-var _ = [ {
-"
-var b = e
-{
-class A {
-deinit {
-case
+class A<T where B:a{let a{struct A{var b=e

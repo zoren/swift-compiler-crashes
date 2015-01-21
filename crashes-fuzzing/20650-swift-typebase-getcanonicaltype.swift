@@ -2,9 +2,4 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-func a<T {
-struct A {
-func a
-( [ [Void
-}
-Void{
+func a<T{struct A{func a([[Void}Void{

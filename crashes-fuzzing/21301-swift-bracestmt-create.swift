@@ -3,11 +3,5 @@
 // Test case found by fuzzing
 
 func a
-class a<T where f: T {
-let i { f
-class A {
-{
-}
-{
-}
-func a {
+class a<T where f:T{let i{f
+class A{func a{

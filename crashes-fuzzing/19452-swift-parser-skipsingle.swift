@@ -2,41 +2,39 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class d<T where k : a {
-var f {
-let end = [self.h
-class A {
-protocol A {
+class d<T where k:a{
+var f{
+let a=[self.h
+class A{
+protocol A{
 {
 {
 {
 }
 }
 }
-func < {
+func<{
 {
-( [ {
-{
-{
-{
-{
-{ ( {
+([{
 {
 {
 {
 {
-{
-[ {
+{({
 {
 {
 {
 {
 {
+[{
 {
 {
-{ {
 {
 {
+{
+{
+{
+{{
 {
 {
 {
@@ -50,7 +48,9 @@ func < {
 {
 {
 {
-( ( ( ( (
 {
-{ {
-class A
+{
+(((((
+{
+{{
+s A

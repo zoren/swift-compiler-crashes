@@ -2,6 +2,6 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-enum S<g where f: c
+enum S<g where f:c
 struct g
-struct g: Any
+struct g:Any

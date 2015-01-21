@@ -2,8 +2,8 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-class A {
-var _ = [ ]
-protocol A {
-typealias e : c
-protocol c : e
+class A{
+var _=[]
+protocol A{
+typealias e:c
+protocol c:e

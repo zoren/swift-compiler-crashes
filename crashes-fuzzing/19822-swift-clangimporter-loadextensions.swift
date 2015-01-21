@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-protocol e {
-class c : A
+protocol e{
+class c:A
 }
-class A : e
-func < {
+class A:e
+func<{
 Void{

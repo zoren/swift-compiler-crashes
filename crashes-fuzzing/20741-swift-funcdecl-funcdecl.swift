@@ -3,7 +3,6 @@
 // Test case found by fuzzing
 
 {
-( )?
+()?
 }
-enum S<T where H : i {
-struct B<T : d
+enum S<T where H:i{struct B<T:d

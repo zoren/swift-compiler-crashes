@@ -2,13 +2,7 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-if true {
-class a<T where g:
-a {
-{
-{
-}
-}
-}
-let h = 0
-let start = [ ] as a
+if true{class a<T where g:
+a
+let h=0
+let a=[]as a

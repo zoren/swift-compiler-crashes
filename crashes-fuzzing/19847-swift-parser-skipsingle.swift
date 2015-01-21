@@ -2,9 +2,9 @@
 // Test case submitted to project by https://github.com/practicalswift (practicalswift)
 // Test case found by fuzzing
 
-struct A {
-protocol A {
-typealias e : A.e
+struct A{
+protocol A{
+typealias e:A.e
 case
 {
 {
@@ -19,7 +19,7 @@ case
 (
 {
 {
-[ {
+[{
 {
 {
 {
@@ -37,31 +37,7 @@ case
 {
 {
 {
-[ {
-{
-{
-{
-(
-{
-{
-{
-{
-{
-{
-{
-{
-(
-{
-{
-{
-{
-{
-(
-{
-{
-[ {
-{
-{
+[{
 {
 {
 {
@@ -74,6 +50,45 @@ case
 {
 {
 {
+(
+{
+{
+{
+{
+{
+(
+{
+{
+[{
+{
+{
+{
+{
+{
+(
+{
+{
+{
+{
+{
+{
+{
+{
+{
+{
+{
+{
+{{
+{
+{
+{
+{
+{
+{
+{
+{
+{
+[{
 {
 {
 {
@@ -89,7 +104,20 @@ case
 {
 {
 {
-[ {
+{
+{
+{
+{
+{
+[{
+{
+{
+[{
+{
+{
+{
+{
+[{{
 {
 {
 {
@@ -104,34 +132,4 @@ case
 {
 {
 {
-{
-{
-{
-{
-{
-{
-[ {
-{
-{
-[ {
-{
-{
-{
-{
-[ {
-{
-{
-{
-{
-{
-{
-{
-{
-{
-{
-{
-{
-{
-{
-{
-let
+a

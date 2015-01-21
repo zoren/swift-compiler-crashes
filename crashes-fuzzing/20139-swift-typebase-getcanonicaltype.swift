@@ -3,10 +3,10 @@
 // Test case found by fuzzing
 
 class
-Void{
-enum k {
-class a {
-enum B {
-struct A {
-struct B<T where B : a {
-var d = a
+V{
+enum k{
+class a{
+enum B{
+struct A{
+struct B<T where B:a{
+var d=a
