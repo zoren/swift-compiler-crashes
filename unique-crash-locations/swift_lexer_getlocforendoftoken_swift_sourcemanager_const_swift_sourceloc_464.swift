@@ -1,1 +1,1 @@
-../crashes-fuzzing/21331-swift-lexer-getlocforendoftoken.swift
+../crashes-duplicates/21331-swift-lexer-getlocforendoftoken.swift

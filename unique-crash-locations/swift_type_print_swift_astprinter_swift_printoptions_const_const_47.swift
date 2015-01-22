@@ -1,1 +1,1 @@
-../crashes-fuzzing/21993-swift-type-print.swift
+../crashes-duplicates/21993-swift-type-print.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/22337-swift-archetypebuilder-addgenericparameter.swift
+../crashes-duplicates/22337-swift-archetypebuilder-addgenericparameter.swift
