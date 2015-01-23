@@ -1,4 +1,4 @@
-3  swift                    swift::Lexer::lexIdentifier() + 183
+3  swift                    swift::Lexer::lexIdentifier() + 165
 4  swift                    swift::constraints::ConstraintSystem::openGeneric(swift::DeclContext*, llvm::ArrayRef<swift::GenericTypeParamType*>, llvm::ArrayRef<swift::Requirement>, bool, swift::constraints::DependentTypeOpener*, swift::constraints::ConstraintLocatorBuilder, llvm::DenseMap<swift::CanType, swift::TypeVariableType*, llvm::DenseMapInfo<swift::CanType> >&) + 335
 5  swift                    (anonymous namespace)::ReplaceDependentTypes::operator()(swift::Type) + 2165
 6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 55

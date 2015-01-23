@@ -1,4 +1,4 @@
-3  swift                    swift::InFlightDiagnostic swift::DiagnosticEngine::diagnose<llvm::StringRef, swift::Type, swift::Type>(swift::SourceLoc, swift::Diag<llvm::StringRef, swift::Type, swift::Type>, swift::detail::PassArgument<llvm::StringRef, swift::Type, swift::Type>::type) + 85
+3  swift                    swift::ArchetypeBuilder::PotentialArchetype::dump(llvm::raw_ostream&, unsigned int) + 1045
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

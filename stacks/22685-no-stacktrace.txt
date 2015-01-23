@@ -1,4 +1,4 @@
-3  swift                    llvm::Value::print(llvm::raw_ostream&, llvm::AssemblyAnnotationWriter*) const + 944
+3  swift                    REPLEnvironment::handleREPLInput(REPLInputKind, llvm::StringRef) + 1472
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11407
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2695

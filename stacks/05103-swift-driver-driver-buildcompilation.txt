@@ -1,4 +1,4 @@
-3  swift                    swift::InFlightDiagnostic swift::DiagnosticEngine::diagnose<llvm::StringRef, llvm::StringRef>(swift::SourceLoc, swift::Diag<llvm::StringRef, llvm::StringRef>, swift::detail::PassArgument<llvm::StringRef, llvm::StringRef>::type) + 191
+3  swift                    swift::driver::Driver::buildOutputInfo(swift::driver::ToolChain const&, llvm::opt::DerivedArgList const&, llvm::SmallVector<std::__1::pair<swift::driver::types::ID, llvm::opt::Arg const*>, 16u> const&, swift::driver::OutputInfo&) const + 2351
 4  swift                    swift::TypeVisitor<(anonymous namespace)::Traversal, bool>::visit(swift::Type) + 3133
 5  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 6  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52

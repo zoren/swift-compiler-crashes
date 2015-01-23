@@ -1,4 +1,4 @@
-3  swift                    swift::ASTContext::getGetOptionalValueDecl(swift::LazyResolver*, swift::OptionalTypeKind) const + 52
+3  swift                    swift::InFlightDiagnostic swift::DiagnosticEngine::diagnose<swift::Identifier, swift::Type, swift::Type>(swift::SourceLoc, swift::Diag<swift::Identifier, swift::Type, swift::Type>, swift::detail::PassArgument<swift::Identifier, swift::Type, swift::Type>::type) + 708
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

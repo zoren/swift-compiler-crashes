@@ -1,4 +1,4 @@
-3  swift                    swift::DeclContext::printContext(llvm::raw_ostream&) const + 1125
+3  swift                    swift::InFlightDiagnostic swift::DiagnosticEngine::diagnose<bool>(swift::SourceLoc, swift::Diag<bool>, swift::detail::PassArgument<bool>::type) + 149
 4  swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 1241
 5  swift                    swift::TypeChecker::typeCheckBinding(swift::PatternBindingDecl*) + 162
 6  swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 560

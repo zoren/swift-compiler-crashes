@@ -1,4 +1,4 @@
-3  swift                    llvm::DenseMap<swift::Type, swift::OptionalType*, llvm::DenseMapInfo<swift::Type> >::grow(unsigned int) + 47
+3  swift                    llvm::DenseMapBase<llvm::DenseMap<swift::BoundGenericType*, llvm::ArrayRef<swift::Substitution>, llvm::DenseMapInfo<swift::BoundGenericType*> >, swift::BoundGenericType*, llvm::ArrayRef<swift::Substitution>, llvm::DenseMapInfo<swift::BoundGenericType*> >::InsertIntoBucketImpl(swift::BoundGenericType* const&, std::__1::pair<swift::BoundGenericType*, llvm::ArrayRef<swift::Substitution> >*) + 351
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

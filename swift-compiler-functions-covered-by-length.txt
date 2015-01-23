@@ -10,6 +10,7 @@ emitClassHeapMetadataRefForMetatype
 getImplicitlyUnwrappedOptionalDecl
 typeCheckConditionalPatternBinding
 typeCheckFunctionsAndExternalDecls
+projectPhysicalClassMemberAddress
 addValueWitnessesForAbstractType
 getInterfaceTypeFromInternalType
 simplifyOptionalObjectConstraint
@@ -43,6 +44,7 @@ simplifyRestrictedConstraint
 typeCheckDestructorBodyUntil
 validateGenericFuncSignature
 validateGenericTypeSignature
+addAssocTypeDeductionString
 checkExtensionGenericParams
 existentialConformsToItself
 getBoundTypesFromConstraint
@@ -53,6 +55,7 @@ cleanupIllFormedExpression
 computeConnectedComponents
 createTrivialSubstitutions
 getAddrOfValueWitnessTable
+getAlternativeLiteralTypes
 resolveDependentMemberType
 skipUntilGreaterInTypeList
 typeCheckExpressionShallow
@@ -60,6 +63,7 @@ typeCheckFunctionBodyUntil
 validatePatternBindingDecl
 addConformanceRequirement
 checkGenericFuncSignature
+checkTryLockFunAttrCommon
 checkTypeDeclAvailability
 createImplicitConstructor
 emitDirectTypeMetadataRef
@@ -73,7 +77,6 @@ readReferencedConformance
 resolveIdentTypeComponent
 typeCheckTopLevelCodeDecl
 applyGenericTypeReprArgs
-associateWithFileContext
 buildArrayInjectionFnRef
 checkDeclAttributesEarly
 constructCallToSuperInit
@@ -104,11 +107,10 @@ getEncodedStringSegment
 getGetOptionalValueDecl
 getSelfTypeForContainer
 isAnyClassReferenceType
+isBuiltinTypeOverloaded
 mergeEquivalenceClasses
 parseIdentifierDeclName
 parseNominalDeclMembers
-readGenericRequirements
-simplifyClassConstraint
 typeCheckForEachBinding
 visitPatternBindingDecl
 addSameTypeRequirement
@@ -163,6 +165,7 @@ addMaterializeForSet
 computeAccessibility
 computeInterfaceType
 computeSubstitutions
+demangleSymbolAsNode
 diagnoseRedefinition
 emitAbstractFuncDecl
 emitValueConstructor
@@ -173,12 +176,11 @@ getConstraintLocator
 getExemplarArchetype
 getMemberForBaseType
 getOverloadSignature
-getTBAAStructTagInfo
+getPotentialBindings
 maybeReadConformance
 parseDefaultArgument
 parseMatchingPattern
 parseParameterClause
-parseSILWitnessTable
 performSILGeneration
 readAbbreviatedField
 resolveTypeInContext
@@ -190,6 +192,7 @@ visitNominalTypeDecl
 addGenericParameter
 addNestedArchetypes
 checkDeclAttributes
+classifyInstruction
 coercePatternToType
 collectRequirements
 deriveAllArchetypes
@@ -222,10 +225,8 @@ checkSubstitutions
 conformsToProtocol
 createBindOverload
 createImplicitHack
-createLazyResolver
 emitGlobalTopLevel
 emitStructMetadata
-executeSwiftSource
 findBestImportKind
 getImportedModules
 getLLVMIntrinsicID
@@ -235,6 +236,7 @@ getTypeOfReference
 handleExternalDecl
 isSubstitutableFor
 lookupConstructors
+mangleProtocolDecl
 mapTypeIntoContext
 matchCallArguments
 matchFunctionTypes
@@ -250,8 +252,6 @@ parseStmtCondition
 parseStmtForCStyle
 parseTypeAttribute
 parseTypeTupleBody
-parseYAMLDirective
-performNameBinding
 prepareLookupTable
 readSILInstruction
 replaceAllUsesWith
@@ -291,7 +291,6 @@ validateExtension
 verifyDiagnostics
 compareSolutions
 configureStorage
-createOutputFile
 diagAvailability
 emitClosureValue
 emitEnumMetadata
@@ -325,10 +324,10 @@ typeCheckBinding
 typeCheckPattern
 visitForEachStmt
 assignFixedType
+buildOutputInfo
 collectFullName
 computeCaptures
 deriveEquatable
-doDynamicLookup
 emitBuiltinCall
 emitConstructor
 emitIgnoredExpr
@@ -337,8 +336,10 @@ emitSILFunction
 emitToExplosion
 fetchMoreTokens
 forEachVariable
+getBriefComment
 getConstantInfo
 getDeclaredType
+getDisplayDecls
 getObjCSelector
 getOptionalDecl
 getTypeLowering
@@ -376,6 +377,7 @@ getDefaultType
 getDynamicSelf
 getIndexedType
 getSourceRange
+highlightChars
 importDeclImpl
 loadAllMembers
 loadExtensions
@@ -388,6 +390,7 @@ readTypeRecord
 setNestedTypes
 setSpecialized
 setTypeWitness
+visitApplyInst
 visitBraceStmt
 walkToTypePost
 addConstraint
@@ -419,7 +422,7 @@ parseExprList
 parseStmtCase
 parseTopLevel
 printTextImpl
-releaseMemory
+readGlobalVar
 runOnFunction
 serialization
 setConformsTo
@@ -439,11 +442,13 @@ getAdjacency
 getDSOHandle
 getFirstWord
 getProtocols
+getToolChain
 getTypeEntry
 isSimpleEnum
 lookupDirect
 lookupMember
 makeComputed
+mangleModule
 matchWitness
 parseDeclVar
 parsePattern
@@ -462,7 +467,6 @@ emitClosure
 getFullName
 getFunction
 getProtocol
-getSpelling
 getTypeInfo
 lookupValue
 materialize
@@ -474,6 +478,7 @@ readMembers
 resolveType
 runFunction
 runOnModule
+walkContext
 addToScope
 emitProlog
 emitRValue
@@ -493,7 +498,7 @@ removeNode
 setWitness
 skipRecord
 skipSingle
-buildJobs
+toLineList
 getString
 highlight
 lexNumber
@@ -516,13 +521,12 @@ getValue
 openType
 optimize
 simplify
-visitAnd
-destroy
 getDecl
 getType
 isEqual
 isError
 lexImpl
+project
 salvage
 setName
 setType
@@ -535,7 +539,6 @@ legacy
 mangle
 reader
 record
-verify
 build
 clang
 clone
@@ -545,7 +548,6 @@ setup
 solve
 subst
 swift
-tools
 visit
 write
 dump
@@ -562,3 +564,4 @@ run
 std
 str
 sys
+cl
