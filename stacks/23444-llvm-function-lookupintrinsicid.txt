@@ -1,4 +1,4 @@
-3  swift                    (anonymous namespace)::CGObjCGNU::GenerateProtocolList(llvm::ArrayRef<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >) + 66
+3  swift                    clang::ASTStmtReader::VisitObjCAtSynchronizedStmt(clang::ObjCAtSynchronizedStmt*) + 194
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

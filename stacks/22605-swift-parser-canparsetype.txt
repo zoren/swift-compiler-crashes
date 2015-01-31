@@ -1,4 +1,4 @@
-3  swift                    bool swift::Parser::parseIdentifier<llvm::StringRef, char const*>(swift::Identifier&, swift::SourceLoc&, swift::Diag<llvm::StringRef>, char const*) + 133
+3  swift                    swift::InFlightDiagnostic swift::Parser::diagnose<llvm::StringRef, char const (&) [30]>(swift::SourceLoc, swift::Diag<llvm::StringRef>, char const (&&&) [30]) + 165
 4  swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 1241
 5  swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 554
 6  swift                    swift::TypeChecker::typeCheckTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 136

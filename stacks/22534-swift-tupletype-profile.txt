@@ -1,4 +1,4 @@
-3  swift                    llvm::DenseMap<std::__1::pair<swift::Type, std::__1::pair<swift::Type, char> >, swift::FunctionType*, llvm::DenseMapInfo<std::__1::pair<swift::Type, std::__1::pair<swift::Type, char> > > >::grow(unsigned int) + 315
+3  swift                    llvm::DenseMap<swift::ValueDecl const*, unsigned int, llvm::DenseMapInfo<swift::ValueDecl const*> >::grow(unsigned int) + 59
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363

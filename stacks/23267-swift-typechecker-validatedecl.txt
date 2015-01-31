@@ -1,4 +1,4 @@
-3  swift                    createDesignatedInitOverride(swift::TypeChecker&, swift::ClassDecl*, swift::ConstructorDecl*, (anonymous namespace)::DesignatedInitKind) + 1535
+3  swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 351
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363

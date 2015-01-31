@@ -1,0 +1,1 @@
+../crashes/23734-llvm-constantfoldcastinstruction.swift

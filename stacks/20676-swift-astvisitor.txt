@@ -1,4 +1,4 @@
-3  swift                    llvm::DenseMapBase<llvm::DenseMap<swift::BoundGenericType*, llvm::ArrayRef<swift::Substitution>, llvm::DenseMapInfo<swift::BoundGenericType*> >, swift::BoundGenericType*, llvm::ArrayRef<swift::Substitution>, llvm::DenseMapInfo<swift::BoundGenericType*> >::InsertIntoBucketImpl(swift::BoundGenericType* const&, std::__1::pair<swift::BoundGenericType*, llvm::ArrayRef<swift::Substitution> >*) + 351
+3  swift                    swift::ASTVisitor<(anonymous namespace)::PrintStmt, void, void, void, void, void, void>::visit(swift::Stmt*) + 4191
 4  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
 5  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 52
 6  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 304

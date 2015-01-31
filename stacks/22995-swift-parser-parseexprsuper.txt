@@ -1,4 +1,4 @@
-3  swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 3055
+3  swift                    swift::Parser::parseExprDictionary(swift::SourceLoc, swift::Expr*) + 303
 4  swift                    swift::TypeBase::getCanonicalType() + 1403
 5  swift                    swift::TypeBase::getCanonicalType() + 775
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 451

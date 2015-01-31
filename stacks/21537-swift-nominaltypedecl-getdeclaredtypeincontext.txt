@@ -1,4 +1,4 @@
-3  swift                    swift::classifyInstruction(llvm::Instruction const&) + 327
+3  swift                    llvm::SelectionDAGBuilder::visitIntrinsicCall(llvm::CallInst const&, unsigned int) + 32807
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::NominalTypeDecl::computeType() + 29
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1605

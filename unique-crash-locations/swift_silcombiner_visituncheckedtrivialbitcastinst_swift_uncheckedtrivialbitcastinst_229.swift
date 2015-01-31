@@ -1,0 +1,1 @@
+../crashes-fuzzing/23622-swift-silcombiner-visitloadinst.swift

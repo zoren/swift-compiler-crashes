@@ -1,4 +1,4 @@
-3  swift                    llvm::DenseMapBase<llvm::DenseMap<swift::ide::CodeCompletionCacheImpl::Key, char, llvm::DenseMapInfo<swift::ide::CodeCompletionCacheImpl::Key> >, swift::ide::CodeCompletionCacheImpl::Key, char, llvm::DenseMapInfo<swift::ide::CodeCompletionCacheImpl::Key> >::moveFromOldBuckets(std::__1::pair<swift::ide::CodeCompletionCacheImpl::Key, char>*, std::__1::pair<swift::ide::CodeCompletionCacheImpl::Key, char>*) + 76
+3  swift                    (anonymous namespace)::ObjCPrinter::printMembers(swift::IteratorRange<swift::DeclIterator>) + 268
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6103

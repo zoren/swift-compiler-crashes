@@ -1,4 +1,4 @@
-3  swift                    std::__1::enable_if<(__is_forward_iterator<unsigned long long*>::value) && (is_constructible<swift::ModuleFile::PartiallySerialized<swift::SILWitnessTable*>, std::__1::iterator_traits<unsigned long long*>::reference>::value), void>::type std::__1::vector<swift::ModuleFile::PartiallySerialized<swift::SILWitnessTable*>, std::__1::allocator<swift::ModuleFile::PartiallySerialized<swift::SILWitnessTable*> > >::assign<unsigned long long*>(unsigned long long*, unsigned long long*) + 303
+3  swift                    swift::SILDeserializer::readSILBasicBlock(swift::SILFunction*, llvm::SmallVectorImpl<unsigned long long>&) + 95
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 228
 5  swift                    swift::NominalTypeDecl::computeType() + 29
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 865

@@ -1,4 +1,3 @@
-3  swift                    swift::ClassType::get(swift::ClassDecl*, swift::Type, swift::ASTContext const&) + 403
 4  swift                    swift::TypeBase::getCanonicalType() + 424
 5  swift                    swift::TypeBase::getCanonicalType() + 171
 6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 330

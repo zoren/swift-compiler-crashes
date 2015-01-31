@@ -1,4 +1,4 @@
-3  swift                    llvm::DenseMapBase<llvm::DenseMap<std::__1::pair<swift::Identifier, unsigned int>, swift::TreeScopedHashTableVal<swift::Identifier, std::__1::pair<unsigned int, swift::ValueDecl*> >*, llvm::DenseMapInfo<std::__1::pair<swift::Identifier, unsigned int> > >, std::__1::pair<swift::Identifier, unsigned int>, swift::TreeScopedHashTableVal<swift::Identifier, std::__1::pair<unsigned int, swift::ValueDecl*> >*, llvm::DenseMapInfo<std::__1::pair<swift::Identifier, unsigned int> > >::InsertIntoBucketImpl(std::__1::pair<swift::Identifier, unsigned int> const&, std::__1::pair<std::__1::pair<swift::Identifier, unsigned int>, swift::TreeScopedHashTableVal<swift::Identifier, std::__1::pair<unsigned int, swift::ValueDecl*> >*>*) + 127
+3  swift                    swift::Parser::canParseType() + 335
 4  swift                    swift::TypeBase::getCanonicalType() + 1403
 5  swift                    swift::TypeBase::getCanonicalType() + 775
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 451

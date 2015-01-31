@@ -1,0 +1,1 @@
+../crashes-fuzzing/23604-swift-typechecker-typecheckclosurebody.swift

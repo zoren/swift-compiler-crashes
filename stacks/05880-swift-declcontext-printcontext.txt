@@ -1,4 +1,4 @@
-3  swift                    swift::ImportDecl::findBestImportKind(llvm::ArrayRef<swift::ValueDecl*>) + 325
+3  swift                    swift::DiagnosticEngine::flushActiveDiagnostic() + 3989
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 228
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1192
 6  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 549
