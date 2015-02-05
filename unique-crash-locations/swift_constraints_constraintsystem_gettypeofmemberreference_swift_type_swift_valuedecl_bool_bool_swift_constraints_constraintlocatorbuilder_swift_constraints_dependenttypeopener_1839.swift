@@ -1,1 +1,1 @@
-../crashes-fuzzing/23643-llvm-densemapbase-llvm-densemap-swift-cantype.swift
+../crashes-duplicates/23643-llvm-densemapbase-llvm-densemap-swift-cantype.swift

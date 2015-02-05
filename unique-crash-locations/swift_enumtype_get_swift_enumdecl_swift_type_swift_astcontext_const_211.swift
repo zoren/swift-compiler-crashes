@@ -1,1 +1,1 @@
-../crashes-fuzzing/15044-swift-enumtype-get.swift
+../crashes-duplicates/15044-swift-enumtype-get.swift
