@@ -4,7 +4,6 @@
 protocol A {
 	typealias T
 }
-
 class B<T, U: A where A.T == notfound> {
 	var t: T
 }

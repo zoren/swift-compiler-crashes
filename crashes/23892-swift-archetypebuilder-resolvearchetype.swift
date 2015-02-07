@@ -4,7 +4,6 @@
 public protocol F {
     typealias A
 }
-
 class B<F : F where F.A == B<F>> {
     let c : F
 }
