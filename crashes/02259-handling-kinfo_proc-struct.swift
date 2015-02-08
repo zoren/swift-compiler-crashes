@@ -8,5 +8,4 @@
 // var ptr = UnsafeMutablePointer<kinfo_proc>.alloc(1)
 
 import Darwin
-
 let size = sizeof(kinfo_proc)

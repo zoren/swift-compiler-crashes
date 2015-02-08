@@ -6,11 +6,9 @@
 enum E {
     case A
 }
-
-func f() -> (t: (Int,Int),e: E) {
-    return ((0,0),.A)
+func f() -> (t: (Int, Int), e: E) {
+    return ((0,0), .A)
 }
-
 func h() {
     let (t,e) = f()
     print(e)

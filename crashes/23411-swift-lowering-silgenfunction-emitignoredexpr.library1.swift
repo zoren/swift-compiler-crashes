@@ -8,7 +8,6 @@
 // (Which isn't strange since it's heavy as hell.)
 
 import Foundation
-
 public struct A {
     public init(a: NSJSONReadingOptions = .AllowFragments) {
     }

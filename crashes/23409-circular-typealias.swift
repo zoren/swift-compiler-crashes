@@ -4,7 +4,6 @@
 protocol A {
 	typealias BB: B
 }
-
 protocol B {
 	typealias AA: A
 }

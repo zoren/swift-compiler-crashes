@@ -12,7 +12,6 @@
 // module -> protocol chain.
 
 import DummyModule
-
 class Object {
     func method(empty: A) {
     }

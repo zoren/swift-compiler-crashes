@@ -1,1 +1,1 @@
-../crashes/23756-llvm-getelementptrinst-getindexedtype.swift
+../crashes-duplicates/23756-llvm-getelementptrinst-getindexedtype.swift

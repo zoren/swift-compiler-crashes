@@ -1,1 +1,1 @@
-../crashes-fuzzing/01018-diagnoseunknowntype.swift
+../crashes-duplicates/01018-diagnoseunknowntype.swift

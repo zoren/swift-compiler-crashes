@@ -1,1 +1,1 @@
-../crashes-fuzzing/10856-swift-associatedtypedecl-associatedtypedecl.swift
+../crashes-duplicates/10856-swift-associatedtypedecl-associatedtypedecl.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/06996-swift-typevisitor.swift
+../crashes-duplicates/06996-swift-typevisitor.swift
