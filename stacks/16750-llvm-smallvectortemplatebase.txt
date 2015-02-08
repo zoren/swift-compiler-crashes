@@ -1,4 +1,4 @@
-3  swift                    llvm::SmallVectorTemplateBase<(anonymous namespace)::PotentialBinding, false>::grow(unsigned long) + 175
+3  swift                    getPotentialBindings(swift::constraints::ConstraintSystem&, swift::TypeVariableType*) + 5295
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363

@@ -1,4 +1,4 @@
-3  libedit.3.dylib          emacs_standard_keymap + 30145
+3  libedit.3.dylib          emacs_standard_keymap + 34241
 4  swift                    swift::irgen::CallEmission::emitToUnmappedExplosion(swift::irgen::Explosion&) + 33
 5  swift                    swift::irgen::CallEmission::emitToExplosion(swift::irgen::Explosion&) + 470
 6  swift                    swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 34874

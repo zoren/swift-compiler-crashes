@@ -1,4 +1,4 @@
-3  swift                    llvm::FoldingSetImpl::GetOrInsertNode(llvm::FoldingSetImpl::Node*) + 394
+3  swift                    unsigned int std::__1::__sort3<std::__1::__less<llvm::SMFixIt, llvm::SMFixIt>&, llvm::SMFixIt*>(llvm::SMFixIt*, llvm::SMFixIt*, llvm::SMFixIt*, std::__1::__less<llvm::SMFixIt, llvm::SMFixIt>&) + 1210
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363

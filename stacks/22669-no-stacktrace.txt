@@ -1,4 +1,4 @@
-3  swift                    llvm::DenseMap<swift::ProtocolDecl*, swift::ProtocolConformance*, llvm::DenseMapInfo<swift::ProtocolDecl*> >::grow(unsigned int) + 341
+3  swift                    swift::TypeChecker::isRepresentableInObjC(swift::AbstractFunctionDecl const*, swift::ObjCReason) + 21
 4  swift                    checkRedeclaration(swift::TypeChecker&, swift::ValueDecl*) + 153
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2193
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2164

@@ -1,4 +1,4 @@
-3  swift                    addSanitizerRTLinkFlagsLinux(clang::driver::ToolChain const&, llvm::opt::ArgList const&, llvm::SmallVector<char const*, 16u>&, llvm::StringRef, bool, bool) + 818
+3  swift                    llvm::DenseMapBase<llvm::DenseMap<llvm::MCSectionELF const*, llvm::MCSectionELF const*, llvm::DenseMapInfo<llvm::MCSectionELF const*> >, llvm::MCSectionELF const*, llvm::MCSectionELF const*, llvm::DenseMapInfo<llvm::MCSectionELF const*> >::InsertIntoBucketImpl(llvm::MCSectionELF const* const&, std::__1::pair<llvm::MCSectionELF const*, llvm::MCSectionELF const*>*) + 18
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363

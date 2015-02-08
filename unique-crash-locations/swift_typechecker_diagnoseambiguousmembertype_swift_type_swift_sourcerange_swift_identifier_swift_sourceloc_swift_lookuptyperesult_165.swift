@@ -1,0 +1,1 @@
+../crashes-fuzzing/23842-swift-typechecker-diagnoseambiguousmembertype.swift

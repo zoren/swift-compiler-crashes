@@ -1,4 +1,4 @@
-3  swift                    (anonymous namespace)::SimplifyCFG::simplifyBlocks() + 10816
+3  swift                    llvm::IRBuilder<true, llvm::TargetFolder, llvm::InstCombineIRInserter>::CreateCall2(llvm::Value*, llvm::Value*, llvm::Value*, llvm::Twine const&) + 208
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6649
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 9408

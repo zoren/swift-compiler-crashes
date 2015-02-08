@@ -1,4 +1,4 @@
-3  swift                    swift::Parser::parseDeclIfConfig(swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 1679
+3  swift                    swift::Parser::parseTypeAttribute(swift::TypeAttributes&, bool) + 2623
 4  swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 1241
 5  swift                    swift::TypeChecker::typeCheckBinding(swift::PatternBindingDecl*) + 162
 6  swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 560

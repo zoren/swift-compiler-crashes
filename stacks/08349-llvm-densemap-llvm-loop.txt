@@ -1,4 +1,4 @@
-3  swift                    llvm::ConstantFoldInstOperands(unsigned int, llvm::Type*, llvm::ArrayRef<llvm::Constant*>, llvm::DataLayout const*, llvm::TargetLibraryInfo const*) + 1280
+3  swift                    void std::__1::__sort<std::__1::__less<llvm::NonLocalDepEntry, llvm::NonLocalDepEntry>&, llvm::NonLocalDepEntry*>(llvm::NonLocalDepEntry*, llvm::NonLocalDepEntry*, std::__1::__less<llvm::NonLocalDepEntry, llvm::NonLocalDepEntry>&) + 2048
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11407
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2695

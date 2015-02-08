@@ -1,4 +1,4 @@
-3  swift                    swift::constraints::ConstraintSystem::finalize(swift::FreeTypeVariableBinding) + 1119
+3  swift                    void swift::constraints::ConstraintSystem::recordFailure<swift::TupleType*&, swift::TupleType*&>(swift::constraints::ConstraintLocator*, swift::constraints::Failure::FailureKind, swift::TupleType*&&&, swift::TupleType*&&&) + 255
 4  swift                    swift::TypeBase::getCanonicalType() + 1403
 5  swift                    swift::TypeBase::getCanonicalType() + 775
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 451

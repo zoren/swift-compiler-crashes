@@ -1,4 +1,4 @@
-3  swift                    swift::driver::OutputFileMap::parse(std::__1::unique_ptr<llvm::MemoryBuffer, std::__1::default_delete<llvm::MemoryBuffer> >) + 575
+3  swift                    llvm::DenseMap<std::__1::pair<swift::driver::Action const*, swift::driver::ToolChain const*>, swift::driver::Job*, llvm::DenseMapInfo<std::__1::pair<swift::driver::Action const*, swift::driver::ToolChain const*> > >::grow(unsigned int) + 63
 4  swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 68
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
 6  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 549

@@ -1,0 +1,1 @@
+../crashes-fuzzing/23806-llvm-densemap-swift-protocoldecl.swift

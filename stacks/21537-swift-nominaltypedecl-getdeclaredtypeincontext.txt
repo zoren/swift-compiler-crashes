@@ -1,4 +1,4 @@
-3  swift                    llvm::SelectionDAGBuilder::visitIntrinsicCall(llvm::CallInst const&, unsigned int) + 32807
+3  swift                    void std::__1::__stable_sort_move<(anonymous namespace)::TParamCommandCommentComparePosition&, clang::comments::TParamCommandComment const**>(clang::comments::TParamCommandComment const**, clang::comments::TParamCommandComment const**, (anonymous namespace)::TParamCommandCommentComparePosition&, std::__1::iterator_traits<clang::comments::TParamCommandComment const**>::difference_type, std::__1::iterator_traits<clang::comments::TParamCommandComment const**>::value_type*) + 119
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::NominalTypeDecl::computeType() + 29
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1605

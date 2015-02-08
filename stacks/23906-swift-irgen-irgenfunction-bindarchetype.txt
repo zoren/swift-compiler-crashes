@@ -1,0 +1,13 @@
+4  swift                    llvm::Value::setName(llvm::Twine const&) + 520
+5  swift                    swift::irgen::IRGenFunction::bindArchetype(swift::ArchetypeType*, llvm::Value*, llvm::ArrayRef<llvm::Value*>) + 94
+6  swift                    (anonymous namespace)::EmitPolymorphicParameters::emitWithSourceBound(swift::irgen::Explosion&) + 1192
+7  swift                    swift::irgen::emitPolymorphicParametersForGenericValueWitness(swift::irgen::IRGenFunction&, swift::NominalTypeDecl*, llvm::Value*) + 511
+8  swift                    (anonymous namespace)::buildFieldTypeAccessorFn(swift::irgen::IRGenModule&, swift::NominalTypeDecl*, swift::OptionalTransformRange<swift::IteratorRange<swift::DeclIterator>, swift::NominalTypeDecl::ToStoredProperty>) + 2518
+9  swift                    (anonymous namespace)::NominalTypeDescriptorBuilderBase<(anonymous namespace)::StructNominalTypeDescriptorBuilder>::emit() + 1302
+10 swift                    swift::irgen::emitStructMetadata(swift::irgen::IRGenModule&, swift::StructDecl*) + 2109
+11 swift                    swift::irgen::IRGenModule::emitStructDecl(swift::StructDecl*) + 22
+12 swift                    swift::irgen::IRGenModule::emitSourceFile(swift::SourceFile&, unsigned int) + 116
+13 swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1924
+14 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5444
+16 swift                    main + 1677

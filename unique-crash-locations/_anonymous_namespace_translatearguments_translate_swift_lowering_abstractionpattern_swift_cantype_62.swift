@@ -1,0 +1,1 @@
+../crashes/23896-anonymous-namespace-translatearguments-translate.swift

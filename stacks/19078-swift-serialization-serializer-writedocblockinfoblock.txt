@@ -1,4 +1,4 @@
-3  swift                    std::__1::enable_if<(__is_forward_iterator<unsigned long long*>::value) && (is_constructible<swift::ModuleFile::Serialized<swift::Decl*>, std::__1::iterator_traits<unsigned long long*>::reference>::value), void>::type std::__1::vector<swift::ModuleFile::Serialized<swift::Decl*>, std::__1::allocator<swift::ModuleFile::Serialized<swift::Decl*> > >::assign<unsigned long long*>(unsigned long long*, unsigned long long*) + 335
+3  swift                    swift::serialization::Serializer::addIdentifierRef(swift::Identifier) + 127
 4  swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 68
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
 6  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 549

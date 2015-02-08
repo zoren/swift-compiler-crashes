@@ -1,1 +1,1 @@
-../crashes-fuzzing/22559-swift-modulefile-loadallconformances.swift
+../crashes-duplicates/22559-swift-modulefile-loadallconformances.swift

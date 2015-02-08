@@ -1,4 +1,4 @@
-3  swift                    clang::Sema::DeduceTemplateArguments(clang::FunctionTemplateDecl*, clang::QualType, clang::CXXConversionDecl*&, clang::sema::TemplateDeductionInfo&) + 2722
+3  swift                    llvm::object::ELFObjectFile<llvm::object::ELFType<(llvm::support::endianness)1, 2ul, true> >::getRelocationValueString(llvm::object::DataRefImpl, llvm::SmallVectorImpl<char>&) const + 418
 4  swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 68
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
 6  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 549

@@ -1,4 +1,4 @@
-3  swift                    unsigned int llvm::DFSPass<llvm::GraphTraits<llvm::MachineBasicBlock*> >(llvm::DominatorTreeBase<llvm::GraphTraits<llvm::MachineBasicBlock*>::NodeType>&, llvm::GraphTraits<llvm::MachineBasicBlock*>::NodeType*, unsigned int) + 576
+3  swift                    llvm::DAGTypeLegalizer::IntegerExpandSetCCOperands(llvm::SDValue&, llvm::SDValue&, llvm::ISD::CondCode&, llvm::SDLoc) + 240
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11407
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2695
