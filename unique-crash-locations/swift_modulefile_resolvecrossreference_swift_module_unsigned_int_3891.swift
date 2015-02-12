@@ -1,1 +1,1 @@
-../crashes-fuzzing/01006-swift-modulefile-resolvecrossreference.swift
+../crashes-duplicates/01006-swift-modulefile-resolvecrossreference.swift

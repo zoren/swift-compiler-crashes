@@ -1,1 +1,1 @@
-../crashes-fuzzing/21372-llvm-basicblock-removepredecessor.swift
+../crashes-duplicates/21372-llvm-basicblock-removepredecessor.swift

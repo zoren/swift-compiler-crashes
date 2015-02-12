@@ -1,1 +1,1 @@
-../crashes-fuzzing/22721-substituteinputsugarargumenttype.swift
+../crashes-duplicates/22721-substituteinputsugarargumenttype.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/23822-swift-parser-parsestmtforcstyle.swift
+../crashes-duplicates/23822-swift-parser-parsestmtforcstyle.swift

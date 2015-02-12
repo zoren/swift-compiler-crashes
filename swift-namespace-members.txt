@@ -29,6 +29,7 @@ swift::AbstractStorageDecl::makeStoredWithTrivialAccessors
 swift::AbstractStorageDecl::setInvalidBracesRange
 swift::AbstractTypeParamDecl
 swift::AccessKind
+swift::AccessSemantics
 swift::Accessibility
 swift::AllocationArena
 swift::AnyFunctionRef
@@ -48,11 +49,9 @@ swift::ArchetypeBuilder::addSameTypeRequirement
 swift::ArchetypeBuilder::inferRequirements
 swift::ArchetypeBuilder::mapTypeIntoContext
 swift::ArchetypeBuilder::resolveArchetype
-swift::ArchetypeBuilder::substDependentType
 swift::ArchetypeBuilder::~ArchetypeBuilder
 swift::ArchetypeType
 swift::ArchetypeType::getFullName
-swift::ArchetypeType::getNestedType
 swift::ArchetypeType::getNew
 swift::ArchetypeType::hasNestedType
 swift::ArchetypeType::setNestedTypes
@@ -77,7 +76,6 @@ swift::CanTypeWrapper
 swift::CaptureListEntry
 swift::CaseLabelItem::getSourceRange
 swift::ClangImporter
-swift::ClangImporter::Implementation::createDeclWithClangNode
 swift::ClangImporter::Implementation::finishLoadingClangModule
 swift::ClangImporter::Implementation::getAPINotesForContext
 swift::ClangImporter::Implementation::getAPINotesForModule
@@ -119,7 +117,6 @@ swift::CtorInitializerKind
 swift::Decl
 swift::Decl::getRawComment
 swift::Decl::getSourceRange
-swift::Decl::operator
 swift::Decl::print
 swift::DeclAttrKind
 swift::DeclAttribute
@@ -140,6 +137,7 @@ swift::DelayedParsingCallbacks
 swift::Demangle::Node
 swift::DependencyTracker
 swift::DependentMemberType::get
+swift::DependentMemberType::substBaseType
 swift::DerivedConformance::deriveEquatable
 swift::DestructorDecl
 swift::Diag
@@ -208,6 +206,7 @@ swift::IRGenOptions
 swift::IdentTypeRepr
 swift::IdentTypeRepr::create
 swift::Identifier
+swift::ImplicitConstructorKind
 swift::ImplicitlyUnwrappedOptionalType::get
 swift::ImportDecl::findBestImportKind
 swift::InFlightDiagnostic
@@ -241,7 +240,6 @@ swift::LiteralExpr
 swift::LoadInst
 swift::LookupTypeResult
 swift::Lowering::AbstractionPattern
-swift::Lowering::HasInOutSelfAbstractionDifference_t
 swift::Lowering::Initialization
 swift::Lowering::IsFreeFunctionWitness_t
 swift::Lowering::ManagedValue
@@ -253,7 +251,6 @@ swift::Lowering::SILConstantInfo
 swift::Lowering::SILGenFunction
 swift::Lowering::SILGenFunction::emitApply
 swift::Lowering::SILGenFunction::emitApplyExpr
-swift::Lowering::SILGenFunction::emitClassConstructorAllocator
 swift::Lowering::SILGenFunction::emitClosure
 swift::Lowering::SILGenFunction::emitClosureValue
 swift::Lowering::SILGenFunction::emitCurryThunk
@@ -265,9 +262,7 @@ swift::Lowering::SILGenFunction::emitGlobalFunctionRef
 swift::Lowering::SILGenFunction::emitIgnoredExpr
 swift::Lowering::SILGenFunction::emitInjectOptionalValueInto
 swift::Lowering::SILGenFunction::emitLazyGlobalInitializer
-swift::Lowering::SILGenFunction::emitManagedBufferWithCleanup
 swift::Lowering::SILGenFunction::emitOrigToSubstValue
-swift::Lowering::SILGenFunction::emitProlog
 swift::Lowering::SILGenFunction::emitProtocolWitness
 swift::Lowering::SILGenFunction::emitRValue
 swift::Lowering::SILGenFunction::emitRValueAsSingleValue
@@ -276,7 +271,6 @@ swift::Lowering::SILGenFunction::emitRValueForPropertyLoad
 swift::Lowering::SILGenFunction::emitReturnExpr
 swift::Lowering::SILGenFunction::emitValueConstructor
 swift::Lowering::SILGenFunction::visitBraceStmt
-swift::Lowering::SILGenFunction::visitForEachStmt
 swift::Lowering::SILGenFunction::visitFuncDecl
 swift::Lowering::SILGenFunction::visitNominalTypeDecl
 swift::Lowering::SILGenFunction::visitPatternBindingDecl
@@ -332,7 +326,6 @@ swift::ModuleFile::lookupValue
 swift::ModuleFile::maybeReadConformance
 swift::ModuleFile::maybeReadGenericParams
 swift::ModuleFile::maybeReadPattern
-swift::ModuleFile::maybeReadSubstitution
 swift::ModuleFile::readGenericRequirements
 swift::ModuleFile::readMembers
 swift::ModuleFile::readReferencedConformance
@@ -372,6 +365,7 @@ swift::Parser::ParsedAccessors
 swift::Parser::ParsedAccessors::record
 swift::Parser::ParsedParameter
 swift::Parser::Parser
+swift::Parser::addPatternVariablesToScope
 swift::Parser::canParseType
 swift::Parser::canParseTypeIdentifier
 swift::Parser::consumeToken
@@ -468,7 +462,6 @@ swift::PatternBindingDecl
 swift::PatternBindingDecl::hasStorage
 swift::PatternKind
 swift::PersistentParserState
-swift::PlatformKind
 swift::PolymorphicFunctionType::get
 swift::PolymorphicFunctionType::substGenericArgs
 swift::PrettyStackTraceExpr::print
@@ -476,7 +469,6 @@ swift::PrettyStackTraceLocation::print
 swift::PrintOptions
 swift::PrintingDiagnosticConsumer::handleDiagnostic
 swift::ProtocolCompositionType::build
-swift::ProtocolCompositionTypeRepr::create
 swift::ProtocolConformance
 swift::ProtocolConformanceState
 swift::ProtocolDecl
@@ -486,6 +478,7 @@ swift::ProtocolType::canonicalizeProtocols
 swift::Range
 swift::Requirement
 swift::RequirementRepr
+swift::RequirementSource
 swift::ResilienceExpansion
 swift::RunImmediately
 swift::SILBasicBlock
@@ -519,15 +512,16 @@ swift::SearchPathOptions
 swift::SequenceExpr::create
 swift::SerializedASTFile::getCommentForDecl
 swift::SourceFile
+swift::SourceFile::LookupCache::doPopulateCache
 swift::SourceFile::getCache
 swift::SourceLoc
 swift::SourceManager
 swift::SourceManager::GetMessage
-swift::SourceManager::addNewSourceBuffer
 swift::SourceRange
 swift::StaticSpellingKind
 swift::StderrTypeCheckerDebugConsumer::getStream
 swift::Stmt
+swift::StmtConditionElement
 swift::StreamPrinter::printText
 swift::StringLiteralExpr::StringLiteralExpr
 swift::StructDecl
@@ -537,6 +531,7 @@ swift::StructType::get
 swift::SubstitutableType
 swift::SubstitutedType::get
 swift::Substitution
+swift::Substitution::Substitution
 swift::Token
 swift::TopLevelCodeDecl
 swift::TopLevelContext
@@ -550,13 +545,11 @@ swift::TupleType::get
 swift::TupleTypeElt
 swift::TupleTypeRepr::create
 swift::Type
-swift::Type::findIf
 swift::Type::getString
 swift::Type::print
 swift::Type::subst
 swift::Type::transform
 swift::Type::walk
-swift::TypeAliasDecl
 swift::TypeAliasDecl::TypeAliasDecl
 swift::TypeAttributes
 swift::TypeBase
@@ -636,6 +629,7 @@ swift::TypeChecker::validateGenericFuncSignature
 swift::TypeChecker::validateGenericSignature
 swift::TypeChecker::validateGenericTypeSignature
 swift::TypeChecker::validateType
+swift::TypeCheckingFlags
 swift::TypeDecl
 swift::TypeDecl::getDeclaredInterfaceType
 swift::TypeDecl::getDeclaredType
@@ -668,7 +662,7 @@ swift::api_notes::APINotesReader::APINotesReader
 swift::api_notes::APINotesReader::lookupObjCClass
 swift::api_notes::ContextID
 swift::api_notes::ObjCContextInfo
-swift::camel_case::getFirstWord
+swift::configureImplicitSelf
 swift::constraints::Constraint
 swift::constraints::Constraint::create
 swift::constraints::Constraint::createBindOverload
@@ -694,7 +688,6 @@ swift::constraints::ConstraintLocator::PathElement
 swift::constraints::ConstraintLocator::Profile
 swift::constraints::ConstraintLocator::dump
 swift::constraints::ConstraintLocatorBuilder
-swift::constraints::ConstraintLocatorBuilder::trySimplifyToExpr
 swift::constraints::ConstraintSystem
 swift::constraints::ConstraintSystem::ConstraintSystem
 swift::constraints::ConstraintSystem::SolverScope::~SolverScope
@@ -705,6 +698,7 @@ swift::constraints::ConstraintSystem::applySolution
 swift::constraints::ConstraintSystem::assignFixedType
 swift::constraints::ConstraintSystem::compareSolutions
 swift::constraints::ConstraintSystem::computeAssignDestType
+swift::constraints::ConstraintSystem::diagnoseFailureForExpr
 swift::constraints::ConstraintSystem::diagnoseFailureFromConstraints
 swift::constraints::ConstraintSystem::dump
 swift::constraints::ConstraintSystem::finalize
@@ -748,7 +742,9 @@ swift::constraints::Failure
 swift::constraints::Failure::FailureKind
 swift::constraints::Failure::Profile
 swift::constraints::Failure::dump
+swift::constraints::FailureDiagnosis::diagnoseFailure
 swift::constraints::Fix
+swift::constraints::GeneralFailureDiagnosis::diagnoseGeneralConversionFailure
 swift::constraints::MatchCallArgumentListener
 swift::constraints::OverloadChoice
 swift::constraints::RememberChoice_t
@@ -763,12 +759,11 @@ swift::constraints::SolutionDiff
 swift::constraints::TypeMatchKind
 swift::constraints::matchCallArguments
 swift::constraints::simplifyLocator
+swift::convertStoredVarInProtocolToComputed
+swift::createImplicitConstructor
 swift::detail::PassArgument
 swift::driver::Action
-swift::driver::Command
-swift::driver::Compilation::performJobsInList
 swift::driver::Job
-swift::driver::JobList
 swift::driver::ToolChain
 swift::getBuiltinValueDecl
 swift::getFullComment
@@ -810,7 +805,6 @@ swift::irgen::TypeConverter::convertType
 swift::irgen::TypeConverter::getExemplarArchetype
 swift::irgen::TypeConverter::getTypeEntry
 swift::irgen::TypeInfo
-swift::irgen::emitBuiltinCall
 swift::irgen::emitClassExistentialProjection
 swift::irgen::emitClassHeapMetadataRefForMetatype
 swift::irgen::emitEnumMetadata
@@ -824,7 +818,7 @@ swift::irgen::emitStructMetadata
 swift::irgen::emitValueWitnessTable
 swift::irgen::emitWitnessTableRefs
 swift::irgen::projectPhysicalClassMemberAddress
-swift::isPlatformActive
+swift::maybeAddAccessorsToVariable
 swift::namelookup::ResolutionKind
 swift::namelookup::lookupInModule
 swift::parseIntoSourceFile
@@ -836,4 +830,5 @@ swift::resolvePotentialArchetypeToType
 swift::serialization::Serializer::addIdentifierRef
 swift::serialized_diagnostics::createConsumer
 swift::tok
+swift::unicode::getGraphemeClusterBreakProperty
 swift::verifyDiagnostics

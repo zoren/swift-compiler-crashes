@@ -1,1 +1,1 @@
-../crashes-fuzzing/23604-swift-typechecker-typecheckclosurebody.swift
+../crashes-duplicates/23604-swift-typechecker-typecheckclosurebody.swift

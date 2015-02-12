@@ -1,14 +1,12 @@
-4  swift                    swift::FunctionType::get(swift::Type, swift::Type, swift::AnyFunctionType::ExtInfo const&) + 158
-5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 22856
-6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363
-7  swift                    existentialConformsToItself(swift::TypeChecker&, swift::Type, swift::ProtocolDecl*, swift::SourceLoc, llvm::SmallPtrSet<swift::ProtocolDecl*, 4u>&) + 316
-8  swift                    swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) + 930
-9  swift                    swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*, swift::ValueDecl*) + 621
-10 swift                    (anonymous namespace)::TypeResolver::resolveType(swift::TypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>) + 241
-11 swift                    swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*, swift::ValueDecl*) + 221
-12 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 19092
-13 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
-14 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
-15 swift                    swift::CompilerInstance::performSema() + 2060
-16 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-17 swift                    main + 1677
+4  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 21939
+5  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 831
+6  swift                    existentialConformsToItself(swift::TypeChecker&, swift::Type, swift::ProtocolDecl*, swift::SourceLoc, llvm::SmallPtrSet<swift::ProtocolDecl*, 4u>&) + 305
+7  swift                    swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, bool, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) + 853
+8  swift                    swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 786
+9  swift                    swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 202
+10 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 20870
+11 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+12 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1128
+13 swift                    swift::CompilerInstance::performSema() + 2108
+14 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+15 swift                    main + 1814

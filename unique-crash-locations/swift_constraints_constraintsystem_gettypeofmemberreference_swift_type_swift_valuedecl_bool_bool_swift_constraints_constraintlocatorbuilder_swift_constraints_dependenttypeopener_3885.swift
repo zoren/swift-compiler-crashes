@@ -1,1 +1,1 @@
-../crashes-fuzzing/04394-swift-constraints-constraintsystem-gettypeofmemberreference.swift
+../crashes-duplicates/04394-swift-constraints-constraintsystem-gettypeofmemberreference.swift

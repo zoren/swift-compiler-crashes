@@ -1,1 +1,1 @@
-../crashes-fuzzing/19040-swift-associatedtypedecl-getdefaultdefinitionloc.swift
+../crashes-duplicates/19040-swift-associatedtypedecl-getdefaultdefinitionloc.swift

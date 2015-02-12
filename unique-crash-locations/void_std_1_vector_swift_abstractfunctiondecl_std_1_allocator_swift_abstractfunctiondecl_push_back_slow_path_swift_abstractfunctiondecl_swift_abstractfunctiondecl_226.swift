@@ -1,1 +1,1 @@
-../crashes-fuzzing/22254-void.swift
+../crashes-duplicates/22254-void.swift

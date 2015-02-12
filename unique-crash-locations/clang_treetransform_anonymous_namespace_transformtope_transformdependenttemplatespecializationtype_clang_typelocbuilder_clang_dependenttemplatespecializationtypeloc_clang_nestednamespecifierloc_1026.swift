@@ -1,1 +1,1 @@
-../crashes-fuzzing/23701-llvm-smallvectortemplatebase-std-pair-std-basic-string-char.swift
+../crashes-duplicates/23701-llvm-smallvectortemplatebase-std-pair-std-basic-string-char.swift

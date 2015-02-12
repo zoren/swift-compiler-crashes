@@ -1,1 +1,1 @@
-../crashes-fuzzing/22522-swift-constraints-constraintsystem-simplifyrestrictedconstraint.swift
+../crashes-duplicates/22522-swift-constraints-constraintsystem-simplifyrestrictedconstraint.swift

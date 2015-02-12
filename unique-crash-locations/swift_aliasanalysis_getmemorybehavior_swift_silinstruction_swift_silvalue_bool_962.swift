@@ -1,1 +1,1 @@
-../crashes-fuzzing/21355-clang-astwriter-writeheadersearch.swift
+../crashes-duplicates/21355-clang-astwriter-writeheadersearch.swift

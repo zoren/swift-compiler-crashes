@@ -1,1 +1,1 @@
-../crashes-fuzzing/09355-swift-nominaltypedecl-getextensions.swift
+../crashes-duplicates/09355-swift-nominaltypedecl-getextensions.swift

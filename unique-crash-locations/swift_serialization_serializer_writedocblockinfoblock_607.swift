@@ -1,1 +1,1 @@
-../crashes-fuzzing/19078-swift-serialization-serializer-writedocblockinfoblock.swift
+../crashes-duplicates/19078-swift-serialization-serializer-writedocblockinfoblock.swift

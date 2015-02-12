@@ -1,1 +1,1 @@
-../crashes-fuzzing/07351-swift-typeloc-getsourcerange.swift
+../crashes-duplicates/07351-swift-typeloc-getsourcerange.swift

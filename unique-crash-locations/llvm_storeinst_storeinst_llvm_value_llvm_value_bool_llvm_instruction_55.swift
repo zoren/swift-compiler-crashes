@@ -1,1 +1,1 @@
-../crashes/23897-llvm-storeinst-storeinst.swift
+../crashes-duplicates/23897-llvm-storeinst-storeinst.swift

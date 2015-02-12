@@ -1,1 +1,1 @@
-../crashes-fuzzing/08072-swift-modulefile-readreferencedconformance.swift
+../crashes-duplicates/08072-swift-modulefile-readreferencedconformance.swift

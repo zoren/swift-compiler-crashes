@@ -1,1 +1,1 @@
-../crashes-fuzzing/08748-swift-tuplepattern-createsimple.swift
+../crashes-duplicates/08748-swift-tuplepattern-createsimple.swift

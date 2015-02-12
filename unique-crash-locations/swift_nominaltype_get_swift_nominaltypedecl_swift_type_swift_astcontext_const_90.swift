@@ -1,1 +1,1 @@
-../crashes-fuzzing/11846-swift-nominaltype-get.swift
+../crashes-duplicates/11846-swift-nominaltype-get.swift

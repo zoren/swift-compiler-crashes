@@ -1,1 +1,1 @@
-../crashes-fuzzing/23579-swift-parser-parsenewdeclattribute.swift
+../crashes-duplicates/23579-swift-parser-parsenewdeclattribute.swift

@@ -1,11 +1,11 @@
-4  swift                    swift::TypeBase::getTypeOfMember(swift::Module*, swift::ValueDecl const*, swift::LazyResolver*, swift::Type) + 534
-5  swift                    swift::TypeChecker::lookupMemberType(swift::Type, swift::Identifier, swift::DeclContext*) + 659
-6  swift                    (anonymous namespace)::ConformanceChecker::resolveTypeWitnessViaLookup(swift::AssociatedTypeDecl*) + 174
-7  swift                    swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) + 3426
-8  swift                    void (anonymous namespace)::DeclChecker::checkExplicitConformance<swift::EnumDecl>(swift::EnumDecl*, swift::Type) + 138
-9  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6663
+4  swift                    swift::TypeBase::getTypeOfMember(swift::Module*, swift::ValueDecl const*, swift::LazyResolver*, swift::Type) + 630
+5  swift                    swift::TypeChecker::lookupMemberType(swift::Type, swift::Identifier, swift::DeclContext*, bool) + 591
+6  swift                    (anonymous namespace)::ConformanceChecker::resolveTypeWitnessViaLookup(swift::AssociatedTypeDecl*) + 158
+7  swift                    swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, bool, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) + 4665
+8  swift                    void (anonymous namespace)::DeclChecker::checkExplicitConformance<swift::EnumDecl>(swift::EnumDecl*, swift::Type) + 237
+9  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6833
 10 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
-11 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1514
-12 swift                    swift::CompilerInstance::performSema() + 2060
-13 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-14 swift                    main + 1677
+11 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1274
+12 swift                    swift::CompilerInstance::performSema() + 2108
+13 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+14 swift                    main + 1814

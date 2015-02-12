@@ -1,1 +1,1 @@
-../crashes-fuzzing/00280-llvm-foldingset-swift-classtype-nodeequals.swift
+../crashes-duplicates/00280-llvm-foldingset-swift-classtype-nodeequals.swift

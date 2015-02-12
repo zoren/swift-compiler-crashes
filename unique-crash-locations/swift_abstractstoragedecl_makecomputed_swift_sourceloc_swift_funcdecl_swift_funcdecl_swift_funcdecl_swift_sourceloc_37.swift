@@ -1,1 +1,1 @@
-../crashes-fuzzing/05880-swift-declcontext-printcontext.swift
+../crashes-duplicates/05880-swift-declcontext-printcontext.swift

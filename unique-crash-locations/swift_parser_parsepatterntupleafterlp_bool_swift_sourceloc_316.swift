@@ -1,1 +1,1 @@
-../crashes-fuzzing/21280-no-stacktrace.swift
+../crashes-duplicates/21280-no-stacktrace.swift

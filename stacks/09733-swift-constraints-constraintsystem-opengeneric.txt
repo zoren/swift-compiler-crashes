@@ -1,23 +1,23 @@
-4  swift                    swift::constraints::ConstraintSystem::openGeneric(swift::DeclContext*, llvm::ArrayRef<swift::GenericTypeParamType*>, llvm::ArrayRef<swift::Requirement>, bool, swift::constraints::DependentTypeOpener*, swift::constraints::ConstraintLocatorBuilder, llvm::DenseMap<swift::CanType, swift::TypeVariableType*, llvm::DenseMapInfo<swift::CanType> >&) + 335
-5  swift                    swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::constraints::DependentTypeOpener*) + 1252
-6  swift                    swift::constraints::ConstraintSystem::resolveOverload(swift::constraints::ConstraintLocator*, swift::Type, swift::constraints::OverloadChoice) + 329
-7  swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 816
-8  swift                    swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 28
-9  swift                    swift::constraints::ConstraintSystem::addOverloadSet(swift::Type, llvm::ArrayRef<swift::constraints::OverloadChoice>, swift::constraints::ConstraintLocator*) + 204
-10 swift                    swift::constraints::ConstraintSystem::simplifyMemberConstraint(swift::constraints::Constraint const&) + 7321
-11 swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 216
-12 swift                    swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 28
-13 swift                    swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 9064
-14 swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 162
+4  swift                    swift::constraints::ConstraintSystem::openGeneric(swift::DeclContext*, llvm::ArrayRef<swift::GenericTypeParamType*>, llvm::ArrayRef<swift::Requirement>, bool, swift::constraints::DependentTypeOpener*, swift::constraints::ConstraintLocatorBuilder, llvm::DenseMap<swift::CanType, swift::TypeVariableType*, llvm::DenseMapInfo<swift::CanType> >&) + 245
+5  swift                    swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::constraints::DependentTypeOpener*) + 893
+6  swift                    swift::constraints::ConstraintSystem::resolveOverload(swift::constraints::ConstraintLocator*, swift::Type, swift::constraints::OverloadChoice) + 250
+7  swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 734
+8  swift                    swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 27
+9  swift                    swift::constraints::ConstraintSystem::addOverloadSet(swift::Type, llvm::ArrayRef<swift::constraints::OverloadChoice>, swift::constraints::ConstraintLocator*, swift::constraints::OverloadChoice*) + 404
+10 swift                    swift::constraints::ConstraintSystem::simplifyMemberConstraint(swift::constraints::Constraint const&) + 5737
+11 swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 370
+12 swift                    swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 27
+13 swift                    (anonymous namespace)::ConstraintGenerator::addMemberRefConstraints(swift::Expr*, swift::Expr*, swift::DeclName) + 218
+14 swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 180
 15 swift                    swift::Expr::walk(swift::ASTWalker&) + 76
-16 swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 96
-17 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 479
+16 swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 175
+17 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 498
 18 swift                    swift::TypeChecker::typeCheckBinding(swift::PatternBindingDecl*) + 162
-19 swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 560
-20 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 224
-21 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2695
+19 swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 402
+20 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 239
+21 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1976
 22 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
-23 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1384
-24 swift                    swift::CompilerInstance::performSema() + 2060
-25 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-26 swift                    main + 1677
+23 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1128
+24 swift                    swift::CompilerInstance::performSema() + 2108
+25 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+26 swift                    main + 1814

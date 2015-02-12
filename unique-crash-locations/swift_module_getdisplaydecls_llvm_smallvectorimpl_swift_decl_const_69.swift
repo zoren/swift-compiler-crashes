@@ -1,1 +1,1 @@
-../crashes-fuzzing/06787-swift-collectionexpr-getelements.swift
+../crashes-duplicates/06787-swift-collectionexpr-getelements.swift

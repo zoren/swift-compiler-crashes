@@ -1,1 +1,1 @@
-../crashes-fuzzing/09186-swift-archetypetype-getnew.swift
+../crashes-duplicates/09186-swift-archetypetype-getnew.swift

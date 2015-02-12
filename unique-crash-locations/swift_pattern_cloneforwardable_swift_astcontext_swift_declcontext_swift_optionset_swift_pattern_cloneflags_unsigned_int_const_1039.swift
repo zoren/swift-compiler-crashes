@@ -1,1 +1,1 @@
-../crashes-fuzzing/22946-swift-genericfunctiontype-substgenericargs.swift
+../crashes-duplicates/22946-swift-genericfunctiontype-substgenericargs.swift

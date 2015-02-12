@@ -1,1 +1,1 @@
-../crashes-fuzzing/22720-swift-astcontext-createtrivialsubstitutions.swift
+../crashes-duplicates/22720-swift-astcontext-createtrivialsubstitutions.swift

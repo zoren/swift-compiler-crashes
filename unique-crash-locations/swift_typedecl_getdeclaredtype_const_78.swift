@@ -1,1 +1,1 @@
-../crashes-fuzzing/09850-swift-typedecl-getdeclaredtype.swift
+../crashes-duplicates/09850-swift-typedecl-getdeclaredtype.swift

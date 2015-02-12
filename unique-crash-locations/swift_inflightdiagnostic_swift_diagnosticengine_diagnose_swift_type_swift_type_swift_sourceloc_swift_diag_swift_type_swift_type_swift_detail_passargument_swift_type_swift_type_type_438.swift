@@ -1,1 +1,1 @@
-../crashes-fuzzing/22300-swift-inflightdiagnostic.swift
+../crashes-duplicates/22300-swift-inflightdiagnostic.swift

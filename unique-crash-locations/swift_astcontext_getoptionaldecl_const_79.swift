@@ -1,1 +1,1 @@
-../crashes-fuzzing/10665-swift-astcontext-getoptionaldecl.swift
+../crashes-duplicates/10665-swift-astcontext-getoptionaldecl.swift

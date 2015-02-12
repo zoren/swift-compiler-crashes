@@ -1,1 +1,1 @@
-../crashes-fuzzing/19597-swift-genericparamlist-getascanonicalgenericsignature.swift
+../crashes-duplicates/19597-swift-genericparamlist-getascanonicalgenericsignature.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/23709-swift-lexer-gettokenat.swift
+../crashes-duplicates/23709-swift-lexer-gettokenat.swift

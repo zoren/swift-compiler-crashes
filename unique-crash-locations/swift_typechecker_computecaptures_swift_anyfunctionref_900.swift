@@ -1,1 +1,1 @@
-../crashes-fuzzing/00989-swift-typechecker-computecaptures.swift
+../crashes-duplicates/00989-swift-typechecker-computecaptures.swift

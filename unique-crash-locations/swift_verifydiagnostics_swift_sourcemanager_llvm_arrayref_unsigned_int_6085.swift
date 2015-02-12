@@ -1,1 +1,1 @@
-../crashes-fuzzing/09471-swift-compilerinstance-setup.swift
+../crashes-duplicates/09471-swift-compilerinstance-setup.swift

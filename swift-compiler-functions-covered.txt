@@ -9,8 +9,8 @@ addImplicitDestructor
 addMaterializeForSet
 addNestedArchetypes
 addNestedRequirements
-addNewSourceBuffer
 addOverloadSet
+addPatternVariablesToScope
 addProtocols
 addRequirement
 addSameTypeRequirement
@@ -46,7 +46,6 @@ clone
 coercePatternToType
 coerceToType
 collectFullName
-collectParams
 collectRequirements
 compareSolutions
 computeAccessibility
@@ -56,6 +55,7 @@ computeConnectedComponents
 computeInterfaceType
 computeSubstitutions
 computeType
+configureImplicitSelf
 configureStorage
 conformsToProtocol
 connectedComponentsDFS
@@ -65,6 +65,7 @@ constructSIL
 consumeToken
 contextualizeInitializer
 convertAnyNominalType
+convertStoredVarInProtocolToComputed
 convertStructType
 convertToType
 convertType
@@ -92,10 +93,14 @@ defineDefaultConstructor
 deriveAllArchetypes
 deriveEquatable
 destroy
+destroyAll
 diagAvailability
 diagnose
 diagnoseAmbiguousMemberType
+diagnoseFailure
+diagnoseFailureForExpr
 diagnoseFailureFromConstraints
+diagnoseGeneralConversionFailure
 diagnoseRedefinition
 diagnoseUnknownType
 driver
@@ -105,10 +110,8 @@ emitApply
 emitApplyArgument
 emitApplyExpr
 emitArrayLength
-emitBuiltinCall
 emitCallSite
 emitCheckedCast
-emitClassConstructorAllocator
 emitClassExistentialProjection
 emitClassHeapMetadataRefForMetatype
 emitClosure
@@ -131,7 +134,6 @@ emitIgnoredExpr
 emitInjectOptionalValueInto
 emitLazyDefinitions
 emitLazyGlobalInitializer
-emitManagedBufferWithCleanup
 emitMetatypeRef
 emitNominalMetadataRef
 emitObjCExistentialDowncast
@@ -139,7 +141,6 @@ emitOpaqueExistentialContainerUpcast
 emitOrigToSubstValue
 emitPolymorphicArguments
 emitPolymorphicParametersForGenericValueWitness
-emitProlog
 emitProtocolWitness
 emitRValue
 emitRValueAsSingleValue
@@ -168,7 +169,6 @@ finalizeGenericParamList
 find
 findBestImportKind
 findBestSolution
-findIf
 finishLoadingClangModule
 fixItReplaceChars
 flushActiveDiagnostic
@@ -219,18 +219,17 @@ getEncodedStringSegment
 getExemplarArchetype
 getExtensions
 getFieldNo
-getFirstWord
 getFixedTypeRecursive
 getFullComment
 getFullName
 getFunction
 getGetElementPtr
+getGraphemeClusterBreakProperty
 getIdentifier
 getImplicitSelfDecl
 getImplicitlyUnwrappedOptionalDecl
 getImplicitlyUnwrappedOptionalObjectType
 getImportedModules
-getIndexedType
 getInterfaceType
 getInterfaceTypeFromInternalType
 getKnownObjCContext
@@ -240,7 +239,6 @@ getLocForEndOfToken
 getLoweredASTFunctionType
 getMemberForBaseType
 getMembers
-getNestedType
 getNew
 getObjCSelector
 getOptionalDecl
@@ -301,7 +299,6 @@ isEqual
 isError
 isExistentialType
 isExistentialTypeImpl
-isPlatformActive
 isRepresentableInObjC
 isSimpleEnum
 isSpecialized
@@ -351,10 +348,10 @@ matchTupleTypes
 matchTypes
 matchWitness
 materialize
+maybeAddAccessorsToVariable
 maybeReadConformance
 maybeReadGenericParams
 maybeReadPattern
-maybeReadSubstitution
 mergeEquivalenceClasses
 moveFromOldBuckets
 namelookup
@@ -442,7 +439,6 @@ parseTypeSimple
 parseTypeTupleBody
 parseVersionTuple
 performIRGeneration
-performJobsInList
 performSILGeneration
 performSema
 performTypeChecking
@@ -454,6 +450,7 @@ printDeclUSR
 printImpl
 printIndent
 printName
+printOneChild
 printPretty
 printText
 printTextImpl
@@ -528,8 +525,7 @@ solveSimplified
 std
 str
 subst
-substDependentType
-substDependentTypes
+substBaseType
 substFunctionType
 substGenericArgs
 substType
@@ -539,7 +535,6 @@ sys
 transform
 tryMangleStandardSubstitution
 tryMangleSubstitution
-trySimplifyToExpr
 typeCheckAbstractFunctionBody
 typeCheckBinding
 typeCheckCheckedCast
@@ -559,6 +554,7 @@ typeCheckPattern
 typeCheckTopLevelCodeDecl
 unbindTypeVariable
 undo
+unicode
 validateAttributes
 validateDecl
 validateExtension
@@ -575,7 +571,6 @@ visitApplyInst
 visitBraceStmt
 visitCallInst
 visitExtensionDecl
-visitForEachStmt
 visitFuncDecl
 visitLoadInst
 visitNominalTypeDecl

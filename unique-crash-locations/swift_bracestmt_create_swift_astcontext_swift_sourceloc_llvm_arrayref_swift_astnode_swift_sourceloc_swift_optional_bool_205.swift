@@ -1,1 +1,1 @@
-../crashes-fuzzing/06685-swift-bracestmt-create.swift
+../crashes-duplicates/06685-swift-bracestmt-create.swift

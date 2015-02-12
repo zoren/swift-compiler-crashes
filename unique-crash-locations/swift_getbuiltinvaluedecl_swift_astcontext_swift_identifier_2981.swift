@@ -1,1 +1,1 @@
-../crashes-fuzzing/23744-swift-decl-getsourcerange.swift
+../crashes-duplicates/23744-swift-decl-getsourcerange.swift

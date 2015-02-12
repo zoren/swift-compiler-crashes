@@ -1,1 +1,1 @@
-../crashes-fuzzing/22445-llvm-densemap-swift-archetypetype.swift
+../crashes-duplicates/22445-llvm-densemap-swift-archetypetype.swift

@@ -5,6 +5,7 @@ isValidIdentifierContinuationCodePoint
 getTypeLoweringForUncachedLoweredType
 getUncachedSILFunctionTypeForConstant
 addTypeVariableConstraintsToWorkList
+convertStoredVarInProtocolToComputed
 emitOpaqueExistentialContainerUpcast
 emitClassHeapMetadataRefForMetatype
 getImplicitlyUnwrappedOptionalDecl
@@ -12,11 +13,13 @@ typeCheckConditionalPatternBinding
 typeCheckFunctionsAndExternalDecls
 projectPhysicalClassMemberAddress
 addValueWitnessesForAbstractType
+diagnoseGeneralConversionFailure
 getInterfaceTypeFromInternalType
 simplifyOptionalObjectConstraint
 substituteInputSugarArgumentType
 visitUncheckedTrivialBitCastInst
 addContextParamsAndRequirements
+getGraphemeClusterBreakProperty
 resolvePotentialArchetypeToType
 diagnoseFailureFromConstraints
 emitClassExistentialProjection
@@ -29,7 +32,6 @@ makeStoredWithTrivialAccessors
 parseClosureSignatureIfPresent
 simplifyApplicableFnConstraint
 simplifyConstructionConstraint
-emitClassConstructorAllocator
 getDefinitionForClangTypeDecl
 getTypeMetadataAccessFunction
 simplifyCheckedCastConstraint
@@ -38,7 +40,6 @@ typeCheckAbstractFunctionBody
 typeCheckConstructorBodyUntil
 createDesignatedInitOverride
 emitGeneralizedFunctionValue
-emitManagedBufferWithCleanup
 emitTypeMetadataRefForLayout
 parseMatchingPatternVarOrVal
 simplifyConformsToConstraint
@@ -52,10 +53,12 @@ emitInjectOptionalValueInto
 emitObjCExistentialDowncast
 existentialConformsToItself
 getBoundTypesFromConstraint
+maybeAddAccessorsToVariable
 optimizeApplyOfPartialApply
 replaceUsesOfWithOnConstant
 resolveGenericTypeParamType
 resolveImplicitConstructors
+addPatternVariablesToScope
 cleanupIllFormedExpression
 computeConnectedComponents
 createTrivialSubstitutions
@@ -124,6 +127,7 @@ classifyAsOptionalType
 connectedComponentsDFS
 createArchetypeBuilder
 createLoopUnswitchPass
+diagnoseFailureForExpr
 emitNominalMetadataRef
 emitTranslatePrimitive
 gatherAllSubstitutions
@@ -141,6 +145,7 @@ applyGenericArguments
 canonicalizeProtocols
 checkGenericParamList
 computeAssignDestType
+configureImplicitSelf
 convertAnyNominalType
 createGetterPrototype
 createUnavailableAttr
@@ -158,7 +163,6 @@ isDeclAsSpecializedAs
 isExistentialTypeImpl
 isRepresentableInObjC
 lexOperatorIdentifier
-maybeReadSubstitution
 parseGenericArguments
 parseNewDeclAttribute
 resolveCrossReference
@@ -223,9 +227,7 @@ parseTypeIdentifier
 performIRGeneration
 performTypeChecking
 removeShadowedDecls
-substDependentTypes
 typeCheckExpression
-addNewSourceBuffer
 checkRedeclaration
 checkSubstitutions
 conformsToProtocol
@@ -264,7 +266,6 @@ readSILInstruction
 replaceAllUsesWith
 resolveConformance
 simplifyConstraint
-substDependentType
 typeCheckCondition
 unbindTypeVariable
 validateAttributes
@@ -290,13 +291,11 @@ parseDeclOperator
 parseDeclProtocol
 parseExprSequence
 parseVersionTuple
-performJobsInList
 readSILBasicBlock
 removedConstraint
 requiresClassSlow
 runFunctionAsMain
 substFunctionType
-trySimplifyToExpr
 validateExtension
 verifyDiagnostics
 addIdentifierRef
@@ -316,7 +315,6 @@ getRelabeledType
 getSubstitutions
 getTypeVariables
 handleDiagnostic
-isPlatformActive
 lexStringLiteral
 lexUnicodeEscape
 lookupMemberType
@@ -334,13 +332,12 @@ resolveArchetype
 substGenericArgs
 typeCheckBinding
 typeCheckPattern
-visitForEachStmt
 assignFixedType
 collectFullName
 computeCaptures
 deriveEquatable
+diagnoseFailure
 emitArrayLength
-emitBuiltinCall
 emitCheckedCast
 emitConstructor
 emitIgnoredExpr
@@ -388,7 +385,6 @@ getConformance
 getDefaultType
 getDynamicSelf
 getFullComment
-getIndexedType
 getSourceRange
 getThunkResult
 getVerbatimTag
@@ -411,7 +407,6 @@ walkToTypePost
 addConstraint
 applySolution
 bindArchetype
-collectParams
 convertToType
 createForDecl
 emitApplyExpr
@@ -420,7 +415,6 @@ flushComments
 getConformsTo
 getExtensions
 getIdentifier
-getNestedType
 getRawComment
 getSuperclass
 hasNestedType
@@ -436,10 +430,12 @@ parseExprImpl
 parseExprList
 parseStmtCase
 parseTopLevel
+printOneChild
 printTextImpl
 runOnFunction
 serialization
 setConformsTo
+substBaseType
 typeCheckDecl
 visitCallInst
 visitFuncDecl
@@ -456,7 +452,6 @@ emitFunction
 foldSequence
 getAdjacency
 getDSOHandle
-getFirstWord
 getProtocols
 getTypeEntry
 isSimpleEnum
@@ -496,7 +491,7 @@ resolveType
 runFunction
 runOnModule
 addToScope
-emitProlog
+destroyAll
 emitRValue
 getFieldNo
 getMembers
@@ -548,9 +543,9 @@ project
 salvage
 setName
 setType
+unicode
 create
 driver
-findIf
 format
 getLoc
 getNew

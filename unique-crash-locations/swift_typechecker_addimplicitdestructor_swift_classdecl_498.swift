@@ -1,1 +1,1 @@
-../crashes-fuzzing/10866-swift-typechecker-addimplicitdestructor.swift
+../crashes-duplicates/10866-swift-typechecker-addimplicitdestructor.swift

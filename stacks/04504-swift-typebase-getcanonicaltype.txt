@@ -1,15 +1,16 @@
-4  swift                    swift::TypeBase::getCanonicalType() + 424
-5  swift                    swift::TypeBase::getCanonicalType() + 171
-6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 330
-7  swift                    swift::TypeBase::getSuperclass(swift::LazyResolver*) + 759
-8  swift                    swift::TypeChecker::defineDefaultConstructor(swift::NominalTypeDecl*) + 274
-9  swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 912
-10 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2615
-11 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2695
-12 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2695
-13 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2695
+3  swift                    llvm::FoldingSetImpl::FindNodeOrInsertPos(llvm::FoldingSetNodeID const&, void*&) + 55
+4  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 4060
+5  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 275
+6  swift                    swift::ArchetypeBuilder::mapTypeIntoContext(swift::DeclContext*, swift::Type) + 149
+7  swift                    swift::TypeBase::getSuperclass(swift::LazyResolver*) + 233
+8  swift                    swift::TypeChecker::defineDefaultConstructor(swift::NominalTypeDecl*) + 108
+9  swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 717
+10 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1893
+11 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1976
+12 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1976
+13 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1976
 14 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
-15 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1514
-16 swift                    swift::CompilerInstance::performSema() + 2060
-17 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-18 swift                    main + 1677
+15 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1274
+16 swift                    swift::CompilerInstance::performSema() + 2108
+17 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+18 swift                    main + 1814

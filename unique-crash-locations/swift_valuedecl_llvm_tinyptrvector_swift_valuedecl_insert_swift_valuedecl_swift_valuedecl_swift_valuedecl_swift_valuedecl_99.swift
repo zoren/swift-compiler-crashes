@@ -1,1 +1,1 @@
-../crashes-fuzzing/23549-swift-valuedecl.swift
+../crashes-duplicates/23549-swift-valuedecl.swift

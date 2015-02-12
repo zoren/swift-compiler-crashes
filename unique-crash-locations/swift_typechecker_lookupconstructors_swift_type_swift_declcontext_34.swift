@@ -1,1 +1,1 @@
-../crashes-fuzzing/23075-swift-typechecker-lookupconstructors.swift
+../crashes-duplicates/23075-swift-typechecker-lookupconstructors.swift

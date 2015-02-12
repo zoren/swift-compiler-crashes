@@ -1,1 +1,1 @@
-../crashes-fuzzing/22764-swift-parser-skipuntil.swift
+../crashes-duplicates/22764-swift-parser-skipuntil.swift

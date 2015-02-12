@@ -1,1 +1,1 @@
-../crashes-fuzzing/09562-swift-archetypebuilder-resolvearchetype.swift
+../crashes-duplicates/09562-swift-archetypebuilder-resolvearchetype.swift
