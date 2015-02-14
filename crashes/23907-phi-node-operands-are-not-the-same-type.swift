@@ -1,22 +1,21 @@
-class Err {}
+// Distributed under the terms of the MIT license
+// Test case submitted to project by https://github.com/champo (Juan Pablo Civile)
 
-class APIObject {}
-
-enum APIResult<T : AnyObject> {
-    case Error(Err)
-    case Value(T)
+class A {
 }
-
-
-func thisBreaksCompilation(res : APIResult<APIObject>) {
-    
-    switch (res) {
-    case .Value(let res):
-        println("Value! \(res)")
-    case .Error(let err):
-        println("erro")
+class B {
+}
+enum C<T : AnyObject> {
+    case D(A)
+    case E(T)
+}
+func f(g: C<B>) {
+    switch (g) {
+    case .E(let g):
+        println("E! \(g)")
+    case .D(let h):
+        println("")
     }
     
 }
-
-thisBreaksCompilation(APIResult.Value(APIObject()))
+f(C.E(B()))
