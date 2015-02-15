@@ -123,6 +123,7 @@ test_file() {
   test_name=${test_name//.repl/}
   test_name=${test_name//.runtime/}
   test_name=${test_name//.script/}
+  test_name=${test_name//.sil/}
   test_name=${test_name//.timeout/}
   current_test_number=$(echo "${test_name}" | tr " " "\n" | grep -E "^[0-9]+$" | head -1 | sed "s/^0*//g")
   if [[ ${max_test_number} != 0 && ${current_test_number} != "" && ${current_test_number} -gt ${max_test_number} ]]; then
@@ -173,6 +174,15 @@ test_file() {
         break
       fi
     done
+  fi
+  # Test mode: Invoke Swift SIL parser (-parse-sil).
+  #            Used for test cases named *.sil.swift.
+  if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.sil\. ]]; then
+    output=$(xcrun -sdk ${sdk} swiftc -parse-sil -o /dev/null ${files_to_compile} 2>&1 | strings)
+    if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1) ]]; then
+      swift_crash=1
+      compilation_comment="sil"
+    fi
   fi
   # Test mode: Compile using swiftc with optimization option "-O".
   #            Used for test cases named *.swift.
