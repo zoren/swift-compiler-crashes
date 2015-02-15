@@ -1,0 +1,1 @@
+../crashes-fuzzing/11894-std-function-func-swift-type-subst.swift

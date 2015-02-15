@@ -1,0 +1,1 @@
+../crashes-fuzzing/19116-swift-parser-skipsingle.swift

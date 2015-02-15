@@ -1,4 +1,4 @@
-3  swift                    EnableNoAliasConversion + 23
+3  swift                    getElapsedWallTime()::StartTime + 7
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 358
 5  swift                    swift::configureImplicitSelf(swift::TypeChecker&, swift::AbstractFunctionDecl*, swift::GenericParamList*&) + 109
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 20424

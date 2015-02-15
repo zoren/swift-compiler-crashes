@@ -1,13 +1,13 @@
-3  swift                    swift::NominalTypeDecl::prepareLookupTable() + 436
-4  swift                    swift::TypeBase::getCanonicalType() + 424
+3  swift                    llvm::FoldingSet<swift::GenericFunctionType>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const + 85
+4  swift                    swift::TypeBase::getCanonicalType() + 426
 5  swift                    swift::TypeBase::getCanonicalType() + 236
 6  swift                    swift::TypeBase::getCanonicalType() + 171
-7  swift                    swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) + 336
-8  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1598
-9  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 2164
-10 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 9408
+7  swift                    swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, bool, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) + 344
+8  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6605
+9  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1432
+10 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 12996
 11 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
-12 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, unsigned int) + 1514
-13 swift                    swift::CompilerInstance::performSema() + 2060
-14 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2008
-15 swift                    main + 1677
+12 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1274
+13 swift                    swift::CompilerInstance::performSema() + 2108
+14 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+15 swift                    main + 1814

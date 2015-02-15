@@ -1,0 +1,1 @@
+../crashes/23735-swift-irgen-protocolinfo-getconformance.swift
