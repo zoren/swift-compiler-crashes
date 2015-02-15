@@ -1,1 +1,0 @@
-../crashes-fuzzing/12752-swift-abstractstoragedecl-makestoredwithtrivialaccessors.swift

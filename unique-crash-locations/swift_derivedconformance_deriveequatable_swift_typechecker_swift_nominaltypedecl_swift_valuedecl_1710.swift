@@ -1,1 +1,0 @@
-../crashes-fuzzing/00120-swift-derivedconformance-deriveequatable.swift

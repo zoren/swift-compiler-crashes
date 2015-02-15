@@ -1,1 +1,1 @@
-../crashes-fuzzing/12056-vtable.swift
+../crashes-fuzzing/03519-swift-typebase-isexistentialtype.swift

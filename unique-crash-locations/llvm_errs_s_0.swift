@@ -1,1 +1,1 @@
-../crashes-fuzzing/00352-swift-archetypebuilder-resolvearchetype.swift
+../crashes-fuzzing/19948-swift-typedecl-getdeclaredtype.swift

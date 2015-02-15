@@ -1,1 +1,1 @@
-../crashes-fuzzing/09526-swift-constraints-constraintsystem-opengeneric.swift
+../crashes-fuzzing/01772-void.swift

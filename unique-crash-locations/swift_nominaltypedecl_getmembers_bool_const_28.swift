@@ -1,1 +1,1 @@
-../crashes/00049-swift-nominaltypedecl-getmembers.swift
+../crashes/21272-empty-stacktrace.swift

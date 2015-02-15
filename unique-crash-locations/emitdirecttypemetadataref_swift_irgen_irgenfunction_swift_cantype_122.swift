@@ -1,1 +1,0 @@
-../crashes/22724-emitdirecttypemetadataref.swift

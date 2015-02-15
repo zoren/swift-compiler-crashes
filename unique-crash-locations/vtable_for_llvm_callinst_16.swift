@@ -1,1 +1,0 @@
-../crashes/12264-vtable-for-llvm-callinst.swift

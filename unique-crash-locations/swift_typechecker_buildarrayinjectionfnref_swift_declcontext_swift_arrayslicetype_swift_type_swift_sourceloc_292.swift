@@ -1,1 +1,0 @@
-../crashes-fuzzing/01770-swift-typechecker-buildarrayinjectionfnref.swift

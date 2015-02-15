@@ -1,1 +1,0 @@
-../crashes-fuzzing/10806-swift-typechecker-isrepresentableinobjc.swift

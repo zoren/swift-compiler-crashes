@@ -1,1 +1,1 @@
-../crashes-fuzzing/00465-swift-typebase-isequal.swift
+../crashes-fuzzing/22256-no-stacktrace.swift
