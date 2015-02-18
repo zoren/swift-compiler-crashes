@@ -1,20 +1,9 @@
+// Distributed under the terms of the MIT license
+// Test case submitted to project by https://github.com/zneak (zneak)
+
 import Foundation
 
-protocol P {
-	typealias T
-	func get() -> T
-}
-
-class A: NSObject {
-	override var description: String {
-		return getDescription()
-	}
-	
-	func getDescription() -> String { return "" }
-}
-
-class B<P where P.T: AnyObject>: A {
-	override func getDescription() -> String {
-		return "B"
-	}
+class B<X>: NSObject {
+	let x: X
+	init(x: X) { self.x = x }
 }
