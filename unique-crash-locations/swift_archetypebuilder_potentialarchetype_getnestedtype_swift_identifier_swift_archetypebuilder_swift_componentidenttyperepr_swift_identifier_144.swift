@@ -1,0 +1,1 @@
+../crashes-fuzzing/23934-swift-archetypebuilder-potentialarchetype-getnestedtype.swift

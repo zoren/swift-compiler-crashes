@@ -24,6 +24,7 @@ applyGenericTypeReprArgs
 applySolution
 assignFixedType
 bindArchetype
+bindGenericParameters
 build
 buildArrayInjectionFnRef
 callWitness
@@ -45,6 +46,7 @@ classifyAsOptionalType
 cleanupIllFormedExpression
 clone
 coercePatternToType
+coerceToRValue
 coerceToType
 collectFullName
 collectRequirements
@@ -70,6 +72,7 @@ convertStoredVarInProtocolToComputed
 convertStructType
 convertToType
 convertType
+coverage
 create
 createArchetypeBuilder
 createBindOverload
@@ -200,7 +203,6 @@ getDelegatingOrChainedInitKind
 getDesugaredType
 getDictionaryDecl
 getDynamicSelf
-getElapsedWallTime
 getEncodedStringSegment
 getExemplarArchetype
 getExtensions
@@ -221,6 +223,7 @@ getLocForEndOfToken
 getLoweredASTFunctionType
 getMemberForBaseType
 getMembers
+getNestedType
 getNew
 getObjCSelector
 getOptionalDecl
@@ -256,6 +259,7 @@ getTypeOfRValue
 getTypeOfReference
 getTypeVariables
 getUncachedSILFunctionTypeForConstant
+getUniqueSourceFiles
 getValue
 getValueWitness
 getVerbatimTag
@@ -265,6 +269,7 @@ grow
 handleDiagnostic
 handleREPLInput
 hasNestedType
+hasReferenceSemantics
 hasStorage
 highlight
 highlightChars
@@ -317,6 +322,7 @@ lookupQualified
 lookupValue
 makeComputed
 mangle
+mangleDeclTypeForDebugger
 mangleIdentifier
 mangleNominalType
 mangleType
@@ -330,9 +336,11 @@ matchTupleTypes
 matchTypes
 matchWitness
 maybeAddAccessorsToVariable
+maybeParseGenericParams
 maybeReadConformance
 maybeReadGenericParams
 maybeReadPattern
+maybeReadSubstitution
 mergeEquivalenceClasses
 moveFromOldBuckets
 namelookup
@@ -349,6 +357,7 @@ parseClosureSignatureIfPresent
 parseConfigMacros
 parseConstructorArguments
 parseDecl
+parseDeclAttribute
 parseDeclClass
 parseDeclDeinit
 parseDeclEnum
@@ -357,6 +366,7 @@ parseDeclExtension
 parseDeclFunc
 parseDeclIfConfig
 parseDeclImport
+parseDeclInfixOperator
 parseDeclInit
 parseDeclOperator
 parseDeclProtocol
@@ -435,7 +445,6 @@ project
 projectPhysicalClassMemberAddress
 readAbbreviatedField
 readMembers
-readNextRecord
 readRecord
 readReferencedConformance
 readSILBasicBlock
@@ -476,6 +485,8 @@ setConformsTo
 setDeserializedSignature
 setInvalidBracesRange
 setNestedTypes
+setPattern
+setRawComment
 setSpecialized
 setType
 setTypeWitness
@@ -508,7 +519,6 @@ substType
 substituteInputSugarArgumentType
 swift
 sys
-toString
 transform
 tryMangleStandardSubstitution
 tryMangleSubstitution

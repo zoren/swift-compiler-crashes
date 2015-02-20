@@ -49,7 +49,7 @@ $ ./test.sh
 Running tests against: swiftlang-602.0.37.3 clang-602.0.37 (Swift version)
 Using Xcode found at path: /Applications/Xcode-Beta.app/Contents/Developer/
 Usage: ./test.sh [-v] [-q] [-c<columns>] [-l] [file ...]
-Adding a new test case? The crash id to use for the next test case is 33885.
+Adding a new test case? The crash id to use for the next test case is 33921.
 
 == Currently known crashes, set #1 (human reported crashes, crashes not found by fuzzing) ==
 
@@ -344,7 +344,7 @@ Adding a new test case? The crash id to use for the next test case is 33885.
   ✓  23894 swift irgen emitobjcexistentialdowncast
   ✓  23900 swift irgen irbuilder createstore
   ✓  23910 no stacktrace
-** Results: 825 of 2278 tests crashed the compiler **
+** Results: 1068 of 2521 tests crashed the compiler **
 
 ```
 
