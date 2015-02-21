@@ -1,0 +1,1 @@
+../crashes-fuzzing/24127-swift-associatedtypedecl-associatedtypedecl.swift

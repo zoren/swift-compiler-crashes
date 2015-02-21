@@ -12,6 +12,7 @@ swift::ASTContext::getProtocol
 swift::ASTContext::getSpecializedConformance
 swift::ASTContext::getSubstitutions
 swift::ASTContext::setConformsTo
+swift::ASTContext::setRawComment
 swift::ASTNode
 swift::ASTPrinter
 swift::ASTPrinter::printIndent
@@ -40,6 +41,7 @@ swift::ApplyInst
 swift::ArchetypeBuilder
 swift::ArchetypeBuilder::InferRequirementsWalker::walkToTypePost
 swift::ArchetypeBuilder::PotentialArchetype
+swift::ArchetypeBuilder::PotentialArchetype::getNestedType
 swift::ArchetypeBuilder::addConformanceRequirement
 swift::ArchetypeBuilder::addGenericParameter
 swift::ArchetypeBuilder::addRequirement
@@ -74,6 +76,7 @@ swift::CanTypeVisitor
 swift::CanTypeWrapper
 swift::CaptureListEntry
 swift::CaseLabelItem::getSourceRange
+swift::ClangDiagnosticConsumer::HandleDiagnostic
 swift::ClangImporter
 swift::ClangImporter::Implementation::finishLoadingClangModule
 swift::ClangImporter::Implementation::getAPINotesForModule
@@ -279,6 +282,8 @@ swift::Lowering::TypeConverter::getTypeLoweringForUncachedLoweredType
 swift::Lowering::TypeConverter::substFunctionType
 swift::Lowering::TypeLowering
 swift::Mangle::Mangler::BindGenerics
+swift::Mangle::Mangler::bindGenericParameters
+swift::Mangle::Mangler::mangleDeclTypeForDebugger
 swift::Mangle::Mangler::mangleIdentifier
 swift::Mangle::Mangler::mangleNominalType
 swift::Mangle::Mangler::mangleType
@@ -307,6 +312,7 @@ swift::ModuleFile::lookupValue
 swift::ModuleFile::maybeReadConformance
 swift::ModuleFile::maybeReadGenericParams
 swift::ModuleFile::maybeReadPattern
+swift::ModuleFile::maybeReadSubstitution
 swift::ModuleFile::readMembers
 swift::ModuleFile::readReferencedConformance
 swift::ModuleFile::resolveCrossReference
@@ -351,12 +357,14 @@ swift::Parser::createBindingFromPattern
 swift::Parser::diagnose
 swift::Parser::diagnoseRedefinition
 swift::Parser::isStartOfDecl
+swift::Parser::maybeParseGenericParams
 swift::Parser::parseAnyIdentifier
 swift::Parser::parseBraceItemList
 swift::Parser::parseBraceItems
 swift::Parser::parseClosureSignatureIfPresent
 swift::Parser::parseConstructorArguments
 swift::Parser::parseDecl
+swift::Parser::parseDeclAttribute
 swift::Parser::parseDeclClass
 swift::Parser::parseDeclDeinit
 swift::Parser::parseDeclEnum
@@ -365,6 +373,7 @@ swift::Parser::parseDeclExtension
 swift::Parser::parseDeclFunc
 swift::Parser::parseDeclIfConfig
 swift::Parser::parseDeclImport
+swift::Parser::parseDeclInfixOperator
 swift::Parser::parseDeclInit
 swift::Parser::parseDeclOperator
 swift::Parser::parseDeclProtocol
@@ -436,6 +445,7 @@ swift::Pattern::forEachVariable
 swift::Pattern::operator
 swift::PatternBindingDecl
 swift::PatternBindingDecl::hasStorage
+swift::PatternBindingDecl::setPattern
 swift::PatternKind
 swift::PersistentParserState
 swift::PolymorphicFunctionType::get
@@ -452,6 +462,7 @@ swift::ProtocolDecl::requiresClassSlow
 swift::ProtocolType
 swift::ProtocolType::canonicalizeProtocols
 swift::Range
+swift::RawComment
 swift::Requirement
 swift::RequirementRepr
 swift::RequirementSource
@@ -487,6 +498,8 @@ swift::SILType
 swift::SILValue
 swift::SILVisitor
 swift::SILWitnessTable
+swift::SavedScope
+swift::Scope::Scope
 swift::ScopeInfo::addToScope
 swift::SearchPathOptions
 swift::SequenceExpr::create
@@ -543,6 +556,7 @@ swift::TypeBase::getRelabeledType
 swift::TypeBase::getSuperclass
 swift::TypeBase::getTypeOfMember
 swift::TypeBase::getTypeVariables
+swift::TypeBase::hasReferenceSemantics
 swift::TypeBase::isAnyClassReferenceType
 swift::TypeBase::isEqual
 swift::TypeBase::isExistentialType
@@ -560,6 +574,7 @@ swift::TypeChecker::checkDeclAttributesEarly
 swift::TypeChecker::checkInheritanceClause
 swift::TypeChecker::checkSubstitutions
 swift::TypeChecker::coercePatternToType
+swift::TypeChecker::coerceToRValue
 swift::TypeChecker::computeAccessibility
 swift::TypeChecker::computeCaptures
 swift::TypeChecker::conformsToProtocol
@@ -617,7 +632,7 @@ swift::TypeLoc
 swift::TypeLoc::getSourceRange
 swift::TypeLoc::isError
 swift::TypeRepr
-swift::TypeRepr::getSourceRange
+swift::TypeRepr::clone
 swift::TypeResolutionFlags
 swift::TypeVariableType
 swift::TypeVisitor

@@ -75,6 +75,7 @@ getBridgingHeaderContents
 getLoweredASTFunctionType
 getPartialApplyResultType
 getSpecializedConformance
+mangleDeclTypeForDebugger
 parseConstructorArguments
 readReferencedConformance
 resolveIdentTypeComponent
@@ -107,6 +108,7 @@ getEncodedStringSegment
 getSelfTypeForContainer
 isAnyClassReferenceType
 isBuiltinTypeOverloaded
+maybeParseGenericParams
 mergeEquivalenceClasses
 parseIdentifierDeclName
 parseNominalDeclMembers
@@ -127,6 +129,7 @@ importDeclAndCacheImpl
 isUnspecializedGeneric
 matchDeepEqualityTypes
 maybeReadGenericParams
+parseDeclInfixOperator
 parseExprStringLiteral
 parseFunctionArguments
 parseFunctionSignature
@@ -135,6 +138,7 @@ runSILDiagnosticPasses
 addImplicitDestructor
 addNestedRequirements
 applyGenericArguments
+bindGenericParameters
 canonicalizeProtocols
 checkGenericParamList
 computeAssignDestType
@@ -149,10 +153,12 @@ flushActiveDiagnostic
 getAddrOfLLVMVariable
 getFixedTypeRecursive
 getTargetConfigOption
+hasReferenceSemantics
 isDeclAsSpecializedAs
 isExistentialTypeImpl
 isRepresentableInObjC
 lexOperatorIdentifier
+maybeReadSubstitution
 parseGenericArguments
 parseNewDeclAttribute
 resolveCrossReference
@@ -177,6 +183,7 @@ getMemberForBaseType
 getOverloadSignature
 getPotentialBindings
 getTBAAStructTagInfo
+getUniqueSourceFiles
 maybeReadConformance
 parseDefaultArgument
 parseMatchingPattern
@@ -224,7 +231,6 @@ createImplicitHack
 emitGlobalTopLevel
 emitStructMetadata
 findBestImportKind
-getElapsedWallTime
 getImportedModules
 getLLVMIntrinsicID
 getSILFunctionType
@@ -239,6 +245,7 @@ matchFunctionTypes
 moveFromOldBuckets
 parseAnyIdentifier
 parseBraceItemList
+parseDeclAttribute
 parseDeclExtension
 parseDeclSubscript
 parseDeclTypeAlias
@@ -364,6 +371,7 @@ simplifyLocator
 solveSimplified
 addOverloadSet
 addRequirement
+coerceToRValue
 emitCurryThunk
 emitReturnExpr
 emitSourceFile
@@ -383,7 +391,6 @@ lookupInModule
 parseDeclClass
 parseExprArray
 parseExprUnary
-readNextRecord
 readTypeRecord
 setNestedTypes
 setSpecialized
@@ -401,6 +408,7 @@ flushComments
 getConformsTo
 getExtensions
 getIdentifier
+getNestedType
 getRawComment
 getSuperclass
 hasNestedType
@@ -420,6 +428,7 @@ printOneChild
 printTextImpl
 serialization
 setConformsTo
+setRawComment
 substBaseType
 typeCheckDecl
 visitCallInst
@@ -486,6 +495,7 @@ namelookup
 parseToken
 readRecord
 removeNode
+setPattern
 skipRecord
 skipSingle
 emitApply
@@ -502,6 +512,7 @@ printText
 skipUntil
 substType
 transform
+coverage
 diagnose
 emitType
 finalize
@@ -510,7 +521,6 @@ getValue
 openType
 optimize
 simplify
-toString
 destroy
 getDecl
 getType

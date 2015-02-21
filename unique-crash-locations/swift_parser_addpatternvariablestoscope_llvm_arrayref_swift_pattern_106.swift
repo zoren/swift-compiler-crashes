@@ -1,0 +1,1 @@
+../crashes-fuzzing/24145-swift-parser-addpatternvariablestoscope.swift
