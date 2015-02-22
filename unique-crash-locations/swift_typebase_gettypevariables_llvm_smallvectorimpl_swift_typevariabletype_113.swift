@@ -1,1 +1,1 @@
-../crashes-fuzzing/07981-swift-typebase-gettypevariables.swift
+../crashes-duplicates/07981-swift-typebase-gettypevariables.swift

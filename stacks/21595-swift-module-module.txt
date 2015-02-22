@@ -1,4 +1,4 @@
-3  swift                    swift::Mangle::Mangler::mangleType(swift::CanType, swift::ResilienceExpansion, unsigned int) + 5541
+3  swift                    swift::Mangle::Mangler::mangleNominalType(swift::NominalTypeDecl*, swift::ResilienceExpansion, swift::Mangle::Mangler::BindGenerics, swift::GenericParamList*) + 213
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 228
 5  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 2394
 6  swift                    std::__1::__function::__func<(anonymous namespace)::DeclChecker::visitBoundVars(swift::Pattern*)::'lambda'(swift::VarDecl*), std::__1::allocator<(anonymous namespace)::DeclChecker::visitBoundVars(swift::Pattern*)::'lambda'(swift::VarDecl*)>, void (swift::VarDecl*)>::operator()(swift::VarDecl*&&) + 139

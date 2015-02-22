@@ -1,1 +1,1 @@
-../crashes-fuzzing/01083-swift-typechecker-typecheckexpression.swift
+../crashes-fuzzing/10248-swift-streamprinter-printtext.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/07959-swift-enumtype-get.swift
+../crashes-duplicates/07959-swift-enumtype-get.swift

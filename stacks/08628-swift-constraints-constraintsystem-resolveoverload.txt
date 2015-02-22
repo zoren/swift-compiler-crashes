@@ -1,4 +1,4 @@
-3  swift                    swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::constraints::DependentTypeOpener*) + 1839
+3  swift                    swift::constraints::ConstraintSystem::ConstraintSystem(swift::TypeChecker&, swift::DeclContext*, swift::OptionSet<swift::constraints::ConstraintSystemFlags, unsigned int>) + 287
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 385
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 18514
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 363

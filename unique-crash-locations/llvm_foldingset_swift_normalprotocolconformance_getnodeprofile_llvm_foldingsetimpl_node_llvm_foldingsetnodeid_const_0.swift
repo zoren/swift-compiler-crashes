@@ -1,1 +1,1 @@
-../crashes-fuzzing/05807-llvm-foldingset-swift-normalprotocolconformance-getnodeprofile.swift
+../crashes-duplicates/05807-llvm-foldingset-swift-normalprotocolconformance-getnodeprofile.swift

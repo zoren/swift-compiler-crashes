@@ -1,1 +1,1 @@
-../crashes-fuzzing/06074-diagavailability.swift
+../crashes-duplicates/06074-diagavailability.swift

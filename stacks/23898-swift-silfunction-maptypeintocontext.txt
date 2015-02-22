@@ -1,0 +1,24 @@
+3  swift                    swift::TypeBase::getCanonicalType() + 1504
+4  swift                    swift::NominalTypeDecl::getMembers(bool) const + 28
+5  swift                    (anonymous namespace)::LowerType::visitAnyStructType(swift::CanType, swift::StructDecl*) + 40
+6  swift                    swift::Lowering::TypeConverter::getTypeLoweringForUncachedLoweredType(swift::Lowering::TypeConverter::TypeKey) + 150
+7  swift                    swift::Lowering::TypeConverter::getTypeLowering(swift::SILType) + 101
+8  swift                    getThunkResult(swift::Lowering::SILGenFunction&, swift::SILLocation, TranslationKind, swift::CanTypeWrapper<swift::SILFunctionType>, swift::Lowering::AbstractionPattern, swift::CanType, swift::SILType, swift::SILValue, swift::SILValue, swift::SILValue) + 164
+9  swift                    createThunk(swift::Lowering::SILGenFunction&, swift::SILLocation, TranslationKind, swift::Lowering::ManagedValue, swift::Lowering::AbstractionPattern, swift::CanTypeWrapper<swift::AnyFunctionType>, swift::Lowering::TypeLowering const&) + 2409
+10 swift                    swift::Lowering::SILGenFunction::emitGeneralizedFunctionValue(swift::SILLocation, swift::Lowering::ManagedValue, swift::Lowering::AbstractionPattern, swift::CanTypeWrapper<swift::AnyFunctionType>) + 326
+11 swift                    (anonymous namespace)::Generalize::transformFunction(swift::Lowering::ManagedValue, swift::Lowering::AbstractionPattern, swift::CanTypeWrapper<swift::AnyFunctionType>) + 46
+12 swift                    (anonymous namespace)::Transform::transform(swift::Lowering::ManagedValue, swift::Lowering::AbstractionPattern, swift::CanType, swift::Lowering::SGFContext) + 62
+13 swift                    emitTranslatePrimitive(swift::Lowering::SILGenFunction&, swift::SILLocation, TranslationKind, swift::Lowering::AbstractionPattern, swift::CanType, swift::Lowering::ManagedValue, swift::Lowering::SGFContext) + 378
+14 swift                    getThunkResult(swift::Lowering::SILGenFunction&, swift::SILLocation, TranslationKind, swift::CanTypeWrapper<swift::SILFunctionType>, swift::Lowering::AbstractionPattern, swift::CanType, swift::SILType, swift::SILValue, swift::SILValue, swift::SILValue) + 880
+15 swift                    createThunk(swift::Lowering::SILGenFunction&, swift::SILLocation, TranslationKind, swift::Lowering::ManagedValue, swift::Lowering::AbstractionPattern, swift::CanTypeWrapper<swift::AnyFunctionType>, swift::Lowering::TypeLowering const&) + 2409
+16 swift                    swift::Lowering::SILGenFunction::emitGeneralizedFunctionValue(swift::SILLocation, swift::Lowering::ManagedValue, swift::Lowering::AbstractionPattern, swift::CanTypeWrapper<swift::AnyFunctionType>) + 326
+17 swift                    swift::Lowering::SILGenFunction::emitClosureValue(swift::SILLocation, swift::SILDeclRef, llvm::ArrayRef<swift::Substitution>, swift::AnyFunctionRef) + 3879
+18 swift                    swift::Lowering::SILGenFunction::visitFuncDecl(swift::FuncDecl*) + 182
+19 swift                    swift::Lowering::SILGenFunction::visitBraceStmt(swift::BraceStmt*) + 284
+20 swift                    swift::Lowering::SILGenFunction::emitFunction(swift::FuncDecl*) + 229
+21 swift                    swift::Lowering::SILGenModule::emitFunction(swift::FuncDecl*) + 225
+22 swift                    swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 427
+23 swift                    swift::SILModule::constructSIL(swift::Module*, swift::SILOptions&, swift::SourceFile*, llvm::Optional<unsigned int>, bool, bool) + 377
+24 swift                    swift::performSILGeneration(swift::SourceFile&, swift::SILOptions&, llvm::Optional<unsigned int>, bool) + 98
+25 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3739
+26 swift                    main + 1814

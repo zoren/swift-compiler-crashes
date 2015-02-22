@@ -1,1 +1,1 @@
-../crashes-fuzzing/21595-swift-module-module.swift
+../crashes-duplicates/21595-swift-module-module.swift

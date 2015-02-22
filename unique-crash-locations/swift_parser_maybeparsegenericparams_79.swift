@@ -1,0 +1,1 @@
+../crashes-fuzzing/23988-swift-declcontext-lookupqualified.swift

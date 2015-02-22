@@ -1,1 +1,1 @@
-../crashes-fuzzing/10129-swift-parser-parsegenericarguments.swift
+../crashes-duplicates/10129-swift-parser-parsegenericarguments.swift

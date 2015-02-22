@@ -1,1 +1,1 @@
-../crashes-fuzzing/02229-swift-parser-parsedeclextension.swift
+../crashes-duplicates/02229-swift-parser-parsedeclextension.swift

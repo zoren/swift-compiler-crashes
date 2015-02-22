@@ -1,1 +1,1 @@
-../crashes-fuzzing/07797-swift-modulefile-getcommentfordecl.swift
+../crashes-duplicates/07797-swift-modulefile-getcommentfordecl.swift

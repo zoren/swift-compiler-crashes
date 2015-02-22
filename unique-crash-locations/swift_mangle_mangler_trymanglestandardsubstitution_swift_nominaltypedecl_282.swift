@@ -1,1 +1,1 @@
-../crashes-fuzzing/06353-swift-mangle-mangler-trymanglestandardsubstitution.swift
+../crashes-duplicates/06353-swift-mangle-mangler-trymanglestandardsubstitution.swift

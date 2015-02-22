@@ -1,1 +1,0 @@
-../crashes-fuzzing/09838-llvm-smdiagnostic-smdiagnostic.swift

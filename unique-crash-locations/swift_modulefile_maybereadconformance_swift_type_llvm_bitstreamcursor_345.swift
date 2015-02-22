@@ -1,1 +1,1 @@
-../crashes-fuzzing/06958-swift-modulefile-maybereadconformance.swift
+../crashes-duplicates/06958-swift-modulefile-maybereadconformance.swift

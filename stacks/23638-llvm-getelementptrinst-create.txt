@@ -1,11 +1,11 @@
-4  swift                    llvm::GetElementPtrInst::Create(llvm::Value*, llvm::ArrayRef<llvm::Value*>, llvm::Twine const&, llvm::Instruction*) + 112
-5  swift                    llvm::IRBuilder<true, llvm::ConstantFolder, llvm::IRBuilderDefaultInserter<true> >::CreateConstInBoundsGEP2_32(llvm::Value*, unsigned int, unsigned int, llvm::Twine const&) + 163
-6  swift                    swift::irgen::ElementLayout::project(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::Optional<swift::irgen::NonFixedOffsetsImpl*>, llvm::Twine const&) const + 654
-7  swift                    swift::irgen::projectPhysicalClassMemberAddress(swift::irgen::IRGenFunction&, llvm::Value*, swift::SILType, swift::VarDecl*) + 1037
-8  swift                    swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 16210
-9  swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9179
-10 swift                    swift::irgen::IRGenModule::emitGlobalTopLevel() + 208
-11 swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 1900
-12 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
-13 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 5444
-14 swift                    main + 1677
+3  libc++.1.dylib           std::__1::num_put<char, std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > >::do_put(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, std::__1::ios_base&, char, unsigned long) const + 319
+4  swift                    llvm::IRBuilder<true, llvm::ConstantFolder, llvm::IRBuilderDefaultInserter<true> >::CreateConstInBoundsGEP2_32(llvm::Value*, unsigned int, unsigned int, llvm::Twine const&) + 225
+5  swift                    swift::irgen::ElementLayout::project(swift::irgen::IRGenFunction&, swift::irgen::Address, llvm::Optional<swift::irgen::NonFixedOffsetsImpl*>, llvm::Twine const&) const + 651
+6  swift                    swift::irgen::projectPhysicalClassMemberAddress(swift::irgen::IRGenFunction&, llvm::Value*, swift::SILType, swift::SILType, swift::VarDecl*) + 1209
+7  swift                    swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 24965
+8  swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9485
+9  swift                    swift::irgen::IRGenModule::emitGlobalTopLevel() + 155
+10 swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2121
+11 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+12 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 10196
+13 swift                    main + 1814

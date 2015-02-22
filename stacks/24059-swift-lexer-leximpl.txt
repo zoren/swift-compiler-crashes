@@ -1,0 +1,12 @@
+3  swift                    swift::Lexer::lexImpl() + 1177
+4  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 54
+5  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 619
+6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 1542
+7  swift                    swift::ArchetypeBuilder::mapTypeIntoContext(swift::DeclContext*, swift::Type) + 149
+8  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6506
+9  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1432
+10 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+11 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1274
+12 swift                    swift::CompilerInstance::performSema() + 2108
+13 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+14 swift                    main + 1814

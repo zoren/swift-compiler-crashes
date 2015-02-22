@@ -1,1 +1,1 @@
-../crashes-fuzzing/21504-foldsequence.swift
+../crashes-duplicates/21504-foldsequence.swift

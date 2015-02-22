@@ -1,1 +1,1 @@
-../crashes-fuzzing/02705-swift-astprinter-printtextimpl.swift
+../crashes-duplicates/02705-swift-astprinter-printtextimpl.swift

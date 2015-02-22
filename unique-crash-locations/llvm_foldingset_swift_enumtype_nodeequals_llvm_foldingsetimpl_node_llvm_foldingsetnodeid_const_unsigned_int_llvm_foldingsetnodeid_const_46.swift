@@ -1,1 +1,1 @@
-../crashes-fuzzing/06159-llvm-foldingset-swift-enumtype-nodeequals.swift
+../crashes-duplicates/06159-llvm-foldingset-swift-enumtype-nodeequals.swift

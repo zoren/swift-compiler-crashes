@@ -1,1 +1,1 @@
-../crashes-fuzzing/19915-bool.swift
+../crashes-duplicates/19915-bool.swift

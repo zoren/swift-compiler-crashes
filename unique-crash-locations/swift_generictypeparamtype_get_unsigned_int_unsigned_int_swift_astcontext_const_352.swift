@@ -1,1 +1,1 @@
-../crashes-fuzzing/08120-swift-generictypeparamtype-get.swift
+../crashes-duplicates/08120-swift-generictypeparamtype-get.swift

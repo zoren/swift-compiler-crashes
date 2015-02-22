@@ -1,1 +1,0 @@
-../crashes-fuzzing/12254-swift-funcdecl-getobjcselector.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/01635-swift-mangle-mangler-mangletype.swift
+../crashes-duplicates/01635-swift-mangle-mangler-mangletype.swift

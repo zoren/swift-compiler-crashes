@@ -1,1 +1,1 @@
-../crashes-fuzzing/06498-swift-modulefile-readmembers.swift
+../crashes-duplicates/06498-swift-modulefile-readmembers.swift

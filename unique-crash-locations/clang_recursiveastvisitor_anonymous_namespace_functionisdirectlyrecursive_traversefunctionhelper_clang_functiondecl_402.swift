@@ -1,1 +1,1 @@
-../crashes-fuzzing/23741-swift-protocoldecl-inheritsfrom.swift
+../crashes-duplicates/23741-swift-protocoldecl-inheritsfrom.swift

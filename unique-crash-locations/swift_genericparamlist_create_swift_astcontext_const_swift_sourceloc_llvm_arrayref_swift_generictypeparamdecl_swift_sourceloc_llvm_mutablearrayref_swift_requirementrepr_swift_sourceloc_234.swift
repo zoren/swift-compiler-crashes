@@ -1,1 +1,1 @@
-../crashes-fuzzing/23008-swift-genericparamlist-create.swift
+../crashes-duplicates/23008-swift-genericparamlist-create.swift

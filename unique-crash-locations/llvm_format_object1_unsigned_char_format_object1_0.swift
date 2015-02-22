@@ -1,1 +1,1 @@
-../crashes-fuzzing/21588-llvm-format-object-unsigned.swift
+../crashes-duplicates/21588-llvm-format-object-unsigned.swift

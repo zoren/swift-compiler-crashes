@@ -1,1 +1,1 @@
-../crashes-fuzzing/07226-swift-arrayslicetype-get.swift
+../crashes-duplicates/07226-swift-arrayslicetype-get.swift

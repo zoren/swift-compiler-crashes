@@ -1,1 +1,1 @@
-../crashes-fuzzing/05547-swift-constraints-constraintsystem-opentype.swift
+../crashes-duplicates/05547-swift-constraints-constraintsystem-opentype.swift

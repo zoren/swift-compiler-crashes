@@ -1,1 +1,1 @@
-../crashes-fuzzing/21616-swift-typechecker-checkdeclattributes.swift
+../crashes-duplicates/21616-swift-typechecker-checkdeclattributes.swift

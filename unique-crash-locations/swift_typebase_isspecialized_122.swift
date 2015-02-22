@@ -1,1 +1,1 @@
-../crashes-fuzzing/00283-swift-typebase-isspecialized.swift
+../crashes-fuzzing/24130-swift-typebase-isspecialized.swift

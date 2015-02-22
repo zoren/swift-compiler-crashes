@@ -1,1 +1,1 @@
-../crashes-fuzzing/01422-swift-parser-parsestmtreturn.swift
+../crashes-fuzzing/24042-swift-parser-parsestmtreturn.swift

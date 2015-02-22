@@ -1,4 +1,4 @@
-3  swift                    (anonymous namespace)::DeclChecker::recordOverride(swift::TypeChecker&, swift::ValueDecl*, swift::ValueDecl*) + 511
+3  swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 351
 4  swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 68
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
 6  swift                    (anonymous namespace)::PreCheckExpression::walkToExprPre(swift::Expr*) + 125

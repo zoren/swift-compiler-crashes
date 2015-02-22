@@ -1,1 +1,1 @@
-../crashes-fuzzing/22459-parseidentifierdeclname.swift
+../crashes-duplicates/22459-parseidentifierdeclname.swift

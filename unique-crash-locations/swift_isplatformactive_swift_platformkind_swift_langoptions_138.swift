@@ -1,1 +1,0 @@
-../crashes-fuzzing/00816-swift-isplatformactive.swift

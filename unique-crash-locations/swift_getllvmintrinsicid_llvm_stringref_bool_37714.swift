@@ -1,1 +1,0 @@
-../crashes-fuzzing/06739-clang-sema-boundtypediagnoser-bool-boundtypediagnoser.swift

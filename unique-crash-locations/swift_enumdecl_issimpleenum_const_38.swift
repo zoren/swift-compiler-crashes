@@ -1,1 +1,1 @@
-../crashes-fuzzing/05947-swift-enumdecl-issimpleenum.swift
+../crashes-duplicates/05947-swift-enumdecl-issimpleenum.swift

@@ -1,0 +1,1 @@
+../crashes-fuzzing/23335-swift-typebase-gettypevariables.swift

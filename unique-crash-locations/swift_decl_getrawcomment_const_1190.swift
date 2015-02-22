@@ -1,1 +1,1 @@
-../crashes-fuzzing/21477-swift-decl-getrawcomment.swift
+../crashes-duplicates/21477-swift-decl-getrawcomment.swift

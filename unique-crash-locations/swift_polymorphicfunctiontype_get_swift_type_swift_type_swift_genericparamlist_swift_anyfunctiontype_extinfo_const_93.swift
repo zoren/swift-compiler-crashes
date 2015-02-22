@@ -1,1 +1,0 @@
-../crashes-fuzzing/09317-swift-polymorphicfunctiontype-get.swift

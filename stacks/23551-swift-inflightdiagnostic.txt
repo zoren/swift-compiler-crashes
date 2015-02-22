@@ -1,4 +1,4 @@
-3  swift                    swift::Parser::canParseType() + 335
+3  swift                    swift::InFlightDiagnostic swift::Parser::diagnose<llvm::StringRef, char const (&) [21]>(swift::Token, swift::Diag<llvm::StringRef>, char const (&&&) [21]) + 191
 4  swift                    swift::TypeBase::getCanonicalType() + 1403
 5  swift                    swift::TypeBase::getCanonicalType() + 775
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 451

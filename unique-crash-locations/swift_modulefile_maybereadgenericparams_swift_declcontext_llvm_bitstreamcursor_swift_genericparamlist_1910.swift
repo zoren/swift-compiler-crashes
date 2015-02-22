@@ -1,1 +1,1 @@
-../crashes-fuzzing/02116-swift-modulefile-maybereadgenericparams.swift
+../crashes-duplicates/02116-swift-modulefile-maybereadgenericparams.swift

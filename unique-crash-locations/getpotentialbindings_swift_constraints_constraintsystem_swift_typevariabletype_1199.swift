@@ -1,1 +1,1 @@
-../crashes-fuzzing/22441-getpotentialbindings.swift
+../crashes-duplicates/22441-getpotentialbindings.swift

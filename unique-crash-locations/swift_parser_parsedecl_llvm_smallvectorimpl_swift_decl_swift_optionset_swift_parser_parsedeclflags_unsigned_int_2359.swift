@@ -1,1 +1,1 @@
-../crashes-fuzzing/09477-swift-parser-parsedecl.swift
+../crashes-duplicates/09477-swift-parser-parsedecl.swift

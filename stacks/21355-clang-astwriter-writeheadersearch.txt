@@ -1,4 +1,4 @@
-3  swift                    (anonymous namespace)::RewriteModernObjC::SynthesizeBlockLiterals(clang::SourceLocation, llvm::StringRef) + 20114
+3  swift                    llvm::EmitFPutC(llvm::Value*, llvm::Value*, llvm::IRBuilder<true, llvm::ConstantFolder, llvm::IRBuilderDefaultInserter<true> >&, llvm::DataLayout const*, llvm::TargetLibraryInfo const*) + 98
 4  swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 68
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, swift::SourceLoc, bool) + 1898
 6  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 549

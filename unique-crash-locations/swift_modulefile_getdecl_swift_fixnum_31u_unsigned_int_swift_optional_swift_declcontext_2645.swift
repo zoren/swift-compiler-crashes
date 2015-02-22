@@ -1,1 +1,1 @@
-../crashes-fuzzing/22041-swift-silcombiner-visituncheckedtrivialbitcastinst.swift
+../crashes-duplicates/22041-swift-silcombiner-visituncheckedtrivialbitcastinst.swift

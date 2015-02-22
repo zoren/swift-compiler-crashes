@@ -1,1 +1,0 @@
-../crashes-fuzzing/14875-swift-typechecker-getdefaulttype.swift
