@@ -1,11 +1,10 @@
-3  swift                    swift::ModuleFile::readMembers(llvm::SmallVectorImpl<swift::Decl*>&) + 106
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 232
 5  swift                    swift::NominalTypeDecl::computeType() + 29
-6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 897
-7  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 5111
-8  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 12996
-9  swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 835
+7  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 4952
+8  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6356
+9  swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
 10 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1128
-11 swift                    swift::CompilerInstance::performSema() + 2108
-12 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+11 swift                    swift::CompilerInstance::performSema() + 2428
+12 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
 13 swift                    main + 1814

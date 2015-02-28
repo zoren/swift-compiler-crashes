@@ -1,0 +1,1 @@
+../crashes-fuzzing/24200-swift-clangmoduleunit-getadaptermodule.swift

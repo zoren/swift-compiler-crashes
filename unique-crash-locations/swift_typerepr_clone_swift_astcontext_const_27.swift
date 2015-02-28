@@ -1,1 +1,1 @@
-../crashes-fuzzing/23980-swift-typerepr-clone.swift
+../crashes-duplicates/23980-swift-typerepr-clone.swift

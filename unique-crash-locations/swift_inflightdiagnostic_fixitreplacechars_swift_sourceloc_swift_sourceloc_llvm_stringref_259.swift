@@ -1,1 +1,1 @@
-../crashes-fuzzing/24065-swift-inflightdiagnostic-fixitreplacechars.swift
+../crashes-duplicates/24065-swift-inflightdiagnostic-fixitreplacechars.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/23969-swift-lexer-kindofidentifier.swift
+../crashes-duplicates/23969-swift-lexer-kindofidentifier.swift

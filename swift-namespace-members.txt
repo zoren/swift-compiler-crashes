@@ -57,7 +57,6 @@ swift::ArchetypeType::hasNestedType
 swift::ArchetypeType::setNestedTypes
 swift::ArraySliceType
 swift::ArraySliceType::get
-swift::AssignInst
 swift::AssociatedTypeDecl
 swift::AssociatedTypeDecl::AssociatedTypeDecl
 swift::AssociatedTypeDecl::getDefaultDefinitionLoc
@@ -209,7 +208,6 @@ swift::InFlightDiagnostic::highlightChars
 swift::InOutType::get
 swift::InfixOperatorDecl
 swift::IntegerLiteralExpr::getValue
-swift::IsInitialization_t
 swift::IterableDeclContext::getMembers
 swift::IterableDeclContext::loadAllMembers
 swift::IteratorRange
@@ -262,7 +260,6 @@ swift::Lowering::SILGenFunction::visitFuncDecl
 swift::Lowering::SILGenFunction::visitNominalTypeDecl
 swift::Lowering::SILGenFunction::visitPatternBindingDecl
 swift::Lowering::SILGenModule::emitClosure
-swift::Lowering::SILGenModule::emitConstructor
 swift::Lowering::SILGenModule::emitCurryThunk
 swift::Lowering::SILGenModule::emitFunction
 swift::Lowering::SILGenModule::emitGlobalInitialization
@@ -272,7 +269,7 @@ swift::Lowering::SILGenModule::emitSourceFile
 swift::Lowering::SILGenModule::getFunction
 swift::Lowering::SILGenModule::getWitnessTable
 swift::Lowering::SILGenModule::preEmitFunction
-swift::Lowering::SILGenModule::visitExtensionDecl
+swift::Lowering::SILGenModule::visitFuncDecl
 swift::Lowering::SILGenModule::visitNominalTypeDecl
 swift::Lowering::TypeConverter::TypeKey
 swift::Lowering::TypeConverter::getConstantInfo
@@ -282,7 +279,6 @@ swift::Lowering::TypeConverter::getTypeLoweringForUncachedLoweredType
 swift::Lowering::TypeConverter::substFunctionType
 swift::Lowering::TypeLowering
 swift::Mangle::Mangler::BindGenerics
-swift::Mangle::Mangler::bindGenericParameters
 swift::Mangle::Mangler::mangleDeclTypeForDebugger
 swift::Mangle::Mangler::mangleIdentifier
 swift::Mangle::Mangler::mangleNominalType
@@ -469,7 +465,6 @@ swift::RequirementSource
 swift::ResilienceExpansion
 swift::RunImmediately
 swift::SILBasicBlock
-swift::SILBuilder
 swift::SILBuilder::getPartialApplyResultType
 swift::SILCombiner::optimizeApplyOfPartialApply
 swift::SILCombiner::visitUncheckedTrivialBitCastInst
@@ -479,7 +474,6 @@ swift::SILDeserializer::readSILBasicBlock
 swift::SILDeserializer::readSILInstruction
 swift::SILDeserializer::readWitnessTable
 swift::SILFunction
-swift::SILFunctionTransform
 swift::SILFunctionType
 swift::SILFunctionType::get
 swift::SILFunctionType::substGenericArgs
@@ -490,9 +484,6 @@ swift::SILModule::constructSIL
 swift::SILOptions
 swift::SILParameterInfo
 swift::SILParserState
-swift::SILPassManager::run
-swift::SILPassManager::runFunctionPasses
-swift::SILPassManager::runOneIteration
 swift::SILResultInfo
 swift::SILType
 swift::SILValue
@@ -574,7 +565,6 @@ swift::TypeChecker::checkDeclAttributesEarly
 swift::TypeChecker::checkInheritanceClause
 swift::TypeChecker::checkSubstitutions
 swift::TypeChecker::coercePatternToType
-swift::TypeChecker::coerceToRValue
 swift::TypeChecker::computeAccessibility
 swift::TypeChecker::computeCaptures
 swift::TypeChecker::conformsToProtocol
@@ -638,6 +628,7 @@ swift::TypeVariableType
 swift::TypeVisitor
 swift::TypeWalker
 swift::TypedPattern
+swift::UnavailabilityReason
 swift::UnboundGenericType::get
 swift::UncheckedTrivialBitCastInst
 swift::UnqualifiedLookup::UnqualifiedLookup
@@ -763,14 +754,13 @@ swift::irgen::Alignment
 swift::irgen::CallEmission::emitCallSite
 swift::irgen::CallEmission::emitToExplosion
 swift::irgen::CallEmission::emitToUnmappedExplosion
-swift::irgen::CheckedCastMode
-swift::irgen::DebugTypeInfo
 swift::irgen::ElementLayout::project
 swift::irgen::Explosion
 swift::irgen::FixedPacking
 swift::irgen::IRBuilder::CreateStore
 swift::irgen::IRGenFunction
 swift::irgen::IRGenFunction::bindArchetype
+swift::irgen::IRGenFunction::createAlloca
 swift::irgen::IRGenFunction::emitTypeMetadataRef
 swift::irgen::IRGenFunction::emitTypeMetadataRefForLayout
 swift::irgen::IRGenModule
@@ -780,9 +770,7 @@ swift::irgen::IRGenModule::emitLazyDefinitions
 swift::irgen::IRGenModule::emitSILFunction
 swift::irgen::IRGenModule::emitSourceFile
 swift::irgen::IRGenModule::emitStructDecl
-swift::irgen::IRGenModule::getAddrOfValueWitnessTable
 swift::irgen::IRGenModule::getTypeInfo
-swift::irgen::LinkEntity
 swift::irgen::LinkEntity::mangle
 swift::irgen::LoadableTypeInfo
 swift::irgen::NonFixedOffsetsImpl
@@ -795,17 +783,14 @@ swift::irgen::TypeConverter::getTypeEntry
 swift::irgen::TypeInfo
 swift::irgen::ValueWitness
 swift::irgen::emitClassExistentialProjection
-swift::irgen::emitEnumMetadata
 swift::irgen::emitFunctionPartialApplication
 swift::irgen::emitMetatypeRef
 swift::irgen::emitOpaqueExistentialContainerUpcast
 swift::irgen::emitPolymorphicArguments
 swift::irgen::emitPolymorphicParametersForGenericValueWitness
-swift::irgen::emitScalarExistentialDowncast
 swift::irgen::emitStructMetadata
 swift::irgen::emitValueWitnessTable
 swift::irgen::emitWitnessTableRefs
-swift::irgen::projectPhysicalClassMemberAddress
 swift::maybeAddAccessorsToVariable
 swift::namelookup::ResolutionKind
 swift::namelookup::lookupInModule
@@ -815,7 +800,6 @@ swift::performSILGeneration
 swift::performTypeChecking
 swift::removeShadowedDecls
 swift::resolvePotentialArchetypeToType
-swift::runSILDiagnosticPasses
 swift::serialization::Serializer::addIdentifierRef
 swift::tok
 swift::verifyDiagnostics

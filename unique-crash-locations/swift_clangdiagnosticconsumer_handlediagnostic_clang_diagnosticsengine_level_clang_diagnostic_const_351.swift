@@ -1,1 +1,1 @@
-../crashes-fuzzing/24120-swift-clangdiagnosticconsumer-handlediagnostic.swift
+../crashes-duplicates/24120-swift-clangdiagnosticconsumer-handlediagnostic.swift

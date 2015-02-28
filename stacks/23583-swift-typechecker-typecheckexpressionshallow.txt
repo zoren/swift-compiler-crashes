@@ -7,13 +7,13 @@
 10 swift                    swift::TypeChecker::typeCheckPattern(swift::Pattern*, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 529
 11 swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 376
 12 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 239
-13 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 5592
-14 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+13 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 5404
+14 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
 15 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 429
 16 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 833
 17 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 335
 18 swift                    swift::TypeChecker::typeCheckTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 136
 19 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1250
-20 swift                    swift::CompilerInstance::performSema() + 2108
-21 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+20 swift                    swift::CompilerInstance::performSema() + 2428
+21 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
 22 swift                    main + 1814

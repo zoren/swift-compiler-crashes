@@ -1,1 +1,1 @@
-../crashes-fuzzing/01864-swift-valuedecl-settype.swift
+../crashes-duplicates/01864-swift-valuedecl-settype.swift

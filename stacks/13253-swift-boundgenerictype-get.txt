@@ -9,18 +9,18 @@
 12 swift                    swift::TypeChecker::lookupMember(swift::Type, swift::DeclName, swift::DeclContext*, bool, bool) + 124
 13 swift                    swift::TypeChecker::lookupConstructors(swift::Type, swift::DeclContext*, bool) + 42
 14 swift                    swift::TypeChecker::defineDefaultConstructor(swift::NominalTypeDecl*) + 146
-15 swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 717
+15 swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 1067
 16 swift                    swift::TypeChecker::checkInheritanceClause(swift::Decl*, swift::DeclContext*, swift::GenericTypeResolver*) + 4858
-17 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1357
-18 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1563
-19 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1976
-20 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1432
-21 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 12996
-22 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1432
-23 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 12996
-24 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 12996
-25 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+17 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1296
+18 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1483
+19 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1848
+20 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1352
+21 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6356
+22 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1352
+23 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6356
+24 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6356
+25 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
 26 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1128
-27 swift                    swift::CompilerInstance::performSema() + 2108
-28 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+27 swift                    swift::CompilerInstance::performSema() + 2428
+28 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
 29 swift                    main + 1814

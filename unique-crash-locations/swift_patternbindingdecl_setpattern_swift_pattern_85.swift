@@ -1,1 +1,1 @@
-../crashes-fuzzing/24089-swift-patternbindingdecl-setpattern.swift
+../crashes-duplicates/24089-swift-patternbindingdecl-setpattern.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/23027-swift-nominaltypedecl-preparelookuptable.swift
+../crashes-duplicates/23027-swift-nominaltypedecl-preparelookuptable.swift

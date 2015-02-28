@@ -1,12 +1,13 @@
+3  libc++.1.dylib           vtable for std::__1::ios_base + 16
 4  swift                    swift::irgen::emitWitnessTableRefs(swift::irgen::IRGenFunction&, swift::Substitution const&, llvm::SmallVectorImpl<llvm::Value*>&) + 329
-5  swift                    emitNominalMetadataRef(swift::irgen::IRGenFunction&, swift::NominalTypeDecl*, swift::CanType) + 1342
+5  swift                    emitNominalMetadataRef(swift::irgen::IRGenFunction&, swift::NominalTypeDecl*, swift::CanType) + 1310
 6  swift                    getTypeMetadataAccessFunction(swift::irgen::IRGenModule&, swift::CanType, swift::ForDefinition_t) + 580
 7  swift                    swift::irgen::IRGenFunction::emitTypeMetadataRef(swift::CanType) + 54
 8  swift                    swift::irgen::emitMetatypeRef(swift::irgen::IRGenFunction&, swift::CanTypeWrapper<swift::MetatypeType>, swift::irgen::Explosion&) + 55
-9  swift                    swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 18288
-10 swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9485
-11 swift                    swift::irgen::IRGenModule::emitGlobalTopLevel() + 155
+9  swift                    swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 18589
+10 swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9581
+11 swift                    swift::irgen::IRGenModule::emitGlobalTopLevel() + 159
 12 swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2121
 13 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
-14 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 10196
+14 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 10315
 15 swift                    main + 1814

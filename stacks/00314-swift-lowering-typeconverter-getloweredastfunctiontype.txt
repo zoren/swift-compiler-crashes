@@ -1,13 +1,13 @@
 4  swift                    swift::Lowering::TypeConverter::getLoweredASTFunctionType(swift::CanTypeWrapper<swift::AnyFunctionType>, unsigned int, swift::AnyFunctionType::ExtInfo, llvm::Optional<swift::SILDeclRef>) + 1065
 5  swift                    swift::Lowering::TypeConverter::getConstantInfo(swift::SILDeclRef) + 419
 6  swift                    swift::Lowering::SILGenFunction::emitProtocolWitness(swift::ProtocolConformance*, swift::SILDeclRef, swift::SILDeclRef, llvm::ArrayRef<swift::Substitution>, swift::Lowering::IsFreeFunctionWitness_t) + 612
-7  swift                    swift::Lowering::SILGenModule::emitProtocolWitness(swift::ProtocolConformance*, swift::SILLinkage, swift::SILDeclRef, swift::SILDeclRef, swift::Lowering::IsFreeFunctionWitness_t, llvm::ArrayRef<swift::Substitution>) + 3603
-8  swift                    (anonymous namespace)::SILGenConformance::emitFuncEntry(swift::FuncDecl*, swift::ValueDecl*, llvm::ArrayRef<swift::Substitution>) + 213
+7  swift                    swift::Lowering::SILGenModule::emitProtocolWitness(swift::ProtocolConformance*, swift::SILLinkage, swift::SILDeclRef, swift::SILDeclRef, swift::Lowering::IsFreeFunctionWitness_t, llvm::ArrayRef<swift::Substitution>) + 3611
+8  swift                    (anonymous namespace)::SILGenConformance::emitFuncEntry(swift::FuncDecl*, swift::ValueDecl*, llvm::ArrayRef<swift::Substitution>) + 192
 9  swift                    swift::Lowering::SILGenModule::getWitnessTable(swift::ProtocolConformance*) + 1590
 10 swift                    SILGenType::emitType() + 380
 11 swift                    swift::Lowering::SILGenModule::visitNominalTypeDecl(swift::NominalTypeDecl*) + 30
 12 swift                    swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 427
-13 swift                    swift::SILModule::constructSIL(swift::Module*, swift::SILOptions&, swift::SourceFile*, llvm::Optional<unsigned int>, bool, bool) + 377
+13 swift                    swift::SILModule::constructSIL(swift::Module*, swift::SILOptions&, swift::SourceFile*, llvm::Optional<unsigned int>, bool, bool) + 386
 14 swift                    swift::performSILGeneration(swift::SourceFile&, swift::SILOptions&, llvm::Optional<unsigned int>, bool) + 98
-15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3739
+15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3760
 16 swift                    main + 1814

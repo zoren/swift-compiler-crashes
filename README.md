@@ -46,122 +46,106 @@ $ git clone https://github.com/practicalswift/swift-compiler-crashes.git
 $ cd swift-compiler-crashes/
 $ ./test.sh
 
-Running tests against: swiftlang-602.0.37.3 clang-602.0.37 (Swift version)
+Running tests against: swiftlang-602.0.42.4 clang-602.0.42 (Swift version)
 Using Xcode found at path: /Applications/Xcode-Beta.app/Contents/Developer/
 Usage: ./test.sh [-v] [-q] [-c<columns>] [-l] [file ...]
-Adding a new test case? The crash id to use for the next test case is 33921.
+Adding a new test case? The crash id to use for the next test case is 24239.
 
 == Currently known crashes, set #1 (human reported crashes, crashes not found by fuzzing) ==
 
   ✘  00031 no stacktrace                                          (          )
-  ✘  00037 no stacktrace (script)                                 (dc199b104e)
-  ✘  00052 no stacktrace                                          (          )
-  ✘  00054 swift substitutedtype get                              (6ae1e75c25)
+  ✘  00037 no stacktrace (script)                                 (5a2f40882d)
+  ✘  00054 swift substitutedtype get                              (f3782866cb)
   ✘  00055 no stacktrace                                          (          )
   ✘  00061 visit any struct type                                  (b6d48383cf)
-  ✘  00226 swift lowering silgenfunction emitcurrythunk           (94c36c8e5f)
-  ✘  00239 swiftdeclconverter importconstructor                   (5f5b96a914)
-  ✘  00241 swift lowering typeconverter getconstantinfo           (ab1e6ee3cc)
+  ✘  00226 swift lowering silgenfunction emitcurrythunk           (b1c6d74df0)
   ✘  00242 swift lowering silgenfunction emitclosurevalue         (532b012f26)
-  ✘  00271 swift irgen irgenfunction emittypemetadataref          (17c391abf1)
-  ✘  00272 llvm irbuilder createcall                              (88804035f9)
-  ✘  00324 swift shortcircuit isequal                             (          )
-  ✘  00325 global is external                                     (          )
-  ✘  00326 llvm constantexpr getgetelementptr                     (15a076565e)
-  ✘  01338 undefined symbols for architecture                     (          )
+  ✘  00271 swift irgen irgenfunction emittypemetadataref          (200ee538df)
+  ✘  00272 llvm irbuilder createcall                              (427008fdbf)
   ✘  01339 phi node operands not same as result                   (          )
-  ✘  01341 broken function found compilation aborted              (          )
-  ✘  01646 super inside an autoclosure                            (          )
   ✘  01647 no stacktrace                                          (          )
-  ✘  01956 method declared to return its own name                 (          )
   ✘  12262 bitcast requires types of same width                   (          )
-  ✘  21268 swift irgen emitpolymorphicarguments                   (9dc6b43a63)
-  ✘  21269 swift irgen callemission emittounmappedexplosion       (d5dd08b596)
-  ✘  21270 swift lexer lexidentifier                              (a9a67ac10a)
-  ✘  21271 swift silfunctiontype substgenericargs                 (63ac90598b)
-  ✘  21272 empty stacktrace                                       (2caccc57b6)
+  ✘  21268 swift irgen emitpolymorphicarguments                   (62e9b5f0ba)
+  ✘  21270 swift lexer lexidentifier                              (c4fa09bf98)
+  ✘  21271 swift silfunctiontype substgenericargs                 (4f230cb2a7)
   ✘  22524 collectfullname                                        (4bf87157ed)
-  ✘  22722 swift irgen protocolinfo getconformance                (cec43d49fb)
-  ✘  22725 swift constraints constraintsystem solvesimplified     (07b12710fb)
-  ✘  23172 lowering silgenfunction emitapplyexpr                  (d626bd18f0)
-  ✘  23408 missing type in generic constraint                     (a19125f9e3)
+  ✘  22722 swift irgen protocolinfo getconformance                (1d513ca8c5)
+  ✘  22725 swift constraints constraintsystem solvesimplified (ma (17410bb967)
+  ✘  23172 lowering silgenfunction emitapplyexpr                  (dcc361087f)
+  ✘  23408 missing type in generic constraint                     (3523c6f6ce)
   ✘  23409 circular typealias                                     (          )
-  ✘  23410 swift typebase isequal                                 (381c9b3bc0)
-  ✘  23637 constraints constraintsystem findbestsolution          (a54a1ec584)
-  ✘  23638 llvm getelementptrinst create                          (424c375088)
+  ✘  23410 swift typebase isequal                                 (12e44062ce)
+  ✘  23637 constraints constraintsystem findbestsolution          (a7e8c726de)
   ✘  23639 llvm jit runfunction (runtime)                         (          )
   ✘  23640 global is external                                     (          )
-  ✘  23735 swift irgen protocolinfo getconformance                (2516b90099)
-  ✘  23891 llvm constantfoldgetelementptr                         (99f38a65cb)
+  ✘  23735 swift irgen protocolinfo getconformance                (80113a71f3)
+  ✘  23891 llvm constantfoldgetelementptr                         (38d58c16fc)
   ✘  23892 swift archetypebuilder resolvearchetype                (9ce3e92b0a)
   ✘  23895 swift lowering typeconverter gettypelowering           (35f7876144)
-  ✘  23898 swift silfunction maptypeintocontext                   (6cf655f6e1)
-  ✘  23899 segfault                                               (          )
-  ✘  23901 swift lowering silgenfunction emitclosurevalue         (cac86f5bd3)
+  ✘  23898 swift silfunction maptypeintocontext                   (7dd7a53d6e)
+  ✘  23901 swift lowering silgenfunction emitclosurevalue         (5e141c5345)
   ✘  23903 too complex to be solved in reasonable time (timeout)  (          )
-  ✘  23905 undefined symbols                                      (          )
-  ✘  23906 swift irgen irgenfunction bindarchetype                (161c8d43ae)
+  ✘  23906 swift irgen irgenfunction bindarchetype                (8e94f0fdd3)
   ✘  23907 phi node operands are not the same type                (          )
   ✘  23908 slow type inference (timeout)                          (          )
-  ✘  23909 swift irgen emitscalarexistentialdowncast              (71bad6d7cc)
-  ✘  23911 gettypemetadataaccessfunction                          (cd9eaf2c71)
+  ✘  23911 gettypemetadataaccessfunction                          (2e9d2b831c)
+  ✘  24170 llvm smallvectorimpl llvm fixnum 31u unsigned int oper (          )
+  ✘  24171 swift silvisitor visit                                 (f4fb23e4dd)
 
 == Currently known crashes, set #2 (crashes found by fuzzing) ==
 
   ✘  00066 diagnoseunknowntype                                    (392af44a84)
-  ✘  00074 swift typeloc iserror                                  (ff9afa0568)
-  ✘  00076 llvm foldingset swift constraints constraintlocator no (1e10f1cecb)
-  ✘  00103 swift constraints constraintsystem diagnosefailurefrom (9cbe01715d)
+  ✘  00103 swift constraints constraintsystem diagnosefailurefrom (3e5189340f)
   ✘  00137 swift modulefile gettype                               (884885951e)
   ✘  00162 swift type transform                                   (ea95806400)
-  ✘  00190 swift constraints constraintgraph unbindtypevariable   (4298403350)
-  ✘  00221 swift constraints constraintgraph removeconstraint     (df53334a0a)
+  ✘  00221 swift constraints constraintgraph removeconstraint     (8ef7f35ed6)
   ✘  00228 swift clangimporter loadextensions                     (f51b17bdcd)
-  ✘  00244 swift nominaltypedecl getdeclaredtypeincontext         (9c796c5fb5)
-  ✘  00259 swift lexer leximpl                                    (9139897dbf)
-  ✘  00265 swift typechecker validatedecl                         (144fa589d3)
-  ✘  00274 swift typechecker checkinheritanceclause               (a851e46432)
+  ✘  00244 swift nominaltypedecl getdeclaredtypeincontext         (fad902cd24)
+  ✘  00259 swift lexer leximpl                                    (2472eb6d56)
+  ✘  00265 swift typechecker validatedecl                         (555ac0953b)
   ✘  00275 swift parser parseexprpostfix                          (6559538b48)
-  ✘  00279 swift nominaltypedecl getdeclaredtypeincontext         (2c1c20cd78)
-  ✘  00286 resolvetypedecl                                        (2be01f2518)
-  ✘  00287 clang astcontext getobjcinterfacetype                  (3ae9ecb703)
+  ✘  00279 swift nominaltypedecl getdeclaredtypeincontext         (fe44186aac)
+  ✘  00286 resolvetypedecl                                        (e0c763951e)
   ✘  00288 swift typebase getcanonicaltype                        (c5c614843f)
   ✘  00299 resolvetypedecl                                        (6e6b3fef85)
-  ✘  00314 swift lowering typeconverter getloweredastfunctiontype (107dfe9b62)
+  ✘  00314 swift lowering typeconverter getloweredastfunctiontype (40b81b3867)
   ✘  00317 swift typebase gettypeofmember                         (3408b1e257)
-  ✘  00331 llvm raw fd ostream write impl                         (64f4755725)
-  ✘  00334 swift astvisitor                                       (4bb2b919ee)
+  ✘  00331 llvm raw fd ostream write impl                         (f9f48741ae)
+  ✘  00334 swift astvisitor                                       (26875d11b9)
   ✘  00337 swift typechecker checksubstitutions                   (03d032dee9)
-  ✘  00343 connectedcomponentsdfs                                 (c253c4bd1d)
+  ✘  00343 connectedcomponentsdfs                                 (6a0172e3c3)
   ✘  00346 resolvetypedecl                                        (0668205884)
-  ✘  00357 swift type transform                                   (24d8dc4b4e)
-  ✘  00359 swift constraints constraintsystem getfixedtyperecursi (c0f6a951f4)
-  ✘  00368 no stacktrace                                          (b9f14815ea)
-  ✘  00372 swift declcontext lookupqualified                      (9f2b2934ea)
-  ✘  00375 swift nominaltypedecl getdeclaredtypeincontext         (bbda43a8d7)
-  ✘  00376 void                                                   (4b7e382f9d)
-  ✘  00394 void                                                   (647c1046be)
-  ✘  00407 void                                                   (231a4dd75c)
-  ✘  00408 swift printingdiagnosticconsumer handlediagnostic      (e7d86e4055)
-  ✘  00410 getselftypeforcontainer                                (23a5a9da2f)
-  ✘  00412 swift nominaltypedecl getdeclaredtypeincontext         (2105d810b0)
+  ✘  00357 swift type transform                                   (cbc9a493c8)
+  ✘  00359 swift constraints constraintsystem getfixedtyperecursi (90a9a7000f)
+  ✘  00368 no stacktrace                                          (13fdd3cccd)
+  ✘  00372 swift declcontext lookupqualified                      (0778286d9d)
+  ✘  00375 swift nominaltypedecl getdeclaredtypeincontext         (1de89d93f6)
+  ✘  00376 void                                                   (3670849c79)
+  ✘  00394 void                                                   (b585ad46e5)
+  ✘  00407 void                                                   (852c1fb781)
+  ✘  00408 swift printingdiagnosticconsumer handlediagnostic      (7c4ca7c3f3)
+  ✘  00410 getselftypeforcontainer                                (f49fb0f84e)
+  ✘  00412 swift nominaltypedecl getdeclaredtypeincontext         (7cedde0c4a)
+  ✘  00413 swift constraints solution computesubstitutions        (2030f7f189)
+  ✘  00423 swift archetypebuilder resolvearchetype                (ec291351c7)
+  ✘  00443 swift nominaltypedecl getdeclaredtypeincontext         (cc3b8d8c16)
+  ✘  00469 swift nominaltypedecl getdeclaredtypeincontext         (43b35a81b6)
+  ✘  00476 swift typechecker validatedecl                         (4e79f432f5)
+  ✘  00479 no stacktrace                                          (e53192324d)
+  ✘  00483 resolvetypedecl                                        (ccf3133b8b)
+  ✘  00512 getselftypeforcontainer                                (ee73b38c9e)
+  ✘  00526 swift typechecker validatedecl                         (62f4377afa)
+  ✘  00538 swift clangmoduleunit getadaptermodule                 (64898bcead)
+  ✘  00539 swift nominaltypedecl getdeclaredtypeincontext         (04ae75628d)
+  ✘  00550 std function func swift type subst                     (1450312308)
+  ✘  00555 swift optional swift diagnostic operator               (d4b067cdad)
+  ✘  00563 cerror                                                 (dee67c3351)
+  ✘  00578 swift type walk                                        (e21ce659f9)
+  ✘  00611 swift constraints constraintsystem opengeneric         (4df5e0c98e)
+  ✘  00626 swift lexer lexidentifier                              (d3573122c1)
+  ✘  00681 swift declcontext lookupqualified                      (807f8943a7)
+  ✘  00683 swift metatypetype get                                 (b15658c2c8)
      lots of fuzzing crashes omitted for README.md readability …
-  ✓  22724 emitdirecttypemetadataref
-  ✓  22726 swift declname printpretty
-  ✓  22727 lambda testing optional enum field
-  ✓  22729 swift parser parseexprclosure
-  ✓  22739 swift diagnosticengine diagnose
-  ✓  22746 swift functiontype get
-  ✓  22748 swift clangmoduleunit getimportedmodules
-  ✓  22750 bool
-  ✓  22779 swift parser parsegenericarguments
-  ✓  22781 swift classtype get
-  ✓  22790 swift constraints constraintsystem simplifytype
-  ✓  22796 swift dependentmembertype get
-  ✓  22797 swift inflightdiagnostic
-  ✓  22803 swift parser parsedeclimport
-  ✓  22805 swift nominaltypedecl getdeclaredtypeincontext
-  ✓  22806 swift boundgenerictype get
   ✓  22814 swift typechecker contextualizeinitializer
   ✓  22821 swift inflightdiagnostic
   ✓  22827 swift parser parsedeclclass
@@ -238,6 +222,7 @@ Adding a new test case? The crash id to use for the next test case is 33921.
   ✓  23324 llvm foldingset swift tupletype nodeequals
   ✓  23332 swift parser isstartofdecl
   ✓  23333 llvm foldingset swift constraints constraintlocator no
+  ✓  23335 swift typebase gettypevariables
   ✓  23338 llvm smallvectorimpl swift diagnosticargument operator
   ✓  23340 swift declcontext lookupqualified
   ✓  23342 swift constraints constraintsystem gettypeofmemberrefe
@@ -293,6 +278,7 @@ Adding a new test case? The crash id to use for the next test case is 33921.
   ✓  23633 swift parser skipuntilgreaterintypelist
   ✓  23635 getcallerdefaultarg
   ✓  23636 swift type transform
+  ✓  23638 llvm getelementptrinst create
   ✓  23641 swift getbuiltinvaluedecl
   ✓  23644 swift ide printdeclusr
   ✓  23645 swift parser parsematchingtoken
@@ -342,9 +328,23 @@ Adding a new test case? The crash id to use for the next test case is 33921.
   ✓  23890 swift irgen irgenmodule emitsilfunction
   ✓  23893 std 1 function func
   ✓  23894 swift irgen emitobjcexistentialdowncast
+  ✓  23899 segfault
   ✓  23900 swift irgen irbuilder createstore
+  ✓  23905 undefined symbols
+  ✓  23909 swift irgen emitscalarexistentialdowncast
   ✓  23910 no stacktrace
-** Results: 1068 of 2521 tests crashed the compiler **
+  ✓  23964 swift typechecker coercetorvalue
+  ✓  23973 swift declname declname
+  ✓  23975 swift mangle mangler bindgenericparameters
+  ✓  23985 swift lexer kindofidentifier
+  ✓  23992 swift type walk
+  ✓  24020 swift decl getloc
+  ✓  24026 swift parser parsetype
+  ✓  24033 swift generictypeparamtype get
+  ✓  24045 swift typechecker computeaccessibility
+  ✓  24078 llvm foldingset swift tupletype nodeequals
+  ✓  24081 swift valuedecl overwritetype
+** Results: 785 of 2303 tests crashed the compiler **
 
 ```
 
