@@ -5,11 +5,10 @@
 # Tip: Want to see details of the type checker's reasoning? Compile with "xcrun swiftc -Xfrontend -debug-constraints"
 # Tip: Want to see what individual job invocations a swift/swiftc run invokes? Try "xcrun swift[c] -driver-print-jobs foo.swift"
 
-swift_version=$(xcrun swift --version | head -1 | awk '{ print $3 }')
 swiftc_version=$(xcrun swiftc -version | head -1 | cut -f2 -d"(" | cut -f1 -d")")
 xcode_path=$(xcode-select -p)
 echo
-echo "Running tests against: ${swiftc_version} (Swift ${swift_version})"
+echo "Running tests against: ${swiftc_version}"
 echo "Using Xcode found at path: ${xcode_path}"
 echo "Usage: $0 [-v] [-q] [-c<columns>] [-l] [file ...]"
 
