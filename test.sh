@@ -170,7 +170,8 @@ test_file() {
         swift_crash=1
         compilation_comment=""
         break
-      elif [[ ${files_to_compile} =~ (fixed/|\.runtime\.|\.script\.) ]]; then
+      elif [[ ! ${files_to_compile} =~ \.random\. ]]; then
+        output=""
         break
       fi
     done
@@ -187,15 +188,22 @@ test_file() {
   # Test mode: Compile using swiftc with optimization option "-O".
   #            Used for test cases named *.swift.
   if [[ ${swift_crash} == 0 && ! ${files_to_compile} =~ \.timeout\. ]]; then
-    # shellcheck disable=SC2086
-    output=$(xcrun -sdk ${sdk} swiftc -O -o /dev/null ${files_to_compile} 2>&1 | strings)
-    if [[ ${output} =~ \ malloc:\  ]]; then
-      swift_crash=1
-      compilation_comment="malloc"
-    elif [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1) ]]; then
-      swift_crash=1
-      compilation_comment="-O"
-    fi
+    for _ in {1..10}; do
+      # shellcheck disable=SC2086
+      output=$(xcrun -sdk ${sdk} swiftc -O -o /dev/null ${files_to_compile} 2>&1 | strings)
+      if [[ ${output} =~ \ malloc:\  ]]; then
+        swift_crash=1
+        compilation_comment="malloc"
+        break
+      elif [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1) ]]; then
+        swift_crash=1
+        compilation_comment="-O"
+        break
+      elif [[ ! ${files_to_compile} =~ \.random\. ]]; then
+        output=""
+        break
+      fi
+    done
   fi
   # Test mode: Compile with file #1 as a library and file #2 as a library user.
   #            Used for test cases named *.library{1,2}.swift.
