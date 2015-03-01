@@ -1,1 +1,1 @@
-../crashes-fuzzing/24125-swift-parser-parsepatternatom.swift
+../crashes-duplicates/24125-swift-parser-parsepatternatom.swift

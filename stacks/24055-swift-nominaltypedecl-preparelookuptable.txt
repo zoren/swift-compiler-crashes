@@ -1,14 +1,14 @@
 3  swift                    swift::NominalTypeDecl::prepareLookupTable() + 428
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 232
-5  swift                    swift::TypeChecker::resolveTypeInContext(swift::TypeDecl*, swift::DeclContext*, bool, swift::GenericTypeResolver*) + 915
+5  swift                    swift::TypeChecker::resolveTypeInContext(swift::TypeDecl*, swift::DeclContext*, bool, swift::GenericTypeResolver*) + 934
 6  swift                    resolveTypeDecl(swift::TypeChecker&, swift::TypeDecl*, swift::SourceLoc, swift::DeclContext*, llvm::ArrayRef<swift::TypeRepr*>, bool, bool, swift::GenericTypeResolver*) + 86
 7  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 1930
 8  swift                    swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 121
 9  swift                    swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 202
-10 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 4897
-11 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 831
+10 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 4741
+11 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 769
 12 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 712
 13 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1493
-14 swift                    swift::CompilerInstance::performSema() + 2108
-15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+14 swift                    swift::CompilerInstance::performSema() + 2428
+15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
 16 swift                    main + 1814

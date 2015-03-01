@@ -1,9 +1,10 @@
-4  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 21939
-5  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 831
-6  swift                    checkRedeclaration(swift::TypeChecker&, swift::ValueDecl*) + 595
-7  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 5624
-8  swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
-9  swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1128
-10 swift                    swift::CompilerInstance::performSema() + 2108
-11 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
-12 swift                    main + 1814
+4  swift                    (anonymous namespace)::DeclChecker::semaFuncDecl(swift::FuncDecl*, swift::GenericTypeResolver*) + 1433
+5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11849
+6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 769
+7  swift                    checkRedeclaration(swift::TypeChecker&, swift::ValueDecl*) + 599
+8  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 5437
+9  swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
+10 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1128
+11 swift                    swift::CompilerInstance::performSema() + 2428
+12 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
+13 swift                    main + 1814

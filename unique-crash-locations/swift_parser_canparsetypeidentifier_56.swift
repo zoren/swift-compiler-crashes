@@ -1,1 +1,1 @@
-../crashes-fuzzing/23229-swift-parser-canparsetypeidentifier.swift
+../crashes-duplicates/23229-swift-parser-canparsetypeidentifier.swift

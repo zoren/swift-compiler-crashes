@@ -1,24 +1,24 @@
 4  swift                    swift::constraints::ConstraintSystem::getFixedTypeRecursive(swift::Type, swift::TypeVariableType*&, bool, bool) + 129
 5  swift                    swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 115
-6  swift                    swift::constraints::ConstraintSystem::simplifyFixConstraint(swift::constraints::Fix, swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 966
+6  swift                    swift::constraints::ConstraintSystem::simplifyFixConstraint(swift::constraints::Fix, swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 624
 7  swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 174
-8  swift                    swift::constraints::ConstraintSystem::solveSimplified(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 2338
-9  swift                    swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 4631
-10 swift                    swift::constraints::ConstraintSystem::solveSimplified(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 2549
-11 swift                    swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 300
-12 swift                    swift::constraints::ConstraintSystem::solveSimplified(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 2549
-13 swift                    swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 4631
-14 swift                    swift::constraints::ConstraintSystem::solveSimplified(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 2549
-15 swift                    swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 300
+8  swift                    swift::constraints::ConstraintSystem::solveSimplified(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 2354
+9  swift                    swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 4701
+10 swift                    swift::constraints::ConstraintSystem::solveSimplified(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 2565
+11 swift                    swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 297
+12 swift                    swift::constraints::ConstraintSystem::solveSimplified(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 2565
+13 swift                    swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 4701
+14 swift                    swift::constraints::ConstraintSystem::solveSimplified(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 2565
+15 swift                    swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 297
 16 swift                    swift::constraints::ConstraintSystem::salvage(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::Expr*, bool) + 298
 17 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 1209
 18 swift                    swift::TypeChecker::typeCheckBinding(swift::PatternBindingDecl*) + 162
 19 swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 402
 20 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 239
-21 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+21 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
 22 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 429
 23 swift                    swift::TypeChecker::typeCheckTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 136
 24 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1250
-25 swift                    swift::CompilerInstance::performSema() + 2108
-26 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+25 swift                    swift::CompilerInstance::performSema() + 2428
+26 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
 27 swift                    main + 1814

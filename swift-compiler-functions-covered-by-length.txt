@@ -10,7 +10,6 @@ emitOpaqueExistentialContainerUpcast
 getImplicitlyUnwrappedOptionalDecl
 typeCheckConditionalPatternBinding
 typeCheckFunctionsAndExternalDecls
-projectPhysicalClassMemberAddress
 addValueWitnessesForAbstractType
 diagnoseGeneralConversionFailure
 getInterfaceTypeFromInternalType
@@ -29,7 +28,6 @@ isClassOrClassExtensionContext
 parseClosureSignatureIfPresent
 simplifyApplicableFnConstraint
 simplifyConstructionConstraint
-emitScalarExistentialDowncast
 getTypeMetadataAccessFunction
 simplifyCheckedCastConstraint
 tryMangleStandardSubstitution
@@ -52,14 +50,13 @@ existentialConformsToItself
 getBoundTypesFromConstraint
 maybeAddAccessorsToVariable
 optimizeApplyOfPartialApply
-replaceUsesOfWithOnConstant
+profileArchetypeConstraints
 resolveGenericTypeParamType
 resolveImplicitConstructors
 addPatternVariablesToScope
 cleanupIllFormedExpression
 computeConnectedComponents
 createTrivialSubstitutions
-getAddrOfValueWitnessTable
 resolveDependentMemberType
 skipUntilGreaterInTypeList
 typeCheckExpressionShallow
@@ -134,11 +131,9 @@ parseExprStringLiteral
 parseFunctionArguments
 parseFunctionSignature
 parseGenericParameters
-runSILDiagnosticPasses
 addImplicitDestructor
 addNestedRequirements
 applyGenericArguments
-bindGenericParameters
 canonicalizeProtocols
 checkGenericParamList
 computeAssignDestType
@@ -150,7 +145,6 @@ createUnnamedImplicit
 emitGlobalFunctionRef
 emitValueWitnessTable
 flushActiveDiagnostic
-getAddrOfLLVMVariable
 getFixedTypeRecursive
 getTargetConfigOption
 hasReferenceSemantics
@@ -167,12 +161,12 @@ setInvalidBracesRange
 simplifyFixConstraint
 tryMangleSubstitution
 addMaterializeForSet
+allocateMappedMemory
 computeAccessibility
 computeInterfaceType
 computeSubstitutions
 diagnoseRedefinition
 emitOrigToSubstValue
-emitValueCheckedCast
 emitWitnessTableRefs
 forAllVisibleModules
 formatDiagnosticText
@@ -223,6 +217,7 @@ performIRGeneration
 performTypeChecking
 removeShadowedDecls
 typeCheckExpression
+checkEnumRawValues
 checkRedeclaration
 checkSubstitutions
 conformsToProtocol
@@ -257,13 +252,11 @@ parseTypeAttribute
 parseTypeTupleBody
 prepareLookupTable
 readSILInstruction
-replaceAllUsesWith
 resolveConformance
 simplifyConstraint
 typeCheckCondition
 unbindTypeVariable
 validateAttributes
-visitExtensionDecl
 convertStructType
 createDisjunction
 createNominalType
@@ -288,7 +281,6 @@ readSILBasicBlock
 removedConstraint
 requiresClassSlow
 runFunctionAsMain
-runFunctionPasses
 substFunctionType
 validateExtension
 verifyDiagnostics
@@ -297,7 +289,6 @@ compareSolutions
 configureStorage
 diagAvailability
 emitClosureValue
-emitEnumMetadata
 findBestSolution
 getAdapterModule
 getBridgedToObjC
@@ -333,7 +324,6 @@ collectFullName
 computeCaptures
 deriveEquatable
 diagnoseFailure
-emitConstructor
 emitIgnoredExpr
 emitMetatypeRef
 emitSILFunction
@@ -366,12 +356,10 @@ parseStmtSwitch
 parseTypeSimple
 resolveOverload
 resolveTypeDecl
-runOneIteration
 simplifyLocator
 solveSimplified
 addOverloadSet
 addRequirement
-coerceToRValue
 emitCurryThunk
 emitReturnExpr
 emitSourceFile
@@ -392,6 +380,7 @@ parseDeclClass
 parseExprArray
 parseExprUnary
 readTypeRecord
+setMetadataRef
 setNestedTypes
 setSpecialized
 setTypeWitness
@@ -403,7 +392,6 @@ bindArchetype
 convertToType
 createForDecl
 emitApplyExpr
-emitExtension
 flushComments
 getConformsTo
 getExtensions
@@ -438,6 +426,7 @@ canParseType
 coerceToType
 constructSIL
 consumeToken
+createAlloca
 createSimple
 emitCallSite
 emitExprInto
@@ -470,6 +459,7 @@ getFullName
 getFunction
 getProtocol
 getTypeInfo
+isPrintable
 lookupValue
 openGeneric
 parseStmtIf
@@ -498,6 +488,7 @@ removeNode
 setPattern
 skipRecord
 skipSingle
+toLineList
 emitApply
 getStream
 getString
@@ -530,10 +521,12 @@ lexImpl
 project
 salvage
 setType
+unicode
 create
 format
 getLoc
 getNew
+insert
 mangle
 object
 reader
@@ -559,7 +552,6 @@ walk
 yaml
 get
 ide
-run
 std
 str
 sys

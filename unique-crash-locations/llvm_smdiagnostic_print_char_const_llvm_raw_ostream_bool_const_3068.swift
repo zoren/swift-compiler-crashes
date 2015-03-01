@@ -1,1 +1,1 @@
-../crashes-fuzzing/01854-llvm-foldingset-swift-boundgenerictype-nodeequals.swift
+../crashes-duplicates/01854-llvm-foldingset-swift-boundgenerictype-nodeequals.swift

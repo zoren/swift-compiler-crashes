@@ -1,1 +1,1 @@
-../crashes-fuzzing/22476-swift-componentidenttyperepr-printimpl.swift
+../crashes-duplicates/22476-swift-componentidenttyperepr-printimpl.swift

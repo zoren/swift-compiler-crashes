@@ -1,1 +1,1 @@
-../crashes-fuzzing/22471-resolvetypedecl.swift
+../crashes-duplicates/22471-resolvetypedecl.swift

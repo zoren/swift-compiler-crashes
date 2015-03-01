@@ -4,13 +4,13 @@
 7  swift                    swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 202
 8  swift                    swift::TypeChecker::checkInheritanceClause(swift::Decl*, swift::DeclContext*, swift::GenericTypeResolver*) + 2265
 9  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 379
-10 swift                    checkGenericFuncSignature(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::AbstractFunctionDecl*, swift::GenericTypeResolver&) + 52
+10 swift                    checkGenericFuncSignature(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::AbstractFunctionDecl*, swift::GenericTypeResolver&) + 58
 11 swift                    swift::TypeChecker::validateGenericFuncSignature(swift::AbstractFunctionDecl*) + 89
-12 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 20456
-13 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 5592
-14 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 13908
-15 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+12 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11522
+13 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 5404
+14 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 9649
+15 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
 16 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1128
-17 swift                    swift::CompilerInstance::performSema() + 2108
-18 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+17 swift                    swift::CompilerInstance::performSema() + 2428
+18 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
 19 swift                    main + 1814

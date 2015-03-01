@@ -1,1 +1,1 @@
-../crashes-fuzzing/24058-swift-parser-diagnose.swift
+../crashes-duplicates/24058-swift-parser-diagnose.swift

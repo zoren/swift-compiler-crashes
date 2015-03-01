@@ -1,1 +1,1 @@
-../crashes-fuzzing/24038-swift-protocoldecl-requiresclassslow.swift
+../crashes-duplicates/24038-swift-protocoldecl-requiresclassslow.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/23923-swift-parser-parsedeclvargetset.swift
+../crashes-duplicates/23923-swift-parser-parsedeclvargetset.swift

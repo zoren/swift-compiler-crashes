@@ -4,10 +4,10 @@
 7  swift                    swift::constraints::ConstraintSystem::openType(swift::Type, swift::constraints::ConstraintLocatorBuilder, swift::DeclContext*, bool, swift::constraints::DependentTypeOpener*) + 208
 8  swift                    swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::constraints::DependentTypeOpener*) + 1152
 9  swift                    swift::constraints::ConstraintSystem::resolveOverload(swift::constraints::ConstraintLocator*, swift::Type, swift::constraints::OverloadChoice) + 250
-10 swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 734
+10 swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 847
 11 swift                    swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 27
 12 swift                    swift::constraints::ConstraintSystem::addOverloadSet(swift::Type, llvm::ArrayRef<swift::constraints::OverloadChoice>, swift::constraints::ConstraintLocator*, swift::constraints::OverloadChoice*) + 404
-13 swift                    swift::constraints::ConstraintSystem::simplifyMemberConstraint(swift::constraints::Constraint const&) + 5737
+13 swift                    swift::constraints::ConstraintSystem::simplifyMemberConstraint(swift::constraints::Constraint const&) + 5886
 14 swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 370
 15 swift                    swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 27
 16 swift                    (anonymous namespace)::ConstraintGenerator::addMemberRefConstraints(swift::Expr*, swift::Expr*, swift::DeclName) + 218
@@ -15,12 +15,12 @@
 18 swift                    swift::Expr::walk(swift::ASTWalker&) + 76
 19 swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 175
 20 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 498
-21 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 3364
+21 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 3378
 22 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 335
-23 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 375
+23 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 371
 24 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 150
 25 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 227
 26 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1493
-27 swift                    swift::CompilerInstance::performSema() + 2108
-28 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+27 swift                    swift::CompilerInstance::performSema() + 2428
+28 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
 29 swift                    main + 1814

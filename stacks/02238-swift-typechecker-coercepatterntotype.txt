@@ -6,15 +6,15 @@
 9  swift                    swift::constraints::ConstraintSystem::resolveOverload(swift::constraints::ConstraintLocator*, swift::Type, swift::constraints::OverloadChoice) + 320
 10 swift                    swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 1709
 11 swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 180
-12 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 6754
+12 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 5948
 13 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
 14 swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 175
 15 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 498
 16 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 505
-17 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 375
+17 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 371
 18 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 150
 19 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 227
 20 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1493
-21 swift                    swift::CompilerInstance::performSema() + 2108
-22 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+21 swift                    swift::CompilerInstance::performSema() + 2428
+22 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
 23 swift                    main + 1814

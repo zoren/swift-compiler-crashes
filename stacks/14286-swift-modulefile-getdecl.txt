@@ -9,14 +9,14 @@
 12 swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 396
 13 swift                    swift::TypeChecker::validateGenericSignature(swift::GenericParamList*, swift::DeclContext*, swift::GenericSignature*, std::__1::function<bool (swift::ArchetypeBuilder&)>, bool&) + 130
 14 swift                    swift::TypeChecker::validateGenericTypeSignature(swift::NominalTypeDecl*) + 78
-15 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 908
-16 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 5111
-17 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+15 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 846
+16 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 4952
+17 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
 18 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 429
 19 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 833
 20 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 335
 21 swift                    swift::TypeChecker::typeCheckTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 136
 22 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1250
-23 swift                    swift::CompilerInstance::performSema() + 2108
-24 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+23 swift                    swift::CompilerInstance::performSema() + 2428
+24 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
 25 swift                    main + 1814

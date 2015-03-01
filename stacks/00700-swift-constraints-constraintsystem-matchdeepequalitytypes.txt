@@ -5,14 +5,14 @@
 8  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 54
 9  swift                    swift::constraints::ConstraintSystem::openType(swift::Type, swift::constraints::ConstraintLocatorBuilder, swift::DeclContext*, bool, swift::constraints::DependentTypeOpener*) + 208
 10 swift                    swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::constraints::DependentTypeOpener*) + 1152
-11 swift                    std::__1::__function::__func<matchWitness((anonymous namespace)::ConformanceChecker&, swift::TypeChecker&, swift::NormalProtocolConformance*, swift::DeclContext*, swift::ValueDecl*, swift::ValueDecl*)::$_1, std::__1::allocator<matchWitness((anonymous namespace)::ConformanceChecker&, swift::TypeChecker&, swift::NormalProtocolConformance*, swift::DeclContext*, swift::ValueDecl*, swift::ValueDecl*)::$_1>, std::__1::tuple<llvm::Optional<(anonymous namespace)::RequirementMatch>, swift::Type, swift::Type> ()>::operator()() + 549
+11 swift                    std::__1::__function::__func<matchWitness((anonymous namespace)::ConformanceChecker&, swift::TypeChecker&, swift::NormalProtocolConformance*, swift::DeclContext*, swift::ValueDecl*, swift::ValueDecl*)::$_1, std::__1::allocator<matchWitness((anonymous namespace)::ConformanceChecker&, swift::TypeChecker&, swift::NormalProtocolConformance*, swift::DeclContext*, swift::ValueDecl*, swift::ValueDecl*)::$_1>, std::__1::tuple<llvm::Optional<(anonymous namespace)::RequirementMatch>, swift::Type, swift::Type> ()>::operator()() + 552
 12 swift                    matchWitness((anonymous namespace)::ConformanceChecker&, swift::TypeChecker&, swift::NormalProtocolConformance*, swift::DeclContext*, swift::ValueDecl*, swift::ValueDecl*) + 1984
 13 swift                    (anonymous namespace)::ConformanceChecker::resolveWitnessViaLookup(swift::ValueDecl*) + 1803
 14 swift                    swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, bool, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) + 4977
-15 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 13486
-16 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1432
-17 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 123
+15 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 7434
+16 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1352
+17 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
 18 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1274
-19 swift                    swift::CompilerInstance::performSema() + 2108
-20 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+19 swift                    swift::CompilerInstance::performSema() + 2428
+20 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
 21 swift                    main + 1814

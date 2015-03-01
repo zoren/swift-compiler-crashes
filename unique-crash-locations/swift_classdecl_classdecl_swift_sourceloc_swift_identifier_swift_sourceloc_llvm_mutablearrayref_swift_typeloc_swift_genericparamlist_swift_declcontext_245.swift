@@ -1,1 +1,1 @@
-../crashes-fuzzing/19612-swift-classdecl-classdecl.swift
+../crashes-duplicates/19612-swift-classdecl-classdecl.swift

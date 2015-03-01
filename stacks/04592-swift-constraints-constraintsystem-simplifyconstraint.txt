@@ -1,53 +1,53 @@
 4  swift                    swift::PrintingDiagnosticConsumer::handleDiagnostic(swift::SourceManager&, swift::SourceLoc, swift::DiagnosticKind, llvm::StringRef, swift::DiagnosticInfo const&) + 1051
 5  swift                    swift::DiagnosticEngine::flushActiveDiagnostic() + 5180
-6  swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 3165
+6  swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 3348
 7  swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 767
 8  swift                    swift::Parser::parseBraceItemList(swift::Diag<>) + 109
 9  swift                    swift::Parser::parseStmtIf() + 468
 10 swift                    swift::Parser::parseStmt() + 736
 11 swift                    swift::Parser::parseExprOrStmt(swift::ASTNode&) + 185
 12 swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 2227
-13 swift                    swift::Parser::parseExprClosure() + 754
-14 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 1428
-15 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 153
+13 swift                    swift::Parser::parseExprClosure() + 738
+14 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 1345
+15 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 120
 16 swift                    swift::Parser::parseExprImpl(swift::Diag<>, bool) + 138
-17 swift                    std::__1::__function::__func<swift::Parser::parseExprList(swift::tok, swift::tok)::$_0, std::__1::allocator<swift::Parser::parseExprList(swift::tok, swift::tok)::$_0>, swift::ParserStatus ()>::operator()() + 347
+17 swift                    std::__1::__function::__func<swift::Parser::parseExprList(swift::tok, swift::tok)::$_0, std::__1::allocator<swift::Parser::parseExprList(swift::tok, swift::tok)::$_0>, swift::ParserStatus ()>::operator()() + 170
 18 swift                    swift::Parser::parseList(swift::tok, swift::SourceLoc, swift::SourceLoc&, swift::tok, bool, bool, swift::Diag<>, std::__1::function<swift::ParserStatus ()>) + 473
 19 swift                    swift::Parser::parseExprList(swift::tok, swift::tok) + 312
 20 swift                    swift::Parser::parseExprCallSuffix(swift::ParserResult<swift::Expr>, swift::Identifier, swift::SourceLoc) + 93
-21 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 396
-22 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 153
+21 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 379
+22 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 120
 23 swift                    swift::Parser::parseExprImpl(swift::Diag<>, bool) + 138
-24 swift                    swift::Parser::parseDeclVar(swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::DeclAttributes&, llvm::SmallVectorImpl<swift::Decl*>&, swift::SourceLoc, swift::StaticSpellingKind) + 2159
+24 swift                    swift::Parser::parseDeclVar(swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::DeclAttributes&, llvm::SmallVectorImpl<swift::Decl*>&, swift::SourceLoc, swift::StaticSpellingKind) + 2126
 25 swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 1929
 26 swift                    std::__1::__function::__func<swift::Parser::parseNominalDeclMembers(llvm::SmallVectorImpl<swift::Decl*>&, swift::SourceLoc, swift::SourceLoc&, swift::Diag<>, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>)::$_6, std::__1::allocator<swift::Parser::parseNominalDeclMembers(llvm::SmallVectorImpl<swift::Decl*>&, swift::SourceLoc, swift::SourceLoc&, swift::Diag<>, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>)::$_6>, swift::ParserStatus ()>::operator()() + 146
 27 swift                    swift::Parser::parseList(swift::tok, swift::SourceLoc, swift::SourceLoc&, swift::tok, bool, bool, swift::Diag<>, std::__1::function<swift::ParserStatus ()>) + 473
 28 swift                    swift::Parser::parseDeclClass(swift::SourceLoc, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::DeclAttributes&) + 1571
-29 swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 2860
+29 swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 2834
 30 swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 767
 31 swift                    swift::Parser::parseBraceItemList(swift::Diag<>) + 109
-32 swift                    swift::Parser::parseDeclInit(swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::DeclAttributes&) + 1199
-33 swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 2409
+32 swift                    swift::Parser::parseDeclInit(swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::DeclAttributes&) + 1250
+33 swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 2390
 34 swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 767
-35 swift                    swift::Parser::parseGetSetImpl(swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::Pattern*, swift::TypeLoc, swift::Parser::ParsedAccessors&, swift::SourceLoc&, swift::SourceLoc, swift::SourceLoc, llvm::SmallVectorImpl<swift::Decl*>&) + 2914
-36 swift                    swift::Parser::parseDeclVarGetSet(swift::Pattern*, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::SourceLoc, swift::DeclAttributes const&, llvm::SmallVectorImpl<swift::Decl*>&) + 418
-37 swift                    swift::Parser::parseDeclVar(swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::DeclAttributes&, llvm::SmallVectorImpl<swift::Decl*>&, swift::SourceLoc, swift::StaticSpellingKind) + 2764
+35 swift                    swift::Parser::parseGetSetImpl(swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::Pattern*, swift::TypeLoc, swift::Parser::ParsedAccessors&, swift::SourceLoc&, swift::SourceLoc, swift::SourceLoc, llvm::SmallVectorImpl<swift::Decl*>&) + 2920
+36 swift                    swift::Parser::parseDeclVarGetSet(swift::Pattern*, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::SourceLoc, bool, swift::DeclAttributes const&, llvm::SmallVectorImpl<swift::Decl*>&) + 388
+37 swift                    swift::Parser::parseDeclVar(swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::DeclAttributes&, llvm::SmallVectorImpl<swift::Decl*>&, swift::SourceLoc, swift::StaticSpellingKind) + 2750
 38 swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 1929
 39 swift                    std::__1::__function::__func<swift::Parser::parseNominalDeclMembers(llvm::SmallVectorImpl<swift::Decl*>&, swift::SourceLoc, swift::SourceLoc&, swift::Diag<>, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>)::$_6, std::__1::allocator<swift::Parser::parseNominalDeclMembers(llvm::SmallVectorImpl<swift::Decl*>&, swift::SourceLoc, swift::SourceLoc&, swift::Diag<>, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>)::$_6>, swift::ParserStatus ()>::operator()() + 146
 40 swift                    swift::Parser::parseList(swift::tok, swift::SourceLoc, swift::SourceLoc&, swift::tok, bool, bool, swift::Diag<>, std::__1::function<swift::ParserStatus ()>) + 473
 41 swift                    swift::Parser::parseDeclStruct(swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::DeclAttributes&) + 1555
-42 swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 2509
+42 swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 2490
 43 swift                    std::__1::__function::__func<swift::Parser::parseNominalDeclMembers(llvm::SmallVectorImpl<swift::Decl*>&, swift::SourceLoc, swift::SourceLoc&, swift::Diag<>, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>)::$_6, std::__1::allocator<swift::Parser::parseNominalDeclMembers(llvm::SmallVectorImpl<swift::Decl*>&, swift::SourceLoc, swift::SourceLoc&, swift::Diag<>, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>)::$_6>, swift::ParserStatus ()>::operator()() + 146
 44 swift                    swift::Parser::parseList(swift::tok, swift::SourceLoc, swift::SourceLoc&, swift::tok, bool, bool, swift::Diag<>, std::__1::function<swift::ParserStatus ()>) + 473
 45 swift                    swift::Parser::parseDeclProtocol(swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::DeclAttributes&) + 1743
-46 swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 2486
+46 swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 2467
 47 swift                    std::__1::__function::__func<swift::Parser::parseNominalDeclMembers(llvm::SmallVectorImpl<swift::Decl*>&, swift::SourceLoc, swift::SourceLoc&, swift::Diag<>, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>)::$_6, std::__1::allocator<swift::Parser::parseNominalDeclMembers(llvm::SmallVectorImpl<swift::Decl*>&, swift::SourceLoc, swift::SourceLoc&, swift::Diag<>, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>)::$_6>, swift::ParserStatus ()>::operator()() + 146
 48 swift                    swift::Parser::parseList(swift::tok, swift::SourceLoc, swift::SourceLoc&, swift::tok, bool, bool, swift::Diag<>, std::__1::function<swift::ParserStatus ()>) + 473
 49 swift                    swift::Parser::parseDeclClass(swift::SourceLoc, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::DeclAttributes&) + 1571
-50 swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 2860
+50 swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 2834
 51 swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 767
-52 swift                    swift::Parser::parseTopLevel() + 175
+52 swift                    swift::Parser::parseTopLevel() + 178
 53 swift                    swift::parseIntoSourceFile(swift::SourceFile&, unsigned int, bool*, swift::SILParserState*, swift::PersistentParserState*, swift::DelayedParsingCallbacks*) + 103
-54 swift                    swift::CompilerInstance::performSema() + 2079
-55 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2149
+54 swift                    swift::CompilerInstance::performSema() + 2399
+55 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
 56 swift                    main + 1814

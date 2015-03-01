@@ -19,12 +19,12 @@ addToScope
 addTrivialAccessorsToStorage
 addTypeVariableConstraintsToWorkList
 addValueWitnessesForAbstractType
+allocateMappedMemory
 applyGenericArguments
 applyGenericTypeReprArgs
 applySolution
 assignFixedType
 bindArchetype
-bindGenericParameters
 build
 buildArrayInjectionFnRef
 callWitness
@@ -32,6 +32,7 @@ canParseType
 canonicalizeProtocols
 checkDeclAttributes
 checkDeclAttributesEarly
+checkEnumRawValues
 checkExtensionGenericParams
 checkGenericFuncSignature
 checkGenericParamList
@@ -46,7 +47,6 @@ classifyAsOptionalType
 cleanupIllFormedExpression
 clone
 coercePatternToType
-coerceToRValue
 coerceToType
 collectFullName
 collectRequirements
@@ -74,6 +74,7 @@ convertToType
 convertType
 coverage
 create
+createAlloca
 createArchetypeBuilder
 createBindOverload
 createBindingFromPattern
@@ -111,12 +112,9 @@ emitCallSite
 emitClassExistentialProjection
 emitClosure
 emitClosureValue
-emitConstructor
 emitCurryThunk
 emitDirectTypeMetadataRef
-emitEnumMetadata
 emitExprInto
-emitExtension
 emitFunction
 emitFunctionPartialApplication
 emitGeneralizedFunctionValue
@@ -138,7 +136,6 @@ emitRValueAsSingleValue
 emitRValueForDecl
 emitReturnExpr
 emitSILFunction
-emitScalarExistentialDowncast
 emitSourceFile
 emitStructDecl
 emitStructMetadata
@@ -148,7 +145,6 @@ emitTranslatePrimitive
 emitType
 emitTypeMetadataRef
 emitTypeMetadataRefForLayout
-emitValueCheckedCast
 emitValueWitnessTable
 emitWitnessTableRefs
 errs
@@ -175,8 +171,6 @@ generateConstraints
 get
 getAPINotesForModule
 getAdapterModule
-getAddrOfLLVMVariable
-getAddrOfValueWitnessTable
 getAdjacency
 getAnyOptionalObjectType
 getAsCanonicalGenericSignature
@@ -278,6 +272,7 @@ importDeclAndCacheImpl
 importDeclImpl
 importName
 inferRequirements
+insert
 irgen
 isAnyClassReferenceType
 isBuiltinTypeOverloaded
@@ -287,6 +282,7 @@ isEqual
 isError
 isExistentialType
 isExistentialTypeImpl
+isPrintable
 isRepresentableInObjC
 isSimpleEnum
 isSpecialized
@@ -441,8 +437,8 @@ printOneChild
 printPretty
 printText
 printTextImpl
+profileArchetypeConstraints
 project
-projectPhysicalClassMemberAddress
 readAbbreviatedField
 readMembers
 readRecord
@@ -457,8 +453,6 @@ removeConstraint
 removeNode
 removeShadowedDecls
 removedConstraint
-replaceAllUsesWith
-replaceUsesOfWithOnConstant
 requiresClassSlow
 resolveArchetype
 resolveConformance
@@ -473,17 +467,14 @@ resolvePotentialArchetypeToType
 resolveType
 resolveTypeDecl
 resolveTypeInContext
-run
 runFunction
 runFunctionAsMain
-runFunctionPasses
-runOneIteration
-runSILDiagnosticPasses
 salvage
 serialization
 setConformsTo
 setDeserializedSignature
 setInvalidBracesRange
+setMetadataRef
 setNestedTypes
 setPattern
 setRawComment
@@ -519,6 +510,7 @@ substType
 substituteInputSugarArgumentType
 swift
 sys
+toLineList
 transform
 tryMangleStandardSubstitution
 tryMangleSubstitution
@@ -541,6 +533,7 @@ typeCheckPattern
 typeCheckTopLevelCodeDecl
 unbindTypeVariable
 undo
+unicode
 validateAttributes
 validateDecl
 validateExtension
@@ -554,7 +547,6 @@ verifyDiagnostics
 visit
 visitBraceStmt
 visitCallInst
-visitExtensionDecl
 visitFuncDecl
 visitNominalTypeDecl
 visitPatternBindingDecl
