@@ -1,1 +1,0 @@
-../crashes-fuzzing/23992-swift-type-walk.swift

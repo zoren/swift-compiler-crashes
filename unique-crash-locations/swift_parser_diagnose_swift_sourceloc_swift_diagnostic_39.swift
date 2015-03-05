@@ -1,1 +1,1 @@
-../crashes-fuzzing/22479-swift-parser-parsestmtforeach.swift
+../crashes-fuzzing/24218-swift-parser-diagnose.swift

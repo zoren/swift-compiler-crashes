@@ -1,1 +1,1 @@
-../crashes-fuzzing/23335-swift-typebase-gettypevariables.swift
+../crashes-fuzzing/24195-swift-decl-getloc.swift

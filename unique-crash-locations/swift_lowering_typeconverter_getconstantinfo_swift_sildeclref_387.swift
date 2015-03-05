@@ -1,1 +1,0 @@
-../crashes/00241-swift-lowering-typeconverter-getconstantinfo.swift

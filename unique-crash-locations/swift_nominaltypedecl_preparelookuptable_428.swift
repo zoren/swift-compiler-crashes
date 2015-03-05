@@ -1,1 +1,1 @@
-../crashes-fuzzing/03007-swift-nominaltypedecl-getdeclaredtypeincontext.swift
+../crashes-fuzzing/24203-swift-nominaltypedecl-preparelookuptable.swift
