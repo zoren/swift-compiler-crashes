@@ -187,7 +187,7 @@ test_file() {
   # Test mode: Compile using swiftc with optimization option "-O".
   #            Used for test cases named *.swift.
   if [[ ${swift_crash} == 0 && ! ${files_to_compile} =~ \.timeout\. ]]; then
-    for _ in {1..10}; do
+    for _ in {1..20}; do
       # shellcheck disable=SC2086
       output=$(xcrun -sdk ${sdk} swiftc -O -o /dev/null ${files_to_compile} 2>&1 | strings)
       if [[ ${output} =~ \ malloc:\  ]]; then
