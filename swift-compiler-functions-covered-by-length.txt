@@ -1,6 +1,7 @@
 emitPolymorphicParametersForGenericValueWitness
 lookThroughImplicitlyUnwrappedOptionalType
 getImplicitlyUnwrappedOptionalObjectType
+consumeStartingCharacterOfCurrentToken
 isValidIdentifierContinuationCodePoint
 getTypeLoweringForUncachedLoweredType
 getUncachedSILFunctionTypeForConstant
@@ -10,6 +11,9 @@ emitOpaqueExistentialContainerUpcast
 getImplicitlyUnwrappedOptionalDecl
 typeCheckConditionalPatternBinding
 typeCheckFunctionsAndExternalDecls
+diagnoseContextualConversionError
+diagnoseGeneralValueMemberFailure
+getTypeOfIndependentSubExpression
 addValueWitnessesForAbstractType
 diagnoseGeneralConversionFailure
 getInterfaceTypeFromInternalType
@@ -57,6 +61,7 @@ addPatternVariablesToScope
 cleanupIllFormedExpression
 computeConnectedComponents
 createTrivialSubstitutions
+diagnoseFailureForCallExpr
 resolveDependentMemberType
 skipUntilGreaterInTypeList
 typeCheckExpressionShallow
@@ -68,6 +73,7 @@ checkTypeDeclAvailability
 createImplicitConstructor
 emitDirectTypeMetadataRef
 emitLazyGlobalInitializer
+emitObjCConformanceThunks
 getBridgingHeaderContents
 getLoweredASTFunctionType
 getPartialApplyResultType
@@ -84,6 +90,7 @@ constructCallToSuperInit
 createBindingFromPattern
 defineDefaultConstructor
 emitGlobalInitialization
+emitObjCConstructorThunk
 emitPolymorphicArguments
 finalizeGenericParamList
 finishLoadingClangModule
@@ -93,11 +100,13 @@ getDeclaredTypeInContext
 getTypeOfMemberReference
 mapSignatureFunctionType
 parsePatternTupleAfterLP
+runSILOptimizationPasses
 setDeserializedSignature
 simplifyMemberConstraint
 validateGenericSignature
 addAccessorsToStoredVar
 addImplicitConstructors
+emitArgumentMetadataRef
 emitRValueAsSingleValue
 emitToUnmappedExplosion
 getDefaultDefinitionLoc
@@ -109,6 +118,7 @@ maybeParseGenericParams
 mergeEquivalenceClasses
 parseIdentifierDeclName
 parseNominalDeclMembers
+removeUnreachableBlocks
 typeCheckForEachBinding
 visitPatternBindingDecl
 addSameTypeRequirement
@@ -152,6 +162,7 @@ isDeclAsSpecializedAs
 isExistentialTypeImpl
 isRepresentableInObjC
 lexOperatorIdentifier
+matchExistentialTypes
 maybeReadSubstitution
 parseGenericArguments
 parseNewDeclAttribute
@@ -206,6 +217,7 @@ getCallerDefaultArg
 getLocForEndOfToken
 getWrapperForModule
 mapParsedParameters
+optimizeConstraints
 parseExprCallSuffix
 parseExprCollection
 parseExprDictionary
@@ -257,7 +269,9 @@ simplifyConstraint
 typeCheckCondition
 unbindTypeVariable
 validateAttributes
+visitExtensionDecl
 convertStructType
+createConjunction
 createDisjunction
 createNominalType
 emitRValueForDecl
@@ -266,6 +280,7 @@ gatherConstraints
 getBBForReference
 getCommentForDecl
 getDictionaryDecl
+getRepresentative
 inferRequirements
 isExistentialType
 lookupConformance
@@ -281,6 +296,7 @@ readSILBasicBlock
 removedConstraint
 requiresClassSlow
 runFunctionAsMain
+runFunctionPasses
 substFunctionType
 validateExtension
 verifyDiagnostics
@@ -288,9 +304,11 @@ addIdentifierRef
 compareSolutions
 configureStorage
 diagAvailability
+emitCategoryData
 emitClosureValue
 findBestSolution
 getAdapterModule
+getAsSingleValue
 getBridgedToObjC
 getCanonicalType
 getDesugaredType
@@ -299,6 +317,7 @@ getInterfaceType
 getRelabeledType
 getSubstitutions
 getTypeVariables
+getUnlabeledType
 handleDiagnostic
 kindOfIdentifier
 lexStringLiteral
@@ -356,8 +375,10 @@ parseStmtSwitch
 parseTypeSimple
 resolveOverload
 resolveTypeDecl
+runOneIteration
 simplifyLocator
 solveSimplified
+addConformance
 addOverloadSet
 addRequirement
 emitCurryThunk
@@ -365,6 +386,7 @@ emitReturnExpr
 emitSourceFile
 emitStructDecl
 getConformance
+getDeclContext
 getDefaultType
 getDynamicSelf
 getSourceRange
@@ -380,7 +402,6 @@ parseDeclClass
 parseExprArray
 parseExprUnary
 readTypeRecord
-setMetadataRef
 setNestedTypes
 setSpecialized
 setTypeWitness
@@ -392,6 +413,7 @@ bindArchetype
 convertToType
 createForDecl
 emitApplyExpr
+emitExtension
 flushComments
 getConformsTo
 getExtensions
@@ -426,11 +448,11 @@ canParseType
 coerceToType
 constructSIL
 consumeToken
-createAlloca
 createSimple
 emitCallSite
 emitExprInto
 emitFunction
+explodeTuple
 foldSequence
 getAdjacency
 getProtocols
@@ -488,7 +510,6 @@ removeNode
 setPattern
 skipRecord
 skipSingle
-toLineList
 emitApply
 getStream
 getString
@@ -503,6 +524,7 @@ printText
 skipUntil
 substType
 transform
+writeDecl
 coverage
 diagnose
 emitType
@@ -542,6 +564,7 @@ subst
 swift
 visit
 write
+diag
 dump
 errs
 find

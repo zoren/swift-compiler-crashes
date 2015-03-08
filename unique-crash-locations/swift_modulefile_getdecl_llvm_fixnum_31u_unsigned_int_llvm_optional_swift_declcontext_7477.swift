@@ -1,0 +1,1 @@
+../crashes-fuzzing/24477-swift-modulefile-getdecl.swift

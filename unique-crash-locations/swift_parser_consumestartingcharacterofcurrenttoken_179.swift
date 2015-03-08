@@ -1,0 +1,1 @@
+../crashes-fuzzing/24546-swift-parser-consumestartingcharacterofcurrenttoken.swift

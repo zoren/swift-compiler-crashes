@@ -48,15 +48,15 @@ $ git clone https://github.com/practicalswift/swift-compiler-crashes.git
 $ cd swift-compiler-crashes/
 $ ./test.sh
 
-Running tests against: swiftlang-602.0.42.4 clang-602.0.42 (Swift version)
+Running tests against: swiftlang-602.0.42.4 clang-602.0.42
 Using Xcode found at path: /Applications/Xcode-Beta.app/Contents/Developer/
 Usage: ./test.sh [-v] [-q] [-c<columns>] [-l] [file ...]
-Adding a new test case? The crash id to use for the next test case is 24239.
+Adding a new test case? The crash id to use for the next test case is 24607.
 
 == Currently known crashes, set #1 (human reported crashes, crashes not found by fuzzing) ==
 
   ✘  00031 no stacktrace                                          (          )
-  ✘  00037 no stacktrace (script)                                 (5a2f40882d)
+  ✘  00037 no stacktrace (script)                                 (95322339de)
   ✘  00054 swift substitutedtype get                              (f3782866cb)
   ✘  00055 no stacktrace                                          (          )
   ✘  00061 visit any struct type                                  (b6d48383cf)
@@ -72,7 +72,7 @@ Adding a new test case? The crash id to use for the next test case is 24239.
   ✘  21271 swift silfunctiontype substgenericargs                 (4f230cb2a7)
   ✘  22524 collectfullname                                        (4bf87157ed)
   ✘  22722 swift irgen protocolinfo getconformance                (1d513ca8c5)
-  ✘  22725 swift constraints constraintsystem solvesimplified (ma (17410bb967)
+  ✘  22725 swift constraints constraintsystem solvesimplified     (01717e3baa)
   ✘  23172 lowering silgenfunction emitapplyexpr                  (dcc361087f)
   ✘  23408 missing type in generic constraint                     (3523c6f6ce)
   ✘  23409 circular typealias                                     (          )
@@ -84,15 +84,27 @@ Adding a new test case? The crash id to use for the next test case is 24239.
   ✘  23891 llvm constantfoldgetelementptr                         (38d58c16fc)
   ✘  23892 swift archetypebuilder resolvearchetype                (9ce3e92b0a)
   ✘  23895 swift lowering typeconverter gettypelowering           (35f7876144)
-  ✘  23898 swift silfunction maptypeintocontext                   (7dd7a53d6e)
+  ✘  23898 swift silfunction maptypeintocontext                   (5fd9b87a13)
   ✘  23901 swift lowering silgenfunction emitclosurevalue         (5e141c5345)
   ✘  23903 too complex to be solved in reasonable time (timeout)  (          )
-  ✘  23906 swift irgen irgenfunction bindarchetype                (8e94f0fdd3)
+  ✘  23906 swift irgen irgenfunction bindarchetype                (670741378b)
   ✘  23907 phi node operands are not the same type                (          )
   ✘  23908 slow type inference (timeout)                          (          )
   ✘  23911 gettypemetadataaccessfunction                          (2e9d2b831c)
   ✘  24170 llvm smallvectorimpl llvm fixnum 31u unsigned int oper (          )
   ✘  24171 swift silvisitor visit                                 (f4fb23e4dd)
+  ✘  24239 swift lowering silgenmodule emitobjcconstructorthunk   (eef9081d82)
+  ✘  24240 swift irgen emitpolymorphicarguments                   (383f71ba8e)
+  ✘  24241 call parameter type does not match function signature  (          )
+  ✘  24242 argemitter emit                                        (400b85032e)
+  ✘  24243 dce markcontrollingterminatorslive (-O)                (17258ec4a5)
+  ✘  24244 rvalueemitter visitabstractclosureexpr                 (02b8f3c353)
+  ✘  24245 swift constraints constraintsystem solve               (          )
+  ✘  24246 swift constraints constraintgraph removeconstraint     (468e249464)
+  ✘  24247 swift irgen emitcategorydata                           (2c68cb685e)
+  ✘  24248 swift silfunctiontype substgenericargs                 (63ac90598b)
+  ✘  24249 collectfullname                                        (593d87954e)
+  ✘  24250 exprrewriter coercetupletotuple                        (a23b1cac0c)
 
 == Currently known crashes, set #2 (crashes found by fuzzing) ==
 
@@ -135,18 +147,6 @@ Adding a new test case? The crash id to use for the next test case is 24239.
   ✘  00476 swift typechecker validatedecl                         (4e79f432f5)
   ✘  00479 no stacktrace                                          (e53192324d)
   ✘  00483 resolvetypedecl                                        (ccf3133b8b)
-  ✘  00512 getselftypeforcontainer                                (ee73b38c9e)
-  ✘  00526 swift typechecker validatedecl                         (62f4377afa)
-  ✘  00538 swift clangmoduleunit getadaptermodule                 (64898bcead)
-  ✘  00539 swift nominaltypedecl getdeclaredtypeincontext         (04ae75628d)
-  ✘  00550 std function func swift type subst                     (1450312308)
-  ✘  00555 swift optional swift diagnostic operator               (d4b067cdad)
-  ✘  00563 cerror                                                 (dee67c3351)
-  ✘  00578 swift type walk                                        (e21ce659f9)
-  ✘  00611 swift constraints constraintsystem opengeneric         (4df5e0c98e)
-  ✘  00626 swift lexer lexidentifier                              (d3573122c1)
-  ✘  00681 swift declcontext lookupqualified                      (807f8943a7)
-  ✘  00683 swift metatypetype get                                 (b15658c2c8)
      lots of fuzzing crashes omitted for README.md readability …
   ✓  22814 swift typechecker contextualizeinitializer
   ✓  22821 swift inflightdiagnostic
@@ -346,7 +346,7 @@ Adding a new test case? The crash id to use for the next test case is 24239.
   ✓  24045 swift typechecker computeaccessibility
   ✓  24078 llvm foldingset swift tupletype nodeequals
   ✓  24081 swift valuedecl overwritetype
-** Results: 785 of 2303 tests crashed the compiler **
+** Results: 1140 of 2658 tests crashed the compiler **
 
 ```
 

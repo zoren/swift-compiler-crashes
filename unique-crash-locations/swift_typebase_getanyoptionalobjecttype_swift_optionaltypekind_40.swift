@@ -1,0 +1,1 @@
+../crashes-fuzzing/24600-swift-typebase-getanyoptionalobjecttype.swift

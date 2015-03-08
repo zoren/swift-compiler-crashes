@@ -1,0 +1,7 @@
+4  swift                    swift::irgen::emitCategoryData(swift::irgen::IRGenModule&, swift::ExtensionDecl*) + 1819
+5  swift                    swift::irgen::IRGenModule::emitExtension(swift::ExtensionDecl*) + 514
+6  swift                    swift::irgen::IRGenModule::emitSourceFile(swift::SourceFile&, unsigned int) + 100
+7  swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2151
+8  swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
+9  swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 10315
+10 swift                    main + 1814

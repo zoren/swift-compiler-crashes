@@ -1,3 +1,4 @@
+3  swift                    llvm::BitstreamCursor::Read(unsigned int) + 128
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 232
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, bool, swift::SourceLoc, bool) + 1452
 6  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, bool, swift::SourceLoc, bool) + 24

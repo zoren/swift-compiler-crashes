@@ -1,4 +1,4 @@
-3  swift                    (anonymous namespace)::SILParser::parseSILInstruction(swift::SILBasicBlock*) + 39605
+3  swift                    (anonymous namespace)::SILParser::parseSILInstruction(swift::SILBasicBlock*) + 10933
 4  swift                    swift::constraints::ConstraintSystem::matchDeepEqualityTypes(swift::Type, swift::Type, swift::constraints::ConstraintLocatorBuilder) + 474
 5  swift                    swift::constraints::ConstraintSystem::simplifyRestrictedConstraint(swift::constraints::ConversionRestrictionKind, swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 743
 6  swift                    swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 11705

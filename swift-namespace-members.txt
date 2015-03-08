@@ -41,7 +41,9 @@ swift::ApplyInst
 swift::ArchetypeBuilder
 swift::ArchetypeBuilder::InferRequirementsWalker::walkToTypePost
 swift::ArchetypeBuilder::PotentialArchetype
+swift::ArchetypeBuilder::PotentialArchetype::addConformance
 swift::ArchetypeBuilder::PotentialArchetype::getNestedType
+swift::ArchetypeBuilder::PotentialArchetype::getType
 swift::ArchetypeBuilder::addConformanceRequirement
 swift::ArchetypeBuilder::addGenericParameter
 swift::ArchetypeBuilder::addRequirement
@@ -231,8 +233,11 @@ swift::Lexer::lexUnicodeEscape
 swift::LiteralExpr
 swift::LookupTypeResult
 swift::Lowering::AbstractionPattern
+swift::Lowering::ArgumentSource
+swift::Lowering::ArgumentSource::getAsSingleValue
 swift::Lowering::Initialization
 swift::Lowering::IsFreeFunctionWitness_t
+swift::Lowering::LValue
 swift::Lowering::ManagedValue
 swift::Lowering::RValue
 swift::Lowering::SGFContext
@@ -264,11 +269,13 @@ swift::Lowering::SILGenModule::emitCurryThunk
 swift::Lowering::SILGenModule::emitFunction
 swift::Lowering::SILGenModule::emitGlobalInitialization
 swift::Lowering::SILGenModule::emitLazyGlobalInitializer
+swift::Lowering::SILGenModule::emitObjCConstructorThunk
 swift::Lowering::SILGenModule::emitProtocolWitness
 swift::Lowering::SILGenModule::emitSourceFile
 swift::Lowering::SILGenModule::getFunction
 swift::Lowering::SILGenModule::getWitnessTable
 swift::Lowering::SILGenModule::preEmitFunction
+swift::Lowering::SILGenModule::visitExtensionDecl
 swift::Lowering::SILGenModule::visitFuncDecl
 swift::Lowering::SILGenModule::visitNominalTypeDecl
 swift::Lowering::TypeConverter::TypeKey
@@ -292,6 +299,7 @@ swift::MetatypeType
 swift::MetatypeType::get
 swift::Module
 swift::Module::ImportFilter
+swift::Module::Module
 swift::Module::forAllVisibleModules
 swift::Module::lookupConformance
 swift::Module::lookupValue
@@ -300,6 +308,7 @@ swift::ModuleFile::DeclTableInfo
 swift::ModuleFile::configureStorage
 swift::ModuleFile::getCommentForDecl
 swift::ModuleFile::getDecl
+swift::ModuleFile::getDeclContext
 swift::ModuleFile::getImportedModules
 swift::ModuleFile::getType
 swift::ModuleFile::loadAllMembers
@@ -312,6 +321,7 @@ swift::ModuleFile::maybeReadSubstitution
 swift::ModuleFile::readMembers
 swift::ModuleFile::readReferencedConformance
 swift::ModuleFile::resolveCrossReference
+swift::ModuleLoader
 swift::NLKind
 swift::NestedGenericParamListIterator
 swift::NominalType::get
@@ -348,6 +358,7 @@ swift::Parser::ParsedParameter
 swift::Parser::Parser
 swift::Parser::addPatternVariablesToScope
 swift::Parser::canParseType
+swift::Parser::consumeStartingCharacterOfCurrentToken
 swift::Parser::consumeToken
 swift::Parser::createBindingFromPattern
 swift::Parser::diagnose
@@ -452,11 +463,13 @@ swift::PrintOptions
 swift::PrintingDiagnosticConsumer::handleDiagnostic
 swift::ProtocolCompositionType::build
 swift::ProtocolConformance
+swift::ProtocolConformance::forEachValueWitness
 swift::ProtocolConformanceState
 swift::ProtocolDecl
 swift::ProtocolDecl::requiresClassSlow
 swift::ProtocolType
 swift::ProtocolType::canonicalizeProtocols
+swift::REPLRunLoop
 swift::Range
 swift::RawComment
 swift::Requirement
@@ -474,6 +487,7 @@ swift::SILDeserializer::readSILBasicBlock
 swift::SILDeserializer::readSILInstruction
 swift::SILDeserializer::readWitnessTable
 swift::SILFunction
+swift::SILFunctionTransform
 swift::SILFunctionType
 swift::SILFunctionType::get
 swift::SILFunctionType::substGenericArgs
@@ -484,6 +498,8 @@ swift::SILModule::constructSIL
 swift::SILOptions
 swift::SILParameterInfo
 swift::SILParserState
+swift::SILPassManager::runFunctionPasses
+swift::SILPassManager::runOneIteration
 swift::SILResultInfo
 swift::SILType
 swift::SILValue
@@ -547,6 +563,7 @@ swift::TypeBase::getRelabeledType
 swift::TypeBase::getSuperclass
 swift::TypeBase::getTypeOfMember
 swift::TypeBase::getTypeVariables
+swift::TypeBase::getUnlabeledType
 swift::TypeBase::hasReferenceSemantics
 swift::TypeBase::isAnyClassReferenceType
 swift::TypeBase::isEqual
@@ -625,6 +642,7 @@ swift::TypeRepr
 swift::TypeRepr::clone
 swift::TypeResolutionFlags
 swift::TypeVariableType
+swift::TypeVariableType::Implementation::getRepresentative
 swift::TypeVisitor
 swift::TypeWalker
 swift::TypedPattern
@@ -651,6 +669,7 @@ swift::configureImplicitSelf
 swift::constraints::Constraint
 swift::constraints::Constraint::create
 swift::constraints::Constraint::createBindOverload
+swift::constraints::Constraint::createConjunction
 swift::constraints::Constraint::createDisjunction
 swift::constraints::ConstraintGraph
 swift::constraints::ConstraintGraph::Change::removedConstraint
@@ -675,6 +694,7 @@ swift::constraints::ConstraintLocatorBuilder
 swift::constraints::ConstraintSystem
 swift::constraints::ConstraintSystem::ConstraintSystem
 swift::constraints::ConstraintSystem::SolverScope::~SolverScope
+swift::constraints::ConstraintSystem::SolverState::~SolverState
 swift::constraints::ConstraintSystem::addConstraint
 swift::constraints::ConstraintSystem::addOverloadSet
 swift::constraints::ConstraintSystem::addTypeVariableConstraintsToWorkList
@@ -695,12 +715,14 @@ swift::constraints::ConstraintSystem::getTypeOfReference
 swift::constraints::ConstraintSystem::lookThroughImplicitlyUnwrappedOptionalType
 swift::constraints::ConstraintSystem::lookupMember
 swift::constraints::ConstraintSystem::matchDeepEqualityTypes
+swift::constraints::ConstraintSystem::matchExistentialTypes
 swift::constraints::ConstraintSystem::matchFunctionTypes
 swift::constraints::ConstraintSystem::matchTupleTypes
 swift::constraints::ConstraintSystem::matchTypes
 swift::constraints::ConstraintSystem::mergeEquivalenceClasses
 swift::constraints::ConstraintSystem::openGeneric
 swift::constraints::ConstraintSystem::openType
+swift::constraints::ConstraintSystem::optimizeConstraints
 swift::constraints::ConstraintSystem::recordFailure
 swift::constraints::ConstraintSystem::recordFailureSimplified
 swift::constraints::ConstraintSystem::resolveOverload
@@ -726,12 +748,17 @@ swift::constraints::Failure
 swift::constraints::Failure::FailureKind
 swift::constraints::Failure::Profile
 swift::constraints::FailureDiagnosis::diagnoseFailure
+swift::constraints::FailureDiagnosis::diagnoseFailureForCallExpr
 swift::constraints::Fix
+swift::constraints::GeneralFailureDiagnosis::diagnoseContextualConversionError
 swift::constraints::GeneralFailureDiagnosis::diagnoseGeneralConversionFailure
+swift::constraints::GeneralFailureDiagnosis::diagnoseGeneralValueMemberFailure
+swift::constraints::GeneralFailureDiagnosis::getTypeOfIndependentSubExpression
 swift::constraints::MatchCallArgumentListener
 swift::constraints::OverloadChoice
 swift::constraints::RememberChoice_t
 swift::constraints::ResolvedOverloadSetListItem
+swift::constraints::SavedTypeVariableBinding
 swift::constraints::Solution
 swift::constraints::Solution::Solution
 swift::constraints::Solution::coerceToType
@@ -745,6 +772,7 @@ swift::constraints::simplifyLocator
 swift::convertStoredVarInProtocolToComputed
 swift::createImplicitConstructor
 swift::detail::PassArgument
+swift::diag::RequirementKind
 swift::getBuiltinValueDecl
 swift::getLLVMIntrinsicID
 swift::ide::CodeCompletionCacheImpl::Key
@@ -760,11 +788,11 @@ swift::irgen::FixedPacking
 swift::irgen::IRBuilder::CreateStore
 swift::irgen::IRGenFunction
 swift::irgen::IRGenFunction::bindArchetype
-swift::irgen::IRGenFunction::createAlloca
 swift::irgen::IRGenFunction::emitTypeMetadataRef
 swift::irgen::IRGenFunction::emitTypeMetadataRefForLayout
 swift::irgen::IRGenModule
 swift::irgen::IRGenModule::createNominalType
+swift::irgen::IRGenModule::emitExtension
 swift::irgen::IRGenModule::emitGlobalTopLevel
 swift::irgen::IRGenModule::emitLazyDefinitions
 swift::irgen::IRGenModule::emitSILFunction
@@ -775,6 +803,7 @@ swift::irgen::LinkEntity::mangle
 swift::irgen::LoadableTypeInfo
 swift::irgen::NonFixedOffsetsImpl
 swift::irgen::SequentialTypeInfo
+swift::irgen::SequentialTypeInfoImpl
 swift::irgen::TypeConverter::convertAnyNominalType
 swift::irgen::TypeConverter::convertStructType
 swift::irgen::TypeConverter::convertType
@@ -782,6 +811,8 @@ swift::irgen::TypeConverter::getExemplarArchetype
 swift::irgen::TypeConverter::getTypeEntry
 swift::irgen::TypeInfo
 swift::irgen::ValueWitness
+swift::irgen::emitArgumentMetadataRef
+swift::irgen::emitCategoryData
 swift::irgen::emitClassExistentialProjection
 swift::irgen::emitFunctionPartialApplication
 swift::irgen::emitMetatypeRef
@@ -800,6 +831,8 @@ swift::performSILGeneration
 swift::performTypeChecking
 swift::removeShadowedDecls
 swift::resolvePotentialArchetypeToType
+swift::runSILOptimizationPasses
 swift::serialization::Serializer::addIdentifierRef
+swift::serialization::Serializer::writeDecl
 swift::tok
 swift::verifyDiagnostics

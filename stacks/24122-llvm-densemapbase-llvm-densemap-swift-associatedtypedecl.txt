@@ -1,4 +1,4 @@
-3  swift                    toLineList(llvm::rest::ReSTContext&, llvm::rest::SourceManager<swift::SourceLoc>&, swift::RawComment) + 47
+3  swift                    swift::Decl::getRawComment() const + 735
 4  swift                    swift::PrintingDiagnosticConsumer::handleDiagnostic(swift::SourceManager&, swift::SourceLoc, swift::DiagnosticKind, llvm::StringRef, swift::DiagnosticInfo const&) + 1051
 5  swift                    swift::DiagnosticEngine::flushActiveDiagnostic() + 5180
 6  swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 3348

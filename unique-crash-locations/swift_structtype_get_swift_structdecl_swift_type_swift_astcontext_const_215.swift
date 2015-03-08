@@ -1,0 +1,1 @@
+../crashes-fuzzing/24362-swift-structtype-get.swift
