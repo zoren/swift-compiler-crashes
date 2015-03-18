@@ -1,5 +1,6 @@
 swift::ASTContext
 swift::ASTContext::ASTContext
+swift::ASTContext::AllocateCopy
 swift::ASTContext::addDestructorCleanup
 swift::ASTContext::createTrivialSubstitutions
 swift::ASTContext::getConformance
@@ -24,6 +25,7 @@ swift::AbstractCC
 swift::AbstractClosureExpr
 swift::AbstractFunctionDecl
 swift::AbstractStorageDecl
+swift::AbstractStorageDecl::hasObjCGetterAndSetter
 swift::AbstractStorageDecl::makeComputed
 swift::AbstractStorageDecl::setInvalidBracesRange
 swift::AbstractTypeParamDecl
@@ -48,6 +50,7 @@ swift::ArchetypeBuilder::addConformanceRequirement
 swift::ArchetypeBuilder::addGenericParameter
 swift::ArchetypeBuilder::addRequirement
 swift::ArchetypeBuilder::addSameTypeRequirement
+swift::ArchetypeBuilder::finalize
 swift::ArchetypeBuilder::inferRequirements
 swift::ArchetypeBuilder::mapTypeIntoContext
 swift::ArchetypeBuilder::resolveArchetype
@@ -146,6 +149,8 @@ swift::DiagnosticKind
 swift::DictionaryType::get
 swift::EnumDecl
 swift::EnumDecl::isSimpleEnum
+swift::EnumElementDecl
+swift::EnumElementDecl::getSourceRange
 swift::EnumType
 swift::EnumType::get
 swift::Expr
@@ -220,10 +225,13 @@ swift::LangOptions::getTargetConfigOption
 swift::LazyMemberLoader
 swift::LazyResolver
 swift::Lexer
+swift::Lexer::StringSegment
 swift::Lexer::getEncodedStringSegment
 swift::Lexer::getLocForEndOfToken
+swift::Lexer::getStringLiteralSegments
 swift::Lexer::getTokenAt
 swift::Lexer::kindOfIdentifier
+swift::Lexer::lexCharacter
 swift::Lexer::lexIdentifier
 swift::Lexer::lexImpl
 swift::Lexer::lexNumber
@@ -299,7 +307,6 @@ swift::MetatypeType
 swift::MetatypeType::get
 swift::Module
 swift::Module::ImportFilter
-swift::Module::Module
 swift::Module::forAllVisibleModules
 swift::Module::lookupConformance
 swift::Module::lookupValue
@@ -321,7 +328,6 @@ swift::ModuleFile::maybeReadSubstitution
 swift::ModuleFile::readMembers
 swift::ModuleFile::readReferencedConformance
 swift::ModuleFile::resolveCrossReference
-swift::ModuleLoader
 swift::NLKind
 swift::NestedGenericParamListIterator
 swift::NominalType::get
@@ -419,6 +425,7 @@ swift::Parser::parseParameterClause
 swift::Parser::parsePattern
 swift::Parser::parsePatternAtom
 swift::Parser::parsePatternTupleAfterLP
+swift::Parser::parseSingleParameterClause
 swift::Parser::parseStmt
 swift::Parser::parseStmtCase
 swift::Parser::parseStmtCondition
@@ -469,7 +476,7 @@ swift::ProtocolDecl
 swift::ProtocolDecl::requiresClassSlow
 swift::ProtocolType
 swift::ProtocolType::canonicalizeProtocols
-swift::REPLRunLoop
+swift::ProtocolType::compareProtocols
 swift::Range
 swift::RawComment
 swift::Requirement
@@ -480,6 +487,7 @@ swift::RunImmediately
 swift::SILBasicBlock
 swift::SILBuilder::getPartialApplyResultType
 swift::SILCombiner::optimizeApplyOfPartialApply
+swift::SILCombiner::propagateConcreteTypeOfInitExistential
 swift::SILCombiner::visitUncheckedTrivialBitCastInst
 swift::SILDeclRef
 swift::SILDeserializer::getBBForReference
@@ -528,6 +536,7 @@ swift::StructDecl
 swift::StructExtractInst::getFieldNo
 swift::StructType
 swift::StructType::get
+swift::SubscriptDecl
 swift::SubstitutableType
 swift::SubstitutedType::get
 swift::Substitution
@@ -598,6 +607,7 @@ swift::TypeChecker::getProtocol
 swift::TypeChecker::getTypeOfRValue
 swift::TypeChecker::isRepresentableInObjC
 swift::TypeChecker::isSubstitutableFor
+swift::TypeChecker::isTriviallyRepresentableInObjC
 swift::TypeChecker::lookupConstructors
 swift::TypeChecker::lookupMember
 swift::TypeChecker::lookupMemberType
@@ -654,12 +664,14 @@ swift::UnqualifiedLookupResult
 swift::UnresolvedDeclRefExpr
 swift::ValueBase
 swift::ValueDecl
+swift::ValueDecl::canBeAccessedByDynamicLookup
 swift::ValueDecl::getInterfaceType
 swift::ValueDecl::getOverloadSignature
 swift::ValueDecl::overwriteType
 swift::ValueDecl::setType
 swift::VarDecl
 swift::VisibleDeclConsumer
+swift::WitnessMethodInst
 swift::addTrivialAccessorsToStorage
 swift::api_notes::APINotesReader::APINotesReader
 swift::api_notes::APINotesReader::lookupObjCClass
@@ -669,7 +681,6 @@ swift::configureImplicitSelf
 swift::constraints::Constraint
 swift::constraints::Constraint::create
 swift::constraints::Constraint::createBindOverload
-swift::constraints::Constraint::createConjunction
 swift::constraints::Constraint::createDisjunction
 swift::constraints::ConstraintGraph
 swift::constraints::ConstraintGraph::Change::removedConstraint
@@ -682,8 +693,10 @@ swift::constraints::ConstraintGraph::removeConstraint
 swift::constraints::ConstraintGraph::removeNode
 swift::constraints::ConstraintGraph::unbindTypeVariable
 swift::constraints::ConstraintGraphNode
+swift::constraints::ConstraintGraphNode::Adjacency
 swift::constraints::ConstraintGraphNode::addConstraint
 swift::constraints::ConstraintGraphNode::getAdjacency
+swift::constraints::ConstraintGraphNode::verify
 swift::constraints::ConstraintGraphScope::~ConstraintGraphScope
 swift::constraints::ConstraintKind
 swift::constraints::ConstraintLocator
@@ -788,6 +801,7 @@ swift::irgen::FixedPacking
 swift::irgen::IRBuilder::CreateStore
 swift::irgen::IRGenFunction
 swift::irgen::IRGenFunction::bindArchetype
+swift::irgen::IRGenFunction::createAlloca
 swift::irgen::IRGenFunction::emitTypeMetadataRef
 swift::irgen::IRGenFunction::emitTypeMetadataRefForLayout
 swift::irgen::IRGenModule
@@ -803,7 +817,6 @@ swift::irgen::LinkEntity::mangle
 swift::irgen::LoadableTypeInfo
 swift::irgen::NonFixedOffsetsImpl
 swift::irgen::SequentialTypeInfo
-swift::irgen::SequentialTypeInfoImpl
 swift::irgen::TypeConverter::convertAnyNominalType
 swift::irgen::TypeConverter::convertStructType
 swift::irgen::TypeConverter::convertType
@@ -811,7 +824,6 @@ swift::irgen::TypeConverter::getExemplarArchetype
 swift::irgen::TypeConverter::getTypeEntry
 swift::irgen::TypeInfo
 swift::irgen::ValueWitness
-swift::irgen::emitArgumentMetadataRef
 swift::irgen::emitCategoryData
 swift::irgen::emitClassExistentialProjection
 swift::irgen::emitFunctionPartialApplication
@@ -822,6 +834,7 @@ swift::irgen::emitPolymorphicParametersForGenericValueWitness
 swift::irgen::emitStructMetadata
 swift::irgen::emitValueWitnessTable
 swift::irgen::emitWitnessTableRefs
+swift::lookupVisibleDecls
 swift::maybeAddAccessorsToVariable
 swift::namelookup::ResolutionKind
 swift::namelookup::lookupInModule
@@ -829,10 +842,12 @@ swift::parseIntoSourceFile
 swift::performIRGeneration
 swift::performSILGeneration
 swift::performTypeChecking
+swift::printPatternDescription
 swift::removeShadowedDecls
 swift::resolvePotentialArchetypeToType
 swift::runSILOptimizationPasses
 swift::serialization::Serializer::addIdentifierRef
-swift::serialization::Serializer::writeDecl
+swift::serialization::Serializer::writeBlockInfoBlock
+swift::serialization::Serializer::writeHeader
 swift::tok
 swift::verifyDiagnostics

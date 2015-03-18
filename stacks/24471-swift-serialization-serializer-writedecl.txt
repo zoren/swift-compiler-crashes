@@ -1,4 +1,4 @@
-3  swift                    swift::serialization::Serializer::writeDecl(swift::Decl const*) + 10015
+3  swift                    swift::serialization::Serializer::writeHeader(bool, llvm::ArrayRef<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >) + 303
 4  swift                    swift::TypeBase::getCanonicalType() + 1504
 5  swift                    swift::TypeBase::getCanonicalType() + 762
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 434

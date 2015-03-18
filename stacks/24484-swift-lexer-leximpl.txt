@@ -1,4 +1,4 @@
-3  swift                    swift::Lexer::lexImpl() + 1030
+3  swift                    swift::Lexer::getStringLiteralSegments(swift::Token const&, llvm::SmallVectorImpl<swift::Lexer::StringSegment>&, swift::DiagnosticEngine*) + 102
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 358
 5  swift                    swift::configureImplicitSelf(swift::TypeChecker&, swift::AbstractFunctionDecl*, swift::GenericParamList*&) + 109
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11490

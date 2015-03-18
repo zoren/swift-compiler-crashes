@@ -1,4 +1,4 @@
-3  swift                    (anonymous namespace)::PreCheckExpression::walkToExprPre(swift::Expr*) + 1744
+3  swift                    (anonymous namespace)::DeclChecker::checkOverrides(swift::TypeChecker&, swift::ValueDecl*) + 1248
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 232
 5  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 56
 6  swift                    swift::configureImplicitSelf(swift::TypeChecker&, swift::AbstractFunctionDecl*, swift::GenericParamList*&) + 109

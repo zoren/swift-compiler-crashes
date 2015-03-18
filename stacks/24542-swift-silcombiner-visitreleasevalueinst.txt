@@ -1,4 +1,4 @@
-3  swift                    void* std::__1::__thread_proxy<std::__1::tuple<swift::REPLRunLoop(swift::CompilerInstance&, std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, bool)::$_1> >(void*) + 37
+3  swift                    swift::SILCombiner::propagateConcreteTypeOfInitExistential(swift::ApplyInst*, swift::WitnessMethodInst*, swift::SILValue, swift::SILType) + 1845
 4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 358
 5  swift                    swift::configureImplicitSelf(swift::TypeChecker&, swift::AbstractFunctionDecl*, swift::GenericParamList*&) + 109
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11490

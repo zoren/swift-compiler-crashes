@@ -1,4 +1,4 @@
-3  swift                    swift::Module::Module(swift::Identifier, swift::ASTContext&) + 127
+3  swift                    swift::lookupVisibleDecls(swift::VisibleDeclConsumer&, swift::DeclContext const*, swift::LazyResolver*, bool, swift::SourceLoc) + 655
 4  swift                    swift::TypeBase::getCanonicalType() + 1504
 5  swift                    swift::TypeBase::getCanonicalType() + 762
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 434

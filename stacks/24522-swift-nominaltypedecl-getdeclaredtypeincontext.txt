@@ -1,4 +1,4 @@
-3  swift                    (anonymous namespace)::MachineSchedulerBase::scheduleRegions(llvm::ScheduleDAGInstrs&) + 384
+3  swift                    llvm::DenseMapBase<llvm::DenseMap<swift::EnumElementDecl*, unsigned int, llvm::DenseMapInfo<swift::EnumElementDecl*> >, swift::EnumElementDecl*, unsigned int, llvm::DenseMapInfo<swift::EnumElementDecl*> >::moveFromOldBuckets(std::__1::pair<swift::EnumElementDecl*, unsigned int>*, std::__1::pair<swift::EnumElementDecl*, unsigned int>*) + 352
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6294
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6356

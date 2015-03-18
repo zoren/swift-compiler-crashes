@@ -1,0 +1,13 @@
+3  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 3489
+4  swift                    swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, bool, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) + 853
+5  swift                    swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 818
+6  swift                    swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 202
+7  swift                    (anonymous namespace)::DeclChecker::semaFuncDecl(swift::FuncDecl*, swift::GenericTypeResolver*) + 423
+8  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11849
+9  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 769
+10 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1924
+11 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 712
+12 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1493
+13 swift                    swift::CompilerInstance::performSema() + 2428
+14 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
+15 swift                    main + 1814

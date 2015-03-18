@@ -1,4 +1,4 @@
-3  swift                    swift::FuncDecl::getObjCSelector() const + 1168
+3  swift                    swift::EnumElementDecl::getSourceRange() const + 64
 4  swift                    swift::TypeBase::getCanonicalType() + 1504
 5  swift                    swift::TypeBase::getCanonicalType() + 762
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 434

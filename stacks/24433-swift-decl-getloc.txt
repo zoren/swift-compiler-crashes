@@ -1,4 +1,4 @@
-3  swift                    swift::EnumDecl::isSimpleEnum() const + 156
+3  swift                    swift::FuncDecl::getObjCSelector() const + 1340
 4  swift                    swift::TypeBase::getCanonicalType() + 1504
 5  swift                    swift::TypeBase::getCanonicalType() + 762
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 434

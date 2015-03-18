@@ -3,6 +3,7 @@ lookThroughImplicitlyUnwrappedOptionalType
 getImplicitlyUnwrappedOptionalObjectType
 consumeStartingCharacterOfCurrentToken
 isValidIdentifierContinuationCodePoint
+propagateConcreteTypeOfInitExistential
 getTypeLoweringForUncachedLoweredType
 getUncachedSILFunctionTypeForConstant
 addTypeVariableConstraintsToWorkList
@@ -29,6 +30,7 @@ fillObjCRepresentableTypeCache
 getAsCanonicalGenericSignature
 getDelegatingOrChainedInitKind
 isClassOrClassExtensionContext
+isTriviallyRepresentableInObjC
 parseClosureSignatureIfPresent
 simplifyApplicableFnConstraint
 simplifyConstructionConstraint
@@ -38,6 +40,7 @@ tryMangleStandardSubstitution
 typeCheckAbstractFunctionBody
 typeCheckConstructorBodyUntil
 addTrivialAccessorsToStorage
+canBeAccessedByDynamicLookup
 createDesignatedInitOverride
 emitGeneralizedFunctionValue
 emitTypeMetadataRefForLayout
@@ -62,6 +65,7 @@ cleanupIllFormedExpression
 computeConnectedComponents
 createTrivialSubstitutions
 diagnoseFailureForCallExpr
+parseSingleParameterClause
 resolveDependentMemberType
 skipUntilGreaterInTypeList
 typeCheckExpressionShallow
@@ -97,6 +101,7 @@ finishLoadingClangModule
 getAnyOptionalObjectType
 getDeclaredInterfaceType
 getDeclaredTypeInContext
+getStringLiteralSegments
 getTypeOfMemberReference
 mapSignatureFunctionType
 parsePatternTupleAfterLP
@@ -106,7 +111,6 @@ simplifyMemberConstraint
 validateGenericSignature
 addAccessorsToStoredVar
 addImplicitConstructors
-emitArgumentMetadataRef
 emitRValueAsSingleValue
 emitToUnmappedExplosion
 getDefaultDefinitionLoc
@@ -118,7 +122,7 @@ maybeParseGenericParams
 mergeEquivalenceClasses
 parseIdentifierDeclName
 parseNominalDeclMembers
-removeUnreachableBlocks
+printPatternDescription
 typeCheckForEachBinding
 visitPatternBindingDecl
 addSameTypeRequirement
@@ -132,6 +136,7 @@ diagnoseFailureForExpr
 emitNominalMetadataRef
 emitTranslatePrimitive
 gatherAllSubstitutions
+hasObjCGetterAndSetter
 importDeclAndCacheImpl
 isUnspecializedGeneric
 matchDeepEqualityTypes
@@ -216,6 +221,7 @@ getBuiltinValueDecl
 getCallerDefaultArg
 getLocForEndOfToken
 getWrapperForModule
+isUnknownObjectType
 mapParsedParameters
 optimizeConstraints
 parseExprCallSuffix
@@ -229,6 +235,7 @@ performIRGeneration
 performTypeChecking
 removeShadowedDecls
 typeCheckExpression
+writeBlockInfoBlock
 checkEnumRawValues
 checkRedeclaration
 checkSubstitutions
@@ -246,6 +253,7 @@ getTypeOfReference
 isSubstitutableFor
 lineLooksLikeLabel
 lookupConstructors
+lookupVisibleDecls
 mapTypeIntoContext
 matchCallArguments
 matchFunctionTypes
@@ -271,7 +279,6 @@ unbindTypeVariable
 validateAttributes
 visitExtensionDecl
 convertStructType
-createConjunction
 createDisjunction
 createNominalType
 emitRValueForDecl
@@ -297,10 +304,12 @@ removedConstraint
 requiresClassSlow
 runFunctionAsMain
 runFunctionPasses
+scanAliasOrAnchor
 substFunctionType
 validateExtension
 verifyDiagnostics
 addIdentifierRef
+compareProtocols
 compareSolutions
 configureStorage
 diagAvailability
@@ -402,6 +411,7 @@ parseDeclClass
 parseExprArray
 parseExprUnary
 readTypeRecord
+setMetadataRef
 setNestedTypes
 setSpecialized
 setTypeWitness
@@ -448,16 +458,17 @@ canParseType
 coerceToType
 constructSIL
 consumeToken
+createAlloca
 createSimple
 emitCallSite
 emitExprInto
 emitFunction
-explodeTuple
 foldSequence
 getAdjacency
 getProtocols
 getTypeEntry
 isSimpleEnum
+lexCharacter
 lookupDirect
 lookupMember
 makeComputed
@@ -491,6 +502,7 @@ printPretty
 readMembers
 resolveType
 runFunction
+writeHeader
 addToScope
 destroyAll
 emitRValue
@@ -524,7 +536,6 @@ printText
 skipUntil
 substType
 transform
-writeDecl
 coverage
 diagnose
 emitType
@@ -553,6 +564,7 @@ mangle
 object
 reader
 record
+verify
 build
 clang
 clone

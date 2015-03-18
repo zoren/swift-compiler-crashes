@@ -1,4 +1,3 @@
-3  swift                    addNestedRequirements(swift::Module&, swift::Type, swift::ArchetypeBuilder::PotentialArchetype*, llvm::SmallPtrSet<swift::ArchetypeBuilder::PotentialArchetype*, 16u>&, llvm::SmallVectorImpl<swift::Requirement>&) + 256
 4  swift                    swift::constraints::ConstraintSystem::openGeneric(swift::DeclContext*, llvm::ArrayRef<swift::GenericTypeParamType*>, llvm::ArrayRef<swift::Requirement>, bool, swift::constraints::DependentTypeOpener*, swift::constraints::ConstraintLocatorBuilder, llvm::DenseMap<swift::CanType, swift::TypeVariableType*, llvm::DenseMapInfo<swift::CanType> >&) + 245
 5  swift                    (anonymous namespace)::ReplaceDependentTypes::operator()(swift::Type) + 2138
 6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 54

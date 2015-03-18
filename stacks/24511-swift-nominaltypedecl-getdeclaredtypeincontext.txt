@@ -1,4 +1,3 @@
-3  swift                    swift::irgen::SequentialTypeInfoImpl<(anonymous namespace)::LoadableStructTypeInfo, swift::irgen::LoadableTypeInfo, (anonymous namespace)::StructFieldInfo, true>::initializeWithTake(swift::irgen::IRGenFunction&, swift::irgen::Address, swift::irgen::Address, swift::SILType) const + 512
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::NominalTypeDecl::computeType() + 29
 6  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1267

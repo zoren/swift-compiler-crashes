@@ -1,4 +1,4 @@
-3  swift                    removeUnreachableBlocks(swift::SILFunction&, swift::SILModule&, UnreachableUserCodeReportingState*) + 720
+3  swift                    (anonymous namespace)::X86ELFObjectWriter::GetRelocType(llvm::MCValue const&, llvm::MCFixup const&, bool) const + 432
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
 5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6294
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1352

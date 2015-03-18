@@ -1,4 +1,4 @@
-3  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 101
+3  swift                    swift::Lexer::lexCharacter(char const*&, bool, bool) + 1109
 4  swift                    swift::TypeBase::getCanonicalType() + 1504
 5  swift                    swift::TypeBase::getCanonicalType() + 762
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 434
