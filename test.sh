@@ -293,7 +293,7 @@ test_file() {
     if [[ ${is_dupe} == 1 ]]; then
       test_name="${test_name} (${color_bold}dupe?${color_normal_display})"
       adjusted_name_size=$((adjusted_name_size + 8))
-      if [[ ${delete_dupes} == 1 ]]; then
+      if [[ ${delete_dupes} == 1 && ${files_to_compile} =~ crashes-fuzzing ]]; then
         # shellcheck disable=SC2086
         rm ${files_to_compile}
       fi
@@ -301,10 +301,6 @@ test_file() {
     printf "  %b  %-${adjusted_name_size}.${adjusted_name_size}b (%-10.10b)\n" "${color_red}✘${color_normal_display}" "${test_name}" "${hash}"
   else
     printf "  %b  %-${name_size}.${name_size}b\n" "${color_green}✓${color_normal_display}" "${test_name}"
-    if [[ ${delete_dupes} == 1 ]]; then
-      # shellcheck disable=SC2086
-      rm ${files_to_compile}
-    fi
   fi
   if [[ ${verbose} == 1 ]]; then
     crashed_in_function=$(grep -E "0x[0-9a-f]" <<< "${output}" | grep -v '\*\*\*' | grep -E -v '(llvm::sys::PrintStackTrace|SignalHandler|_sigtramp|swift::TypeLoc::isError)' | grep -E '(swift|llvm)' | head -1 | sed 's/ 0x[0-9a-f]/|/g' | cut -f2- -d'|' | cut -f2- -d' ')
