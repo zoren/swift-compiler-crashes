@@ -6,8 +6,8 @@
 9  swift                    swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 202
 10 swift                    swift::TypeChecker::checkInheritanceClause(swift::Decl*, swift::DeclContext*, swift::GenericTypeResolver*) + 2265
 11 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1296
-12 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 712
-13 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1493
+12 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 664
+13 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1333
 14 swift                    swift::CompilerInstance::performSema() + 2428
-15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
+15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
 16 swift                    main + 1814

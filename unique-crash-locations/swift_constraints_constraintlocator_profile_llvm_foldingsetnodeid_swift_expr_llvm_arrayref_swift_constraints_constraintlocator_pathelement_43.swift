@@ -1,1 +1,1 @@
-../crashes-fuzzing/24385-swift-constraints-constraintlocator-profile.swift
+../crashes-duplicates/24385-swift-constraints-constraintlocator-profile.swift

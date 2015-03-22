@@ -1,4 +1,3 @@
-3  swift                    llvm::SMDiagnostic::SMDiagnostic(llvm::SourceMgr const&, llvm::SMLoc, llvm::StringRef, int, int, llvm::SourceMgr::DiagKind, llvm::StringRef, llvm::StringRef, llvm::ArrayRef<std::__1::pair<unsigned int, unsigned int> >, llvm::ArrayRef<llvm::SMFixIt>) + 103
 4  swift                    swift::TypeBase::getCanonicalType() + 1504
 5  swift                    swift::TypeBase::getCanonicalType() + 762
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 434
@@ -17,7 +16,7 @@
 19 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 846
 20 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 4952
 21 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
-22 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1128
+22 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 968
 23 swift                    swift::CompilerInstance::performSema() + 2428
-24 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
+24 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
 25 swift                    main + 1814

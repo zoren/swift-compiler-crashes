@@ -1,1 +1,1 @@
-../crashes-fuzzing/24546-swift-parser-consumestartingcharacterofcurrenttoken.swift
+../crashes-duplicates/24546-swift-parser-consumestartingcharacterofcurrenttoken.swift

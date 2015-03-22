@@ -1,1 +1,1 @@
-../crashes-fuzzing/24726-processdeclattribute.swift
+../crashes-duplicates/24726-processdeclattribute.swift

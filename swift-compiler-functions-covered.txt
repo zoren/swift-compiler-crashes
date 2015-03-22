@@ -44,6 +44,7 @@ checkRedeclaration
 checkSubstitutions
 checkTypeAccessibility
 checkTypeDeclAvailability
+claim
 clang
 classifyAsOptionalType
 cleanupIllFormedExpression
@@ -74,11 +75,11 @@ consumeToken
 convertAnyNominalType
 convertStoredVarInProtocolToComputed
 convertStructType
+convertToLogicValue
 convertToType
 convertType
 coverage
 create
-createAlloca
 createArchetypeBuilder
 createBindOverload
 createBindingFromPattern
@@ -104,6 +105,7 @@ diag
 diagAvailability
 diagnose
 diagnoseAmbiguousMemberType
+diagnoseClassWithoutInitializers
 diagnoseContextualConversionError
 diagnoseFailure
 diagnoseFailureForCallExpr
@@ -186,7 +188,6 @@ getAdapterModule
 getAdjacency
 getAnyOptionalObjectType
 getAsCanonicalGenericSignature
-getAsSingleValue
 getBBForReference
 getBoundTypesFromConstraint
 getBridgedToObjC
@@ -220,6 +221,7 @@ getFullName
 getFunction
 getGetElementPtr
 getIdentifier
+getImplicitProtocols
 getImplicitlyUnwrappedOptionalDecl
 getImplicitlyUnwrappedOptionalObjectType
 getImportedModules
@@ -234,6 +236,7 @@ getMembers
 getNestedType
 getNew
 getObjCSelector
+getOption
 getOptionalDecl
 getOverloadSignature
 getPartialApplyResultType
@@ -242,7 +245,6 @@ getProtocol
 getProtocols
 getRawComment
 getRelabeledType
-getRepresentative
 getSILFunctionType
 getSelfTypeForContainer
 getSourceRange
@@ -281,7 +283,6 @@ grow
 handleDiagnostic
 handleREPLInput
 hasNestedType
-hasObjCGetterAndSetter
 hasReferenceSemantics
 hasStorage
 highlight
@@ -301,7 +302,6 @@ isEqual
 isError
 isExistentialType
 isExistentialTypeImpl
-isPrintable
 isRepresentableInObjC
 isSimpleEnum
 isSpecialized
@@ -352,6 +352,7 @@ matchCallArguments
 matchDeepEqualityTypes
 matchExistentialTypes
 matchFunctionTypes
+matchSuperclassTypes
 matchTupleTypes
 matchTypes
 matchWitness
@@ -362,11 +363,13 @@ maybeReadGenericParams
 maybeReadPattern
 maybeReadSubstitution
 mergeEquivalenceClasses
+modifyAdjacency
 moveFromOldBuckets
 namelookup
 object
 openGeneric
 openType
+opt
 optimize
 optimizeApplyOfPartialApply
 optimizeConstraints
@@ -455,12 +458,12 @@ performTypeChecking
 prepareApplyExpr
 prepareLookupTable
 print
+printAliasInstr
 printContext
 printDeclUSR
 printIndent
 printName
 printOneChild
-printPatternDescription
 printPretty
 printText
 printTextImpl
@@ -497,16 +500,11 @@ resolveTypeDecl
 resolveTypeInContext
 runFunction
 runFunctionAsMain
-runFunctionPasses
-runOneIteration
-runSILOptimizationPasses
 salvage
-scanAliasOrAnchor
 serialization
 setConformsTo
 setDeserializedSignature
 setInvalidBracesRange
-setMetadataRef
 setNestedTypes
 setPattern
 setRawComment
@@ -564,7 +562,6 @@ typeCheckPattern
 typeCheckTopLevelCodeDecl
 unbindTypeVariable
 undo
-unicode
 validateAttributes
 validateDecl
 validateExtension

@@ -1,1 +1,1 @@
-../crashes-fuzzing/24779-swift-typebase-getcanonicaltype.swift
+../crashes-duplicates/24779-swift-typebase-getcanonicaltype.swift

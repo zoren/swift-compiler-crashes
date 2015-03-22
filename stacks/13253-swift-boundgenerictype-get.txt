@@ -9,7 +9,7 @@
 12 swift                    swift::TypeChecker::lookupMember(swift::Type, swift::DeclName, swift::DeclContext*, bool, bool) + 124
 13 swift                    swift::TypeChecker::lookupConstructors(swift::Type, swift::DeclContext*, bool) + 42
 14 swift                    swift::TypeChecker::defineDefaultConstructor(swift::NominalTypeDecl*) + 146
-15 swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 1067
+15 swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 1100
 16 swift                    swift::TypeChecker::checkInheritanceClause(swift::Decl*, swift::DeclContext*, swift::GenericTypeResolver*) + 4858
 17 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1296
 18 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1483
@@ -20,7 +20,7 @@
 23 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6356
 24 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6356
 25 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
-26 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1128
+26 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 968
 27 swift                    swift::CompilerInstance::performSema() + 2428
-28 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
+28 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
 29 swift                    main + 1814

@@ -3,7 +3,7 @@
 5  swift                    (anonymous namespace)::ReplaceDependentTypes::operator()(swift::Type) + 2138
 6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 54
 7  swift                    swift::constraints::ConstraintSystem::openType(swift::Type, swift::constraints::ConstraintLocatorBuilder, llvm::DenseMap<swift::CanType, swift::TypeVariableType*, llvm::DenseMapInfo<swift::CanType> >&, swift::DeclContext*, bool, swift::constraints::DependentTypeOpener*) + 149
-8  swift                    swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 8806
+8  swift                    swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 8820
 9  swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 180
 10 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1887
 11 swift                    (anonymous namespace)::Traversal::visitApplyExpr(swift::ApplyExpr*) + 128
@@ -13,15 +13,13 @@
 15 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 2040
 16 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
 17 swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 175
-18 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 498
+18 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 499
 19 swift                    swift::TypeChecker::typeCheckBinding(swift::PatternBindingDecl*) + 162
 20 swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*) + 402
-21 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 419
-22 swift                    swift::createImplicitConstructor(swift::TypeChecker&, swift::NominalTypeDecl*, swift::ImplicitConstructorKind) + 471
-23 swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 830
-24 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1272
-25 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
-26 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1128
-27 swift                    swift::CompilerInstance::performSema() + 2428
-28 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
-29 swift                    main + 1814
+21 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 239
+22 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1352
+23 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
+24 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 968
+25 swift                    swift::CompilerInstance::performSema() + 2428
+26 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
+27 swift                    main + 1814

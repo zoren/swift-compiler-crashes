@@ -22,5 +22,5 @@
 25 swift                    swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 427
 26 swift                    swift::SILModule::constructSIL(swift::Module*, swift::SILOptions&, swift::SourceFile*, llvm::Optional<unsigned int>, bool, bool) + 386
 27 swift                    swift::performSILGeneration(swift::SourceFile&, swift::SILOptions&, llvm::Optional<unsigned int>, bool) + 98
-28 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3760
+28 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 3823
 29 swift                    main + 1814

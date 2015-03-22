@@ -1,1 +1,1 @@
-../crashes-fuzzing/24433-swift-decl-getloc.swift
+../crashes-duplicates/24433-swift-decl-getloc.swift

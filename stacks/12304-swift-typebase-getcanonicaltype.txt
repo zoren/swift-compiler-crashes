@@ -9,7 +9,7 @@
 12 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11636
 13 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
 14 swift                    swift::addTrivialAccessorsToStorage(swift::AbstractStorageDecl*, swift::TypeChecker&) + 483
-15 swift                    swift::maybeAddAccessorsToVariable(swift::VarDecl*, swift::TypeChecker&) + 689
+15 swift                    swift::maybeAddAccessorsToVariable(swift::VarDecl*, swift::TypeChecker&) + 699
 16 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1965
 17 swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 3215
 18 swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, bool, swift::SourceLoc, bool) + 2172
@@ -25,7 +25,7 @@
 28 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1483
 29 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1848
 30 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
-31 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1128
+31 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 968
 32 swift                    swift::CompilerInstance::performSema() + 2428
-33 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
+33 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
 34 swift                    main + 1814

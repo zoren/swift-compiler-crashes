@@ -1,0 +1,17 @@
+4  swift                    std::__1::__function::__func<swift::ArchetypeBuilder::mapTypeIntoContext(swift::Module*, swift::GenericParamList*, swift::Type)::$_5, std::__1::allocator<swift::ArchetypeBuilder::mapTypeIntoContext(swift::Module*, swift::GenericParamList*, swift::Type)::$_5>, swift::Type (swift::Type)>::operator()(swift::Type&&) + 348
+5  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 54
+6  swift                    swift::ArchetypeBuilder::mapTypeIntoContext(swift::DeclContext*, swift::Type) + 149
+7  swift                    swift::constraints::Solution::computeSubstitutions(swift::Type, swift::DeclContext*, swift::Type, swift::constraints::ConstraintLocator*, llvm::SmallVectorImpl<swift::Substitution>&) const + 1204
+8  swift                    std::__1::__function::__func<matchWitness((anonymous namespace)::ConformanceChecker&, swift::TypeChecker&, swift::NormalProtocolConformance*, swift::DeclContext*, swift::ValueDecl*, swift::ValueDecl*)::$_3, std::__1::allocator<matchWitness((anonymous namespace)::ConformanceChecker&, swift::TypeChecker&, swift::NormalProtocolConformance*, swift::DeclContext*, swift::ValueDecl*, swift::ValueDecl*)::$_3>, (anonymous namespace)::RequirementMatch (bool, llvm::ArrayRef<(anonymous namespace)::OptionalAdjustment>)>::operator()(bool&&, llvm::ArrayRef<(anonymous namespace)::OptionalAdjustment>&&) + 1095
+9  swift                    matchWitness((anonymous namespace)::ConformanceChecker&, swift::TypeChecker&, swift::NormalProtocolConformance*, swift::DeclContext*, swift::ValueDecl*, swift::ValueDecl*) + 6793
+10 swift                    (anonymous namespace)::ConformanceChecker::resolveWitnessViaDerivation(swift::ValueDecl*) + 210
+11 swift                    swift::TypeChecker::conformsToProtocol(swift::Type, swift::ProtocolDecl*, swift::DeclContext*, bool, swift::ProtocolConformance**, swift::SourceLoc, swift::Decl*) + 5001
+12 swift                    void (anonymous namespace)::DeclChecker::checkExplicitConformance<swift::EnumDecl>(swift::EnumDecl*, swift::Type) + 237
+13 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6308
+14 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1848
+15 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 6356
+16 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
+17 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1114
+18 swift                    swift::CompilerInstance::performSema() + 2428
+19 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
+20 swift                    main + 1814

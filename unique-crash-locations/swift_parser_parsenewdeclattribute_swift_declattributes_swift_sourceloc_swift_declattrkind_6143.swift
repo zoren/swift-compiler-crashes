@@ -1,1 +1,1 @@
-../crashes-fuzzing/24271-swift-parser-parsetypeattribute.swift
+../crashes-duplicates/24271-swift-parser-parsetypeattribute.swift

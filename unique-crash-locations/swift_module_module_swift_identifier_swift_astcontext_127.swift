@@ -1,1 +1,1 @@
-../crashes-fuzzing/24261-lookupvisiblememberdeclsimpl.swift
+../crashes-duplicates/24261-lookupvisiblememberdeclsimpl.swift

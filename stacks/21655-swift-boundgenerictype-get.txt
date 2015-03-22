@@ -9,14 +9,14 @@
 12 swift                    swift::TypeChecker::lookupMember(swift::Type, swift::DeclName, swift::DeclContext*, bool, bool) + 124
 13 swift                    swift::TypeChecker::lookupConstructors(swift::Type, swift::DeclContext*, bool) + 42
 14 swift                    swift::TypeChecker::defineDefaultConstructor(swift::NominalTypeDecl*) + 146
-15 swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 1067
+15 swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 1100
 16 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1770
 17 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
 18 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 429
 19 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 371
 20 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 150
-21 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 227
-22 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1493
+21 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 221
+22 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1333
 23 swift                    swift::CompilerInstance::performSema() + 2428
-24 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
+24 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
 25 swift                    main + 1814

@@ -1,1 +1,1 @@
-../crashes-fuzzing/24707-swift-archetypebuilder-finalize.swift
+../crashes-duplicates/24707-swift-archetypebuilder-finalize.swift

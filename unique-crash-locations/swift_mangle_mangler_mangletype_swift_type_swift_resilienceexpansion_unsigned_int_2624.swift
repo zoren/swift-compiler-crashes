@@ -1,1 +1,1 @@
-../crashes-fuzzing/24639-swift-sourcefile-getdiscriminatorforprivatevalue.swift
+../crashes-duplicates/24639-swift-sourcefile-getdiscriminatorforprivatevalue.swift

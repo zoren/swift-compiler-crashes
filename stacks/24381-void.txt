@@ -1,4 +1,4 @@
-3  swift                    void std::__1::vector<std::__1::pair<swift::SILDeclRef, swift::SILFunction*>, std::__1::allocator<std::__1::pair<swift::SILDeclRef, swift::SILFunction*> > >::__emplace_back_slow_path<swift::SILDeclRef&, swift::SILFunction*&>(swift::SILDeclRef&&&, swift::SILFunction*&&&) + 288
+3  swift                    isLegalUTF8String + 80
 4  swift                    swift::TypeBase::getCanonicalType() + 1504
 5  swift                    swift::TypeBase::getCanonicalType() + 762
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 434
@@ -18,7 +18,7 @@
 20 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 846
 21 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 4952
 22 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
-23 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1128
+23 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 968
 24 swift                    swift::CompilerInstance::performSema() + 2428
-25 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
+25 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
 26 swift                    main + 1814

@@ -1,4 +1,3 @@
-3  swift                    swift::constraints::ConstraintSystem::assignFixedType(swift::TypeVariableType*, swift::Type, bool) + 396
 4  swift                    swift::TypeBase::getCanonicalType() + 1504
 5  swift                    swift::TypeBase::getCanonicalType() + 762
 6  swift                    swift::removeShadowedDecls(llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::Module const*, swift::LazyResolver*) + 434
@@ -22,8 +21,8 @@
 24 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 429
 25 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 371
 26 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 150
-27 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 227
-28 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1493
+27 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 221
+28 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1333
 29 swift                    swift::CompilerInstance::performSema() + 2428
-30 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
+30 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
 31 swift                    main + 1814

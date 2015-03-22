@@ -1,8 +1,0 @@
-4  swift                    (anonymous namespace)::DCE::markControllingTerminatorsLive(swift::SILBasicBlock*) + 346
-5  swift                    (anonymous namespace)::DCE::markValueLive(swift::ValueBase*) + 201
-6  swift                    (anonymous namespace)::DCE::run() + 1983
-7  swift                    swift::SILPassManager::runFunctionPasses(llvm::ArrayRef<swift::SILFunctionTransform*>) + 1310
-8  swift                    swift::SILPassManager::runOneIteration() + 633
-9  swift                    swift::runSILOptimizationPasses(swift::SILModule&) + 790
-10 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 4584
-11 swift                    main + 1814

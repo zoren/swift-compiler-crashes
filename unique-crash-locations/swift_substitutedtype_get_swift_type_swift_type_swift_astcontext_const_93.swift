@@ -1,1 +1,1 @@
-../crashes-fuzzing/24408-swift-substitutedtype-get.swift
+../crashes-duplicates/24408-swift-substitutedtype-get.swift

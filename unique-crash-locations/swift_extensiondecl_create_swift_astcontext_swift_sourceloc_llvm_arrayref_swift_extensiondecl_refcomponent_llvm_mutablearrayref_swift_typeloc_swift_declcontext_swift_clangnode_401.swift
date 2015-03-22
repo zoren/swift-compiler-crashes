@@ -1,1 +1,1 @@
-../crashes-fuzzing/24678-swift-extensiondecl-create.swift
+../crashes-duplicates/24678-swift-extensiondecl-create.swift

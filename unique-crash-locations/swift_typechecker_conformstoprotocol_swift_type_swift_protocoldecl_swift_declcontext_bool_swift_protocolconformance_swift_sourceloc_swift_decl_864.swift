@@ -1,1 +1,1 @@
-../crashes-fuzzing/24487-swift-typechecker-conformstoprotocol.swift
+../crashes-duplicates/24487-swift-typechecker-conformstoprotocol.swift

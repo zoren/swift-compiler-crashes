@@ -1,1 +1,1 @@
-../crashes-fuzzing/24660-swift-protocoltype-compareprotocols.swift
+../crashes-duplicates/24660-swift-protocoltype-compareprotocols.swift

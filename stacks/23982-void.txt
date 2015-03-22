@@ -3,7 +3,7 @@
 6  swift                    void checkCircularity<swift::EnumDecl>(swift::TypeChecker&, swift::EnumDecl*, swift::Diag<llvm::StringRef>, swift::Diag<swift::Identifier>, llvm::SmallVectorImpl<swift::EnumDecl*>&) + 1099
 7  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 860
 8  swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
-9  swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1128
+9  swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 968
 10 swift                    swift::CompilerInstance::performSema() + 2428
-11 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
+11 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
 12 swift                    main + 1814

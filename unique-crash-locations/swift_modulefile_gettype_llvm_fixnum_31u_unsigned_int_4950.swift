@@ -1,1 +1,1 @@
-../crashes-fuzzing/24311-swift-modulefile-gettype.swift
+../crashes-duplicates/24311-swift-modulefile-gettype.swift

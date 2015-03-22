@@ -1,1 +1,1 @@
-../crashes-fuzzing/24588-swift-enumelementdecl-getsourcerange.swift
+../crashes-duplicates/24588-swift-enumelementdecl-getsourcerange.swift

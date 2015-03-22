@@ -1,5 +1,5 @@
-3  swift                    swift::TypeVariableType::Implementation::getRepresentative(llvm::SmallVector<swift::constraints::SavedTypeVariableBinding, 16u>*) + 181
-4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 358
+3  swift                    llvm::StringMapImpl::LookupBucketFor(llvm::StringRef) + 338
+4  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 281
 5  swift                    swift::configureImplicitSelf(swift::TypeChecker&, swift::AbstractFunctionDecl*, swift::GenericParamList*&) + 109
 6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11490
 7  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 769
@@ -33,7 +33,7 @@
 35 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 846
 36 swift                    checkRedeclaration(swift::TypeChecker&, swift::ValueDecl*) + 599
 37 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 154
-38 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1128
+38 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 968
 39 swift                    swift::CompilerInstance::performSema() + 2428
-40 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
+40 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
 41 swift                    main + 1814

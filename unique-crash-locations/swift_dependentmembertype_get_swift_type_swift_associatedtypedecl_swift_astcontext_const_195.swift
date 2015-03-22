@@ -1,1 +1,1 @@
-../crashes-fuzzing/24760-swift-dependentmembertype-get.swift
+../crashes-duplicates/24760-swift-dependentmembertype-get.swift

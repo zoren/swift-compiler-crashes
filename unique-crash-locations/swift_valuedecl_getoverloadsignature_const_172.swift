@@ -1,1 +1,1 @@
-../crashes-fuzzing/24763-swift-valuedecl-getoverloadsignature.swift
+../crashes-duplicates/24763-swift-valuedecl-getoverloadsignature.swift

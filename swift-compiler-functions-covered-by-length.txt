@@ -16,6 +16,7 @@ diagnoseContextualConversionError
 diagnoseGeneralValueMemberFailure
 getTypeOfIndependentSubExpression
 addValueWitnessesForAbstractType
+diagnoseClassWithoutInitializers
 diagnoseGeneralConversionFailure
 getInterfaceTypeFromInternalType
 simplifyOptionalObjectConstraint
@@ -105,7 +106,6 @@ getStringLiteralSegments
 getTypeOfMemberReference
 mapSignatureFunctionType
 parsePatternTupleAfterLP
-runSILOptimizationPasses
 setDeserializedSignature
 simplifyMemberConstraint
 validateGenericSignature
@@ -122,7 +122,6 @@ maybeParseGenericParams
 mergeEquivalenceClasses
 parseIdentifierDeclName
 parseNominalDeclMembers
-printPatternDescription
 typeCheckForEachBinding
 visitPatternBindingDecl
 addSameTypeRequirement
@@ -136,7 +135,6 @@ diagnoseFailureForExpr
 emitNominalMetadataRef
 emitTranslatePrimitive
 gatherAllSubstitutions
-hasObjCGetterAndSetter
 importDeclAndCacheImpl
 isUnspecializedGeneric
 matchDeepEqualityTypes
@@ -189,11 +187,13 @@ formatDiagnosticText
 getAPINotesForModule
 getConstraintLocator
 getExemplarArchetype
+getImplicitProtocols
 getMemberForBaseType
 getOverloadSignature
 getPotentialBindings
 getTBAAStructTagInfo
 getUniqueSourceFiles
+matchSuperclassTypes
 maybeReadConformance
 parseDefaultArgument
 parseMatchingPattern
@@ -211,6 +211,7 @@ addNestedArchetypes
 checkDeclAttributes
 coercePatternToType
 collectRequirements
+convertToLogicValue
 deriveAllArchetypes
 diagnoseUnknownType
 emitLazyDefinitions
@@ -287,7 +288,6 @@ gatherConstraints
 getBBForReference
 getCommentForDecl
 getDictionaryDecl
-getRepresentative
 inferRequirements
 isExistentialType
 lookupConformance
@@ -303,8 +303,6 @@ readSILBasicBlock
 removedConstraint
 requiresClassSlow
 runFunctionAsMain
-runFunctionPasses
-scanAliasOrAnchor
 substFunctionType
 validateExtension
 verifyDiagnostics
@@ -317,7 +315,6 @@ emitCategoryData
 emitClosureValue
 findBestSolution
 getAdapterModule
-getAsSingleValue
 getBridgedToObjC
 getCanonicalType
 getDesugaredType
@@ -372,6 +369,7 @@ isUnaryOperator
 lookupObjCClass
 lookupQualified
 matchTupleTypes
+modifyAdjacency
 parseBraceItems
 parseDeclDeinit
 parseDeclImport
@@ -382,9 +380,9 @@ parseIdentifier
 parseStmtReturn
 parseStmtSwitch
 parseTypeSimple
+printAliasInstr
 resolveOverload
 resolveTypeDecl
-runOneIteration
 simplifyLocator
 solveSimplified
 addConformance
@@ -411,7 +409,6 @@ parseDeclClass
 parseExprArray
 parseExprUnary
 readTypeRecord
-setMetadataRef
 setNestedTypes
 setSpecialized
 setTypeWitness
@@ -458,7 +455,6 @@ canParseType
 coerceToType
 constructSIL
 consumeToken
-createAlloca
 createSimple
 emitCallSite
 emitExprInto
@@ -492,7 +488,6 @@ getFullName
 getFunction
 getProtocol
 getTypeInfo
-isPrintable
 lookupValue
 openGeneric
 parseStmtIf
@@ -523,6 +518,7 @@ setPattern
 skipRecord
 skipSingle
 emitApply
+getOption
 getStream
 getString
 highlight
@@ -554,7 +550,6 @@ lexImpl
 project
 salvage
 setType
-unicode
 create
 format
 getLoc
@@ -566,6 +561,7 @@ reader
 record
 verify
 build
+claim
 clang
 clone
 irgen
@@ -587,6 +583,7 @@ walk
 yaml
 get
 ide
+opt
 std
 str
 sys
