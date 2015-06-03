@@ -1,7 +1,5 @@
-3  libswiftCore.dylib       _getDescription(SwiftObject*)::convertStringToNSString + 19344
-4  libswiftCore.dylib       _getDescription(SwiftObject*)::convertStringToNSString + [N]
 5  swift                    llvm::MCJIT::runFunction(llvm::Function*, std::__1::vector<llvm::GenericValue, std::__1::allocator<llvm::GenericValue> > const&) + 276
 6  swift                    llvm::ExecutionEngine::runFunctionAsMain(llvm::Function*, std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, char const* const*) + 1174
 7  swift                    swift::RunImmediately(swift::CompilerInstance&, std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, swift::IRGenOptions&, swift::SILOptions const&) + 1737
-8  swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 6293
+8  swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 6392
 9  swift                    main + 1814

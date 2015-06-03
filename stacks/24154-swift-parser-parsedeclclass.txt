@@ -1,4 +1,3 @@
-3  swift                    llvm::raw_fd_ostream::write_impl(char const*, unsigned long) + 89
 4  swift                    swift::DeclContext::lookupQualified(swift::Type, swift::DeclName, unsigned int, swift::LazyResolver*, llvm::SmallVectorImpl<swift::ValueDecl*>&) const + 58
 5  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, bool, swift::SourceLoc, bool) + 2172
 6  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, bool, swift::SourceLoc, bool) + 24
@@ -15,8 +14,8 @@
 17 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 429
 18 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 371
 19 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 150
-20 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 227
-21 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1493
+20 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 221
+21 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1333
 22 swift                    swift::CompilerInstance::performSema() + 2428
-23 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
+23 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
 24 swift                    main + 1814

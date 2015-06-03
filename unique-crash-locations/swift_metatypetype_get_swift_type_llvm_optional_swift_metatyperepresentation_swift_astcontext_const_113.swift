@@ -1,1 +1,1 @@
-../crashes-fuzzing/00879-swift-classtype-get.swift
+../crashes-fuzzing/24344-swift-metatypetype-get.swift

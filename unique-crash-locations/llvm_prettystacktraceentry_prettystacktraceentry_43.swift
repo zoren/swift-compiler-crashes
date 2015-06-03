@@ -1,1 +1,1 @@
-../crashes-fuzzing/03558-swift-nominaltypedecl-computeinterfacetype.swift
+../crashes-fuzzing/24813-llvm-prettystacktraceentry-prettystacktraceentry.swift

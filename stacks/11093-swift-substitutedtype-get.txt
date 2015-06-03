@@ -5,7 +5,7 @@
 8  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 324
 9  swift                    swift::TypeBase::getSuperclass(swift::LazyResolver*) + 783
 10 swift                    swift::TypeChecker::defineDefaultConstructor(swift::NominalTypeDecl*) + 108
-11 swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 1067
+11 swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 1100
 12 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1770
 13 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1352
 14 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1848
@@ -14,8 +14,8 @@
 17 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 429
 18 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 371
 19 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 150
-20 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 227
-21 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1493
+20 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 221
+21 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1333
 22 swift                    swift::CompilerInstance::performSema() + 2428
-23 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
+23 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
 24 swift                    main + 1814

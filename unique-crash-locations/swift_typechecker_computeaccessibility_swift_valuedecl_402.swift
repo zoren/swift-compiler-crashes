@@ -1,1 +1,1 @@
-../crashes-fuzzing/24045-swift-typechecker-computeaccessibility.swift
+../crashes-fuzzing/24338-swift-typechecker-computeaccessibility.swift

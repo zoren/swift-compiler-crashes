@@ -6,9 +6,9 @@
 8  swift                    swift::irgen::IRGenFunction::bindArchetype(swift::ArchetypeType*, llvm::Value*, llvm::ArrayRef<llvm::Value*>) + 83
 9  swift                    swift::irgen::emitClassExistentialProjection(swift::irgen::IRGenFunction&, swift::irgen::Explosion&, swift::SILType, swift::CanTypeWrapper<swift::ArchetypeType>) + 100
 10 swift                    swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 26222
-11 swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9581
+11 swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 9901
 12 swift                    swift::irgen::IRGenModule::emitGlobalTopLevel() + 159
 13 swift                    performIRGeneration(swift::IRGenOptions&, swift::Module*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 2121
 14 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 51
-15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 10315
+15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 6631
 16 swift                    main + 1814

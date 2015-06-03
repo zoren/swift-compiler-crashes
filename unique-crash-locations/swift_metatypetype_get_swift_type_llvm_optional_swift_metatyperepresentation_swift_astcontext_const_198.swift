@@ -1,1 +1,1 @@
-../crashes-fuzzing/10941-swift-nominaltypedecl-computetype.swift
+../crashes-fuzzing/24475-swift-metatypetype-get.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/24204-llvm-bumpptrallocatorimpl-llvm-mallocallocator.swift
+../crashes-duplicates/24204-llvm-bumpptrallocatorimpl-llvm-mallocallocator.swift

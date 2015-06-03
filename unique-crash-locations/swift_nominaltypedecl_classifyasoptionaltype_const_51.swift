@@ -1,1 +1,1 @@
-../crashes-fuzzing/05946-swift-nominaltypedecl-classifyasoptionaltype.swift
+../crashes-duplicates/05946-swift-nominaltypedecl-classifyasoptionaltype.swift

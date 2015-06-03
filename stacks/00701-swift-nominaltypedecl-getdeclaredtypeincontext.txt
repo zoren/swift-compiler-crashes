@@ -1,5 +1,5 @@
 4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 232
-5  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 56
+5  swift                    getSelfTypeForContainer(swift::AbstractFunctionDecl*, bool, bool, swift::GenericParamList**) + 53
 6  swift                    swift::configureImplicitSelf(swift::TypeChecker&, swift::AbstractFunctionDecl*, swift::GenericParamList*&) + 109
 7  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11490
 8  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 769
@@ -17,7 +17,7 @@
 20 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 640
 21 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1848
 22 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
-23 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1128
+23 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 968
 24 swift                    swift::CompilerInstance::performSema() + 2428
-25 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
+25 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
 26 swift                    main + 1814

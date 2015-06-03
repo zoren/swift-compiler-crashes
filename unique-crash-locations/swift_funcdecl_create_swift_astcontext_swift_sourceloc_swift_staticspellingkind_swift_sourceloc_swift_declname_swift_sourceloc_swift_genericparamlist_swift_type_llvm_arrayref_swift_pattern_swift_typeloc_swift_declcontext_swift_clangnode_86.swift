@@ -1,1 +1,1 @@
-../crashes-fuzzing/24012-swift-funcdecl-create.swift
+../crashes-duplicates/24012-swift-funcdecl-create.swift

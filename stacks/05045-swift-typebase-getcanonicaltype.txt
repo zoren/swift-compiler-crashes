@@ -3,12 +3,12 @@
 6  swift                    swift::TypeChecker::lookupMember(swift::Type, swift::DeclName, swift::DeclContext*, bool, bool) + 124
 7  swift                    swift::TypeChecker::lookupConstructors(swift::Type, swift::DeclContext*, bool) + 42
 8  swift                    swift::TypeChecker::defineDefaultConstructor(swift::NominalTypeDecl*) + 146
-9  swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 1067
+9  swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*, llvm::SmallVectorImpl<swift::Decl*>&) + 1100
 10 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1770
 11 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1848
 12 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1848
 13 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
-14 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1274
+14 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1114
 15 swift                    swift::CompilerInstance::performSema() + 2428
-16 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2148
+16 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
 17 swift                    main + 1814

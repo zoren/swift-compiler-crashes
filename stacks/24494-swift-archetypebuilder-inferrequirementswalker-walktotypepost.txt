@@ -1,0 +1,13 @@
+4  swift                    swift::ArchetypeBuilder::InferRequirementsWalker::walkToTypePost(swift::Type) + 80
+5  swift                    swift::TypeVisitor<(anonymous namespace)::Traversal, bool>::visit(swift::Type) + 3756
+6  swift                    swift::Type::walk(swift::TypeWalker&) const + 54
+7  swift                    swift::ArchetypeBuilder::inferRequirements(swift::TypeLoc) + 89
+8  swift                    checkGenericFuncSignature(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::AbstractFunctionDecl*, swift::GenericTypeResolver&) + 362
+9  swift                    swift::TypeChecker::validateGenericFuncSignature(swift::AbstractFunctionDecl*) + 89
+10 swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 11636
+11 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 769
+12 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 664
+13 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1333
+14 swift                    swift::CompilerInstance::performSema() + 2428
+15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
+16 swift                    main + 1814

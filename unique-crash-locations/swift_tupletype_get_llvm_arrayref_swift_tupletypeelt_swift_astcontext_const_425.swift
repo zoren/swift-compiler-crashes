@@ -1,1 +1,1 @@
-../crashes-fuzzing/00190-swift-constraints-constraintgraph-unbindtypevariable.swift
+../crashes-duplicates/24224-swift-tupletype-get.swift

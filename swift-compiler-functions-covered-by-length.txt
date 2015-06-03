@@ -1,7 +1,9 @@
 emitPolymorphicParametersForGenericValueWitness
 lookThroughImplicitlyUnwrappedOptionalType
 getImplicitlyUnwrappedOptionalObjectType
+consumeStartingCharacterOfCurrentToken
 isValidIdentifierContinuationCodePoint
+propagateConcreteTypeOfInitExistential
 getTypeLoweringForUncachedLoweredType
 getUncachedSILFunctionTypeForConstant
 addTypeVariableConstraintsToWorkList
@@ -10,7 +12,11 @@ emitOpaqueExistentialContainerUpcast
 getImplicitlyUnwrappedOptionalDecl
 typeCheckConditionalPatternBinding
 typeCheckFunctionsAndExternalDecls
+diagnoseContextualConversionError
+diagnoseGeneralValueMemberFailure
+getTypeOfIndependentSubExpression
 addValueWitnessesForAbstractType
+diagnoseClassWithoutInitializers
 diagnoseGeneralConversionFailure
 getInterfaceTypeFromInternalType
 simplifyOptionalObjectConstraint
@@ -25,6 +31,7 @@ fillObjCRepresentableTypeCache
 getAsCanonicalGenericSignature
 getDelegatingOrChainedInitKind
 isClassOrClassExtensionContext
+isTriviallyRepresentableInObjC
 parseClosureSignatureIfPresent
 simplifyApplicableFnConstraint
 simplifyConstructionConstraint
@@ -34,6 +41,7 @@ tryMangleStandardSubstitution
 typeCheckAbstractFunctionBody
 typeCheckConstructorBodyUntil
 addTrivialAccessorsToStorage
+canBeAccessedByDynamicLookup
 createDesignatedInitOverride
 emitGeneralizedFunctionValue
 emitTypeMetadataRefForLayout
@@ -57,6 +65,8 @@ addPatternVariablesToScope
 cleanupIllFormedExpression
 computeConnectedComponents
 createTrivialSubstitutions
+diagnoseFailureForCallExpr
+parseSingleParameterClause
 resolveDependentMemberType
 skipUntilGreaterInTypeList
 typeCheckExpressionShallow
@@ -68,6 +78,7 @@ checkTypeDeclAvailability
 createImplicitConstructor
 emitDirectTypeMetadataRef
 emitLazyGlobalInitializer
+emitObjCConformanceThunks
 getBridgingHeaderContents
 getLoweredASTFunctionType
 getPartialApplyResultType
@@ -84,12 +95,14 @@ constructCallToSuperInit
 createBindingFromPattern
 defineDefaultConstructor
 emitGlobalInitialization
+emitObjCConstructorThunk
 emitPolymorphicArguments
 finalizeGenericParamList
 finishLoadingClangModule
 getAnyOptionalObjectType
 getDeclaredInterfaceType
 getDeclaredTypeInContext
+getStringLiteralSegments
 getTypeOfMemberReference
 mapSignatureFunctionType
 parsePatternTupleAfterLP
@@ -152,6 +165,7 @@ isDeclAsSpecializedAs
 isExistentialTypeImpl
 isRepresentableInObjC
 lexOperatorIdentifier
+matchExistentialTypes
 maybeReadSubstitution
 parseGenericArguments
 parseNewDeclAttribute
@@ -173,11 +187,13 @@ formatDiagnosticText
 getAPINotesForModule
 getConstraintLocator
 getExemplarArchetype
+getImplicitProtocols
 getMemberForBaseType
 getOverloadSignature
 getPotentialBindings
 getTBAAStructTagInfo
 getUniqueSourceFiles
+matchSuperclassTypes
 maybeReadConformance
 parseDefaultArgument
 parseMatchingPattern
@@ -195,6 +211,7 @@ addNestedArchetypes
 checkDeclAttributes
 coercePatternToType
 collectRequirements
+convertToLogicValue
 deriveAllArchetypes
 diagnoseUnknownType
 emitLazyDefinitions
@@ -205,7 +222,9 @@ getBuiltinValueDecl
 getCallerDefaultArg
 getLocForEndOfToken
 getWrapperForModule
+isUnknownObjectType
 mapParsedParameters
+optimizeConstraints
 parseExprCallSuffix
 parseExprCollection
 parseExprDictionary
@@ -217,6 +236,7 @@ performIRGeneration
 performTypeChecking
 removeShadowedDecls
 typeCheckExpression
+writeBlockInfoBlock
 checkEnumRawValues
 checkRedeclaration
 checkSubstitutions
@@ -234,6 +254,7 @@ getTypeOfReference
 isSubstitutableFor
 lineLooksLikeLabel
 lookupConstructors
+lookupVisibleDecls
 mapTypeIntoContext
 matchCallArguments
 matchFunctionTypes
@@ -257,6 +278,7 @@ simplifyConstraint
 typeCheckCondition
 unbindTypeVariable
 validateAttributes
+visitExtensionDecl
 convertStructType
 createDisjunction
 createNominalType
@@ -285,9 +307,11 @@ substFunctionType
 validateExtension
 verifyDiagnostics
 addIdentifierRef
+compareProtocols
 compareSolutions
 configureStorage
 diagAvailability
+emitCategoryData
 emitClosureValue
 findBestSolution
 getAdapterModule
@@ -299,6 +323,7 @@ getInterfaceType
 getRelabeledType
 getSubstitutions
 getTypeVariables
+getUnlabeledType
 handleDiagnostic
 kindOfIdentifier
 lexStringLiteral
@@ -344,6 +369,7 @@ isUnaryOperator
 lookupObjCClass
 lookupQualified
 matchTupleTypes
+modifyAdjacency
 parseBraceItems
 parseDeclDeinit
 parseDeclImport
@@ -354,10 +380,12 @@ parseIdentifier
 parseStmtReturn
 parseStmtSwitch
 parseTypeSimple
+printAliasInstr
 resolveOverload
 resolveTypeDecl
 simplifyLocator
 solveSimplified
+addConformance
 addOverloadSet
 addRequirement
 emitCurryThunk
@@ -365,6 +393,7 @@ emitReturnExpr
 emitSourceFile
 emitStructDecl
 getConformance
+getDeclContext
 getDefaultType
 getDynamicSelf
 getSourceRange
@@ -380,7 +409,6 @@ parseDeclClass
 parseExprArray
 parseExprUnary
 readTypeRecord
-setMetadataRef
 setNestedTypes
 setSpecialized
 setTypeWitness
@@ -392,6 +420,7 @@ bindArchetype
 convertToType
 createForDecl
 emitApplyExpr
+emitExtension
 flushComments
 getConformsTo
 getExtensions
@@ -426,7 +455,6 @@ canParseType
 coerceToType
 constructSIL
 consumeToken
-createAlloca
 createSimple
 emitCallSite
 emitExprInto
@@ -436,6 +464,7 @@ getAdjacency
 getProtocols
 getTypeEntry
 isSimpleEnum
+lexCharacter
 lookupDirect
 lookupMember
 makeComputed
@@ -459,7 +488,6 @@ getFullName
 getFunction
 getProtocol
 getTypeInfo
-isPrintable
 lookupValue
 openGeneric
 parseStmtIf
@@ -469,6 +497,7 @@ printPretty
 readMembers
 resolveType
 runFunction
+writeHeader
 addToScope
 destroyAll
 emitRValue
@@ -488,8 +517,8 @@ removeNode
 setPattern
 skipRecord
 skipSingle
-toLineList
 emitApply
+getOption
 getStream
 getString
 highlight
@@ -521,7 +550,6 @@ lexImpl
 project
 salvage
 setType
-unicode
 create
 format
 getLoc
@@ -531,7 +559,9 @@ mangle
 object
 reader
 record
+verify
 build
+claim
 clang
 clone
 irgen
@@ -542,6 +572,7 @@ subst
 swift
 visit
 write
+diag
 dump
 errs
 find
@@ -552,6 +583,7 @@ walk
 yaml
 get
 ide
+opt
 std
 str
 sys
