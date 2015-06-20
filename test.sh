@@ -167,7 +167,7 @@ test_file() {
         swift_crash=1
         compilation_comment="malloc"
         break
-      elif [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1) ]]; then
+      elif [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1|error:\ swift\ frontend\ command\ failed\ due\ to\ signal) ]]; then
         swift_crash=1
         compilation_comment=""
         break
@@ -181,7 +181,7 @@ test_file() {
   #            Used for test cases named *.sil.swift.
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.sil\. ]]; then
     output=$(xcrun -sdk ${sdk} swiftc -parse-sil -o /dev/null ${files_to_compile} 2>&1 | strings)
-    if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1) ]]; then
+    if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1|error:\ swift\ frontend\ command\ failed\ due\ to\ signal) ]]; then
       swift_crash=1
       compilation_comment="sil"
     fi
@@ -196,7 +196,7 @@ test_file() {
         swift_crash=1
         compilation_comment="malloc"
         break
-      elif [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1) ]]; then
+      elif [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1|error:\ swift\ frontend\ command\ failed\ due\ to\ signal) ]]; then
         swift_crash=1
         compilation_comment="-O"
         break
