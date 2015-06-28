@@ -1,0 +1,14 @@
+3  swift                    vtable for llvm::FoldingSet<clang::CodeGen::CGFunctionInfo> + 55
+6  swift                    llvm::APInt::APInt(unsigned int, unsigned long long, bool) + 140
+7  swift                    (anonymous namespace)::StructTypeInfoBase<(anonymous namespace)::LoadableStructTypeInfo, swift::irgen::LoadableTypeInfo, (anonymous namespace)::StructFieldInfo>::getFixedExtraInhabitantMask(swift::irgen::IRGenModule&) const + 154
+8  swift                    (anonymous namespace)::SinglePayloadEnumImplStrategy::emitValueCaseTest(swift::irgen::IRGenFunction&, swift::irgen::Explosion&, swift::EnumElementDecl*) const + 257
+9  swift                    (anonymous namespace)::SinglePayloadEnumImplStrategy::emitValueCaseTest(swift::irgen::IRGenFunction&, swift::irgen::Explosion&, swift::EnumElementDecl*) const + 1388
+10 swift                    swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 48669
+11 swift                    (anonymous namespace)::IRGenSILFunction::emitSILFunction() + 11781
+12 swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 659
+13 swift                    swift::irgen::IRGenModuleDispatcher::emitGlobalTopLevel() + 412
+14 swift                    performIRGeneration(swift::IRGenOptions&, swift::ModuleDecl*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 810
+15 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 70
+16 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 11663
+17 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
+18 swift                    main + 1983

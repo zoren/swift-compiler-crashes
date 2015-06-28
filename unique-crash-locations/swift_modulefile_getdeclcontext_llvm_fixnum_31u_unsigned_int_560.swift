@@ -1,1 +1,1 @@
-../crashes-fuzzing/24396-swift-modulefile-getdeclcontext.swift
+../crashes-duplicates/24396-swift-modulefile-getdeclcontext.swift

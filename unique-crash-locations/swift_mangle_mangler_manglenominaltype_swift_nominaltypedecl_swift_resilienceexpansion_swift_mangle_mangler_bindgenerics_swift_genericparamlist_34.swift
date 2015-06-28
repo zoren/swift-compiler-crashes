@@ -1,1 +1,1 @@
-../crashes-fuzzing/21398-swift-mangle-mangler-manglenominaltype.swift
+../crashes-duplicates/21398-swift-mangle-mangler-manglenominaltype.swift

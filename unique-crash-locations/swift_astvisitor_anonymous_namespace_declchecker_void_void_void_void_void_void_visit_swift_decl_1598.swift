@@ -1,1 +1,1 @@
-../crashes-fuzzing/10707-swift-astvisitor.swift
+../crashes-duplicates/10707-swift-astvisitor.swift

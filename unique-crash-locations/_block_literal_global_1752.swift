@@ -1,1 +1,1 @@
-../crashes-fuzzing/00723-getselftypeforcontainer.swift
+../crashes-duplicates/00723-getselftypeforcontainer.swift

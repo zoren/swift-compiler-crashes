@@ -1,1 +1,1 @@
-../crashes-fuzzing/24689-clang-astwriter-writecomments.swift
+../crashes-duplicates/24689-clang-astwriter-writecomments.swift

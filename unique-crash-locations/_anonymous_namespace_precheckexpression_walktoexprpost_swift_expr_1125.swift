@@ -1,1 +1,1 @@
-../crashes-fuzzing/21992-finalizegenericparamlist.swift
+../crashes-duplicates/21992-finalizegenericparamlist.swift

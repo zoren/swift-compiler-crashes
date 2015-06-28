@@ -1,1 +1,1 @@
-../crashes-fuzzing/22659-std-function-func-swift-type-subst.swift
+../crashes-duplicates/22659-std-function-func-swift-type-subst.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/00748-getmemberforbasetype.swift
+../crashes-duplicates/00748-getmemberforbasetype.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/08931-swift-valuedecl-getinterfacetype.swift
+../crashes-duplicates/08931-swift-valuedecl-getinterfacetype.swift

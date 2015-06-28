@@ -1,1 +1,1 @@
-../crashes-fuzzing/10077-llvm-foldingset-swift-structtype-nodeequals.swift
+../crashes-duplicates/10077-llvm-foldingset-swift-structtype-nodeequals.swift

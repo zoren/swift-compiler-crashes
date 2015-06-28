@@ -1,1 +1,1 @@
-../crashes-fuzzing/24481-swift-valuedecl-overwritetype.swift
+../crashes-duplicates/24481-swift-valuedecl-overwritetype.swift

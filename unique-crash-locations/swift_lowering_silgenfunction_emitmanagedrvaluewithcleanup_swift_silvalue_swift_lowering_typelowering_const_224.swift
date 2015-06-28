@@ -1,0 +1,1 @@
+../crashes/21272-empty-stacktrace.swift

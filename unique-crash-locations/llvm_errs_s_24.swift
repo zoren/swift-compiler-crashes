@@ -1,1 +1,1 @@
-../crashes-fuzzing/23435-swift-nominaltypedecl-getdeclaredtypeincontext.swift
+../crashes-duplicates/23435-swift-nominaltypedecl-getdeclaredtypeincontext.swift

@@ -1,0 +1,23 @@
+3  swift                    std::__1::__function::__func<swift::ArchetypeBuilder::mapTypeIntoContext(swift::ModuleDecl*, swift::GenericParamList*, swift::Type, swift::LazyResolver*)::$_7, std::__1::allocator<swift::ArchetypeBuilder::mapTypeIntoContext(swift::ModuleDecl*, swift::GenericParamList*, swift::Type, swift::LazyResolver*)::$_7>, swift::Type (swift::Type)>::operator()(swift::Type&&) + 62
+6  swift                    swift::NormalProtocolConformance::getTypeWitnessSubstAndDecl(swift::AssociatedTypeDecl*, swift::LazyResolver*) const + 416
+7  swift                    swift::ProtocolConformance::getTypeWitnessSubstAndDecl(swift::AssociatedTypeDecl*, swift::LazyResolver*) const + 43
+8  swift                    swift::SpecializedProtocolConformance::getTypeWitnessSubstAndDecl(swift::AssociatedTypeDecl*, swift::LazyResolver*) const + 311
+9  swift                    swift::ProtocolConformance::getTypeWitnessSubstAndDecl(swift::AssociatedTypeDecl*, swift::LazyResolver*) const + 21
+10 swift                    swift::ProtocolConformance::getTypeWitness(swift::AssociatedTypeDecl*, swift::LazyResolver*) const + 9
+11 swift                    getMemberForBaseType(swift::ModuleDecl*, swift::Type, swift::AssociatedTypeDecl*, swift::Identifier, swift::SubstOptions) + 637
+12 swift                    std::__1::__function::__func<swift::Type::subst(swift::ModuleDecl*, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*>, llvm::detail::DenseMapPair<swift::TypeBase*, swift::Type> >&, swift::SubstOptions) const::$_8, std::__1::allocator<swift::Type::subst(swift::ModuleDecl*, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*>, llvm::detail::DenseMapPair<swift::TypeBase*, swift::Type> >&, swift::SubstOptions) const::$_8>, swift::Type (swift::Type)>::operator()(swift::Type&&) + 818
+13 swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 54
+14 swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 753
+15 swift                    swift::PolymorphicFunctionType::substGenericArgs(swift::ModuleDecl*, llvm::ArrayRef<swift::Type>) + 1101
+16 swift                    swift::Lowering::SILGenModule::emitProtocolWitness(swift::ProtocolConformance*, swift::SILLinkage, swift::SILDeclRef, swift::SILDeclRef, swift::Lowering::IsFreeFunctionWitness_t, llvm::ArrayRef<swift::Substitution>) + 192
+17 swift                    (anonymous namespace)::SILGenConformance::addMethod(swift::FuncDecl*, swift::ValueDecl*, llvm::ArrayRef<swift::Substitution>) + 328
+18 swift                    swift::SILWitnessVisitor<(anonymous namespace)::SILGenConformance>::visitProtocolDecl(swift::ProtocolDecl*) + 1421
+19 swift                    swift::Lowering::SILGenModule::getWitnessTable(swift::ProtocolConformance*) + 301
+20 swift                    (anonymous namespace)::SILGenType::emitType() + 1290
+21 swift                    swift::Lowering::SILGenModule::visitNominalTypeDecl(swift::NominalTypeDecl*) + 30
+22 swift                    swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 571
+23 swift                    swift::SILModule::constructSIL(swift::ModuleDecl*, swift::SILOptions&, swift::FileUnit*, llvm::Optional<unsigned int>, bool, bool) + 703
+24 swift                    swift::performSILGeneration(swift::FileUnit&, swift::SILOptions&, llvm::Optional<unsigned int>, bool) + 123
+25 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 9153
+26 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
+27 swift                    main + 1983

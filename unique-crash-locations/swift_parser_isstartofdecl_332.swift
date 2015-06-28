@@ -1,1 +1,1 @@
-../crashes-fuzzing/24863-swift-parser-isstartofdecl.swift
+../crashes-duplicates/24863-swift-parser-isstartofdecl.swift

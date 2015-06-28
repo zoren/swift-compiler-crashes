@@ -1,11 +1,19 @@
-3  swift                    swift::PrintingDiagnosticConsumer::handleDiagnostic(swift::SourceManager&, swift::SourceLoc, swift::DiagnosticKind, llvm::StringRef, swift::DiagnosticInfo const&) + 1288
-4  swift                    swift::NominalTypeDecl::getDeclaredTypeInContext() const + 51
-5  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 8314
-6  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1848
-7  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1848
-8  swift                    swift::ASTVisitor<(anonymous namespace)::DeclChecker, void, void, void, void, void, void>::visit(swift::Decl*) + 1352
-9  swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 124
-10 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 968
-11 swift                    swift::CompilerInstance::performSema() + 2428
-12 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2151
-13 swift                    main + 1814
+6  swift                    swift::ArchetypeBuilder::addGenericParameter(swift::GenericTypeParamType*, swift::ProtocolDecl*, swift::Identifier) + 367
+7  swift                    swift::ArchetypeBuilder::addGenericParameter(swift::GenericTypeParamDecl*) + 416
+8  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 305
+9  swift                    checkGenericFuncSignature(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::AbstractFunctionDecl*, swift::GenericTypeResolver&) + 87
+10 swift                    swift::TypeChecker::validateGenericFuncSignature(swift::AbstractFunctionDecl*) + 101
+11 swift                    (anonymous namespace)::DeclChecker::visitFuncDecl(swift::FuncDecl*) + 1671
+12 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 731
+13 swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 571
+14 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 651
+15 swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 571
+16 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 651
+17 swift                    (anonymous namespace)::DeclChecker::visitStructDecl(swift::StructDecl*) + 459
+18 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 635
+19 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
+20 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1345
+21 swift                    swift::CompilerInstance::performSema() + 4133
+22 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
+23 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
+24 swift                    main + 1983

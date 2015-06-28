@@ -1,1 +1,1 @@
-../crashes-fuzzing/24096-swift-generictypeparamtype-get.swift
+../crashes-duplicates/24096-swift-generictypeparamtype-get.swift

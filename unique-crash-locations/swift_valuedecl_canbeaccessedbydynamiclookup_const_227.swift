@@ -1,1 +1,1 @@
-../crashes-fuzzing/24778-swift-valuedecl-canbeaccessedbydynamiclookup.swift
+../crashes-duplicates/24778-swift-valuedecl-canbeaccessedbydynamiclookup.swift

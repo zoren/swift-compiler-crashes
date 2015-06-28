@@ -1,1 +1,1 @@
-../crashes-fuzzing/24702-replinput-getreplinput.swift
+../crashes-duplicates/24702-replinput-getreplinput.swift

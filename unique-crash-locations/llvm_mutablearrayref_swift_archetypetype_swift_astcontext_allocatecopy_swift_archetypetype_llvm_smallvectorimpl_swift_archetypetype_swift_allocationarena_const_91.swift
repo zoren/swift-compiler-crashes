@@ -1,1 +1,1 @@
-../crashes-fuzzing/24634-llvm-mutablearrayref-swift-archetypetype.swift
+../crashes-duplicates/24634-llvm-mutablearrayref-swift-archetypetype.swift

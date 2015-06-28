@@ -1,1 +1,1 @@
-../crashes-fuzzing/24848-swift-tupletype-get.swift
+../crashes-duplicates/24848-swift-tupletype-get.swift

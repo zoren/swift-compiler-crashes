@@ -1,1 +1,1 @@
-../crashes-fuzzing/06393-swift-astcontext-getprotocol.swift
+../crashes-duplicates/06393-swift-astcontext-getprotocol.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/23526-swift-dynamicselftype-get.swift
+../crashes-duplicates/23526-swift-dynamicselftype-get.swift

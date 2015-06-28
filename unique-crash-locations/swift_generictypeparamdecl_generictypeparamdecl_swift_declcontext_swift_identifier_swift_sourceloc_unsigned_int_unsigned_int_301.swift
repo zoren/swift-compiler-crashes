@@ -1,1 +1,1 @@
-../crashes-fuzzing/02087-swift-generictypeparamdecl-generictypeparamdecl.swift
+../crashes-duplicates/02087-swift-generictypeparamdecl-generictypeparamdecl.swift
