@@ -7,6 +7,7 @@ addIdentifierRef
 addImplicitConstructors
 addImplicitDestructor
 addMaterializeForSet
+addMinimumProtocols
 addNestedArchetypes
 addNestedRequirements
 addOverloadSet
@@ -29,6 +30,7 @@ bindParameter
 bindTypeVariable
 build
 buildArrayInjectionFnRef
+buildImplicitLetParameter
 callWitness
 canBeAccessedByDynamicLookup
 canParseType
@@ -36,6 +38,7 @@ canonicalizeProtocols
 checkAccessibility
 checkConformance
 checkDeclAttributes
+checkDeclarationAvailability
 checkEnumRawValues
 checkExtensionGenericParams
 checkGenericFuncSignature
@@ -74,9 +77,12 @@ connectedComponentsDFS
 constraints
 constructCallToSuperInit
 constructSIL
+consumeIdentifier
 consumeStartingCharacterOfCurrentToken
 consumeToken
+contextualizeTopLevelCode
 convertAnyNominalType
+convertStoredVarInProtocolToComputed
 convertStructType
 convertToType
 convertType
@@ -111,12 +117,15 @@ diagnose
 diagnoseAmbiguousMemberType
 diagnoseContextualConversionError
 diagnoseFailure
+diagnoseFailureForBinaryExpr
 diagnoseFailureForCallExpr
 diagnoseFailureForExpr
 diagnoseFailureFromConstraints
 diagnoseGeneralConversionFailure
+diagnoseGeneralOverloadFailure
 diagnoseGeneralValueMemberFailure
 diagnoseRedefinition
+diagnoseSubElementFailure
 diagnoseUnknownType
 drillToLastComponent
 dump
@@ -128,6 +137,7 @@ emitClosure
 emitClosureValue
 emitConstructor
 emitCopyLValueInto
+emitDiagnostic
 emitExprInto
 emitFunction
 emitFunctionPartialApplication
@@ -140,6 +150,7 @@ emitLValue
 emitLValueForDecl
 emitLValueForNonMemberVarDecl
 emitLazyDefinitions
+emitLetToVarNoteIfSimple
 emitLoadOfLValue
 emitManagedRValueWithCleanup
 emitMemberInitializers
@@ -166,6 +177,7 @@ emitValueWitnessTable
 errs
 existentialConformsToItself
 existentialTypeSupportedSlow
+extractText
 fetchMoreTokens
 fillObjCRepresentableTypeCache
 finalize
@@ -173,6 +185,7 @@ finalizeGenericParamList
 find
 findBestImportKind
 findBestSolution
+findExistingInitializerContext
 finishLoadingClangModule
 fixItReplaceChars
 flushActiveDiagnostic
@@ -199,8 +212,10 @@ getBoundTypesFromConstraint
 getBridgedToObjC
 getBridgingHeaderContents
 getBuiltinValueDecl
+getByteDistance
 getCache
 getCallerDefaultArg
+getCanonical
 getCanonicalType
 getCommentForDecl
 getConformance
@@ -238,6 +253,7 @@ getLLVMIntrinsicID
 getLoc
 getLocForEndOfToken
 getLocalConformances
+getMacOSXVersion
 getMaterialized
 getMemberForBaseType
 getMemberSubstitutions
@@ -245,6 +261,7 @@ getMembers
 getNew
 getOSName
 getObjCSelector
+getObjCSetterSelector
 getOptionalDecl
 getOverloadSignature
 getPotentialBindings
@@ -303,12 +320,15 @@ insert
 irgen
 isAnyClassReferenceType
 isBuiltinTypeOverloaded
+isCascadingContextForLookup
 isClassOrClassExtensionContext
 isDeclAsSpecializedAs
 isEqual
 isError
 isExistentialType
 isExistentialTypeImpl
+isKnownNoEscape
+isOperator
 isRepresentableInObjC
 isSimpleEnum
 isSpecialized
@@ -355,6 +375,7 @@ mangleType
 mapParsedParameters
 mapSignatureFunctionType
 mapTypeIntoContext
+markAsObjC
 matchCallArguments
 matchDeepEqualityTypes
 matchExistentialTypes
@@ -379,6 +400,8 @@ openType
 optimize
 optimizeApplyOfPartialApply
 optimizeConstraints
+outputString
+overApproximateOSVersionsAtLocation
 overwriteType
 parseAnyIdentifier
 parseBraceItemList
@@ -459,6 +482,7 @@ parseTypeSimple
 parseTypeTupleBody
 parseVersionTuple
 performCompile
+performExprDiagnostics
 performIRGeneration
 performSILGeneration
 performSema
@@ -466,6 +490,7 @@ performTypeChecking
 popImpl
 prepareApplyExpr
 prepareConformanceTable
+prepareExtensions
 prepareLookupTable
 print
 printContext
@@ -509,6 +534,7 @@ resolveRawType
 resolveType
 resolveTypeDecl
 resolveTypeInContext
+resolveTypeWitness
 runFunction
 runFunctionAsMain
 salvage
@@ -517,6 +543,7 @@ setConformsTo
 setDeserializedSignature
 setInvalidBracesRange
 setNestedTypes
+setParams
 setPattern
 setRawComment
 setSpecialized
@@ -573,9 +600,11 @@ typeCheckFunctionBodyUntil
 typeCheckFunctionsAndExternalDecls
 typeCheckPattern
 typeCheckPatternBinding
+typeCheckStmtCondition
 typeCheckTopLevelCodeDecl
 unbindTypeVariable
 undo
+updateLookupTable
 validateAccessibility
 validateAttributes
 validateDecl

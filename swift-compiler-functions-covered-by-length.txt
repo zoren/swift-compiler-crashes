@@ -7,7 +7,9 @@ propagateConcreteTypeOfInitExistential
 getTypeLoweringForUncachedLoweredType
 getUncachedSILFunctionTypeForConstant
 addTypeVariableConstraintsToWorkList
+convertStoredVarInProtocolToComputed
 emitOpaqueExistentialContainerUpcast
+overApproximateOSVersionsAtLocation
 getImplicitlyUnwrappedOptionalDecl
 typeCheckAbstractFunctionBodyUntil
 typeCheckConditionalPatternBinding
@@ -25,9 +27,11 @@ addContextParamsAndRequirements
 resolvePotentialArchetypeToType
 checkGenericParamAccessibility
 diagnoseFailureFromConstraints
+diagnoseGeneralOverloadFailure
 emitClassExistentialProjection
 emitFunctionPartialApplication
 fillObjCRepresentableTypeCache
+findExistingInitializerContext
 getAsCanonicalGenericSignature
 getDelegatingOrChainedInitKind
 isClassOrClassExtensionContext
@@ -42,8 +46,10 @@ typeCheckAbstractFunctionBody
 typeCheckConstructorBodyUntil
 addTrivialAccessorsToStorage
 canBeAccessedByDynamicLookup
+checkDeclarationAvailability
 checkUnsupportedProtocolType
 createDesignatedInitOverride
+diagnoseFailureForBinaryExpr
 emitManagedRValueWithCleanup
 existentialTypeSupportedSlow
 parseMatchingPatternVarOrVal
@@ -57,6 +63,7 @@ computeDefaultAccessibility
 diagnoseAmbiguousMemberType
 existentialConformsToItself
 getBoundTypesFromConstraint
+isCascadingContextForLookup
 maybeAddAccessorsToVariable
 optimizeApplyOfPartialApply
 resolveGenericTypeParamType
@@ -75,9 +82,12 @@ typeCheckExpressionShallow
 typeCheckFunctionBodyUntil
 validatePatternBindingDecl
 addConformanceRequirement
+buildImplicitLetParameter
 checkGenericFuncSignature
 checkTypeDeclAvailability
+contextualizeTopLevelCode
 createImplicitConstructor
+diagnoseSubElementFailure
 getBridgingHeaderContents
 getSpecializedConformance
 mangleDeclTypeForDebugger
@@ -90,6 +100,7 @@ buildArrayInjectionFnRef
 constructCallToSuperInit
 createBindingFromPattern
 defineDefaultConstructor
+emitLetToVarNoteIfSimple
 emitPolymorphicArguments
 finalizeGenericParamList
 finishLoadingClangModule
@@ -143,6 +154,8 @@ parseExprStringLiteral
 parseFunctionArguments
 parseFunctionSignature
 parseGenericParameters
+performExprDiagnostics
+typeCheckStmtCondition
 addImplicitDestructor
 addNestedRequirements
 applyGenericArguments
@@ -158,6 +171,7 @@ emitGlobalVariableRef
 emitValueWitnessTable
 flushActiveDiagnostic
 getFixedTypeRecursive
+getObjCSetterSelector
 getTargetConfigOption
 hasReferenceSemantics
 isDeclAsSpecializedAs
@@ -211,6 +225,7 @@ typeCheckExprPattern
 validateTypedPattern
 visitNominalTypeDecl
 addGenericParameter
+addMinimumProtocols
 addNestedArchetypes
 checkDeclAttributes
 coercePatternToType
@@ -280,11 +295,13 @@ prepareLookupTable
 readSILInstruction
 resolveConformance
 resolveDeclRefExpr
+resolveTypeWitness
 simplifyConstraint
 solveForExpression
 typeCheckCondition
 unbindTypeVariable
 validateAttributes
+consumeIdentifier
 convertStructType
 createDisjunction
 createNominalType
@@ -308,10 +325,12 @@ parseDeclOperator
 parseDeclProtocol
 parseExprSequence
 parseVersionTuple
+prepareExtensions
 readSILBasicBlock
 removedConstraint
 requiresClassSlow
 runFunctionAsMain
+updateLookupTable
 validateExtension
 verifyDiagnostics
 addIdentifierRef
@@ -329,6 +348,7 @@ getBridgedToObjC
 getCanonicalType
 getDesugaredType
 getInterfaceType
+getMacOSXVersion
 getRelabeledType
 getSubstitutions
 getTypeVariables
@@ -367,6 +387,7 @@ emitSILFunction
 emitToExplosion
 fetchMoreTokens
 forEachVariable
+getByteDistance
 getConstantInfo
 getDeclaredType
 getMaterialized
@@ -378,6 +399,7 @@ getTypeOfRValue
 getValueWitness
 getWitnessTable
 handleREPLInput
+isKnownNoEscape
 isUnaryOperator
 lookupObjCClass
 lookupQualified
@@ -400,6 +422,7 @@ solveSimplified
 addOverloadSet
 addRequirement
 checkValueDecl
+emitDiagnostic
 emitReturnExpr
 emitSourceFile
 emitStructDecl
@@ -474,6 +497,7 @@ emitExprInto
 emitFunction
 foldSequence
 getAdjacency
+getCanonical
 getProtocols
 getTypeEntry
 isSimpleEnum
@@ -482,6 +506,7 @@ lookupDirect
 lookupMember
 makeComputed
 matchWitness
+outputString
 parseDeclVar
 parsePattern
 parseStmtFor
@@ -497,6 +522,7 @@ convertType
 createThunk
 declvisitor
 emitClosure
+extractText
 forwardInto
 getFullName
 getFunction
@@ -522,9 +548,11 @@ getMembers
 getTokenAt
 hasStorage
 importName
+isOperator
 loadModule
 lookupNode
 mangleType
+markAsObjC
 matchTypes
 namelookup
 parseToken
@@ -545,6 +573,7 @@ parseStmt
 parseType
 printName
 printText
+setParams
 skipUntil
 substType
 transform

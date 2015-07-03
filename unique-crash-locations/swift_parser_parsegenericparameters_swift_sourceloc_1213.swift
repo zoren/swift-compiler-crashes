@@ -1,0 +1,1 @@
+../crashes-fuzzing/25052-swift-parser-parsegenericparameters.swift

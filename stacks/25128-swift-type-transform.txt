@@ -1,0 +1,21 @@
+3  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 54
+4  swift                    getMemberForBaseType(swift::ModuleDecl*, swift::Type, swift::AssociatedTypeDecl*, swift::Identifier, swift::SubstOptions) + 41
+5  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 54
+6  swift                    swift::ArchetypeBuilder::mapTypeIntoContext(swift::ModuleDecl*, swift::GenericParamList*, swift::Type, swift::LazyResolver*) + 150
+7  swift                    checkEnumRawValues(swift::TypeChecker&, swift::EnumDecl*) + 67
+8  swift                    (anonymous namespace)::DeclChecker::visitEnumDecl(swift::EnumDecl*) + 1149
+9  swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 619
+10 swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 571
+11 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 651
+12 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
+13 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 420
+14 swift                    (anonymous namespace)::StmtChecker::typeCheckBody(swift::BraceStmt*&) + 25
+15 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 415
+16 swift                    swift::TypeChecker::typeCheckAbstractFunctionBodyUntil(swift::AbstractFunctionDecl*, swift::SourceLoc) + 49
+17 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 138
+18 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 200
+19 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1715
+20 swift                    swift::CompilerInstance::performSema() + 4133
+21 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
+22 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
+23 swift                    main + 1983

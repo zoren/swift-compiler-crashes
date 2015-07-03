@@ -1,0 +1,7 @@
+6  swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*) + 4347
+7  swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 862
+8  swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1715
+9  swift                    swift::CompilerInstance::performSema() + 4133
+10 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
+11 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
+12 swift                    main + 1983

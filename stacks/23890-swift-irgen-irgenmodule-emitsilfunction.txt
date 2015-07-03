@@ -1,4 +1,4 @@
-3  swift                    vtable for llvm::FoldingSet<clang::CodeGen::CGFunctionInfo> + 55
+3  swift                    vtable for llvm::BufferByteStreamer + 15
 6  swift                    llvm::APInt::APInt(unsigned int, unsigned long long, bool) + 140
 7  swift                    (anonymous namespace)::StructTypeInfoBase<(anonymous namespace)::LoadableStructTypeInfo, swift::irgen::LoadableTypeInfo, (anonymous namespace)::StructFieldInfo>::getFixedExtraInhabitantMask(swift::irgen::IRGenModule&) const + 154
 8  swift                    (anonymous namespace)::SinglePayloadEnumImplStrategy::emitValueCaseTest(swift::irgen::IRGenFunction&, swift::irgen::Explosion&, swift::EnumElementDecl*) const + 257

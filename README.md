@@ -51,7 +51,7 @@ $ ./test.sh
 Running tests against: swiftlang-700.0.42.3 clang-700.0.53.3 (Xcode 7.0 (7A121l))
 Using Xcode found at path: /Applications/Xcode-Beta.app/Contents/Developer/
 Usage: ./test.sh [-v] [-q] [-c<columns>] [-l] [file ...]
-Adding a new test case? The crash id to use for the next test case is 24894.
+Adding a new test case? The crash id to use for the next test case is 25340.
 
 == Currently known crashes, set #1 (human reported crashes, crashes not found by fuzzing) ==
 
@@ -68,7 +68,7 @@ Adding a new test case? The crash id to use for the next test case is 24894.
   ✘  23409 circular typealias                                     (          )
   ✘  23637 constraints constraintsystem findbestsolution          (c7a6acddb1)
   ✘  23639 llvm jit runfunction (runtime)                         (          )
-  ✘  23890 swift irgen irgenmodule emitsilfunction                (0452f61dc2)
+  ✘  23890 swift irgen irgenmodule emitsilfunction                (6366925663)
   ✘  23892 swift archetypebuilder resolvearchetype                (ee5da696fd)
   ✘  23901 swift lowering silgenfunction emitclosurevalue         (dfc3f3efc8)
   ✘  23903 too complex to be solved in reasonable time (timeout)  (          )
@@ -106,7 +106,7 @@ Adding a new test case? The crash id to use for the next test case is 24894.
   ✘  00359 swift constraints constraintsystem getfixedtyperecursi (f8d02acc8f)
   ✘  00375 swift nominaltypedecl getdeclaredtypeincontext         (4b28aea3ee)
   ✘  00410 getselftypeforcontainer                                (851392ce0d)
-  ✘  00416 swift typechecker conformstoprotocol                   (f519cac859)
+  ✘  00416 swift typechecker conformstoprotocol                   (e3cd9ff975)
   ✘  00423 swift archetypebuilder resolvearchetype                (db6f96523d)
   ✘  00476 swift typechecker validatedecl                         (a87e1f2869)
   ✘  00535 swift type transform                                   (86e897dbdd)
@@ -346,7 +346,7 @@ Adding a new test case? The crash id to use for the next test case is 24894.
   ✓  24884 swift mangle mangler mangleidentifier
   ✓  24892 swift boundgenerictype getsubstitutions
   ✓  24893 emitnominalmetadataref
-** Results: 180 of 2060 tests crashed the compiler **
+** Results: 625 of 2505 tests crashed the compiler **
 
 ```
 

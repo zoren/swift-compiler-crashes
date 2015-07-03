@@ -1,0 +1,25 @@
+3  swift                    llvm::BitstreamCursor::Read(unsigned int) + 94
+6  swift                    swift::Parser::parseStmtForEach(swift::SourceLoc, swift::LabeledStmtInfo) + 1603
+7  swift                    swift::Parser::parseStmt() + 1594
+8  swift                    swift::Parser::parseExprOrStmt(swift::ASTNode&) + 190
+9  swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 2121
+10 swift                    swift::Parser::parseExprClosure() + 915
+11 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 1580
+12 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 142
+13 swift                    swift::Parser::parseExprImpl(swift::Diag<>, bool) + 203
+14 swift                    swift::Parser::parseMatchingPattern(bool) + 260
+15 swift                    swift::Parser::parseDeclEnumCase(swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::DeclAttributes&, llvm::SmallVectorImpl<swift::Decl*>&) + 634
+16 swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 1736
+17 swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 751
+18 swift                    swift::Parser::parseExprClosure() + 915
+19 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 1580
+20 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 142
+21 swift                    swift::Parser::parseExprImpl(swift::Diag<>, bool) + 203
+22 swift                    swift::Parser::parseExprOrStmt(swift::ASTNode&) + 381
+23 swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 1703
+24 swift                    swift::Parser::parseTopLevel() + 165
+25 swift                    swift::parseIntoSourceFile(swift::SourceFile&, unsigned int, bool*, swift::SILParserState*, swift::PersistentParserState*, swift::DelayedParsingCallbacks*) + 103
+26 swift                    swift::CompilerInstance::performSema() + 4104
+27 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
+28 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
+29 swift                    main + 1983

@@ -1,0 +1,1 @@
+../crashes-fuzzing/25188-swift-scopeinfo-addtoscope.swift

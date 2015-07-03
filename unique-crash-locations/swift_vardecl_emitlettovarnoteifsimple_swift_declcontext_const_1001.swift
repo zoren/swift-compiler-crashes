@@ -1,0 +1,1 @@
+../crashes-fuzzing/24969-swift-vardecl-emitlettovarnoteifsimple.swift

@@ -1,0 +1,1 @@
+../crashes-fuzzing/24904-llvm-mutablearrayref-swift-protocoldecl.swift

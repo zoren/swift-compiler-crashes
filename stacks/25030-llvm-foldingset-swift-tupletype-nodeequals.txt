@@ -1,0 +1,19 @@
+3  swift                    llvm::FoldingSet<swift::TupleType>::NodeEquals(llvm::FoldingSetImpl::Node*, llvm::FoldingSetNodeID const&, unsigned int, llvm::FoldingSetNodeID&) const + 36
+6  swift                    (anonymous namespace)::ContextualizeClosures::walkToExprPre(swift::Expr*) + 464
+7  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 106
+8  swift                    (anonymous namespace)::Traversal::visitApplyExpr(swift::ApplyExpr*) + 128
+9  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 213
+10 swift                    swift::ASTVisitor<(anonymous namespace)::Traversal, swift::Expr*, swift::Stmt*, bool, swift::Pattern*, bool, void>::visit(swift::Stmt*) + 385
+11 swift                    swift::ASTVisitor<(anonymous namespace)::Traversal, swift::Expr*, swift::Stmt*, bool, swift::Pattern*, bool, void>::visit(swift::Stmt*) + 2459
+12 swift                    swift::ASTVisitor<(anonymous namespace)::Traversal, swift::Expr*, swift::Stmt*, bool, swift::Pattern*, bool, void>::visit(swift::Stmt*) + 230
+13 swift                    swift::Stmt::walk(swift::ASTWalker&) + 87
+14 swift                    (anonymous namespace)::StmtChecker::typeCheckBody(swift::BraceStmt*&) + 100
+15 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 415
+16 swift                    swift::TypeChecker::typeCheckAbstractFunctionBodyUntil(swift::AbstractFunctionDecl*, swift::SourceLoc) + 49
+17 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 138
+18 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 200
+19 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1715
+20 swift                    swift::CompilerInstance::performSema() + 4133
+21 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
+22 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
+23 swift                    main + 1983

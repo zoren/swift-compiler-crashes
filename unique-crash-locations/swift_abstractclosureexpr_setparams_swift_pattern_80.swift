@@ -1,0 +1,1 @@
+../crashes-fuzzing/25019-swift-abstractclosureexpr-setparams.swift

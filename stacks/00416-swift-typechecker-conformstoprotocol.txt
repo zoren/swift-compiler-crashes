@@ -1,3 +1,4 @@
+3  swift                    swift::ModuleFile::lookupValue(swift::DeclName, llvm::SmallVectorImpl<swift::ValueDecl*>&) + 1582
 6  swift                    swift::ArchetypeBuilder::mapTypeIntoContext(swift::DeclContext*, swift::Type, swift::LazyResolver*) + 118
 7  swift                    checkEnumRawValues(swift::TypeChecker&, swift::EnumDecl*) + 67
 8  swift                    (anonymous namespace)::DeclChecker::visitEnumDecl(swift::EnumDecl*) + 1149
