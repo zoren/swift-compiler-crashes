@@ -1,1 +1,0 @@
-../crashes/24239-swift-lowering-silgenmodule-emitobjcconstructorthunk.swift

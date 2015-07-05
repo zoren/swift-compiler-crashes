@@ -1,1 +1,1 @@
-../crashes-fuzzing/09006-swift-typebase-getanyoptionalobjecttype.swift
+../crashes-fuzzing/24440-swift-typechecker-coercepatterntotype.swift

@@ -1,1 +1,0 @@
-../crashes-fuzzing/24419-std-function-func-std-function-void.swift

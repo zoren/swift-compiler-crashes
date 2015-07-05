@@ -1,1 +1,0 @@
-../crashes-fuzzing/06882-swift-unboundgenerictype-get.swift

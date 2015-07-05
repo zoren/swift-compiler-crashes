@@ -1,1 +1,0 @@
-../crashes/24249-collectfullname.swift

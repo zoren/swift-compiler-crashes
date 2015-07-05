@@ -1,1 +1,0 @@
-../crashes/24247-swift-irgen-emitcategorydata.swift

@@ -1,1 +1,0 @@
-../crashes/24240-swift-irgen-emitpolymorphicarguments.swift

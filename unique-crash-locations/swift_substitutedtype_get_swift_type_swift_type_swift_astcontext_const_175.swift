@@ -1,1 +1,0 @@
-../crashes-fuzzing/24804-swift-substitutedtype-get.swift

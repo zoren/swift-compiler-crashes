@@ -1,1 +1,0 @@
-../crashes-fuzzing/24258-swift-nominaltypedecl-getdeclaredtypeincontext.swift

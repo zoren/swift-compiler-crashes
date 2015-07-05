@@ -1,1 +1,0 @@
-../crashes-fuzzing/23967-llvm-optional-swift-diagnostic-operator.swift
