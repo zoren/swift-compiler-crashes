@@ -1,1 +1,1 @@
-../crashes-fuzzing/25052-swift-parser-parsegenericparameters.swift
+../crashes-duplicates/25052-swift-parser-parsegenericparameters.swift

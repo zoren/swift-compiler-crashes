@@ -1,6 +1,6 @@
 6  swift                    swift::constraints::ConstraintSystem::computeAssignDestType(swift::Expr*, swift::SourceLoc) + 1066
 7  swift                    swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 9317
-8  swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 75
+8  swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 63
 9  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1347
 10 swift                    (anonymous namespace)::Traversal::visit(swift::Pattern*) + 328
 11 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 2193
@@ -10,8 +10,8 @@
 15 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 243
 16 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 491
 17 swift                    swift::TypeChecker::typeCheckTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 140
-18 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1468
-19 swift                    swift::CompilerInstance::performSema() + 4133
+18 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1484
+19 swift                    swift::CompilerInstance::performSema() + 4149
 20 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
 21 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
 22 swift                    main + 1983

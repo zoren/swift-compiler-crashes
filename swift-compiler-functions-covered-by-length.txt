@@ -27,7 +27,6 @@ addContextParamsAndRequirements
 resolvePotentialArchetypeToType
 checkGenericParamAccessibility
 diagnoseFailureFromConstraints
-diagnoseGeneralOverloadFailure
 emitClassExistentialProjection
 emitFunctionPartialApplication
 fillObjCRepresentableTypeCache
@@ -38,7 +37,6 @@ isClassOrClassExtensionContext
 parseClosureSignatureIfPresent
 simplifyApplicableFnConstraint
 simplifyConstructionConstraint
-emitLValueForNonMemberVarDecl
 getArgAsLocalSelfTypeMetadata
 simplifyCheckedCastConstraint
 tryMangleStandardSubstitution
@@ -141,7 +139,6 @@ classifyAsOptionalType
 connectedComponentsDFS
 createArchetypeBuilder
 diagnoseFailureForExpr
-emitMemberInitializers
 gatherAllSubstitutions
 getGenericParamContext
 getMemberSubstitutions
@@ -155,6 +152,7 @@ parseFunctionArguments
 parseFunctionSignature
 parseGenericParameters
 performExprDiagnostics
+performStmtDiagnostics
 typeCheckStmtCondition
 addImplicitDestructor
 addNestedRequirements
@@ -167,7 +165,6 @@ convertAnyNominalType
 createGetterPrototype
 createUnavailableAttr
 createUnnamedImplicit
-emitGlobalVariableRef
 emitValueWitnessTable
 flushActiveDiagnostic
 getFixedTypeRecursive
@@ -193,6 +190,7 @@ allocateMappedMemory
 computeAccessibility
 computeInterfaceType
 computeSubstitutions
+diagnoseAvailability
 diagnoseRedefinition
 drillToLastComponent
 emitGetIntoTemporary
@@ -225,6 +223,7 @@ typeCheckExprPattern
 validateTypedPattern
 visitNominalTypeDecl
 addGenericParameter
+addGenericSignature
 addMinimumProtocols
 addNestedArchetypes
 checkDeclAttributes
@@ -252,6 +251,7 @@ parseTypeIdentifier
 performIRGeneration
 performTypeChecking
 removeShadowedDecls
+setGenericSignature
 typeCheckExpression
 writeBlockInfoBlock
 checkAccessibility
@@ -305,7 +305,6 @@ consumeIdentifier
 convertStructType
 createDisjunction
 createNominalType
-emitLValueForDecl
 emitRValueForDecl
 emitSemanticStore
 fixItReplaceChars
@@ -348,7 +347,6 @@ getBridgedToObjC
 getCanonicalType
 getDesugaredType
 getInterfaceType
-getMacOSXVersion
 getRelabeledType
 getSubstitutions
 getTypeVariables
@@ -367,13 +365,12 @@ parsePatternAtom
 parseStmtForEach
 prepareApplyExpr
 readWitnessTable
-recordObjCMethod
 removeConstraint
 resolveArchetype
+setInterfaceType
 substGenericArgs
 typeCheckBinding
 typeCheckPattern
-visitDeclRefExpr
 addRequirements
 assignFixedType
 collectFullName
@@ -399,7 +396,6 @@ getTypeOfRValue
 getValueWitness
 getWitnessTable
 handleREPLInput
-isKnownNoEscape
 isUnaryOperator
 lookupObjCClass
 lookupQualified
@@ -515,6 +511,7 @@ printDeclUSR
 simplifyType
 validateDecl
 validateType
+addProtocol
 callWitness
 computeType
 constraints
@@ -541,7 +538,6 @@ runFunction
 writeHeader
 addToScope
 destroyAll
-emitLValue
 emitRValue
 getFieldNo
 getMembers
@@ -577,6 +573,7 @@ setParams
 skipUntil
 substType
 transform
+writeDecl
 writeback
 coverage
 diagnose
@@ -612,6 +609,7 @@ clang
 clone
 irgen
 print
+rfind
 setup
 solve
 subst

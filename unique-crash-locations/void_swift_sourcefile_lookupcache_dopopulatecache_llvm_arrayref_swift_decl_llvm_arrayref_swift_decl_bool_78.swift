@@ -1,0 +1,1 @@
+../crashes-fuzzing/25381-swift-nominaltypedecl-makemembervisible.swift

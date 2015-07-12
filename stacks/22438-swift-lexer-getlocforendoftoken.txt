@@ -1,4 +1,4 @@
-4  swift                    swift::TypeChecker::checkInheritanceClause(swift::Decl*, swift::GenericTypeResolver*) + 256
+4  swift                    swift::TypeChecker::checkInheritanceClause(swift::Decl*, swift::GenericTypeResolver*) + 263
 5  swift                    computeDefaultAccessibility(swift::TypeChecker&, swift::ExtensionDecl*) + 145
 6  swift                    swift::TypeChecker::computeAccessibility(swift::ValueDecl*) + 589
 7  swift                    swift::TypeChecker::validateAccessibility(swift::ValueDecl*) + 86
@@ -21,8 +21,8 @@
 24 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 243
 25 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 491
 26 swift                    swift::TypeChecker::typeCheckTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 140
-27 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1468
-28 swift                    swift::CompilerInstance::performSema() + 4133
+27 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1484
+28 swift                    swift::CompilerInstance::performSema() + 4149
 29 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
 30 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
 31 swift                    main + 1983

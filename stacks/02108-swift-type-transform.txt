@@ -2,7 +2,7 @@
 5  swift                    swift::constraints::ConstraintSystem::openType(swift::Type, swift::constraints::ConstraintLocatorBuilder, llvm::DenseMap<swift::CanType, swift::TypeVariableType*, llvm::DenseMapInfo<swift::CanType>, llvm::detail::DenseMapPair<swift::CanType, swift::TypeVariableType*> >&, swift::DeclContext*, bool, swift::constraints::DependentTypeOpener*) + 146
 6  swift                    swift::constraints::ConstraintSystem::openType(swift::Type, swift::constraints::ConstraintLocatorBuilder, swift::DeclContext*, bool, swift::constraints::DependentTypeOpener*) + 87
 7  swift                    swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 8581
-8  swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 75
+8  swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 63
 9  swift                    swift::Expr::walk(swift::ASTWalker&) + 76
 10 swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 201
 11 swift                    swift::TypeChecker::solveForExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*, swift::constraints::ConstraintSystem&, llvm::SmallVectorImpl<swift::constraints::Solution>&) + 203
@@ -18,8 +18,8 @@
 21 swift                    swift::TypeChecker::typeCheckAbstractFunctionBodyUntil(swift::AbstractFunctionDecl*, swift::SourceLoc) + 49
 22 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 138
 23 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 200
-24 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1715
-25 swift                    swift::CompilerInstance::performSema() + 4133
+24 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1731
+25 swift                    swift::CompilerInstance::performSema() + 4149
 26 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
 27 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
 28 swift                    main + 1983

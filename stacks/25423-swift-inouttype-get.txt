@@ -1,0 +1,11 @@
+6  swift                    swift::InOutType::get(swift::Type) + 633
+7  swift                    addMaterializeForSet(swift::AbstractStorageDecl*, swift::TypeChecker&) + 743
+8  swift                    swift::addTrivialAccessorsToStorage(swift::AbstractStorageDecl*, swift::TypeChecker&) + 697
+9  swift                    swift::maybeAddAccessorsToVariable(swift::VarDecl*, swift::TypeChecker&) + 749
+10 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 2530
+11 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 658
+12 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1731
+13 swift                    swift::CompilerInstance::performSema() + 4149
+14 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
+15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
+16 swift                    main + 1983

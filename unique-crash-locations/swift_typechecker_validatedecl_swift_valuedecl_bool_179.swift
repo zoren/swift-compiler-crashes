@@ -1,1 +1,1 @@
-../crashes-fuzzing/25157-swift-typechecker-validatedecl.swift
+../crashes-duplicates/25157-swift-typechecker-validatedecl.swift

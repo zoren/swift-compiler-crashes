@@ -1,1 +1,1 @@
-../crashes-fuzzing/25150-findlocalval-checkvaluedecl.swift
+../crashes-duplicates/25150-findlocalval-checkvaluedecl.swift

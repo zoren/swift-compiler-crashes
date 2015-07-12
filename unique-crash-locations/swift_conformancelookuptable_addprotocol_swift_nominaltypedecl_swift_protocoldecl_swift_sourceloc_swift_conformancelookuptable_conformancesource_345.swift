@@ -1,0 +1,1 @@
+../crashes-fuzzing/25439-swift-conformancelookuptable-addprotocol.swift

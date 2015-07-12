@@ -1,1 +1,1 @@
-../crashes-fuzzing/25018-swift-abstractstoragedecl-makestoredwithobservers.swift
+../crashes-duplicates/25018-swift-abstractstoragedecl-makestoredwithobservers.swift

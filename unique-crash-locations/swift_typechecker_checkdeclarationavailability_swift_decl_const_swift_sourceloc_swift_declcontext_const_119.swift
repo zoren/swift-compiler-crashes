@@ -1,1 +1,1 @@
-../crashes-fuzzing/25320-swift-typechecker-checkdeclarationavailability.swift
+../crashes-duplicates/25320-swift-typechecker-checkdeclarationavailability.swift

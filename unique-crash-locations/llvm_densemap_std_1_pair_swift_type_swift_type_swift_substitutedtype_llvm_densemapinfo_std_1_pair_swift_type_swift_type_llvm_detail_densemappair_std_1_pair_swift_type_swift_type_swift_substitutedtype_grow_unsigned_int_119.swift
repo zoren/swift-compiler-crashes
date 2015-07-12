@@ -1,1 +1,1 @@
-../crashes-fuzzing/24923-llvm-densemap-std-pair-swift-type.swift
+../crashes-duplicates/24923-llvm-densemap-std-pair-swift-type.swift

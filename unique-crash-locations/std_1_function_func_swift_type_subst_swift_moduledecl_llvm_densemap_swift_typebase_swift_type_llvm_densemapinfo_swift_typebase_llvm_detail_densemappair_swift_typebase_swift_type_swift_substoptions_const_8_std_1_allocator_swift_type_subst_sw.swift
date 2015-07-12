@@ -1,0 +1,1 @@
+../crashes/24879-getmemberforbasetype.swift

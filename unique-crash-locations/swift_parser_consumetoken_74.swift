@@ -1,1 +1,1 @@
-../crashes-fuzzing/25191-swift-parser-consumetoken.swift
+../crashes-duplicates/25191-swift-parser-consumetoken.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/25098-swift-genericsignature-genericsignature.swift
+../crashes-duplicates/25098-swift-genericsignature-genericsignature.swift

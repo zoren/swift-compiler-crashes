@@ -1,1 +1,1 @@
-../crashes-fuzzing/25100-swift-type-subst.swift
+../crashes-duplicates/25100-swift-type-subst.swift

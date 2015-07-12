@@ -1,1 +1,1 @@
-../crashes-fuzzing/25339-vtable.swift
+../crashes-duplicates/25339-vtable.swift

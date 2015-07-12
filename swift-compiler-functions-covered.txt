@@ -3,6 +3,7 @@ addConformanceRequirement
 addConstraint
 addContextParamsAndRequirements
 addGenericParameter
+addGenericSignature
 addIdentifierRef
 addImplicitConstructors
 addImplicitDestructor
@@ -12,6 +13,7 @@ addNestedArchetypes
 addNestedRequirements
 addOverloadSet
 addPatternVariablesToScope
+addProtocol
 addProtocols
 addRequirement
 addRequirements
@@ -115,6 +117,7 @@ diag
 diagAvailability
 diagnose
 diagnoseAmbiguousMemberType
+diagnoseAvailability
 diagnoseContextualConversionError
 diagnoseFailure
 diagnoseFailureForBinaryExpr
@@ -122,7 +125,6 @@ diagnoseFailureForCallExpr
 diagnoseFailureForExpr
 diagnoseFailureFromConstraints
 diagnoseGeneralConversionFailure
-diagnoseGeneralOverloadFailure
 diagnoseGeneralValueMemberFailure
 diagnoseRedefinition
 diagnoseSubElementFailure
@@ -144,16 +146,11 @@ emitFunctionPartialApplication
 emitFunctionRef
 emitGetIntoTemporary
 emitGlobalTopLevel
-emitGlobalVariableRef
 emitIgnoredExpr
-emitLValue
-emitLValueForDecl
-emitLValueForNonMemberVarDecl
 emitLazyDefinitions
 emitLetToVarNoteIfSimple
 emitLoadOfLValue
 emitManagedRValueWithCleanup
-emitMemberInitializers
 emitOpaqueExistentialContainerUpcast
 emitOrigToSubstValue
 emitPolymorphicArguments
@@ -253,7 +250,6 @@ getLLVMIntrinsicID
 getLoc
 getLocForEndOfToken
 getLocalConformances
-getMacOSXVersion
 getMaterialized
 getMemberForBaseType
 getMemberSubstitutions
@@ -327,7 +323,6 @@ isEqual
 isError
 isExistentialType
 isExistentialTypeImpl
-isKnownNoEscape
 isOperator
 isRepresentableInObjC
 isSimpleEnum
@@ -486,6 +481,7 @@ performExprDiagnostics
 performIRGeneration
 performSILGeneration
 performSema
+performStmtDiagnostics
 performTypeChecking
 popImpl
 prepareApplyExpr
@@ -512,7 +508,6 @@ readTypeRecord
 readWitnessTable
 reader
 record
-recordObjCMethod
 removeConstraint
 removeNode
 removeShadowedDecls
@@ -535,12 +530,15 @@ resolveType
 resolveTypeDecl
 resolveTypeInContext
 resolveTypeWitness
+rfind
 runFunction
 runFunctionAsMain
 salvage
 serialization
 setConformsTo
 setDeserializedSignature
+setGenericSignature
+setInterfaceType
 setInvalidBracesRange
 setNestedTypes
 setParams
@@ -620,7 +618,6 @@ verifyDiagnostics
 visit
 visitBraceStmt
 visitCallInst
-visitDeclRefExpr
 visitFuncDecl
 visitNominalTypeDecl
 visitPatternBindingDecl
@@ -629,6 +626,7 @@ walk
 walkToTypePost
 write
 writeBlockInfoBlock
+writeDecl
 writeHeader
 writeback
 yaml

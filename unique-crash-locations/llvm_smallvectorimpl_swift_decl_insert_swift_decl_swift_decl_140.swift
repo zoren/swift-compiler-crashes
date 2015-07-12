@@ -1,1 +1,1 @@
-../crashes-fuzzing/25229-llvm-smallvectorimpl-swift-decl-insert.swift
+../crashes-duplicates/25229-llvm-smallvectorimpl-swift-decl-insert.swift

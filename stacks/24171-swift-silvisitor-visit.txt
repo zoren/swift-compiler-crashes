@@ -1,4 +1,4 @@
-3  swift                    FirstTarget + 60126
+3  swift                    FirstTarget + 62863
 4  swift                    abort + 22
 5  swift                    llvm::llvm_unreachable_internal(char const*, char const*, unsigned int) + 481
 6  swift                    swift::Lowering::SILGenFunction::emitSemanticStore(swift::SILLocation, swift::SILValue, swift::SILValue, swift::Lowering::TypeLowering const&, swift::IsInitialization_t) + 1976
@@ -14,11 +14,11 @@
 16 swift                    swift::ASTVisitor<(anonymous namespace)::StmtEmitter, void, void, void, void, void, void>::visit(swift::Stmt*) + 362
 17 swift                    swift::Lowering::SILGenFunction::emitStmt(swift::Stmt*) + 21
 18 swift                    swift::Lowering::SILGenFunction::emitFunction(swift::FuncDecl*) + 390
-19 swift                    swift::Lowering::SILGenModule::emitFunction(swift::FuncDecl*) + 253
+19 swift                    swift::Lowering::SILGenModule::emitFunction(swift::FuncDecl*) + 513
 20 swift                    (anonymous namespace)::SILGenType::emitType() + 956
 21 swift                    swift::Lowering::SILGenModule::visitNominalTypeDecl(swift::NominalTypeDecl*) + 30
-22 swift                    swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 571
-23 swift                    swift::SILModule::constructSIL(swift::ModuleDecl*, swift::SILOptions&, swift::FileUnit*, llvm::Optional<unsigned int>, bool, bool) + 703
+22 swift                    swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 587
+23 swift                    swift::SILModule::constructSIL(swift::ModuleDecl*, swift::SILOptions&, swift::FileUnit*, llvm::Optional<unsigned int>, bool, bool) + 975
 24 swift                    swift::performSILGeneration(swift::FileUnit&, swift::SILOptions&, llvm::Optional<unsigned int>, bool) + 123
 25 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 9153
 26 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515

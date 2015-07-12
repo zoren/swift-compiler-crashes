@@ -1,6 +1,6 @@
 6  swift                    swift::constraints::ConstraintSystem::computeAssignDestType(swift::Expr*, swift::SourceLoc) + 1066
 7  swift                    swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 9317
-8  swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 75
+8  swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 63
 9  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1347
 10 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 6933
 11 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
@@ -14,8 +14,8 @@
 19 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
 20 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 420
 21 swift                    swift::TypeChecker::typeCheckTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 140
-22 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1468
-23 swift                    swift::CompilerInstance::performSema() + 4133
+22 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1484
+23 swift                    swift::CompilerInstance::performSema() + 4149
 24 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
 25 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
 26 swift                    main + 1983

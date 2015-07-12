@@ -1,0 +1,27 @@
+3  libc++.1.dylib           std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::rfind(char const*, unsigned long) const + 47
+6  swift                    swift::ArchetypeBuilder::finalize(swift::SourceLoc) + 2534
+7  swift                    swift::TypeChecker::validateGenericFuncSignature(swift::AbstractFunctionDecl*) + 165
+8  swift                    (anonymous namespace)::DeclChecker::visitFuncDecl(swift::FuncDecl*) + 1772
+9  swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 731
+10 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 849
+11 swift                    swift::ProtocolDecl::existentialTypeSupportedSlow(swift::LazyResolver*) + 186
+12 swift                    (anonymous namespace)::UnsupportedProtocolVisitor::visitIdentTypeRepr(swift::IdentTypeRepr*) + 201
+13 swift                    (anonymous namespace)::UnsupportedProtocolVisitor::walkToTypeReprPre(swift::TypeRepr*) + 34
+14 swift                    (anonymous namespace)::Traversal::visitNominalTypeDecl(swift::NominalTypeDecl*) + 68
+15 swift                    (anonymous namespace)::Traversal::doIt(swift::Decl*) + 242
+16 swift                    (anonymous namespace)::Traversal::visitNominalTypeDecl(swift::NominalTypeDecl*) + 164
+17 swift                    (anonymous namespace)::Traversal::doIt(swift::Decl*) + 242
+18 swift                    swift::ASTVisitor<(anonymous namespace)::Traversal, swift::Expr*, swift::Stmt*, bool, swift::Pattern*, bool, void>::visit(swift::Stmt*) + 472
+19 swift                    swift::Stmt::walk(swift::ASTWalker&) + 87
+20 swift                    swift::TypeChecker::checkUnsupportedProtocolType(swift::Stmt*) + 51
+21 swift                    swift::performStmtDiagnostics(swift::TypeChecker&, swift::Stmt const*) + 28
+22 swift                    (anonymous namespace)::StmtChecker::typeCheckBody(swift::BraceStmt*&) + 54
+23 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 415
+24 swift                    swift::TypeChecker::typeCheckAbstractFunctionBodyUntil(swift::AbstractFunctionDecl*, swift::SourceLoc) + 49
+25 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 138
+26 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 200
+27 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1731
+28 swift                    swift::CompilerInstance::performSema() + 4149
+29 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
+30 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
+31 swift                    main + 1983

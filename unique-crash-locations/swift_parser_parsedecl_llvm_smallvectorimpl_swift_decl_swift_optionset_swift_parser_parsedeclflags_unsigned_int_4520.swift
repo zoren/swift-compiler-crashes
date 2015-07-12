@@ -1,1 +1,1 @@
-../crashes-fuzzing/25233-swift-typedecl-getdeclaredinterfacetype.swift
+../crashes-duplicates/25233-swift-typedecl-getdeclaredinterfacetype.swift

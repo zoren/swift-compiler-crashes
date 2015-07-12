@@ -1,7 +1,7 @@
 4  swift                    swift::constraints::GeneralFailureDiagnosis::diagnoseGeneralConversionFailure() + 122
-5  swift                    swift::constraints::FailureDiagnosis::diagnoseFailure() + 3129
+5  swift                    swift::constraints::FailureDiagnosis::diagnoseFailure() + 3109
 6  swift                    swift::constraints::ConstraintSystem::diagnoseFailureForExpr(swift::Expr*) + 47
-7  swift                    swift::constraints::ConstraintSystem::salvage(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::Expr*, bool) + 1724
+7  swift                    swift::constraints::ConstraintSystem::salvage(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::Expr*, bool) + 4395
 8  swift                    swift::TypeChecker::solveForExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*, swift::constraints::ConstraintSystem&, llvm::SmallVectorImpl<swift::constraints::Solution>&) + 670
 9  swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, bool, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 243
 10 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 491
@@ -10,8 +10,8 @@
 13 swift                    swift::TypeChecker::typeCheckAbstractFunctionBodyUntil(swift::AbstractFunctionDecl*, swift::SourceLoc) + 49
 14 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 138
 15 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 200
-16 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1715
-17 swift                    swift::CompilerInstance::performSema() + 4133
+16 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1731
+17 swift                    swift::CompilerInstance::performSema() + 4149
 18 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
 19 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
 20 swift                    main + 1983

@@ -1,4 +1,3 @@
-3  swift                    (anonymous namespace)::DeclChecker::checkOverrides(swift::TypeChecker&, swift::ValueDecl*) + 110
 6  swift                    std::__1::__function::__func<swift::ArchetypeBuilder::mapTypeIntoContext(swift::ModuleDecl*, swift::GenericParamList*, swift::Type, swift::LazyResolver*)::$_7, std::__1::allocator<swift::ArchetypeBuilder::mapTypeIntoContext(swift::ModuleDecl*, swift::GenericParamList*, swift::Type, swift::LazyResolver*)::$_7>, swift::Type (swift::Type)>::operator()(swift::Type&&) + 382
 7  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 54
 8  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 674
@@ -16,8 +15,8 @@
 20 swift                    swift::TypeChecker::typeCheckAbstractFunctionBodyUntil(swift::AbstractFunctionDecl*, swift::SourceLoc) + 37
 21 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 138
 22 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 200
-23 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1715
-24 swift                    swift::CompilerInstance::performSema() + 4133
+23 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1731
+24 swift                    swift::CompilerInstance::performSema() + 4149
 25 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
 26 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
 27 swift                    main + 1983

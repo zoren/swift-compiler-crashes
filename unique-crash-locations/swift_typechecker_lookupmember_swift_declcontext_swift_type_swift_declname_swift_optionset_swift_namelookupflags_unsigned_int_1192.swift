@@ -1,1 +1,1 @@
-../crashes-fuzzing/25089-swift-typechecker-lookupmember.swift
+../crashes-duplicates/25089-swift-typechecker-lookupmember.swift

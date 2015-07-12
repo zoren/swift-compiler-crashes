@@ -1,0 +1,1 @@
+../crashes-fuzzing/25395-std-function-func.swift

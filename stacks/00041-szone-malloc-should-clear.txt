@@ -1,10 +1,11 @@
+3  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 54
 6  swift                    swift::irgen::TypeInfo::getAddressForPointer(llvm::Value*) const + 70
 7  swift                    bindParameter((anonymous namespace)::IRGenSILFunction&, swift::SILArgument*, swift::irgen::Explosion&) + 157
 8  swift                    (anonymous namespace)::IRGenSILFunction::emitSILFunction() + 3343
 9  swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 659
 10 swift                    swift::irgen::IRGenModuleDispatcher::emitGlobalTopLevel() + 412
-11 swift                    performIRGeneration(swift::IRGenOptions&, swift::ModuleDecl*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 810
+11 swift                    performIRGeneration(swift::IRGenOptions&, swift::ModuleDecl*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 822
 12 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 70
-13 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 11663
+13 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 11630
 14 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
 15 swift                    main + 1983

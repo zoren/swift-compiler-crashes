@@ -1,3 +1,4 @@
+3  swift                    diagnoseAvailability(swift::Type, swift::IdentTypeRepr*, swift::SourceLoc, swift::DeclContext*, swift::TypeChecker&) + 253
 4  swift                    swift::ArchetypeBuilder::resolveArchetype(swift::Type) + 29
 5  swift                    swift::ArchetypeBuilder::addSameTypeRequirement(swift::Type, swift::Type, swift::RequirementSource) + 37
 6  swift                    swift::ArchetypeBuilder::addRequirement(swift::RequirementRepr const&) + 89
@@ -8,8 +9,8 @@
 11 swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 241
 12 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 651
 13 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
-14 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1345
-15 swift                    swift::CompilerInstance::performSema() + 4133
+14 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1361
+15 swift                    swift::CompilerInstance::performSema() + 4149
 16 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
 17 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
 18 swift                    main + 1983

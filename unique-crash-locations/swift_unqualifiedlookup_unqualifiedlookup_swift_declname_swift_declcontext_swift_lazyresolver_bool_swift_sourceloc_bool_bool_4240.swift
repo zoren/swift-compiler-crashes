@@ -1,1 +1,1 @@
-../crashes-fuzzing/25311-swift-unqualifiedlookup-unqualifiedlookup.swift
+../crashes-duplicates/25311-swift-unqualifiedlookup-unqualifiedlookup.swift

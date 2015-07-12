@@ -6,8 +6,8 @@
 11 swift                    swift::irgen::emitStructMetadata(swift::irgen::IRGenModule&, swift::StructDecl*) + 2392
 12 swift                    swift::irgen::IRGenModule::emitStructDecl(swift::StructDecl*) + 18
 13 swift                    swift::irgen::IRGenModule::emitSourceFile(swift::SourceFile&, unsigned int) + 114
-14 swift                    performIRGeneration(swift::IRGenOptions&, swift::ModuleDecl*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 841
+14 swift                    performIRGeneration(swift::IRGenOptions&, swift::ModuleDecl*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 853
 15 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 70
-16 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 11663
+16 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 11630
 17 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
 18 swift                    main + 1983
