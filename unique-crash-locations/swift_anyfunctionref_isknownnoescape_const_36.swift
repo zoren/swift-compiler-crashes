@@ -1,1 +1,0 @@
-../crashes-fuzzing/25296-swift-anyfunctionref-isknownnoescape.swift

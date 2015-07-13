@@ -1,1 +1,1 @@
-../crashes-fuzzing/25243-swift-printingdiagnosticconsumer-handlediagnostic.swift
+../crashes-fuzzing/25353-swift-printingdiagnosticconsumer-handlediagnostic.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/25040-llvm-bitstreamcursor-read.swift
+../crashes-fuzzing/24903-swift-parser-parsedecl.swift
