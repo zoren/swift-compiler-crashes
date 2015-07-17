@@ -1,4 +1,4 @@
-3  swift                    checkExtensionGenericParams(swift::TypeChecker&, swift::ExtensionDecl*, swift::Type, swift::GenericParamList*, swift::GenericSignature*&) + 79
+3  swift                    checkEnumRawValues(swift::TypeChecker&, swift::EnumDecl*) + 239
 4  swift                    swift::TypeDecl::getDeclaredInterfaceType() const + 11
 5  swift                    swift::NominalTypeDecl::computeInterfaceType() const + 250
 6  swift                    swift::ValueDecl::getInterfaceType() const + 50

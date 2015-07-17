@@ -1,4 +1,4 @@
-3  swift                    void swift::SourceFile::LookupCache::doPopulateCache<llvm::ArrayRef<swift::Decl*> >(llvm::ArrayRef<swift::Decl*>, bool) + 78
+3  swift                    swift::NominalTypeDecl::forceDelayedMemberDecls() + 366
 4  swift                    swift::TypeDecl::getDeclaredInterfaceType() const + 11
 5  swift                    swift::NominalTypeDecl::computeInterfaceType() const + 250
 6  swift                    swift::ValueDecl::getInterfaceType() const + 50

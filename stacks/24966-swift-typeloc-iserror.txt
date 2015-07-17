@@ -1,4 +1,3 @@
-3  swift                    swift::TypeLoc::isError() const + 22
 6  swift                    checkTypeAccessibility(swift::TypeChecker&, swift::TypeLoc, swift::ValueDecl const*, std::__1::function<void (swift::Accessibility, swift::TypeRepr const*)>) + 304
 7  swift                    checkGenericParamAccessibility(swift::TypeChecker&, swift::GenericParamList const*, swift::ValueDecl const*) + 545
 8  swift                    checkAccessibility(swift::TypeChecker&, swift::Decl const*) + 716

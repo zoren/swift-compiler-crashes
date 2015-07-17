@@ -1,0 +1,1 @@
+../crashes-fuzzing/25650-checktypedeclavailability.swift

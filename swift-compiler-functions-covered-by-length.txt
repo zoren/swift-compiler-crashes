@@ -9,6 +9,7 @@ getUncachedSILFunctionTypeForConstant
 addTypeVariableConstraintsToWorkList
 convertStoredVarInProtocolToComputed
 emitOpaqueExistentialContainerUpcast
+isProtocolOrProtocolExtensionContext
 overApproximateOSVersionsAtLocation
 getImplicitlyUnwrappedOptionalDecl
 typeCheckAbstractFunctionBodyUntil
@@ -24,15 +25,18 @@ simplifyOptionalObjectConstraint
 substituteInputSugarArgumentType
 visitUncheckedTrivialBitCastInst
 addContextParamsAndRequirements
+maybeReadForeignErrorConvention
 resolvePotentialArchetypeToType
 checkGenericParamAccessibility
 diagnoseFailureFromConstraints
+diagnoseGeneralOverloadFailure
 emitClassExistentialProjection
 emitFunctionPartialApplication
 fillObjCRepresentableTypeCache
 findExistingInitializerContext
 getAsCanonicalGenericSignature
 getDelegatingOrChainedInitKind
+getPatternEntryIndexForVarDecl
 isClassOrClassExtensionContext
 parseClosureSignatureIfPresent
 simplifyApplicableFnConstraint
@@ -59,6 +63,7 @@ validateGenericTypeSignature
 checkExtensionGenericParams
 computeDefaultAccessibility
 diagnoseAmbiguousMemberType
+diagnoseFailureForParenExpr
 existentialConformsToItself
 getBoundTypesFromConstraint
 isCascadingContextForLookup
@@ -66,6 +71,7 @@ maybeAddAccessorsToVariable
 optimizeApplyOfPartialApply
 resolveGenericTypeParamType
 resolveImplicitConstructors
+synthesizeMaterializeForSet
 addPatternVariablesToScope
 cleanupIllFormedExpression
 computeConnectedComponents
@@ -86,6 +92,7 @@ checkTypeDeclAvailability
 contextualizeTopLevelCode
 createImplicitConstructor
 diagnoseSubElementFailure
+expandImpliedConformances
 getBridgingHeaderContents
 getSpecializedConformance
 mangleDeclTypeForDebugger
@@ -95,8 +102,10 @@ resolveIdentTypeComponent
 typeCheckTopLevelCodeDecl
 applyGenericTypeReprArgs
 buildArrayInjectionFnRef
+checkDeclAttributesEarly
 constructCallToSuperInit
 createBindingFromPattern
+createForSpecializedDecl
 defineDefaultConstructor
 emitLetToVarNoteIfSimple
 emitPolymorphicArguments
@@ -117,6 +126,7 @@ addAccessorsToStoredVar
 addImplicitConstructors
 emitRValueAsSingleValue
 emitToUnmappedExplosion
+forceDelayedMemberDecls
 getDefaultDefinitionLoc
 getEncodedStringSegment
 getSelfTypeForContainer
@@ -185,8 +195,10 @@ setInvalidBracesRange
 simplifyFixConstraint
 tryMangleSubstitution
 validateAccessibility
+visitTopLevelCodeDecl
 addMaterializeForSet
 allocateMappedMemory
+applyAttributeToType
 computeAccessibility
 computeInterfaceType
 computeSubstitutions
@@ -195,6 +207,7 @@ diagnoseRedefinition
 drillToLastComponent
 emitGetIntoTemporary
 emitOrigToSubstValue
+emitSimpleAssignment
 emitValueConstructor
 forAllVisibleModules
 formatDiagnosticText
@@ -206,6 +219,7 @@ getImplicitProtocols
 getLocalConformances
 getMemberForBaseType
 getOverloadSignature
+getParentInitializer
 getPotentialBindings
 getTBAAStructTagInfo
 getUniqueSourceFiles
@@ -254,6 +268,7 @@ removeShadowedDecls
 setGenericSignature
 typeCheckExpression
 writeBlockInfoBlock
+writeCrossReference
 checkAccessibility
 checkEnumRawValues
 checkRedeclaration
@@ -301,6 +316,8 @@ solveForExpression
 typeCheckCondition
 unbindTypeVariable
 validateAttributes
+writeDeclAttribute
+addConformanceRef
 consumeIdentifier
 convertStructType
 createDisjunction
@@ -312,6 +329,7 @@ gatherConstraints
 getBBForReference
 getCommentForDecl
 getDictionaryDecl
+getLocalProtocols
 inferRequirements
 isExistentialType
 lookupConformance
@@ -328,6 +346,7 @@ prepareExtensions
 readSILBasicBlock
 removedConstraint
 requiresClassSlow
+resolveSuperclass
 runFunctionAsMain
 updateLookupTable
 validateExtension
@@ -338,6 +357,7 @@ checkConformance
 compareProtocols
 compareSolutions
 configureStorage
+createDeallocBox
 diagAvailability
 emitClosureValue
 emitLoadOfLValue
@@ -387,6 +407,7 @@ forEachVariable
 getByteDistance
 getConstantInfo
 getDeclaredType
+getLoadedModule
 getMaterialized
 getObjCSelector
 getOptionalDecl
@@ -417,6 +438,7 @@ simplifyLocator
 solveSimplified
 addOverloadSet
 addRequirement
+availableRange
 checkValueDecl
 emitDiagnostic
 emitReturnExpr
@@ -458,6 +480,7 @@ flushComments
 getConformsTo
 getExtensions
 getIdentifier
+getNestedType
 getRawComment
 getSuperclass
 hasNestedType
@@ -476,6 +499,7 @@ parseTopLevel
 printOneChild
 printTextImpl
 serialization
+setBodyParams
 setConformsTo
 setRawComment
 substBaseType
@@ -483,6 +507,7 @@ typeCheckDecl
 visitCallInst
 visitFuncDecl
 addProtocols
+buildRefExpr
 canParseType
 coerceToType
 constructSIL
@@ -555,8 +580,10 @@ parseToken
 readRecord
 removeNode
 setPattern
+setWitness
 skipRecord
 skipSingle
+addMember
 emitApply
 getOSName
 getStream
@@ -569,6 +596,7 @@ parseStmt
 parseType
 printName
 printText
+setLoader
 setParams
 skipUntil
 substType
@@ -609,7 +637,6 @@ clang
 clone
 irgen
 print
-rfind
 setup
 solve
 subst

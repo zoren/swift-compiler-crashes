@@ -1,0 +1,12 @@
+6  swift                    swift::ArchetypeBuilder::finalize(swift::SourceLoc) + 2534
+7  swift                    swift::TypeChecker::validateGenericFuncSignature(swift::AbstractFunctionDecl*) + 165
+8  swift                    (anonymous namespace)::DeclChecker::visitDestructorDecl(swift::DestructorDecl*) + 371
+9  swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 715
+10 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
+11 swift                    swift::TypeChecker::addImplicitDestructor(swift::ClassDecl*) + 331
+12 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 873
+13 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1731
+14 swift                    swift::CompilerInstance::performSema() + 4149
+15 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
+16 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
+17 swift                    main + 1983

@@ -1,0 +1,1 @@
+../crashes-fuzzing/25533-bool.swift

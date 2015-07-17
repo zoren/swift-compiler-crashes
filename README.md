@@ -51,7 +51,7 @@ $ ./test.sh
 Running tests against: swiftlang-700.0.45 clang-700.0.57.2 (Xcode 7.0 (7A152u))
 Using Xcode found at path: /Applications/Xcode-Beta.app/Contents/Developer/
 Usage: ./test.sh [-v] [-q] [-c<columns>] [-l] [file ...]
-Adding a new test case? The crash id to use for the next test case is 25447.
+Adding a new test case? The crash id to use for the next test case is 25962.
 
 == Currently known crashes, set #1 (human reported crashes, crashes not found by fuzzing) ==
 
@@ -148,6 +148,7 @@ Adding a new test case? The crash id to use for the next test case is 25447.
   ✘  08008 swift typechecker typecheckexpression                  (          )
   ✘  08127 swift typechecker validatedecl                         (2cb207a417)
      lots of fuzzing crashes omitted for README.md readability …
+  ✓  24059 swift lexer leximpl
   ✓  24067 swift diagnosticengine flushactivediagnostic
   ✓  24078 llvm foldingset swift tupletype nodeequals
   ✓  24081 swift valuedecl overwritetype
@@ -253,7 +254,6 @@ Adding a new test case? The crash id to use for the next test case is 25447.
   ✓  24669 swift removeshadoweddecls
   ✓  24671 swift constraints constraintsystem constraintsystem
   ✓  24677 swift declname printpretty
-  ✘  24680 swift typechecker validategenericfuncsignature         (3cfd8fb0dd)
   ✓  24703 swift archetypebuilder inferrequirementswalker walktot
   ✓  24712 swift constraints constraintsystem getconstraintlocato
   ✓  24717 swift functiontype get
@@ -346,7 +346,7 @@ Adding a new test case? The crash id to use for the next test case is 25447.
   ✓  25328 swift parser createbindingfrompattern
   ✓  25333 swift abstractclosureexpr setparams
   ✓  25337 cleanupillformedexpression
-** Results: 495 of 2441 tests crashed the compiler **
+** Results: 1007 of 2953 tests crashed the compiler **
 
 ```
 

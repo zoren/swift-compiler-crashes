@@ -1,4 +1,4 @@
-3  swift                    swift::ClassDecl::lookupDirect(swift::ObjCSelector, bool) + 81
+3  swift                    swift::ConformanceLookupTable::ConformanceEntry::dump(llvm::raw_ostream&, unsigned int) const + 401
 6  swift                    checkTypeAccessibility(swift::TypeChecker&, swift::TypeLoc, swift::ValueDecl const*, std::__1::function<void (swift::Accessibility, swift::TypeRepr const*)>) + 304
 7  swift                    checkGenericParamAccessibility(swift::TypeChecker&, swift::GenericParamList const*, swift::ValueDecl const*) + 545
 8  swift                    (anonymous namespace)::DeclChecker::visitProtocolDecl(swift::ProtocolDecl*) + 636

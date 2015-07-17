@@ -1,0 +1,1 @@
+../crashes-fuzzing/25934-swift-vardecl-getparentinitializer.swift

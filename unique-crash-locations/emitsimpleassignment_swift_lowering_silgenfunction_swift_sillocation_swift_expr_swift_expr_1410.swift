@@ -1,0 +1,1 @@
+../crashes-fuzzing/25847-emitsimpleassignment.swift

@@ -1,3 +1,4 @@
+3  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 80
 6  swift                    swift::TypeBase::getMemberSubstitutions(swift::DeclContext*) + 971
 7  swift                    swift::TypeBase::getTypeOfMember(swift::ModuleDecl*, swift::Type, swift::DeclContext*) + 67
 8  swift                    swift::TypeChecker::resolveTypeInContext(swift::TypeDecl*, swift::DeclContext*, bool, swift::GenericTypeResolver*) + 1636

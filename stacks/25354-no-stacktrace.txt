@@ -1,4 +1,4 @@
-3  swift                    checkEnumRawValues(swift::TypeChecker&, swift::EnumDecl*) + 239
+3  swift                    (anonymous namespace)::DeclChecker::checkOverrides(swift::TypeChecker&, swift::ValueDecl*) + 335
 6  swift                    FindLocalVal::checkValueDecl(swift::ValueDecl*) + 149
 7  swift                    FindLocalVal::visitBraceStmt(swift::BraceStmt*) + 228
 8  swift                    swift::ASTVisitor<FindLocalVal, void, void, void, void, void, void>::visit(swift::Stmt*) + 77

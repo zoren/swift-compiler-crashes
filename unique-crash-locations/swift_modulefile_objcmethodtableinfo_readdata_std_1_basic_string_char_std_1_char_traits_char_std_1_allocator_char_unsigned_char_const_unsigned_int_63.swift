@@ -1,0 +1,1 @@
+../crashes-fuzzing/25896-swift-serialization-serializer-writedeclattribute.swift

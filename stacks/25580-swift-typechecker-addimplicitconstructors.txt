@@ -1,0 +1,9 @@
+6  swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*) + 4347
+7  swift                    swift::TypeChecker::checkInheritanceClause(swift::Decl*, swift::GenericTypeResolver*) + 5645
+8  swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 1304
+9  swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 658
+10 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1731
+11 swift                    swift::CompilerInstance::performSema() + 4149
+12 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
+13 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
+14 swift                    main + 1983
