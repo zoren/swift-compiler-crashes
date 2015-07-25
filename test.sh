@@ -18,9 +18,10 @@ columns=$(tput cols)
 verbose=0
 log_stacks=0
 delete_dupes=0
+delete_fixed=0
 max_test_number=0
 quick_mode=0
-while getopts "c:vldm:q" o; do
+while getopts "c:vldfm:q" o; do
   case ${o} in
     c)
       columns=${OPTARG}
@@ -33,6 +34,9 @@ while getopts "c:vldm:q" o; do
       ;;
     d)
       delete_dupes=1
+      ;;
+    f)
+      delete_fixed=1
       ;;
     m)
       max_test_number=${OPTARG}
@@ -303,6 +307,10 @@ test_file() {
     fi
     printf "  %b  %-${adjusted_name_size}.${adjusted_name_size}b (%-10.10b)\n" "${color_red}✘${color_normal_display}" "${test_name}" "${hash}"
   else
+    if [[ ${delete_fixed} == 1 && ${files_to_compile} =~ crashes-fuzzing ]]; then
+      # shellcheck disable=SC2086
+      rm ${files_to_compile}
+    fi
     printf "  %b  %-${name_size}.${name_size}b\n" "${color_green}✓${color_normal_display}" "${test_name}"
   fi
   if [[ ${verbose} == 1 ]]; then
@@ -356,7 +364,7 @@ main() {
     run_tests_in_directory "Currently known crashes, set #1 (human reported crashes, crashes not found by fuzzing)" "./crashes"
     run_tests_in_directory "Currently known crashes, set #2 (crashes found by fuzzing)" "./crashes-fuzzing"
     # run_tests_in_directory "Currently known crashes (duplicates)" "./crashes-duplicates"
-    if [[ ${delete_dupes} == 1 ]]; then
+    if [[ ${delete_dupes} == 1 || ${delete_fixed} == 1 ]]; then
       exit 0
     fi
     run_tests_in_directory "Crashes marked as fixed in previous releases" "./fixed"
