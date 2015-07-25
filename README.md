@@ -1,7 +1,7 @@
 Project swift-compiler-crashes
 ==============================
 
-This repo collects known test cases crashing the Swift compiler. All tests cases in the `crashes/` and `crashes-fuzzing/` directories are known to generate a compiler crash under Xcode 6.3 beta 2.
+This repo collects known test cases crashing the Swift compiler. All tests cases in the `crashes/` and `crashes-fuzzing/` directories are known to generate a compiler crash under the latest Xcode beta (if not, please report!).
 
 Help us towards a rock solid Swift compiler by contributing any compiler crashes you may encounter.
 
