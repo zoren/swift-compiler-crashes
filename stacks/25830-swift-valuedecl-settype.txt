@@ -1,6 +1,6 @@
 6  swift                    swift::ValueDecl::setType(swift::Type) + 102
 7  swift                    swift::TypeChecker::validateGenericFuncSignature(swift::AbstractFunctionDecl*) + 126
-8  swift                    (anonymous namespace)::DeclChecker::visitFuncDecl(swift::FuncDecl*) + 1772
+8  swift                    (anonymous namespace)::DeclChecker::visitFuncDecl(swift::FuncDecl*) + 1828
 9  swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 731
 10 swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 571
 11 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 651
@@ -13,6 +13,6 @@
 18 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 200
 19 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1731
 20 swift                    swift::CompilerInstance::performSema() + 4149
-21 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
-22 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
-23 swift                    main + 1983
+21 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 725
+22 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+23 swift                    main + 2015

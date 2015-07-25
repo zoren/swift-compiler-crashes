@@ -2,7 +2,7 @@
 6  swift                    swift::BoundGenericType::getGenericParamContext(swift::DeclContext*) const + 321
 7  swift                    swift::BoundGenericType::getSubstitutions(swift::ModuleDecl*, swift::LazyResolver*, swift::DeclContext*) + 72
 8  swift                    swift::TypeBase::gatherAllSubstitutions(swift::ModuleDecl*, llvm::SmallVectorImpl<swift::Substitution>&, swift::LazyResolver*, swift::DeclContext*) + 211
-9  swift                    swift::ModuleDecl::lookupConformance(swift::Type, swift::ProtocolDecl*, swift::LazyResolver*) + 1810
+9  swift                    swift::ModuleDecl::lookupConformance(swift::Type, swift::ProtocolDecl*, swift::LazyResolver*) + 1958
 10 swift                    swift::ConformanceLookupTable::getConformance(swift::NominalTypeDecl*, swift::LazyResolver*, swift::ConformanceLookupTable::ConformanceEntry*) + 649
 11 swift                    swift::ConformanceLookupTable::lookupConformances(swift::NominalTypeDecl*, swift::DeclContext*, swift::LazyResolver*, swift::ConformanceLookupKind, llvm::SmallVectorImpl<swift::ProtocolDecl*>*, llvm::SmallVectorImpl<swift::ProtocolConformance*>*, llvm::SmallVectorImpl<swift::ConformanceDiagnostic>*) + 721
 12 swift                    swift::DeclContext::getLocalConformances(swift::ConformanceLookupKind, llvm::SmallVectorImpl<swift::ConformanceDiagnostic>*) const + 203
@@ -19,6 +19,6 @@
 23 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 200
 24 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1731
 25 swift                    swift::CompilerInstance::performSema() + 4149
-26 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
-27 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
-28 swift                    main + 1983
+26 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 725
+27 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+28 swift                    main + 2015

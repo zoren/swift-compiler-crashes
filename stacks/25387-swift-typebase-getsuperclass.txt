@@ -11,6 +11,6 @@
 16 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
 17 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1514
 18 swift                    swift::CompilerInstance::performSema() + 4149
-19 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
-20 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
-21 swift                    main + 1983
+19 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 725
+20 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+21 swift                    main + 2015

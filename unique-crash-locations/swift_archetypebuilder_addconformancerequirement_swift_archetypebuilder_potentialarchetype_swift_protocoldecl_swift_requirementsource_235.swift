@@ -1,1 +1,1 @@
-../crashes-fuzzing/25627-swift-archetypebuilder-addconformancerequirement.swift
+../crashes-duplicates/25627-swift-archetypebuilder-addconformancerequirement.swift

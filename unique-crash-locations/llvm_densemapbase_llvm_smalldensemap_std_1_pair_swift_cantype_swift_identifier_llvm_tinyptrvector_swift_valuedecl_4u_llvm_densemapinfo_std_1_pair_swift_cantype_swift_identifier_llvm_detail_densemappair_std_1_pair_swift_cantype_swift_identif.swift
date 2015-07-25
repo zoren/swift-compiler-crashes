@@ -1,1 +1,1 @@
-../crashes-fuzzing/25214-llvm-densemapbase-llvm-smalldensemap-std-pair-swift-cantype.swift
+../crashes-fuzzing/26061-swift-removeshadoweddecls.swift

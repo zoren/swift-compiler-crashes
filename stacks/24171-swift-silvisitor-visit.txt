@@ -1,11 +1,10 @@
-3  swift                    FirstTarget + 62863
 4  swift                    abort + 22
 5  swift                    llvm::llvm_unreachable_internal(char const*, char const*, unsigned int) + 481
 6  swift                    swift::Lowering::SILGenFunction::emitSemanticStore(swift::SILLocation, swift::SILValue, swift::SILValue, swift::Lowering::TypeLowering const&, swift::IsInitialization_t) + 1976
 7  swift                    swift::Lowering::ManagedValue::forwardInto(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::SILValue) + 164
 8  swift                    emitGetIntoTemporary(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::Lowering::ManagedValue, swift::Lowering::LogicalPathComponent&&) + 254
-9  swift                    swift::Lowering::LogicalPathComponent::getMaterialized(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::Lowering::ManagedValue, swift::AccessKind) && + 462
-10 swift                    (anonymous namespace)::GetterSetterComponent::getMaterialized(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::Lowering::ManagedValue, swift::AccessKind) && + 261
+9  swift                    swift::Lowering::LogicalPathComponent::getMaterialized(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::Lowering::ManagedValue, swift::AccessKind) && + 455
+10 swift                    (anonymous namespace)::GetterSetterComponent::getMaterialized(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::Lowering::ManagedValue, swift::AccessKind) && + 1495
 11 swift                    drillToLastComponent(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::Lowering::LValue&&, swift::Lowering::ManagedValue&, swift::AccessKind) + 380
 12 swift                    swift::Lowering::SILGenFunction::emitLoadOfLValue(swift::SILLocation, swift::Lowering::LValue&&, swift::Lowering::SGFContext, bool) + 212
 13 swift                    swift::Lowering::SILGenFunction::emitCopyLValueInto(swift::SILLocation, swift::Lowering::LValue&&, swift::Lowering::Initialization*) + 288
@@ -20,6 +19,6 @@
 22 swift                    swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 587
 23 swift                    swift::SILModule::constructSIL(swift::ModuleDecl*, swift::SILOptions&, swift::FileUnit*, llvm::Optional<unsigned int>, bool, bool) + 975
 24 swift                    swift::performSILGeneration(swift::FileUnit&, swift::SILOptions&, llvm::Optional<unsigned int>, bool) + 123
-25 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 9153
-26 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
-27 swift                    main + 1983
+25 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 9569
+26 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+27 swift                    main + 2015

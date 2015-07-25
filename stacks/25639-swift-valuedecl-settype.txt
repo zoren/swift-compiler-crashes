@@ -1,21 +1,21 @@
 6  swift                    swift::ValueDecl::setType(swift::Type) + 102
 7  swift                    swift::TypeChecker::validateGenericFuncSignature(swift::AbstractFunctionDecl*) + 126
-8  swift                    (anonymous namespace)::DeclChecker::visitFuncDecl(swift::FuncDecl*) + 1772
+8  swift                    (anonymous namespace)::DeclChecker::visitFuncDecl(swift::FuncDecl*) + 1828
 9  swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 731
-10 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 849
+10 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 890
 11 swift                    swift::ProtocolDecl::existentialTypeSupportedSlow(swift::LazyResolver*) + 186
 12 swift                    (anonymous namespace)::UnsupportedProtocolVisitor::visitIdentTypeRepr(swift::IdentTypeRepr*) + 201
 13 swift                    (anonymous namespace)::UnsupportedProtocolVisitor::walkToTypeReprPre(swift::TypeRepr*) + 34
-14 swift                    (anonymous namespace)::Traversal::visitAbstractFunctionDecl(swift::AbstractFunctionDecl*) + 283
-15 swift                    (anonymous namespace)::Traversal::doIt(swift::Decl*) + 266
+14 swift                    (anonymous namespace)::Traversal::visitAbstractFunctionDecl(swift::AbstractFunctionDecl*) + 304
+15 swift                    (anonymous namespace)::Traversal::doIt(swift::Decl*) + 256
 16 swift                    swift::Decl::walk(swift::ASTWalker&) + 27
 17 swift                    swift::TypeChecker::checkUnsupportedProtocolType(swift::Decl*) + 146
-18 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 4160
-19 swift                    (anonymous namespace)::DeclChecker::visitProtocolDecl(swift::ProtocolDecl*) + 555
+18 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 4151
+19 swift                    (anonymous namespace)::DeclChecker::visitProtocolDecl(swift::ProtocolDecl*) + 571
 20 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 667
 21 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
 22 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1361
 23 swift                    swift::CompilerInstance::performSema() + 4149
-24 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
-25 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
-26 swift                    main + 1983
+24 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 725
+25 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+26 swift                    main + 2015

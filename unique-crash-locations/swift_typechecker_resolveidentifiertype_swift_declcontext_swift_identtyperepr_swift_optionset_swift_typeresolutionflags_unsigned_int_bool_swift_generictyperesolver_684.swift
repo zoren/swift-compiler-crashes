@@ -1,1 +1,1 @@
-../crashes-fuzzing/25295-swift-typechecker-resolveidentifiertype.swift
+../crashes-duplicates/25295-swift-typechecker-resolveidentifiertype.swift

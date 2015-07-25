@@ -1,1 +1,1 @@
-../crashes-fuzzing/25501-swift-genericparamlist-addnestedarchetypes.swift
+../crashes-duplicates/25501-swift-genericparamlist-addnestedarchetypes.swift

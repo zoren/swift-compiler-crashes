@@ -1,1 +1,1 @@
-../crashes-fuzzing/25293-swift-pattern-clone.swift
+../crashes-duplicates/25293-swift-pattern-clone.swift

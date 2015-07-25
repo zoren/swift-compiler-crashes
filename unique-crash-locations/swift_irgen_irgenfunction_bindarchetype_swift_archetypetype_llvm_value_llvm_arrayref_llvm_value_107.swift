@@ -1,1 +1,0 @@
-../crashes/23906-swift-irgen-irgenfunction-bindarchetype.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/25417-swift-inouttype-get.swift
+../crashes-duplicates/25417-swift-inouttype-get.swift

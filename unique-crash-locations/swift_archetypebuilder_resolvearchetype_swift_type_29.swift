@@ -1,1 +1,0 @@
-../crashes/23892-swift-archetypebuilder-resolvearchetype.swift

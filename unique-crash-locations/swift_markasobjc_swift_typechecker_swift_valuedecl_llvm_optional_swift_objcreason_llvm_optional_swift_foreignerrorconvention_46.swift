@@ -1,1 +1,1 @@
-../crashes-fuzzing/25043-swift-markasobjc.swift
+../crashes-duplicates/25043-swift-markasobjc.swift

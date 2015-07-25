@@ -1,1 +1,1 @@
-../crashes-fuzzing/25732-std-function-func-mapsignaturetype.swift
+../crashes-duplicates/25732-std-function-func-mapsignaturetype.swift

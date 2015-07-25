@@ -1,11 +1,11 @@
 6  swift                    emitSimpleAssignment(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::Expr*, swift::Expr*) + 1410
-7  swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 12807
+7  swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 12826
 8  swift                    swift::Lowering::SILGenFunction::emitIgnoredExpr(swift::Expr*) + 445
 9  swift                    swift::ASTVisitor<(anonymous namespace)::StmtEmitter, void, void, void, void, void, void>::visit(swift::Stmt*) + 536
 10 swift                    swift::Lowering::SILGenModule::visitTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 44
 11 swift                    swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 587
 12 swift                    swift::SILModule::constructSIL(swift::ModuleDecl*, swift::SILOptions&, swift::FileUnit*, llvm::Optional<unsigned int>, bool, bool) + 975
 13 swift                    swift::performSILGeneration(swift::FileUnit&, swift::SILOptions&, llvm::Optional<unsigned int>, bool) + 123
-14 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 9153
-15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
-16 swift                    main + 1983
+14 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 9569
+15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+16 swift                    main + 2015

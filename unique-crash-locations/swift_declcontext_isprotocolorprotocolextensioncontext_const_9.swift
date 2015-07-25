@@ -1,1 +1,1 @@
-../crashes-fuzzing/25773-swift-declcontext-isprotocolorprotocolextensioncontext.swift
+../crashes-fuzzing/26176-swift-declcontext-isprotocolorprotocolextensioncontext.swift

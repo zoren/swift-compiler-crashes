@@ -1,4 +1,4 @@
-6  swift                    std::__1::__function::__func<swift::ArchetypeBuilder::mapTypeIntoContext(swift::ModuleDecl*, swift::GenericParamList*, swift::Type, swift::LazyResolver*)::$_7, std::__1::allocator<swift::ArchetypeBuilder::mapTypeIntoContext(swift::ModuleDecl*, swift::GenericParamList*, swift::Type, swift::LazyResolver*)::$_7>, swift::Type (swift::Type)>::operator()(swift::Type&&) + 382
+6  swift                    std::__1::__function::__func<swift::ArchetypeBuilder::mapTypeIntoContext(swift::ModuleDecl*, swift::GenericParamList*, swift::Type, swift::LazyResolver*)::$_6, std::__1::allocator<swift::ArchetypeBuilder::mapTypeIntoContext(swift::ModuleDecl*, swift::GenericParamList*, swift::Type, swift::LazyResolver*)::$_6>, swift::Type (swift::Type)>::operator()(swift::Type&&) + 382
 7  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 54
 8  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 674
 9  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 301
@@ -20,6 +20,6 @@
 25 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 200
 26 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1731
 27 swift                    swift::CompilerInstance::performSema() + 4149
-28 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
-29 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
-30 swift                    main + 1983
+28 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 725
+29 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+30 swift                    main + 2015

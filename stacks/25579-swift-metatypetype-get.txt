@@ -1,13 +1,13 @@
 3  swift                    swift::MetatypeType::get(swift::Type, llvm::Optional<swift::MetatypeRepresentation>) + 66
-6  swift                    (anonymous namespace)::DeclChecker::visitFuncDecl(swift::FuncDecl*) + 7224
+6  swift                    (anonymous namespace)::DeclChecker::visitFuncDecl(swift::FuncDecl*) + 7528
 7  swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 731
 8  swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
 9  swift                    swift::addTrivialAccessorsToStorage(swift::AbstractStorageDecl*, swift::TypeChecker&) + 462
 10 swift                    swift::maybeAddAccessorsToVariable(swift::VarDecl*, swift::TypeChecker&) + 749
-11 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 2530
+11 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 2971
 12 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 658
 13 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1731
 14 swift                    swift::CompilerInstance::performSema() + 4149
-15 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
-16 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
-17 swift                    main + 1983
+15 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 725
+16 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+17 swift                    main + 2015

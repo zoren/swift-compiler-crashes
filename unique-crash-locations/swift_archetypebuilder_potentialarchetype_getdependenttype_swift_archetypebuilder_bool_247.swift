@@ -1,0 +1,1 @@
+../crashes-fuzzing/26069-swift-archetypebuilder-potentialarchetype-getdependenttype.swift

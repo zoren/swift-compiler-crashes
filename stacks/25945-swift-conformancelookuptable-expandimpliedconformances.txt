@@ -1,4 +1,3 @@
-3  swift                    swift::ConformanceLookupTable::expandImpliedConformances(swift::NominalTypeDecl*, swift::DeclContext*, swift::LazyResolver*) + 58
 6  swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*) + 4347
 7  swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 514
 8  swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 651
@@ -9,6 +8,6 @@
 13 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
 14 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1514
 15 swift                    swift::CompilerInstance::performSema() + 4149
-16 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
-17 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
-18 swift                    main + 1983
+16 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 725
+17 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+18 swift                    main + 2015

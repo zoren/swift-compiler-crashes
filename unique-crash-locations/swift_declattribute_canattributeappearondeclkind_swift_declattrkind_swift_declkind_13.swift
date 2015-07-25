@@ -1,0 +1,1 @@
+../crashes-fuzzing/26143-swift-declattribute-canattributeappearondeclkind.swift

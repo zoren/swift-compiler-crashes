@@ -1,0 +1,15 @@
+6  swift                    swift::ArchetypeBuilder::addRequirement(swift::Requirement const&, swift::RequirementSource) + 437
+7  swift                    swift::ArchetypeBuilder::addGenericSignature(swift::GenericSignature*, bool, bool) + 579
+8  swift                    checkGenericParameters(swift::TypeChecker&, swift::ArchetypeBuilder*, swift::GenericParamList*, swift::DeclContext*, swift::GenericTypeResolver&) + 83
+9  swift                    swift::TypeChecker::validateGenericSignature(swift::GenericParamList*, swift::DeclContext*, swift::GenericSignature*, std::__1::function<bool (swift::ArchetypeBuilder&)>, bool&) + 141
+10 swift                    swift::TypeChecker::validateGenericTypeSignature(swift::NominalTypeDecl*) + 109
+11 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 933
+12 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2757
+13 swift                    (anonymous namespace)::DeclChecker::visitProtocolDecl(swift::ProtocolDecl*) + 571
+14 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 667
+15 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
+16 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1361
+17 swift                    swift::CompilerInstance::performSema() + 4149
+18 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 725
+19 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+20 swift                    main + 2015

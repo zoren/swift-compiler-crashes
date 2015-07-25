@@ -1,1 +1,1 @@
-../crashes-fuzzing/24904-llvm-mutablearrayref-swift-protocoldecl.swift
+../crashes-duplicates/24904-llvm-mutablearrayref-swift-protocoldecl.swift

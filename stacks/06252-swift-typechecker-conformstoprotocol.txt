@@ -1,3 +1,4 @@
+3  swift                    swift::TypeChecker::checkInheritanceClause(swift::Decl*, swift::GenericTypeResolver*) + 6324
 4  swift                    checkEnumRawValues(swift::TypeChecker&, swift::EnumDecl*) + 75
 5  swift                    (anonymous namespace)::DeclChecker::visitEnumDecl(swift::EnumDecl*) + 1149
 6  swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 619
@@ -10,6 +11,6 @@
 13 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 200
 14 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1731
 15 swift                    swift::CompilerInstance::performSema() + 4149
-16 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
-17 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
-18 swift                    main + 1983
+16 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 725
+17 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+18 swift                    main + 2015

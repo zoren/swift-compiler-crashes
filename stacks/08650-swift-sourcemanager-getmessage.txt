@@ -1,6 +1,6 @@
-6  swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 4415
+6  swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 4447
 7  swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 751
-8  swift                    swift::Parser::parseStmtCase() + 1459
+8  swift                    swift::Parser::parseStmtCase() + 1499
 9  swift                    swift::Parser::parseStmtSwitch(swift::LabeledStmtInfo) + 903
 10 swift                    swift::Parser::parseStmt() + 2397
 11 swift                    swift::Parser::parseExprOrStmt(swift::ASTNode&) + 185
@@ -14,6 +14,6 @@
 19 swift                    swift::Parser::parseTopLevel() + 165
 20 swift                    swift::parseIntoSourceFile(swift::SourceFile&, unsigned int, bool*, swift::SILParserState*, swift::PersistentParserState*, swift::DelayedParsingCallbacks*) + 103
 21 swift                    swift::CompilerInstance::performSema() + 4120
-22 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 736
-23 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2515
-24 swift                    main + 1983
+22 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 725
+23 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+24 swift                    main + 2015
