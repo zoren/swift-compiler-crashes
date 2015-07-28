@@ -25,7 +25,8 @@ get_crash_hash() {
 
 seen_crashes=""
 test_crash_case() {
-    source_code="$1"
+    escaped_source_code="$1"
+    source_code=$(echo -e "${escaped_source_code}")
     compilation_output=$(xcrun swiftc -o /dev/null - <<< "${source_code}" 2>&1)
     crash_hash=$(get_crash_hash "${compilation_output}")
     dupe_text=""
@@ -34,9 +35,9 @@ test_crash_case() {
     fi
     seen_crashes="${seen_crashes}:${crash_hash}"
     if grep -q -E '^[0-9]+ +swift +0x' <<< "${compilation_output}"; then
-        echo "· ✘ · ${source_code}${dupe_text}"
+        echo "· ✘ · ${escaped_source_code}${dupe_text}"
     else
-        echo "· ✓ · ${source_code}"
+        echo "· ✓ · ${escaped_source_code}"
     fi
 }
                              # +-----+-----+-----+-----+-----+-----+
@@ -57,6 +58,7 @@ test_crash_case '{_{[true'   # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | s
 test_crash_case '&.f{}()do'  # |   9 |     |     |     |     |  ✘  | std::__1::__function::__func<swift::constraints::ConstraintSystem::simplifyType(swift::Type, llvm::SmallPtrSet<swift::TypeVariableType*, 16u>&)::$_6, std::__1::allocator<swift::constraints::…
 test_crash_case '&Range.T{'  # |   9 |     |     |     |     |  ✘  | swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::DeclRefExpr const*, …
 test_crash_case '&_{Range?'  # |   9 |     |     |     |     |  ✘  | swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 280
+test_crash_case '.{nil<{\n{' # |   9 |     |     |     |     |  ✘  | swift::ConformanceLookupTable::expandImpliedConformances(swift::NominalTypeDecl*, swift::DeclContext*, swift::LazyResolver*) + 496
 test_crash_case '{nil...{('  # |   9 |     |     |     |     |  ✘  | swift::constraints::ConstraintSystem::simplifyMemberConstraint(swift::constraints::Constraint const&) + 416
                              # +-----+-----+-----+-----+-----+-----+
 
