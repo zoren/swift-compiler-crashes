@@ -1,10 +1,5 @@
-//
-//  main.swift
-//  SwiftSegmentationFault1
-//
-//  Created by Valeriy Van on 7/28/15.
-//  Copyright (c) 2015 Valeriy Van. All rights reserved.
-//
+// Distributed under the terms of the MIT license
+// Test case submitted to project by https://github.com/valeriyvan (Valeriy Van)
 
 class C {
     lazy var stuff: [(title: String, image: String, action: (Void)->Void)] = {
