@@ -54,12 +54,13 @@ test_crash_case '({[({_'     # |   6 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | (
 test_crash_case '{nil-{_?'   # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | void (anonymous namespace)::visitProtocols<swift::ConformanceLookupTable::addProtocols(swift::NominalTypeDecl*, llvm::ArrayRef<swift::TypeLoc>, swift::ConformanceLookupTable::ConformanceSource, …
 test_crash_case '{(_>"",{'   # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::TypeBase::isEqual(swift::Type) + 15
 test_crash_case '{_{[true'   # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::ConformanceLookupTable::resolveConformances(swift::NominalTypeDecl*, swift::ProtocolDecl*, swift::LazyResolver*) + 743
-test_crash_case '&.f{}()do'  # |   9 |     |     |     |     |  ✘  |
-test_crash_case '&Range.T{'  # |   9 |     |     |     |     |  ✘  |
-test_crash_case '&_{Range?'  # |   9 |     |     |     |     |  ✘  |
-test_crash_case '{nil...{('  # |   9 |     |     |     |     |  ✘  |
+test_crash_case '&.f{}()do'  # |   9 |     |     |     |     |  ✘  | std::__1::__function::__func<swift::constraints::ConstraintSystem::simplifyType(swift::Type, llvm::SmallPtrSet<swift::TypeVariableType*, 16u>&)::$_6, std::__1::allocator<swift::constraints::…
+test_crash_case '&Range.T{'  # |   9 |     |     |     |     |  ✘  | swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::DeclRefExpr const*, …
+test_crash_case '&_{Range?'  # |   9 |     |     |     |     |  ✘  | swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 280
+test_crash_case '{nil...{('  # |   9 |     |     |     |     |  ✘  | swift::constraints::ConstraintSystem::simplifyMemberConstraint(swift::constraints::Constraint const&) + 416
                              # +-----+-----+-----+-----+-----+-----+
 
 echo
-echo "Do you have Xcode 7b3 or earlier installed? If so, please paste the output"
-echo "above into a GitHub gist and send it to @practicalswift on Twitter :-)"
+echo "Do you have older Xcode versions installed? If so, please run this script"
+echo "against your old swiftc versions, paste the output into a GitHub gist and"
+echo "send it to @practicalswift on Twitter :-)"
