@@ -39,22 +39,26 @@ test_crash_case() {
         echo "· ✓ · ${source_code}"
     fi
 }
-                           # +-----+-----+-----+-----+-----+-----+
-                           # | len | 6.2 | 7b1 | 7b2 | 7b3 | 7b4 |
-                           # +-----+-----+-----+-----+-----+-----+
-test_crash_case '&_'       # |   2 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::constraints::ConstraintSystem::diagnoseFailureForExpr(swift::Expr*) + 924
-test_crash_case '{&_'      # |   3 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::constraints::ConstraintSystem::diagnoseFailureForExpr(swift::Expr*) + 924
-test_crash_case '&(-_'     # |   4 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 417
-test_crash_case '&[_?'     # |   4 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::Type::walk(swift::TypeWalker&) const + 81
-test_crash_case 'for{{'    # |   5 |  ✓  |  ✘  |  ✘  |  ✘  |  ✓  |
-test_crash_case '()=()'    # |   5 |  ✓  |  ✘  |  ✘  |  ✘  |  ✘  | emitSimpleAssignment(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::Expr*, swift::Expr*) + 1410
-test_crash_case '&[(-{'    # |   5 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::StreamPrinter::printText(llvm::StringRef) + 53
-test_crash_case '{&(&)'    # |   5 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::ModuleFile::getDecl(llvm::Fixnum<31u, unsigned int>, llvm::Optional<swift::DeclContext*>) + 14041
-test_crash_case '({[({_'   # |   6 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | (anonymous namespace)::PreCheckExpression::walkToExprPre(swift::Expr*) + 541
-test_crash_case '{nil-{_?' # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | void (anonymous namespace)::visitProtocols<swift::ConformanceLookupTable::addProtocols(swift::NominalTypeDecl*, llvm::ArrayRef<swift::TypeLoc>, swift::ConformanceLookupTable::ConformanceSource, …
-test_crash_case '{(_>"",{' # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::TypeBase::isEqual(swift::Type) + 15
-test_crash_case '{_{[true' # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::ConformanceLookupTable::resolveConformances(swift::NominalTypeDecl*, swift::ProtocolDecl*, swift::LazyResolver*) + 743
-                           # +-----+-----+-----+-----+-----+-----+
+                             # +-----+-----+-----+-----+-----+-----+
+                             # | len | 6.2 | 7b1 | 7b2 | 7b3 | 7b4 |
+                             # +-----+-----+-----+-----+-----+-----+
+test_crash_case '&_'         # |   2 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::constraints::ConstraintSystem::diagnoseFailureForExpr(swift::Expr*) + 924
+test_crash_case '{&_'        # |   3 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::constraints::ConstraintSystem::diagnoseFailureForExpr(swift::Expr*) + 924
+test_crash_case '&(-_'       # |   4 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 417
+test_crash_case '&[_?'       # |   4 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::Type::walk(swift::TypeWalker&) const + 81
+test_crash_case 'for{{'      # |   5 |  ✓  |  ✘  |  ✘  |  ✘  |  ✓  |
+test_crash_case '()=()'      # |   5 |  ✓  |  ✘  |  ✘  |  ✘  |  ✘  | emitSimpleAssignment(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::Expr*, swift::Expr*) + 1410
+test_crash_case '&[(-{'      # |   5 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::StreamPrinter::printText(llvm::StringRef) + 53
+test_crash_case '{&(&)'      # |   5 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::ModuleFile::getDecl(llvm::Fixnum<31u, unsigned int>, llvm::Optional<swift::DeclContext*>) + 14041
+test_crash_case '({[({_'     # |   6 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | (anonymous namespace)::PreCheckExpression::walkToExprPre(swift::Expr*) + 541
+test_crash_case '{nil-{_?'   # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | void (anonymous namespace)::visitProtocols<swift::ConformanceLookupTable::addProtocols(swift::NominalTypeDecl*, llvm::ArrayRef<swift::TypeLoc>, swift::ConformanceLookupTable::ConformanceSource, …
+test_crash_case '{(_>"",{'   # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::TypeBase::isEqual(swift::Type) + 15
+test_crash_case '{_{[true'   # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::ConformanceLookupTable::resolveConformances(swift::NominalTypeDecl*, swift::ProtocolDecl*, swift::LazyResolver*) + 743
+test_crash_case '&.f{}()do'  # |   9 |     |     |     |     |  ✘  |
+test_crash_case '&Range.T{'  # |   9 |     |     |     |     |  ✘  |
+test_crash_case '&_{Range?'  # |   9 |     |     |     |     |  ✘  |
+test_crash_case '{nil...{('  # |   9 |     |     |     |     |  ✘  |
+                             # +-----+-----+-----+-----+-----+-----+
 
 echo
 echo "Do you have Xcode 7b3 or earlier installed? If so, please paste the output"
