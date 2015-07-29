@@ -60,7 +60,10 @@ test_crash_case '&Range.T{'  # |   9 |     |     |     |     |  ✘  | swift::co
 test_crash_case '&_{Range?'  # |   9 |     |     |     |     |  ✘  | swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 280
 test_crash_case '.{nil<{\n{' # |   9 |     |     |     |     |  ✘  | swift::ConformanceLookupTable::expandImpliedConformances(swift::NominalTypeDecl*, swift::DeclContext*, swift::LazyResolver*) + 496
 test_crash_case '{nil...{('  # |   9 |     |     |     |     |  ✘  | swift::constraints::ConstraintSystem::simplifyMemberConstraint(swift::constraints::Constraint const&) + 416
-test_crash_case '{nil{true?' # |  10 |     |     |     |     |     | swift::constraints::ConstraintGraphNode::addConstraint(swift::constraints::Constraint*) + 109
+test_crash_case '&true{for{' # |  10 |     |     |     |     |  ✘  | swift::AbstractClosureExpr::setParams(swift::Pattern*) + 80
+test_crash_case 'Range>\n&_{' #|  10 |     |     |     |     |  ✘  | swift::ASTContext::Allocate(unsigned long, unsigned int, swift::AllocationArena) const + 110
+test_crash_case '[&{}false?' # |  10 |     |     |     |     |  ✘  | swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 66
+test_crash_case '{nil{true?' # |  10 |     |     |     |     |  ✘  | swift::constraints::ConstraintGraphNode::addConstraint(swift::constraints::Constraint*) + 109
                              # +-----+-----+-----+-----+-----+-----+
 
 echo
