@@ -27,6 +27,7 @@ seen_crashes=""
 test_crash_case() {
     escaped_source_code="$1"
     source_code=$(echo -e "${escaped_source_code}")
+    number_of_bytes=$(echo -n "${source_code}" | wc -c | tr -d " ")
     compilation_output=$(xcrun swiftc -o /dev/null - <<< "${source_code}" 2>&1)
     crash_hash=$(get_crash_hash "${compilation_output}")
     dupe_text=""
@@ -35,9 +36,9 @@ test_crash_case() {
     fi
     seen_crashes="${seen_crashes}:${crash_hash}"
     if grep -q -E '^[0-9]+ +swift +0x' <<< "${compilation_output}"; then
-        echo "· ✘ · ${escaped_source_code}${dupe_text}"
+        echo "· ✘ · ${escaped_source_code} (${number_of_bytes} bytes)${dupe_text}"
     else
-        echo "· ✓ · ${escaped_source_code}"
+        echo "· ✓ · ${escaped_source_code} (${number_of_bytes} bytes)"
     fi
 }
                               # +-----+-----+-----+-----+-----+-----+----------------+
