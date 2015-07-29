@@ -40,14 +40,14 @@ test_crash_case() {
         echo "· ✓ · ${escaped_source_code}"
     fi
 }
-                             # +-----+-----+-----+-----+-----+-----+
-                             # | len | 6.2 | 7b1 | 7b2 | 7b3 | 7b4 |
-                             # +-----+-----+-----+-----+-----+-----+
+                             # +-----+-----+-----+-----+-----+-----+----------------+
+                             # | len | 6.2 | 7b1 | 7b2 | 7b3 | 7b4 | Crash location |
+                             # +-----+-----+-----+-----+-----+-----+----------------+
 test_crash_case '&_'         # |   2 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::constraints::ConstraintSystem::diagnoseFailureForExpr(swift::Expr*) + 924
 test_crash_case '{&_'        # |   3 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::constraints::ConstraintSystem::diagnoseFailureForExpr(swift::Expr*) + 924
 test_crash_case '&(-_'       # |   4 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 417
 test_crash_case '&[_?'       # |   4 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::Type::walk(swift::TypeWalker&) const + 81
-test_crash_case 'for{{'      # |   5 |  ✓  |  ✘  |  ✘  |  ✘  |  ✓  |
+test_crash_case 'for{{'      # |   5 |  ✓  |  ✘  |  ✘  |  ✘  |  ✓  | –
 test_crash_case '()=()'      # |   5 |  ✓  |  ✘  |  ✘  |  ✘  |  ✘  | emitSimpleAssignment(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::Expr*, swift::Expr*) + 1410
 test_crash_case '&[(-{'      # |   5 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::StreamPrinter::printText(llvm::StringRef) + 53
 test_crash_case '{&(&)'      # |   5 |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::ModuleFile::getDecl(llvm::Fixnum<31u, unsigned int>, llvm::Optional<swift::DeclContext*>) + 14041
@@ -60,6 +60,7 @@ test_crash_case '&Range.T{'  # |   9 |     |     |     |     |  ✘  | swift::co
 test_crash_case '&_{Range?'  # |   9 |     |     |     |     |  ✘  | swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 280
 test_crash_case '.{nil<{\n{' # |   9 |     |     |     |     |  ✘  | swift::ConformanceLookupTable::expandImpliedConformances(swift::NominalTypeDecl*, swift::DeclContext*, swift::LazyResolver*) + 496
 test_crash_case '{nil...{('  # |   9 |     |     |     |     |  ✘  | swift::constraints::ConstraintSystem::simplifyMemberConstraint(swift::constraints::Constraint const&) + 416
+test_crash_case '{nil{true?' # |  10 |     |     |     |     |     | swift::constraints::ConstraintGraphNode::addConstraint(swift::constraints::Constraint*) + 109
                              # +-----+-----+-----+-----+-----+-----+
 
 echo
