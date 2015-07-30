@@ -29,7 +29,13 @@ test_crash_case() {
     source_code=$(echo -e "${escaped_source_code}")
     number_of_bytes=$(echo -n "${source_code}" | wc -c | tr -d " ")
     compilation_output=$(xcrun swiftc -o /dev/null - <<< "${source_code}" 2>&1)
-    crash_hash=$(get_crash_hash "${compilation_output}")
+    # Retrying logic in order to increase chance of catching intermittent crashes.
+    for _ in 1 2 3; do
+	crash_hash=$(get_crash_hash "${compilation_output}")
+	if [[ ${crash_hash} != "" ]]; then
+	    break
+	fi
+    done
     dupe_text=""
     if grep -q "${crash_hash}" <<< "${seen_crashes}"; then
         dupe_text=" (DUPE!)"
