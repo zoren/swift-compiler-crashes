@@ -4,7 +4,7 @@ echo "Rules for swiftc golf:"
 echo "* Entries must crash swiftc."
 echo "* Entries must be ten (10) characters or less."
 echo "* If two crashes have the same crash hash (see get_crash_hash()), then the shorter one wins."
-echo "* If two crashes have the same crash hash and the same length, the older one wins."
+echo "* If two crashes have the same crash hash and the same length, the first discovered one wins."
 echo
 
 version=$(xcrun swiftc --version | head -1)
