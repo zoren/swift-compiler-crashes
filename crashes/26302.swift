@@ -5,6 +5,5 @@ indirect enum E<T> {
 
 func f<T>(e: E<T>) {
     if case let .B(x) = e {
-        
     }
 }
