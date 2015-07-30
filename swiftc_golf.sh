@@ -67,7 +67,4 @@ test_crash_case '[&{}false?'  # |  10 |     |     |     |     |  ✘  | swift::c
 test_crash_case '{nil{true?'  # |  10 |     |     |     |     |  ✘  | swift::constraints::ConstraintGraphNode::addConstraint(swift::constraints::Constraint*) + 109
                               # +-----+-----+-----+-----+-----+-----+
 
-echo
-echo "Do you have older Xcode versions installed? If so, please run this script"
-echo "against your old swiftc versions, paste the output into a GitHub gist and"
-echo "send it to @practicalswift on Twitter :-)"
+# Do you have older Xcode versions installed? If so, please expand the crashiness-per-version table below :-)
