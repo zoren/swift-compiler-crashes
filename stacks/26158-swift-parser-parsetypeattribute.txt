@@ -1,4 +1,4 @@
-3  swift                    swift::ParserUnit::Implementation::~Implementation() + 271
+3  swift                    swift::Lexer::lexIdentifier() + 47
 6  swift                    (anonymous namespace)::PreCheckExpression::walkToExprPre(swift::Expr*) + 541
 7  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1634
 8  swift                    swift::Expr::walk(swift::ASTWalker&) + 53

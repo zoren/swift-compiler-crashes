@@ -1,4 +1,3 @@
-3  swift                    swift::UnqualifiedLookup::UnqualifiedLookup(swift::DeclName, swift::DeclContext*, swift::LazyResolver*, bool, swift::SourceLoc, bool, bool) + 2418
 6  swift                    swift::ArchetypeBuilder::finalize(swift::SourceLoc) + 2518
 7  swift                    swift::TypeChecker::validateGenericFuncSignature(swift::AbstractFunctionDecl*) + 165
 8  swift                    (anonymous namespace)::DeclChecker::visitFuncDecl(swift::FuncDecl*) + 1828

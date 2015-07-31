@@ -1,0 +1,1 @@
+../crashes/26295-badly-typed-subscript.swift

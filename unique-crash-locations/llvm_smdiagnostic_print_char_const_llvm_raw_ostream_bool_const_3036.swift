@@ -1,1 +1,1 @@
-../crashes-fuzzing/25633-llvm-smdiagnostic-print.swift
+../crashes-duplicates/25633-llvm-smdiagnostic-print.swift

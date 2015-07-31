@@ -1,4 +1,4 @@
-3  swift                    swift::CompilerInvocation::parseArgs(llvm::ArrayRef<char const*>, swift::DiagnosticEngine&) + 8501
+3  swift                    swift::verifyDiagnostics(swift::SourceManager&, llvm::ArrayRef<unsigned int>) + 9093
 6  swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 4447
 7  swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 751
 8  swift                    swift::Parser::parseBraceItemList(swift::Diag<>) + 109

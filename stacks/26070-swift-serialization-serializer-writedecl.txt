@@ -1,4 +1,4 @@
-3  swift                    swift::serialization::Serializer::writeType(swift::Type) + 415
+3  swift                    swift::serialization::Serializer::writeCrossReference(swift::DeclContext const*, unsigned int) + 2367
 6  swift                    checkTypeAccessibility(swift::TypeChecker&, swift::TypeLoc, swift::ValueDecl const*, std::__1::function<void (swift::Accessibility, swift::TypeRepr const*)>) + 304
 7  swift                    checkGenericParamAccessibility(swift::TypeChecker&, swift::GenericParamList const*, swift::ValueDecl const*) + 405
 8  swift                    (anonymous namespace)::DeclChecker::visitProtocolDecl(swift::ProtocolDecl*) + 652

@@ -1,4 +1,4 @@
-3  swift                    swift::serialization::Serializer::writeInputBlock(swift::SerializationOptions const&) + 79
+3  swift                    swift::serialization::Serializer::writeDeclAttribute(swift::DeclAttribute const*) + 2479
 6  swift                    checkTypeAccessibility(swift::TypeChecker&, swift::TypeLoc, swift::ValueDecl const*, std::__1::function<void (swift::Accessibility, swift::TypeRepr const*)>) + 304
 7  swift                    checkGenericParamAccessibility(swift::TypeChecker&, swift::GenericParamList const*, swift::ValueDecl const*) + 183
 8  swift                    (anonymous namespace)::DeclChecker::visitProtocolDecl(swift::ProtocolDecl*) + 652

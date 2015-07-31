@@ -1,0 +1,11 @@
+6  swift                    swift::TypeBase::getSuperclass(swift::LazyResolver*) + 888
+7  swift                    swift::TypeChecker::defineDefaultConstructor(swift::NominalTypeDecl*) + 109
+8  swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*) + 1566
+9  swift                    swift::TypeChecker::checkInheritanceClause(swift::Decl*, swift::GenericTypeResolver*) + 6236
+10 swift                    swift::TypeChecker::validateDecl(swift::ValueDecl*, bool) + 3923
+11 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 658
+12 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1731
+13 swift                    swift::CompilerInstance::performSema() + 4149
+14 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 725
+15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+16 swift                    main + 2015

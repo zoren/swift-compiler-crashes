@@ -1,0 +1,57 @@
+3  swift                    swift::ModuleFile::getDecl(llvm::Fixnum<31u, unsigned int>, llvm::Optional<swift::DeclContext*>) + 14041
+6  swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 4447
+7  swift                    swift::Parser::parseList(swift::tok, swift::SourceLoc, swift::SourceLoc&, swift::tok, bool, bool, swift::Diag<>, std::__1::function<swift::ParserStatus ()>) + 520
+8  swift                    swift::Parser::parseDeclExtension(swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>, swift::DeclAttributes&) + 875
+9  swift                    swift::Parser::parseDecl(llvm::SmallVectorImpl<swift::Decl*>&, swift::OptionSet<swift::Parser::ParseDeclFlags, unsigned int>) + 3297
+10 swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 751
+11 swift                    swift::Parser::parseExprClosure() + 931
+12 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 1580
+13 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 142
+14 swift                    swift::Parser::parseExprImpl(swift::Diag<>, bool) + 203
+15 swift                    std::__1::__function::__func<swift::Parser::parseExprList(swift::tok, swift::tok)::$_1, std::__1::allocator<swift::Parser::parseExprList(swift::tok, swift::tok)::$_1>, swift::ParserStatus ()>::operator()() + 179
+16 swift                    swift::Parser::parseList(swift::tok, swift::SourceLoc, swift::SourceLoc&, swift::tok, bool, bool, swift::Diag<>, std::__1::function<swift::ParserStatus ()>) + 520
+17 swift                    swift::Parser::parseExprList(swift::tok, swift::tok) + 327
+18 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 1570
+19 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 142
+20 swift                    swift::Parser::parseExprImpl(swift::Diag<>, bool) + 203
+21 swift                    std::__1::__function::__func<swift::Parser::parseExprList(swift::tok, swift::tok)::$_1, std::__1::allocator<swift::Parser::parseExprList(swift::tok, swift::tok)::$_1>, swift::ParserStatus ()>::operator()() + 179
+22 swift                    swift::Parser::parseList(swift::tok, swift::SourceLoc, swift::SourceLoc&, swift::tok, bool, bool, swift::Diag<>, std::__1::function<swift::ParserStatus ()>) + 520
+23 swift                    swift::Parser::parseExprList(swift::tok, swift::tok) + 327
+24 swift                    swift::Parser::parseExprCallSuffix(swift::ParserResult<swift::Expr>, swift::Identifier, swift::SourceLoc) + 157
+25 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 395
+26 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 142
+27 swift                    swift::Parser::parseExprImpl(swift::Diag<>, bool) + 203
+28 swift                    swift::Parser::parseStmtReturn(swift::SourceLoc) + 261
+29 swift                    swift::Parser::parseStmt() + 1763
+30 swift                    swift::Parser::parseExprOrStmt(swift::ASTNode&) + 185
+31 swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 2111
+32 swift                    swift::Parser::parseExprClosure() + 931
+33 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 1580
+34 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 142
+35 swift                    swift::Parser::parseExprImpl(swift::Diag<>, bool) + 203
+36 swift                    swift::Parser::parseExprOrStmt(swift::ASTNode&) + 376
+37 swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 2111
+38 swift                    swift::Parser::parseExprClosure() + 931
+39 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 1580
+40 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 142
+41 swift                    swift::Parser::parseExprImpl(swift::Diag<>, bool) + 203
+42 swift                    swift::Parser::parseExprOrStmt(swift::ASTNode&) + 376
+43 swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 2111
+44 swift                    swift::Parser::parseExprClosure() + 931
+45 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 1580
+46 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 142
+47 swift                    swift::Parser::parseExprImpl(swift::Diag<>, bool) + 203
+48 swift                    swift::Parser::parseExprOrStmt(swift::ASTNode&) + 376
+49 swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 2111
+50 swift                    swift::Parser::parseExprClosure() + 931
+51 swift                    swift::Parser::parseExprPostfix(swift::Diag<>, bool) + 1580
+52 swift                    swift::Parser::parseExprSequence(swift::Diag<>, bool, bool) + 142
+53 swift                    swift::Parser::parseExprImpl(swift::Diag<>, bool) + 203
+54 swift                    swift::Parser::parseExprOrStmt(swift::ASTNode&) + 376
+55 swift                    swift::Parser::parseBraceItems(llvm::SmallVectorImpl<swift::ASTNode>&, swift::BraceItemListKind, swift::BraceItemListKind) + 1702
+56 swift                    swift::Parser::parseTopLevel() + 165
+57 swift                    swift::parseIntoSourceFile(swift::SourceFile&, unsigned int, bool*, swift::SILParserState*, swift::PersistentParserState*, swift::DelayedParsingCallbacks*) + 103
+58 swift                    swift::CompilerInstance::performSema() + 4120
+59 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 725
+60 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+61 swift                    main + 2015

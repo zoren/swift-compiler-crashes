@@ -1,0 +1,1 @@
+../crashes-fuzzing/26691-swift-serialization-serializer-writedecl.swift

@@ -1,4 +1,3 @@
-3  swift                    swift::TypeBase::getCanonicalType() + 1228
 6  swift                    (anonymous namespace)::DeclChecker::visitFuncDecl(swift::FuncDecl*) + 7528
 7  swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 731
 8  swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152

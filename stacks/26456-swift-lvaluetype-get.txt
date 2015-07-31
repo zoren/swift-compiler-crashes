@@ -1,0 +1,17 @@
+6  swift                    swift::LValueType::get(swift::Type) + 629
+7  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 3914
+8  swift                    swift::constraints::ConstraintSystem::getTypeOfReference(swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::DeclRefExpr const*, swift::constraints::DependentTypeOpener*) + 925
+9  swift                    swift::constraints::ConstraintSystem::resolveOverload(swift::constraints::ConstraintLocator*, swift::Type, swift::constraints::OverloadChoice) + 580
+10 swift                    swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 2364
+11 swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 63
+12 swift                    swift::Expr::walk(swift::ASTWalker&) + 76
+13 swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 201
+14 swift                    swift::TypeChecker::solveForExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*, swift::constraints::ConstraintSystem&, llvm::SmallVectorImpl<swift::constraints::Solution>&) + 140
+15 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::Type, swift::OptionSet<swift::TypeCheckExprFlags, unsigned int>, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*) + 260
+16 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 498
+17 swift                    swift::TypeChecker::typeCheckTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 140
+18 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1484
+19 swift                    swift::CompilerInstance::performSema() + 4149
+20 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 725
+21 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+22 swift                    main + 2015

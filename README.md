@@ -51,7 +51,7 @@ $ ./test.sh
 Running tests against: swiftlang-700.0.47.4 clang-700.0.59.1 (Xcode 7.0 (7A165t))
 Using Xcode found at path: /Applications/Xcode-Beta.app/Contents/Developer/
 Usage: ./test.sh [-v] [-q] [-c<columns>] [-l] [file ...]
-Adding a new test case? The crash id to use for the next test case is 26295.
+Adding a new test case? The crash id to use for the next test case is 26808.
 
 == Currently known crashes, set #1 (human reported crashes, crashes not found by fuzzing) ==
 
@@ -64,7 +64,7 @@ Adding a new test case? The crash id to use for the next test case is 26295.
   ✘  23639 llvm jit runfunction (runtime)                         (          )
   ✘  23901 swift lowering silgenfunction emitclosurevalue         (a357850890)
   ✘  23903 too complex to be solved in reasonable time (timeout)  (          )
-  ✓  23908 slow type inference
+  ✘  23908 slow type inference (timeout)                          (          )
   ✘  24171 swift silvisitor visit                                 (3a5956fb2d)
   ✘  24245 swift constraints constraintsystem solve               (6dd4ef0511)
   ✘  24797 no stacktrace                                          (          )
@@ -78,6 +78,16 @@ Adding a new test case? The crash id to use for the next test case is 26295.
   ✘  24889 too complex to be solved in reasonable time (timeout)  (          )
   ✘  24890 too complex to be solved in reasonable time (timeout)  (          )
   ✘  25962 swift archetypebuilder getallarchetypes                (df89f0fc93)
+  ✘  26295 badly typed subscript                                  (81ab537861)
+  ✘  26296 duplicate subscript declaration                        (5dd9f14d4a)
+  ✘  26297 swift irgen irgenmodule emitsilfunction                (cafe42b91b)
+  ✘  26298 llvm densemapbase                                      (d7882b727f)
+  ✘  26299 swift lowering typeconverter makeconstanttype          (b4402f275d)
+  ✘  26300 swift nominaltypedecl prepareextensions                (f8ae409fe9)
+  ✘  26301 swift lowering silgenfunction emitapply                (a68a10e5c9)
+  ✘  26302 llvm llvm unreachable internal                         (873408d18b)
+  ✘  26303 llvm llvm unreachable internal                         (ff79a2141e)
+  ✘  26304 swift subscriptdecl getindicestype                     (52ad6814ff)
 
 == Currently known crashes, set #2 (crashes found by fuzzing) ==
 
@@ -137,16 +147,6 @@ Adding a new test case? The crash id to use for the next test case is 26295.
   ✘  08349 llvm densemap llvm loop                                (45fa939142)
   ✘  08650 swift sourcemanager getmessage                         (0b83138ca7)
   ✘  08683 swift typebase getcanonicaltype                        (1a30468b93)
-  ✘  08893 std function func swift archetypebuilder maptypeintoco (96f9f4dab9)
-  ✘  09354 swift nominaltypedecl computetype                      (f2916e5632)
-  ✘  09385 swift structtype get                                   (5c9fc3b949)
-  ✘  09650 swift typebase getcanonicaltype                        (b322880ae2)
-  ✘  09990 std function func swift type subst                     (c35f0e24aa)
-  ✘  10023 swift typebase getcanonicaltype                        (4354bac409)
-  ✘  10248 swift streamprinter printtext                          (86048d2fb4)
-  ✘  10556 swift genericparamlist deriveallarchetypes             (39b389029f)
-  ✘  10570 swift typebase getcanonicaltype                        (3770cc0794)
-  ✘  10659 swift printingdiagnosticconsumer handlediagnostic (tim (          )
      lots of fuzzing crashes omitted for README.md readability …
   ✓  25588 swift typedecl getdeclaredinterfacetype
   ✓  25590 swift declcontext getlocalconformances
@@ -346,7 +346,7 @@ Adding a new test case? The crash id to use for the next test case is 26295.
   ✓  25956 swift inflightdiagnostic
   ✓  25957 swift parser diagnose
   ✓  25958 swift inflightdiagnostic
-** Results: 741 of 3107 tests crashed the compiler **
+** Results: 1245 of 3611 tests crashed the compiler **
 
 ```
 

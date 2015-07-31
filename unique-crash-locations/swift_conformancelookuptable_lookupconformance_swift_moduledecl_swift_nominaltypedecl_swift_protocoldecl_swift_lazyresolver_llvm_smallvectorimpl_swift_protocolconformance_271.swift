@@ -1,0 +1,1 @@
+../crashes-fuzzing/26804-swift-conformancelookuptable-lookupconformance.swift

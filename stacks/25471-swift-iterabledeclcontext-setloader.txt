@@ -1,4 +1,4 @@
-3  swift                    swift::ValueDecl::canBeAccessedByDynamicLookup() const + 63
+3  swift                    swift::AbstractStorageDecl::setInvalidBracesRange(swift::SourceRange) + 271
 6  swift                    swift::BoundGenericType::getGenericParamContext(swift::DeclContext*) const + 321
 7  swift                    swift::BoundGenericType::getSubstitutions(swift::ModuleDecl*, swift::LazyResolver*, swift::DeclContext*) + 72
 8  swift                    swift::TypeBase::gatherAllSubstitutions(swift::ModuleDecl*, llvm::SmallVectorImpl<swift::Substitution>&, swift::LazyResolver*, swift::DeclContext*) + 211

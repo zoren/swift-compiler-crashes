@@ -1,0 +1,16 @@
+4  swift                    abort + 22
+5  swift                    swift::Lowering::SILGenFunction::emitApply(swift::SILLocation, swift::Lowering::ManagedValue, llvm::ArrayRef<swift::Substitution>, llvm::ArrayRef<swift::Lowering::ManagedValue>, swift::CanTypeWrapper<swift::SILFunctionType>, swift::Lowering::AbstractionPattern, swift::CanType, swift::Lowering::ApplyOptions, llvm::Optional<swift::SILFunctionTypeRepresentation>, llvm::Optional<swift::ForeignErrorConvention> const&, swift::Lowering::SGFContext) + 6415
+6  swift                    (anonymous namespace)::CallEmission::apply(swift::Lowering::SGFContext) + 4052
+7  swift                    swift::Lowering::SILGenFunction::emitApplyExpr(swift::Expr*, swift::Lowering::SGFContext) + 58
+8  swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 87
+9  swift                    swift::Lowering::SILGenFunction::emitIgnoredExpr(swift::Expr*) + 445
+10 swift                    swift::ASTVisitor<(anonymous namespace)::StmtEmitter, void, void, void, void, void, void>::visit(swift::Stmt*) + 536
+11 swift                    swift::ASTVisitor<(anonymous namespace)::StmtEmitter, void, void, void, void, void, void>::visit(swift::Stmt*) + 4659
+12 swift                    swift::ASTVisitor<(anonymous namespace)::StmtEmitter, void, void, void, void, void, void>::visit(swift::Stmt*) + 433
+13 swift                    swift::Lowering::SILGenModule::visitTopLevelCodeDecl(swift::TopLevelCodeDecl*) + 44
+14 swift                    swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 587
+15 swift                    swift::SILModule::constructSIL(swift::ModuleDecl*, swift::SILOptions&, swift::FileUnit*, llvm::Optional<unsigned int>, bool, bool) + 975
+16 swift                    swift::performSILGeneration(swift::FileUnit&, swift::SILOptions&, llvm::Optional<unsigned int>, bool) + 123
+17 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 9569
+18 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
+19 swift                    main + 2015
