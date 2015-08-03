@@ -62,6 +62,7 @@ test_crash_case '({[({_'      # |   6 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  | 
 test_crash_case '&(<)==('     # |   7 |     |     |     |     |     |  ✘  | swift::ProtocolType::canonicalizeProtocols(llvm::SmallVectorImpl<swift::ProtocolDecl*>&) + 1598
 test_crash_case '{(&_{("'     # |   7 |     |     |     |     |     |  ✘  | swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 202
 test_crash_case '{[ &{}{'     # |   7 |     |     |     |     |     |  ✘  | swift::ArchetypeType::setNestedTypes(swift::ASTContext&, llvm::MutableArrayRef<std::__1::pair<swift::Identifier, swift::ArchetypeType::NestedType> >) + 115
+test_crash_case 'do{&{}{)'    # |   8 |     |     |     |     |     |  ✘  | (anonymous namespace)::RawMemoryObject::readBytes(unsigned char*, unsigned long long, unsigned long long) const + 57
 test_crash_case '{(_>"",{'    # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::TypeBase::isEqual(swift::Type) + 15
 test_crash_case '{_{[true'    # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | swift::ConformanceLookupTable::resolveConformances(swift::NominalTypeDecl*, swift::ProtocolDecl*, swift::LazyResolver*) + 743
 test_crash_case '{nil-{_?'    # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  | void (anonymous namespace)::visitProtocols<swift::ConformanceLookupTable::addProtocols(swift::NominalTypeDecl*, llvm::ArrayRef<swift::TypeLoc>, swift::ConformanceLookupTable::ConformanceSource, …
