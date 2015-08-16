@@ -52,6 +52,7 @@ test_crash_case() {
                                 # +-----+-----+-----+-----+-----+-----+-----+-----+----------------+
 # test_crash_case '&_'          # |   2 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  |  ✓  | swift::constraints::ConstraintSystem::diagnoseFailureForExpr(swift::Expr*) + 924
 # test_crash_case '{&_'         # |   3 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  |  ✓  | swift::constraints::ConstraintSystem::diagnoseFailureForExpr(swift::Expr*) + 924
+test_crash_case '&0{'           # |   3 |     |     |     |     |     |     |  ✘  |swift::ModuleFile::getDecl(llvm::Fixnum<31u, unsigned int>, llvm::Optional<swift::DeclContext*>) + 13984
 test_crash_case '&(-_'          # |   4 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  |  ✘  | swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 417
 test_crash_case '&[_?'          # |   4 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  |  ✘  | swift::Type::walk(swift::TypeWalker&) const + 81
 # test_crash_case '&[(-{'       # |   5 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  |  D  | swift::StreamPrinter::printText(llvm::StringRef) + 53
@@ -82,6 +83,5 @@ test_crash_case '{nil-{_?'      # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  
 # test_crash_case '[&{}false?'  # |  10 |     |  ✓  |     |     |     |  ✘  |  ✓  | swift::constraints::ConstraintSystem::solve(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 66
 # test_crash_case '{nil{true?'  # |  10 |     |  ✓  |     |     |     |  ✘  |  D  | swift::constraints::ConstraintGraphNode::addConstraint(swift::constraints::Constraint*) + 109
                                 # +-----+-----+-----+-----+-----+-----+-----+-----+
-
 
 # Do you have older Xcode versions installed? If so, please expand the crashiness-per-version table below :-)
