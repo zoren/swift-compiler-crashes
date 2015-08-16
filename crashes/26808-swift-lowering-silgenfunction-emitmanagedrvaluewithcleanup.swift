@@ -3,17 +3,14 @@
 // http://www.openradar.me/22299905
 
 import Foundation
-
 class Request {
     let queue = NSOperationQueue()
-
     func response(completion: Void -> Void) -> Self {
         queue.addOperationWithBlock { [weak self] in
             if let strongSelf = self {
                 print("Strong self reference: \(strongSelf)")
             }
         }
-
         return self
     }
 }
