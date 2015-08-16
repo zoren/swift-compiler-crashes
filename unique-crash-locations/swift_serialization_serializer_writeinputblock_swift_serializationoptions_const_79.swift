@@ -1,1 +1,1 @@
-../crashes-fuzzing/26691-swift-serialization-serializer-writedecl.swift
+../crashes-duplicates/26691-swift-serialization-serializer-writedecl.swift

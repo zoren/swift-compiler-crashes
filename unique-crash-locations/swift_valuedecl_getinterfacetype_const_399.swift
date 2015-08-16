@@ -1,0 +1,1 @@
+../crashes-fuzzing/26570-swift-valuedecl-getinterfacetype.swift

@@ -1,1 +1,0 @@
-../crashes-fuzzing/25920-swift-patternbindingdecl-setpattern.swift

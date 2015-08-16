@@ -1,1 +1,1 @@
-../crashes-fuzzing/26422-swift-typevariabletype-implementation-assignfixedtype.swift
+../crashes-duplicates/26422-swift-typevariabletype-implementation-assignfixedtype.swift

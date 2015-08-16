@@ -1,1 +1,1 @@
-../crashes-fuzzing/25258-swift-nominaltypedecl-prepareextensions.swift
+../crashes-fuzzing/26742-swift-nominaltypedecl-prepareextensions.swift

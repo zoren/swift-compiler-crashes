@@ -1,1 +1,1 @@
-../crashes-fuzzing/26490-swift-conformancelookuptable-resolveconformances.swift
+../crashes-duplicates/26490-swift-conformancelookuptable-resolveconformances.swift

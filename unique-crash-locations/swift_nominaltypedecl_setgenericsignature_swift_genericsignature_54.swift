@@ -1,1 +1,0 @@
-../crashes-fuzzing/25422-swift-nominaltypedecl-setgenericsignature.swift

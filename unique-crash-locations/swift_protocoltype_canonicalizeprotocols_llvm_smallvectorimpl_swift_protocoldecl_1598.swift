@@ -1,1 +1,1 @@
-../crashes-fuzzing/26263-swift-protocoltype-canonicalizeprotocols.swift
+../crashes-duplicates/26263-swift-protocoltype-canonicalizeprotocols.swift

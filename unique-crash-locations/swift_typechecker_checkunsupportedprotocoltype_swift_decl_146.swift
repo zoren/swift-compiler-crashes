@@ -1,1 +1,0 @@
-../crashes-fuzzing/25793-swift-typechecker-checkunsupportedprotocoltype.swift

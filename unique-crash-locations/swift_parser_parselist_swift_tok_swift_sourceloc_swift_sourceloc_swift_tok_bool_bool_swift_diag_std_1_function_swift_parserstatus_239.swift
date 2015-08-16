@@ -1,1 +1,1 @@
-../crashes-fuzzing/26197-load-method-type.swift
+../crashes-duplicates/26197-load-method-type.swift

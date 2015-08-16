@@ -1,1 +1,0 @@
-../crashes-fuzzing/26060-swift-parser-parsetypeidentifier.swift

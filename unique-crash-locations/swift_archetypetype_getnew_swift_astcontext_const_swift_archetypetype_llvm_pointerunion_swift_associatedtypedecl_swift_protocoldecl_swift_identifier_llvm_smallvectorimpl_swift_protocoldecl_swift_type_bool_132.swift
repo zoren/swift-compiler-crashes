@@ -1,1 +1,0 @@
-../crashes-fuzzing/26362-swift-archetypetype-getnew.swift

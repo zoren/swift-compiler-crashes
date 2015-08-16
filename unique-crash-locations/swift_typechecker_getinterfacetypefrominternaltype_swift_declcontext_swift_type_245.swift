@@ -1,1 +1,1 @@
-../crashes-fuzzing/25237-swift-typechecker-getinterfacetypefrominternaltype.swift
+../crashes-fuzzing/26129-swift-typechecker-getinterfacetypefrominternaltype.swift

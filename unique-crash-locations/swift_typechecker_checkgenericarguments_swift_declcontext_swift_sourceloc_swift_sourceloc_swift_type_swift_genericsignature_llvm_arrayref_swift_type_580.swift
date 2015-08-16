@@ -1,1 +1,1 @@
-../crashes-fuzzing/26555-swift-typechecker-checkgenericarguments.swift
+../crashes-duplicates/26555-swift-typechecker-checkgenericarguments.swift

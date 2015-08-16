@@ -1,1 +1,1 @@
-../crashes-fuzzing/26317-swift-memberlookuptable-addmember.swift
+../crashes-duplicates/26317-swift-memberlookuptable-addmember.swift

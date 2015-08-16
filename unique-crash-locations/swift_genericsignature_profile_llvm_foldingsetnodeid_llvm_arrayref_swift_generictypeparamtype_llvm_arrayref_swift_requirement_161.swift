@@ -1,1 +1,1 @@
-../crashes-fuzzing/25409-llvm-foldingset-swift-tupletype-nodeequals.swift
+../crashes-duplicates/25409-llvm-foldingset-swift-tupletype-nodeequals.swift

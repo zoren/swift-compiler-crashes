@@ -1,1 +1,0 @@
-../crashes-fuzzing/26770-swift-protocoltype-get.swift

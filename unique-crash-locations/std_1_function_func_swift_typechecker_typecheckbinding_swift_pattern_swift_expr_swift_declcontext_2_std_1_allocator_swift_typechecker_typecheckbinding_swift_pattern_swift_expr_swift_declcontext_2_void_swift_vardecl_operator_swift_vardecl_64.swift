@@ -1,1 +1,1 @@
-../crashes-fuzzing/26410-std-function-func-swift-typechecker-typecheckbinding.swift
+../crashes-duplicates/26410-std-function-func-swift-typechecker-typecheckbinding.swift

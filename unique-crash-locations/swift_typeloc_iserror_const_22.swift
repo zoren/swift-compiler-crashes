@@ -1,1 +1,1 @@
-../crashes-fuzzing/24966-swift-typeloc-iserror.swift
+../crashes-fuzzing/26752-swift-typeloc-iserror.swift

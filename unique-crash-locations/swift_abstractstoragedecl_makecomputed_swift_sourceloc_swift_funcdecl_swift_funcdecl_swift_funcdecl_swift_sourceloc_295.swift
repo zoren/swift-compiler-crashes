@@ -1,1 +1,1 @@
-../crashes-fuzzing/26741-swift-abstractstoragedecl-makecomputed.swift
+../crashes-duplicates/26741-swift-abstractstoragedecl-makecomputed.swift

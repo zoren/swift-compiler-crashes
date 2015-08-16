@@ -1,1 +1,1 @@
-../crashes-fuzzing/26782-swift-genericfunctiontype-partialsubstgenericargs.swift
+../crashes-duplicates/26782-swift-genericfunctiontype-partialsubstgenericargs.swift

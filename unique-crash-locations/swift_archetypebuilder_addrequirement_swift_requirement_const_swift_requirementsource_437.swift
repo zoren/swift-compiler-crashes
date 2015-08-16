@@ -1,1 +1,1 @@
-../crashes-fuzzing/26068-swift-archetypebuilder-addrequirement.swift
+../crashes-fuzzing/25508-swift-archetypebuilder-addrequirement.swift

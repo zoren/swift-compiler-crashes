@@ -1,1 +1,1 @@
-../crashes-fuzzing/26192-swift-maybeaddaccessorstovariable.swift
+../crashes-duplicates/26192-swift-maybeaddaccessorstovariable.swift

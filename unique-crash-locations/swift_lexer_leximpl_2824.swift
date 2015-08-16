@@ -1,1 +1,1 @@
-../crashes-fuzzing/19529-no-stacktrace.swift
+../crashes-fuzzing/24947-swift-lexer-leximpl.swift

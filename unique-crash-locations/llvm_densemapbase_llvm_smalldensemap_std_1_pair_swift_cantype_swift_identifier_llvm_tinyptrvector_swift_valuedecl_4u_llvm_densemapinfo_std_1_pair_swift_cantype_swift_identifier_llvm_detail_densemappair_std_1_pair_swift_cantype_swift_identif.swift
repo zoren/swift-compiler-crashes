@@ -1,1 +1,1 @@
-../crashes-fuzzing/26061-swift-removeshadoweddecls.swift
+../crashes-duplicates/26061-swift-removeshadoweddecls.swift

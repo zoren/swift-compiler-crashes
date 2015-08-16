@@ -1,1 +1,0 @@
-../crashes-fuzzing/26736-swift-tupletype-get.swift
