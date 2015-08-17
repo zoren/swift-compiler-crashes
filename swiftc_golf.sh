@@ -59,6 +59,7 @@ test_crash_case '&[_?'          # |   4 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  
 # test_crash_case 'for{{'       # |   5 |  ✓  |  ✓  |  ✘  |  ✘  |  ✘  |  ✓  |  ✓  | –
 test_crash_case '&(>,_'         # |   5 |     |     |     |     |     |     |  ✘  | swift::ModuleFile::getType(llvm::Fixnum<31u, unsigned int>) + 6077
 test_crash_case '()=()'         # |   5 |  ✓  |  ✓  |  ✘  |  ✘  |  ✘  |  ✘  |  ✘  | emitSimpleAssignment(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::Expr*, swift::Expr*) + 1410
+test_crash_case '{$0()'         # |   5 |     |     |     |     |     |     |  ✘  | (anonymous namespace)::UncurriedCandidate::getUncurriedFunctionType() const + 371 # https://twitter.com/Kametrixom/status/633280593242009600
 test_crash_case '{&(&)'         # |   5 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  |  ✘  | swift::ModuleFile::getDecl(llvm::Fixnum<31u, unsigned int>, llvm::Optional<swift::DeclContext*>) + 14041
 test_crash_case '{[-{_'         # |   5 |     |     |     |     |     |     |  ✘  | swift::constraints::ConstraintSystem::solveRec(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::FreeTypeVariableBinding) + 1038
 test_crash_case '{_>{{'         # |   5 |     |     |     |     |     |     |  ✘  | swift::constraints::ConstraintSystem::simplifyType(swift::Type, llvm::SmallPtrSet<swift::TypeVariableType*, 16u>&) + 85
@@ -70,7 +71,6 @@ test_crash_case "{f\n-{{_"      # |   7 |     |     |     |     |     |     |  �
 test_crash_case '{(&_{("'       # |   7 |     |     |     |     |     |  ✘  |  ✘  | swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 202
 test_crash_case '{[ &{}{'       # |   7 |     |     |     |     |     |  ✘  |  ✘  | swift::ArchetypeType::setNestedTypes(swift::ASTContext&, llvm::MutableArrayRef<std::__1::pair<swift::Identifier, swift::ArchetypeType::NestedType> >) + 115
 # test_crash_case '{(_>"",{'    # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  |  ✓  | swift::TypeBase::isEqual(swift::Type) + 15
-test_crash_case '_={$0()}'      # |   8 |     |     |     |     |     |     |  ✘  | (anonymous namespace)::UncurriedCandidate::getUncurriedFunctionType() const + 371 # https://twitter.com/Kametrixom/status/633280593242009600
 test_crash_case 'do{&{}{)'      # |   8 |     |     |     |     |     |  ✘  |  ✘  | (anonymous namespace)::RawMemoryObject::readBytes(unsigned char*, unsigned long long, unsigned long long) const + 57
 test_crash_case '{_{[true'      # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  |  ✘  | swift::ConformanceLookupTable::resolveConformances(swift::NominalTypeDecl*, swift::ProtocolDecl*, swift::LazyResolver*) + 743
 test_crash_case '{nil-{_?'      # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  |  ✘  | void (anonymous namespace)::visitProtocols<swift::ConformanceLookupTable::addProtocols(swift::NominalTypeDecl*, llvm::ArrayRef<swift::TypeLoc>, swift::ConformanceLookupTable::ConformanceSource,  …
