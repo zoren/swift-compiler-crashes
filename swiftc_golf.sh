@@ -66,6 +66,7 @@ test_crash_case '{_>{{'         # |   5 |     |     |     |     |     |     |  �
 test_crash_case '&_{Int'        # |   6 |     |     |     |     |     |     |  ✘  | swift::GenericSignature::get(llvm::ArrayRef<swift::GenericTypeParamType*>, llvm::ArrayRef<swift::Requirement>) + 336
 test_crash_case '(&.f>_'        # |   6 |     |     |     |     |     |     |  ✘  | swift::GenericParamList::addNestedArchetypes(swift::ArchetypeType*, llvm::SmallPtrSetImpl<swift::ArchetypeType*>&, llvm::SmallVectorImpl<swift::ArchetypeType*>&) + 30
 test_crash_case '({[({_'        # |   6 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  |  ✘  | (anonymous namespace)::PreCheckExpression::walkToExprPre(swift::Expr*) + 541
+test_crash_case '[_?,&_'        # |   6 |     |     |     |     |     |     |  ✘  | std::__1::__function::__func<swift::constraints::ConstraintSystem::simplifyType(swift::Type, llvm::SmallPtrSet<swift::TypeVariableType*, 16u>&)::$_6, …
 # test_crash_case '&(<)==('     # |   7 |     |     |     |     |     |  ✘  |  D  | swift::ProtocolType::canonicalizeProtocols(llvm::SmallVectorImpl<swift::ProtocolDecl*>&) + 1598
 test_crash_case "{f\n-{{_"      # |   7 |     |     |     |     |     |     |  ✘  | (anonymous namespace)::PreCheckExpression::walkToExprPre(swift::Expr*) + 609
 test_crash_case '{(&_{("'       # |   7 |     |     |     |     |     |  ✘  |  ✘  | swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 202
