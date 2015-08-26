@@ -74,6 +74,7 @@ test_crash_case '{(&_{("'       # |   7 |     |     |     |     |     |  ✘  | 
 test_crash_case '{[ &{}{'       # |   7 |     |     |     |     |     |  ✘  |  ✘  | swift::ArchetypeType::setNestedTypes(…)
 # test_crash_case '{(_>"",{'    # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  |  ✓  | swift::TypeBase::isEqual(…)
 test_crash_case '&_{Array'      # |   8 |     |     |     |     |     |     |  ✘  | swift::constraints::ConstraintSystem::getConstraintLocator(…)
+test_crash_case '[&nil,_?'      # |   8 |     |     |     |     |     |     |  ✘  | swift::Type::transform(…)
 test_crash_case 'do{&{}{)'      # |   8 |     |     |     |     |     |  ✘  |  ✘  | (anonymous namespace)::RawMemoryObject::readBytes(…)
 test_crash_case 'true[&{_'      # |   8 |     |     |     |     |     |     |  ✘  | swift::GenericParamList::create(…)
 test_crash_case '{_{[true'      # |   8 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  |  ✘  | swift::ConformanceLookupTable::resolveConformances(…)
@@ -90,6 +91,5 @@ test_crash_case 'var(()...'     # |   9 |     |     |     |     |     |     |  �
 # test_crash_case '[&{}false?'  # |  10 |     |  ✓  |     |     |     |  ✘  |  ✓  | swift::constraints::ConstraintSystem::solve(…)
 # test_crash_case '{nil{true?'  # |  10 |     |  ✓  |     |     |     |  ✘  |  D  | swift::constraints::ConstraintGraphNode::addConstraint(…)
                                 # +-----+-----+-----+-----+-----+-----+-----+-----+
-
 
 # Do you have older Xcode versions installed? If so, please expand the crashiness-per-version table below :-)
