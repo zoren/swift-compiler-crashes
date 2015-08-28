@@ -142,20 +142,26 @@ test_file() {
   #            excessive running time or excessive compilation time.
   #            Used for test cases named *.timeout.swift.
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.timeout\. ]]; then
-    output=$(execute_with_timeout 5 "xcrun -sdk ${sdk} swift ${files_to_compile}")
-    if [[ $? == 1 ]]; then
-      swift_crash=1
-      compilation_comment="timeout"
-    elif [[ ${output} =~ Stack\ dump: ]]; then
-      swift_crash=1
-      compilation_comment=""
-    elif [[ ${output} =~ Segmentation\ fault: ]]; then
-      swift_crash=1
-      compilation_comment=""
-    elif [[ ${output} =~ \ malloc:\  ]]; then
-      swift_crash=1
-      compilation_comment="malloc"
-    fi
+    for _ in {1..5}; do
+      output=$(execute_with_timeout 5 "xcrun -sdk ${sdk} swift ${files_to_compile}")
+      if [[ $? == 1 ]]; then
+        swift_crash=1
+        compilation_comment="timeout"
+        break
+      elif [[ ${output} =~ Stack\ dump: ]]; then
+        swift_crash=1
+        compilation_comment=""
+        break
+      elif [[ ${output} =~ Segmentation\ fault: ]]; then
+        swift_crash=1
+        compilation_comment=""
+        break
+      elif [[ ${output} =~ \ malloc:\  ]]; then
+        swift_crash=1
+        compilation_comment="malloc"
+        break
+      fi
+    done
   fi
   # Test mode: Run in Swift code in REPL and catch segmentation fault.
   #            Used for test cases named *.repl.swift.
