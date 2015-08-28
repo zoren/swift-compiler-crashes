@@ -1,21 +1,11 @@
-3  swift                    bool llvm::DenseMapBase<llvm::DenseMap<swift::Lowering::TypeConverter::CachingTypeKey, swift::Lowering::TypeLowering const*, llvm::DenseMapInfo<swift::Lowering::TypeConverter::CachingTypeKey>, llvm::detail::DenseMapPair<swift::Lowering::TypeConverter::CachingTypeKey, swift::Lowering::TypeLowering const*> >, swift::Lowering::TypeConverter::CachingTypeKey, swift::Lowering::TypeLowering const*, llvm::DenseMapInfo<swift::Lowering::TypeConverter::CachingTypeKey>, llvm::detail::DenseMapPair<swift::Lowering::TypeConverter::CachingTypeKey, swift::Lowering::TypeLowering const*> >::LookupBucketFor<swift::Lowering::TypeConverter::CachingTypeKey>(swift::Lowering::TypeConverter::CachingTypeKey const&, llvm::detail::DenseMapPair<swift::Lowering::TypeConverter::CachingTypeKey, swift::Lowering::TypeLowering const*> const*&) const + 238
-6  swift                    swift::Lowering::SILGenFunction::emitManagedRValueWithCleanup(swift::SILValue, swift::Lowering::TypeLowering const&) + 224
-7  swift                    (anonymous namespace)::AutoreleasingWritebackComponent::set(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::Lowering::RValue&&, swift::Lowering::ManagedValue) && + 437
-8  swift                    swift::Lowering::LogicalPathComponent::writeback(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::Lowering::ManagedValue, swift::Lowering::ManagedValue, llvm::ArrayRef<swift::SILValue>) && + 480
-9  swift                    swift::Lowering::WritebackScope::popImpl() + 495
-10 swift                    (anonymous namespace)::CallEmission::apply(swift::Lowering::SGFContext) + 4917
-11 swift                    swift::Lowering::SILGenFunction::emitApplyExpr(swift::Expr*, swift::Lowering::SGFContext) + 58
-12 swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 87
-13 swift                    swift::Lowering::SILGenFunction::emitIgnoredExpr(swift::Expr*) + 445
-14 swift                    swift::ASTVisitor<(anonymous namespace)::StmtEmitter, void, void, void, void, void, void>::visit(swift::Stmt*) + 536
-15 swift                    swift::Lowering::SILGenFunction::emitStmt(swift::Stmt*) + 21
-16 swift                    swift::Lowering::SILGenFunction::emitValueConstructor(swift::ConstructorDecl*) + 6179
-17 swift                    swift::Lowering::SILGenModule::emitConstructor(swift::ConstructorDecl*) + 1804
-18 swift                    (anonymous namespace)::SILGenType::emitType() + 723
-19 swift                    swift::Lowering::SILGenModule::visitNominalTypeDecl(swift::NominalTypeDecl*) + 30
-20 swift                    swift::Lowering::SILGenModule::emitSourceFile(swift::SourceFile*, unsigned int) + 587
-21 swift                    swift::SILModule::constructSIL(swift::ModuleDecl*, swift::SILOptions&, swift::FileUnit*, llvm::Optional<unsigned int>, bool, bool) + 975
-22 swift                    swift::performSILGeneration(swift::FileUnit&, swift::SILOptions&, llvm::Optional<unsigned int>, bool) + 123
-23 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 9569
-24 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
-25 swift                    main + 2015
+4  swift                    swift::irgen::TypeConverter::convertType(swift::CanType) + 522
+5  swift                    swift::irgen::TypeConverter::getTypeEntry(swift::CanType) + 621
+6  swift                    swift::irgen::IRGenFunction::getTypeInfo(swift::SILType) + 23
+7  swift                    swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 12876
+8  swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 10973
+9  swift                    swift::irgen::IRGenModuleDispatcher::emitGlobalTopLevel() + 376
+10 swift                    performIRGeneration(swift::IRGenOptions&, swift::ModuleDecl*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 793
+11 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 64
+12 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 13704
+13 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2682
+14 swift                    main + 2247

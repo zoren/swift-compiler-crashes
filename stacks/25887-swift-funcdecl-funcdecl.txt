@@ -1,8 +1,0 @@
-3  swift                    swift::FuncDecl::FuncDecl(swift::SourceLoc, swift::StaticSpellingKind, swift::SourceLoc, swift::DeclName, swift::SourceLoc, swift::SourceLoc, unsigned int, swift::GenericParamList*, swift::Type, swift::DeclContext*) + 309
-6  swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*) + 4347
-7  swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 862
-8  swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1731
-9  swift                    swift::CompilerInstance::performSema() + 4149
-10 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 725
-11 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2627
-12 swift                    main + 2015
