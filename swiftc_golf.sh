@@ -72,6 +72,7 @@ test_crash_case() {
 # test_crash_case '{(&_{("'       # |   7 |     |     |     |     |     |  ✘  |  ✘  |  ✓  | swift::constraints::ConstraintSystem::matchTypes(…)
 # test_crash_case '{[ &{}{'       # |   7 |     |     |     |     |     |  ✘  |  ✘  |  ✓  | swift::ArchetypeType::setNestedTypes(…)
 # test_crash_case '{f\n-{{_'      # |   7 |     |     |     |     |     |     |  ✘  |  ✓  | (anonymous namespace)::PreCheckExpression::walkToExprPre(…)
+test_crash_case 'nil as('         # |   7 |     |     |     |     |     |     |     |  ✘  | swift::Type::transform(…)
 # test_crash_case '&_{Array'      # |   8 |     |     |     |     |     |     |  ✘  |  ✓  | swift::constraints::ConstraintSystem::getConstraintLocator(…)
 # test_crash_case '[&nil,_?'      # |   8 |     |     |     |     |     |     |  ✘  |  ✓  | swift::Type::transform(…)
 # test_crash_case 'do{&{}{)'      # |   8 |     |     |     |     |     |  ✘  |  ✘  |  ✓  | (anonymous namespace)::RawMemoryObject::readBytes(…)
