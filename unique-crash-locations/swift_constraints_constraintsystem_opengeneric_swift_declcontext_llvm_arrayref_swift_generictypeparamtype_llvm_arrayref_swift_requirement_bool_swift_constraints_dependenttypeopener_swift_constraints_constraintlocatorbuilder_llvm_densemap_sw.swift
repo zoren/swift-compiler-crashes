@@ -1,1 +1,1 @@
-../crashes-fuzzing/24931-swift-constraints-constraintsystem-opengeneric.swift
+../crashes-duplicates/24931-swift-constraints-constraintsystem-opengeneric.swift

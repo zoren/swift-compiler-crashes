@@ -1,1 +1,0 @@
-../crashes-fuzzing/25205-swift-classtype-get.swift

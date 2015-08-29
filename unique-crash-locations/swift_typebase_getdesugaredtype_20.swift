@@ -1,1 +1,0 @@
-../crashes-fuzzing/25330-swift-typebase-getdesugaredtype.swift
