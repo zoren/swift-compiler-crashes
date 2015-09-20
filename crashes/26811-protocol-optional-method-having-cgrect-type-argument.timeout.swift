@@ -6,7 +6,6 @@ import CoreGraphics
 
 @objc protocol Delegate {
     optional func call(rect: CGRect)
-    
 }
 
 public class Cls : NSObject {

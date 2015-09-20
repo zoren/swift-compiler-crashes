@@ -1,4 +1,3 @@
-
 /*
  * Reported by: Chris Hatton - christopherhattonuk@gmail.com
  * Platform: Apple Swift version 2.0 (swiftlang_PONDEROSA-700.1.100.2 clang-700.1.74)
@@ -10,16 +9,11 @@
 
 public typealias CConventionCallback = @convention(c) (UnsafeMutablePointer<Void>) -> UnsafePointer<Void>
 
-class MyClass<T>
-{
-    func myMethod() -> Void
-    {
-        let myCConventionCallback : CConventionCallback =
-        {
+class MyClass<T> {
+    func myMethod() -> Void {
+        let myCConventionCallback : CConventionCallback = {
             return UnsafePointer<Void>($0)
         }
-        
-        print( myCConventionCallback ) // Just reference the callback
+        print(myCConventionCallback) // Just reference the callback
     }
 }
-
