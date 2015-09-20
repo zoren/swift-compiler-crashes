@@ -4,10 +4,10 @@
 import Foundation
 
 enum A<T> {
-  case Just(T)
-  case Error
+    case Just(T)
+    case Error
 }
 
 func foo() -> A<(String, String?)> {
-  return A.Just("abc", "def")
+    return A.Just("abc", "def")
 }
