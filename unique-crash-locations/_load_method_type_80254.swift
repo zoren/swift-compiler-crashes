@@ -1,0 +1,1 @@
+../crashes-fuzzing/27202-swift-parser-consumetoken.swift

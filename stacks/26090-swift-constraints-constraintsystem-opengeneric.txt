@@ -2,7 +2,7 @@
 5  swift                    (anonymous namespace)::ReplaceDependentTypes::operator()(swift::Type) + 1996
 6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 53
 7  swift                    swift::constraints::ConstraintSystem::openType(swift::Type, swift::constraints::ConstraintLocatorBuilder, llvm::DenseMap<swift::CanType, swift::TypeVariableType*, llvm::DenseMapInfo<swift::CanType>, llvm::detail::DenseMapPair<swift::CanType, swift::TypeVariableType*> >&, swift::DeclContext*, bool, swift::constraints::DependentTypeOpener*) + 146
-8  swift                    (anonymous namespace)::ConstraintGenerator::getTypeForPattern(swift::Pattern*, bool, swift::constraints::ConstraintLocatorBuilder) + 907
+8  swift                    (anonymous namespace)::ConstraintGenerator::getTypeForPattern(swift::Pattern*, bool, swift::constraints::ConstraintLocatorBuilder) + 906
 9  swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Pattern*, swift::constraints::ConstraintLocatorBuilder) + 69
 10 swift                    swift::TypeChecker::typeCheckBinding(swift::Pattern*&, swift::Expr*&, swift::DeclContext*)::BindingListener::builtConstraints(swift::constraints::ConstraintSystem&, swift::Expr*) + 92
 11 swift                    swift::TypeChecker::solveForExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*, swift::constraints::ConstraintSystem&, llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::OptionSet<swift::TypeCheckExprFlags, unsigned int>) + 410
@@ -22,7 +22,7 @@
 25 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 370
 26 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 179
 27 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 242
-28 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1831
+28 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1847
 29 swift                    swift::CompilerInstance::performSema() + 4064
 30 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 741
 31 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2682

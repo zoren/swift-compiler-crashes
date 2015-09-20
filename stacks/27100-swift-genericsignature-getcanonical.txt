@@ -1,0 +1,36 @@
+3  swift                    swift::GenericSignature::getCanonical(llvm::ArrayRef<swift::GenericTypeParamType*>, llvm::ArrayRef<swift::Requirement>) + 430
+4  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 1235
+5  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 6430
+6  swift                    swift::ASTVisitor<(anonymous namespace)::Traversal, swift::Expr*, swift::Stmt*, bool, swift::Pattern*, bool, void>::visit(swift::Stmt*) + 318
+7  swift                    (anonymous namespace)::Traversal::visitAbstractFunctionDecl(swift::AbstractFunctionDecl*) + 1207
+8  swift                    (anonymous namespace)::Traversal::doIt(swift::Decl*) + 280
+9  swift                    swift::ASTVisitor<(anonymous namespace)::Traversal, swift::Expr*, swift::Stmt*, bool, swift::Pattern*, bool, void>::visit(swift::Stmt*) + 370
+10 swift                    (anonymous namespace)::Traversal::visitAbstractFunctionDecl(swift::AbstractFunctionDecl*) + 1207
+11 swift                    (anonymous namespace)::Traversal::doIt(swift::Decl*) + 280
+12 swift                    swift::ASTVisitor<(anonymous namespace)::Traversal, swift::Expr*, swift::Stmt*, bool, swift::Pattern*, bool, void>::visit(swift::Stmt*) + 370
+13 swift                    (anonymous namespace)::Traversal::visitAbstractFunctionDecl(swift::AbstractFunctionDecl*) + 1207
+14 swift                    (anonymous namespace)::Traversal::doIt(swift::Decl*) + 280
+15 swift                    (anonymous namespace)::Traversal::visitNominalTypeDecl(swift::NominalTypeDecl*) + 196
+16 swift                    (anonymous namespace)::Traversal::doIt(swift::Decl*) + 267
+17 swift                    swift::ASTVisitor<(anonymous namespace)::Traversal, swift::Expr*, swift::Stmt*, bool, swift::Pattern*, bool, void>::visit(swift::Stmt*) + 370
+18 swift                    (anonymous namespace)::Traversal::visitAbstractFunctionDecl(swift::AbstractFunctionDecl*) + 1207
+19 swift                    (anonymous namespace)::Traversal::doIt(swift::Decl*) + 280
+20 swift                    swift::ASTVisitor<(anonymous namespace)::Traversal, swift::Expr*, swift::Stmt*, bool, swift::Pattern*, bool, void>::visit(swift::Stmt*) + 370
+21 swift                    (anonymous namespace)::Traversal::visitAbstractFunctionDecl(swift::AbstractFunctionDecl*) + 1207
+22 swift                    (anonymous namespace)::Traversal::doIt(swift::Decl*) + 280
+23 swift                    (anonymous namespace)::Traversal::visitNominalTypeDecl(swift::NominalTypeDecl*) + 196
+24 swift                    (anonymous namespace)::Traversal::doIt(swift::Decl*) + 267
+25 swift                    swift::ASTVisitor<(anonymous namespace)::Traversal, swift::Expr*, swift::Stmt*, bool, swift::Pattern*, bool, void>::visit(swift::Stmt*) + 370
+26 swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 2169
+27 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
+28 swift                    swift::performSyntacticExprDiagnostics(swift::TypeChecker&, swift::Expr const*, swift::DeclContext const*, bool) + 773
+29 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::ContextualTypePurpose, swift::OptionSet<swift::TypeCheckExprFlags, unsigned int>, swift::ExprTypeCheckListener*) + 876
+30 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 411
+31 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 370
+32 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 179
+33 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 242
+34 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1847
+35 swift                    swift::CompilerInstance::performSema() + 4064
+36 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 741
+37 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2682
+38 swift                    main + 2247

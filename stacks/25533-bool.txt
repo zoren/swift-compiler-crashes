@@ -2,7 +2,7 @@
 4  swift                    bool llvm::function_ref<bool (std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>::callback_fn<swift::FileUnit::forAllVisibleModules(llvm::function_ref<void (std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>)::'lambda'(std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>(long, std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>) + 59
 5  swift                    swift::ModuleDecl::forAllVisibleModules(llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, bool, llvm::function_ref<bool (std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>) + 579
 6  swift                    swift::FileUnit::forAllVisibleModules(llvm::function_ref<bool (std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>) + 68
-7  swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1374
+7  swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1396
 8  swift                    swift::CompilerInstance::performSema() + 4064
 9  swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 741
 10 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2682

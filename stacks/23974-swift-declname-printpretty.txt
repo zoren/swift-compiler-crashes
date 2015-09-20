@@ -13,7 +13,7 @@
 16 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 370
 17 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 179
 18 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 242
-19 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1831
+19 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1847
 20 swift                    swift::CompilerInstance::performSema() + 4064
 21 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 741
 22 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2682

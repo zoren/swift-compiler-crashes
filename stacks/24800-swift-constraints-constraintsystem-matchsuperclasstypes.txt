@@ -28,7 +28,7 @@
 31 swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 1595
 32 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2681
 33 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
-34 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1480
+34 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1496
 35 swift                    swift::CompilerInstance::performSema() + 4064
 36 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 741
 37 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2682

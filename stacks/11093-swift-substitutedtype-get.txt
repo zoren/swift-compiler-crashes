@@ -1,23 +1,26 @@
-4  swift                    std::__1::__function::__func<swift::Type::subst(swift::ModuleDecl*, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*>, llvm::detail::DenseMapPair<swift::TypeBase*, swift::Type> >&, swift::OptionSet<swift::SubstFlags, unsigned int>) const::$_8, std::__1::allocator<swift::Type::subst(swift::ModuleDecl*, llvm::DenseMap<swift::TypeBase*, swift::Type, llvm::DenseMapInfo<swift::TypeBase*>, llvm::detail::DenseMapPair<swift::TypeBase*, swift::Type> >&, swift::OptionSet<swift::SubstFlags, unsigned int>) const::$_8>, swift::Type (swift::Type)>::operator()(swift::Type&&) + 31
-5  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 53
-6  swift                    swift::TypeBase::getSuperclass(swift::LazyResolver*) + 715
-7  swift                    swift::TypeChecker::defineDefaultConstructor(swift::NominalTypeDecl*) + 109
-8  swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*) + 1379
-9  swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 486
-10 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2681
-11 swift                    (anonymous namespace)::DeclChecker::visitStructDecl(swift::StructDecl*) + 475
-12 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2665
-13 swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 1595
-14 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2681
-15 swift                    (anonymous namespace)::DeclChecker::visitStructDecl(swift::StructDecl*) + 475
-16 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2665
-17 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
-18 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 339
-19 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 370
-20 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 179
-21 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 242
-22 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1831
-23 swift                    swift::CompilerInstance::performSema() + 4064
-24 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 741
-25 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2682
-26 swift                    main + 2247
+4  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 3798
+5  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 430
+6  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 430
+7  swift                    swift::Type::transform(std::__1::function<swift::Type (swift::Type)> const&) const + 274
+8  swift                    swift::ArchetypeBuilder::mapTypeIntoContext(swift::ModuleDecl*, swift::GenericParamList*, swift::Type, swift::LazyResolver*) + 150
+9  swift                    swift::TypeBase::getSuperclass(swift::LazyResolver*) + 252
+10 swift                    swift::TypeChecker::defineDefaultConstructor(swift::NominalTypeDecl*) + 109
+11 swift                    swift::TypeChecker::addImplicitConstructors(swift::NominalTypeDecl*) + 1379
+12 swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 486
+13 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2681
+14 swift                    (anonymous namespace)::DeclChecker::visitStructDecl(swift::StructDecl*) + 475
+15 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2665
+16 swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 1595
+17 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2681
+18 swift                    (anonymous namespace)::DeclChecker::visitStructDecl(swift::StructDecl*) + 475
+19 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2665
+20 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
+21 swift                    swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 339
+22 swift                    swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 370
+23 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 179
+24 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 242
+25 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1847
+26 swift                    swift::CompilerInstance::performSema() + 4064
+27 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 741
+28 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2682
+29 swift                    main + 2247

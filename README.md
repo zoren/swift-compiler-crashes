@@ -48,21 +48,21 @@ $ git clone https://github.com/practicalswift/swift-compiler-crashes.git
 $ cd swift-compiler-crashes/
 $ ./test.sh
 
-Running tests against: swiftlang-700.0.57.3 clang-700.0.72 (Xcode 7.0 (7A192o))
+Running tests against: swiftlang_PONDEROSA-700.1.100.2 clang-700.1.74 (Xcode 7.1 (7B60))
 Using Xcode found at path: /Applications/Xcode-Beta.app/Contents/Developer/
 Usage: ./test.sh [-v] [-q] [-c<columns>] [-l] [file ...]
-Adding a new test case? The crash id to use for the next test case is 26813.
+Adding a new test case? The crash id to use for the next test case is 27816.
 
 == Currently known crashes, set #1 (human reported crashes, crashes not found by fuzzing) ==
 
-  ✘  00037 no stacktrace (script)                                 (44555c1d1f)
+  ✘  00037 no stacktrace (script)                                 (d905c23e4c)
   ✘  00061 visit any struct type                                  (          )
   ✘  21272 empty stacktrace                                       (95f2a99c20)
   ✘  22725 swift constraints constraintsystem solvesimplified     (3c8d7571c2)
   ✘  23639 llvm jit runfunction (runtime)                         (          )
   ✘  23903 too complex to be solved in reasonable time (timeout)  (          )
   ✘  23908 slow type inference (timeout)                          (          )
-  ✘  24245 swift constraints constraintsystem solve               (5261e4b21e)
+  ✘  24245 swift constraints constraintsystem solve               (e72f242c82)
   ✘  24797 no stacktrace                                          (          )
   ✘  24798 no stacktrace                                          (          )
   ✘  24879 getmemberforbasetype                                   (f1c74de753)
@@ -74,23 +74,26 @@ Adding a new test case? The crash id to use for the next test case is 26813.
   ✘  24889 too complex to be solved in reasonable time (timeout)  (          )
   ✘  24890 too complex to be solved in reasonable time (timeout)  (          )
   ✘  26296 duplicate subscript declaration                        (cca1aff93f)
-  ✘  26298 llvm densemapbase                                      (e81372fd81)
+  ✘  26298 llvm densemapbase                                      (fc5e8cb9f0)
   ✘  26303 llvm llvm unreachable internal                         (5cb0f971ee)
   ✘  26725 llvm smallvectorimpl swift diagnosticargument operator (          )
   ✘  26808 swift lowering silgenfunction emitmanagedrvaluewithcle (2658e7989a)
-  ✘  26811 protocol optional method having CGRect type argument   (880bb390f1)
+  ✘  26811 protocol optional method having cgrect type argument   (880bb390f1)
   ✘  26812 anonymous namespace translatearguments translateandexp (d4e644992b)
+  ✘  26813 generic enum tuple optional payload                    (78027c5772)
+  ✘  26814 swift irgen emitpolymorphicarguments                   (8a0634b137)
+  ✘  26815 swift type transform                                   (4d40456865)
 
 == Currently known crashes, set #2 (crashes found by fuzzing) ==
 
   ✘  00066 diagnoseunknowntype                                    (7793f4b1ef)
-  ✘  00334 swift astvisitor                                       (0645bbb415)
-  ✘  00476 swift typechecker validatedecl                         (7fec3b9c30)
+  ✘  00334 swift astvisitor                                       (44a06d1341)
+  ✘  00476 swift typechecker validatedecl                         (4ea9ed23e3)
   ✘  00626 swift lexer lexidentifier                              (8928ad9f76)
   ✘  00805 swift constraints constraintsystem opengeneric         (d2f866e972)
   ✘  01793 swift nominaltypedecl getdeclaredtypeincontext         (54d904a716)
   ✘  01908 std function func mapsignaturetype                     (d53344a589)
-  ✘  02327 swift clangimporter lookupvalue                        (005d809744)
+  ✘  02327 swift clangimporter lookupvalue                        (80c1e52caf)
   ✘  03204 swift type transform                                   (62a1030877)
   ✘  03326 swift archetypetype setnestedtypes                     (04add95014)
   ✘  04450 swift typebase getcanonicaltype                        (58bb9140ac)
@@ -109,12 +112,11 @@ Adding a new test case? The crash id to use for the next test case is 26813.
   ✘  10023 swift typebase getcanonicaltype                        (f72df20e07)
   ✘  10248 swift streamprinter printtext                          (30c98ca89c)
   ✘  10659 swift printingdiagnosticconsumer handlediagnostic (tim (          )
-  ✘  11093 swift substitutedtype get                              (c3a959710e)
-  ✘  11130 swift classtype get                                    (b401edeb9b)
+  ✘  11093 swift substitutedtype get                              (09e53a9a72)
   ✘  13000 swift constraints constraintsystem matchtypes          (3db53a5a25)
   ✘  13737 swift availabilityattr isunavailable                   (24da473d93)
   ✘  19783 void (timeout)                                         (          )
-  ✘  21655 swift boundgenerictype get                             (e650b61328)
+  ✘  21655 swift boundgenerictype get                             (52f284c3d5)
   ✘  21765 vtable                                                 (          )
   ✘  21847 llvm foldingset swift tupletype nodeequals             (8ff5d10c22)
   ✘  21852 swift constraints constraintsystem opengeneric         (ef53dc28cc)
@@ -145,8 +147,6 @@ Adding a new test case? The crash id to use for the next test case is 26813.
   ✘  24987 swift expr findexistinginitializercontext              (b0ae13a8ee)
   ✘  25009 swift typechecker resolvetypeincontext                 (886a51de0c)
   ✘  25011 swift constraints constraintsystem opengeneric         (bc745bd18d)
-  ✘  25128 swift type transform                                   (a55961fb18)
-  ✘  25152 swift typechecker resolvetypeincontext                 (9a10dff5ae)
      lots of fuzzing crashes omitted for README.md readability …
   ✓  26475 llvm bitstreamcursor read
   ✓  26476 swift astcontext allocate
@@ -346,7 +346,7 @@ Adding a new test case? The crash id to use for the next test case is 26813.
   ✓  26807 swift metatypetype get
   ✓  26809 precheckexpression walktoexprpre
   ✓  26810 uncurriedcandidate getuncurriedfunctiontype
-** Results: 114 of 3240 tests crashed the compiler **
+** Results: 1115 of 4241 tests crashed the compiler **
 
 ```
 

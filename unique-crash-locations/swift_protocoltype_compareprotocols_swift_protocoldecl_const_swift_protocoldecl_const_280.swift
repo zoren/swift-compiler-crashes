@@ -1,0 +1,1 @@
+../crashes-fuzzing/27460-swift-protocoltype-compareprotocols.swift

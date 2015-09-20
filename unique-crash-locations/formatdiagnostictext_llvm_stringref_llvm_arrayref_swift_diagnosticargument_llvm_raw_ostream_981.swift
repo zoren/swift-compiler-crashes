@@ -1,0 +1,1 @@
+../crashes-fuzzing/27808-swift-constructordecl-constructordecl.swift

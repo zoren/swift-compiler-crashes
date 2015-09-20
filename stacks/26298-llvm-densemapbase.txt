@@ -1,5 +1,5 @@
 3  swift                    swift::Lowering::TypeConverter::find(swift::Lowering::TypeConverter::TypeKey) + 142
-4  swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 4505
+4  swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 4511
 5  swift                    swift::Lowering::SILGenFunction::emitExprInto(swift::Expr*, swift::Lowering::Initialization*) + 263
 6  swift                    (anonymous namespace)::ArgEmitter::emit(swift::Lowering::ArgumentSource&&, swift::Lowering::AbstractionPattern) + 1843
 7  swift                    (anonymous namespace)::ArgEmitter::emitExpanded(swift::Lowering::ArgumentSource&&, swift::Lowering::AbstractionPattern) + 261
@@ -11,7 +11,7 @@
 13 swift                    (anonymous namespace)::CallEmission::apply(swift::Lowering::SGFContext) + 2730
 14 swift                    swift::Lowering::SILGenFunction::emitApplyExpr(swift::Expr*, swift::Lowering::SGFContext) + 58
 15 swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 372
-16 swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 583
+16 swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 589
 17 swift                    swift::Lowering::SILGenFunction::emitRValueAsSingleValue(swift::Expr*, swift::Lowering::SGFContext) + 47
 18 swift                    swift::Lowering::ArgumentSource::getAsSingleValue(swift::Lowering::SILGenFunction&, swift::Lowering::SGFContext) && + 340
 19 swift                    (anonymous namespace)::ArgEmitter::emit(swift::Lowering::ArgumentSource&&, swift::Lowering::AbstractionPattern) + 2542

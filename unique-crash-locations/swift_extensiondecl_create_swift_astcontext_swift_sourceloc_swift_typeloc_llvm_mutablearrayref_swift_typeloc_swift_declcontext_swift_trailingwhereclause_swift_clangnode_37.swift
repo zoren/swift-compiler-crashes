@@ -1,0 +1,1 @@
+../crashes-fuzzing/27376-swift-abstractstoragedecl-getobjcgetterselector.swift

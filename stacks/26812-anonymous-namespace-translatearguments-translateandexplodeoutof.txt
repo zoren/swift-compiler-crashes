@@ -5,9 +5,9 @@
 8  swift                    (anonymous namespace)::Transform::transform(swift::Lowering::ManagedValue, swift::Lowering::AbstractionPattern, swift::CanType, swift::Lowering::SGFContext) + 1384
 9  swift                    swift::Lowering::SILGenFunction::emitSubstToOrigValue(swift::SILLocation, swift::Lowering::ManagedValue, swift::Lowering::AbstractionPattern, swift::CanType, swift::Lowering::SGFContext) + 91
 10 swift                    swift::Lowering::SILGenFunction::getOptionalSomeValue(swift::SILLocation, swift::Lowering::ManagedValue, swift::Lowering::TypeLowering const&) + 389
-11 swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 29242
+11 swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 29248
 12 swift                    emitSimpleAssignment(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::Expr*, swift::Expr*) + 943
-13 swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 8997
+13 swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 9003
 14 swift                    swift::Lowering::SILGenFunction::emitIgnoredExpr(swift::Expr*) + 397
 15 swift                    swift::ASTVisitor<(anonymous namespace)::StmtEmitter, void, void, void, void, void, void>::visit(swift::Stmt*) + 294
 16 swift                    swift::Lowering::SILGenFunction::emitStmt(swift::Stmt*) + 21

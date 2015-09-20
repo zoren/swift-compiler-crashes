@@ -1,0 +1,1 @@
+../crashes-fuzzing/26844-swift-typechecker-isdeclavailable.swift

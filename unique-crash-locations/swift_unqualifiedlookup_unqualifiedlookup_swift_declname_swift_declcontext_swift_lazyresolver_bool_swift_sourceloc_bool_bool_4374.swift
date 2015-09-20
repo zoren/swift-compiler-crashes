@@ -1,0 +1,1 @@
+../crashes-fuzzing/27670-swift-unqualifiedlookup-unqualifiedlookup.swift

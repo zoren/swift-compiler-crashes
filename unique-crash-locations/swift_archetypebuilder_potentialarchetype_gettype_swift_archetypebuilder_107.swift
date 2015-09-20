@@ -1,0 +1,1 @@
+../crashes-fuzzing/27416-swift-archetypebuilder-potentialarchetype-gettype.swift

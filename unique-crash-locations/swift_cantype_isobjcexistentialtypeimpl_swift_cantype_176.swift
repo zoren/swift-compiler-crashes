@@ -1,0 +1,1 @@
+../crashes-fuzzing/27386-swift-cantype-isobjcexistentialtypeimpl.swift

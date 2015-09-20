@@ -1,0 +1,1 @@
+../crashes-fuzzing/27252-swift-moduledecl-lookupconformance.swift

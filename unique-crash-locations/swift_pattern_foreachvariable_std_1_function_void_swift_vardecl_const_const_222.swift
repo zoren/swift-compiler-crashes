@@ -1,0 +1,1 @@
+../crashes-fuzzing/27194-swift-pattern-foreachvariable.swift

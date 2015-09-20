@@ -1,0 +1,1 @@
+../crashes-fuzzing/26865-swift-conformancelookuptable-getimplicitprotocols.swift
