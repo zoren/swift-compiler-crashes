@@ -127,7 +127,6 @@ test_file() {
   test_name=${test_name//.random/}
   test_name=${test_name//.repl/}
   test_name=${test_name//.runtime/}
-  test_name=${test_name//.script/}
   test_name=${test_name//.sil/}
   test_name=${test_name//.timeout/}
   current_test_number=$(echo "${test_name}" | tr " " "\n" | grep -E "^[0-9]+$" | head -1 | sed "s/^0*//g")
@@ -270,21 +269,6 @@ test_file() {
         break
       fi
     done
-  fi
-  # Test mode: Run Swift code both using -Onone and -O and watch for differences.
-  #            Used for test cases named *.script.swift.
-  if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.script\. ]]; then
-    # shellcheck disable=SC2086
-    output_1=$(xcrun -sdk ${sdk} swift -Onone ${files_to_compile} 2>&1)
-    err_1=$?
-    # shellcheck disable=SC2086
-    output_2=$(xcrun -sdk ${sdk} swift -O ${files_to_compile} 2>&1)
-    err_2=$?
-    if [[ ${err_1} != ${err_2} ]]; then
-      swift_crash=1
-      compilation_comment="script"
-      output=${output_1}${output_2}
-    fi
   fi
   if [[ ${log_stacks} == 1 ]]; then
     stacktrace_log=./stacks/$(basename $(head -1 <<< "${files_to_compile}") | sed 's/.swift$//').txt
