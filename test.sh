@@ -99,7 +99,7 @@ execute_with_timeout() {
 # A crash is treated as non-duplicate if it has an unique "crash hash" as computed by the following crash hash function:
 get_crash_hash() {
   compilation_output="$1"
-  normalized_stack_trace=$(grep -E "0x[0-9a-f]" <<< "${compilation_output}" | grep -E '(swift|llvm)' | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^ *//g' | head -8)
+  normalized_stack_trace=$(grep -E "0x[0-9a-f]" <<< "${compilation_output}" | grep -E '(swift|llvm)' | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^ *//g' | head -3)
   if [[ ${normalized_stack_trace} == "" ]]; then
     crash_hash=""
   else
