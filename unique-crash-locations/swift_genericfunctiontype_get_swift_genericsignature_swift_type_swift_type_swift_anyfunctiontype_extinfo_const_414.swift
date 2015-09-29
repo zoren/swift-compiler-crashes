@@ -1,1 +1,1 @@
-../crashes-fuzzing/27542-swift-genericfunctiontype-get.swift
+../crashes-duplicates/27542-swift-genericfunctiontype-get.swift

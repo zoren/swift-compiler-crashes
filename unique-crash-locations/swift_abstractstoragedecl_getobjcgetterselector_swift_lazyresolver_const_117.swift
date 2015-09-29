@@ -1,1 +1,1 @@
-../crashes-fuzzing/26837-swift-abstractfunctiondecl-getobjcselector.swift
+../crashes-duplicates/26837-swift-abstractfunctiondecl-getobjcselector.swift

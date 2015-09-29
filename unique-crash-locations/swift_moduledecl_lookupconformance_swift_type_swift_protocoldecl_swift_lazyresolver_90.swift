@@ -1,1 +1,1 @@
-../crashes-fuzzing/24645-swift-diagnosticengine-flushactivediagnostic.swift
+../crashes-duplicates/24645-swift-diagnosticengine-flushactivediagnostic.swift

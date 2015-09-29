@@ -1,1 +1,1 @@
-../crashes-fuzzing/27134-swift-structtype-get.swift
+../crashes-duplicates/27134-swift-structtype-get.swift

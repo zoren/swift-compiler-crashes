@@ -1,1 +1,1 @@
-../crashes-fuzzing/27190-swift-typechecker-checkunsupportedprotocoltype.swift
+../crashes-duplicates/27190-swift-typechecker-checkunsupportedprotocoltype.swift

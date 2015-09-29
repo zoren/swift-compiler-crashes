@@ -1,1 +1,1 @@
-../crashes-fuzzing/26852-swift-modulefile-lookupvalue.swift
+../crashes-duplicates/26852-swift-modulefile-lookupvalue.swift

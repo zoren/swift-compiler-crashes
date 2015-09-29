@@ -1,1 +1,1 @@
-../crashes-fuzzing/13737-swift-availabilityattr-isunavailable.swift
+../crashes-duplicates/13737-swift-availabilityattr-isunavailable.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/27045-swift-lexer-diagnose.swift
+../crashes-duplicates/27045-swift-lexer-diagnose.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/27697-std-function-func-setboundvarstypeerror.swift
+../crashes-duplicates/27697-std-function-func-setboundvarstypeerror.swift

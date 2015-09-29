@@ -1,1 +1,1 @@
-../crashes-fuzzing/27783-swift-genericparamlist-deriveallarchetypes.swift
+../crashes-duplicates/27783-swift-genericparamlist-deriveallarchetypes.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/27530-resolveidenttypecomponent.swift
+../crashes-duplicates/27530-resolveidenttypecomponent.swift

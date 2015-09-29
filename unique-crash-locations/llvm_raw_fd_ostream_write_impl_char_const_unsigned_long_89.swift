@@ -1,1 +1,1 @@
-../crashes-fuzzing/10248-swift-streamprinter-printtext.swift
+../crashes-duplicates/10248-swift-streamprinter-printtext.swift

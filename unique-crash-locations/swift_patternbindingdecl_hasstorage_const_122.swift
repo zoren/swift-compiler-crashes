@@ -1,1 +1,0 @@
-../crashes-fuzzing/27613-swift-patternbindingdecl-hasstorage.swift

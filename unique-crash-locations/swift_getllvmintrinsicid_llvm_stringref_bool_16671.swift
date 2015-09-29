@@ -1,1 +1,1 @@
-../crashes-fuzzing/27706-swift-availabilityinference-applyinferredavailableattrs.swift
+../crashes-duplicates/27706-swift-availabilityinference-applyinferredavailableattrs.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/27665-swift-conformancelookuptable-getallprotocols.swift
+../crashes-duplicates/27665-swift-conformancelookuptable-getallprotocols.swift

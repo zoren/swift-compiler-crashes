@@ -1,1 +1,1 @@
-../crashes-fuzzing/27144-swift-typebase-getsuperclass.swift
+../crashes-duplicates/27144-swift-typebase-getsuperclass.swift

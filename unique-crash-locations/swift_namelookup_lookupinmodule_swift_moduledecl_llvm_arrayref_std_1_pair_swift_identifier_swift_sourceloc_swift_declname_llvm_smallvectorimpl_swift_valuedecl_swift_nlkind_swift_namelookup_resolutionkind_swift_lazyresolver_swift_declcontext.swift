@@ -1,1 +1,1 @@
-../crashes-fuzzing/27501-swift-namelookup-lookupinmodule.swift
+../crashes-duplicates/27501-swift-namelookup-lookupinmodule.swift

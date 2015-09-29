@@ -1,1 +1,1 @@
-../crashes-fuzzing/26822-swift-modulefile-getdecl.swift
+../crashes-duplicates/26822-swift-modulefile-getdecl.swift

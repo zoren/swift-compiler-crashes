@@ -1,1 +1,1 @@
-../crashes-fuzzing/27674-swift-extensiondecl-getmembers.swift
+../crashes-duplicates/27674-swift-extensiondecl-getmembers.swift

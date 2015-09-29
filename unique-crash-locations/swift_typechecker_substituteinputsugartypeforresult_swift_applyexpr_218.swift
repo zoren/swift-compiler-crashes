@@ -1,1 +1,1 @@
-../crashes-fuzzing/27520-swift-typechecker-substituteinputsugartypeforresult.swift
+../crashes-duplicates/27520-swift-typechecker-substituteinputsugartypeforresult.swift

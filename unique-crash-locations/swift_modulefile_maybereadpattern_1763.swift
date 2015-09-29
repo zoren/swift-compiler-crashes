@@ -1,1 +1,1 @@
-../crashes-fuzzing/27345-swift-modulefile-maybereadpattern.swift
+../crashes-duplicates/27345-swift-modulefile-maybereadpattern.swift

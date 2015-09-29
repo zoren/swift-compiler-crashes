@@ -1,1 +1,1 @@
-../crashes-fuzzing/27205-swift-nominaltypedecl-getmembers.swift
+../crashes-duplicates/27205-swift-nominaltypedecl-getmembers.swift

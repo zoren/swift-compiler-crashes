@@ -1,1 +1,0 @@
-../crashes-fuzzing/27100-swift-genericsignature-getcanonical.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/27659-swift-parser-parsedeclclass.swift
+../crashes-duplicates/27659-swift-parser-parsedeclclass.swift

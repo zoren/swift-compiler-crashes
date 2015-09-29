@@ -1,1 +1,1 @@
-../crashes-fuzzing/27533-swift-ide-printdeclusr.swift
+../crashes-duplicates/27533-swift-ide-printdeclusr.swift

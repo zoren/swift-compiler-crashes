@@ -1,1 +1,1 @@
-../crashes-fuzzing/27577-swift-funcdecl-setdeserializedsignature.swift
+../crashes-duplicates/27577-swift-funcdecl-setdeserializedsignature.swift

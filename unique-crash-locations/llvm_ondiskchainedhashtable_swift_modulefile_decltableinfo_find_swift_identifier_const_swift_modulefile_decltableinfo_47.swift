@@ -1,1 +1,1 @@
-../crashes-fuzzing/27349-llvm-ondiskchainedhashtable-swift-modulefile-decltableinfo-find.swift
+../crashes-duplicates/27349-llvm-ondiskchainedhashtable-swift-modulefile-decltableinfo-find.swift
