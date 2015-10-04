@@ -3,8 +3,6 @@
 // Radar: http://openradar.appspot.com/22917580
 
 class B {
-    init() {
-    }
 }
 
 class A: B {
