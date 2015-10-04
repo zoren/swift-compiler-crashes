@@ -28,7 +28,7 @@ test_crash_case() {
     escaped_source_code="$1"
     source_code=$(echo -e "${escaped_source_code}")
     number_of_bytes=$(echo -n "${source_code}" | wc -c | tr -d " ")
-    compilation_output=$(xcrun swiftc -o /dev/null - <<< "${source_code}" 2>&1)
+    compilation_output=$(xcrun swiftc -O -o /dev/null - <<< "${source_code}" 2>&1)
     # Retrying logic in order to increase chance of catching intermittent crashes.
     for _ in {1..5}; do
 	crash_hash=$(get_crash_hash "${compilation_output}")
@@ -85,6 +85,7 @@ test_crash_case '&.f{}()do'       # |   9 |     |  ✓  |     |     |     |  ✘
 test_crash_case '&Range.T{'       # |   9 |     |  ✓  |     |     |     |  ✘  |  D  |  ✓  |   ✓   |   ✓   | swift::constraints::ConstraintSystem::getTypeOfMemberReference(…)
 test_crash_case '&_{Range?'       # |   9 |     |  ✓  |     |     |     |  ✘  |  D  |  ✓  |   ✓   |   ✓   | swift::constraints::ConstraintSystem::addConstraint(…)
 test_crash_case '.{nil<{\n{'      # |   9 |     |  ✓  |     |     |     |  ✘  |  D  |  ✓  |   ✓   |   ✓   | swift::ConformanceLookupTable::expandImpliedConformances(…)
+test_crash_case 'Array([[]'       # |   9 |     |     |     |     |     |     |     |     |       |   ✘   | swift::constraints::ConstraintGraph::computeConnectedComponents(…)
 test_crash_case 'nil?=\n&_,'      # |   9 |     |     |     |     |     |     |  ✘  |  ✓  |   ✓   |   ✓   | swift::LValueType::get(…)
 test_crash_case 'var(()...'       # |   9 |     |     |     |     |     |     |  ✘  |  ✓  |   ✓   |   ✓   | swift::TypeChecker::typeCheckPattern(…)
 test_crash_case '{nil...{('       # |   9 |     |  ✓  |     |     |     |  ✘  |  D  |  ✓  |   ✓   |   ✓   | swift::constraints::ConstraintSystem::simplifyMemberConstraint(…)
