@@ -1,0 +1,1 @@
+../crashes-fuzzing/27891-swift-typechecker-resolvesuperclass.swift

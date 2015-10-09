@@ -1,0 +1,1 @@
+../crashes-fuzzing/27904-swift-funcdecl-isdeferbody.swift

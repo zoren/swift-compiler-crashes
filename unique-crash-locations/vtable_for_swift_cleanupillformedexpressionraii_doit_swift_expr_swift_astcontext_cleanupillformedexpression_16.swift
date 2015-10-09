@@ -1,0 +1,1 @@
+../crashes-fuzzing/27857-vtable.swift

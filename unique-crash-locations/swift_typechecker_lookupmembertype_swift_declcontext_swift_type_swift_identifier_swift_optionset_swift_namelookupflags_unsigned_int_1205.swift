@@ -1,0 +1,1 @@
+../crashes-fuzzing/27829-swift-typechecker-lookupmembertype.swift

@@ -3,12 +3,12 @@
 6  swift                    swift::TypeChecker::isRepresentableInObjC(swift::DeclContext const*, swift::Type) + 31
 7  swift                    swift::TypeChecker::isRepresentableInObjC(swift::SubscriptDecl const*, swift::ObjCReason) + 130
 8  swift                    (anonymous namespace)::DeclChecker::visitSubscriptDecl(swift::SubscriptDecl*) + 827
-9  swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2713
+9  swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2731
 10 swift                    (anonymous namespace)::DeclChecker::visitProtocolDecl(swift::ProtocolDecl*) + 699
-11 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2697
+11 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2715
 12 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
-13 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1496
-14 swift                    swift::CompilerInstance::performSema() + 4064
+13 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1336
+14 swift                    swift::CompilerInstance::performSema() + 4096
 15 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 741
-16 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2682
-17 swift                    main + 2247
+16 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2691
+17 swift                    main + 2324

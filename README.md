@@ -48,293 +48,106 @@ $ git clone https://github.com/practicalswift/swift-compiler-crashes.git
 $ cd swift-compiler-crashes/
 $ ./test.sh
 
-Running tests against: swiftlang_PONDEROSA-700.1.100.2 clang-700.1.74 (Xcode 7.1 (7B60))
+Running tests against: swiftlang-700.1.101.3 clang-700.1.75 (Xcode 7.1 (7B85))
 Using Xcode found at path: /Applications/Xcode-Beta.app/Contents/Developer/
 Usage: ./test.sh [-v] [-q] [-c<columns>] [-l] [file ...]
-Adding a new test case? The crash id to use for the next test case is 27816.
+Adding a new test case? The crash id to use for the next test case is 27985.
 
 == Currently known crashes, set #1 (human reported crashes, crashes not found by fuzzing) ==
 
-  ✘  00037 no stacktrace (script)                                 (d905c23e4c)
-  ✘  00061 visit any struct type                                  (          )
-  ✘  21272 empty stacktrace                                       (95f2a99c20)
-  ✘  22725 swift constraints constraintsystem solvesimplified     (3c8d7571c2)
+  ✘  21272 empty stacktrace                                       (b2e7e02a68)
+  ✘  22725 swift constraints constraintsystem solvesimplified     (fcd5466764)
   ✘  23639 llvm jit runfunction (runtime)                         (          )
   ✘  23903 too complex to be solved in reasonable time (timeout)  (          )
   ✘  23908 slow type inference (timeout)                          (          )
-  ✘  24245 swift constraints constraintsystem solve               (e72f242c82)
+  ✘  24245 swift constraints constraintsystem solve (timeout)     (2be94c49ca)
   ✘  24797 no stacktrace                                          (          )
   ✘  24798 no stacktrace                                          (          )
-  ✘  24879 getmemberforbasetype                                   (f1c74de753)
-  ✘  24881 swift typebase getcanonicaltype                        (          )
+  ✘  24879 getmemberforbasetype                                   (71c4e3666e)
   ✘  24885 no stack trace                                         (          )
   ✘  24886 no stack trace                                         (          )
   ✘  24887 no stack trace                                         (          )
-  ✘  24888 swift lowering silgenfunction emitclosurevalue         (d592fa618f)
+  ✘  24888 swift lowering silgenfunction emitclosurevalue         (13d51224bb)
   ✘  24889 too complex to be solved in reasonable time (timeout)  (          )
   ✘  24890 too complex to be solved in reasonable time (timeout)  (          )
-  ✘  26296 duplicate subscript declaration                        (cca1aff93f)
-  ✘  26298 llvm densemapbase                                      (fc5e8cb9f0)
-  ✘  26303 llvm llvm unreachable internal                         (5cb0f971ee)
-  ✘  26725 llvm smallvectorimpl swift diagnosticargument operator (          )
-  ✘  26808 swift lowering silgenfunction emitmanagedrvaluewithcle (2658e7989a)
-  ✘  26811 protocol optional method having cgrect type argument   (880bb390f1)
-  ✘  26812 anonymous namespace translatearguments translateandexp (d4e644992b)
-  ✘  26813 generic enum tuple optional payload                    (78027c5772)
-  ✘  26814 swift irgen emitpolymorphicarguments                   (8a0634b137)
-  ✘  26815 swift type transform                                   (4d40456865)
+  ✘  26296 duplicate subscript declaration                        (826594e7f9)
+  ✘  26298 llvm densemapbase                                      (1a844093d6)
+  ✘  26303 llvm llvm unreachable internal                         (bce2907d7b)
+  ✘  26725 llvm smallvectorimpl swift diagnosticargument operator (84ed192d5a)
+  ✘  26808 swift lowering silgenfunction emitmanagedrvaluewithcle (2e285bf45d)
+  ✘  26811 protocol optional method having cgrect type argument   (0142ec2411)
+  ✘  26812 anonymous namespace translatearguments translateandexp (1f3014e1b4)
+  ✘  26813 generic enum tuple optional payload                    (0a525601a5)
+  ✘  27816 control flow pattern match tuples                      (319600bbf3)
+  ✘  27817 anonymous namespace rvalueemitter emitstringliteral    (3958e17be3)
+  ✘  27818 swift astvisitor                                       (b42ca6f6bb)
+  ✘  27820 swift silwitnessvisitor visitprotocoldecl              (040d8d9cab)
 
 == Currently known crashes, set #2 (crashes found by fuzzing) ==
 
-  ✘  00066 diagnoseunknowntype                                    (7793f4b1ef)
-  ✘  00334 swift astvisitor                                       (44a06d1341)
-  ✘  00476 swift typechecker validatedecl                         (4ea9ed23e3)
-  ✘  00626 swift lexer lexidentifier                              (8928ad9f76)
-  ✘  00805 swift constraints constraintsystem opengeneric         (d2f866e972)
-  ✘  01793 swift nominaltypedecl getdeclaredtypeincontext         (54d904a716)
-  ✘  01908 std function func mapsignaturetype                     (d53344a589)
-  ✘  02327 swift clangimporter lookupvalue                        (80c1e52caf)
-  ✘  03204 swift type transform                                   (62a1030877)
-  ✘  03326 swift archetypetype setnestedtypes                     (04add95014)
-  ✘  04450 swift typebase getcanonicaltype                        (58bb9140ac)
-  ✘  04592 swift constraints constraintsystem simplifyconstraint  (cb7648e07a)
-  ✘  05045 swift typebase getcanonicaltype                        (579279da72)
-  ✘  06207 swift diagnosticengine flushactivediagnostic           (4a4bc3ef2a)
-  ✘  06252 swift typechecker conformstoprotocol                   (ddb1c1f142)
-  ✘  06542 swift unqualifiedlookup unqualifiedlookup              (660c0a6388)
-  ✘  07285 swift astprinter printname                             (b6c731aa9b)
+  ✘  00066 diagnoseunknowntype                                    (9335591295)
+  ✘  00334 swift astvisitor                                       (62857b8bd9)
+  ✘  00476 swift typechecker validatedecl                         (1383720162)
+  ✘  01793 swift nominaltypedecl getdeclaredtypeincontext         (5473adc2d5)
+  ✘  01821 llvm foldingset swift tupletype nodeequals             (1fab11e536)
+  ✘  02327 swift clangimporter lookupvalue                        (9af0269e2a)
+  ✘  03204 swift type transform                                   (aa06d25621)
+  ✘  03326 swift archetypetype setnestedtypes                     (b4831c5486)
+  ✘  05045 swift typebase getcanonicaltype                        (4043547c97)
+  ✘  06207 swift diagnosticengine flushactivediagnostic           (0437bd23f8)
+  ✘  06252 swift typechecker conformstoprotocol                   (4e9bedd096)
+  ✘  07285 swift astprinter printname                             (969afdf9b6)
   ✘  08008 swift typechecker typecheckexpression                  (          )
-  ✘  08893 std function func swift archetypebuilder maptypeintoco (1d59011ff4)
-  ✘  09354 swift nominaltypedecl computetype                      (a7d1c0b216)
-  ✘  09385 swift structtype get                                   (4ed194ef2b)
-  ✘  09650 swift typebase getcanonicaltype                        (f6201da2e2)
-  ✘  09990 std function func swift type subst                     (5c3ca9cf70)
-  ✘  10023 swift typebase getcanonicaltype                        (f72df20e07)
-  ✘  10248 swift streamprinter printtext                          (30c98ca89c)
+  ✘  09354 swift nominaltypedecl computetype                      (6288528da4)
   ✘  10659 swift printingdiagnosticconsumer handlediagnostic (tim (          )
-  ✘  11093 swift substitutedtype get                              (09e53a9a72)
-  ✘  13000 swift constraints constraintsystem matchtypes          (3db53a5a25)
-  ✘  13737 swift availabilityattr isunavailable                   (24da473d93)
   ✘  19783 void (timeout)                                         (          )
-  ✘  21655 swift boundgenerictype get                             (52f284c3d5)
   ✘  21765 vtable                                                 (          )
-  ✘  21847 llvm foldingset swift tupletype nodeequals             (8ff5d10c22)
-  ✘  21852 swift constraints constraintsystem opengeneric         (ef53dc28cc)
-  ✘  22250 swift typevisitor                                      (11cbda0e74)
-  ✘  22253 swift type transform                                   (859b37a5e5)
-  ✘  22391 swift genericparamlist deriveallarchetypes             (89188c64fd)
-  ✘  22582 swift clangmoduleunit getimportedmodules               (b9d56a3da7)
   ✘  23054 void (timeout)                                         (          )
-  ✘  23060 swift typechecker validatedecl                         (ac1bec44c4)
-  ✘  23086 swift typechecker validatedecl                         (f45bbaeb3d)
-  ✘  23680 std function func swift archetypebuilder maptypeintoco (f43ecec187)
-  ✘  23974 swift declname printpretty                             (cbc2ea2a02)
-  ✘  24232 swift lexer leximpl                                    (a9930809f1)
-  ✘  24394 swift typevariabletype implementation getrepresentativ (510d30e4cf)
-  ✘  24440 swift typechecker coercepatterntotype                  (904711a06b)
-  ✘  24531 swift metatypetype get                                 (3f7a18232f)
-  ✘  24558 swift typebase gatherallsubstitutions                  (157556604b)
-  ✘  24624 swift module lookupconformance                         (962e4ef235)
-  ✘  24645 swift diagnosticengine flushactivediagnostic           (20d5cc9c4f)
-  ✘  24670 isunknownobjecttype                                    (af14bd0b65)
-  ✘  24769 std function func swift type subst                     (15f57afd9b)
-  ✘  24800 swift constraints constraintsystem matchsuperclasstype (e30fcdb01e)
-  ✘  24864 std function func swift archetypebuilder maptypeintoco (ddf4b7b528)
-  ✘  24900 swift typebase getmembersubstitutions                  (f975b9736f)
-  ✘  24915 swift typebase getcanonicaltype                        (6e321843ef)
-  ✘  24947 swift lexer leximpl                                    (807c82f6a1)
-  ✘  24960 swift typedecl getdeclaredinterfacetype                (a0d46ec983)
-  ✘  24987 swift expr findexistinginitializercontext              (b0ae13a8ee)
-  ✘  25009 swift typechecker resolvetypeincontext                 (886a51de0c)
-  ✘  25011 swift constraints constraintsystem opengeneric         (bc745bd18d)
+  ✘  23680 std function func swift archetypebuilder maptypeintoco (d130ce39b7)
+  ✘  24394 swift typevariabletype implementation getrepresentativ (a1437932de)
+  ✘  24440 swift typechecker coercepatterntotype                  (3e13dbd737)
+  ✘  24558 swift typebase gatherallsubstitutions                  (f8402a1930)
+  ✘  24670 isunknownobjecttype                                    (6ce62d4564)
+  ✘  24800 swift constraints constraintsystem matchsuperclasstype (745fe0ad6d)
+  ✘  24900 swift typebase getmembersubstitutions                  (48341e43c1)
+  ✘  25009 swift typechecker resolvetypeincontext                 (af2f544250)
+  ✘  25152 swift typechecker resolvetypeincontext                 (eedd9ef1c4)
+  ✘  25387 swift typebase getsuperclass                           (fe9eb9b195)
+  ✘  25458 swift archetypetype getnestedtype                      (93a343abe3)
+  ✘  25533 bool                                                   (09d4b1e8c1)
+  ✘  25584 addnestedrequirements                                  (          )
+  ✘  25832 resolveidenttypecomponent                              (1c59700867)
+  ✘  25906 swift typechecker checkdeclarationavailability         (8f0f73ab3a)
+  ✘  26090 swift constraints constraintsystem opengeneric         (82ea5bd290)
+  ✘  26106 swift typebase getsuperclass                           (40e7ed8e44)
+  ✘  26223 swift typechecker validatedecl                         (b0246ca440)
+  ✘  26549 swift typechecker resolvetypeincontext                 (d3da3abf34)
+  ✘  26570 swift valuedecl getinterfacetype                       (2286dfd0dd)
+  ✘  26824 swift modulefile getimportedmodules                    (7806727bbe)
+  ✘  26827 swift typebase getcanonicaltype                        (9012d81893)
+  ✘  26832 swift typechecker conformstoprotocol                   (339316093a)
+  ✘  26838 swift patternbindingdecl setpattern                    (b102d4a8d2)
+  ✘  26840 swift typechecker validatedecl                         (fd5ac62619)
+  ✘  26842 swift streamprinter printtext                          (797b448cc2)
+  ✘  26854 swift constraints constraintsystem matchdeepequalityty (baad7b0429)
+  ✘  26859 swift classdecl classdecl                              (1726c1a25d)
+  ✘  26864 std function func swift type subst                     (bcc0788a55)
+  ✘  26867 std function func swift type subst                     (bc227fcfbe)
+  ✘  26881 std function func swift type subst                     (896a7a17b3)
+  ✘  26884 std function func swift constraints constraintsystem s (b905d54846)
+  ✘  26887 swift generictypeparamtype get                         (15f4fdd1e0)
+  ✘  26889 swift tupletype get                                    (ba8abcbff8)
+  ✘  26890 swift typechecker isdeclavailable                      (fbbccc8c57)
+  ✘  26902 swift typechecker resolvetypeincontext                 (642bafeef3)
+  ✘  26911 swift modulefile getimportedmodules                    (005b9e08bb)
+  ✘  26918 swift constraints constraintlocator profile            (20b416a765)
+  ✘  26924 mapsignaturefunctiontype                               (b74ec81d92)
+  ✘  26929 swift modulefile maybereadpattern                      (31fa7481c6)
+  ✘  26947 swift constraints constraintsystem getconstraintlocato (8009c9647e)
+  ✘  26962 swift typechecker validategenericfuncsignature         (9e19ef313a)
+  ✘  26969 swift modulefile lookupvalue                           (37e9c063ec)
+  ✘  26987 swift constraints constraintsystem addconstraint       (5c183d3ca3)
      lots of fuzzing crashes omitted for README.md readability …
-  ✓  26475 llvm bitstreamcursor read
-  ✓  26476 swift astcontext allocate
-  ✓  26477 swift modulefile getdecl
-  ✓  26478 swift archetypetype resolvenestedtype
-  ✓  26480 swift typebase getsuperclass
-  ✓  26481 swift genericsignature get
-  ✓  26482 swift genericparamlist addnestedarchetypes
-  ✓  26483 swift archetypebuilder inferrequirementswalker walktot
-  ✓  26484 swift lexer leximpl
-  ✓  26487 swift astcontext allocate
-  ✓  26488 swift expr walk
-  ✓  26489 swift parser parseexpridentifier
-  ✓  26492 swift astcontext getidentifier
-  ✓  26495 swift typechecker getinterfacetypefrominternaltype
-  ✓  26500 swift modulefile getdeclcontext
-  ✓  26502 swift protocoltype canonicalizeprotocols
-  ✓  26504 swift lexer leximpl
-  ✓  26505 llvm foldingset swift classtype nodeequals
-  ✓  26506 swift diagnosticengine emitdiagnostic
-  ✓  26508 llvm smallvectorbase grow pod
-  ✓  26509 swift functiontype get
-  ✓  26510 swift inflightdiagnostic
-  ✓  26511 swift printingdiagnosticconsumer handlediagnostic
-  ✓  26513 swift constraints constraintsystem getconstraintlocato
-  ✓  26517 swift type transform
-  ✓  26519 swift lexer lexstringliteral
-  ✓  26520 swift typechecker checkgenericarguments
-  ✓  26522 no stacktrace
-  ✓  26524 swift functiontype get
-  ✓  26525 swift modulefile maybereadgenericparams
-  ✓  26526 swift printingdiagnosticconsumer handlediagnostic
-  ✓  26530 llvm foldingsetimpl findnodeorinsertpos
-  ✓  26531 swift modulefile maybereadgenericparams
-  ✓  26532 swift substitutedtype get
-  ✓  26533 checktypeaccessibility
-  ✓  26534 swift modulefile getdecl
-  ✓  26535 swift typebase getimplicitlyunwrappedoptionalobjecttyp
-  ✓  26536 std function func swift type subst
-  ✓  26537 swift abstractstoragedecl getobjcgetterselector
-  ✓  26539 swift constraints constraintsystem simplifytype
-  ✓  26540 no stacktrace
-  ✓  26541 swift lexer lexstringliteral
-  ✓  26543 swift parser parsedecl
-  ✓  26547 swift sourcefile lookupcache lookupvalue
-  ✓  26548 swift lexer lexoperatoridentifier
-  ✓  26551 swift protocoltype canonicalizeprotocols
-  ✓  26552 swift parser parsedecl
-  ✓  26556 swift inflightdiagnostic fixitreplacechars
-  ✓  26557 swift expr walk
-  ✓  26559 swift metatypetype get
-  ✓  26560 swift diagnosticengine flushactivediagnostic
-  ✓  26562 swift metatypetype get
-  ✓  26563 swift constraints constraintgraph unbindtypevariable
-  ✓  26569 swift constraints constraintsystem optimizeconstraints
-  ✓  26571 swift constraints constraintsystem recordopenedtypes
-  ✓  26574 std function func swift constraints constraintsystem s
-  ✓  26575 llvm bitstreamcursor read
-  ✓  26576 llvm foldingset swift structtype nodeequals
-  ✓  26577 swift abstractclosureexpr setparams
-  ✓  26578 swift expr walk
-  ✓  26579 swift typechecker overapproximateosversionsatlocation
-  ✓  26581 swift typechecker checkdeclarationavailability
-  ✓  26582 swift modulefile gettype
-  ✓  26585 swift modulefile gettype
-  ✓  26588 swift genericparamlist create
-  ✓  26590 swift genericparamlist deriveallarchetypes
-  ✓  26591 swift modulefile getdeclcontext
-  ✓  26592 swift modulefile gettype
-  ✓  26595 swift lexer lexoperatoridentifier
-  ✓  26596 swift removeshadoweddecls
-  ✓  26598 swift modulefile getdecl
-  ✓  26601 swift genericsignature genericsignature
-  ✓  26602 swift astcontext allocate
-  ✓  26604 swift typechecker validatedecl
-  ✓  26605 swift parser diagnose
-  ✓  26607 swift parser parsedecl
-  ✓  26608 std function func
-  ✓  26609 swift parser parsedecl
-  ✓  26610 swift parser parsedecl
-  ✓  26611 swift genericsignature get
-  ✓  26612 swift inflightdiagnostic
-  ✓  26613 swift archetypebuilder potentialarchetype addconforman
-  ✓  26614 swift genericparamlist deriveallarchetypes
-  ✓  26618 swift sourcemanager extracttext
-  ✓  26619 swift functiontype get
-  ✓  26620 swift tupletype get
-  ✓  26622 swift sourcemanager extracttext
-  ✓  26624 swift typebase getcanonicaltype
-  ✓  26627 swift lexer lexoperatoridentifier
-  ✓  26632 llvm foldingset swift constraints constraintlocator no
-  ✓  26633 swift constraints constraintsystem applysolutionshallo
-  ✓  26635 swift modulefile getdecl
-  ✓  26637 swift parser skipsingle
-  ✓  26638 bool
-  ✓  26639 void
-  ✓  26641 swift parser skipsingle
-  ✓  26644 swift typebase getcanonicaltype
-  ✓  26647 swift parser skipsingle
-  ✓  26648 swift lexer lexidentifier
-  ✓  26650 swift protocoltype canonicalizeprotocols
-  ✓  26651 swift genericsignature get
-  ✓  26654 swift markasobjc
-  ✓  26655 vtable
-  ✓  26658 swift parser skipsingle
-  ✓  26660 swift constraints constraintsystem solve
-  ✓  26662 swift diagnosticengine diagnose
-  ✓  26663 swift parser parseexprcallsuffix
-  ✓  26664 swift parser skipsingle
-  ✓  26665 swift conformancelookuptable lookupconformance
-  ✓  26666 swift lexer lexoperatoridentifier
-  ✓  26668 swift constraints constraintsystem diagnosefailurefore
-  ✓  26670 swift modulefile gettype
-  ✓  26671 swift typechecker checkinheritanceclause
-  ✓  26674 swift sourcemanager getbytedistance
-  ✓  26677 swift parser diagnoseredefinition
-  ✓  26679 vtable
-  ✓  26680 swift modulefile getdeclcontext
-  ✓  26683 swift generictypetoarchetyperesolver resolvegenerictyp
-  ✓  26684 swift arrayexpr create
-  ✓  26688 swift parser parseexprcallsuffix
-  ✓  26689 swift modulefile gettype
-  ✓  26690 swift constraints constraintsystem simplifyconstraint
-  ✓  26693 swift parser skipsingle
-  ✓  26694 void
-  ✓  26695 swift genericsignature profile
-  ✓  26696 swift genericparamlist create
-  ✓  26697 swift genericparamlist deriveallarchetypes
-  ✓  26698 swift genericsignature genericsignature
-  ✓  26699 swift expr walk
-  ✓  26700 swift metatypetype get
-  ✓  26702 swift inflightdiagnostic
-  ✓  26703 swift modulefile getdeclcontext
-  ✓  26705 swift constraints constraintsystem finalize
-  ✓  26708 swift parser parseversiontuple
-  ✓  26709 swift parser parseexprcallsuffix
-  ✓  26710 swift constraints constraintsystem computeassigndestty
-  ✓  26711 swift constraints constraintsystem addtypevariablecons
-  ✓  26712 swift genericparamlist addnestedarchetypes
-  ✓  26714 swift parser parsedeclextension
-  ✓  26715 swift declname printpretty
-  ✓  26717 swift typevisitor
-  ✓  26719 swift structtype get
-  ✓  26721 swift parser skipsingle
-  ✓  26722 swift parser parsedaccessors record
-  ✓  26723 swift modulefile getdecl
-  ✓  26724 clang declvisitor base clang declvisitor make const pt
-  ✓  26726 swift inflightdiagnostic
-  ✓  26727 swift modulefile getdecl
-  ✓  26729 swift parser skipsingle
-  ✓  26731 swift protocoltype canonicalizeprotocols
-  ✓  26733 swift diagnosticengine emitdiagnostic
-  ✓  26734 swift diagnosticengine flushactivediagnostic
-  ✓  26736 swift tupletype get
-  ✓  26740 swift inflightdiagnostic
-  ✓  26745 swift typechecker addimplicitconstructors
-  ✓  26746 swift parser skipsingle
-  ✓  26747 llvm errs
-  ✓  26749 swift constraints constraintsystem solve
-  ✓  26750 swift modulefile lookupvalue
-  ✓  26751 swift lexer kindofidentifier
-  ✓  26754 swift abstractstoragedecl setinvalidbracesrange
-  ✓  26755 swift constraints constraintsystem solverstate solvers
-  ✓  26757 swift typebase getcanonicaltype
-  ✓  26758 swift genericparamlist deriveallarchetypes
-  ✓  26759 swift parser skipsingle
-  ✓  26760 swift diagnosticengine emitdiagnostic
-  ✓  26764 swift parser parsedeclenumcase
-  ✓  26765 swift conformancelookuptable getimplicitprotocols
-  ✓  26766 swift typebase getcanonicaltype
-  ✓  26767 swift modulefile maybereadgenericparams
-  ✓  26768 std function func mapsignaturetype
-  ✓  26769 swift tuplepattern createsimple
-  ✓  26770 swift protocoltype get
-  ✓  26772 swift sourcemanager extracttext
-  ✓  26774 swift protocoltype canonicalizeprotocols
-  ✓  26775 swift lexer kindofidentifier
-  ✓  26776 swift typebase getanyoptionalobjecttype
-  ✓  26777 swift typechecker resolveidentifiertype
-  ✓  26778 firsttarget
-  ✓  26779 swift parser diagnose
-  ✓  26781 swift type subst
-  ✓  26783 swift lexer kindofidentifier
-  ✓  26784 swift constraints constraintsystem solve
-  ✓  26785 swift typechecker addimplicitconstructors
-  ✓  26786 llvm smallvectorimpl swift diagnosticargument operator
-  ✓  26787 swift declname printpretty
-  ✓  26789 swift lexer lexidentifier
   ✓  26790 swift type getstring
   ✓  26791 swift typechecker validatedecl
   ✓  26796 swift constraints constraintsystem simplifytype
@@ -346,7 +159,194 @@ Adding a new test case? The crash id to use for the next test case is 27816.
   ✓  26807 swift metatypetype get
   ✓  26809 precheckexpression walktoexprpre
   ✓  26810 uncurriedcandidate getuncurriedfunctiontype
-** Results: 1115 of 4241 tests crashed the compiler **
+  ✓  26815 swift type transform
+  ✓  26820 swift constraints constraintsystem opengeneric
+  ✓  26826 swift constraints constraintsystem solvesimplified
+  ✓  26836 swift conformancelookuptable lookupconformances
+  ✓  26839 swift declcontext lookupqualified
+  ✓  26847 swift valuedecl getoverloadsignature
+  ✓  26857 swift typechecker validatedecl
+  ✓  26860 swift typebase gatherallsubstitutions
+  ✓  26861 swift typechecker resolveidentifiertype
+  ✓  26862 swift typechecker resolvepattern
+  ✓  26869 swift printingdiagnosticconsumer handlediagnostic
+  ✓  26871 swift typechecker computeaccessibility
+  ✓  26872 std function func
+  ✓  26874 swift nominaltypedecl getmembers
+  ✓  26879 swift constraints constraintgraphscope constraintgraph
+  ✓  26883 swift modulefile readmembers
+  ✓  26886 swift stmt walk
+  ✓  26892 swift diagnosticengine emitdiagnostic
+  ✓  26894 swift lexer kindofidentifier
+  ✓  26898 swift abstractclosureexpr setparams
+  ✓  26901 swift typechecker coercepatterntotype
+  ✓  26903 swift constraints constraintgraph addconstraint
+  ✓  26904 swift typechecker definedefaultconstructor
+  ✓  26906 swift declcontext isclassorclassextensioncontext
+  ✓  26907 swift lexer leximpl
+  ✓  26914 void
+  ✓  26921 swift typechecker overapproximateosversionsatlocation
+  ✓  26926 swift typechecker checkinheritanceclause
+  ✓  26930 swift constraints constraintgraph change undo
+  ✓  26932 swift typebase isequal
+  ✓  26935 swift patternbindingdecl setpattern
+  ✓  26936 std function func mapsignaturetype
+  ✓  26946 swift conformancelookuptable updatelookuptable
+  ✓  26952 swift lexer lexidentifier
+  ✓  26957 swift functiontype get
+  ✓  26966 swift parentype get
+  ✓  26970 swift abstractstoragedecl makeaddressedwithobservers
+  ✓  26975 swift constraints solution solution
+  ✓  26978 swift typebase getcanonicaltype
+  ✓  26983 swift archetypebuilder potentialarchetype isbetterarch
+  ✓  26986 swift modulefile maybereadforeignerrorconvention
+  ✓  26990 swift importdecl findbestimportkind
+  ✓  26992 swift archetypetype getnew
+  ✓  26993 swift valuedecl settype
+  ✓  26998 std function func setboundvarstypeerror
+  ✓  26999 swift genericsignature profile
+  ✓  27000 swift typebase gettypevariables
+  ✓  27002 swift pattern clone
+  ✓  27005 vtable
+  ✓  27006 formatdiagnostictext
+  ✓  27008 llvm optional swift diagnostic operator
+  ✓  27011 swift typechecker validatetype
+  ✓  27012 swift constraints constraintsystem solvesimplified
+  ✓  27013 mapsignaturefunctiontype
+  ✓  27021 swift constraints constraintgraph removeconstraint
+  ✓  27028 swift nominaltypedecl preparelookuptable
+  ✓  27035 swift constraints constraintgraph unbindtypevariable
+  ✓  27036 swift astvisitor
+  ✓  27040 swift clangimporter loadextensions
+  ✓  27041 swift type walk
+  ✓  27042 swift conformancelookuptable expandimpliedconformances
+  ✓  27047 swift inflightdiagnostic
+  ✓  27049 swift markasobjc
+  ✓  27061 swift archetypebuilder getallarchetypes
+  ✓  27069 swift tupletype get
+  ✓  27071 swift nominaltypedecl computeinterfacetype
+  ✓  27072 swift createimplicitconstructor
+  ✓  27076 swift declcontext getlocalconformances
+  ✓  27078 swift abstractclosureexpr setparams
+  ✓  27080 swift typechecker typecheckpattern
+  ✓  27085 swift protocoldecl existentialconformstoselfslow
+  ✓  27087 swift declcontext getlocalconformances
+  ✓  27089 swift typebase getcanonicaltype
+  ✓  27091 swift typechecker validatedecl
+  ✓  27096 void
+  ✓  27100 swift genericsignature getcanonical
+  ✓  27101 swift constraints constraintgraph gatherconstraints
+  ✓  27103 swift typebase getanyoptionalobjecttype
+  ✓  27109 swift diagnosticengine flushactivediagnostic
+  ✓  27111 swift valuedecl getoverloadsignature
+  ✓  27115 swift constraints constraintsystem simplifytype
+  ✓  27118 swift archetypebuilder potentialarchetype gettype
+  ✓  27119 void
+  ✓  27123 swift valuedecl getoverloadsignature
+  ✓  27132 swift availabilityinference applyinferredavailableattr
+  ✓  27135 swift patternbindingdecl setpattern
+  ✓  27136 swift constructordecl setbodyparams
+  ✓  27138 swift nominaltypedecl getdeclaredtypeincontext
+  ✓  27142 swift constraints constraintsystem simplifyconstraint
+  ✓  27146 llvm foldingset swift structtype nodeequals
+  ✓  27152 swift lexer getlocforendoftoken
+  ✓  27159 swift protocoldecl existentialconformstoselfslow
+  ✓  27167 swift valuedecl overwritetype
+  ✓  27170 swift protocoltype canonicalizeprotocols
+  ✓  27175 llvm foldingset swift tupletype nodeequals
+  ✓  27177 swift funcdecl setdeserializedsignature
+  ✓  27189 swift archetypebuilder maptypeintocontext
+  ✓  27208 swift archetypebuilder potentialarchetype isbetterarch
+  ✓  27215 llvm smallvectorimpl swift protocolconformance operato
+  ✓  27225 swift polymorphicfunctiontype get
+  ✓  27229 swift constraints constraintgraph computeconnectedcomp
+  ✓  27234 swift protocoldecl existentialtypesupportedslow
+  ✓  27236 swift typechecker typecheckbinding
+  ✓  27255 llvm ondiskchainedhashtable swift modulefile decltable
+  ✓  27269 void
+  ✓  27270 swift astcontext loadextensions
+  ✓  27284 swift associatedtypedecl associatedtypedecl
+  ✓  27286 swift extensiondecl getmembers
+  ✓  27300 swift unboundgenerictype get
+  ✓  27314 swift markasobjc
+  ✓  27330 swift conformancelookuptable lookupconformance
+  ✓  27361 llvm foldingset swift constraints constraintlocator no
+  ✓  27368 swift modulefile lookupvalue
+  ✓  27380 swift lexer kindofidentifier
+  ✓  27386 swift cantype isobjcexistentialtypeimpl
+  ✓  27392 swift constraints constraintsystem finalize
+  ✓  27402 std function func checkaccessibility
+  ✓  27404 swift constraints constraintlocator profile
+  ✓  27421 formatdiagnostictext
+  ✓  27425 swift substitutedtype get
+  ✓  27435 swift constraints solution solution
+  ✓  27437 llvm smallvectorimpl swift diagnosticargument operator
+  ✓  27438 swift typechecker checkinheritanceclause
+  ✓  27441 swift metatypetype get
+  ✓  27445 swift type subst
+  ✓  27448 swift nominaltypedecl computeinterfacetype
+  ✓  27449 swift constraints constraintsystem solverec
+  ✓  27455 swift modulefile loadextensions
+  ✓  27456 swift abstractclosureexpr setparams
+  ✓  27457 llvm tinyptrvector swift valuedecl push back
+  ✓  27467 vtable
+  ✓  27468 swift funcdecl isunaryoperator
+  ✓  27477 swift archetypebuilder potentialarchetype getarchetype
+  ✓  27480 void
+  ✓  27485 swift bracestmt create
+  ✓  27487 swift sourcemanager addnewsourcebuffer
+  ✓  27489 swift typechecker checkgenericarguments
+  ✓  27497 swift decl walk
+  ✓  27498 swift typechecker typecheckpatternbinding
+  ✓  27500 swift constructordecl constructordecl
+  ✓  27506 swift modulefile gettype
+  ✓  27509 swift inflightdiagnostic
+  ✓  27513 swift typeloc iserror
+  ✓  27514 swift constraints constraintsystem getconstraintlocato
+  ✓  27529 swift typechecker gettypeofrvalue
+  ✓  27536 swift namelookup findlocalval visitbracestmt
+  ✓  27545 swift nominaltypedecl classifyasoptionaltype
+  ✓  27556 swift genericfunctiontype get
+  ✓  27566 swift constraints constraintgraphscope constraintgraph
+  ✓  27571 swift inflightdiagnostic
+  ✓  27574 llvm foldingset swift tupletype nodeequals
+  ✓  27584 swift typechecker isdeclavailable
+  ✓  27587 llvm foldingset swift classtype nodeequals
+  ✓  27588 swift constraints constraintsystem simplifyconstraint
+  ✓  27590 swift generictypeparamtype get
+  ✓  27596 llvm foldingset swift enumtype nodeequals
+  ✓  27601 swift inflightdiagnostic
+  ✓  27602 swift inflightdiagnostic
+  ✓  27610 swift conformancelookuptable lookupconformances
+  ✓  27613 swift patternbindingdecl hasstorage
+  ✓  27619 swift modulefile getdecl
+  ✓  27629 swift associatedtypedecl associatedtypedecl
+  ✓  27631 swift nominaltypedecl getmembers
+  ✓  27632 swift typechecker typecheckdecl
+  ✓  27637 swift typechecker checkunsupportedprotocoltype
+  ✓  27660 no stacktrace
+  ✓  27672 swift dependentmembertype get
+  ✓  27675 vtable
+  ✓  27677 std function func swift constraints constraintsystem s
+  ✓  27680 swift structtype get
+  ✓  27685 swift pattern foreachvariable
+  ✓  27691 void
+  ✓  27693 swift constraints constraintsystem opengeneric
+  ✓  27700 swift modulefile loadallmembers
+  ✓  27731 swift removeshadoweddecls
+  ✓  27732 swift valuedecl getinterfacetype
+  ✓  27736 void
+  ✓  27748 swift conformancelookuptable getimplicitprotocols
+  ✓  27761 swift archetypebuilder addgenericsignature
+  ✓  27767 swift constructordecl constructordecl
+  ✓  27768 swift typechecker lookupunqualified
+  ✓  27771 swift typebase isequal
+  ✓  27776 swift unqualifiedlookup unqualifiedlookup
+  ✓  27779 swift abstractstoragedecl getobjcgetterselector
+  ✓  27784 swift printingdiagnosticconsumer handlediagnostic
+  ✓  27799 swift modulefile getimportedmodules
+  ✓  27803 swift typechecker validatedecl
+** Results: 322 of 3635 tests crashed the compiler **
 
 ```
 

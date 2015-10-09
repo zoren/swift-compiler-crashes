@@ -1,35 +1,35 @@
-4  swift                    swift::constraints::ConstraintSystem::matchSuperclassTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 108
-5  swift                    swift::constraints::ConstraintSystem::simplifyRestrictedConstraint(swift::constraints::ConversionRestrictionKind, swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 858
-6  swift                    swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 12217
-7  swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 155
+4  swift                    swift::constraints::ConstraintSystem::matchSuperclassTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 93
+5  swift                    swift::constraints::ConstraintSystem::simplifyRestrictedConstraint(swift::constraints::ConversionRestrictionKind, swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 859
+6  swift                    swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 12599
+7  swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 149
 8  swift                    swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 28
-9  swift                    swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::DeclRefExpr const*, swift::constraints::DependentTypeOpener*) + 3178
+9  swift                    swift::constraints::ConstraintSystem::getTypeOfMemberReference(swift::Type, swift::ValueDecl*, bool, bool, swift::constraints::ConstraintLocatorBuilder, swift::DeclRefExpr const*, swift::constraints::DependentTypeOpener*) + 3196
 10 swift                    swift::constraints::ConstraintSystem::resolveOverload(swift::constraints::ConstraintLocator*, swift::Type, swift::constraints::OverloadChoice) + 907
-11 swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 772
+11 swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 738
 12 swift                    swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 28
 13 swift                    swift::constraints::ConstraintSystem::addOverloadSet(swift::Type, llvm::ArrayRef<swift::constraints::OverloadChoice>, swift::constraints::ConstraintLocator*, swift::constraints::OverloadChoice*) + 340
-14 swift                    swift::constraints::ConstraintSystem::simplifyMemberConstraint(swift::constraints::Constraint const&) + 498
-15 swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 290
+14 swift                    swift::constraints::ConstraintSystem::simplifyMemberConstraint(swift::constraints::Constraint const&) + 474
+15 swift                    swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 281
 16 swift                    swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 28
 17 swift                    (anonymous namespace)::ConstraintGenerator::addMemberRefConstraints(swift::Expr*, swift::Expr*, swift::DeclName) + 218
 18 swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 59
 19 swift                    swift::Expr::walk(swift::ASTWalker&) + 76
 20 swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 189
-21 swift                    swift::TypeChecker::solveForExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*, swift::constraints::ConstraintSystem&, llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::OptionSet<swift::TypeCheckExprFlags, unsigned int>) + 260
-22 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::ContextualTypePurpose, swift::OptionSet<swift::TypeCheckExprFlags, unsigned int>, swift::ExprTypeCheckListener*) + 474
+21 swift                    swift::TypeChecker::solveForExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*, swift::constraints::ConstraintSystem&, llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::OptionSet<swift::TypeCheckExprFlags, unsigned int>) + 270
+22 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::ContextualTypePurpose, swift::OptionSet<swift::TypeCheckExprFlags, unsigned int>, swift::ExprTypeCheckListener*) + 546
 23 swift                    swift::TypeChecker::typeCheckBinding(swift::Pattern*&, swift::Expr*&, swift::DeclContext*) + 100
 24 swift                    swift::TypeChecker::typeCheckPatternBinding(swift::PatternBindingDecl*, unsigned int) + 241
-25 swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*, unsigned int) + 730
-26 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 1966
-27 swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 1595
-28 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2681
-29 swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 1595
-30 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2681
-31 swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 1595
-32 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2681
+25 swift                    validatePatternBindingDecl(swift::TypeChecker&, swift::PatternBindingDecl*, unsigned int) + 724
+26 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 1968
+27 swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 1451
+28 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2699
+29 swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 1451
+30 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2699
+31 swift                    (anonymous namespace)::DeclChecker::visitClassDecl(swift::ClassDecl*) + 1451
+32 swift                    (anonymous namespace)::DeclChecker::visit(swift::Decl*) + 2699
 33 swift                    swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 152
-34 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1496
-35 swift                    swift::CompilerInstance::performSema() + 4064
+34 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1336
+35 swift                    swift::CompilerInstance::performSema() + 4096
 36 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 741
-37 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2682
-38 swift                    main + 2247
+37 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2691
+38 swift                    main + 2324

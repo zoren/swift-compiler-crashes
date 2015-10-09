@@ -1,0 +1,1 @@
+../crashes-fuzzing/27846-llvm-smallvectorimpl-swift-protocolconformance-operator.swift

@@ -1,0 +1,1 @@
+../crashes-fuzzing/27863-swift-serializedmoduleloader-loadextensions.swift

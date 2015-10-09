@@ -1,9 +1,13 @@
-3  swift                    swift::TypeChecker::checkDeclarationAvailability(swift::Decl const*, swift::SourceLoc, swift::DeclContext const*) + 98
-4  swift                    bool llvm::function_ref<bool (std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>::callback_fn<swift::FileUnit::forAllVisibleModules(llvm::function_ref<void (std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>)::'lambda'(std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>(long, std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>) + 59
-5  swift                    swift::ModuleDecl::forAllVisibleModules(llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, bool, llvm::function_ref<bool (std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>) + 579
-6  swift                    swift::FileUnit::forAllVisibleModules(llvm::function_ref<bool (std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>) + 68
-7  swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1396
-8  swift                    swift::CompilerInstance::performSema() + 4064
-9  swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 741
-10 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2682
-11 swift                    main + 2247
+4  swift                    swift::DeclName::printPretty(llvm::raw_ostream&) const + 60
+5  swift                    formatDiagnosticText(llvm::StringRef, llvm::ArrayRef<swift::DiagnosticArgument>, llvm::raw_ostream&) + 2216
+6  swift                    swift::DiagnosticEngine::emitDiagnostic(swift::Diagnostic const&) + 3569
+7  swift                    swift::DiagnosticEngine::flushActiveDiagnostic() + 285
+8  swift                    void llvm::function_ref<void (std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>::callback_fn<swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int)::$_1>(long, std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>) + 615
+9  swift                    bool llvm::function_ref<bool (std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>::callback_fn<swift::FileUnit::forAllVisibleModules(llvm::function_ref<void (std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>)::'lambda'(std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>(long, std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>) + 59
+10 swift                    swift::ModuleDecl::forAllVisibleModules(llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, bool, llvm::function_ref<bool (std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>) + 563
+11 swift                    swift::FileUnit::forAllVisibleModules(llvm::function_ref<bool (std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>)>) + 68
+12 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1237
+13 swift                    swift::CompilerInstance::performSema() + 4096
+14 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 741
+15 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2691
+16 swift                    main + 2324

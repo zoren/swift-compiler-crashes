@@ -1,10 +1,10 @@
 4  swift                    swift::irgen::CallEmission::emitToUnmappedExplosion(swift::irgen::Explosion&) + 31
-5  swift                    swift::irgen::CallEmission::emitToExplosion(swift::irgen::Explosion&) + 563
-6  swift                    (anonymous namespace)::IRGenSILFunction::visitFullApplySite(swift::FullApplySite) + 2384
+5  swift                    swift::irgen::CallEmission::emitToExplosion(swift::irgen::Explosion&) + 374
+6  swift                    (anonymous namespace)::IRGenSILFunction::visitFullApplySite(swift::FullApplySite) + 2329
 7  swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 10973
 8  swift                    swift::irgen::IRGenModuleDispatcher::emitGlobalTopLevel() + 376
-9  swift                    performIRGeneration(swift::IRGenOptions&, swift::ModuleDecl*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 793
+9  swift                    performIRGeneration(swift::IRGenOptions&, swift::ModuleDecl*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 788
 10 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 64
-11 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 13704
-12 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2682
-13 swift                    main + 2247
+11 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 13701
+12 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2691
+13 swift                    main + 2324

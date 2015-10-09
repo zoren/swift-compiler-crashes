@@ -4,8 +4,8 @@
 7  swift                    swift::SILVisitor<(anonymous namespace)::IRGenSILFunction, void>::visit(swift::ValueBase*) + 12876
 8  swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 10973
 9  swift                    swift::irgen::IRGenModuleDispatcher::emitGlobalTopLevel() + 376
-10 swift                    performIRGeneration(swift::IRGenOptions&, swift::ModuleDecl*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 793
+10 swift                    performIRGeneration(swift::IRGenOptions&, swift::ModuleDecl*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 788
 11 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 64
-12 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 13704
-13 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2682
-14 swift                    main + 2247
+12 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 13701
+13 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2691
+14 swift                    main + 2324

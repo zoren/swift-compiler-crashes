@@ -1,0 +1,1 @@
+../crashes-fuzzing/27822-swift-modulefile-loadextensions.swift
