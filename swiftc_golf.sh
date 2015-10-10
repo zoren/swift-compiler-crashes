@@ -30,7 +30,7 @@ test_crash_case() {
     number_of_bytes=$(echo -n "${source_code}" | wc -c | tr -d " ")
     compilation_output=$(xcrun swiftc -O -o /dev/null - <<< "${source_code}" 2>&1)
     # Retrying logic in order to increase chance of catching intermittent crashes.
-    for _ in {1..5}; do
+    for _ in {1..100}; do
 	crash_hash=$(get_crash_hash "${compilation_output}")
 	if [[ ${crash_hash} != "" ]]; then
 	    break
@@ -68,7 +68,7 @@ test_crash_case '(&.f>_'          # |   6 |     |     |     |     |     |     | 
 test_crash_case '({[({_'          # |   6 |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✘  |  ✘  |  ✓  |   ✓   |   ✓   |   ✓   | (anonymous namespace)::PreCheckExpression::walkToExprPre(…)
 test_crash_case '[_?,&_'          # |   6 |     |     |     |     |     |     |  ✘  |  ✓  |   ✓   |   ✓   |   ✓   | std::__1::__function::__func<swift::constraints::ConstraintSystem::simplifyType(…)
 test_crash_case '&(<)==('         # |   7 |     |     |     |     |     |  ✘  |  D  |  ✓  |   ✓   |   ✓   |   ✓   | swift::ProtocolType::canonicalizeProtocols(…)
-test_crash_case '&(Int:_'         # |   7 |     |     |     |     |     |     |     |     |       |   ✘   |   ✓   | swift::ASTVisitor<…>::visit(…)
+test_crash_case '&(Int:_'         # |   7 |     |     |     |     |     |     |     |     |       |   ✘   |   ✘   | swift::ASTVisitor<…>::visit(…)
 test_crash_case ']{&[]()'         # |   7 |     |     |     |     |     |     |  ✘  |  ✓  |   ✓   |   ✓   |   ✓   | swift::constraints::ConstraintGraph::gatherConstraints(…)
 test_crash_case 'nil as('         # |   7 |     |     |     |     |     |     |     |  ✘  |   ✘   |   ✓   |   ✓   | swift::Type::transform(…)
 test_crash_case '{(&_{("'         # |   7 |     |     |     |     |     |  ✘  |  ✘  |  ✓  |   ✓   |   ✓   |   ✓   | swift::constraints::ConstraintSystem::matchTypes(…)
@@ -85,7 +85,7 @@ test_crash_case '&.f{}()do'       # |   9 |     |  ✓  |     |     |     |  ✘
 test_crash_case '&Range.T{'       # |   9 |     |  ✓  |     |     |     |  ✘  |  D  |  ✓  |   ✓   |   ✓   |   ✓   | swift::constraints::ConstraintSystem::getTypeOfMemberReference(…)
 test_crash_case '&_{Range?'       # |   9 |     |  ✓  |     |     |     |  ✘  |  D  |  ✓  |   ✓   |   ✓   |   ✓   | swift::constraints::ConstraintSystem::addConstraint(…)
 test_crash_case '.{nil<{\n{'      # |   9 |     |  ✓  |     |     |     |  ✘  |  D  |  ✓  |   ✓   |   ✓   |   ✓   | swift::ConformanceLookupTable::expandImpliedConformances(…)
-test_crash_case 'Array([[]'       # |   9 |     |     |     |     |     |     |     |     |       |   ✘   |   ✘   | swift::constraints::ConstraintGraph::computeConnectedComponents(…)
+test_crash_case 'Array([[]'       # |   9 |     |     |     |     |     |     |     |     |       |   ✘   |   ✓   | swift::constraints::ConstraintGraph::computeConnectedComponents(…)
 test_crash_case 'nil?=\n&_,'      # |   9 |     |     |     |     |     |     |  ✘  |  ✓  |   ✓   |   ✓   |   ✓   | swift::LValueType::get(…)
 test_crash_case 'var(()...'       # |   9 |     |     |     |     |     |     |  ✘  |  ✓  |   ✓   |   ✓   |   ✓   | swift::TypeChecker::typeCheckPattern(…)
 test_crash_case '{nil...{('       # |   9 |     |  ✓  |     |     |     |  ✘  |  D  |  ✓  |   ✓   |   ✓   |   ✓   | swift::constraints::ConstraintSystem::simplifyMemberConstraint(…)
