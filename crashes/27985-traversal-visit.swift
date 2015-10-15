@@ -1,3 +1,11 @@
-let closure: (inout Int) -> () -> Void = { a in
-	return { a = 5 }
+protocol A {
+	var b: B { get }
+}
+
+protocol B {
+	var c: [String] { get }
+}
+
+func test(a: A) {
+	print(a.b.c + "")
 }
