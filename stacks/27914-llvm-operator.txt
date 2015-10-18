@@ -1,4 +1,4 @@
-3  swift                    swift::namelookup::FindLocalVal::visitForStmt(swift::ForStmt*) + 31
+3  swift                    swift::Mangle::Mangler::mangleClosureComponents(swift::Type, unsigned int, bool, swift::DeclContext const*, swift::DeclContext const*) + 223
 4  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 285
 5  swift                    swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 103
 6  swift                    swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 202

@@ -51,7 +51,7 @@ $ ./test.sh
 Running tests against: swiftlang-700.1.101.3 clang-700.1.75 (Xcode 7.1 (7B85))
 Using Xcode found at path: /Applications/Xcode-Beta.app/Contents/Developer/
 Usage: ./test.sh [-v] [-q] [-c<columns>] [-l] [file ...]
-Adding a new test case? The crash id to use for the next test case is 27985.
+Adding a new test case? The crash id to use for the next test case is 28071.
 
 == Currently known crashes, set #1 (human reported crashes, crashes not found by fuzzing) ==
 
@@ -60,7 +60,7 @@ Adding a new test case? The crash id to use for the next test case is 27985.
   ✘  23639 llvm jit runfunction (runtime)                         (          )
   ✘  23903 too complex to be solved in reasonable time (timeout)  (          )
   ✘  23908 slow type inference (timeout)                          (          )
-  ✘  24245 swift constraints constraintsystem solve (timeout)     (2be94c49ca)
+  ✘  24245 swift constraints constraintsystem solve               (e425e97eca)
   ✘  24797 no stacktrace                                          (          )
   ✘  24798 no stacktrace                                          (          )
   ✘  24879 getmemberforbasetype                                   (71c4e3666e)
@@ -82,6 +82,7 @@ Adding a new test case? The crash id to use for the next test case is 27985.
   ✘  27817 anonymous namespace rvalueemitter emitstringliteral    (3958e17be3)
   ✘  27818 swift astvisitor                                       (b42ca6f6bb)
   ✘  27820 swift silwitnessvisitor visitprotocoldecl              (040d8d9cab)
+  ✘  27985 traversal visit (-O)                                   (          )
 
 == Currently known crashes, set #2 (crashes found by fuzzing) ==
 
@@ -146,7 +147,6 @@ Adding a new test case? The crash id to use for the next test case is 27985.
   ✘  26947 swift constraints constraintsystem getconstraintlocato (8009c9647e)
   ✘  26962 swift typechecker validategenericfuncsignature         (9e19ef313a)
   ✘  26969 swift modulefile lookupvalue                           (37e9c063ec)
-  ✘  26987 swift constraints constraintsystem addconstraint       (5c183d3ca3)
      lots of fuzzing crashes omitted for README.md readability …
   ✓  26790 swift type getstring
   ✓  26791 swift typechecker validatedecl
@@ -346,7 +346,7 @@ Adding a new test case? The crash id to use for the next test case is 27985.
   ✓  27784 swift printingdiagnosticconsumer handlediagnostic
   ✓  27799 swift modulefile getimportedmodules
   ✓  27803 swift typechecker validatedecl
-** Results: 322 of 3635 tests crashed the compiler **
+** Results: 407 of 3720 tests crashed the compiler **
 
 ```
 

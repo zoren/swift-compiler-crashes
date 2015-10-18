@@ -31,6 +31,7 @@ maybeReadForeignErrorConvention
 performSyntacticExprDiagnostics
 resolvePotentialArchetypeToType
 checkGenericParamAccessibility
+diagnoseExplicitUnavailability
 diagnoseFailureFromConstraints
 emitClassExistentialProjection
 emitFunctionPartialApplication
@@ -108,6 +109,7 @@ resolveIdentTypeComponent
 typeCheckTopLevelCodeDecl
 applyGenericTypeReprArgs
 buildArrayInjectionFnRef
+configureConstructorType
 constructCallToSuperInit
 createBindingFromPattern
 defineDefaultConstructor
@@ -137,6 +139,7 @@ getSelfTypeForContainer
 isAnyClassReferenceType
 isBetterArchetypeAnchor
 isBuiltinTypeOverloaded
+mangleClosureComponents
 maybeParseGenericParams
 mergeEquivalenceClasses
 parseGenericWhereClause
@@ -241,7 +244,6 @@ parseDefaultArgument
 parseMatchingPattern
 parseParameterClause
 performSILGeneration
-printTypeDescription
 readAbbreviatedField
 resolveTypeInContext
 typeCheckCheckedCast
@@ -292,6 +294,7 @@ createImplicitHack
 emitGlobalTopLevel
 emitStructMetadata
 findBestImportKind
+findForcedDowncast
 getArchetypeAnchor
 getImportedModules
 getLLVMIntrinsicID
@@ -331,6 +334,7 @@ unbindTypeVariable
 validateAttributes
 visitExtensionDecl
 addedExternalDecl
+checkObjCAncestry
 consumeIdentifier
 convertStructType
 createDisjunction
@@ -362,6 +366,7 @@ removedConstraint
 requiresClassSlow
 resolveSuperclass
 runFunctionAsMain
+trySimplifyToExpr
 updateLookupTable
 validateExtension
 verifyDiagnostics
@@ -555,7 +560,6 @@ printDeclUSR
 simplifyType
 validateDecl
 validateType
-visitForStmt
 addProtocol
 callWitness
 computeType

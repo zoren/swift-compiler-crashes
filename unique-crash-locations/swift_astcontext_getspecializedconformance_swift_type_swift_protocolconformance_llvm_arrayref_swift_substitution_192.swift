@@ -1,0 +1,1 @@
+../crashes-fuzzing/28048-swift-astcontext-getspecializedconformance.swift

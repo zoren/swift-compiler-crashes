@@ -1,0 +1,1 @@
+../crashes-fuzzing/28036-swift-mangle-mangler-mangledeclname.swift

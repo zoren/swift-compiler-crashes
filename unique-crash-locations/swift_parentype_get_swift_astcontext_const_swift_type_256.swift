@@ -1,0 +1,1 @@
+../crashes-fuzzing/28066-swift-parentype-get.swift

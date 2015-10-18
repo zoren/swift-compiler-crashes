@@ -57,6 +57,7 @@ checkGenericParamAccessibility
 checkGenericParamList
 checkGenericParameters
 checkInheritanceClause
+checkObjCAncestry
 checkOmitNeedlessWords
 checkRedeclaration
 checkSubstitutions
@@ -83,6 +84,7 @@ computeDefaultAccessibility
 computeInterfaceType
 computeSubstitutions
 computeType
+configureConstructorType
 configureImplicitSelf
 configureStorage
 conformsToProtocol
@@ -127,6 +129,7 @@ diagAvailability
 diagnose
 diagnoseAmbiguousMemberType
 diagnoseContextualConversionError
+diagnoseExplicitUnavailability
 diagnoseFailure
 diagnoseFailureForCallExpr
 diagnoseFailureForExpr
@@ -188,6 +191,7 @@ find
 findBestImportKind
 findBestSolution
 findExistingInitializerContext
+findForcedDowncast
 finishLoadingClangModule
 finishNormalConformance
 finishPendingActions
@@ -393,6 +397,7 @@ lookupValue
 lookupVisibleDecls
 makeComputed
 mangle
+mangleClosureComponents
 mangleDeclName
 mangleDeclTypeForDebugger
 mangleGenericSignature
@@ -532,7 +537,6 @@ printOneChild
 printPretty
 printText
 printTextImpl
-printTypeDescription
 propagateConcreteTypeOfInitExistential
 readAbbreviatedField
 readMembers
@@ -624,6 +628,7 @@ sys
 transform
 tryMangleStandardSubstitution
 tryMangleSubstitution
+trySimplifyToExpr
 typeCheckAbstractFunctionBody
 typeCheckAbstractFunctionBodyUntil
 typeCheckBinding
@@ -665,7 +670,6 @@ visitBraceStmt
 visitCallInst
 visitConstructorDecl
 visitExtensionDecl
-visitForStmt
 visitFuncDecl
 visitInherited
 visitNominalTypeDecl

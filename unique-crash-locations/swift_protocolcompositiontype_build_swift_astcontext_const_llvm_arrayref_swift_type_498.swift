@@ -1,0 +1,1 @@
+../crashes-fuzzing/28026-swift-protocolcompositiontype-build.swift
