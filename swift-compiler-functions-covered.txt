@@ -4,6 +4,7 @@ addConformance
 addConformanceRequirement
 addConstraint
 addContextParamsAndRequirements
+addCurriedSelfType
 addGenericParameter
 addGenericSignature
 addIdentifierRef
@@ -37,6 +38,7 @@ bindTypeVariable
 build
 buildArrayInjectionFnRef
 buildImplicitLetParameter
+buildRefExpr
 buildStorageReference
 buildSubscriptIndexReference
 callWitness
@@ -73,6 +75,7 @@ coercePatternToType
 coerceToType
 collectFullName
 collectRequirements
+compareDeclarations
 compareProtocolConformances
 compareProtocols
 compareSolutions
@@ -107,6 +110,7 @@ createBindingFromPattern
 createDesignatedInitOverride
 createDisjunction
 createForDecl
+createForIfStmtElse
 createGetterPrototype
 createImplicitConstructor
 createImplicitHack
@@ -118,7 +122,6 @@ createUnavailableAttr
 createUnnamedImplicit
 declvisitor
 defineDefaultConstructor
-demangleSymbolAsNode
 deriveAllArchetypes
 deriveEquatable
 destroy
@@ -128,6 +131,7 @@ diag
 diagAvailability
 diagnose
 diagnoseAmbiguousMemberType
+diagnoseClassWithoutInitializers
 diagnoseContextualConversionError
 diagnoseExplicitUnavailability
 diagnoseFailure
@@ -192,6 +196,7 @@ findBestImportKind
 findBestSolution
 findExistingInitializerContext
 findForcedDowncast
+findImplementingMethod
 finishLoadingClangModule
 finishNormalConformance
 finishPendingActions
@@ -259,6 +264,7 @@ getFullName
 getFunction
 getGenericParamContext
 getGenericParamsOfContext
+getGenericSignatureOfContext
 getIdentifier
 getImplicitProtocols
 getImplicitlyUnwrappedOptionalDecl
@@ -278,6 +284,7 @@ getMemberForBaseType
 getMemberSubstitutions
 getMembers
 getName
+getNestedType
 getNew
 getOSName
 getObjCGetterSelector
@@ -355,6 +362,7 @@ isEqual
 isError
 isExistentialType
 isExistentialTypeImpl
+isPlatformActive
 isProtocolOrProtocolExtensionContext
 isRepresentableInObjC
 isSimpleEnum
@@ -396,10 +404,11 @@ lookupUnqualified
 lookupValue
 lookupVisibleDecls
 makeComputed
+makeComputedWithMutableAddress
 mangle
-mangleClosureComponents
 mangleDeclName
 mangleDeclTypeForDebugger
+mangleDefaultArgumentEntity
 mangleGenericSignature
 mangleIdentifier
 mangleNominalType
@@ -408,6 +417,7 @@ mapParsedParameters
 mapSignatureFunctionType
 mapTypeIntoContext
 markAsObjC
+markInvalidGenericSignature
 matchCallArguments
 matchDeepEqualityTypes
 matchExistentialTypes
@@ -514,6 +524,7 @@ parseTypeCollection
 parseTypeIdentifier
 parseTypeSimple
 parseTypeTupleBody
+parseTypedPattern
 parseVersionTuple
 performCompile
 performExprDiagnostics
@@ -540,6 +551,7 @@ printTextImpl
 propagateConcreteTypeOfInitExistential
 readAbbreviatedField
 readMembers
+readNormalConformance
 readRecord
 readReferencedConformance
 readSILBasicBlock
@@ -590,6 +602,7 @@ setRawComment
 setSpecialized
 setType
 setTypeWitness
+setWitness
 setup
 simplify
 simplifyApplicableFnConstraint
@@ -671,6 +684,7 @@ visitCallInst
 visitConstructorDecl
 visitExtensionDecl
 visitFuncDecl
+visitIfStmt
 visitInherited
 visitNominalTypeDecl
 visitPatternBindingDecl

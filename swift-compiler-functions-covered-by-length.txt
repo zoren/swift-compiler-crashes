@@ -21,6 +21,7 @@ getTypeOfIndependentSubExpression
 substituteInputSugarTypeForResult
 addAbstractTypeParamRequirements
 addValueWitnessesForAbstractType
+diagnoseClassWithoutInitializers
 getInterfaceTypeFromInternalType
 isAnyObjCRepresentableObjectType
 simplifyOptionalObjectConstraint
@@ -42,6 +43,7 @@ getDelegatingOrChainedInitKind
 getPatternEntryIndexForVarDecl
 isClassOrClassExtensionContext
 isTriviallyRepresentableInObjC
+makeComputedWithMutableAddress
 parseClosureSignatureIfPresent
 simplifyApplicableFnConstraint
 simplifyConstructionConstraint
@@ -61,6 +63,7 @@ checkUnsupportedProtocolType
 createDesignatedInitOverride
 emitTransformedFunctionValue
 existentialTypeSupportedSlow
+getGenericSignatureOfContext
 parseMatchingPatternVarOrVal
 simplifyConformsToConstraint
 simplifyRestrictedConstraint
@@ -75,6 +78,8 @@ diagnoseObjCMethodConflicts
 existentialConformsToItself
 getBoundTypesFromConstraint
 isCascadingContextForLookup
+mangleDefaultArgumentEntity
+markInvalidGenericSignature
 maybeAddAccessorsToVariable
 optimizeApplyOfPartialApply
 resolveGenericTypeParamType
@@ -139,7 +144,6 @@ getSelfTypeForContainer
 isAnyClassReferenceType
 isBetterArchetypeAnchor
 isBuiltinTypeOverloaded
-mangleClosureComponents
 maybeParseGenericParams
 mergeEquivalenceClasses
 parseGenericWhereClause
@@ -160,6 +164,7 @@ connectedComponentsDFS
 createArchetypeBuilder
 diagnoseFailureForExpr
 emitMemberInitializers
+findImplementingMethod
 gatherAllSubstitutions
 getGenericParamContext
 getMemberSubstitutions
@@ -206,6 +211,7 @@ matchExistentialTypes
 maybeReadSubstitution
 parseGenericArguments
 parseNewDeclAttribute
+readNormalConformance
 resolveCrossReference
 resolveIdentifierType
 setInvalidBracesRange
@@ -219,7 +225,6 @@ applyAttributeToType
 computeAccessibility
 computeInterfaceType
 computeSubstitutions
-demangleSymbolAsNode
 diagnoseRedefinition
 emitOrigToSubstValue
 emitValueConstructor
@@ -259,6 +264,8 @@ addNestedArchetypes
 checkDeclAttributes
 coercePatternToType
 collectRequirements
+compareDeclarations
+createForIfStmtElse
 deriveAllArchetypes
 diagnoseUnknownType
 emitLazyDefinitions
@@ -284,6 +291,7 @@ removeShadowedDecls
 resolveConformances
 typeCheckExpression
 writeBlockInfoBlock
+addCurriedSelfType
 checkAccessibility
 checkEnumRawValues
 checkRedeclaration
@@ -358,6 +366,7 @@ parseDeclIfConfig
 parseDeclOperator
 parseDeclProtocol
 parseExprSequence
+parseTypedPattern
 parseVersionTuple
 prepareExtensions
 readSILBasicBlock
@@ -392,6 +401,7 @@ getSubstitutions
 getTypeVariables
 handleDiagnostic
 importAttributes
+isPlatformActive
 kindOfIdentifier
 lexStringLiteral
 lexUnicodeEscape
@@ -504,6 +514,7 @@ flushComments
 getConformsTo
 getExtensions
 getIdentifier
+getNestedType
 getRawComment
 getStringDecl
 getSuperclass
@@ -531,6 +542,7 @@ typeCheckDecl
 visitCallInst
 visitFuncDecl
 addProtocols
+buildRefExpr
 canParseType
 coerceToType
 constructSIL
@@ -587,6 +599,7 @@ readMembers
 resolveType
 runFunction
 solveSingle
+visitIfStmt
 writeHeader
 addToScope
 destroyAll
@@ -606,6 +619,7 @@ parseToken
 readRecord
 removeNode
 setPattern
+setWitness
 skipRecord
 skipSingle
 addMember

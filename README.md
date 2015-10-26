@@ -51,7 +51,7 @@ $ ./test.sh
 Running tests against: swiftlang-700.1.101.3 clang-700.1.75 (Xcode 7.1 (7B85))
 Using Xcode found at path: /Applications/Xcode-Beta.app/Contents/Developer/
 Usage: ./test.sh [-v] [-q] [-c<columns>] [-l] [file ...]
-Adding a new test case? The crash id to use for the next test case is 28071.
+Adding a new test case? The crash id to use for the next test case is 28180.
 
 == Currently known crashes, set #1 (human reported crashes, crashes not found by fuzzing) ==
 
@@ -60,7 +60,7 @@ Adding a new test case? The crash id to use for the next test case is 28071.
   ✘  23639 llvm jit runfunction (runtime)                         (          )
   ✘  23903 too complex to be solved in reasonable time (timeout)  (          )
   ✘  23908 slow type inference (timeout)                          (          )
-  ✘  24245 swift constraints constraintsystem solve               (e425e97eca)
+  ✘  24245 swift constraints constraintsystem solve               (71c224a4a8)
   ✘  24797 no stacktrace                                          (          )
   ✘  24798 no stacktrace                                          (          )
   ✘  24879 getmemberforbasetype                                   (71c4e3666e)
@@ -346,7 +346,7 @@ Adding a new test case? The crash id to use for the next test case is 28071.
   ✓  27784 swift printingdiagnosticconsumer handlediagnostic
   ✓  27799 swift modulefile getimportedmodules
   ✓  27803 swift typechecker validatedecl
-** Results: 407 of 3720 tests crashed the compiler **
+** Results: 511 of 3824 tests crashed the compiler **
 
 ```
 

@@ -1,0 +1,1 @@
+../crashes-fuzzing/28171-swift-partialgenerictypetoarchetyperesolver-resolvegenerictypeparamtype.swift

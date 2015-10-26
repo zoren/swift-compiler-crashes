@@ -37,6 +37,7 @@ swift::AbstractStorageDecl
 swift::AbstractStorageDecl::getObjCGetterSelector
 swift::AbstractStorageDecl::getObjCSetterSelector
 swift::AbstractStorageDecl::makeComputed
+swift::AbstractStorageDecl::makeComputedWithMutableAddress
 swift::AbstractStorageDecl::setInvalidBracesRange
 swift::AbstractTypeParamDecl
 swift::AccessKind
@@ -72,6 +73,7 @@ swift::ArchetypeBuilder::~ArchetypeBuilder
 swift::ArchetypeType
 swift::ArchetypeType::NestedType
 swift::ArchetypeType::getFullName
+swift::ArchetypeType::getNestedType
 swift::ArchetypeType::getNew
 swift::ArchetypeType::hasNestedType
 swift::ArchetypeType::setNestedTypes
@@ -121,6 +123,7 @@ swift::ClangModuleUnit::lookupValue
 swift::ClangNode
 swift::ClassDecl
 swift::ClassDecl::checkObjCAncestry
+swift::ClassDecl::findImplementingMethod
 swift::ClassType
 swift::ClassType::get
 swift::CleanupIllFormedExpressionRAII::doIt
@@ -173,6 +176,7 @@ swift::DeclAttributes
 swift::DeclContext
 swift::DeclContext::getDeclaredTypeInContext
 swift::DeclContext::getGenericParamsOfContext
+swift::DeclContext::getGenericSignatureOfContext
 swift::DeclContext::getLocalConformances
 swift::DeclContext::getLocalProtocols
 swift::DeclContext::isCascadingContextForLookup
@@ -191,9 +195,7 @@ swift::DeclRefExpr
 swift::DeclRefExpr::setSpecialized
 swift::DeclVisibilityKind
 swift::DelayedParsingCallbacks
-swift::Demangle::DemangleOptions
 swift::Demangle::Node
-swift::Demangle::demangleSymbolAsNode
 swift::DependentMemberType::get
 swift::DependentMemberType::substBaseType
 swift::DerivedConformance::deriveEquatable
@@ -275,6 +277,7 @@ swift::IRGenOptions
 swift::IdentTypeRepr
 swift::IdentTypeRepr::create
 swift::Identifier
+swift::IfStmt
 swift::ImplicitConstructorKind
 swift::ImplicitlyUnwrappedOptionalType::get
 swift::ImportDecl::findBestImportKind
@@ -312,7 +315,6 @@ swift::Lexer::lexOperatorIdentifier
 swift::Lexer::lexStringLiteral
 swift::Lexer::lexUnicodeEscape
 swift::LiteralExpr
-swift::LookupResult
 swift::LookupTypeResult
 swift::Lowering::AbstractionPattern
 swift::Lowering::ArgumentSource
@@ -364,9 +366,9 @@ swift::Lowering::TypeConverter::getTypeLowering
 swift::Lowering::TypeConverter::getTypeLoweringForUncachedLoweredType
 swift::Lowering::TypeLowering
 swift::Mangle::Mangler::BindGenerics
-swift::Mangle::Mangler::mangleClosureComponents
 swift::Mangle::Mangler::mangleDeclName
 swift::Mangle::Mangler::mangleDeclTypeForDebugger
+swift::Mangle::Mangler::mangleDefaultArgumentEntity
 swift::Mangle::Mangler::mangleGenericSignature
 swift::Mangle::Mangler::mangleIdentifier
 swift::Mangle::Mangler::mangleNominalType
@@ -385,6 +387,7 @@ swift::Module::lookupConformance
 swift::Module::lookupValue
 swift::ModuleDecl
 swift::ModuleDecl::ImportFilter
+swift::ModuleDecl::ModuleDecl
 swift::ModuleDecl::forAllVisibleModules
 swift::ModuleDecl::lookupConformance
 swift::ModuleDecl::lookupValue
@@ -407,6 +410,7 @@ swift::ModuleFile::maybeReadGenericParams
 swift::ModuleFile::maybeReadPattern
 swift::ModuleFile::maybeReadSubstitution
 swift::ModuleFile::readMembers
+swift::ModuleFile::readNormalConformance
 swift::ModuleFile::readReferencedConformance
 swift::ModuleFile::resolveCrossReference
 swift::NLKind
@@ -424,11 +428,13 @@ swift::NominalTypeDecl::getImplicitProtocols
 swift::NominalTypeDecl::getMembers
 swift::NominalTypeDecl::getProtocols
 swift::NominalTypeDecl::lookupDirect
+swift::NominalTypeDecl::markInvalidGenericSignature
 swift::NominalTypeDecl::prepareConformanceTable
 swift::NominalTypeDecl::prepareExtensions
 swift::NominalTypeDecl::prepareLookupTable
 swift::NormalProtocolConformance
 swift::NormalProtocolConformance::setTypeWitness
+swift::NormalProtocolConformance::setWitness
 swift::ObjCAttr::createUnnamedImplicit
 swift::ObjCReason
 swift::ObjCSelector
@@ -533,13 +539,14 @@ swift::Parser::parseTypeCollection
 swift::Parser::parseTypeIdentifier
 swift::Parser::parseTypeSimple
 swift::Parser::parseTypeTupleBody
+swift::Parser::parseTypedPattern
 swift::Parser::parseVersionTuple
 swift::Parser::skipSingle
 swift::Parser::skipUntil
 swift::Parser::skipUntilGreaterInTypeList
 swift::ParserResult
 swift::ParserStatus
-swift::ParserUnit::ParserUnit
+swift::ParserUnit::Implementation::~Implementation
 swift::PartialApplyInst
 swift::PartialGenericTypeToArchetypeResolver
 swift::PartialGenericTypeToArchetypeResolver::resolveDependentMemberType
@@ -551,7 +558,6 @@ swift::Pattern::forEachNode
 swift::Pattern::forEachVariable
 swift::Pattern::operator
 swift::PatternBindingDecl
-swift::PatternBindingDecl::PatternBindingDecl
 swift::PatternBindingDecl::create
 swift::PatternBindingDecl::getPatternEntryIndexForVarDecl
 swift::PatternBindingDecl::hasStorage
@@ -559,6 +565,7 @@ swift::PatternBindingDecl::setPattern
 swift::PatternBindingEntry
 swift::PatternKind
 swift::PersistentParserState
+swift::PlatformKind
 swift::PolymorphicFunctionType::get
 swift::PolymorphicFunctionType::substGenericArgs
 swift::PrettyStackTraceExpr::print
@@ -609,10 +616,8 @@ swift::SILVisitor
 swift::SILWitnessTable
 swift::SILWitnessVisitor
 swift::SavedScope
-swift::Scope
 swift::Scope::Scope
 swift::ScopeInfo::addToScope
-swift::ScopeKind
 swift::SearchPathOptions
 swift::SequenceExpr::create
 swift::SerializationOptions
@@ -650,7 +655,6 @@ swift::SubstitutedType
 swift::SubstitutedType::get
 swift::Substitution
 swift::Substitution::Substitution
-swift::Substitution::subst
 swift::Token
 swift::TopLevelCodeDecl
 swift::TopLevelContext
@@ -701,6 +705,7 @@ swift::TypeChecker::addImplicitConstructors
 swift::TypeChecker::addImplicitDestructor
 swift::TypeChecker::applyGenericArguments
 swift::TypeChecker::buildArrayInjectionFnRef
+swift::TypeChecker::buildRefExpr
 swift::TypeChecker::callWitness
 swift::TypeChecker::checkConformance
 swift::TypeChecker::checkDeclAttributes
@@ -712,6 +717,7 @@ swift::TypeChecker::checkOmitNeedlessWords
 swift::TypeChecker::checkSubstitutions
 swift::TypeChecker::checkUnsupportedProtocolType
 swift::TypeChecker::coercePatternToType
+swift::TypeChecker::compareDeclarations
 swift::TypeChecker::computeAccessibility
 swift::TypeChecker::computeCaptures
 swift::TypeChecker::conformsToProtocol
@@ -786,6 +792,8 @@ swift::TypeExpr::createImplicitHack
 swift::TypeLoc
 swift::TypeLoc::getSourceRange
 swift::TypeLoc::isError
+swift::TypeRefinementContext
+swift::TypeRefinementContext::createForIfStmtElse
 swift::TypeRepr
 swift::TypeRepr::clone
 swift::TypeRepr::walk
@@ -946,6 +954,7 @@ swift::findForcedDowncast
 swift::getBuiltinValueDecl
 swift::getLLVMIntrinsicID
 swift::ide::CodeCompletionCacheImpl::Key
+swift::ide::SemanticContextKind
 swift::ide::printDeclUSR
 swift::irgen::Address
 swift::irgen::Alignment
@@ -985,10 +994,12 @@ swift::irgen::emitOpaqueExistentialContainerUpcast
 swift::irgen::emitPolymorphicArguments
 swift::irgen::emitStructMetadata
 swift::irgen::emitValueWitnessTable
+swift::isPlatformActive
 swift::lookupVisibleDecls
 swift::markAsObjC
 swift::maybeAddAccessorsToVariable
 swift::namelookup::FindLocalVal::visitBraceStmt
+swift::namelookup::FindLocalVal::visitIfStmt
 swift::namelookup::FindLocalVal::visitWhileStmt
 swift::namelookup::ResolutionKind
 swift::namelookup::lookupInModule

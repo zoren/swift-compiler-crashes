@@ -1,4 +1,4 @@
-3  swift                    swift::DiagnosticEngine::emitDiagnostic(swift::Diagnostic const&) + 3456
+3  swift                    swift::ClassDecl::findImplementingMethod(swift::FuncDecl const*) const + 16
 4  swift                    swift::TypeBase::getMemberSubstitutions(swift::DeclContext*) + 637
 5  swift                    swift::TypeBase::getTypeOfMember(swift::ModuleDecl*, swift::Type, swift::DeclContext*) + 64
 6  swift                    swift::TypeChecker::resolveTypeInContext(swift::TypeDecl*, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 1514

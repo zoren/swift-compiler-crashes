@@ -1,4 +1,4 @@
-3  swift                    void llvm::Optional<swift::Scope>::emplace<swift::Parser*, swift::ScopeKind, bool>(swift::Parser*&&, swift::ScopeKind&&, bool&&) + 31
+3  swift                    swift::Parser::parseConstructorArguments(swift::DeclName&, swift::Pattern*&, swift::Parser::DefaultArgumentInfo&) + 335
 4  swift                    resolveIdentTypeComponent(swift::TypeChecker&, swift::DeclContext*, llvm::ArrayRef<swift::ComponentIdentTypeRepr*>, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 285
 5  swift                    swift::TypeChecker::resolveIdentifierType(swift::DeclContext*, swift::IdentTypeRepr*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, bool, swift::GenericTypeResolver*) + 103
 6  swift                    swift::TypeChecker::validateType(swift::TypeLoc&, swift::DeclContext*, swift::OptionSet<swift::TypeResolutionFlags, unsigned int>, swift::GenericTypeResolver*) + 202

@@ -1,0 +1,9 @@
+// Distributed under the terms of the MIT license
+// Test case submitted to project by https://github.com/practicalswift (practicalswift)
+// Test case found by fuzzing
+
+{struct c<T
+var f=c{
+s d}struct S{
+var f=d
+struct d<f:f.c
