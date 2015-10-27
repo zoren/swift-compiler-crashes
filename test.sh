@@ -339,11 +339,11 @@ main() {
   local xcode_build
   xcode_build=$(xcrun xcodebuild -version | tail -1 | awk '{ print $3 }')
   local swiftc_version
-  swiftc_version=$(xcrun swiftc -version | head -1 | cut -f2 -d"(" | cut -f1 -d")")
+  swiftc_version=$(xcrun swiftc -version | head -1)
   local xcode_path
   xcode_path=$(xcode-select -p)
   echo
-  echo "Running tests against: ${swiftc_version} (${xcode_version} (${xcode_build}))"
+  echo "Running tests against: ${swiftc_version} - ${xcode_version} ${xcode_build}"
   echo "Using Xcode found at path: ${xcode_path}"
   echo "Usage: $0 [-v] [-q] [-c<columns>] [-l] [file ...]"
   local current_max_id
