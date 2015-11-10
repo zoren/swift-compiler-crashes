@@ -1,11 +1,10 @@
 struct A {
-  static func b() -> String {
-    return ""
-  }
+    func a() -> String {
+        return ""
+    }
 }
-
 func b() {
-  guard let value = A.b as? String else {
-    return
-  }
+    guard let c = A.a as? String else {
+        return
+    }
 }
