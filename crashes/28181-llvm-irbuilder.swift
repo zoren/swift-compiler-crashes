@@ -4,7 +4,7 @@ struct A {
   }
 }
 
-func crashMe() {
+func b() {
   guard let value = A.b as? String else {
     return
   }
