@@ -1,12 +1,11 @@
-struct Whatever {
-  static func greeting() -> String {
-    return "Hallo"
+struct A {
+  static func b() -> String {
+    return ""
   }
 }
 
 func crashMe() {
-  // Accidental omit of ()
-  guard let value = Whatever.greeting as? String else {
+  guard let value = A.b as? String else {
     return
   }
 }
