@@ -7,14 +7,16 @@ echo "* If two crashes have the same crash hash (see get_crash_hash()), then the
 echo "* If two crashes have the same crash hash and the same length, the first discovered one wins."
 echo
 
-version=$(xcrun swiftc --version | head -1)
-echo "Testing with Swift compiler (\"xcrun swiftc\"):"
+xcrun_command=""
+
+version=$(${xcrun_command}swiftc --version | head -1)
+echo "Testing with Swift compiler (\"${xcrun_command}swiftc\"):"
 echo "${version}"
 echo
 
 get_crash_hash() {
   compilation_output="$1"
-  normalized_stack_trace=$(grep -E "0x[0-9a-f]" <<< "${compilation_output}" | grep -E '(swift|llvm)' | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^ *//g' | head -8)
+  normalized_stack_trace=$(grep -E "0x[0-9a-f]" <<< "${compilation_output}" | grep 'swift:' | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^ *//g' | head -8)
   if [[ ${normalized_stack_trace} == "" ]]; then
     crash_hash=""
   else
@@ -25,27 +27,28 @@ get_crash_hash() {
 
 seen_crashes=""
 test_crash_case() {
-    escaped_source_code="$1"
-    source_code=$(echo -e "${escaped_source_code}")
-    number_of_bytes=$(echo -n "${source_code}" | wc -c | tr -d " ")
-    compilation_output=$(xcrun swiftc -O -o /dev/null - <<< "${source_code}" 2>&1)
-    # Retrying logic in order to increase chance of catching intermittent crashes.
-    for _ in {1..100}; do
-	crash_hash=$(get_crash_hash "${compilation_output}")
-	if [[ ${crash_hash} != "" ]]; then
-	    break
-	fi
-    done
-    dupe_text=""
-    if grep -q "${crash_hash}" <<< "${seen_crashes}"; then
-        dupe_text=" (DUPE!)"
+  escaped_source_code="$1"
+  source_code=$(echo -e "${escaped_source_code}")
+  number_of_bytes=$(echo -n "${source_code}" | wc -c | tr -d " ")
+  # Retrying logic in order to increase chance of catching intermittent crashes.
+  compilation_output=$(${xcrun_command}swiftc -O -o /dev/null - <<< "${source_code}" 2>&1)
+  for _ in {1..10}; do
+    compilation_output=$(${xcrun_command}swiftc -O -o /dev/null - <<< "${source_code}" 2>&1)
+    crash_hash=$(get_crash_hash "${compilation_output}")
+    if [[ ${crash_hash} != "" ]]; then
+      break
     fi
-    seen_crashes="${seen_crashes}:${crash_hash}"
-    if grep -q -E '^[0-9]+ +swift +0x' <<< "${compilation_output}"; then
-        echo "· ✘ · ${escaped_source_code} (${number_of_bytes} bytes)${dupe_text}"
-    else
-        echo "· ✓ · ${escaped_source_code} (${number_of_bytes} bytes)"
-    fi
+  done
+  dupe_text=""
+  if grep -q "${crash_hash}" <<< "${seen_crashes}"; then
+    dupe_text=" (DUPE!)"
+  fi
+  seen_crashes="${seen_crashes}:${crash_hash}"
+  if grep -q -E '^[0-9]+ +swift +0x' <<< "${compilation_output}"; then
+    echo "· ✘ · ${escaped_source_code} (${number_of_bytes} bytes)${dupe_text}"
+  else
+    echo "· ✓ · ${escaped_source_code} (${number_of_bytes} bytes)"
+  fi
 }
                                   # +-----+-----+-----+-----+-----+-----+-----+-----+-----+-------+-------+-------+----------------+
                                   # | len | 6.2 | 6.4 | 7b1 | 7b2 | 7b3 | 7b4 | 7b5 | 7b6 | 7.1b1 | 7.1b2 | 7.1b3 | Crash location |
