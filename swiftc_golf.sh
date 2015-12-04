@@ -7,10 +7,8 @@ echo "* If two crashes have the same crash hash (see get_crash_hash()), then the
 echo "* If two crashes have the same crash hash and the same length, the first discovered one wins."
 echo
 
-xcrun_command=""
-
-version=$(${xcrun_command}swiftc --version | head -1)
-echo "Testing with Swift compiler (\"${xcrun_command}swiftc\"):"
+version=$(swiftc --version | head -1)
+echo "Testing with Swift compiler (\"swiftc\"):"
 echo "${version}"
 echo
 
@@ -31,9 +29,9 @@ test_crash_case() {
   source_code=$(echo -e "${escaped_source_code}")
   number_of_bytes=$(echo -n "${source_code}" | wc -c | tr -d " ")
   # Retrying logic in order to increase chance of catching intermittent crashes.
-  compilation_output=$(${xcrun_command}swiftc -O -o /dev/null - <<< "${source_code}" 2>&1)
+  compilation_output=$(swiftc -O -o /dev/null - <<< "${source_code}" 2>&1)
   for _ in {1..10}; do
-    compilation_output=$(${xcrun_command}swiftc -O -o /dev/null - <<< "${source_code}" 2>&1)
+    compilation_output=$(swiftc -O -o /dev/null - <<< "${source_code}" 2>&1)
     crash_hash=$(get_crash_hash "${compilation_output}")
     if [[ ${crash_hash} != "" ]]; then
       break
