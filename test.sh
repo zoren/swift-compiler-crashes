@@ -3,8 +3,8 @@
 # Style guide: https://google-styleguide.googlecode.com/svn/trunk/shell.xml
 # Defensive bash programming: http://www.kfirlavi.com/blog/2012/11/14/defensive-bash-programming/
 # Shell lint: http://www.shellcheck.net/
-# Tip: Want to see details of the type checker's reasoning? Compile with "xcrun swiftc -Xfrontend -debug-constraints"
-# Tip: Want to see what individual job invocations a swift/swiftc run invokes? Try "xcrun swift[c] -driver-print-jobs foo.swift"
+# Tip: Want to see details of the type checker's reasoning? Compile with "swiftc -Xfrontend -debug-constraints"
+# Tip: Want to see what individual job invocations a swift/swiftc run invokes? Try "swift[c] -driver-print-jobs foo.swift"
 
 # Treat unset variables and parameters other than the special parameters ‘@’ or ‘*’ as an error when performing parameter expansion
 set -u
@@ -122,7 +122,7 @@ test_file() {
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.timeout\. ]]; then
     local _
     for _ in {1..5}; do
-      output=$(execute_with_timeout 5 "xcrun -sdk ${sdk} swift ${files_to_compile}")
+      output=$(execute_with_timeout 5 "swift ${files_to_compile}")
       if [[ $? == 1 ]]; then
         swift_crash=1
         compilation_comment="timeout"
@@ -146,7 +146,7 @@ test_file() {
   #            Used for test cases named *.repl.swift.
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.repl\. ]]; then
     # Run in subshell to avoid having "Segmentation fault" being written to console.
-    bash -c "xcrun -sdk ${sdk} swift < ${files_to_compile} > /dev/null 2> /dev/null" > /dev/null 2> /dev/null
+    bash -c "swift < ${files_to_compile} > /dev/null 2> /dev/null" > /dev/null 2> /dev/null
     if [[ $? != 0 ]]; then
       swift_crash=1
       compilation_comment="repl"
@@ -158,7 +158,7 @@ test_file() {
     local _
     for _ in {1..50}; do
       # shellcheck disable=SC2086
-      output=$(xcrun -sdk ${sdk} swiftc -Onone -o /dev/null ${files_to_compile} 2>&1 | strings)
+      output=$(swiftc -Onone -o /dev/null ${files_to_compile} 2>&1 | strings)
       if [[ ${output} =~ \ malloc:\  ]]; then
         swift_crash=1
         compilation_comment="malloc"
@@ -177,7 +177,7 @@ test_file() {
   #            Used for test cases named *.sil.swift.
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.sil\. ]]; then
     # shellcheck disable=SC2086
-    output=$(xcrun -sdk ${sdk} swiftc -parse-sil -o /dev/null ${files_to_compile} 2>&1 | strings)
+    output=$(swiftc -parse-sil -o /dev/null ${files_to_compile} 2>&1 | strings)
     if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1|error:\ swift\ frontend\ command\ failed\ due\ to\ signal|Stack\ dump:|Segmentation\ fault:) ]]; then
       swift_crash=1
       compilation_comment="sil"
@@ -189,7 +189,7 @@ test_file() {
     local _
     for _ in {1..20}; do
       # shellcheck disable=SC2086
-      output=$(xcrun -sdk ${sdk} swiftc -O -o /dev/null ${files_to_compile} 2>&1 | strings)
+      output=$(swiftc -O -o /dev/null ${files_to_compile} 2>&1 | strings)
       if [[ ${output} =~ \ malloc:\  ]]; then
         swift_crash=1
         compilation_comment="malloc"
@@ -210,10 +210,10 @@ test_file() {
     local source_file_using_library=${files_to_compile//.library1./.library2.}
     compilation_comment=""
     rm -f DummyModule.swiftdoc DummyModule.swiftmodule libDummyModule.dylib libDummyModule.app
-    output=$(xcrun -sdk ${sdk} swiftc -emit-library -o libDummyModule.dylib -Xlinker -install_name -Xlinker @rpath/libDummyModule.dylib -emit-module -emit-module-path DummyModule.swiftmodule -module-name DummyModule -module-link-name DummyModule "${files_to_compile}" 2>&1)
+    output=$(swiftc -emit-library -o libDummyModule.dylib -Xlinker -install_name -Xlinker @rpath/libDummyModule.dylib -emit-module -emit-module-path DummyModule.swiftmodule -module-name DummyModule -module-link-name DummyModule "${files_to_compile}" 2>&1)
     if [[ $? == 0 ]]; then
       # shellcheck disable=SC2086
-      output=$(xcrun -sdk ${sdk} swiftc "${source_file_using_library}" -o libDummyModule.app -I . -L . -Xlinker -rpath -Xlinker @executable_path/ 2>&1 | strings)
+      output=$(swiftc "${source_file_using_library}" -o libDummyModule.app -I . -L . -Xlinker -rpath -Xlinker @executable_path/ 2>&1 | strings)
       if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file) ]]; then
         swift_crash=1
         compilation_comment="lib I"
@@ -227,7 +227,7 @@ test_file() {
         local exit_1=$?
         # shellcheck disable=SC2086
         local output_2
-        output_2=$(xcrun -sdk ${sdk} swift -I . "${source_file_using_library}" 2>&1)
+        output_2=$(swift -I . "${source_file_using_library}" 2>&1)
         local exit_2=$?
         if [[ "${exit_1}" != "${exit_2}" ]]; then
           swift_crash=1
@@ -244,7 +244,7 @@ test_file() {
     local _
     for _ in {1..10}; do
       # shellcheck disable=SC2086
-      output=$(xcrun -sdk ${sdk} swift -Onone ${files_to_compile} 2>&1 | strings)
+      output=$(swift -Onone ${files_to_compile} 2>&1 | strings)
       if [[ ${output} =~ llvm::sys::PrintStackTrace ]]; then
         swift_crash=1
         compilation_comment="runtime"
@@ -334,17 +334,10 @@ run_tests_in_directory() {
 }
 
 main() {
-  local xcode_version
-  xcode_version=$(xcrun xcodebuild -version | head -1)
-  local xcode_build
-  xcode_build=$(xcrun xcodebuild -version | tail -1 | awk '{ print $3 }')
   local swiftc_version
-  swiftc_version=$(xcrun swiftc -version | head -1)
-  local xcode_path
-  xcode_path=$(xcode-select -p)
+  swiftc_version=$(swiftc -version | head -1)
   echo
-  echo "Running tests against: ${swiftc_version} - ${xcode_version} ${xcode_build}"
-  echo "Using Xcode found at path: ${xcode_path}"
+  echo "Running tests against: ${swiftc_version}"
   echo "Usage: $0 [-v] [-q] [-c<columns>] [-l] [file ...]"
   local current_max_id
   current_max_id=$(find crashes crashes-fuzzing crashes-duplicates fixed -name "?????-*.swift" | cut -f2 -d'/' | grep -E '^[0-9]+\-' | sort -n | cut -f1 -d'-' | sed 's/^0*//g' | tail -1)
@@ -360,8 +353,8 @@ main() {
     show_error "Duplicate bug ids: ${duplicate_bug_ids}. Please re-number to avoid duplicates."
     echo
   fi
-  xcrun swiftc - -o /dev/null 2>&1 <<< "" | grep -E -q "error:" && {
-    show_error "Xcode compiler does not work. Cannot run tests."
+  swiftc - -o /dev/null 2>&1 <<< "" | grep -E -q "error:" && {
+    show_error "swiftc does not appear to work. Cannot run tests. Pleas investigate."
     exit 1
   }
   local argument_files=$*
