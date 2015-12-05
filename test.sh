@@ -77,7 +77,7 @@ execute_with_timeout() {
 get_crash_hash() {
   local compilation_output="$1"
   local normalized_stack_trace
-  normalized_stack_trace=$(grep -E "0x[0-9a-f]" <<< "${compilation_output}" | grep -E '(swift|llvm)' | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^ *//g' | head -3)
+  normalized_stack_trace=$(grep -E "0x[0-9a-f]" <<< "${compilation_output}" | grep -E '(swift|llvm)::' | grep -vE '(llvm::sys::|frontend_main)' | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^ *//g' | grep -E '(swift|llvm)::' | head -3)
   local crash_hash=""
   if [[ ${normalized_stack_trace} != "" ]]; then
     crash_hash=$(shasum <<< "${normalized_stack_trace}" | head -c10)
@@ -275,6 +275,7 @@ test_file() {
   fi
   local hash
   hash=$(get_crash_hash "${output}")
+  # grep -E "0x[0-9a-f]" <<< "${output}" | grep -E '(swift|llvm)::' | grep -vE '(llvm::sys::|frontend_main)' | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^ *//g' | grep -E '(swift|llvm)::' | head -10
   local is_dupe=0
   if [[ ${hash} == "" ]]; then
     hash="        "
