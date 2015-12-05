@@ -14,7 +14,7 @@ echo
 
 get_crash_hash() {
   compilation_output="$1"
-  normalized_stack_trace=$(grep -E "0x[0-9a-f]" <<< "${compilation_output}" | grep 'swift:' | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^ *//g' | head -8)
+  normalized_stack_trace=$(grep -E "0x[0-9a-f]" <<< "${compilation_output}" | grep -E '(swift|llvm)::' | grep -vE '(llvm::sys::|frontend_main)' | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^ *//g' | grep -E '(swift|llvm)::' | head -3)
   if [[ ${normalized_stack_trace} == "" ]]; then
     crash_hash=""
   else
