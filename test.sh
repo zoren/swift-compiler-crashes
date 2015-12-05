@@ -123,6 +123,7 @@ test_file() {
     local _
     for _ in {1..5}; do
       output=$(execute_with_timeout 5 "swift ${files_to_compile}")
+      # echo "# output: ${output}"
       if [[ $? == 1 ]]; then
         swift_crash=1
         compilation_comment="timeout"
@@ -131,7 +132,11 @@ test_file() {
         swift_crash=1
         compilation_comment=""
         break
-      elif [[ ${output} =~ Segmentation\ fault: ]]; then
+      elif [[ ${output} =~ Segmentation\ fault ]]; then
+        swift_crash=1
+        compilation_comment=""
+        break
+      elif [[ ${output} =~ Aborted ]]; then
         swift_crash=1
         compilation_comment=""
         break
@@ -159,11 +164,12 @@ test_file() {
     for _ in {1..50}; do
       # shellcheck disable=SC2086
       output=$(swiftc -Onone -o /dev/null ${files_to_compile} 2>&1 | strings)
+      # echo "# output: ${output}"
       if [[ ${output} =~ \ malloc:\  ]]; then
         swift_crash=1
         compilation_comment="malloc"
         break
-      elif [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1|error:\ swift\ frontend\ command\ failed\ due\ to\ signal|Stack\ dump:|Segmentation\ fault:) ]]; then
+      elif [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1|error:\ swift\ frontend\ command\ failed\ due\ to\ signal|Stack\ dump:|Segmentation\ fault|Aborted) ]]; then
         swift_crash=1
         compilation_comment=""
         break
@@ -178,7 +184,8 @@ test_file() {
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.sil\. ]]; then
     # shellcheck disable=SC2086
     output=$(swiftc -parse-sil -o /dev/null ${files_to_compile} 2>&1 | strings)
-    if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1|error:\ swift\ frontend\ command\ failed\ due\ to\ signal|Stack\ dump:|Segmentation\ fault:) ]]; then
+    # echo "# output: ${output}"
+    if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1|error:\ swift\ frontend\ command\ failed\ due\ to\ signal|Stack\ dump:|Segmentation\ fault|Aborted) ]]; then
       swift_crash=1
       compilation_comment="sil"
     fi
@@ -190,11 +197,12 @@ test_file() {
     for _ in {1..20}; do
       # shellcheck disable=SC2086
       output=$(swiftc -O -o /dev/null ${files_to_compile} 2>&1 | strings)
+      # echo "# output: ${output}"
       if [[ ${output} =~ \ malloc:\  ]]; then
         swift_crash=1
         compilation_comment="malloc"
         break
-      elif [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1|error:\ swift\ frontend\ command\ failed\ due\ to\ signal|Stack\ dump:|Segmentation\ fault:) ]]; then
+      elif [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1|error:\ swift\ frontend\ command\ failed\ due\ to\ signal|Stack\ dump:|Segmentation\ fault|Aborted) ]]; then
         swift_crash=1
         compilation_comment="-O"
         break
@@ -211,10 +219,12 @@ test_file() {
     compilation_comment=""
     rm -f DummyModule.swiftdoc DummyModule.swiftmodule libDummyModule.dylib libDummyModule.app
     output=$(swiftc -emit-library -o libDummyModule.dylib -Xlinker -install_name -Xlinker @rpath/libDummyModule.dylib -emit-module -emit-module-path DummyModule.swiftmodule -module-name DummyModule -module-link-name DummyModule "${files_to_compile}" 2>&1)
+    # echo "# output: ${output}"
     if [[ $? == 0 ]]; then
       # shellcheck disable=SC2086
       output=$(swiftc "${source_file_using_library}" -o libDummyModule.app -I . -L . -Xlinker -rpath -Xlinker @executable_path/ 2>&1 | strings)
-      if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault:|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file) ]]; then
+      # echo "# output: ${output}"
+      if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|Aborted) ]]; then
         swift_crash=1
         compilation_comment="lib I"
       elif [[ ! ${output} =~ implicit\ entry/start\ for\ main\ executable && ${output} =~ error:\ linker\ command\ failed\ with\ exit\ code\ 1 ]]; then
@@ -232,6 +242,7 @@ test_file() {
         if [[ "${exit_1}" != "${exit_2}" ]]; then
           swift_crash=1
           output="${output_1}${output_2}"
+	  # echo "# output: ${output}"
           compilation_comment="lib III"
         fi
       fi
@@ -245,6 +256,7 @@ test_file() {
     for _ in {1..10}; do
       # shellcheck disable=SC2086
       output=$(swift -Onone ${files_to_compile} 2>&1 | strings)
+      # echo "# output: ${output}"
       if [[ ${output} =~ llvm::sys::PrintStackTrace ]]; then
         swift_crash=1
         compilation_comment="runtime"
