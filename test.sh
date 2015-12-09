@@ -381,7 +381,7 @@ main() {
       echo
       exit
     fi
-    run_tests_in_directory "Currently known crashes, set #1 (memory corruption crashes)" "./crashes-memory-corruption"
+    run_tests_in_directory "Currently known crashes, set #1 (verified memory corruption crashes)" "./crashes-memory-corruption"
     run_tests_in_directory "Currently known crashes, set #2 (non memory corruption: human reported crashes, crashes not found by fuzzing)" "./crashes"
     run_tests_in_directory "Currently known crashes, set #3 (non memory corruption: crashes found by fuzzing)" "./crashes-fuzzing"
     # run_tests_in_directory "Currently known crashes (duplicates)" "./crashes-duplicates"
