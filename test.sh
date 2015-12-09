@@ -202,7 +202,7 @@ test_file() {
         swift_crash=1
         compilation_comment="malloc"
         break
-      elif [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1|error:\ swift\ frontend\ command\ failed\ due\ to\ signal|Stack\ dump:|Segmentation\ fault|Aborted) ]]; then
+      elif [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1|error:\ swift\ frontend\ command\ failed\ due\ to\ signal|Stack\ dump:|Segmentation\ fault|Aborted) ]]; then
         swift_crash=1
         compilation_comment="-O"
         break
@@ -224,7 +224,7 @@ test_file() {
       # shellcheck disable=SC2086
       output=$(swiftc "${source_file_using_library}" -o libDummyModule.app -I . -L . -Xlinker -rpath -Xlinker @executable_path/ 2>&1 | strings)
       # echo "# output: ${output}"
-      if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation fault|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|Aborted) ]]; then
+      if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|Aborted) ]]; then
         swift_crash=1
         compilation_comment="lib I"
       elif [[ ! ${output} =~ implicit\ entry/start\ for\ main\ executable && ${output} =~ error:\ linker\ command\ failed\ with\ exit\ code\ 1 ]]; then
@@ -381,8 +381,9 @@ main() {
       echo
       exit
     fi
-    run_tests_in_directory "Currently known crashes, set #1 (human reported crashes, crashes not found by fuzzing)" "./crashes"
-    run_tests_in_directory "Currently known crashes, set #2 (crashes found by fuzzing)" "./crashes-fuzzing"
+    run_tests_in_directory "Currently known crashes, set #1 (memory corruption crashes)" "./crashes-memory-corruption"
+    run_tests_in_directory "Currently known crashes, set #2 (non memory corruption: human reported crashes, crashes not found by fuzzing)" "./crashes"
+    run_tests_in_directory "Currently known crashes, set #3 (non memory corruption: crashes found by fuzzing)" "./crashes-fuzzing"
     # run_tests_in_directory "Currently known crashes (duplicates)" "./crashes-duplicates"
     if [[ ${delete_dupes} == 1 || ${delete_fixed} == 1 ]]; then
       exit 0
