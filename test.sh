@@ -358,7 +358,7 @@ main() {
   echo "Running tests against: ${swiftc_version}"
   echo "Usage: $0 [-v] [-q] [-c<columns>] [-l] [file ...]"
   local current_max_id
-  current_max_id=$(find crashes crashes-fuzzing crashes-duplicates fixed -name "?????-*.swift" | cut -f2 -d'/' | grep -E '^[0-9]+\-' | sort -n | cut -f1 -d'-' | sed 's/^0*//g' | tail -1)
+  current_max_id=$(find crashes crashes-fuzzing crashes-duplicates crashes-memory-corruption fixed -name "?????-*.swift" | cut -f2 -d'/' | grep -E '^[0-9]+\-' | sort -n | cut -f1 -d'-' | sed 's/^0*//g' | tail -1)
   if [[ ${max_test_number} != 0 ]]; then
     current_max_id=${max_test_number}
   fi
@@ -366,7 +366,7 @@ main() {
   next_id=$((current_max_id + 1))
   echo "Adding a new test case? The crash id to use for the next test case is ${next_id}."
   local duplicate_bug_ids
-  duplicate_bug_ids=$(find crashes crashes-fuzzing crashes-duplicates fixed -name "?????-*.swift" | cut -f2 -d/ | cut -f1 -d'.' | sort | uniq | cut -f1 -d'-' | uniq -c | sed "s/^ *//g" | grep -E -v '^1 ' | cut -f2 -d" " | tr "\n" "," | sed "s/,$//g")
+  duplicate_bug_ids=$(find crashes crashes-fuzzing crashes-duplicates crashes-memory-corruption fixed -name "?????-*.swift" | cut -f2 -d/ | cut -f1 -d'.' | sort | uniq | cut -f1 -d'-' | uniq -c | sed "s/^ *//g" | grep -E -v '^1 ' | cut -f2 -d" " | tr "\n" "," | sed "s/,$//g")
   if [[ ${duplicate_bug_ids} != "" ]]; then
     show_error "Duplicate bug ids: ${duplicate_bug_ids}. Please re-number to avoid duplicates."
     echo
