@@ -334,8 +334,8 @@ run_tests_in_directory() {
   local test_path
   local operating_system="$(uname -s)"
   for test_path in "${path}"/*.swift; do
-    # Skipping tests with Darwin/Foundation dependencies when running on non-Darwin platforms.
-    if [[ "${operating_system}" != "Darwin" ]] && egrep -q "import (Darwin|Foundation)" "${test_path}"; then
+    # Skipping tests with dependencies typically not found on non-Darwin platforms.
+    if [[ "${operating_system}" != "Darwin" ]] && egrep -q "import (Cocoa|Darwin|Foundation)" "${test_path}"; then
        continue
     fi
     if [[ -h "${test_path}" ]]; then
