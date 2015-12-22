@@ -1,20 +1,13 @@
-//
-//  Created by Alvar Hansen on 18/12/15.
-//
+// Created by Alvar Hansen on 18/12/15.
 
-class Foo {
-    
-    func callA() {
-        Foo().methodWithBlock { [weak self] (session) -> Void in
-            //second argument missing
-            self?.callB(session)
+class A {
+    func a() {
+        A().d { [weak self] (c) -> Void in
+            self?.b(c)
         }
     }
-    
-    func methodWithBlock(call: ((AnyObject)->Void)) {
+    func d(e: ((AnyObject)->Void)) {
     }
-    
-    func callB(param1: AnyObject, param2: AnyObject) {
+    func b(f: AnyObject, g: AnyObject) {
     }
-    
 }
