@@ -1,1 +1,1 @@
-../crashes-fuzzing/27866-swift-typebase-getoptionalobjecttype.swift
+../crashes-duplicates/27866-swift-typebase-getoptionalobjecttype.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/28139-swift-classdecl-findoverridingdecl.swift
+../crashes-duplicates/28139-swift-classdecl-findoverridingdecl.swift

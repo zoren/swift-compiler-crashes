@@ -1,1 +1,0 @@
-../crashes/24888-swift-lowering-silgenfunction-emitclosurevalue.swift

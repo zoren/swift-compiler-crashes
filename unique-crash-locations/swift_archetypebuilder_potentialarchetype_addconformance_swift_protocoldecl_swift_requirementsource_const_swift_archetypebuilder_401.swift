@@ -1,1 +1,1 @@
-../crashes-fuzzing/27839-swift-archetypebuilder-potentialarchetype-addconformance.swift
+../crashes-duplicates/27839-swift-archetypebuilder-potentialarchetype-addconformance.swift

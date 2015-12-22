@@ -11,6 +11,7 @@ isProtocolOrProtocolExtensionContext
 overApproximateOSVersionsAtLocation
 synthesizeComputedMaterializeForSet
 getImplicitlyUnwrappedOptionalDecl
+processResolveInheritedClauseEntry
 typeCheckAbstractFunctionBodyUntil
 typeCheckConditionalPatternBinding
 typeCheckFunctionsAndExternalDecls
@@ -23,11 +24,11 @@ addAbstractTypeParamRequirements
 addValueWitnessesForAbstractType
 diagnoseClassWithoutInitializers
 getInterfaceTypeFromInternalType
-isAnyObjCRepresentableObjectType
 simplifyOptionalObjectConstraint
 substituteInputSugarArgumentType
 visitUncheckedTrivialBitCastInst
 addContextParamsAndRequirements
+addGenericParameterRequirements
 maybeReadForeignErrorConvention
 performSyntacticExprDiagnostics
 resolvePotentialArchetypeToType
@@ -42,13 +43,10 @@ getAsCanonicalGenericSignature
 getDelegatingOrChainedInitKind
 getPatternEntryIndexForVarDecl
 isClassOrClassExtensionContext
-isTriviallyRepresentableInObjC
 makeComputedWithMutableAddress
 parseClosureSignatureIfPresent
 simplifyApplicableFnConstraint
 simplifyConstructionConstraint
-getCanonicalManglingSignature
-getOrCreateReabstractionThunk
 isEmptyExistentialComposition
 simplifyCheckedCastConstraint
 tryMangleStandardSubstitution
@@ -61,7 +59,6 @@ canBeAccessedByDynamicLookup
 checkDeclarationAvailability
 checkUnsupportedProtocolType
 createDesignatedInitOverride
-emitTransformedFunctionValue
 existentialTypeSupportedSlow
 getGenericSignatureOfContext
 parseMatchingPatternVarOrVal
@@ -71,7 +68,6 @@ typeCheckDestructorBodyUntil
 validateGenericFuncSignature
 validateGenericTypeSignature
 checkExtensionGenericParams
-compareProtocolConformances
 computeDefaultAccessibility
 diagnoseAmbiguousMemberType
 diagnoseObjCMethodConflicts
@@ -90,6 +86,7 @@ cleanupIllFormedExpression
 computeConnectedComponents
 createTrivialSubstitutions
 diagnoseFailureForCallExpr
+emitConditionalCheckedCast
 emitObjCPartialApplication
 getAlternativeLiteralTypes
 parseSingleParameterClause
@@ -111,6 +108,7 @@ mangleDeclTypeForDebugger
 parseConstructorArguments
 readReferencedConformance
 resolveIdentTypeComponent
+resolveInheritedProtocols
 typeCheckTopLevelCodeDecl
 applyGenericTypeReprArgs
 buildArrayInjectionFnRef
@@ -118,6 +116,7 @@ configureConstructorType
 constructCallToSuperInit
 createBindingFromPattern
 defineDefaultConstructor
+emitLetToVarNoteIfSimple
 emitPolymorphicArguments
 finalizeGenericParamList
 finishLoadingClangModule
@@ -134,7 +133,6 @@ simplifyMemberConstraint
 validateGenericSignature
 addAccessorsToStoredVar
 addImplicitConstructors
-emitRValueAsSingleValue
 emitToUnmappedExplosion
 finishNormalConformance
 getDefaultDefinitionLoc
@@ -170,7 +168,6 @@ getGenericParamContext
 getMemberSubstitutions
 importDeclAndCacheImpl
 isUnspecializedGeneric
-mangleGenericSignature
 matchDeepEqualityTypes
 maybeReadGenericParams
 parseDeclInfixOperator
@@ -218,7 +215,6 @@ setInvalidBracesRange
 simplifyFixConstraint
 tryMangleSubstitution
 validateAccessibility
-visitTopLevelCodeDecl
 addMaterializeForSet
 allocateMappedMemory
 applyAttributeToType
@@ -233,7 +229,6 @@ forAllVisibleModules
 formatDiagnosticText
 getAPINotesForModule
 getCalledConstructor
-getConformingContext
 getConstraintLocator
 getExemplarArchetype
 getImplicitProtocols
@@ -256,7 +251,6 @@ typeCheckClosureBody
 typeCheckExprPattern
 validateTypedPattern
 visitConstructorDecl
-visitNominalTypeDecl
 addGenericParameter
 addGenericSignature
 addMinimumProtocols
@@ -264,7 +258,6 @@ addNestedArchetypes
 checkDeclAttributes
 coercePatternToType
 collectRequirements
-compareDeclarations
 createForIfStmtElse
 deriveAllArchetypes
 diagnoseUnknownType
@@ -291,7 +284,6 @@ removeShadowedDecls
 resolveConformances
 typeCheckExpression
 writeBlockInfoBlock
-addCurriedSelfType
 checkAccessibility
 checkEnumRawValues
 checkRedeclaration
@@ -348,7 +340,6 @@ convertStructType
 createDisjunction
 createNominalType
 emitRValueForDecl
-emitStmtCondition
 fixItReplaceChars
 gatherConstraints
 getBBForReference
@@ -386,7 +377,6 @@ compareProtocols
 compareSolutions
 configureStorage
 diagAvailability
-emitClosureValue
 findBestSolution
 forEachChildExpr
 getAdapterModule
@@ -428,7 +418,6 @@ computeCaptures
 deriveEquatable
 diagnoseFailure
 emitConstructor
-emitFunctionRef
 emitIgnoredExpr
 emitSILFunction
 emitToExplosion
@@ -444,11 +433,9 @@ getOptionalDecl
 getTypeLowering
 getTypeOfMember
 getTypeOfRValue
-getWitnessTable
 handleREPLInput
 isDeclAvailable
 isUnaryOperator
-isValidOverload
 lookupObjCClass
 lookupQualified
 matchTupleTypes
@@ -482,7 +469,6 @@ getDynamicSelf
 getIndicesType
 getSourceRange
 getVerbatimTag
-getWitnessType
 highlightChars
 importDeclImpl
 loadAllMembers
@@ -583,6 +569,7 @@ emitClosure
 extractText
 fixItRemove
 forEachNode
+forwardInto
 getFullName
 getFunction
 getProtocol
@@ -602,6 +589,7 @@ solveSingle
 visitIfStmt
 writeHeader
 addToScope
+assignInto
 destroyAll
 emitRValue
 getFieldNo
@@ -643,7 +631,6 @@ transform
 charinfo
 coverage
 diagnose
-emitStmt
 finalize
 getCache
 getValue
@@ -653,12 +640,12 @@ simplify
 solveRec
 destroy
 getDecl
-getName
 getType
 isEqual
 isError
 lexImpl
 salvage
+satisfy
 setArgs
 setType
 create

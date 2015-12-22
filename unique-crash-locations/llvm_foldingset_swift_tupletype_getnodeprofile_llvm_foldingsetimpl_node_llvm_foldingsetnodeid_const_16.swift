@@ -1,1 +1,1 @@
-../crashes-fuzzing/28076-llvm-foldingset-swift-tupletype-getnodeprofile.swift
+../crashes-duplicates/28076-llvm-foldingset-swift-tupletype-getnodeprofile.swift

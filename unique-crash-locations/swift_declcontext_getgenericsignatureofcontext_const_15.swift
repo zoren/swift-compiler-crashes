@@ -1,1 +1,1 @@
-../crashes-fuzzing/28088-swift-nominaltypedecl-markinvalidgenericsignature.swift
+../crashes-duplicates/28088-swift-nominaltypedecl-markinvalidgenericsignature.swift

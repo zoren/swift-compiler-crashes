@@ -1,1 +1,1 @@
-../crashes-fuzzing/28050-swift-abstractfunctiondecl-setgenericparams.swift
+../crashes-duplicates/28050-swift-abstractfunctiondecl-setgenericparams.swift

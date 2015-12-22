@@ -1,19 +1,23 @@
-4  swift                    swift::ASTVisitor<(anonymous namespace)::ConstraintGenerator, swift::Type, void, void, void, void, void>::visit(swift::Expr*) + 10974
-5  swift                    (anonymous namespace)::ConstraintWalker::walkToExprPost(swift::Expr*) + 59
-6  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 181
-7  swift                    (anonymous namespace)::Traversal::visitApplyExpr(swift::ApplyExpr*) + 50
-8  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 208
-9  swift                    (anonymous namespace)::Traversal::visit(swift::Expr*) + 2517
-10 swift                    swift::Expr::walk(swift::ASTWalker&) + 53
-11 swift                    swift::constraints::ConstraintSystem::generateConstraints(swift::Expr*) + 189
-12 swift                    swift::TypeChecker::solveForExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*, swift::constraints::ConstraintSystem&, llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::OptionSet<swift::TypeCheckExprFlags, unsigned int>) + 270
-13 swift                    swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::ContextualTypePurpose, swift::OptionSet<swift::TypeCheckExprFlags, unsigned int>, swift::ExprTypeCheckListener*) + 546
-14 swift                    swift::TypeChecker::constructCallToSuperInit(swift::ConstructorDecl*, swift::ClassDecl*) + 408
-15 swift                    swift::TypeChecker::typeCheckConstructorBodyUntil(swift::ConstructorDecl*, swift::SourceLoc) + 1070
-16 swift                    swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 146
-17 swift                    typeCheckFunctionsAndExternalDecls(swift::TypeChecker&) + 242
-18 swift                    swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1687
-19 swift                    swift::CompilerInstance::performSema() + 4096
-20 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 741
-21 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2691
-22 swift                    main + 2324
+2  swift          
+3  libpthread.so.0
+4  libc.so.6       gsignal + 57
+5  libc.so.6       abort + 328
+6  swift          
+7  swift          
+8  swift          
+9  swift          
+10 swift          
+11 swift          
+12 swift          
+13 swift          
+14 swift          
+15 swift           swift::Decl::walk(swift::ASTWalker&) + 20
+16 swift           swift::SourceFile::walk(swift::ASTWalker&) + 174
+17 swift           swift::verify(swift::SourceFile&) + 52
+18 swift           swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1963
+19 swift           swift::CompilerInstance::performSema() + 2946
+20 swift          
+21 swift           frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2482
+22 swift           main + 2705
+23 libc.so.6       __libc_start_main + 245
+24 swift          

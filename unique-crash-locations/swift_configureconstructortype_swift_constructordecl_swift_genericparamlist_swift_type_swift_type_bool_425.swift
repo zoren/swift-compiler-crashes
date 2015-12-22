@@ -1,1 +1,1 @@
-../crashes-fuzzing/28033-swift-configureconstructortype.swift
+../crashes-duplicates/28033-swift-configureconstructortype.swift

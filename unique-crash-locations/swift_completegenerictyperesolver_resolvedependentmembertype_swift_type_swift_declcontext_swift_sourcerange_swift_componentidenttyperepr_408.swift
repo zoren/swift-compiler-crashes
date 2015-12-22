@@ -1,1 +1,1 @@
-../crashes-fuzzing/28086-swift-completegenerictyperesolver-resolvedependentmembertype.swift
+../crashes-duplicates/28086-swift-completegenerictyperesolver-resolvedependentmembertype.swift

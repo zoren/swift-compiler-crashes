@@ -1,1 +1,1 @@
-../crashes-fuzzing/27871-swift-typechecker-typecheckpatternbinding.swift
+../crashes-duplicates/27871-swift-typechecker-typecheckpatternbinding.swift

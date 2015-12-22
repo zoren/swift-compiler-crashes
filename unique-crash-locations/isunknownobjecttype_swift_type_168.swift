@@ -1,1 +1,0 @@
-../crashes-fuzzing/24670-isunknownobjecttype.swift

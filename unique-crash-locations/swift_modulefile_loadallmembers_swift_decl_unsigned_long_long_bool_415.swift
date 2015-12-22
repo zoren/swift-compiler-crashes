@@ -1,1 +1,1 @@
-../crashes-fuzzing/28084-swift-modulefile-loadallmembers.swift
+../crashes-duplicates/28084-swift-modulefile-loadallmembers.swift

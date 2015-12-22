@@ -1,1 +1,1 @@
-../crashes-fuzzing/24440-swift-typechecker-coercepatterntotype.swift
+../crashes-duplicates/24440-swift-typechecker-coercepatterntotype.swift

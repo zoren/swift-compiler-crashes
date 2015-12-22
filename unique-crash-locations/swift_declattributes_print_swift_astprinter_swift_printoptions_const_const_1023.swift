@@ -1,1 +1,1 @@
-../crashes-fuzzing/27955-swift-declattribute-print.swift
+../crashes-duplicates/27955-swift-declattribute-print.swift

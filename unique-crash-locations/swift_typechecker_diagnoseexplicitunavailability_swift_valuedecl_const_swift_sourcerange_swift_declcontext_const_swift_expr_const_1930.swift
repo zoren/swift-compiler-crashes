@@ -1,1 +1,1 @@
-../crashes-fuzzing/28023-swift-typechecker-diagnoseexplicitunavailability.swift
+../crashes-duplicates/28023-swift-typechecker-diagnoseexplicitunavailability.swift

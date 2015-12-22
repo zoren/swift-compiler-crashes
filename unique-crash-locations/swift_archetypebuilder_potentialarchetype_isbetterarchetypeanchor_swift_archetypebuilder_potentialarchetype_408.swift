@@ -1,1 +1,1 @@
-../crashes-fuzzing/27946-swift-archetypebuilder-potentialarchetype-isbetterarchetypeanchor.swift
+../crashes-duplicates/27946-swift-archetypebuilder-potentialarchetype-isbetterarchetypeanchor.swift

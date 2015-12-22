@@ -1,1 +1,1 @@
-../crashes-fuzzing/27821-swift-typechecker-definedefaultconstructor.swift
+../crashes-duplicates/27821-swift-typechecker-definedefaultconstructor.swift

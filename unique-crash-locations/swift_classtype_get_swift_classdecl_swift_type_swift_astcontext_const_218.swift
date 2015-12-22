@@ -1,1 +1,1 @@
-../crashes-fuzzing/27912-swift-classtype-get.swift
+../crashes-duplicates/27912-swift-classtype-get.swift

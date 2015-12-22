@@ -1,1 +1,0 @@
-../crashes-fuzzing/28149-addcurriedselftype.swift

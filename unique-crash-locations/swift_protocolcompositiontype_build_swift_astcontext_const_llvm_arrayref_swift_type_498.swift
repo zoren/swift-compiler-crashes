@@ -1,1 +1,1 @@
-../crashes-fuzzing/28026-swift-protocolcompositiontype-build.swift
+../crashes-duplicates/28026-swift-protocolcompositiontype-build.swift

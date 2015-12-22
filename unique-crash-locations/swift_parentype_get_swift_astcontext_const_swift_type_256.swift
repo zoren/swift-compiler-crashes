@@ -1,1 +1,1 @@
-../crashes-fuzzing/28066-swift-parentype-get.swift
+../crashes-duplicates/28066-swift-parentype-get.swift

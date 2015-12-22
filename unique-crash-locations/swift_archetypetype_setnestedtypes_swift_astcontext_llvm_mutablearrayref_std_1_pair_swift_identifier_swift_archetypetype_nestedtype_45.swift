@@ -1,1 +1,1 @@
-../crashes-fuzzing/28030-swift-archetypetype-setnestedtypes.swift
+../crashes-duplicates/28030-swift-archetypetype-setnestedtypes.swift

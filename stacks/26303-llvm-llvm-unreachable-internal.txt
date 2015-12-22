@@ -1,10 +1,23 @@
-4  swift                    swift::irgen::CallEmission::emitToUnmappedExplosion(swift::irgen::Explosion&) + 31
-5  swift                    swift::irgen::CallEmission::emitToExplosion(swift::irgen::Explosion&) + 374
-6  swift                    (anonymous namespace)::IRGenSILFunction::visitFullApplySite(swift::FullApplySite) + 2329
-7  swift                    swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 10973
-8  swift                    swift::irgen::IRGenModuleDispatcher::emitGlobalTopLevel() + 376
-9  swift                    performIRGeneration(swift::IRGenOptions&, swift::ModuleDecl*, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, swift::SourceFile*, unsigned int) + 788
-10 swift                    swift::performIRGeneration(swift::IRGenOptions&, swift::SourceFile&, swift::SILModule*, llvm::StringRef, llvm::LLVMContext&, unsigned int) + 64
-11 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 13701
-12 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2691
-13 swift                    main + 2324
+2  swift          
+3  libpthread.so.0
+4  libc.so.6       gsignal + 57
+5  libc.so.6       abort + 328
+6  swift           llvm::llvm_unreachable_internal(char const*, char const*, unsigned int) + 461
+7  swift          
+8  swift           swift::Lowering::ManagedValue::assignInto(swift::Lowering::SILGenFunction&, swift::SILLocation, swift::SILValue) + 148
+9  swift          
+10 swift          
+11 swift          
+12 swift          
+13 swift          
+14 swift          
+15 swift          
+16 swift          
+17 swift          
+18 swift           swift::SILModule::constructSIL(swift::ModuleDecl*, swift::SILOptions&, swift::FileUnit*, llvm::Optional<unsigned int>, bool, bool) + 498
+19 swift           swift::performSILGeneration(swift::FileUnit&, swift::SILOptions&, llvm::Optional<unsigned int>, bool) + 118
+20 swift          
+21 swift           frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2482
+22 swift           main + 2705
+23 libc.so.6       __libc_start_main + 245
+24 swift          

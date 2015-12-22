@@ -1,0 +1,49 @@
+2  swift          
+3  libpthread.so.0
+4  libc.so.6       gsignal + 57
+5  libc.so.6       abort + 328
+6  libc.so.6      
+7  libc.so.6      
+8  swift          
+9  swift           swift::constraints::ConstraintGraph::addConstraint(swift::constraints::Constraint*) + 111
+10 swift           swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 258
+11 swift           swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 3874
+12 swift           swift::constraints::ConstraintSystem::matchTupleTypes(swift::TupleType*, swift::TupleType*, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 445
+13 swift           swift::constraints::ConstraintSystem::simplifyRestrictedConstraint(swift::constraints::ConversionRestrictionKind, swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 620
+14 swift           swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 10101
+15 swift           swift::constraints::ConstraintSystem::matchFunctionTypes(swift::FunctionType*, swift::FunctionType*, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 400
+16 swift           swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 13801
+17 swift           swift::constraints::ConstraintSystem::matchTypes(swift::Type, swift::Type, swift::constraints::TypeMatchKind, unsigned int, swift::constraints::ConstraintLocatorBuilder) + 2249
+18 swift           swift::constraints::ConstraintSystem::simplifyConstraint(swift::constraints::Constraint const&) + 639
+19 swift           swift::constraints::ConstraintSystem::addConstraint(swift::constraints::Constraint*, bool, bool) + 23
+20 swift           swift::TypeChecker::callWitness(swift::Expr*, swift::DeclContext*, swift::ProtocolDecl*, swift::ProtocolConformance*, swift::DeclName, llvm::MutableArrayRef<swift::Expr*>, swift::Diag<>) + 1797
+21 swift          
+22 swift          
+23 swift          
+24 swift           swift::Expr::walk(swift::ASTWalker&) + 46
+25 swift           swift::constraints::ConstraintSystem::applySolution(swift::constraints::Solution&, swift::Expr*, swift::Type, bool, bool, bool) + 502
+26 swift           swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::ContextualTypePurpose, swift::OptionSet<swift::TypeCheckExprFlags, unsigned int>, swift::ExprTypeCheckListener*) + 683
+27 swift          
+28 swift           swift::constraints::ConstraintSystem::diagnoseFailureForExpr(swift::Expr*) + 5097
+29 swift           swift::constraints::ConstraintSystem::salvage(llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::Expr*) + 4046
+30 swift           swift::TypeChecker::solveForExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*, swift::constraints::ConstraintSystem&, llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::OptionSet<swift::TypeCheckExprFlags, unsigned int>) + 661
+31 swift           swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::ContextualTypePurpose, swift::OptionSet<swift::TypeCheckExprFlags, unsigned int>, swift::ExprTypeCheckListener*) + 569
+32 swift           swift::TypeChecker::typeCheckBinding(swift::Pattern*&, swift::Expr*&, swift::DeclContext*) + 112
+33 swift           swift::TypeChecker::typeCheckPatternBinding(swift::PatternBindingDecl*, unsigned int) + 265
+34 swift          
+35 swift          
+36 swift           swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 151
+37 swift          
+38 swift          
+39 swift           swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 379
+40 swift           swift::TypeChecker::typeCheckAbstractFunctionBodyUntil(swift::AbstractFunctionDecl*, swift::SourceLoc) + 46
+41 swift           swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 136
+42 swift          
+43 swift           swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1771
+44 swift           swift::CompilerInstance::performSema() + 2946
+45 swift          
+46 swift           frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2482
+47 swift           main + 2705
+48 libc.so.6       __libc_start_main + 245
+49 swift          
+2.	While type-checking declaration at ./crashes-fuzzing/23445-swift-constraints-constraintgraph-unbindtypevariable.swift:6:1

@@ -1,1 +1,1 @@
-../crashes-fuzzing/28035-swift-archetypebuilder-getallarchetypes.swift
+../crashes-duplicates/28035-swift-archetypebuilder-getallarchetypes.swift

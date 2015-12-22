@@ -1,1 +1,1 @@
-../crashes-fuzzing/26911-swift-modulefile-getimportedmodules.swift
+../crashes-duplicates/26911-swift-modulefile-getimportedmodules.swift

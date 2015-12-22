@@ -1,1 +1,1 @@
-../crashes-fuzzing/28054-ldstninstinfo.swift
+../crashes-duplicates/28054-ldstninstinfo.swift

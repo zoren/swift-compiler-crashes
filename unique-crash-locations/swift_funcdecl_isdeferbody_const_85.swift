@@ -1,1 +1,1 @@
-../crashes-fuzzing/27904-swift-funcdecl-isdeferbody.swift
+../crashes-duplicates/27904-swift-funcdecl-isdeferbody.swift

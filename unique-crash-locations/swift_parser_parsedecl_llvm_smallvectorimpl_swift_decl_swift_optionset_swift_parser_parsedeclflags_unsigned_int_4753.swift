@@ -1,1 +1,1 @@
-../crashes-fuzzing/28134-swift-typebase-getmembersubstitutions.swift
+../crashes-duplicates/28134-swift-typebase-getmembersubstitutions.swift

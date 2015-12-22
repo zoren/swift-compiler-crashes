@@ -1,11 +1,19 @@
-4  swift                    swift::ASTVisitor<(anonymous namespace)::RValueEmitter, swift::Lowering::RValue, void, void, void, void, void, swift::Lowering::SGFContext>::visit(swift::Expr*, swift::Lowering::SGFContext) + 22894
-5  swift                    swift::Lowering::SILGenFunction::emitIgnoredExpr(swift::Expr*) + 397
-6  swift                    swift::ASTVisitor<(anonymous namespace)::StmtEmitter, void, void, void, void, void, void>::visit(swift::Stmt*) + 294
-7  swift                    swift::Lowering::SILGenFunction::emitStmt(swift::Stmt*) + 21
-8  swift                    swift::Lowering::SILGenFunction::emitFunction(swift::FuncDecl*) + 331
-9  swift                    std::__1::__function::__func<swift::Lowering::SILGenModule::emitFunction(swift::FuncDecl*)::$_1, std::__1::allocator<swift::Lowering::SILGenModule::emitFunction(swift::FuncDecl*)::$_1>, void (swift::SILFunction*)>::operator()(swift::SILFunction*&&) + 128
-10 swift                    swift::SILModule::constructSIL(swift::ModuleDecl*, swift::SILOptions&, swift::FileUnit*, llvm::Optional<unsigned int>, bool, bool) + 1252
-11 swift                    swift::performSILGeneration(swift::FileUnit&, swift::SILOptions&, llvm::Optional<unsigned int>, bool) + 109
-12 swift                    performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&) + 11442
-13 swift                    frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2691
-14 swift                    main + 2324
+2  swift          
+3  libpthread.so.0
+4  libc.so.6       gsignal + 57
+5  libc.so.6       abort + 328
+6  libc.so.6      
+7  libc.so.6      
+8  swift          
+9  swift          
+10 swift          
+11 swift          
+12 swift          
+13 swift          
+14 swift           swift::SILModule::constructSIL(swift::ModuleDecl*, swift::SILOptions&, swift::FileUnit*, llvm::Optional<unsigned int>, bool, bool) + 1290
+15 swift           swift::performSILGeneration(swift::FileUnit&, swift::SILOptions&, llvm::Optional<unsigned int>, bool) + 118
+16 swift          
+17 swift           frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2482
+18 swift           main + 2705
+19 libc.so.6       __libc_start_main + 245
+20 swift          

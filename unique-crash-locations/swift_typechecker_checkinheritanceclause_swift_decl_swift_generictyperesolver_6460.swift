@@ -1,1 +1,1 @@
-../crashes-fuzzing/27822-swift-modulefile-loadextensions.swift
+../crashes-duplicates/27822-swift-modulefile-loadextensions.swift

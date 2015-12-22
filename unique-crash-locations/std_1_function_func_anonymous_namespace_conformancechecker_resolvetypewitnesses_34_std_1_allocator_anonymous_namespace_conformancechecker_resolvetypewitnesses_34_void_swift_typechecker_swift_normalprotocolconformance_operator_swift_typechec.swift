@@ -1,1 +1,1 @@
-../crashes-fuzzing/28060-std-function-func.swift
+../crashes-duplicates/28060-std-function-func.swift

@@ -1,1 +1,1 @@
-../crashes-fuzzing/28078-swift-archetypebuilder-inferrequirementswalker-walktotypepost.swift
+../crashes-duplicates/28078-swift-archetypebuilder-inferrequirementswalker-walktotypepost.swift
