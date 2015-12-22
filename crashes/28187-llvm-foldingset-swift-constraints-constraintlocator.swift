@@ -1,4 +1,5 @@
-// Created by Alvar Hansen on 18/12/15.
+// Distributed under the terms of the MIT license
+// Test case found by https://github.com/allu22 (Alvar Hansen)
 
 class A {
     func a() {
