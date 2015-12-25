@@ -1,21 +1,22 @@
+// Distributed under the terms of the MIT license
+// Test case found by https://github.com/PartiallyFinite (Greg Omelaenko)
 
 import Foundation
 
 protocol P {
-	static func f() -> Self
-		static func g() -> Self
+  static func f() -> Self
+  static func g() -> Self
 }
 
 extension P {
-	static func f() -> P {
-		return g()
-	}
+  static func f() -> P {
+    return g()
+  }
 }
 
 extension NSData: P {
-	static func g() -> Self {
-		return self.init()
-	}
+  static func g() -> Self {
+    return self.init()
+  }
 }
-
 
