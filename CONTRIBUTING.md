@@ -42,4 +42,4 @@ The compiler crashes in `swift::irgen::ProtocolInfo::getConformance`, so we'll u
     $ say "Don't forget to submit a pull request on GitHub. Thanks."
 ````
 
-If the crash case causes a compiler hang and not an explicit crash, use a `.timeout.swift` suffix, rather than the plain `.swift` suffix. This will tell the test suite runner that this is a compiler hang bug. The test suite runner will attempt to compile it with a [5 second timeout](https://github.com/practicalswift/swift-compiler-crashes/blob/master/test.sh#L135-137).
+If the crash case causes a compiler hang and not an explicit crash, use a `.timeout.swift` suffix, rather than the plain `.swift` suffix. This will tell the test suite runner that this is a compiler hang bug. The test suite runner will attempt to compile it with a [5 second timeout](https://github.com/practicalswift/swift-compiler-crashes/blob/9a23124d8fb34cbc2622bfc3a5b5fe9c31006ec0/test.sh#L125-L128).
