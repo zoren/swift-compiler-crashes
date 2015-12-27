@@ -14,6 +14,9 @@ readonly COLOR_GREEN="\e[32m"
 readonly COLOR_BOLD="\e[1m"
 readonly COLOR_NORMAL_DISPLAY="\e[0m"
 
+swiftc_command="swiftc"
+# swiftc_command="xcrun -sdk macosx swiftc"
+
 columns=$(tput cols)
 delete_dupes=0
 delete_fixed=0
@@ -163,7 +166,7 @@ test_file() {
     local _
     for _ in {1..50}; do
       # shellcheck disable=SC2086
-      output=$(swiftc -Onone -o /dev/null ${files_to_compile} 2>&1 | strings)
+      output=$(${swiftc_command} -Onone -o /dev/null ${files_to_compile} 2>&1 | strings)
       # echo "# output: ${output}"
       if [[ ${output} =~ \ malloc:\  ]]; then
         swift_crash=1
@@ -183,7 +186,7 @@ test_file() {
   #            Used for test cases named *.sil.swift.
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.sil\. ]]; then
     # shellcheck disable=SC2086
-    output=$(swiftc -parse-sil -o /dev/null ${files_to_compile} 2>&1 | strings)
+    output=$(${swiftc_command} -parse-sil -o /dev/null ${files_to_compile} 2>&1 | strings)
     # echo "# output: ${output}"
     if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|error:\ linker\ command\ failed\ with\ exit\ code\ 1|error:\ swift\ frontend\ command\ failed\ due\ to\ signal|Stack\ dump:|Segmentation\ fault|Aborted) ]]; then
       swift_crash=1
@@ -196,7 +199,7 @@ test_file() {
     local _
     for _ in {1..20}; do
       # shellcheck disable=SC2086
-      output=$(swiftc -O -o /dev/null ${files_to_compile} 2>&1 | strings)
+      output=$(${swiftc_command} -O -o /dev/null ${files_to_compile} 2>&1 | strings)
       # echo "# output: ${output}"
       if [[ ${output} =~ \ malloc:\  ]]; then
         swift_crash=1
@@ -218,11 +221,11 @@ test_file() {
     local source_file_using_library=${files_to_compile//.library1./.library2.}
     compilation_comment=""
     rm -f DummyModule.swiftdoc DummyModule.swiftmodule libDummyModule.dylib libDummyModule.app
-    output=$(swiftc -emit-library -o libDummyModule.dylib -Xlinker -install_name -Xlinker @rpath/libDummyModule.dylib -emit-module -emit-module-path DummyModule.swiftmodule -module-name DummyModule -module-link-name DummyModule "${files_to_compile}" 2>&1)
+    output=$(${swiftc_command} -emit-library -o libDummyModule.dylib -Xlinker -install_name -Xlinker @rpath/libDummyModule.dylib -emit-module -emit-module-path DummyModule.swiftmodule -module-name DummyModule -module-link-name DummyModule "${files_to_compile}" 2>&1)
     # echo "# output: ${output}"
     if [[ $? == 0 ]]; then
       # shellcheck disable=SC2086
-      output=$(swiftc "${source_file_using_library}" -o libDummyModule.app -I . -L . -Xlinker -rpath -Xlinker @executable_path/ 2>&1 | strings)
+      output=$(${swiftc_command} "${source_file_using_library}" -o libDummyModule.app -I . -L . -Xlinker -rpath -Xlinker @executable_path/ 2>&1 | strings)
       # echo "# output: ${output}"
       if [[ ${output} =~ (error:\ unable\ to\ execute\ command:\ Segmentation\ fault|LLVM\ ERROR:|While\ emitting\ IR\ for\ source\ file|Aborted) ]]; then
         swift_crash=1
@@ -353,7 +356,7 @@ run_tests_in_directory() {
 
 main() {
   local swiftc_version
-  swiftc_version=$(swiftc -version | head -1)
+  swiftc_version=$(${swiftc_command} -version | head -1)
   echo
   echo "Running tests against: ${swiftc_version}"
   echo "Usage: $0 [-v] [-q] [-c<columns>] [-l] [file ...]"
@@ -371,8 +374,8 @@ main() {
     show_error "Duplicate bug ids: ${duplicate_bug_ids}. Please re-number to avoid duplicates."
     echo
   fi
-  swiftc - -o /dev/null 2>&1 <<< "" | grep -E -q "error:" && {
-    show_error "swiftc does not appear to work. Cannot run tests. Pleas investigate."
+  ${swiftc_command} - -o /dev/null 2>&1 <<< "" | grep -E -q "error:" && {
+    show_error "swiftc does not appear to work. Cannot run tests. Please investigate."
     exit 1
   }
   local argument_files=$*
