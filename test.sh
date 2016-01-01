@@ -125,7 +125,7 @@ test_file() {
   if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.timeout\. ]]; then
     local _
     for _ in {1..5}; do
-      output=$(execute_with_timeout 5 "swift ${files_to_compile}")
+      output=$(execute_with_timeout 10 "swift ${files_to_compile}")
       # echo "# output: ${output}"
       if [[ $? == 1 ]]; then
         swift_crash=1
