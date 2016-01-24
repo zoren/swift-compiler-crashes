@@ -57,11 +57,12 @@ echo "Crashing:"
                                   # +-----+----------------+
                                   # | len | Crash location |
                                   # +-----+----------------+
+test_crash_case '(&.f>_'
 test_crash_case 'Array([[]'       # |   9 | swift::constraints::ConstraintGraphNode::getAdjacency(swift::TypeVariableType*)
 test_crash_case '[[map'           # |   5 | swift::constraints::ConstraintGraph::addConstraint(swift::constraints::Constraint*)
 test_crash_case '[_?,&_'          # |   6 | swift::constraints::ConstraintGraph::bindTypeVariable(swift::TypeVariableType*, swift::Type) [alternative: '[&nil,_?']
 test_crash_case 'nil?=\n&_,'      # |   9 | swift::LValueType::get(swift::Type)
-test_crash_case 'var(()...'       # |   9 | swift::Decl::walk(swift::ASTWalker&)
+test_crash_case '{(&_{("'
 test_crash_case '{map($0'         # |   7 | swift::Expr::walk(swift::ASTWalker&) [alternative: '{}{{d nil']
                                   # +-----+
 
@@ -82,7 +83,6 @@ test_crash_case '&_{Array'
 test_crash_case '&_{Int'
 test_crash_case '&_{Range?'
 test_crash_case '&true{for{'
-test_crash_case '(&.f>_'
 test_crash_case '()=()'
 test_crash_case '({[({_'
 test_crash_case '.{nil<{\n{'
@@ -94,10 +94,10 @@ test_crash_case 'do{&{}{)'
 test_crash_case 'for{{'
 test_crash_case 'nil as('
 test_crash_case 'true[&{_'
+test_crash_case 'var(()...'
 test_crash_case '{$0()'
 test_crash_case '{&(&)'
 test_crash_case '{&_'
-test_crash_case '{(&_{("'
 test_crash_case '{(_>"",{'
 test_crash_case '{[ &{}{'
 test_crash_case '{[-{_'
