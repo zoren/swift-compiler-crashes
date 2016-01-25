@@ -54,17 +54,14 @@ test_crash_case() {
 
 echo "Crashing:"
 
-                                  # +-----+----------------+
-                                  # | len | Crash location |
-                                  # +-----+----------------+
+test_crash_case '([_'
+test_crash_case '.A['
+test_crash_case '[[map'
 test_crash_case '(&.f>_'
-test_crash_case 'Array([[]'       # |   9 | swift::constraints::ConstraintGraphNode::getAdjacency(swift::TypeVariableType*)
-test_crash_case '[[map'           # |   5 | swift::constraints::ConstraintGraph::addConstraint(swift::constraints::Constraint*)
-test_crash_case '[_?,&_'          # |   6 | swift::constraints::ConstraintGraph::bindTypeVariable(swift::TypeVariableType*, swift::Type) [alternative: '[&nil,_?']
-test_crash_case 'nil?=\n&_,'      # |   9 | swift::LValueType::get(swift::Type)
+test_crash_case '[_?,&_'
 test_crash_case '{(&_{("'
-test_crash_case '{map($0'         # |   7 | swift::Expr::walk(swift::ASTWalker&) [alternative: '{}{{d nil']
-                                  # +-----+
+test_crash_case 'Array([[]'
+test_crash_case 'nil?=\n&_,'
 
 echo
 echo "Fixed:"
