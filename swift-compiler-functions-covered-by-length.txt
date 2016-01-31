@@ -1,4 +1,5 @@
 lookThroughImplicitlyUnwrappedOptionalType
+getSatisfiedProtocolRequirementsForMember
 getImplicitlyUnwrappedOptionalObjectType
 consumeStartingCharacterOfCurrentToken
 isValidIdentifierContinuationCodePoint
@@ -21,9 +22,11 @@ emitDynamicTypeOfOpaqueHeapObject
 getTypeOfIndependentSubExpression
 substituteInputSugarTypeForResult
 addAbstractTypeParamRequirements
+addSameTypeRequirementToConcrete
 addValueWitnessesForAbstractType
 diagnoseClassWithoutInitializers
 getInterfaceTypeFromInternalType
+getSatisfiedProtocolRequirements
 simplifyOptionalObjectConstraint
 substituteInputSugarArgumentType
 visitUncheckedTrivialBitCastInst
@@ -53,6 +56,7 @@ tryMangleStandardSubstitution
 typeCheckAbstractFunctionBody
 typeCheckConstructorBodyUntil
 addTrivialAccessorsToStorage
+applyUnboundGenericArguments
 buildSubscriptIndexReference
 canAttributeAppearOnDeclKind
 canBeAccessedByDynamicLookup
@@ -89,6 +93,7 @@ diagnoseFailureForCallExpr
 emitConditionalCheckedCast
 emitObjCPartialApplication
 getAlternativeLiteralTypes
+getTypeWitnessSubstAndDecl
 parseSingleParameterClause
 resolveDependentMemberType
 skipUntilGreaterInTypeList
@@ -106,9 +111,12 @@ getGenericParamsOfContext
 getSpecializedConformance
 mangleDeclTypeForDebugger
 parseConstructorArguments
+processInheritedProtocols
+propagateLValueAccessKind
 readReferencedConformance
 resolveIdentTypeComponent
 resolveInheritedProtocols
+resolveSelfAssociatedType
 typeCheckTopLevelCodeDecl
 applyGenericTypeReprArgs
 buildArrayInjectionFnRef
@@ -116,7 +124,6 @@ configureConstructorType
 constructCallToSuperInit
 createBindingFromPattern
 defineDefaultConstructor
-emitLetToVarNoteIfSimple
 emitPolymorphicArguments
 finalizeGenericParamList
 finishLoadingClangModule
@@ -209,6 +216,7 @@ maybeReadSubstitution
 parseGenericArguments
 parseNewDeclAttribute
 readNormalConformance
+removeOverriddenDecls
 resolveCrossReference
 resolveIdentifierType
 setInvalidBracesRange
@@ -238,7 +246,6 @@ getOverloadSignature
 getPotentialBindings
 getTBAAStructTagInfo
 getUniqueSourceFiles
-matchSuperclassTypes
 maybeReadConformance
 parseDefaultArgument
 parseMatchingPattern
@@ -246,6 +253,7 @@ parseParameterClause
 performSILGeneration
 readAbbreviatedField
 resolveTypeInContext
+resolveTypeOfContext
 typeCheckCheckedCast
 typeCheckClosureBody
 typeCheckExprPattern
@@ -266,8 +274,10 @@ emitTypeMetadataRef
 generateConstraints
 getBuiltinValueDecl
 getCallerDefaultArg
+getGenericSignature
 getLocForEndOfToken
 getWrapperForModule
+isReferenceTypeImpl
 mapParsedParameters
 optimizeConstraints
 parseExprCallSuffix
@@ -327,6 +337,7 @@ prepareLookupTable
 readSILInstruction
 resolveConformance
 resolveDeclRefExpr
+resolveTypeWitness
 simplifyConstraint
 solveForExpression
 typeCheckCondition
@@ -381,7 +392,6 @@ findBestSolution
 forEachChildExpr
 getAdapterModule
 getAllArchetypes
-getAsSingleValue
 getBridgedToObjC
 getCanonicalType
 getDesugaredType
@@ -430,6 +440,7 @@ getDeclaredType
 getLoadedModule
 getObjCSelector
 getOptionalDecl
+getProtocolSelf
 getTypeLowering
 getTypeOfMember
 getTypeOfRValue
@@ -468,6 +479,7 @@ getDefaultType
 getDynamicSelf
 getIndicesType
 getSourceRange
+getTypeWitness
 getVerbatimTag
 highlightChars
 importDeclImpl
@@ -569,7 +581,6 @@ emitClosure
 extractText
 fixItRemove
 forEachNode
-forwardInto
 getFullName
 getFunction
 getProtocol
@@ -595,6 +606,7 @@ emitRValue
 getFieldNo
 getMembers
 getTokenAt
+getWitness
 hasStorage
 importName
 loadModule

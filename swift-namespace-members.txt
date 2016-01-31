@@ -33,9 +33,11 @@ swift::ArchetypeBuilder::addGenericParameterRequirements
 swift::ArchetypeBuilder::addGenericSignature
 swift::ArchetypeBuilder::addRequirement
 swift::ArchetypeBuilder::addSameTypeRequirement
+swift::ArchetypeBuilder::addSameTypeRequirementToConcrete
 swift::ArchetypeBuilder::~ArchetypeBuilder
 swift::ArchetypeBuilder::finalize
 swift::ArchetypeBuilder::getAllArchetypes
+swift::ArchetypeBuilder::getGenericSignature
 swift::ArchetypeBuilder::inferRequirements
 swift::ArchetypeBuilder::InferRequirementsWalker::walkToTypePost
 swift::ArchetypeBuilder::mapTypeIntoContext
@@ -104,6 +106,7 @@ swift::BuiltinUnit::LookupCache::lookupValue
 swift::CanGenericSignature
 swift::CanType
 swift::CanType::isExistentialTypeImpl
+swift::CanType::isReferenceTypeImpl
 swift::CanTypeVisitor
 swift::CanTypeWrapper
 swift::CaptureListEntry
@@ -161,6 +164,7 @@ swift::ConformanceLookupTable::expandImpliedConformances
 swift::ConformanceLookupTable::getAllProtocols
 swift::ConformanceLookupTable::getConformance
 swift::ConformanceLookupTable::getImplicitProtocols
+swift::ConformanceLookupTable::getSatisfiedProtocolRequirementsForMember
 swift::ConformanceLookupTable::lookupConformance
 swift::ConformanceLookupTable::lookupConformances
 swift::ConformanceLookupTable::resolveConformances
@@ -223,7 +227,6 @@ swift::constraints::ConstraintSystem::lookupMember
 swift::constraints::ConstraintSystem::matchDeepEqualityTypes
 swift::constraints::ConstraintSystem::matchExistentialTypes
 swift::constraints::ConstraintSystem::matchFunctionTypes
-swift::constraints::ConstraintSystem::matchSuperclassTypes
 swift::constraints::ConstraintSystem::matchTupleTypes
 swift::constraints::ConstraintSystem::matchTypes
 swift::constraints::ConstraintSystem::mergeEquivalenceClasses
@@ -299,11 +302,13 @@ swift::DeclContext::getGenericParamsOfContext
 swift::DeclContext::getGenericSignatureOfContext
 swift::DeclContext::getLocalConformances
 swift::DeclContext::getLocalProtocols
+swift::DeclContext::getProtocolSelf
 swift::DeclContext::isCascadingContextForLookup
 swift::DeclContext::isClassOrClassExtensionContext
 swift::DeclContext::isProtocolOrProtocolExtensionContext
 swift::DeclContext::lookupQualified
 swift::DeclContext::printContext
+swift::Decl::dump
 swift::Decl::getLoc
 swift::Decl::getRawComment
 swift::Decl::getSourceRange
@@ -321,6 +326,8 @@ swift::DeclVisibilityKind
 swift::Decl::walk
 swift::DelayedParsingCallbacks
 swift::Demangle::Node
+swift::DependentGenericTypeResolver::resolveSelfAssociatedType
+swift::DependentGenericTypeResolver::resolveTypeOfContext
 swift::DependentMemberType::get
 swift::DependentMemberType::substBaseType
 swift::DerivedConformance::deriveEquatable
@@ -339,6 +346,7 @@ swift::diag::RequirementKind
 swift::DictionaryType::get
 swift::EnumDecl
 swift::EnumDecl::isSimpleEnum
+swift::EnumElementDecl::computeType
 swift::EnumElementDecl::getSourceRange
 swift::EnumType
 swift::EnumType::get
@@ -350,6 +358,7 @@ swift::Expr::getLoc
 swift::Expr::getSourceRange
 swift::ExprHandle
 swift::ExprPattern
+swift::Expr::propagateLValueAccessKind
 swift::ExprTypeCheckListener
 swift::Expr::walk
 swift::ExtensionDecl
@@ -380,6 +389,7 @@ swift::FunctionTypeRepr
 swift::GenericFunctionType
 swift::GenericFunctionType::get
 swift::GenericFunctionType::substGenericArgs
+swift::GenericIdentTypeRepr
 swift::GenericParamList
 swift::GenericParamList::addNestedArchetypes
 swift::GenericParamList::create
@@ -460,6 +470,7 @@ swift::irgen::WitnessMetadata
 swift::isPlatformActive
 swift::IterableDeclContext::getMembers
 swift::IterableDeclContext::loadAllMembers
+swift::IterativeTypeChecker::processInheritedProtocols
 swift::IterativeTypeChecker::processResolveInheritedClauseEntry
 swift::IterativeTypeChecker::satisfy
 swift::IteratorRange
@@ -488,8 +499,6 @@ swift::LiteralExpr
 swift::LookupTypeResult
 swift::lookupVisibleDecls
 swift::Lowering::AbstractionPattern
-swift::Lowering::ArgumentSource::forwardInto
-swift::Lowering::ArgumentSource::getAsSingleValue
 swift::Lowering::emitConditionalCheckedCast
 swift::Lowering::Initialization
 swift::Lowering::ManagedValue
@@ -599,6 +608,8 @@ swift::NominalTypeDecl::prepareExtensions
 swift::NominalTypeDecl::prepareLookupTable
 swift::NominalType::get
 swift::NormalProtocolConformance
+swift::NormalProtocolConformance::getTypeWitnessSubstAndDecl
+swift::NormalProtocolConformance::getWitness
 swift::NormalProtocolConformance::setTypeWitness
 swift::NormalProtocolConformance::setWitness
 swift::ObjCAttr::createUnnamedImplicit
@@ -749,6 +760,8 @@ swift::ProtocolCompositionType::build
 swift::ProtocolCompositionTypeRepr::create
 swift::ProtocolConformance
 swift::ProtocolConformance::getInheritedConformance
+swift::ProtocolConformance::getTypeWitness
+swift::ProtocolConformance::getTypeWitnessSubstAndDecl
 swift::ProtocolConformanceState
 swift::ProtocolDecl
 swift::ProtocolDecl::existentialTypeSupportedSlow
@@ -759,6 +772,7 @@ swift::ProtocolType::compareProtocols
 swift::Range
 swift::RawComment
 swift::RebindSelfInConstructorExpr::getCalledConstructor
+swift::removeOverriddenDecls
 swift::removeShadowedDecls
 swift::Requirement
 swift::RequirementRepr
@@ -879,6 +893,7 @@ swift::TypeChecker
 swift::TypeChecker::addImplicitConstructors
 swift::TypeChecker::addImplicitDestructor
 swift::TypeChecker::applyGenericArguments
+swift::TypeChecker::applyUnboundGenericArguments
 swift::TypeChecker::buildArrayInjectionFnRef
 swift::TypeChecker::buildRefExpr
 swift::TypeChecker::callWitness
@@ -925,6 +940,7 @@ swift::TypeChecker::resolveRawType
 swift::TypeChecker::resolveSuperclass
 swift::TypeChecker::resolveType
 swift::TypeChecker::resolveTypeInContext
+swift::TypeChecker::resolveTypeWitness
 swift::TypeChecker::solveForExpression
 swift::TypeChecker::substituteInputSugarTypeForResult
 swift::TypeChecker::substMemberTypeWithBase
@@ -984,6 +1000,7 @@ swift::TypeVisitor
 swift::Type::walk
 swift::TypeWalker
 swift::UnavailabilityReason
+swift::UnboundGenericType
 swift::UnboundGenericType::get
 swift::UncheckedTrivialBitCastInst
 swift::UnqualifiedLookupResult
@@ -994,11 +1011,11 @@ swift::ValueDecl
 swift::ValueDecl::canBeAccessedByDynamicLookup
 swift::ValueDecl::getInterfaceType
 swift::ValueDecl::getOverloadSignature
+swift::ValueDecl::getSatisfiedProtocolRequirements
 swift::ValueDecl::overwriteType
 swift::ValueDecl::setInterfaceType
 swift::ValueDecl::setType
 swift::VarDecl
-swift::VarDecl::emitLetToVarNoteIfSimple
 swift::VarDecl::isAnonClosureParam
 swift::verify
 swift::verifyDiagnostics

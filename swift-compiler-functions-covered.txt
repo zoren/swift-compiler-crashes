@@ -23,6 +23,7 @@ addProtocols
 addRequirement
 addRequirements
 addSameTypeRequirement
+addSameTypeRequirementToConcrete
 addToScope
 addTrivialAccessorsToStorage
 addTypeVariableConstraintsToWorkList
@@ -32,6 +33,7 @@ applyAttributeToType
 applyGenericArguments
 applyGenericTypeReprArgs
 applySolution
+applyUnboundGenericArguments
 assignFixedType
 assignInto
 bindArchetype
@@ -159,7 +161,6 @@ emitFunctionPartialApplication
 emitGlobalTopLevel
 emitIgnoredExpr
 emitLazyDefinitions
-emitLetToVarNoteIfSimple
 emitMemberInitializers
 emitObjCPartialApplication
 emitOpaqueExistentialContainerUpcast
@@ -206,7 +207,6 @@ forEachNode
 forEachVariable
 format
 formatDiagnosticText
-forwardInto
 gatherAllSubstitutions
 gatherConstraints
 generateConstraints
@@ -220,7 +220,6 @@ getAnyOptionalObjectType
 getAPINotesForModule
 getArchetypeAnchor
 getAsCanonicalGenericSignature
-getAsSingleValue
 getAttrKindFromString
 getBBForReference
 getBoundTypesFromConstraint
@@ -258,6 +257,7 @@ getFullName
 getFunction
 getGenericParamContext
 getGenericParamsOfContext
+getGenericSignature
 getGenericSignatureOfContext
 getIdentifier
 getImplicitlyUnwrappedOptionalDecl
@@ -290,8 +290,11 @@ getPatternEntryIndexForVarDecl
 getPotentialBindings
 getProtocol
 getProtocols
+getProtocolSelf
 getRawComment
 getRelabeledType
+getSatisfiedProtocolRequirements
+getSatisfiedProtocolRequirementsForMember
 getSelfTypeForContainer
 getSILFunctionType
 getSourceRange
@@ -317,10 +320,13 @@ getTypeOfMemberReference
 getTypeOfReference
 getTypeOfRValue
 getTypeVariables
+getTypeWitness
+getTypeWitnessSubstAndDecl
 getUncachedSILFunctionTypeForConstant
 getUniqueSourceFiles
 getValue
 getVerbatimTag
+getWitness
 getWrapperForModule
 grow
 handleDiagnostic
@@ -353,6 +359,7 @@ isExistentialType
 isExistentialTypeImpl
 isPlatformActive
 isProtocolOrProtocolExtensionContext
+isReferenceTypeImpl
 isRepresentableInObjC
 isSimpleEnum
 isSpecialized
@@ -408,7 +415,6 @@ matchCallArguments
 matchDeepEqualityTypes
 matchExistentialTypes
 matchFunctionTypes
-matchSuperclassTypes
 matchTupleTypes
 matchTypes
 matchWitness
@@ -534,8 +540,10 @@ printOneChild
 printPretty
 printText
 printTextImpl
+processInheritedProtocols
 processResolveInheritedClauseEntry
 propagateConcreteTypeOfInitExistential
+propagateLValueAccessKind
 readAbbreviatedField
 reader
 readMembers
@@ -552,6 +560,7 @@ recordOpenedTypes
 removeConstraint
 removedConstraint
 removeNode
+removeOverriddenDecls
 removeShadowedDecls
 requiresClassSlow
 resolveArchetype
@@ -569,10 +578,13 @@ resolveInheritedProtocols
 resolveOverload
 resolvePotentialArchetypeToType
 resolveRawType
+resolveSelfAssociatedType
 resolveSuperclass
 resolveType
 resolveTypeDecl
 resolveTypeInContext
+resolveTypeOfContext
+resolveTypeWitness
 runFunction
 runFunctionAsMain
 salvage

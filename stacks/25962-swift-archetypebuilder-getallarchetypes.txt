@@ -10,12 +10,12 @@
 11 swift          
 12 swift          
 13 swift          
-14 swift           swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 151
-15 swift           swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1474
-16 swift           swift::CompilerInstance::performSema() + 2946
+14 swift           swift::TypeChecker::typeCheckDecl(swift::Decl*, bool) + 150
+15 swift           swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int) + 1490
+16 swift           swift::CompilerInstance::performSema() + 2975
 17 swift          
-18 swift           frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2482
-19 swift           main + 2705
+18 swift           frontend_main(llvm::ArrayRef<char const*>, char const*, void*) + 2487
+19 swift           main + 2773
 20 libc.so.6       __libc_start_main + 245
 21 swift          
 1.	While type-checking declaration at ./crashes/25962-swift-archetypebuilder-getallarchetypes.swift:4:1
