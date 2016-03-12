@@ -80,7 +80,8 @@ execute_with_timeout() {
 get_crash_hash() {
   local compilation_output="$1"
   local normalized_stack_trace
-  normalized_stack_trace=$(grep -E "0x[0-9a-f]" <<< "${compilation_output}" | grep -E '(swift|llvm)::' | grep -vE '(llvm::sys::|frontend_main)' | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^ *//g' | grep -E '(swift|llvm)::' | head -1)
+  assertion_message=$(grep -E "Assertion " <<< "${compilation_output}" | tr ":" "\n" | grep "Assertion " | head -1)
+  normalized_stack_trace="${assertion_message}$(grep -E "0x[0-9a-f]" <<< "${compilation_output}" | grep -E '(swift|llvm)::' | grep -vE '(llvm::sys::|frontend_main)' | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^ *//g' | grep -E '(swift|llvm)::' | head -1)"
   local crash_hash=""
   if [[ ${normalized_stack_trace} != "" ]]; then
     crash_hash=$(shasum <<< "${normalized_stack_trace}" | head -c10)
