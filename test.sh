@@ -108,7 +108,6 @@ test_file() {
   test_name=${test_name//.library1/}
   test_name=${test_name//.part1/}
   test_name=${test_name//.random/}
-  test_name=${test_name//.repl/}
   test_name=${test_name//.runtime/}
   test_name=${test_name//.sil/}
   test_name=${test_name//.timeout/}
@@ -151,16 +150,6 @@ test_file() {
         break
       fi
     done
-  fi
-  # Test mode: Run in Swift code in REPL and catch segmentation fault.
-  #            Used for test cases named *.repl.swift.
-  if [[ ${swift_crash} == 0 && ${files_to_compile} =~ \.repl\. ]]; then
-    # Run in subshell to avoid having "Segmentation fault" being written to console.
-    bash -c "swift < ${files_to_compile} > /dev/null 2> /dev/null" > /dev/null 2> /dev/null
-    if [[ $? != 0 ]]; then
-      swift_crash=1
-      compilation_comment="repl"
-    fi
   fi
   # Test mode: Compile using swiftc without any optimizations ("-Onone").
   #            Used for test cases named *.swift.
