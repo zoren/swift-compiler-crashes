@@ -1,7 +1,7 @@
 // Distributed under the terms of the MIT license
 // Test case submitted to project by https://github.com/adfernandes (Andrew Fernandes)
-// Compiler takes many mintes to hours to infer the types, and just hangs.
-// Adding explicit type annotations (shown commented out) resolves the issue.
+// Compiler takes many minutes to hours to infer the types, and just hangs.
+// Adding explicit type annotations resolves the issue.
 // The bug was reported to Apple on 21 June 2014 as rdar://problem/17409056.
 
 let c = [
